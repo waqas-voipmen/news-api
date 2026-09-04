@@ -8,15 +8,12 @@ from email.utils import parsedate_to_datetime
 from pathlib import Path
 from urllib.parse import quote
 
-from bs4 import BeautifulSoup
-from curl_cffi import requests as curl_requests
-from curl_cffi.requests.exceptions import RequestException as CurlRequestException
 from flask import Flask, jsonify, render_template, request
 import requests
 
 import analysis
 
-NETWORK_ERRORS = (requests.RequestException, CurlRequestException)
+NETWORK_ERRORS = (requests.RequestException,)
 
 app = Flask(__name__)
 
@@ -38,7 +35,7 @@ FF_FEEDS = {
 FXSTREET_RSS = "https://www.fxstreet.com/rss/news"
 FXSTREET_ANALYSIS_RSS = "https://www.fxstreet.com/rss/analysis"
 INVESTING_RSS = "https://www.investing.com/rss/news_1.rss"  # category 1 = Forex News
-MYFXBOOK_NEWS_URL = "https://www.myfxbook.com/news"
+MYFXBOOK_CACHE_URL = "https://raw.githubusercontent.com/waqas-voipmen/news-api/master/myfxbook_cache.json"
 STOCKTWITS_STREAM_URL = "https://api.stocktwits.com/api/2/streams/symbol/{symbol}.json"
 SOCIAL_PAIRS = list(analysis.PAIRS)  # StockTwits recognizes these same 9 tickers directly
 
@@ -192,69 +189,18 @@ def fetch_investing_news():
     return _fetch_rss_news(INVESTING_RSS, "Investing.com", "rss_investing")
 
 
-def _parse_relative_time(text):
-    """Turns strings like '2h 37min ago' / '26 minutes ago' / '1 day ago' into a UTC datetime."""
-    text = text.lower()
-    day_m = re.search(r"(\d+)\s*d(?:ay)?s?\b", text)
-    hour_m = re.search(r"(\d+)\s*h(?:our)?s?\b", text)
-    min_m = re.search(r"(\d+)\s*m(?:in(?:ute)?)?s?\b", text)
-
-    if not (day_m or hour_m or min_m):
-        return None
-
-    delta = timedelta(
-        days=int(day_m.group(1)) if day_m else 0,
-        hours=int(hour_m.group(1)) if hour_m else 0,
-        minutes=int(min_m.group(1)) if min_m else 0,
-    )
-    return datetime.now(timezone.utc) - delta
-
-
 def fetch_myfxbook_news():
-    """Myfxbook has no public feed for its news page, so this parses the rendered HTML.
-    Myfxbook's Cloudflare in front blocks plain `requests` by TLS fingerprint even with
-    browser headers, so this uses curl_cffi to impersonate a real Chrome TLS handshake.
-    It also depends on Myfxbook's current markup and will need updating if their layout changes."""
+    """Myfxbook's Cloudflare check blocks every datacenter/cloud IP range regardless
+    of TLS fingerprint (confirmed against a direct request, a Cloudflare Worker, and
+    a Vercel function), so it can't be scraped live from any free host. Instead this
+    reads a cache pre-fetched from a residential machine (see scripts/fetch_myfxbook.py)
+    and published to this GitHub repo."""
     def loader():
-        response = curl_requests.get(_via_proxy(MYFXBOOK_NEWS_URL), headers=HEADERS, impersonate="chrome124", timeout=10)
+        response = requests.get(MYFXBOOK_CACHE_URL, headers=HEADERS, timeout=10)
         if response.status_code == 429:
             raise RateLimited(int(response.headers.get("Retry-After", 60)))
         response.raise_for_status()
-        soup = BeautifulSoup(response.text, "html.parser")
-
-        events = []
-        seen_links = set()
-        for block in soup.select(".news-info"):
-            link_el = block.select_one("h2 a")
-            if not link_el:
-                continue
-
-            link = link_el.get("href", "")
-            if link.startswith("/"):
-                link = "https://www.myfxbook.com" + link
-            if link in seen_links:
-                continue
-            seen_links.add(link)
-
-            title = link_el.get_text(strip=True)
-            summary_el = block.select_one(".news-description, .news-summary, [class*='margin-top-10']")
-            description = summary_el.get_text(strip=True) if summary_el else ""
-            details_el = block.select_one(".news-details")
-            date = _parse_relative_time(details_el.get_text(" ", strip=True)) if details_el else None
-
-            events.append({
-                "source": "Myfxbook",
-                "type": "news",
-                "country": analysis.infer_instrument(f"{title} {description}"),
-                "title": title,
-                "description": description,
-                "date": date.isoformat() if date else None,
-                "impact": "News",
-                "forecast": "",
-                "previous": "",
-                "link": link,
-            })
-        return events
+        return response.json()["events"]
 
     return _cached_fetch("myfxbook_news", loader)
 
