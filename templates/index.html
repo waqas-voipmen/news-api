@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Forex News Aggregator</title>
+<style>
+  :root {
+    --bg: #0f1115;
+    --panel: #161a21;
+    --border: #262b35;
+    --text: #e6e8eb;
+    --muted: #8b93a1;
+    --accent: #3b82f6;
+    --high: #ef4444;
+    --medium: #f59e0b;
+    --low: #eab308;
+    --holiday: #6b7280;
+    --bull: #22c55e;
+    --bear: #ef4444;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: "Segoe UI", Roboto, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+  }
+  header {
+    padding: 24px 32px;
+    border-bottom: 1px solid var(--border);
+  }
+  header h1 {
+    margin: 0 0 4px;
+    font-size: 22px;
+  }
+  header p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 13px;
+  }
+  .layout {
+    display: grid;
+    grid-template-columns: 260px 1fr;
+    gap: 24px;
+    padding: 24px 32px;
+    align-items: start;
+  }
+  .panel {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 18px;
+  }
+  .panel h3 {
+    margin: 0 0 12px;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    color: var(--muted);
+  }
+  .field { margin-bottom: 16px; }
+  .field label {
+    display: block;
+    font-size: 12px;
+    color: var(--muted);
+    margin-bottom: 6px;
+  }
+  select, input[type=datetime-local] {
+    width: 100%;
+    background: #0f1115;
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 8px 10px;
+    border-radius: 6px;
+    font-size: 13px;
+  }
+  .pairs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+  .pair-chip {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 13px;
+    background: #0f1115;
+    border: 1px solid var(--border);
+    padding: 6px 8px;
+    border-radius: 6px;
+    cursor: pointer;
+    user-select: none;
+  }
+  .pair-chip input { accent-color: var(--accent); }
+  .pair-chip.active {
+    border-color: var(--accent);
+    background: rgba(59,130,246,0.1);
+  }
+  button#apply {
+    width: 100%;
+    padding: 10px;
+    background: var(--accent);
+    border: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 13px;
+  }
+  button#apply:hover { background: #2563eb; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+  }
+  th {
+    text-align: left;
+    color: var(--muted);
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: .04em;
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--border);
+  }
+  td {
+    padding: 12px;
+    border-bottom: 1px solid var(--border);
+  }
+  tr:hover td { background: rgba(255,255,255,0.02); }
+  .badge {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 600;
+    color: #0f1115;
+  }
+  .badge.High { background: var(--high); color: white; }
+  .badge.Medium { background: var(--medium); }
+  .badge.Low { background: var(--low); }
+  .badge.Holiday { background: var(--holiday); color: white; }
+  .badge.News { background: var(--accent); color: white; }
+  .badge.Analysis { background: #8b5cf6; color: white; }
+  .currency-tag {
+    font-weight: 600;
+    color: var(--accent);
+  }
+  .source-tag {
+    font-size: 11px;
+    color: var(--muted);
+  }
+  .sources { display: flex; flex-direction: column; gap: 8px; }
+  .source-chip {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 13px;
+    background: #0f1115;
+    border: 1px solid var(--border);
+    padding: 6px 8px;
+    border-radius: 6px;
+    cursor: pointer;
+    user-select: none;
+  }
+  .source-chip input { accent-color: var(--accent); }
+  .source-chip.active {
+    border-color: var(--accent);
+    background: rgba(59,130,246,0.1);
+  }
+  .source-chip.disabled {
+    opacity: .45;
+    cursor: not-allowed;
+  }
+  .source-chip .why {
+    margin-left: auto;
+    font-size: 11px;
+    color: var(--muted);
+  }
+  a.title-link { color: var(--text); text-decoration: none; }
+  a.title-link:hover { text-decoration: underline; }
+  .count {
+    color: var(--muted);
+    font-size: 12px;
+  }
+  .results-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    gap: 12px;
+  }
+  .refresh-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .last-updated {
+    font-size: 11px;
+    color: var(--muted);
+  }
+  button#refreshNow {
+    padding: 6px 12px;
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--text);
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 12px;
+    white-space: nowrap;
+  }
+  button#refreshNow:hover { border-color: var(--accent); color: var(--accent); }
+  button#refreshNow.spinning { opacity: .6; cursor: wait; }
+  .empty {
+    color: var(--muted);
+    padding: 40px;
+    text-align: center;
+  }
+
+  .bias-section {
+    margin: 0 32px 24px;
+  }
+  .bias-section .disclaimer {
+    color: var(--muted);
+    font-size: 11px;
+    margin: 0 0 12px;
+  }
+  .bias-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+  }
+  .bias-card {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 12px;
+  }
+  .bias-card.Bullish { border-color: var(--bull); }
+  .bias-card.Bearish { border-color: var(--bear); }
+  .bias-card .pair-name {
+    font-weight: 700;
+    font-size: 14px;
+  }
+  .bias-card .bias-label {
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 4px;
+  }
+  .bias-card .bias-label.Bullish { color: var(--bull); }
+  .bias-card .bias-label.Bearish { color: var(--bear); }
+  .bias-card .bias-label.Neutral { color: var(--muted); }
+  .bias-card .signals {
+    font-size: 11px;
+    color: var(--muted);
+    margin-top: 6px;
+  }
+  .dir { font-weight: 700; }
+  .dir.Up { color: var(--bull); }
+  .dir.Down { color: var(--bear); }
+
+  .social-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+  }
+  .social-title {
+    margin: 0;
+    font-size: 14px;
+  }
+  button#checkSocial {
+    padding: 8px 14px;
+    background: var(--accent);
+    border: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 12px;
+  }
+  button#checkSocial:hover { background: #2563eb; }
+  button#checkSocial:disabled { opacity: .6; cursor: wait; }
+  .social-bar {
+    height: 6px;
+    border-radius: 3px;
+    background: var(--bear);
+    overflow: hidden;
+    margin-top: 8px;
+  }
+  .social-bar-fill { height: 100%; background: var(--bull); }
+  .social-posts {
+    margin-top: 8px;
+    font-size: 11px;
+    color: var(--muted);
+    max-height: 90px;
+    overflow-y: auto;
+  }
+  .social-posts .post { margin-bottom: 4px; line-height: 1.3; }
+  .social-posts .post .tag { font-weight: 700; }
+  .social-posts .post .tag.Bullish { color: var(--bull); }
+  .social-posts .post .tag.Bearish { color: var(--bear); }
+  .affected {
+    font-size: 11px;
+    color: var(--muted);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-top: 4px;
+  }
+  .affected .chip {
+    background: #0f1115;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 1px 6px;
+  }
+  .sentiment-badge {
+    font-size: 11px;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 12px;
+    display: inline-block;
+  }
+  .sentiment-badge.Bullish { background: rgba(34,197,94,0.15); color: var(--bull); }
+  .sentiment-badge.Bearish { background: rgba(239,68,68,0.15); color: var(--bear); }
+  .sentiment-badge.Neutral { background: rgba(139,147,161,0.15); color: var(--muted); }
+  .reason-text {
+    font-size: 11px;
+    color: var(--muted);
+    margin-top: 4px;
+    max-width: 220px;
+    line-height: 1.4;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Forex News Aggregator</h1>
+  <p>Economic calendar + live news from multiple sources, filtered by currency and time</p>
+</header>
+
+<div class="bias-section">
+  <p class="disclaimer">Market Bias is a rule-based heuristic (forecast vs previous, headline keywords) built from the news below &mdash; not financial advice, verify before trading.</p>
+  <div class="bias-grid" id="biasGrid"></div>
+</div>
+
+<div class="bias-section">
+  <div class="social-header">
+    <h3 class="social-title">Social Media Sentiment (StockTwits)</h3>
+    <button id="checkSocial">Check Social Sentiment</button>
+  </div>
+  <p class="disclaimer">Ye retail traders ki apni posts hain (StockTwits) &mdash; crowd chatter hai, kabhi kabhi ulta (contrarian) signal bhi hota hai. Financial advice nahi hai.</p>
+  <div class="bias-grid" id="socialGrid"></div>
+</div>
+
+<div class="layout">
+  <div class="panel">
+    <h3>Filters</h3>
+
+    <div class="field">
+      <label>News Sources</label>
+      <div class="sources" id="sources">
+        <label class="source-chip active" data-source="forexfactory">
+          <input type="checkbox" value="forexfactory" checked>
+          ForexFactory (calendar)
+        </label>
+        <label class="source-chip active" data-source="fxstreet">
+          <input type="checkbox" value="fxstreet" checked>
+          FXStreet (news)
+        </label>
+        <label class="source-chip active" data-source="fxstreet_analysis">
+          <input type="checkbox" value="fxstreet_analysis" checked>
+          FXStreet (analyst forecasts)
+        </label>
+        <label class="source-chip active" data-source="investing">
+          <input type="checkbox" value="investing" checked>
+          Investing.com (news)
+        </label>
+        <label class="source-chip active" data-source="myfxbook">
+          <input type="checkbox" value="myfxbook" checked>
+          Myfxbook (news)
+        </label>
+        {% for key, reason in unavailable_sources.items() %}
+        <label class="source-chip disabled" title="Unavailable: {{ reason }}">
+          <input type="checkbox" disabled>
+          {{ key|capitalize }}
+          <span class="why">unavailable</span>
+        </label>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="field">
+      <label>Period</label>
+      <select id="period">
+        <option value="today">Today</option>
+        <option value="tomorrow">Tomorrow</option>
+        <option value="lastweek">Last Week</option>
+        <option value="week" selected>This Week</option>
+        <option value="nextweek">Next Week</option>
+      </select>
+    </div>
+
+    <div class="field">
+      <label>Impact</label>
+      <select id="impact">
+        <option value="">All</option>
+        <option value="High">High</option>
+        <option value="Medium">Medium</option>
+        <option value="Low">Low</option>
+      </select>
+    </div>
+
+    <div class="field">
+      <label>From</label>
+      <input type="datetime-local" id="from">
+    </div>
+
+    <div class="field">
+      <label>To</label>
+      <input type="datetime-local" id="to">
+    </div>
+
+    <div class="field">
+      <label>Currency Pairs</label>
+      <div class="pairs" id="pairs">
+        {% for c in currencies %}
+        <label class="pair-chip" data-code="{{ c.code }}">
+          <input type="checkbox" value="{{ c.code }}">
+          {{ c.label }}
+        </label>
+        {% endfor %}
+      </div>
+    </div>
+
+    <button id="apply">Apply Filters</button>
+  </div>
+
+  <div class="panel">
+    <div class="results-header">
+      <div class="count" id="count">Loading...</div>
+      <div class="refresh-controls">
+        <span class="last-updated" id="lastUpdated"></span>
+        <button id="refreshNow" title="Re-fetch and re-analyze everything now">&#8635; Refresh</button>
+      </div>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Time</th>
+          <th>Currency</th>
+          <th>Event</th>
+          <th>Impact</th>
+          <th>Forecast</th>
+          <th>Previous</th>
+          <th>Sentiment</th>
+          <th>Affects</th>
+          <th>Source</th>
+        </tr>
+      </thead>
+      <tbody id="rows"></tbody>
+    </table>
+    <div class="empty" id="empty" style="display:none;">No news found for the selected filters</div>
+  </div>
+</div>
+
+<script>
+function escapeHtml(text) {
+  const div = document.createElement('div');
+  div.textContent = text || '';
+  return div.innerHTML;
+}
+
+const pairsEl = document.getElementById('pairs');
+pairsEl.addEventListener('click', (e) => {
+  const chip = e.target.closest('.pair-chip');
+  if (!chip) return;
+  const checkbox = chip.querySelector('input');
+  if (e.target !== checkbox) checkbox.checked = !checkbox.checked;
+  chip.classList.toggle('active', checkbox.checked);
+});
+
+function selectedCurrencies() {
+  return [...pairsEl.querySelectorAll('input:checked')].map(i => i.value);
+}
+
+const sourcesEl = document.getElementById('sources');
+sourcesEl.addEventListener('click', (e) => {
+  const chip = e.target.closest('.source-chip');
+  if (!chip || chip.classList.contains('disabled')) return;
+  const checkbox = chip.querySelector('input');
+  if (e.target !== checkbox) checkbox.checked = !checkbox.checked;
+  chip.classList.toggle('active', checkbox.checked);
+});
+
+function selectedSources() {
+  return [...sourcesEl.querySelectorAll('input:not([disabled]):checked')].map(i => i.value);
+}
+
+async function loadNews() {
+  const params = new URLSearchParams();
+  params.set('period', document.getElementById('period').value);
+
+  const sources = selectedSources();
+  params.set('sources', sources.length ? sources.join(',') : 'none');
+
+  const impact = document.getElementById('impact').value;
+  if (impact) params.set('impact', impact);
+
+  const from = document.getElementById('from').value;
+  if (from) params.set('from', from);
+
+  const to = document.getElementById('to').value;
+  if (to) params.set('to', to);
+
+  const currencies = selectedCurrencies();
+  if (currencies.length) params.set('currencies', currencies.join(','));
+
+  const countEl = document.getElementById('count');
+  const rowsEl = document.getElementById('rows');
+  const emptyEl = document.getElementById('empty');
+  const refreshBtn = document.getElementById('refreshNow');
+
+  countEl.textContent = 'Loading...';
+  rowsEl.innerHTML = '';
+  emptyEl.style.display = 'none';
+  refreshBtn.classList.add('spinning');
+  refreshBtn.disabled = true;
+
+  let data;
+  try {
+    const res = await fetch('/api/news?' + params.toString());
+    data = await res.json();
+  } catch (err) {
+    countEl.textContent = 'Error: could not reach the server';
+    refreshBtn.classList.remove('spinning');
+    refreshBtn.disabled = false;
+    return;
+  }
+  refreshBtn.classList.remove('spinning');
+  refreshBtn.disabled = false;
+
+  if (data.error) {
+    countEl.textContent = 'Error: ' + data.error;
+    return;
+  }
+
+  document.getElementById('lastUpdated').textContent =
+    'Last updated: ' + new Date().toLocaleTimeString();
+
+  countEl.textContent = data.count + ' events found';
+  renderBiasGrid(data.pair_bias || {});
+
+  if (data.count === 0) {
+    emptyEl.style.display = 'block';
+    return;
+  }
+
+  rowsEl.innerHTML = data.events.map(ev => {
+    const d = new Date(ev.date);
+    const time = d.toLocaleString([], { weekday: 'short', month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' });
+    const title = ev.link
+      ? `<a class="title-link" href="${ev.link}" target="_blank" rel="noopener">${ev.title}</a>`
+      : ev.title;
+
+    const a = ev.analysis;
+    const sentiment = a
+      ? `<span class="sentiment-badge ${a.sentiment}">${a.sentiment}</span>
+         <div class="reason-text">${escapeHtml(a.reason)}</div>`
+      : '-';
+    const affected = a && a.affected && Object.keys(a.affected).length
+      ? `<div class="affected">${Object.entries(a.affected).map(([pair, dir]) =>
+          `<span class="chip">${pair} <span class="dir ${dir}">${dir === 'Up' ? '↑' : '↓'}</span></span>`
+        ).join('')}</div>`
+      : '-';
+
+    return `<tr>
+      <td>${time}</td>
+      <td><span class="currency-tag">${ev.country}</span></td>
+      <td>${title}</td>
+      <td><span class="badge ${ev.impact}">${ev.impact}</span></td>
+      <td>${ev.forecast || '-'}</td>
+      <td>${ev.previous || '-'}</td>
+      <td>${sentiment}</td>
+      <td>${affected}</td>
+      <td><span class="source-tag">${ev.source}</span></td>
+    </tr>`;
+  }).join('');
+}
+
+function renderBiasGrid(pairBias) {
+  const grid = document.getElementById('biasGrid');
+  const entries = Object.entries(pairBias);
+  if (!entries.length) {
+    grid.innerHTML = '<span style="color:var(--muted); font-size:12px;">No bias data yet</span>';
+    return;
+  }
+  grid.innerHTML = entries.map(([pair, info]) => `
+    <div class="bias-card ${info.bias}">
+      <div class="pair-name">${pair}</div>
+      <div class="bias-label ${info.bias}">${info.bias}</div>
+      <div class="signals">weighted ${info.bullish_weight} bullish &middot; ${info.bearish_weight} bearish (${info.signal_count} signals)</div>
+    </div>
+  `).join('');
+}
+
+async function loadSocialSentiment() {
+  const btn = document.getElementById('checkSocial');
+  const grid = document.getElementById('socialGrid');
+  btn.disabled = true;
+  btn.textContent = 'Checking...';
+  grid.innerHTML = '<span style="color:var(--muted); font-size:12px;">Fetching social posts...</span>';
+
+  let data;
+  try {
+    const res = await fetch('/api/social-sentiment');
+    data = await res.json();
+  } catch (err) {
+    grid.innerHTML = '<span style="color:var(--muted); font-size:12px;">Error: could not reach the server</span>';
+    btn.disabled = false;
+    btn.textContent = 'Check Social Sentiment';
+    return;
+  }
+
+  const entries = Object.entries(data.pairs || {});
+  grid.innerHTML = entries.map(([pair, info]) => {
+    if (info.error) {
+      return `<div class="bias-card">
+        <div class="pair-name">${pair}</div>
+        <div class="signals">${escapeHtml(info.error)}</div>
+      </div>`;
+    }
+
+    const pct = info.bullish_pct === null ? 0 : info.bullish_pct;
+    const posts = (info.sample_posts || []).slice(0, 3).map(p => `
+      <div class="post"><span class="tag ${p.sentiment}">${p.sentiment}:</span> ${escapeHtml(p.body).slice(0, 90)}</div>
+    `).join('');
+
+    return `<div class="bias-card ${info.bias}">
+      <div class="pair-name">${pair}</div>
+      <div class="bias-label ${info.bias}">${info.bias}</div>
+      <div class="social-bar"><div class="social-bar-fill" style="width:${pct}%"></div></div>
+      <div class="signals">${info.bullish_count} bullish &middot; ${info.bearish_count} bearish &middot; ${info.neutral_count} neutral (${info.total} posts)</div>
+      <div class="social-posts">${posts}</div>
+    </div>`;
+  }).join('');
+
+  btn.disabled = false;
+  btn.textContent = 'Check Social Sentiment';
+}
+
+document.getElementById('checkSocial').addEventListener('click', loadSocialSentiment);
+
+document.getElementById('apply').addEventListener('click', loadNews);
+document.getElementById('refreshNow').addEventListener('click', loadNews);
+
+const AUTO_REFRESH_MS = 5 * 60 * 1000;
+setInterval(loadNews, AUTO_REFRESH_MS);
+
+loadNews();
+</script>
+
+</body>
+</html>
