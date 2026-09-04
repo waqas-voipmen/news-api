@@ -1,10 +1,12 @@
 import json
+import os
 import re
 import time
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
+from urllib.parse import quote
 
 from bs4 import BeautifulSoup
 from curl_cffi import requests as curl_requests
@@ -49,6 +51,18 @@ SOCIAL_PAIRS = list(analysis.PAIRS)  # StockTwits recognizes these same 9 ticker
 UNAVAILABLE_SOURCES = {
     "dailyfx": "blocked by Akamai bot-protection at the network level (needs a residential proxy)",
 }
+
+# Free hosting tiers (e.g. PythonAnywhere) restrict outbound requests to a domain
+# whitelist that most scraped sources aren't on. Routing through a Cloudflare Worker
+# (itself an allowed domain) lets those hosts reach otherwise-blocked sources.
+SCRAPE_PROXY_URL = os.environ.get("SCRAPE_PROXY_URL", "https://news-api-proxy.ali45.workers.dev")
+
+
+def _via_proxy(url):
+    if not SCRAPE_PROXY_URL:
+        return url
+    return f"{SCRAPE_PROXY_URL}/?url={quote(url, safe='')}"
+
 
 CACHE_TTL = 300  # seconds
 CACHE_DIR = Path(__file__).parent / ".cache"
@@ -99,7 +113,7 @@ def fetch_forexfactory(period):
         return None
 
     def loader():
-        response = requests.get(url, headers=HEADERS, timeout=10)
+        response = requests.get(_via_proxy(url), headers=HEADERS, timeout=10)
         if response.status_code == 429:
             raise RateLimited(int(response.headers.get("Retry-After", 60)))
         response.raise_for_status()
@@ -134,7 +148,7 @@ def _strip_html(text):
 def _fetch_rss_news(url, source_name, cache_key, impact="News"):
     """Shared parser for simple RSS news feeds (FXStreet, Investing.com)."""
     def loader():
-        response = requests.get(url, headers=HEADERS, timeout=10)
+        response = requests.get(_via_proxy(url), headers=HEADERS, timeout=10)
         if response.status_code == 429:
             raise RateLimited(int(response.headers.get("Retry-After", 60)))
         response.raise_for_status()
@@ -202,7 +216,7 @@ def fetch_myfxbook_news():
     browser headers, so this uses curl_cffi to impersonate a real Chrome TLS handshake.
     It also depends on Myfxbook's current markup and will need updating if their layout changes."""
     def loader():
-        response = curl_requests.get(MYFXBOOK_NEWS_URL, headers=HEADERS, impersonate="chrome124", timeout=10)
+        response = curl_requests.get(_via_proxy(MYFXBOOK_NEWS_URL), headers=HEADERS, impersonate="chrome124", timeout=10)
         if response.status_code == 429:
             raise RateLimited(int(response.headers.get("Retry-After", 60)))
         response.raise_for_status()
