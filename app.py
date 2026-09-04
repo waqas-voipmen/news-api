@@ -347,38 +347,47 @@ def get_news():
 
     wanted_sources = {s.strip().lower() for s in sources.split(",") if s.strip()}
     events = []
+    source_errors = {}
 
-    try:
-        if "forexfactory" in wanted_sources:
-            for fetch_period in fetch_periods:
-                try:
-                    ff_events = fetch_forexfactory(fetch_period)
-                except NETWORK_ERRORS:
-                    # today/tomorrow merge >1 period -- one feed being briefly down
-                    # (e.g. next week's calendar not published yet) shouldn't fail
-                    # the whole request when another period may still have data.
-                    if len(fetch_periods) > 1:
-                        continue
-                    raise
-                if ff_events is None:
-                    return jsonify({"error": f"invalid period '{period}', use one of {['today', 'tomorrow'] + list(FF_FEEDS)}"}), 400
-                events += ff_events
+    def _fetch_source(name, fn):
+        try:
+            return fn()
+        except RateLimited as e:
+            source_errors[name] = f"rate limited, try again in {e.retry_after}s"
+        except NETWORK_ERRORS as e:
+            source_errors[name] = f"failed to fetch: {e}"
+        return []
 
-        if "fxstreet" in wanted_sources:
-            events += fetch_fxstreet_news()
+    if "forexfactory" in wanted_sources:
+        for fetch_period in fetch_periods:
+            try:
+                ff_events = fetch_forexfactory(fetch_period)
+            except RateLimited as e:
+                source_errors["forexfactory"] = f"rate limited, try again in {e.retry_after}s"
+                continue
+            except NETWORK_ERRORS as e:
+                # today/tomorrow merge >1 period -- one feed being briefly down
+                # (e.g. next week's calendar not published yet) shouldn't fail
+                # the whole request when another period may still have data.
+                if len(fetch_periods) > 1:
+                    continue
+                source_errors["forexfactory"] = f"failed to fetch: {e}"
+                continue
+            if ff_events is None:
+                return jsonify({"error": f"invalid period '{period}', use one of {['today', 'tomorrow'] + list(FF_FEEDS)}"}), 400
+            events += ff_events
 
-        if "fxstreet_analysis" in wanted_sources:
-            events += fetch_fxstreet_analysis()
+    if "fxstreet" in wanted_sources:
+        events += _fetch_source("fxstreet", fetch_fxstreet_news)
 
-        if "investing" in wanted_sources:
-            events += fetch_investing_news()
+    if "fxstreet_analysis" in wanted_sources:
+        events += _fetch_source("fxstreet_analysis", fetch_fxstreet_analysis)
 
-        if "myfxbook" in wanted_sources:
-            events += fetch_myfxbook_news()
-    except RateLimited as e:
-        return jsonify({"error": f"rate limited by news source, try again in {e.retry_after}s"}), 429
-    except NETWORK_ERRORS as e:
-        return jsonify({"error": f"failed to fetch news: {e}"}), 502
+    if "investing" in wanted_sources:
+        events += _fetch_source("investing", fetch_investing_news)
+
+    if "myfxbook" in wanted_sources:
+        events += _fetch_source("myfxbook", fetch_myfxbook_news)
 
     if currencies:
         wanted = {c.strip().upper() for c in currencies.split(",") if c.strip()}
@@ -403,7 +412,7 @@ def get_news():
 
     pair_bias = analysis.aggregate_pair_bias(events)
 
-    return jsonify({"count": len(events), "events": events, "pair_bias": pair_bias})
+    return jsonify({"count": len(events), "events": events, "pair_bias": pair_bias, "source_errors": source_errors})
 
 
 def _event_time(event):

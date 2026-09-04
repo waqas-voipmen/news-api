@@ -550,7 +550,11 @@ async function loadNews() {
   document.getElementById('lastUpdated').textContent =
     'Last updated: ' + new Date().toLocaleTimeString();
 
-  countEl.textContent = data.count + ' events found';
+  const errorEntries = Object.entries(data.source_errors || {});
+  const errorNote = errorEntries.length
+    ? ' (unavailable: ' + errorEntries.map(([src, msg]) => `${src} - ${msg}`).join('; ') + ')'
+    : '';
+  countEl.textContent = data.count + ' events found' + errorNote;
   renderBiasGrid(data.pair_bias || {});
 
   if (data.count === 0) {
