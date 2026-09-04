@@ -332,6 +332,37 @@
     max-width: 220px;
     line-height: 1.4;
   }
+  .table-scroll {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  table { min-width: 720px; }
+
+  @media (max-width: 900px) {
+    .layout {
+      grid-template-columns: 1fr;
+      padding: 16px;
+      gap: 16px;
+    }
+  }
+
+  @media (max-width: 640px) {
+    header { padding: 16px; }
+    header h1 { font-size: 19px; }
+    header p { font-size: 12px; }
+    .bias-section { margin: 0 16px 20px; }
+    .panel { padding: 14px; }
+    .results-header { flex-wrap: wrap; }
+    .refresh-controls { width: 100%; justify-content: space-between; }
+    .social-header { flex-wrap: wrap; gap: 8px; }
+    button#checkSocial { width: 100%; }
+    .reason-text { max-width: 160px; }
+  }
+
+  @media (max-width: 420px) {
+    .pairs { grid-template-columns: 1fr; }
+    .bias-grid { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); }
+  }
 </style>
 </head>
 <body>
@@ -446,22 +477,24 @@
         <button id="refreshNow" title="Re-fetch and re-analyze everything now">&#8635; Refresh</button>
       </div>
     </div>
-    <table>
-      <thead>
-        <tr>
-          <th>Time</th>
-          <th>Currency</th>
-          <th>Event</th>
-          <th>Impact</th>
-          <th>Forecast</th>
-          <th>Previous</th>
-          <th>Sentiment</th>
-          <th>Affects</th>
-          <th>Source</th>
-        </tr>
-      </thead>
-      <tbody id="rows"></tbody>
-    </table>
+    <div class="table-scroll">
+      <table>
+        <thead>
+          <tr>
+            <th>Time</th>
+            <th>Currency</th>
+            <th>Event</th>
+            <th>Impact</th>
+            <th>Forecast</th>
+            <th>Previous</th>
+            <th>Sentiment</th>
+            <th>Affects</th>
+            <th>Source</th>
+          </tr>
+        </thead>
+        <tbody id="rows"></tbody>
+      </table>
+    </div>
     <div class="empty" id="empty" style="display:none;">No news found for the selected filters</div>
   </div>
 </div>
