@@ -26,6 +26,10 @@ PAIRS = {
     "NZDUSD": ("NZD", "USD"),
     "XAUUSD": ("XAU", "USD"),
     "XAGUSD": ("XAG", "USD"),
+    # US Dollar Index -- USD's strength vs a currency basket, not a real base/quote
+    # pair, but pair_bias() already handles a None quote correctly (it only ever
+    # matches the `base` side, so DXY just tracks USD strength 1:1).
+    "DXY": ("USD", None),
 }
 
 # indicators where a HIGHER number is actually bad news for the currency
@@ -109,8 +113,9 @@ _BEARISH_PATTERNS = [re.compile(r"\b" + re.escape(w) + r"\b") for w in BEARISH_W
 # "XAU/USD Price Forecast: Gold defies sellers around $4,500" -- matching the ticker
 # straight away is more reliable than inferring it from two separate currency mentions.
 _PAIR_TICKER_PATTERNS = {
-    pair: re.compile(rf"\b{base}\s*/\s*{quote}\b") for pair, (base, quote) in PAIRS.items()
+    pair: re.compile(rf"\b{base}\s*/\s*{quote}\b") for pair, (base, quote) in PAIRS.items() if quote
 }
+_PAIR_TICKER_PATTERNS["DXY"] = re.compile(r"\bDXY\b|\bDOLLAR\s+INDEX\b|\bUSDX\b")
 
 
 def _find_direct_pair(text):
