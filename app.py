@@ -77,6 +77,7 @@ CACHE_TTL = 300  # seconds
 CACHE_DIR = Path(__file__).parent / ".cache"
 USERS_FILE = Path(__file__).parent / "users.json"
 SETTINGS_FILE = Path(__file__).parent / "settings.json"
+USER_EXPIRY_DAYS = 30  # non-admin users are auto-deleted this many days after creation
 
 DEFAULT_SETTINGS = {
     "sources": {key: True for key in SOURCE_LABELS},
@@ -91,12 +92,43 @@ class RateLimited(Exception):
         self.retry_after = retry_after
 
 
+def _prune_expired_users(users):
+    """Deletes non-admin users older than USER_EXPIRY_DAYS and backfills a
+    missing created_at (for users made before this feature existed) with the
+    current time, so they get a fresh 30-day window instead of being deleted
+    immediately. Returns True if anything changed (so the caller can persist)."""
+    now = datetime.now(timezone.utc)
+    changed = False
+    for username in list(users.keys()):
+        info = users[username]
+        if info.get("is_admin"):
+            continue
+        created_at = info.get("created_at")
+        if not created_at:
+            info["created_at"] = now.isoformat()
+            changed = True
+            continue
+        if (now - datetime.fromisoformat(created_at)).days >= USER_EXPIRY_DAYS:
+            del users[username]
+            changed = True
+    return changed
+
+
 def _load_users():
     if not USERS_FILE.exists():
-        default_users = {"admin": {"password_hash": generate_password_hash("admin"), "is_admin": True}}
+        default_users = {
+            "admin": {
+                "password_hash": generate_password_hash("admin"),
+                "is_admin": True,
+                "created_at": datetime.now(timezone.utc).isoformat(),
+            }
+        }
         _save_users(default_users)
         return default_users
-    return json.loads(USERS_FILE.read_text())
+    users = json.loads(USERS_FILE.read_text())
+    if _prune_expired_users(users):
+        _save_users(users)
+    return users
 
 
 def _load_settings():
@@ -125,7 +157,11 @@ def _save_users(users):
 def login_required(view):
     @wraps(view)
     def wrapped(*args, **kwargs):
-        if "username" not in session:
+        # Re-checking against the user store (not just the session cookie) means an
+        # account deleted by the admin, or auto-expired after USER_EXPIRY_DAYS, is
+        # logged out immediately instead of staying valid until the browser session ends.
+        if "username" not in session or session["username"] not in _load_users():
+            session.pop("username", None)
             return redirect(url_for("login", next=request.path))
         return view(*args, **kwargs)
     return wrapped
@@ -134,9 +170,11 @@ def login_required(view):
 def admin_required(view):
     @wraps(view)
     def wrapped(*args, **kwargs):
-        if "username" not in session:
+        users = _load_users()
+        if "username" not in session or session["username"] not in users:
+            session.pop("username", None)
             return redirect(url_for("login", next=request.path))
-        if not _load_users().get(session["username"], {}).get("is_admin"):
+        if not users[session["username"]].get("is_admin"):
             return "Forbidden: admin access required", 403
         return view(*args, **kwargs)
     return wrapped
@@ -184,7 +222,11 @@ def admin_users():
             elif new_username in users:
                 message = f"'{new_username}' already exists"
             else:
-                users[new_username] = {"password_hash": generate_password_hash(new_password), "is_admin": False}
+                users[new_username] = {
+                    "password_hash": generate_password_hash(new_password),
+                    "is_admin": False,
+                    "created_at": datetime.now(timezone.utc).isoformat(),
+                }
                 _save_users(users)
                 message = f"User '{new_username}' created"
         elif action == "delete":
@@ -196,7 +238,28 @@ def admin_users():
                 _save_users(users)
                 message = f"User '{target}' deleted"
 
-    return render_template("admin_users.html", users=_load_users(), message=message, active="users")
+    users = _load_users()
+    now = datetime.now(timezone.utc)
+    users_info = []
+    for uname, info in users.items():
+        created_at = info.get("created_at")
+        days_active = (now - datetime.fromisoformat(created_at)).days if created_at else None
+        is_admin = info.get("is_admin", False)
+        days_left = None if (is_admin or days_active is None) else max(USER_EXPIRY_DAYS - days_active, 0)
+        users_info.append({
+            "username": uname,
+            "is_admin": is_admin,
+            "days_active": days_active,
+            "days_left": days_left,
+        })
+
+    return render_template(
+        "admin_users.html",
+        users_info=users_info,
+        message=message,
+        active="users",
+        expiry_days=USER_EXPIRY_DAYS,
+    )
 
 
 @app.route("/admin/settings", methods=["GET", "POST"])
