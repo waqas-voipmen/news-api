@@ -101,14 +101,12 @@ def _prune_expired_users(users):
     changed = False
     for username in list(users.keys()):
         info = users[username]
-        if info.get("is_admin"):
-            continue
-        created_at = info.get("created_at")
-        if not created_at:
+        if not info.get("created_at"):
             info["created_at"] = now.isoformat()
             changed = True
+        if info.get("is_admin"):
             continue
-        if (now - datetime.fromisoformat(created_at)).days >= USER_EXPIRY_DAYS:
+        if (now - datetime.fromisoformat(info["created_at"])).days >= USER_EXPIRY_DAYS:
             del users[username]
             changed = True
     return changed
