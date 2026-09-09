@@ -29,6 +29,14 @@ HEADERS = {
 CURRENCIES = ["USD", "EUR", "GBP", "JPY", "AUD", "CAD", "CHF", "NZD"]
 FILTERABLE_INSTRUMENTS = CURRENCIES + ["XAU", "XAG"]  # Gold, Silver
 
+SOURCE_LABELS = {
+    "forexfactory": "ForexFactory (calendar)",
+    "fxstreet": "FXStreet (news)",
+    "fxstreet_analysis": "FXStreet (analyst forecasts)",
+    "investing": "Investing.com (news)",
+    "myfxbook": "Myfxbook (news)",
+}
+
 FF_FEEDS = {
     "lastweek": "https://nfs.faireconomy.media/ff_calendar_lastweek.json",
     "week": "https://nfs.faireconomy.media/ff_calendar_thisweek.json",
@@ -68,6 +76,13 @@ def _via_proxy(url):
 CACHE_TTL = 300  # seconds
 CACHE_DIR = Path(__file__).parent / ".cache"
 USERS_FILE = Path(__file__).parent / "users.json"
+SETTINGS_FILE = Path(__file__).parent / "settings.json"
+
+DEFAULT_SETTINGS = {
+    "sources": {key: True for key in SOURCE_LABELS},
+    "social_sentiment_enabled": True,
+    "market_bias_enabled": True,
+}
 
 
 class RateLimited(Exception):
@@ -81,6 +96,24 @@ def _load_users():
         _save_users(default_users)
         return default_users
     return json.loads(USERS_FILE.read_text())
+
+
+def _load_settings():
+    if not SETTINGS_FILE.exists():
+        _save_settings(DEFAULT_SETTINGS)
+        return json.loads(json.dumps(DEFAULT_SETTINGS))
+    settings = json.loads(SETTINGS_FILE.read_text())
+    # backfill any source/flag added after a settings.json was already saved
+    settings.setdefault("sources", {})
+    for key, default_value in DEFAULT_SETTINGS["sources"].items():
+        settings["sources"].setdefault(key, default_value)
+    settings.setdefault("social_sentiment_enabled", True)
+    settings.setdefault("market_bias_enabled", True)
+    return settings
+
+
+def _save_settings(settings):
+    SETTINGS_FILE.write_text(json.dumps(settings, indent=2))
 
 
 def _save_users(users):
@@ -154,8 +187,22 @@ def admin_panel():
                 del users[target]
                 _save_users(users)
                 message = f"User '{target}' delete ho gaya"
+        elif action == "update_settings":
+            settings = _load_settings()
+            for key in SOURCE_LABELS:
+                settings["sources"][key] = request.form.get(f"source_{key}") == "on"
+            settings["social_sentiment_enabled"] = request.form.get("social_sentiment_enabled") == "on"
+            settings["market_bias_enabled"] = request.form.get("market_bias_enabled") == "on"
+            _save_settings(settings)
+            message = "Settings save ho gayi"
 
-    return render_template("admin.html", users=_load_users(), message=message)
+    return render_template(
+        "admin.html",
+        users=_load_users(),
+        message=message,
+        settings=_load_settings(),
+        source_labels=SOURCE_LABELS,
+    )
 
 
 def _cache_file(key):
@@ -327,6 +374,9 @@ def fetch_social_sentiment(pair):
 @app.route("/api/social-sentiment")
 @login_required
 def get_social_sentiment():
+    if not _load_settings()["social_sentiment_enabled"]:
+        return jsonify({"pairs": {}, "error": "Social sentiment admin ne disable kar diya hai"}), 403
+
     pairs_param = request.args.get("pairs")
     pairs = [p.strip().upper() for p in pairs_param.split(",")] if pairs_param else SOCIAL_PAIRS
     pairs = [p for p in pairs if p in SOCIAL_PAIRS]
@@ -353,12 +403,20 @@ def get_social_sentiment():
 @login_required
 def home():
     is_admin = _load_users().get(session["username"], {}).get("is_admin", False)
+    settings = _load_settings()
+    enabled_sources = [
+        {"key": key, "label": label}
+        for key, label in SOURCE_LABELS.items() if settings["sources"].get(key, True)
+    ]
     return render_template(
         "index.html",
         currencies=[{"code": c, "label": analysis.INSTRUMENT_LABELS[c]} for c in FILTERABLE_INSTRUMENTS],
         unavailable_sources=UNAVAILABLE_SOURCES,
         current_user=session["username"],
         is_admin=is_admin,
+        enabled_sources=enabled_sources,
+        social_sentiment_enabled=settings["social_sentiment_enabled"],
+        market_bias_enabled=settings["market_bias_enabled"],
     )
 
 
@@ -386,7 +444,8 @@ def get_news():
             date_from = datetime.combine(target_date, datetime.min.time(), tzinfo=timezone.utc).isoformat()
             date_to = datetime.combine(target_date, datetime.max.time(), tzinfo=timezone.utc).isoformat()
 
-    wanted_sources = {s.strip().lower() for s in sources.split(",") if s.strip()}
+    allowed_sources = {key for key, enabled in _load_settings()["sources"].items() if enabled}
+    wanted_sources = {s.strip().lower() for s in sources.split(",") if s.strip()} & allowed_sources
     events = []
     source_errors = {}
 

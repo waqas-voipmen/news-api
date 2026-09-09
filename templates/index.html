@@ -381,11 +381,14 @@
   </div>
 </header>
 
+{% if market_bias_enabled %}
 <div class="bias-section">
   <p class="disclaimer">Market Bias is a rule-based heuristic (forecast vs previous, headline keywords) built from the news below &mdash; not financial advice, verify before trading.</p>
   <div class="bias-grid" id="biasGrid"></div>
 </div>
+{% endif %}
 
+{% if social_sentiment_enabled %}
 <div class="bias-section">
   <div class="social-header">
     <h3 class="social-title">Social Media Sentiment (StockTwits)</h3>
@@ -394,6 +397,7 @@
   <p class="disclaimer">Ye retail traders ki apni posts hain (StockTwits) &mdash; crowd chatter hai, kabhi kabhi ulta (contrarian) signal bhi hota hai. Financial advice nahi hai.</p>
   <div class="bias-grid" id="socialGrid"></div>
 </div>
+{% endif %}
 
 <div class="layout">
   <div class="panel">
@@ -402,26 +406,12 @@
     <div class="field">
       <label>News Sources</label>
       <div class="sources" id="sources">
-        <label class="source-chip active" data-source="forexfactory">
-          <input type="checkbox" value="forexfactory" checked>
-          ForexFactory (calendar)
+        {% for source in enabled_sources %}
+        <label class="source-chip active" data-source="{{ source.key }}">
+          <input type="checkbox" value="{{ source.key }}" checked>
+          {{ source.label }}
         </label>
-        <label class="source-chip active" data-source="fxstreet">
-          <input type="checkbox" value="fxstreet" checked>
-          FXStreet (news)
-        </label>
-        <label class="source-chip active" data-source="fxstreet_analysis">
-          <input type="checkbox" value="fxstreet_analysis" checked>
-          FXStreet (analyst forecasts)
-        </label>
-        <label class="source-chip active" data-source="investing">
-          <input type="checkbox" value="investing" checked>
-          Investing.com (news)
-        </label>
-        <label class="source-chip active" data-source="myfxbook">
-          <input type="checkbox" value="myfxbook" checked>
-          Myfxbook (news)
-        </label>
+        {% endfor %}
         {% for key, reason in unavailable_sources.items() %}
         <label class="source-chip disabled" title="Unavailable: {{ reason }}">
           <input type="checkbox" disabled>
@@ -638,6 +628,7 @@ async function loadNews() {
 
 function renderBiasGrid(pairBias) {
   const grid = document.getElementById('biasGrid');
+  if (!grid) return;
   const entries = Object.entries(pairBias);
   if (!entries.length) {
     grid.innerHTML = '<span style="color:var(--muted); font-size:12px;">No bias data yet</span>';
@@ -697,7 +688,8 @@ async function loadSocialSentiment() {
   btn.textContent = 'Check Social Sentiment';
 }
 
-document.getElementById('checkSocial').addEventListener('click', loadSocialSentiment);
+const checkSocialBtn = document.getElementById('checkSocial');
+if (checkSocialBtn) checkSocialBtn.addEventListener('click', loadSocialSentiment);
 
 document.getElementById('apply').addEventListener('click', loadNews);
 document.getElementById('refreshNow').addEventListener('click', loadNews);
