@@ -82,6 +82,7 @@ DEFAULT_SETTINGS = {
     "sources": {key: True for key in SOURCE_LABELS},
     "social_sentiment_enabled": True,
     "market_bias_enabled": True,
+    "news_sentiment_enabled": True,
 }
 
 
@@ -109,6 +110,7 @@ def _load_settings():
         settings["sources"].setdefault(key, default_value)
     settings.setdefault("social_sentiment_enabled", True)
     settings.setdefault("market_bias_enabled", True)
+    settings.setdefault("news_sentiment_enabled", True)
     return settings
 
 
@@ -150,7 +152,7 @@ def login():
         if user and check_password_hash(user["password_hash"], password):
             session["username"] = username
             return redirect(request.args.get("next") or url_for("home"))
-        error = "Ghalat username ya password"
+        error = "Invalid username or password"
     return render_template("login.html", error=error)
 
 
@@ -160,9 +162,15 @@ def logout():
     return redirect(url_for("login"))
 
 
-@app.route("/admin", methods=["GET", "POST"])
+@app.route("/admin")
 @admin_required
 def admin_panel():
+    return redirect(url_for("admin_users"))
+
+
+@app.route("/admin/users", methods=["GET", "POST"])
+@admin_required
+def admin_users():
     users = _load_users()
     message = None
 
@@ -172,36 +180,46 @@ def admin_panel():
             new_username = request.form.get("new_username", "").strip()
             new_password = request.form.get("new_password", "")
             if not new_username or not new_password:
-                message = "Username aur password dono zaroori hain"
+                message = "Username and password are both required"
             elif new_username in users:
-                message = f"'{new_username}' pehle se maujood hai"
+                message = f"'{new_username}' already exists"
             else:
                 users[new_username] = {"password_hash": generate_password_hash(new_password), "is_admin": False}
                 _save_users(users)
-                message = f"User '{new_username}' ban gaya"
+                message = f"User '{new_username}' created"
         elif action == "delete":
             target = request.form.get("target_username")
             if target == "admin":
-                message = "Admin account delete nahi ho sakta"
+                message = "The admin account can't be deleted"
             elif target in users:
                 del users[target]
                 _save_users(users)
-                message = f"User '{target}' delete ho gaya"
-        elif action == "update_settings":
-            settings = _load_settings()
-            for key in SOURCE_LABELS:
-                settings["sources"][key] = request.form.get(f"source_{key}") == "on"
-            settings["social_sentiment_enabled"] = request.form.get("social_sentiment_enabled") == "on"
-            settings["market_bias_enabled"] = request.form.get("market_bias_enabled") == "on"
-            _save_settings(settings)
-            message = "Settings save ho gayi"
+                message = f"User '{target}' deleted"
+
+    return render_template("admin_users.html", users=_load_users(), message=message, active="users")
+
+
+@app.route("/admin/settings", methods=["GET", "POST"])
+@admin_required
+def admin_settings():
+    message = None
+
+    if request.method == "POST":
+        settings = _load_settings()
+        for key in SOURCE_LABELS:
+            settings["sources"][key] = request.form.get(f"source_{key}") == "on"
+        settings["social_sentiment_enabled"] = request.form.get("social_sentiment_enabled") == "on"
+        settings["market_bias_enabled"] = request.form.get("market_bias_enabled") == "on"
+        settings["news_sentiment_enabled"] = request.form.get("news_sentiment_enabled") == "on"
+        _save_settings(settings)
+        message = "Settings saved"
 
     return render_template(
-        "admin.html",
-        users=_load_users(),
+        "admin_settings.html",
         message=message,
         settings=_load_settings(),
         source_labels=SOURCE_LABELS,
+        active="settings",
     )
 
 
@@ -375,7 +393,7 @@ def fetch_social_sentiment(pair):
 @login_required
 def get_social_sentiment():
     if not _load_settings()["social_sentiment_enabled"]:
-        return jsonify({"pairs": {}, "error": "Social sentiment admin ne disable kar diya hai"}), 403
+        return jsonify({"pairs": {}, "error": "Social sentiment has been disabled by the admin"}), 403
 
     pairs_param = request.args.get("pairs")
     pairs = [p.strip().upper() for p in pairs_param.split(",")] if pairs_param else SOCIAL_PAIRS
@@ -444,7 +462,8 @@ def get_news():
             date_from = datetime.combine(target_date, datetime.min.time(), tzinfo=timezone.utc).isoformat()
             date_to = datetime.combine(target_date, datetime.max.time(), tzinfo=timezone.utc).isoformat()
 
-    allowed_sources = {key for key, enabled in _load_settings()["sources"].items() if enabled}
+    settings = _load_settings()
+    allowed_sources = {key for key, enabled in settings["sources"].items() if enabled}
     wanted_sources = {s.strip().lower() for s in sources.split(",") if s.strip()} & allowed_sources
     events = []
     source_errors = {}
@@ -508,9 +527,9 @@ def get_news():
     events.sort(key=lambda e: e["date"])
 
     for e in events:
-        e["analysis"] = analysis.analyze_event(e)
+        e["analysis"] = analysis.analyze_event(e) if settings["news_sentiment_enabled"] else None
 
-    pair_bias = analysis.aggregate_pair_bias(events)
+    pair_bias = analysis.aggregate_pair_bias(events) if settings["market_bias_enabled"] else {}
 
     return jsonify({"count": len(events), "events": events, "pair_bias": pair_bias, "source_errors": source_errors})
 

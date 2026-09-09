@@ -1,0 +1,36 @@
+{% extends "admin_base.html" %}
+{% block title %}Feature Controls{% endblock %}
+{% block heading %}Feature Controls{% endblock %}
+{% block content %}
+
+<div class="panel">
+  <h3>News Sources</h3>
+  <form method="POST">
+    <input type="hidden" name="action" value="update_settings">
+
+    {% for key, label in source_labels.items() %}
+    <label class="toggle-row">
+      <input type="checkbox" name="source_{{ key }}" {% if settings.sources.get(key, True) %}checked{% endif %}>
+      {{ label }}
+    </label>
+    {% endfor %}
+
+    <h3 style="margin-top:22px;">Analysis Features</h3>
+    <label class="toggle-row">
+      <input type="checkbox" name="news_sentiment_enabled" {% if settings.news_sentiment_enabled %}checked{% endif %}>
+      News sentiment analysis (Bullish/Bearish tags on each headline)
+    </label>
+    <label class="toggle-row">
+      <input type="checkbox" name="market_bias_enabled" {% if settings.market_bias_enabled %}checked{% endif %}>
+      Market Bias grid
+    </label>
+    <label class="toggle-row">
+      <input type="checkbox" name="social_sentiment_enabled" {% if settings.social_sentiment_enabled %}checked{% endif %}>
+      Social Media Sentiment (StockTwits)
+    </label>
+
+    <button type="submit" style="margin-top:16px;">Save Settings</button>
+  </form>
+</div>
+
+{% endblock %}
