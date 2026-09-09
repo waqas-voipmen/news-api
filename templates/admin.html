@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin - Forex News Aggregator</title>
+<style>
+  :root {
+    --bg: #0f1115;
+    --panel: #161a21;
+    --border: #262b35;
+    --text: #e6e8eb;
+    --muted: #8b93a1;
+    --accent: #3b82f6;
+    --bear: #ef4444;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: "Segoe UI", Roboto, Arial, sans-serif; background: var(--bg); color: var(--text); }
+  header {
+    padding: 20px 32px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  header h1 { font-size: 18px; margin: 0; }
+  header nav { display: flex; gap: 16px; }
+  header a { color: var(--accent); text-decoration: none; font-size: 13px; }
+  header a:hover { text-decoration: underline; }
+  .wrap { padding: 24px 32px; max-width: 720px; }
+  .panel {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 18px;
+    margin-bottom: 20px;
+    overflow-x: auto;
+  }
+  .panel h3 {
+    margin: 0 0 14px;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    color: var(--muted);
+  }
+  .field { margin-bottom: 12px; }
+  label { display: block; font-size: 12px; color: var(--muted); margin-bottom: 6px; }
+  input[type=text], input[type=password] {
+    width: 100%;
+    background: #0f1115;
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 8px 10px;
+    border-radius: 6px;
+    font-size: 13px;
+  }
+  button {
+    padding: 9px 16px;
+    background: var(--accent);
+    border: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 13px;
+  }
+  button:hover { background: #2563eb; }
+  button.danger { background: var(--bear); padding: 6px 10px; font-size: 12px; }
+  button.danger:hover { background: #dc2626; }
+  .message {
+    background: rgba(59,130,246,0.1);
+    border: 1px solid var(--accent);
+    color: var(--text);
+    padding: 10px 14px;
+    border-radius: 6px;
+    font-size: 13px;
+    margin-bottom: 16px;
+  }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; min-width: 360px; }
+  th {
+    text-align: left;
+    color: var(--muted);
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 11px;
+    padding: 8px 10px;
+    border-bottom: 1px solid var(--border);
+  }
+  td { padding: 10px; border-bottom: 1px solid var(--border); }
+  .badge {
+    font-size: 11px;
+    padding: 2px 8px;
+    border-radius: 12px;
+    background: var(--accent);
+    color: white;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Admin Panel</h1>
+  <nav>
+    <a href="{{ url_for('home') }}">&larr; News dashboard</a>
+    <a href="{{ url_for('logout') }}">Logout</a>
+  </nav>
+</header>
+
+<div class="wrap">
+  {% if message %}<div class="message">{{ message }}</div>{% endif %}
+
+  <div class="panel">
+    <h3>Naya user banao</h3>
+    <form method="POST">
+      <input type="hidden" name="action" value="create">
+      <div class="field">
+        <label>Username</label>
+        <input type="text" name="new_username" required>
+      </div>
+      <div class="field">
+        <label>Password</label>
+        <input type="text" name="new_password" required>
+      </div>
+      <button type="submit">User Create Karo</button>
+    </form>
+  </div>
+
+  <div class="panel">
+    <h3>Existing Users</h3>
+    <table>
+      <thead>
+        <tr><th>Username</th><th>Role</th><th></th></tr>
+      </thead>
+      <tbody>
+        {% for uname, info in users.items() %}
+        <tr>
+          <td>{{ uname }}</td>
+          <td>{% if info.is_admin %}<span class="badge">Admin</span>{% else %}User{% endif %}</td>
+          <td>
+            {% if uname != 'admin' %}
+            <form method="POST" style="display:inline;" onsubmit="return confirm('Delete {{ uname }}?');">
+              <input type="hidden" name="action" value="delete">
+              <input type="hidden" name="target_username" value="{{ uname }}">
+              <button type="submit" class="danger">Delete</button>
+            </form>
+            {% endif %}
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+
+</body>
+</html>

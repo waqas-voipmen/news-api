@@ -369,9 +369,16 @@
 </head>
 <body>
 
-<header>
-  <h1>Forex News Aggregator</h1>
-  <p>Economic calendar + live news from multiple sources, filtered by currency and time</p>
+<header style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:12px;">
+  <div>
+    <h1>Forex News Aggregator</h1>
+    <p>Economic calendar + live news from multiple sources, filtered by currency and time</p>
+  </div>
+  <div style="display:flex; align-items:center; gap:16px; font-size:13px;">
+    <span style="color:var(--muted);">{{ current_user }}</span>
+    {% if is_admin %}<a href="{{ url_for('admin_panel') }}" style="color:var(--accent); text-decoration:none;">Admin Panel</a>{% endif %}
+    <a href="{{ url_for('logout') }}" style="color:var(--accent); text-decoration:none;">Logout</a>
+  </div>
 </header>
 
 <div class="bias-section">

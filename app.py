@@ -5,10 +5,12 @@ import time
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
+from functools import wraps
 from pathlib import Path
 from urllib.parse import quote
 
-from flask import Flask, jsonify, render_template, request
+from flask import Flask, jsonify, render_template, request, redirect, session, url_for
+from werkzeug.security import check_password_hash, generate_password_hash
 import requests
 
 import analysis
@@ -16,6 +18,7 @@ import analysis
 NETWORK_ERRORS = (requests.RequestException,)
 
 app = Flask(__name__)
+app.secret_key = os.environ.get("SECRET_KEY", "dev-only-secret-change-me-in-production-8f2a1c9d")
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -36,6 +39,7 @@ FXSTREET_RSS = "https://www.fxstreet.com/rss/news"
 FXSTREET_ANALYSIS_RSS = "https://www.fxstreet.com/rss/analysis"
 INVESTING_RSS = "https://www.investing.com/rss/news_1.rss"  # category 1 = Forex News
 MYFXBOOK_CACHE_URL = "https://raw.githubusercontent.com/waqas-voipmen/news-api/master/myfxbook_cache.json"
+FF_CACHE_URL = "https://raw.githubusercontent.com/waqas-voipmen/news-api/master/forexfactory_cache.json"
 STOCKTWITS_STREAM_URL = "https://api.stocktwits.com/api/2/streams/symbol/{symbol}.json"
 SOCIAL_PAIRS = list(analysis.PAIRS)  # StockTwits recognizes these same 9 tickers directly
 
@@ -63,11 +67,95 @@ def _via_proxy(url):
 
 CACHE_TTL = 300  # seconds
 CACHE_DIR = Path(__file__).parent / ".cache"
+USERS_FILE = Path(__file__).parent / "users.json"
 
 
 class RateLimited(Exception):
     def __init__(self, retry_after):
         self.retry_after = retry_after
+
+
+def _load_users():
+    if not USERS_FILE.exists():
+        default_users = {"admin": {"password_hash": generate_password_hash("admin"), "is_admin": True}}
+        _save_users(default_users)
+        return default_users
+    return json.loads(USERS_FILE.read_text())
+
+
+def _save_users(users):
+    USERS_FILE.write_text(json.dumps(users, indent=2))
+
+
+def login_required(view):
+    @wraps(view)
+    def wrapped(*args, **kwargs):
+        if "username" not in session:
+            return redirect(url_for("login", next=request.path))
+        return view(*args, **kwargs)
+    return wrapped
+
+
+def admin_required(view):
+    @wraps(view)
+    def wrapped(*args, **kwargs):
+        if "username" not in session:
+            return redirect(url_for("login", next=request.path))
+        if not _load_users().get(session["username"], {}).get("is_admin"):
+            return "Forbidden: admin access required", 403
+        return view(*args, **kwargs)
+    return wrapped
+
+
+@app.route("/login", methods=["GET", "POST"])
+def login():
+    error = None
+    if request.method == "POST":
+        username = request.form.get("username", "").strip()
+        password = request.form.get("password", "")
+        user = _load_users().get(username)
+        if user and check_password_hash(user["password_hash"], password):
+            session["username"] = username
+            return redirect(request.args.get("next") or url_for("home"))
+        error = "Ghalat username ya password"
+    return render_template("login.html", error=error)
+
+
+@app.route("/logout")
+def logout():
+    session.pop("username", None)
+    return redirect(url_for("login"))
+
+
+@app.route("/admin", methods=["GET", "POST"])
+@admin_required
+def admin_panel():
+    users = _load_users()
+    message = None
+
+    if request.method == "POST":
+        action = request.form.get("action")
+        if action == "create":
+            new_username = request.form.get("new_username", "").strip()
+            new_password = request.form.get("new_password", "")
+            if not new_username or not new_password:
+                message = "Username aur password dono zaroori hain"
+            elif new_username in users:
+                message = f"'{new_username}' pehle se maujood hai"
+            else:
+                users[new_username] = {"password_hash": generate_password_hash(new_password), "is_admin": False}
+                _save_users(users)
+                message = f"User '{new_username}' ban gaya"
+        elif action == "delete":
+            target = request.form.get("target_username")
+            if target == "admin":
+                message = "Admin account delete nahi ho sakta"
+            elif target in users:
+                del users[target]
+                _save_users(users)
+                message = f"User '{target}' delete ho gaya"
+
+    return render_template("admin.html", users=_load_users(), message=message)
 
 
 def _cache_file(key):
@@ -105,20 +193,21 @@ def _cached_fetch(key, loader):
 
 
 def fetch_forexfactory(period):
-    url = FF_FEEDS.get(period)
-    if not url:
+    """ForexFactory's feed (nfs.faireconomy.media) rate-limits the Cloudflare Worker
+    proxy's shared IPs too often to be usable live from PythonAnywhere, so this reads
+    a cache pre-fetched from a residential machine (see scripts/fetch_forexfactory.py)
+    and published to this GitHub repo, same approach as Myfxbook."""
+    if period not in FF_FEEDS:
         return None
 
     def loader():
-        response = requests.get(_via_proxy(url), headers=HEADERS, timeout=10)
+        response = requests.get(FF_CACHE_URL, headers=HEADERS, timeout=10)
         if response.status_code == 429:
             raise RateLimited(int(response.headers.get("Retry-After", 60)))
         response.raise_for_status()
-        raw_events = response.json()
-        for e in raw_events:
-            e["source"] = "ForexFactory"
-            e["type"] = "calendar"
-            e["link"] = None
+        raw_events = response.json()["periods"].get(period)
+        if raw_events is None:
+            raise requests.RequestException(f"no cached ForexFactory data for period '{period}'")
         return raw_events
 
     return _cached_fetch(f"ff_{period}", loader)
@@ -236,6 +325,7 @@ def fetch_social_sentiment(pair):
 
 
 @app.route("/api/social-sentiment")
+@login_required
 def get_social_sentiment():
     pairs_param = request.args.get("pairs")
     pairs = [p.strip().upper() for p in pairs_param.split(",")] if pairs_param else SOCIAL_PAIRS
@@ -260,15 +350,20 @@ def get_social_sentiment():
 
 
 @app.route("/")
+@login_required
 def home():
+    is_admin = _load_users().get(session["username"], {}).get("is_admin", False)
     return render_template(
         "index.html",
         currencies=[{"code": c, "label": analysis.INSTRUMENT_LABELS[c]} for c in FILTERABLE_INSTRUMENTS],
         unavailable_sources=UNAVAILABLE_SOURCES,
+        current_user=session["username"],
+        is_admin=is_admin,
     )
 
 
 @app.route("/api/news")
+@login_required
 def get_news():
     period = request.args.get("period", "week")
     sources = request.args.get("sources", "forexfactory,fxstreet,fxstreet_analysis,investing,myfxbook")
@@ -369,7 +464,6 @@ def _event_time(event):
 
 
 if __name__ == "__main__":
-    import os
     port = int(os.environ.get("PORT", 5000))
     debug = os.environ.get("FLASK_DEBUG", "true").lower() == "true"
     app.run(debug=debug, host="0.0.0.0", port=port)
