@@ -435,7 +435,14 @@ def home():
         enabled_sources=enabled_sources,
         social_sentiment_enabled=settings["social_sentiment_enabled"],
         market_bias_enabled=settings["market_bias_enabled"],
+        settings_json=json.dumps(settings, sort_keys=True),
     )
+
+
+@app.route("/api/settings")
+@login_required
+def get_settings():
+    return jsonify(_load_settings())
 
 
 @app.route("/api/news")
