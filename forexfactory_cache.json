@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-11T18:18:15.925780+00:00",
+  "fetched_at": "2026-09-11T18:48:08.481182+00:00",
   "periods": {
     "week": [
       {
@@ -863,7 +863,7 @@
       {
         "title": "Federal Budget Balance",
         "country": "USD",
-        "date": "2026-09-11T14:00:00-04:00",
+        "date": "2026-09-11T13:58:00-04:00",
         "impact": "Low",
         "forecast": "-221.1B",
         "previous": "-432.3B",
