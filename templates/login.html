@@ -4,79 +4,28 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Login - Forex News Aggregator</title>
-<style>
-  :root {
-    --bg: #0f1115;
-    --panel: #161a21;
-    --border: #262b35;
-    --text: #e6e8eb;
-    --muted: #8b93a1;
-    --accent: #3b82f6;
-    --bear: #ef4444;
-  }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: "Segoe UI", Roboto, Arial, sans-serif;
-    background: var(--bg);
-    color: var(--text);
-    padding: 16px;
-  }
-  .card {
-    background: var(--panel);
-    border: 1px solid var(--border);
-    border-radius: 10px;
-    padding: 32px;
-    width: 100%;
-    max-width: 340px;
-  }
-  h1 { font-size: 18px; margin: 0 0 4px; }
-  .subtitle { font-size: 12px; color: var(--muted); margin: 0 0 20px; }
-  .field { margin-bottom: 14px; }
-  label { display: block; font-size: 12px; color: var(--muted); margin-bottom: 6px; }
-  input[type=text], input[type=password] {
-    width: 100%;
-    background: #0f1115;
-    border: 1px solid var(--border);
-    color: var(--text);
-    padding: 9px 10px;
-    border-radius: 6px;
-    font-size: 14px;
-  }
-  button {
-    width: 100%;
-    padding: 10px;
-    background: var(--accent);
-    border: none;
-    color: white;
-    font-weight: 600;
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 14px;
-    margin-top: 8px;
-  }
-  button:hover { background: #2563eb; }
-  .error { color: var(--bear); font-size: 13px; margin-bottom: 12px; }
-</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
-  <form class="card" method="POST">
-    <h1>Forex News Aggregator</h1>
-    <p class="subtitle">Sign in to continue</p>
-    {% if error %}<div class="error">{{ error }}</div>{% endif %}
-    <div class="field">
-      <label>Username</label>
-      <input type="text" name="username" required autofocus>
-    </div>
-    <div class="field">
-      <label>Password</label>
-      <input type="password" name="password" required>
-    </div>
-    <button type="submit">Login</button>
-  </form>
+  <div class="auth-shell">
+    <form class="auth-card" method="POST">
+      <div class="brand-mark">FX</div>
+      <h1>Forex News Aggregator</h1>
+      <p class="subtitle">Sign in to continue</p>
+      {% if error %}<div class="error">{{ error }}</div>{% endif %}
+      <div class="field">
+        <label>Username</label>
+        <input type="text" name="username" required autofocus>
+      </div>
+      <div class="field">
+        <label>Password</label>
+        <input type="password" name="password" required>
+      </div>
+      <button type="submit" class="btn">Login</button>
+    </form>
+  </div>
 </body>
 </html>
