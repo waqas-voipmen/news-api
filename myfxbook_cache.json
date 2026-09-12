@@ -1,161 +1,161 @@
 {
-  "fetched_at": "2026-09-04T23:48:05.653495+00:00",
+  "fetched_at": "2026-09-12T10:18:23.001421+00:00",
   "events": [
     {
       "source": "Myfxbook",
       "type": "news",
       "country": "USD",
-      "title": "U.S. Dollar Ticks Higher Amid Fed Rate Hike Expectations Following Nonfarm Payrolls Release",
-      "description": "The U.S. Dollar value inched higher following the release of stronger-than-expected August U.S. nonfarm payrolls numbers which spiked the expectations for a rate hike by the U.S. Federal Reserve in the near-term. However, the slide in crude oil prices due to the absence of any fresh strikes in the gulf, lowered inflationary pressure and weighed on the dollar.",
-      "date": "2026-09-04T21:01:05.650002+00:00",
+      "title": "U.S. Dollar Ticks Higher Amid Inflation Data Release, Expectations Of Reopening Of Strait Of Hormuz",
+      "description": "The U.S. Dollar value inched higher as investors weighed today's inflation data that pushed the odds for a rate hike in the U.S. higher against reports of an upcoming meeting between the Gulf Cooperation Council nations and Iran to hasten the reopening of the Strait of Hormuz.",
+      "date": "2026-09-11T21:00:22.998203+00:00",
       "impact": "News",
       "forecast": "",
       "previous": "",
-      "link": "https://www.myfxbook.com/news/us-dollar-ticks-higher-amid-fed-rate-hike-expectations-following-nonfarm-payrolls-release/53839"
+      "link": "https://www.myfxbook.com/news/us-dollar-ticks-higher-amid-inflation-data-release-expectations-of-reopening-of-strait-of-hormuz/54096"
     },
     {
       "source": "Myfxbook",
       "type": "news",
-      "country": "CAD",
-      "title": "TSX Headed For Weak Close; Strong U.S. Jobs Data Fuels Fed Rate Hike Bets",
-      "description": "The Canadian market, which briefly moved above the flat line around late morning on Friday after staying weak following a negative start, retreated subsequently as stocks from materials and energy sectors shed ground. Stronger than expected U.S. jobs data raised possibilities of a rate hike by the Federal Reserve this month.",
-      "date": "2026-09-04T18:35:05.650765+00:00",
+      "country": "General",
+      "title": "TSX Climbs On Tech Rally, Looks Set To End 6-day Losing Streak",
+      "description": "The S&P/TSX Composite Index rose 0.36% Friday to 35,634.50 as technology stocks surged 3.5%, contributing significantly to gains. Oil prices fell following International Energy Agency's downward global oil demand forecast revision.",
+      "date": "2026-09-11T18:44:22.998546+00:00",
       "impact": "News",
       "forecast": "",
       "previous": "",
-      "link": "https://www.myfxbook.com/news/tsx-headed-for-weak-close-strong-us-jobs-data-fuels-fed-rate-hike-bets/53838"
+      "link": "https://www.myfxbook.com/news/tsx-climbs-on-tech-rally-looks-set-to-end-6-day-losing-streak/54095"
     },
     {
       "source": "Myfxbook",
       "type": "news",
       "country": "CHF",
-      "title": "Swiss Market Ends Flat",
-      "description": "The Switzerland market's benchmark index SMI ended little changed on Friday after moving along the flat line for much of the day's session, as investors largely refrained from making big moves, choosing to wait for some clear catalysts.",
-      "date": "2026-09-04T18:07:05.650986+00:00",
+      "title": "Swiss Market Ends Modestly Higher",
+      "description": "The Switzerland stock market closed modestly higher on Friday, in line with markets across Europe, as a sharp drop in oil prices helped lift sentiment.",
+      "date": "2026-09-11T18:10:22.998824+00:00",
       "impact": "News",
       "forecast": "",
       "previous": "",
-      "link": "https://www.myfxbook.com/news/swiss-market-ends-flat/53835"
+      "link": "https://www.myfxbook.com/news/swiss-market-ends-modestly-higher/54094"
     },
     {
       "source": "Myfxbook",
       "type": "news",
       "country": "General",
-      "title": "Major European Markets Close Roughly Flat After Lackluster Session",
-      "description": "The major European markets closed little changed on Friday after a lackluster session as investors refrained from making big moves. Persisting concerns about Middle East tensions and possibility of interest rate hikes from the Federal Reserve and the European Central Bank rendered the mood cautious.",
-      "date": "2026-09-04T17:46:05.651205+00:00",
+      "title": "European Markets Rise As Oil Prices Fall On IEA Demand Cut",
+      "description": "European markets gained ground Friday after the International Energy Agency cut its global oil demand forecast, sending Brent crude futures down 3.5% to $103.50. The IEA now projects world oil demand will drop 2.5 million barrels per day this year versus its prior estimate of 1.6 million bpd.",
+      "date": "2026-09-11T17:48:22.999035+00:00",
       "impact": "News",
       "forecast": "",
       "previous": "",
-      "link": "https://www.myfxbook.com/news/major-european-markets-close-roughly-flat-after-lackluster-session/53834"
+      "link": "https://www.myfxbook.com/news/european-markets-rise-as-oil-prices-fall-on-iea-demand-cut/54093"
     },
     {
       "source": "Myfxbook",
       "type": "news",
       "country": "USD",
-      "title": "U.S. Job Growth Far Exceeds Estimates In August",
-      "description": "Employment in the U.S. increased by far more than economists had expected in the month of August, according to a closely watched report released by the Labor Department on Friday. The report said non-farm payroll employment surged by 162,000 jobs in August are rising by an upwardly revised 21,000 jobs in July. Economists had expected employment to climb by 55,000 jobs.",
-      "date": "2026-09-04T13:41:05.651488+00:00",
+      "title": "U.S. Consumer Sentiment Deteriorates Much More Than Expected In September",
+      "description": "A report released by the University of Michigan on Friday showed consumer sentiment in the U.S. has deteriorated by much more than anticipated in the month of September. The University of Michigan said its consumer sentiment index slumped to 47.8 in September after tumbling to 51.7 in August. Economists had expected the index to edge down to 51.0.",
+      "date": "2026-09-11T14:26:22.999308+00:00",
       "impact": "News",
       "forecast": "",
       "previous": "",
-      "link": "https://www.myfxbook.com/news/us-job-growth-far-exceeds-estimates-in-august/53830"
+      "link": "https://www.myfxbook.com/news/us-consumer-sentiment-deteriorates-much-more-than-expected-in-september/54092"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "CPSC Recalls: 2.3 Mln Candy Bottles, Motorcycles, Dressers, Dual Fuel Ranges, Fire Spray Canisters",
+      "description": "The U.S. Consumer Product safety Commission or CPSC has announced various recalls including more than 2.3 million sour crush candy bottles, motorcycles, six-drawer dressers, dual fuel ranges, hair dryer brushes, and fire spray canisters, among others. In most of the recalls, consumers are urged to immediately stop using the recalled product, and contact the respective firm for either a free repair",
+      "date": "2026-09-11T14:18:22.999593+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/cpsc-recalls-23-mln-candy-bottles-motorcycles-dressers-dual-fuel-ranges-fire-spray-canisters/54091"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Consumer Price Growth Matches Estimates, Core Prices Rise Slightly More Than Expected",
+      "description": "A closely watched report released by the Labor Department on Friday showed consumer prices in the U.S. increased in line with economist estimates in the month of August, although core prices rose by slightly more than expected. The Labor Department said its consumer price index climbed by 0.4 percent in August after inching up by 0.1 percent in July.",
+      "date": "2026-09-11T13:37:22.999929+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-consumer-price-growth-matches-estimates-core-prices-rise-slightly-more-than-expected/54090"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Consumer Prices Increase In Line With Estimates In August",
+      "description": "A closely watched report released by the Labor Department on Friday showed consumer prices in the U.S. increased in line with economist estimates in the month of August.",
+      "date": "2026-09-11T12:36:23.000204+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-consumer-prices-increase-in-line-with-estimates-in-august/54088"
     },
     {
       "source": "Myfxbook",
       "type": "news",
       "country": "CAD",
-      "title": "Futures Point To Weak Start On Bay Street; Canadian, U.S. Jobs Data Hold The Key",
-      "description": "Lower Canadian and U.S. futures, and weak commodity prices suggest a weak start for the Canadian market on Friday. However, jobs data form Canada and the U.S. hold the key.",
-      "date": "2026-09-04T12:47:05.651769+00:00",
+      "title": "IEA Cuts Oil Demand Forecast; Canadian Markets Eye Recovery",
+      "description": "Canadian stocks may open with positive bias Friday as oil prices decline following the International Energy Agency's downward revision of global oil demand. Investors seek bargains after six consecutive days of losses. U.S. consumer price data could impact sentiment.",
+      "date": "2026-09-11T12:27:23.000437+00:00",
       "impact": "News",
       "forecast": "",
       "previous": "",
-      "link": "https://www.myfxbook.com/news/futures-point-to-weak-start-on-bay-street-canadian-us-jobs-data-hold-the-key/53829"
+      "link": "https://www.myfxbook.com/news/iea-cuts-oil-demand-forecast-canadian-markets-eye-recovery/54087"
     },
     {
       "source": "Myfxbook",
       "type": "news",
-      "country": "USD",
-      "title": "U.S. Employment Jumps Far More Than Expected In August",
-      "description": "Employment in the U.S. increased by far more than economists had expected in the month of August, according to a closely watched report released by the Labor Department on Friday.",
-      "date": "2026-09-04T12:35:05.651965+00:00",
+      "country": "CAD",
+      "title": "Canadian Dollar Falls As Oil Prices Edge Lower",
+      "description": "The Canadian dollar weakened against other major currencies in the European session on Friday, as the crude oil prices traded lower amid escalating U.S.-Iran tensions and concerns over prolonged disruption to global energy supplies.",
+      "date": "2026-09-11T12:12:23.000630+00:00",
       "impact": "News",
       "forecast": "",
       "previous": "",
-      "link": "https://www.myfxbook.com/news/us-employment-jumps-far-more-than-expected-in-august/53828"
+      "link": "https://www.myfxbook.com/news/canadian-dollar-falls-as-oil-prices-edge-lower/54086"
     },
     {
       "source": "Myfxbook",
       "type": "news",
       "country": "General",
-      "title": "Indian Shares Snap Four-day Losing Streak",
-      "description": "Indian shares closed higher on Friday, with benchmark indexes snapping a four-day losing streak, as dovish comments from Federal Reserve Governor Christopher Waller prompted traders to scale back expectations of a Federal Reserve rate increase this month.",
-      "date": "2026-09-04T10:35:05.652209+00:00",
+      "title": "Kroger Q2 Profit Rises, Backs FY26 Adj. Earnings View, Cuts Sales Growth Forecast; Stock Drops",
+      "description": "Supermarket chain Kroger Co. reported Friday higher profit and sales in its second quarter, while Identical Sales growth was slower than the prior year. Further, the firm maintained adjusted earnings outlook for fiscal 2026, but trimmed growth view for identical sales without fuel. In the pre-market activity on the NYSE, the shares were losing around 2.62 percent.",
+      "date": "2026-09-11T11:40:23.000819+00:00",
       "impact": "News",
       "forecast": "",
       "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-snap-four-day-losing-streak/53823"
+      "link": "https://www.myfxbook.com/news/kroger-q2-profit-rises-backs-fy26-adj-earnings-view-cuts-sales-growth-forecast-stock-drops/54084"
     },
     {
       "source": "Myfxbook",
       "type": "news",
       "country": "GBP",
-      "title": "U.K. Stocks Subdued Ahead Of U.S. Jobs Data; Construction PMI Misses",
-      "description": "U.K. stocks traded lackluster Friday with the FTSE 100 down 0.03%, as investors awaited U.S. payrolls data for Fed policy signals. UK Construction PMI eased to 44.3 in August, missing the 45.5 forecast, signaling sector weakness.",
-      "date": "2026-09-04T10:18:05.652459+00:00",
+      "title": "UK Stocks Rise On GDP Growth, Oil Price Decline",
+      "description": "UK stocks advanced Friday as July GDP growth of 0.4% beat expectations and oil prices tumbled following downward IEA demand revisions. The FTSE 100 reached 10,674.52, up 0.61% despite ongoing US-Iran concerns.",
+      "date": "2026-09-11T11:27:23.001108+00:00",
       "impact": "News",
       "forecast": "",
       "previous": "",
-      "link": "https://www.myfxbook.com/news/uk-stocks-subdued-ahead-of-us-jobs-data-construction-pmi-misses/53821"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "French Stocks Mixed In Cautious Trade",
-      "description": "French stocks turned in a mixed performance on Friday as investors made cautious moves, looking ahead to U.S. nonfarm payrolls data for clues on Federal Reserve's interest rate path. Data showing a faster contraction in construction activity in France weighed on sentiment.",
-      "date": "2026-09-04T09:42:05.652694+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/french-stocks-mixed-in-cautious-trade/53818"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "XAU",
-      "title": "Gold Subdued Ahead Of US Jobs Report",
-      "description": "Gold was subdued on Friday but headed for a modest weekly gain on easing Fed rate-hike expectations.",
-      "date": "2026-09-04T09:38:05.652942+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/gold-subdued-ahead-of-us-jobs-report/53817"
+      "link": "https://www.myfxbook.com/news/uk-stocks-rise-on-gdp-growth-oil-price-decline/54083"
     },
     {
       "source": "Myfxbook",
       "type": "news",
       "country": "General",
-      "title": "Tesla Begins Steering-wheel-free Cybercab Robotaxi Rides In Austin",
-      "description": "Electric-vehicle major Tesla Inc. has started offering Cybercab rides in limited areas of Austin, Texas. The two-seater vehicle comes without a steering wheel or pedals. The exclusive Cybercab launch event was conducted in Austin on Thursday for the golden, butterfly-door cars.",
-      "date": "2026-09-04T09:23:05.653109+00:00",
+      "title": "French Stocks Rise On Oil Price Drop, Middle East Concerns Persist",
+      "description": "French equities recovered Friday with the CAC 40 rising to 8,167.27 points after the IEA lowered its global oil demand forecast. Brent crude futures declined 3.5% to $104.00 a barrel.",
+      "date": "2026-09-11T10:59:23.001318+00:00",
       "impact": "News",
       "forecast": "",
       "previous": "",
-      "link": "https://www.myfxbook.com/news/tesla-begins-steering-wheel-free-cybercab-robotaxi-rides-in-austin/53815"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "German Stocks Rise On Volkswagen Restructuring; Factory Orders Beat",
-      "description": "German stocks advanced Friday as Volkswagen surged following board approval of its 'Future Plan 2030' restructuring program. The DAX rose 0.05% to 26,020.97. Factory orders growth and improved construction data supported market gains, though geopolitical tensions and ECB rate hike prospects limited upside.",
-      "date": "2026-09-04T09:22:05.653368+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/german-stocks-rise-on-volkswagen-restructuring-factory-orders-beat/53814"
+      "link": "https://www.myfxbook.com/news/french-stocks-rise-on-oil-price-drop-middle-east-concerns-persist/54082"
     }
   ]
 }
