@@ -368,6 +368,11 @@ a.title-link:hover { color: var(--accent-strong); text-decoration: underline; }
 .bias-card .bias-label.Neutral { color: var(--muted); }
 .bias-card .signals { font-size: 11px; color: var(--muted-2); margin-top: 7px; line-height: 1.45; }
 
+.prices-grid { grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); }
+.price-card { padding: 0; overflow: hidden; height: 150px; }
+.price-card .tradingview-widget-container,
+.price-card .tradingview-widget-container__widget { height: 100%; width: 100%; }
+
 .social-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; gap: 12px; flex-wrap: wrap; }
 .social-title { margin: 0; font-size: 13.5px; font-weight: 600; }
 
