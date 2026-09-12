@@ -35,13 +35,6 @@
 
 <div class="page">
 
-{% if market_bias_enabled %}
-<div class="bias-section">
-  <p class="disclaimer">Market Bias is a rule-based heuristic (forecast vs previous, headline keywords) built from the news below &mdash; not financial advice, verify before trading.</p>
-  <div class="bias-grid" id="biasGrid"></div>
-</div>
-{% endif %}
-
 {% if live_prices_enabled %}
 <div class="bias-section">
   <h3 class="social-title">Live Prices</h3>
@@ -64,6 +57,13 @@
     </div>
     {% endfor %}
   </div>
+</div>
+{% endif %}
+
+{% if market_bias_enabled %}
+<div class="bias-section">
+  <p class="disclaimer">Market Bias is a rule-based heuristic (forecast vs previous, headline keywords) built from the news below &mdash; not financial advice, verify before trading.</p>
+  <div class="bias-grid" id="biasGrid"></div>
 </div>
 {% endif %}
 
