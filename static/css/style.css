@@ -368,14 +368,12 @@ a.title-link:hover { color: var(--accent-strong); text-decoration: underline; }
 .bias-card .bias-label.Neutral { color: var(--muted); }
 .bias-card .signals { font-size: 11px; color: var(--muted-2); margin-top: 7px; line-height: 1.45; }
 
-.ticker-card {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  overflow: hidden;
-}
-.ticker-card .tradingview-widget-container,
-.ticker-card .tradingview-widget-container__widget { width: 100%; }
+/* TradingView's single-quote widget silently drops the % change line below
+   ~280px of rendered width, so this grid keeps cards wider than that floor. */
+.prices-grid { grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); }
+.price-card { padding: 10px 4px; }
+.price-card .tradingview-widget-container,
+.price-card .tradingview-widget-container__widget { width: 100%; }
 
 .social-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; gap: 12px; flex-wrap: wrap; }
 .social-title { margin: 0; font-size: 13.5px; font-weight: 600; }
@@ -498,6 +496,7 @@ a.title-link:hover { color: var(--accent-strong); text-decoration: underline; }
   .brand-text p { font-size: 11.5px; }
   .header-actions { width: 100%; justify-content: space-between; gap: 12px; }
   .bias-section { margin: 0 16px 20px; }
+  .prices-grid { grid-template-columns: 1fr; }
   .panel { padding: 16px; }
   .results-header { flex-wrap: wrap; }
   .refresh-controls { width: 100%; justify-content: space-between; }
@@ -550,5 +549,6 @@ a.title-link:hover { color: var(--accent-strong); text-decoration: underline; }
 @media (max-width: 420px) {
   .pairs { grid-template-columns: 1fr; }
   .bias-grid { grid-template-columns: repeat(auto-fill, minmax(135px, 1fr)); }
+  .prices-grid { grid-template-columns: 1fr; }
   .auth-card { padding: 28px 22px; }
 }

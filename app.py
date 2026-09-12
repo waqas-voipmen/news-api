@@ -63,8 +63,8 @@ TRADINGVIEW_SYMBOLS = {
     "USDCAD": "OANDA:USDCAD",
     "AUDUSD": "OANDA:AUDUSD",
     "NZDUSD": "OANDA:NZDUSD",
-    "XAUUSD": "OANDA:XAUUSD",
-    "XAGUSD": "OANDA:XAGUSD",
+    "XAUUSD": "FOREXCOM:XAUUSD",
+    "XAGUSD": "FOREXCOM:XAGUSD",
     "DXY": "CAPITALCOM:DXY",
 }
 
@@ -517,9 +517,7 @@ def home():
         social_sentiment_enabled=settings["social_sentiment_enabled"],
         market_bias_enabled=settings["market_bias_enabled"],
         live_prices_enabled=settings["live_prices_enabled"],
-        tradingview_ticker_json=json.dumps(
-            [{"proName": symbol, "title": pair} for pair, symbol in TRADINGVIEW_SYMBOLS.items()]
-        ),
+        tradingview_pairs=list(TRADINGVIEW_SYMBOLS.items()),
         settings_json=json.dumps(settings, sort_keys=True),
     )
 
