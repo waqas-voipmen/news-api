@@ -197,6 +197,10 @@ def admin_required(view):
     return wrapped
 
 
+def _get_theme():
+    return "dark" if request.cookies.get("theme") == "dark" else "light"
+
+
 @app.route("/login", methods=["GET", "POST"])
 def login():
     error = None
@@ -208,7 +212,7 @@ def login():
             session["username"] = username
             return redirect(request.args.get("next") or url_for("home"))
         error = "Invalid username or password"
-    return render_template("login.html", error=error)
+    return render_template("login.html", error=error, theme=_get_theme())
 
 
 @app.route("/logout")
@@ -276,6 +280,7 @@ def admin_users():
         message=message,
         active="users",
         expiry_days=USER_EXPIRY_DAYS,
+        theme=_get_theme(),
     )
 
 
@@ -301,6 +306,7 @@ def admin_settings():
         settings=_load_settings(),
         source_labels=SOURCE_LABELS,
         active="settings",
+        theme=_get_theme(),
     )
 
 
@@ -507,6 +513,7 @@ def home():
         {"key": key, "label": label}
         for key, label in SOURCE_LABELS.items() if settings["sources"].get(key, True)
     ]
+    theme = _get_theme()
     return render_template(
         "index.html",
         currencies=[{"code": c, "label": analysis.INSTRUMENT_LABELS[c]} for c in FILTERABLE_INSTRUMENTS],
@@ -519,6 +526,8 @@ def home():
         live_prices_enabled=settings["live_prices_enabled"],
         tradingview_pairs=list(TRADINGVIEW_SYMBOLS.items()),
         settings_json=json.dumps(settings, sort_keys=True),
+        theme=theme,
+        tradingview_color_theme=theme,
     )
 
 

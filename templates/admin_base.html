@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="{{ theme }}">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -34,6 +34,7 @@
     <div class="divider"></div>
     <a href="{{ url_for('home') }}">&larr; Back to Dashboard</a>
     <a href="{{ url_for('logout') }}">Logout</a>
+    <button type="button" class="theme-toggle theme-toggle-sidebar" aria-label="Toggle night mode">&#9789;</button>
   </div>
 
   <div class="main">
@@ -43,5 +44,6 @@
   </div>
 </div>
 
+<script src="{{ url_for('static', filename='js/theme.js') }}"></script>
 </body>
 </html>

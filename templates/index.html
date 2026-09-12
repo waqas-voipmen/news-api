@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="{{ theme }}">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -30,6 +30,7 @@
     <span class="user-pill">{{ current_user }}</span>
     {% if is_admin %}<a href="{{ url_for('admin_panel') }}" class="primary-link">Admin Panel</a>{% endif %}
     <a href="{{ url_for('logout') }}">Logout</a>
+    <button type="button" class="theme-toggle" aria-label="Toggle night mode">&#9789;</button>
   </div>
 </header>
 
@@ -49,7 +50,7 @@
           "symbol": "{{ tv_symbol }}",
           "width": "100%",
           "locale": "en",
-          "colorTheme": "light",
+          "colorTheme": "{{ tradingview_color_theme }}",
           "isTransparent": true
         }
         </script>
@@ -401,6 +402,7 @@ async function checkSettingsChanged() {
 const SETTINGS_POLL_MS = 15 * 1000;
 setInterval(checkSettingsChanged, SETTINGS_POLL_MS);
 </script>
+<script src="{{ url_for('static', filename='js/theme.js') }}"></script>
 
 </body>
 </html>

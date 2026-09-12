@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="{{ theme }}">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +11,7 @@
 <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
+  <button type="button" class="theme-toggle theme-toggle-float" aria-label="Toggle night mode">&#9789;</button>
   <div class="auth-shell">
     <form class="auth-card" method="POST">
       <div class="brand-mark">
@@ -34,5 +35,6 @@
       <button type="submit" class="btn">Login</button>
     </form>
   </div>
+  <script src="{{ url_for('static', filename='js/theme.js') }}"></script>
 </body>
 </html>
