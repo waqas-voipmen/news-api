@@ -308,11 +308,12 @@ tbody tr:last-child td { border-bottom: none; }
   font-size: 11px;
   font-weight: 700;
   letter-spacing: .01em;
-  color: #0f1115;
+  background: var(--accent);
+  color: #fff;
 }
 .badge.High { background: var(--high); color: #fff; }
-.badge.Medium { background: var(--medium); }
-.badge.Low { background: var(--low); }
+.badge.Medium { background: var(--medium); color: #0f1115; }
+.badge.Low { background: var(--low); color: #0f1115; }
 .badge.Holiday { background: var(--holiday); color: #fff; }
 .badge.News { background: var(--accent); color: #fff; }
 .badge.Analysis { background: var(--accent-2); color: #fff; }

@@ -32,7 +32,7 @@
       {% for u in users_info %}
       <tr>
         <td>{{ u.username }}</td>
-        <td>{% if u.is_admin %}<span class="badge">Admin</span>{% else %}User{% endif %}</td>
+        <td>{% if u.is_admin %}<span class="badge Admin">Admin</span>{% else %}User{% endif %}</td>
         <td>
           {% if u.days_active is none %}&mdash;
           {% elif u.days_active == 0 %}Today
