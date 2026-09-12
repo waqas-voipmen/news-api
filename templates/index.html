@@ -42,6 +42,17 @@
 </div>
 {% endif %}
 
+{% if live_prices_enabled %}
+<div class="bias-section">
+  <div class="social-header">
+    <h3 class="social-title">Live Prices</h3>
+    <button id="checkPrices">Refresh Prices</button>
+  </div>
+  <p class="disclaimer">Indicative quotes (Yahoo Finance) for reference only &mdash; not for trade execution, always confirm with your broker's live feed.</p>
+  <div class="bias-grid" id="pricesGrid"></div>
+</div>
+{% endif %}
+
 {% if social_sentiment_enabled %}
 <div class="bias-section">
   <div class="social-header">
@@ -343,6 +354,61 @@ async function loadSocialSentiment() {
   btn.disabled = false;
   btn.textContent = 'Check Social Sentiment';
 }
+
+const PRICE_DECIMALS = {
+  USDJPY: 3, XAUUSD: 2, XAGUSD: 3, DXY: 3,
+  EURUSD: 4, GBPUSD: 4, USDCHF: 4, USDCAD: 4, AUDUSD: 4, NZDUSD: 4,
+};
+
+async function loadLivePrices() {
+  const btn = document.getElementById('checkPrices');
+  const grid = document.getElementById('pricesGrid');
+  btn.disabled = true;
+  btn.textContent = 'Refreshing...';
+  grid.innerHTML = '<span style="color:var(--muted); font-size:12px;">Fetching live prices...</span>';
+
+  let data;
+  try {
+    const res = await fetch('/api/live-prices');
+    data = await res.json();
+  } catch (err) {
+    grid.innerHTML = '<span style="color:var(--muted); font-size:12px;">Error: could not reach the server</span>';
+    btn.disabled = false;
+    btn.textContent = 'Refresh Prices';
+    return;
+  }
+
+  const entries = Object.entries(data.pairs || {});
+  grid.innerHTML = entries.map(([pair, info]) => {
+    if (info.error) {
+      return `<div class="bias-card">
+        <div class="pair-name">${pair}</div>
+        <div class="signals">${escapeHtml(info.error)}</div>
+      </div>`;
+    }
+
+    const decimals = PRICE_DECIMALS[pair] ?? 4;
+    const priceText = info.price != null ? info.price.toFixed(decimals) : '-';
+    const changeSign = info.change_percent >= 0 ? '+' : '';
+    const changeClass = info.change_percent >= 0 ? 'Bullish' : 'Bearish';
+    const changeText = info.change_percent != null ? `${changeSign}${info.change_percent.toFixed(2)}%` : '-';
+    const time = info.time
+      ? new Date(info.time * 1000).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
+      : '';
+
+    return `<div class="bias-card">
+      <div class="pair-name">${pair}</div>
+      <div class="bias-label ${changeClass}">${priceText}</div>
+      <div class="signals">${changeText}${time ? ' &middot; ' + time : ''}</div>
+    </div>`;
+  }).join('');
+
+  btn.disabled = false;
+  btn.textContent = 'Refresh Prices';
+}
+
+const checkPricesBtn = document.getElementById('checkPrices');
+if (checkPricesBtn) checkPricesBtn.addEventListener('click', loadLivePrices);
 
 const checkSocialBtn = document.getElementById('checkSocial');
 if (checkSocialBtn) checkSocialBtn.addEventListener('click', loadSocialSentiment);

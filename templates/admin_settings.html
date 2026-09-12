@@ -28,6 +28,10 @@
       <input type="checkbox" name="social_sentiment_enabled" {% if settings.social_sentiment_enabled %}checked{% endif %}>
       Social Media Sentiment (StockTwits)
     </label>
+    <label class="toggle-row">
+      <input type="checkbox" name="live_prices_enabled" {% if settings.live_prices_enabled %}checked{% endif %}>
+      Live Prices (Yahoo Finance)
+    </label>
 
     <button type="submit" style="margin-top:16px;">Save Settings</button>
   </form>

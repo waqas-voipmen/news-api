@@ -3,6 +3,7 @@ import os
 import re
 import time
 import xml.etree.ElementTree as ET
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from functools import wraps
@@ -51,6 +52,23 @@ FF_CACHE_URL = "https://raw.githubusercontent.com/waqas-voipmen/news-api/master/
 STOCKTWITS_STREAM_URL = "https://api.stocktwits.com/api/2/streams/symbol/{symbol}.json"
 SOCIAL_PAIRS = list(analysis.PAIRS)  # StockTwits recognizes these same 9 tickers directly
 
+YAHOO_CHART_URL = "https://query1.finance.yahoo.com/v8/finance/chart/{symbol}"
+# Yahoo has no XAUUSD=X/XAG=X spot tickers; COMEX front-month futures (GC=F, SI=F)
+# track spot gold/silver closely enough for a reference quote. DX-Y.NYB is the ICE
+# US Dollar Index cash ticker, same instrument DXY refers to elsewhere in this app.
+LIVE_PRICE_SYMBOLS = {
+    "EURUSD": "EURUSD=X",
+    "GBPUSD": "GBPUSD=X",
+    "USDJPY": "USDJPY=X",
+    "USDCHF": "USDCHF=X",
+    "USDCAD": "USDCAD=X",
+    "AUDUSD": "AUDUSD=X",
+    "NZDUSD": "NZDUSD=X",
+    "XAUUSD": "GC=F",
+    "XAGUSD": "SI=F",
+    "DXY": "DX-Y.NYB",
+}
+
 # DailyFX sits behind Akamai's bot-protection, which blocks at the network/IP level
 # (every path, including /sitemap.xml, returns an Akamai "Access Denied" edge block).
 # Unlike Myfxbook's Cloudflare check, this isn't a TLS-fingerprint issue curl_cffi can
@@ -84,6 +102,7 @@ DEFAULT_SETTINGS = {
     "social_sentiment_enabled": True,
     "market_bias_enabled": True,
     "news_sentiment_enabled": True,
+    "live_prices_enabled": True,
 }
 
 
@@ -141,6 +160,7 @@ def _load_settings():
     settings.setdefault("social_sentiment_enabled", True)
     settings.setdefault("market_bias_enabled", True)
     settings.setdefault("news_sentiment_enabled", True)
+    settings.setdefault("live_prices_enabled", True)
     return settings
 
 
@@ -272,6 +292,7 @@ def admin_settings():
         settings["social_sentiment_enabled"] = request.form.get("social_sentiment_enabled") == "on"
         settings["market_bias_enabled"] = request.form.get("market_bias_enabled") == "on"
         settings["news_sentiment_enabled"] = request.form.get("news_sentiment_enabled") == "on"
+        settings["live_prices_enabled"] = request.form.get("live_prices_enabled") == "on"
         _save_settings(settings)
         message = "Settings saved"
 
@@ -301,10 +322,10 @@ def _write_cache(key, events):
     _cache_file(key).write_text(json.dumps({"fetched_at": time.time(), "events": events}))
 
 
-def _cached_fetch(key, loader):
+def _cached_fetch(key, loader, ttl=CACHE_TTL):
     """Run loader() with disk caching, retry-after handling, and stale-on-failure fallback."""
     cached = _read_cache(key)
-    if cached and time.time() - cached[0] < CACHE_TTL:
+    if cached and time.time() - cached[0] < ttl:
         return cached[1]
 
     try:
@@ -450,6 +471,71 @@ def fetch_social_sentiment(pair):
     return _cached_fetch(f"social_{pair}", loader)
 
 
+def fetch_live_price(pair):
+    """Live-ish reference quote for a pair via Yahoo Finance's public chart endpoint
+    (query1.finance.yahoo.com is reachable directly from PythonAnywhere's free-tier
+    whitelist, unlike most other sources in this file, so no proxy needed here).
+    Cached briefly (not the usual 5-minute CACHE_TTL) so the on-demand refresh
+    button feels live while still protecting against a user mashing it repeatedly."""
+    symbol = LIVE_PRICE_SYMBOLS[pair]
+    url = YAHOO_CHART_URL.format(symbol=symbol)
+
+    def loader():
+        response = requests.get(url, headers=HEADERS, timeout=10)
+        if response.status_code == 429:
+            raise RateLimited(int(response.headers.get("Retry-After", 60)))
+        response.raise_for_status()
+        data = response.json()
+        result = (data.get("chart") or {}).get("result")
+        if not result:
+            error = (data.get("chart") or {}).get("error") or {}
+            raise requests.RequestException(error.get("description", "no data returned"))
+
+        meta = result[0]["meta"]
+        price = meta.get("regularMarketPrice")
+        previous_close = meta.get("previousClose") or meta.get("chartPreviousClose")
+        change_percent = meta.get("regularMarketChangePercent")
+        if change_percent is None and price is not None and previous_close:
+            change_percent = (price - previous_close) / previous_close * 100
+        return {
+            "price": price,
+            "previous_close": previous_close,
+            "change_percent": change_percent,
+            "time": meta.get("regularMarketTime"),
+        }
+
+    return _cached_fetch(f"price_{pair}", loader, ttl=20)
+
+
+@app.route("/api/live-prices")
+@login_required
+def get_live_prices():
+    if not _load_settings()["live_prices_enabled"]:
+        return jsonify({"pairs": {}, "error": "Live prices have been disabled by the admin"}), 403
+
+    pairs_param = request.args.get("pairs")
+    pairs = [p.strip().upper() for p in pairs_param.split(",")] if pairs_param else list(LIVE_PRICE_SYMBOLS)
+    pairs = [p for p in pairs if p in LIVE_PRICE_SYMBOLS]
+
+    def fetch_one(pair):
+        try:
+            return pair, fetch_live_price(pair)
+        except RateLimited as e:
+            return pair, {"error": f"rate limited, try again in {e.retry_after}s"}
+        except NETWORK_ERRORS as e:
+            return pair, {"error": f"failed to fetch: {e}"}
+
+    # Each pair is an independent HTTP round-trip to Yahoo, so fetching sequentially
+    # took ~20s for all 10; a small thread pool turns that into ~1 slowest request.
+    if pairs:
+        with ThreadPoolExecutor(max_workers=len(pairs)) as pool:
+            result = dict(pool.map(fetch_one, pairs))
+    else:
+        result = {}
+
+    return jsonify({"pairs": result})
+
+
 @app.route("/api/social-sentiment")
 @login_required
 def get_social_sentiment():
@@ -496,6 +582,7 @@ def home():
         enabled_sources=enabled_sources,
         social_sentiment_enabled=settings["social_sentiment_enabled"],
         market_bias_enabled=settings["market_bias_enabled"],
+        live_prices_enabled=settings["live_prices_enabled"],
         settings_json=json.dumps(settings, sort_keys=True),
     )
 
