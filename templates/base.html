@@ -108,12 +108,6 @@ function selectedSources() {
 // defaults instead of whatever was applied elsewhere. Reloading THIS page (or
 // bookmarking/sharing its URL) still keeps its own filters, since Apply writes
 // them into the URL before navigating.
-function isoToLocalInputValue(iso) {
-  const d = new Date(iso);
-  if (isNaN(d)) return '';
-  const pad = n => String(n).padStart(2, '0');
-  return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}T${pad(d.getHours())}:${pad(d.getMinutes())}`;
-}
 
 // Each page can set its own default (e.g. Market Bias defaults to "Today" rather
 // than "This Week") for a first visit with nothing in the URL yet.
@@ -127,12 +121,6 @@ function initFiltersFromURL() {
 
   const impactEl = document.getElementById('impact');
   if (impactEl) impactEl.value = params.get('impact') || '';
-
-  const fromEl = document.getElementById('from');
-  if (fromEl) fromEl.value = params.get('from') ? isoToLocalInputValue(params.get('from')) : '';
-
-  const toEl = document.getElementById('to');
-  if (toEl) toEl.value = params.get('to') ? isoToLocalInputValue(params.get('to')) : '';
 
   if (sourcesEl) {
     const sourcesParam = params.get('sources');
@@ -169,23 +157,14 @@ if (applyFiltersBtn) {
     const impact = document.getElementById('impact').value;
     if (impact) params.set('impact', impact);
 
-    // datetime-local inputs give a value with no timezone (interpreted by the
-    // Date constructor as the browser's local time); convert to a UTC ISO string
-    // so it means the same moment regardless of which page reads it back.
-    const from = document.getElementById('from').value;
-    if (from) params.set('from', new Date(from).toISOString());
-
-    const to = document.getElementById('to').value;
-    if (to) params.set('to', new Date(to).toISOString());
-
     const sources = selectedSources();
     if (sources !== null) params.set('sources', sources.length ? sources.join(',') : 'none');
 
     const currencies = selectedCurrencies();
     if (currencies.length) params.set('currencies', currencies.join(','));
 
-    // A real navigation (not just an AJAX refetch) so the new filters land in the
-    // URL -- that's what lets the nav links above carry them to the other pages.
+    // A real navigation (not just an AJAX refetch) so the new filters land in
+    // this page's own URL (see initFiltersFromURL above).
     window.location.href = window.location.pathname + '?' + params.toString();
   });
 }
@@ -232,12 +211,6 @@ async function loadNewsInner() {
 
   const impact = document.getElementById('impact').value;
   if (impact) params.set('impact', impact);
-
-  const from = document.getElementById('from').value;
-  if (from) params.set('from', new Date(from).toISOString());
-
-  const to = document.getElementById('to').value;
-  if (to) params.set('to', new Date(to).toISOString());
 
   const currencies = selectedCurrencies();
   if (currencies.length) params.set('currencies', currencies.join(','));
@@ -338,10 +311,6 @@ async function loadSocialSentiment() {
 
   const params = new URLSearchParams();
   params.set('period', document.getElementById('period').value);
-  const from = document.getElementById('from').value;
-  if (from) params.set('from', new Date(from).toISOString());
-  const to = document.getElementById('to').value;
-  if (to) params.set('to', new Date(to).toISOString());
   const currencies = selectedCurrencies();
   if (currencies.length) params.set('currencies', currencies.join(','));
 
