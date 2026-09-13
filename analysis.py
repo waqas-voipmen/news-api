@@ -200,20 +200,20 @@ def _classify_calendar_event(event):
     forecast = _parse_number(event.get("forecast"))
     previous = _parse_number(event.get("previous"))
     if forecast is None or previous is None:
-        return {"sentiment": "Neutral", "reason": "abhi forecast/previous ke figures maujood nahi hain, is liye compare nahi ho saka", "strength": 0.0}
+        return {"sentiment": "Neutral", "reason": "no forecast/previous figures available, so no comparison could be made", "strength": 0.0}
 
     diff = forecast - previous
     if diff == 0:
-        return {"sentiment": "Neutral", "reason": "forecast previous jaisa hi hai, koi tabdeeli nahi", "strength": 0.0}
+        return {"sentiment": "Neutral", "reason": "forecast matches previous, no change", "strength": 0.0}
 
     inverse = any(k in event["title"].lower() for k in INVERSE_INDICATOR_KEYWORDS)
     improving = diff > 0
     sentiment = "Bullish" if (improving != inverse) else "Bearish"
 
-    trend = "zyada" if improving else "kam"
-    reason = f"forecast ({event['forecast']}) previous ({event['previous']}) sy {trend} hai"
+    trend = "higher" if improving else "lower"
+    reason = f"forecast ({event['forecast']}) is {trend} than previous ({event['previous']})"
     if inverse:
-        reason += " -- ye ulta (inverse) indicator hai, is liye zyada number currency ke liye bura hota hai"
+        reason += " -- this is an inverse indicator, so a higher number is bad for the currency"
 
     relative_move = abs(diff) / abs(previous) if previous else 0.5
     return {"sentiment": sentiment, "reason": reason, "strength": min(relative_move, 1.0)}
@@ -279,13 +279,13 @@ def _analyze_news_text(title, description=""):
         bull, bear = _sentiment_score(combined)
         if bull == bear:
             return {
-                "sentiment": "Neutral", "reason": "koi clear direction wale lafz nahi milay, aur na hi koi specific currency/commodity ka zikar hai",
+                "sentiment": "Neutral", "reason": "no clear directional words found, and no specific currency/commodity mentioned",
                 "strength": 0.0, "instrument": None, "instrument_label": None, "affected": {}, "signals": [],
             }
         sentiment = "Bullish" if bull > bear else "Bearish"
         return {
             "sentiment": sentiment,
-            "reason": f"headline mein {bull} bullish aur {bear} bearish lafz milay, lekin koi specific currency/commodity naam nahi li gayi",
+            "reason": f"headline had {bull} bullish and {bear} bearish word(s), but no specific currency/commodity named",
             "strength": min(abs(bull - bear) / 3, 1.0),
             "instrument": None, "instrument_label": None, "affected": {}, "signals": [],
         }
@@ -296,7 +296,7 @@ def _analyze_news_text(title, description=""):
         signals.append({
             "pair": pair, "instrument": None, "instrument_label": pair,
             "sentiment": sentiment,
-            "reason": f"{pair} (pair ka naam seedha mila): {bull} bullish aur {bear} bearish lafz",
+            "reason": f"{pair} (pair named directly): {bull} bullish and {bear} bearish word(s)",
             "strength": min(abs(bull - bear) / 3, 1.0) if bull != bear else 0.0,
         })
     for instrument, (bull, bear) in per_instrument.items():
@@ -304,7 +304,7 @@ def _analyze_news_text(title, description=""):
         signals.append({
             "pair": None, "instrument": instrument, "instrument_label": INSTRUMENT_LABELS[instrument],
             "sentiment": sentiment,
-            "reason": f"{INSTRUMENT_LABELS[instrument]} ke qareeb {bull} bullish aur {bear} bearish lafz milay",
+            "reason": f"{bull} bullish and {bear} bearish word(s) found near {INSTRUMENT_LABELS[instrument]}",
             "strength": min(abs(bull - bear) / 3, 1.0) if bull != bear else 0.0,
         })
 
@@ -391,7 +391,7 @@ def classify_social_post(body, explicit_sentiment=None):
     that's a real stated opinion, not a guess; falls back to trader-slang keyword
     scoring (long/short/buy/sell/...) plus the general bullish/bearish word lists."""
     if explicit_sentiment in ("Bullish", "Bearish"):
-        return {"sentiment": explicit_sentiment, "reason": "poster ne khud is post ko tag kiya", "strength": 1.0}
+        return {"sentiment": explicit_sentiment, "reason": "poster tagged this post themselves", "strength": 1.0}
 
     bull, bear = _sentiment_score(body)
     lowered = body.lower()
@@ -401,11 +401,11 @@ def classify_social_post(body, explicit_sentiment=None):
         bear += len(pattern.findall(lowered))
 
     if bull == bear:
-        return {"sentiment": "Neutral", "reason": "post mein koi clear direction nahi", "strength": 0.0}
+        return {"sentiment": "Neutral", "reason": "no clear direction in the post", "strength": 0.0}
     sentiment = "Bullish" if bull > bear else "Bearish"
     return {
         "sentiment": sentiment,
-        "reason": f"post ke lafzon sy {sentiment} lag raha hai ({bull} bullish vs {bear} bearish)",
+        "reason": f"post's wording reads {sentiment} ({bull} bullish vs {bear} bearish)",
         "strength": min(abs(bull - bear) / 3, 1.0),
     }
 
