@@ -512,6 +512,18 @@ def get_social_sentiment():
     pairs = [p.strip().upper() for p in pairs_param.split(",")] if pairs_param else SOCIAL_PAIRS
     pairs = [p for p in pairs if p in SOCIAL_PAIRS]
 
+    # The shared Pairs filter chips use instrument-level codes (USD, XAU, WTI, ...),
+    # not raw StockTwits tickers (EURUSD, XAUUSD, CL_F) -- same base/quote match
+    # already used to narrow Market Bias's pair_bias.
+    currencies = request.args.get("currencies")
+    if currencies:
+        wanted_currencies = {c.strip().upper() for c in currencies.split(",") if c.strip()}
+        pairs = [
+            p for p in pairs
+            if analysis.PAIRS[p][0] in wanted_currencies
+            or (analysis.PAIRS[p][1] and analysis.PAIRS[p][1] in wanted_currencies)
+        ]
+
     # StockTwits' stream endpoint only ever returns its ~30 most recent posts for a
     # symbol (no deep history), so this can only narrow DOWN to a period, not fetch
     # further back than that -- e.g. "Last Week" may show fewer/no posts if none of
@@ -629,7 +641,10 @@ def market_bias_page():
 @app.route("/social-sentiment")
 @login_required
 def social_sentiment_page():
-    return render_template("social_sentiment.html", **_page_context("social_sentiment"))
+    return render_template(
+        "social_sentiment.html",
+        **_page_context("social_sentiment", hide_sources=True, default_period="today"),
+    )
 
 
 @app.route("/api/settings")

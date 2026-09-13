@@ -338,6 +338,8 @@ async function loadSocialSentiment() {
   if (from) params.set('from', new Date(from).toISOString());
   const to = document.getElementById('to').value;
   if (to) params.set('to', new Date(to).toISOString());
+  const currencies = selectedCurrencies();
+  if (currencies.length) params.set('currencies', currencies.join(','));
 
   let data;
   try {
