@@ -36,6 +36,77 @@
 
 <div class="page">
 
+<div class="filter-bar">
+  <div class="filter-bar-label">Filters</div>
+  <div class="filter-row filter-row-controls">
+    <div class="field-inline">
+      <label>Period</label>
+      <select id="period">
+        <option value="today">Today</option>
+        <option value="tomorrow">Tomorrow</option>
+        <option value="lastweek">Last Week</option>
+        <option value="week" selected>This Week</option>
+        <option value="nextweek">Next Week</option>
+      </select>
+    </div>
+
+    <div class="field-inline">
+      <label>Impact</label>
+      <select id="impact">
+        <option value="">All</option>
+        <option value="High">High</option>
+        <option value="Medium">Medium</option>
+        <option value="Low">Low</option>
+      </select>
+    </div>
+
+    <div class="field-inline">
+      <label>From</label>
+      <input type="datetime-local" id="from">
+    </div>
+
+    <div class="field-inline">
+      <label>To</label>
+      <input type="datetime-local" id="to">
+    </div>
+
+    <button id="apply">Apply Filters</button>
+  </div>
+
+  <div class="filter-row filter-row-chips">
+    <div class="chip-group">
+      <span class="chip-group-label">Sources</span>
+      <div class="sources" id="sources">
+        {% for source in enabled_sources %}
+        <label class="source-chip active" data-source="{{ source.key }}">
+          <input type="checkbox" value="{{ source.key }}" checked>
+          {{ source.label }}
+        </label>
+        {% endfor %}
+        {% for key, reason in unavailable_sources.items() %}
+        <label class="source-chip disabled" title="Unavailable: {{ reason }}">
+          <input type="checkbox" disabled>
+          {{ key|capitalize }}
+          <span class="why">unavailable</span>
+        </label>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="chip-group">
+      <span class="chip-group-label">Pairs</span>
+      <div class="pairs" id="pairs">
+        {% for c in currencies %}
+        <label class="pair-chip" data-code="{{ c.code }}">
+          <input type="checkbox" value="{{ c.code }}">
+          {{ c.label }}
+        </label>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
 {% if live_prices_enabled %}
 <div class="bias-section">
   <h3 class="social-title">Live Prices</h3>
@@ -79,75 +150,7 @@
 </div>
 {% endif %}
 
-<div class="layout">
-  <div class="panel sticky">
-    <h3>Filters</h3>
-
-    <div class="field">
-      <label>News Sources</label>
-      <div class="sources" id="sources">
-        {% for source in enabled_sources %}
-        <label class="source-chip active" data-source="{{ source.key }}">
-          <input type="checkbox" value="{{ source.key }}" checked>
-          {{ source.label }}
-        </label>
-        {% endfor %}
-        {% for key, reason in unavailable_sources.items() %}
-        <label class="source-chip disabled" title="Unavailable: {{ reason }}">
-          <input type="checkbox" disabled>
-          {{ key|capitalize }}
-          <span class="why">unavailable</span>
-        </label>
-        {% endfor %}
-      </div>
-    </div>
-
-    <div class="field">
-      <label>Period</label>
-      <select id="period">
-        <option value="today">Today</option>
-        <option value="tomorrow">Tomorrow</option>
-        <option value="lastweek">Last Week</option>
-        <option value="week" selected>This Week</option>
-        <option value="nextweek">Next Week</option>
-      </select>
-    </div>
-
-    <div class="field">
-      <label>Impact</label>
-      <select id="impact">
-        <option value="">All</option>
-        <option value="High">High</option>
-        <option value="Medium">Medium</option>
-        <option value="Low">Low</option>
-      </select>
-    </div>
-
-    <div class="field">
-      <label>From</label>
-      <input type="datetime-local" id="from">
-    </div>
-
-    <div class="field">
-      <label>To</label>
-      <input type="datetime-local" id="to">
-    </div>
-
-    <div class="field">
-      <label>Currency Pairs</label>
-      <div class="pairs" id="pairs">
-        {% for c in currencies %}
-        <label class="pair-chip" data-code="{{ c.code }}">
-          <input type="checkbox" value="{{ c.code }}">
-          {{ c.label }}
-        </label>
-        {% endfor %}
-      </div>
-    </div>
-
-    <button id="apply">Apply Filters</button>
-  </div>
-
+<div class="results-section">
   <div class="panel">
     <div class="results-header">
       <div class="count" id="count">Loading...</div>
