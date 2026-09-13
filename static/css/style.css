@@ -100,15 +100,9 @@ a { color: var(--accent); }
   flex-shrink: 0;
   width: 30px;
   height: 30px;
-  border-radius: var(--radius-sm);
   display: flex;
   align-items: center;
   justify-content: center;
-  font-weight: 700;
-  font-size: 14.5px;
-  letter-spacing: -0.02em;
-  color: #fff;
-  background: var(--accent);
 }
 
 .brand-text h1 {
@@ -532,7 +526,7 @@ a.title-link:hover { color: var(--accent-strong); text-decoration: underline; }
   box-shadow: 0 4px 12px rgba(16, 24, 40, 0.06), 0 12px 32px rgba(16, 24, 40, 0.06);
 }
 
-.auth-card .brand-mark { margin: 0 auto 20px; }
+.auth-card .brand-mark { width: 44px; height: 44px; margin: 0 auto 20px; }
 .auth-card h1 { font-size: 18px; margin: 0 0 5px; text-align: center; font-weight: 600; letter-spacing: -0.015em; }
 .auth-card .subtitle { font-size: 14.5px; color: var(--muted-2); margin: 0 0 26px; text-align: center; }
 .auth-card .error {
