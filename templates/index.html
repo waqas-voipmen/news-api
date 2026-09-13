@@ -297,6 +297,9 @@ async function loadNewsInner() {
   renderBiasGrid(data.pair_bias || {});
 
   if (data.count === 0) {
+    emptyEl.textContent = params.get('period') === 'nextweek'
+      ? "No news for next week yet -- every source here only reports on events after they happen, and ForexFactory's free calendar (the one forward-looking source) doesn't publish next week's events in advance. Check back once next week starts."
+      : 'No news found for the selected filters';
     emptyEl.style.display = 'block';
     return;
   }
