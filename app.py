@@ -27,13 +27,14 @@ HEADERS = {
 }
 
 CURRENCIES = ["USD", "EUR", "GBP", "JPY", "AUD", "CAD", "CHF", "NZD"]
-FILTERABLE_INSTRUMENTS = CURRENCIES + ["XAU", "XAG"]  # Gold, Silver
+FILTERABLE_INSTRUMENTS = CURRENCIES + ["XAU", "XAG", "BTC"]  # Gold, Silver, Bitcoin
 
 SOURCE_LABELS = {
     "forexfactory": "ForexFactory (calendar)",
     "fxstreet": "FXStreet (news)",
     "fxstreet_analysis": "FXStreet (analyst forecasts)",
     "investing": "Investing.com (news)",
+    "investing_crypto": "Investing.com (crypto news)",
     "myfxbook": "Myfxbook (news)",
 }
 
@@ -46,10 +47,11 @@ FF_FEEDS = {
 FXSTREET_RSS = "https://www.fxstreet.com/rss/news"
 FXSTREET_ANALYSIS_RSS = "https://www.fxstreet.com/rss/analysis"
 INVESTING_RSS = "https://www.investing.com/rss/news_1.rss"  # category 1 = Forex News
+INVESTING_CRYPTO_RSS = "https://www.investing.com/rss/news_301.rss"  # category 301 = Cryptocurrency News
 MYFXBOOK_CACHE_URL = "https://raw.githubusercontent.com/waqas-voipmen/news-api/master/myfxbook_cache.json"
 FF_CACHE_URL = "https://raw.githubusercontent.com/waqas-voipmen/news-api/master/forexfactory_cache.json"
 STOCKTWITS_STREAM_URL = "https://api.stocktwits.com/api/2/streams/symbol/{symbol}.json"
-SOCIAL_PAIRS = list(analysis.PAIRS)  # StockTwits recognizes these same 9 tickers directly
+SOCIAL_PAIRS = list(analysis.PAIRS)  # StockTwits recognizes these same tickers directly (BTCUSD included)
 
 # Live prices are shown via TradingView's own embeddable widgets (see the Live
 # Prices section in index.html) rather than fetched server-side -- that gives
@@ -431,6 +433,10 @@ def fetch_investing_news():
     return _fetch_rss_news(INVESTING_RSS, "Investing.com", "rss_investing")
 
 
+def fetch_investing_crypto_news():
+    return _fetch_rss_news(INVESTING_CRYPTO_RSS, "Investing.com (Crypto)", "rss_investing_crypto")
+
+
 def fetch_myfxbook_news():
     """Myfxbook's Cloudflare check blocks every datacenter/cloud IP range regardless
     of TLS fingerprint (confirmed against a direct request, a Cloudflare Worker, and
@@ -542,7 +548,7 @@ def get_settings():
 @login_required
 def get_news():
     period = request.args.get("period", "week")
-    sources = request.args.get("sources", "forexfactory,fxstreet,fxstreet_analysis,investing,myfxbook")
+    sources = request.args.get("sources", "forexfactory,fxstreet,fxstreet_analysis,investing,investing_crypto,myfxbook")
     currencies = request.args.get("currencies")  # comma separated, e.g. "USD,CAD"
     impact = request.args.get("impact")
     date_from = request.args.get("from")  # ISO datetime, e.g. 2026-09-03T00:00
@@ -604,6 +610,9 @@ def get_news():
 
     if "investing" in wanted_sources:
         events += _fetch_source("investing", fetch_investing_news)
+
+    if "investing_crypto" in wanted_sources:
+        events += _fetch_source("investing_crypto", fetch_investing_crypto_news)
 
     if "myfxbook" in wanted_sources:
         events += _fetch_source("myfxbook", fetch_myfxbook_news)

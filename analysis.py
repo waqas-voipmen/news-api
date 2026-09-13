@@ -13,7 +13,7 @@ of being collapsed into one instrument.
 import re
 
 CURRENCIES = ["USD", "EUR", "GBP", "JPY", "AUD", "CAD", "CHF", "NZD"]
-INSTRUMENT_LABELS = {"XAU": "Gold", "XAG": "Silver", **{c: c for c in CURRENCIES}}
+INSTRUMENT_LABELS = {"XAU": "Gold", "XAG": "Silver", "BTC": "Bitcoin", **{c: c for c in CURRENCIES}}
 
 # base/quote for the pairs retail traders watch most, including Gold/Silver vs USD
 PAIRS = {
@@ -26,6 +26,7 @@ PAIRS = {
     "NZDUSD": ("NZD", "USD"),
     "XAUUSD": ("XAU", "USD"),
     "XAGUSD": ("XAG", "USD"),
+    "BTCUSD": ("BTC", "USD"),
     # US Dollar Index -- USD's strength vs a currency basket, not a real base/quote
     # pair, but pair_bias() already handles a None quote correctly (it only ever
     # matches the `base` side, so DXY just tracks USD strength 1:1).
@@ -92,6 +93,7 @@ CLAUSE_SPLIT_RE = re.compile(
 _INSTRUMENT_PATTERNS = [
     ("XAU", re.compile(r"\bGOLD\b|\bXAU\b")),
     ("XAG", re.compile(r"\bSILVER\b|\bXAG\b")),
+    ("BTC", re.compile(r"\bBITCOIN\b|\bBTC\b")),
     ("AUD", re.compile(r"\bAUSTRALIAN\s+DOLLAR\b|\bAUSSIE\b|\bAUD\b|\bAUSTRALIA\b|\bAUSTRALIAN\b")),
     ("CAD", re.compile(r"\bCANADIAN\s+DOLLAR\b|\bLOONIE\b|\bCAD\b|\bCANADA\b|\bCANADIAN\b")),
     ("NZD", re.compile(r"\bNEW\s+ZEALAND\s+DOLLAR\b|\bKIWI\b|\bNZD\b|\bNEW\s+ZEALAND\b")),
