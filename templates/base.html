@@ -43,7 +43,7 @@
 
 <div class="page">
 
-{% include "_filters.html" %}
+{% block filters %}{% include "_filters.html" %}{% endblock %}
 
 {% block content %}{% endblock %}
 
@@ -149,32 +149,35 @@ function initFiltersFromURL() {
 }
 initFiltersFromURL();
 
-document.getElementById('apply').addEventListener('click', () => {
-  const params = new URLSearchParams();
-  params.set('period', document.getElementById('period').value);
+const applyFiltersBtn = document.getElementById('apply');
+if (applyFiltersBtn) {
+  applyFiltersBtn.addEventListener('click', () => {
+    const params = new URLSearchParams();
+    params.set('period', document.getElementById('period').value);
 
-  const impact = document.getElementById('impact').value;
-  if (impact) params.set('impact', impact);
+    const impact = document.getElementById('impact').value;
+    if (impact) params.set('impact', impact);
 
-  // datetime-local inputs give a value with no timezone (interpreted by the
-  // Date constructor as the browser's local time); convert to a UTC ISO string
-  // so it means the same moment regardless of which page reads it back.
-  const from = document.getElementById('from').value;
-  if (from) params.set('from', new Date(from).toISOString());
+    // datetime-local inputs give a value with no timezone (interpreted by the
+    // Date constructor as the browser's local time); convert to a UTC ISO string
+    // so it means the same moment regardless of which page reads it back.
+    const from = document.getElementById('from').value;
+    if (from) params.set('from', new Date(from).toISOString());
 
-  const to = document.getElementById('to').value;
-  if (to) params.set('to', new Date(to).toISOString());
+    const to = document.getElementById('to').value;
+    if (to) params.set('to', new Date(to).toISOString());
 
-  const sources = selectedSources();
-  params.set('sources', sources.length ? sources.join(',') : 'none');
+    const sources = selectedSources();
+    params.set('sources', sources.length ? sources.join(',') : 'none');
 
-  const currencies = selectedCurrencies();
-  if (currencies.length) params.set('currencies', currencies.join(','));
+    const currencies = selectedCurrencies();
+    if (currencies.length) params.set('currencies', currencies.join(','));
 
-  // A real navigation (not just an AJAX refetch) so the new filters land in the
-  // URL -- that's what lets the nav links above carry them to the other pages.
-  window.location.href = window.location.pathname + '?' + params.toString();
-});
+    // A real navigation (not just an AJAX refetch) so the new filters land in the
+    // URL -- that's what lets the nav links above carry them to the other pages.
+    window.location.href = window.location.pathname + '?' + params.toString();
+  });
+}
 
 function renderBiasGrid(pairBias) {
   const grid = document.getElementById('biasGrid');
