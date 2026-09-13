@@ -631,19 +631,11 @@ def get_news():
         events = [e for e in events if e.get("impact", "").lower() == impact.lower()]
 
     if date_from:
-        start = datetime.fromisoformat(date_from)
-        # The frontend converts the browser's local datetime-local value to a UTC
-        # ISO string before sending it, so this is normally already tz-aware; a
-        # naive fallback (e.g. a direct API call) is treated as UTC rather than
-        # borrowed from whichever event happens to be compared against it.
-        if start.tzinfo is None:
-            start = start.replace(tzinfo=timezone.utc)
+        start = _parse_iso(date_from)
         events = [e for e in events if _event_time(e) and _event_time(e) >= start]
 
     if date_to:
-        end = datetime.fromisoformat(date_to)
-        if end.tzinfo is None:
-            end = end.replace(tzinfo=timezone.utc)
+        end = _parse_iso(date_to)
         events = [e for e in events if _event_time(e) and _event_time(e) <= end]
 
     events = [e for e in events if e.get("date")]
@@ -655,6 +647,19 @@ def get_news():
     pair_bias = analysis.aggregate_pair_bias(events) if settings["market_bias_enabled"] else {}
 
     return jsonify({"count": len(events), "events": events, "pair_bias": pair_bias, "source_errors": source_errors})
+
+
+def _parse_iso(value):
+    """Parses an ISO datetime string, including a trailing "Z" (as produced by
+    JS's Date.toISOString()) -- datetime.fromisoformat() only accepts "Z"
+    natively on Python 3.11+, and this app also runs on 3.10. A naive result
+    (no offset at all) is treated as UTC rather than left ambiguous."""
+    if value.endswith("Z"):
+        value = value[:-1] + "+00:00"
+    parsed = datetime.fromisoformat(value)
+    if parsed.tzinfo is None:
+        parsed = parsed.replace(tzinfo=timezone.utc)
+    return parsed
 
 
 def _event_time(event):
