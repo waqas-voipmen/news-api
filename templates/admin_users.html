@@ -24,6 +24,7 @@
   <p style="font-size:12px; color:var(--muted); margin:0 0 14px;">
     Non-admin users are automatically deleted {{ expiry_days }} days after they're created.
   </p>
+  <div class="table-scroll">
   <table>
     <thead>
       <tr><th>Username</th><th>Role</th><th>Active Since</th><th>Auto-delete In</th><th></th></tr>
@@ -58,6 +59,7 @@
       {% endfor %}
     </tbody>
   </table>
+  </div>
 </div>
 
 {% endblock %}
