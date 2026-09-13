@@ -66,6 +66,7 @@ TRADINGVIEW_SYMBOLS = {
     "XAUUSD": "FOREXCOM:XAUUSD",
     "XAGUSD": "FOREXCOM:XAGUSD",
     "DXY": "CAPITALCOM:DXY",
+    "BTCUSD": "COINBASE:BTCUSD",
 }
 
 # DailyFX sits behind Akamai's bot-protection, which blocks at the network/IP level
