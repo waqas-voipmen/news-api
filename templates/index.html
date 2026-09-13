@@ -194,9 +194,11 @@ const pairsEl = document.getElementById('pairs');
 pairsEl.addEventListener('click', (e) => {
   const chip = e.target.closest('.pair-chip');
   if (!chip) return;
-  const checkbox = chip.querySelector('input');
-  if (e.target !== checkbox) checkbox.checked = !checkbox.checked;
-  chip.classList.toggle('active', checkbox.checked);
+  // The checkbox is wrapped by this <label>, so the browser already toggles it
+  // natively on any click inside the label (not just on the checkbox square
+  // itself) -- manually flipping `checked` here again would toggle it TWICE,
+  // canceling out for most clicks. Just re-sync the active class instead.
+  chip.classList.toggle('active', chip.querySelector('input').checked);
 });
 
 function selectedCurrencies() {
@@ -207,16 +209,28 @@ const sourcesEl = document.getElementById('sources');
 sourcesEl.addEventListener('click', (e) => {
   const chip = e.target.closest('.source-chip');
   if (!chip || chip.classList.contains('disabled')) return;
-  const checkbox = chip.querySelector('input');
-  if (e.target !== checkbox) checkbox.checked = !checkbox.checked;
-  chip.classList.toggle('active', checkbox.checked);
+  // Same reasoning as the pairs handler above: the label already natively
+  // toggles its wrapped checkbox, so just re-sync the active class.
+  chip.classList.toggle('active', chip.querySelector('input').checked);
 });
 
 function selectedSources() {
   return [...sourcesEl.querySelectorAll('input:not([disabled]):checked')].map(i => i.value);
 }
 
+let newsRequestInFlight = false;
+
 async function loadNews() {
+  if (newsRequestInFlight) return;
+  newsRequestInFlight = true;
+  try {
+    await loadNewsInner();
+  } finally {
+    newsRequestInFlight = false;
+  }
+}
+
+async function loadNewsInner() {
   const params = new URLSearchParams();
   params.set('period', document.getElementById('period').value);
 
@@ -243,12 +257,14 @@ async function loadNews() {
   const rowsEl = document.getElementById('rows');
   const emptyEl = document.getElementById('empty');
   const refreshBtn = document.getElementById('refreshNow');
+  const applyBtn = document.getElementById('apply');
 
   countEl.textContent = 'Loading...';
   rowsEl.innerHTML = '';
   emptyEl.style.display = 'none';
   refreshBtn.classList.add('spinning');
   refreshBtn.disabled = true;
+  applyBtn.disabled = true;
 
   let data;
   try {
@@ -258,10 +274,12 @@ async function loadNews() {
     countEl.textContent = 'Error: could not reach the server';
     refreshBtn.classList.remove('spinning');
     refreshBtn.disabled = false;
+    applyBtn.disabled = false;
     return;
   }
   refreshBtn.classList.remove('spinning');
   refreshBtn.disabled = false;
+  applyBtn.disabled = false;
 
   if (data.error) {
     countEl.textContent = 'Error: ' + data.error;

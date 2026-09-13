@@ -1,6 +1,7 @@
 import json
 import os
 import re
+import secrets
 import time
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
@@ -24,7 +25,13 @@ NETWORK_ERRORS = (requests.RequestException,)
 PARSE_ERRORS = (ET.ParseError, ValueError, KeyError, TypeError)
 
 app = Flask(__name__)
-app.secret_key = os.environ.get("SECRET_KEY", "dev-only-secret-change-me-in-production-8f2a1c9d")
+# This repo is public, so a hardcoded fallback here would let anyone forge a
+# signed session cookie (e.g. claiming admin) using a secret they can just read
+# on GitHub. Production must set SECRET_KEY (e.g. in the WSGI file, which isn't
+# git-tracked) for sessions to survive a restart; a per-process random key is
+# still a safe fallback for local/dev use where losing sessions on restart is
+# only a minor inconvenience, not a hole.
+app.secret_key = os.environ.get("SECRET_KEY") or secrets.token_hex(32)
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -632,11 +639,11 @@ def get_news():
 
     if date_from:
         start = _parse_iso(date_from)
-        events = [e for e in events if _event_time(e) and _event_time(e) >= start]
+        events = [e for e in events if (t := _event_time(e)) and t >= start]
 
     if date_to:
         end = _parse_iso(date_to)
-        events = [e for e in events if _event_time(e) and _event_time(e) <= end]
+        events = [e for e in events if (t := _event_time(e)) and t <= end]
 
     events = [e for e in events if e.get("date")]
     events.sort(key=lambda e: e["date"])
