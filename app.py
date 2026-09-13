@@ -16,6 +16,12 @@ import requests
 import analysis
 
 NETWORK_ERRORS = (requests.RequestException,)
+# A source can return HTTP 200 with a body that isn't what we expect (a Cloudflare
+# challenge page instead of RSS, a truncated JSON response, an unexpected shape),
+# which raise_for_status() doesn't catch. Treating these the same as a network
+# failure means one misbehaving source reports itself as unavailable instead of
+# taking down the whole /api/news request with an unhandled 500.
+PARSE_ERRORS = (ET.ParseError, ValueError, KeyError, TypeError)
 
 app = Flask(__name__)
 app.secret_key = os.environ.get("SECRET_KEY", "dev-only-secret-change-me-in-production-8f2a1c9d")
@@ -338,7 +344,7 @@ def _cached_fetch(key, loader, ttl=CACHE_TTL):
 
     try:
         events = loader()
-    except (*NETWORK_ERRORS, RateLimited):
+    except (*NETWORK_ERRORS, *PARSE_ERRORS, RateLimited):
         if cached:
             return cached[1]
         raise
@@ -500,7 +506,7 @@ def get_social_sentiment():
         except RateLimited as e:
             result[pair] = {"error": f"rate limited, try again in {e.retry_after}s"}
             continue
-        except NETWORK_ERRORS as e:
+        except (*NETWORK_ERRORS, *PARSE_ERRORS) as e:
             result[pair] = {"error": f"failed to fetch: {e}"}
             continue
 
@@ -579,7 +585,7 @@ def get_news():
             return fn()
         except RateLimited as e:
             source_errors[name] = f"rate limited, try again in {e.retry_after}s"
-        except NETWORK_ERRORS as e:
+        except (*NETWORK_ERRORS, *PARSE_ERRORS) as e:
             source_errors[name] = f"failed to fetch: {e}"
         return []
 
@@ -590,7 +596,7 @@ def get_news():
             except RateLimited as e:
                 source_errors["forexfactory"] = f"rate limited, try again in {e.retry_after}s"
                 continue
-            except NETWORK_ERRORS as e:
+            except (*NETWORK_ERRORS, *PARSE_ERRORS) as e:
                 # today/tomorrow merge >1 period -- one feed being briefly down
                 # (e.g. next week's calendar not published yet) shouldn't fail
                 # the whole request when another period may still have data.
@@ -626,11 +632,19 @@ def get_news():
 
     if date_from:
         start = datetime.fromisoformat(date_from)
-        events = [e for e in events if _event_time(e) and _event_time(e) >= start.replace(tzinfo=_event_time(e).tzinfo)]
+        # The frontend converts the browser's local datetime-local value to a UTC
+        # ISO string before sending it, so this is normally already tz-aware; a
+        # naive fallback (e.g. a direct API call) is treated as UTC rather than
+        # borrowed from whichever event happens to be compared against it.
+        if start.tzinfo is None:
+            start = start.replace(tzinfo=timezone.utc)
+        events = [e for e in events if _event_time(e) and _event_time(e) >= start]
 
     if date_to:
         end = datetime.fromisoformat(date_to)
-        events = [e for e in events if _event_time(e) and _event_time(e) <= end.replace(tzinfo=_event_time(e).tzinfo)]
+        if end.tzinfo is None:
+            end = end.replace(tzinfo=timezone.utc)
+        events = [e for e in events if _event_time(e) and _event_time(e) <= end]
 
     events = [e for e in events if e.get("date")]
     events.sort(key=lambda e: e["date"])

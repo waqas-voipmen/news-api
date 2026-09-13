@@ -226,11 +226,15 @@ async function loadNews() {
   const impact = document.getElementById('impact').value;
   if (impact) params.set('impact', impact);
 
+  // datetime-local inputs give a value with no timezone (interpreted by the
+  // Date constructor as the browser's local time); convert to a UTC ISO string
+  // before sending so the backend compares against the user's actual intended
+  // moment instead of misreading it as UTC.
   const from = document.getElementById('from').value;
-  if (from) params.set('from', from);
+  if (from) params.set('from', new Date(from).toISOString());
 
   const to = document.getElementById('to').value;
-  if (to) params.set('to', to);
+  if (to) params.set('to', new Date(to).toISOString());
 
   const currencies = selectedCurrencies();
   if (currencies.length) params.set('currencies', currencies.join(','));
@@ -282,9 +286,13 @@ async function loadNews() {
   rowsEl.innerHTML = data.events.map(ev => {
     const d = new Date(ev.date);
     const time = d.toLocaleString([], { weekday: 'short', month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' });
-    const title = ev.link
-      ? `<a class="title-link" href="${ev.link}" target="_blank" rel="noopener">${ev.title}</a>`
-      : ev.title;
+    // Event content (title, link, country, ...) comes straight from external RSS
+    // feeds/calendar data, so it's untrusted -- always escape it before inserting
+    // into innerHTML, and only ever treat http(s) links as real links.
+    const safeLink = ev.link && /^https?:\/\//i.test(ev.link) ? ev.link : null;
+    const title = safeLink
+      ? `<a class="title-link" href="${escapeHtml(safeLink)}" target="_blank" rel="noopener">${escapeHtml(ev.title)}</a>`
+      : escapeHtml(ev.title);
 
     const a = ev.analysis;
     const sentiment = a
@@ -299,14 +307,14 @@ async function loadNews() {
 
     return `<tr>
       <td data-label="Time">${time}</td>
-      <td data-label="Currency"><span class="currency-tag">${ev.country}</span></td>
+      <td data-label="Currency"><span class="currency-tag">${escapeHtml(ev.country)}</span></td>
       <td data-label="Event">${title}</td>
-      <td data-label="Impact"><span class="badge ${ev.impact}">${ev.impact}</span></td>
-      <td data-label="Forecast">${ev.forecast || '-'}</td>
-      <td data-label="Previous">${ev.previous || '-'}</td>
+      <td data-label="Impact"><span class="badge ${ev.impact}">${escapeHtml(ev.impact)}</span></td>
+      <td data-label="Forecast">${escapeHtml(ev.forecast) || '-'}</td>
+      <td data-label="Previous">${escapeHtml(ev.previous) || '-'}</td>
       <td data-label="Sentiment">${sentiment}</td>
       <td data-label="Affects">${affected}</td>
-      <td data-label="Source"><span class="source-tag">${ev.source}</span></td>
+      <td data-label="Source"><span class="source-tag">${escapeHtml(ev.source)}</span></td>
     </tr>`;
   }).join('');
 }
