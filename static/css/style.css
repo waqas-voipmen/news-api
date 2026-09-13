@@ -352,7 +352,7 @@ button {
   transition: background .15s ease, border-color .15s ease, opacity .15s ease, color .15s ease;
 }
 
-.btn, button#apply, button#checkSocial, .main button[type=submit]:not(.danger) {
+.btn, button#apply, .main button[type=submit]:not(.danger) {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -365,12 +365,10 @@ button {
   font-size: 15px;
   border-radius: var(--radius-sm);
 }
-.btn:hover, button#apply:hover, button#checkSocial:hover:not(:disabled), .main button[type=submit]:hover:not(.danger) {
+.btn:hover, button#apply:hover, .main button[type=submit]:hover:not(.danger) {
   background: var(--accent-strong);
   color: #fff;
 }
-button#checkSocial { width: auto; }
-button#checkSocial:disabled { opacity: .5; cursor: wait; }
 
 button#refreshNow {
   padding: 8px 14px;
@@ -637,7 +635,6 @@ a.title-link:hover { color: var(--accent-strong); text-decoration: underline; }
   .results-header { flex-wrap: wrap; }
   .refresh-controls { width: 100%; justify-content: space-between; }
   .social-header { flex-wrap: wrap; gap: 10px; }
-  button#checkSocial { width: 100%; }
   .reason-text { max-width: 100%; }
 
   /* Responsive table -> stacked cards */

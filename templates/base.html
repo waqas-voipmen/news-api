@@ -319,10 +319,10 @@ async function loadNewsInner() {
 }
 
 async function loadSocialSentiment() {
-  const btn = document.getElementById('checkSocial');
+  const btn = document.getElementById('refreshNow');
   const grid = document.getElementById('socialGrid');
-  btn.disabled = true;
-  btn.textContent = 'Checking...';
+  if (!grid) return;
+  if (btn) { btn.disabled = true; btn.classList.add('spinning'); }
   grid.innerHTML = '<span style="color:var(--muted); font-size:12px;">Fetching social posts...</span>';
 
   const params = new URLSearchParams();
@@ -338,8 +338,7 @@ async function loadSocialSentiment() {
     data = await res.json();
   } catch (err) {
     grid.innerHTML = '<span style="color:var(--muted); font-size:12px;">Error: could not reach the server</span>';
-    btn.disabled = false;
-    btn.textContent = 'Check Social Sentiment';
+    if (btn) { btn.disabled = false; btn.classList.remove('spinning'); }
     return;
   }
 
@@ -372,12 +371,14 @@ async function loadSocialSentiment() {
     </div>`;
   }).join('');
 
-  btn.disabled = false;
-  btn.textContent = 'Check Social Sentiment';
+  if (btn) { btn.disabled = false; btn.classList.remove('spinning'); }
 }
 
-const checkSocialBtn = document.getElementById('checkSocial');
-if (checkSocialBtn) checkSocialBtn.addEventListener('click', loadSocialSentiment);
+const socialRefreshBtn = document.getElementById('socialGrid') ? document.getElementById('refreshNow') : null;
+if (socialRefreshBtn) {
+  socialRefreshBtn.addEventListener('click', loadSocialSentiment);
+  loadSocialSentiment(); // show current data by default, no manual click needed
+}
 
 // If the admin changes Feature Controls while this page is open, pick it up
 // automatically instead of leaving stale sources/sections showing.
