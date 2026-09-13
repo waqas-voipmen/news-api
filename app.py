@@ -665,7 +665,13 @@ def get_news():
                 # the whole request when another period may still have data.
                 if len(fetch_periods) > 1:
                     continue
-                source_errors["forexfactory"] = f"failed to fetch: {e}"
+                # lastweek/nextweek are a permanent gap in ForexFactory's free feed
+                # (it only ever publishes the current week), not a transient
+                # failure -- phrase it as a plain note rather than an error.
+                if fetch_period in ("lastweek", "nextweek"):
+                    source_errors["forexfactory"] = str(e)
+                else:
+                    source_errors["forexfactory"] = f"failed to fetch: {e}"
                 continue
             if ff_events is None:
                 return jsonify({"error": f"invalid period '{period}', use one of {['today', 'tomorrow'] + list(FF_FEEDS)}"}), 400
