@@ -25,6 +25,12 @@ NETWORK_ERRORS = (requests.RequestException,)
 PARSE_ERRORS = (ET.ParseError, ValueError, KeyError, TypeError)
 
 app = Flask(__name__)
+# Flask's JSON provider sorts dict keys alphabetically by default, which silently
+# scrambled the deliberate pair/instrument ordering (matching Live Prices' DXY,
+# Gold, Silver, Bitcoin, Oil, then currencies) every time a dict went through
+# jsonify() -- e.g. pair_bias always came back alphabetized regardless of what
+# order analysis.PAIRS was actually built in.
+app.json.sort_keys = False
 # This repo is public, so a hardcoded fallback here would let anyone forge a
 # signed session cookie (e.g. claiming admin) using a secret they can just read
 # on GitHub. Production must set SECRET_KEY (e.g. in the WSGI file, which isn't
@@ -40,7 +46,9 @@ HEADERS = {
 }
 
 CURRENCIES = ["USD", "EUR", "GBP", "JPY", "AUD", "CAD", "CHF", "NZD"]
-FILTERABLE_INSTRUMENTS = CURRENCIES + ["XAU", "XAG", "BTC", "WTI"]  # Gold, Silver, Bitcoin, Crude Oil
+# Same order as Live Prices: USD (-> DXY), Gold, Silver, Bitcoin, Oil first, then
+# the rest of the currencies.
+FILTERABLE_INSTRUMENTS = ["USD", "XAU", "XAG", "BTC", "WTI"] + [c for c in CURRENCIES if c != "USD"]
 
 SOURCE_LABELS = {
     "forexfactory": "ForexFactory (calendar)",

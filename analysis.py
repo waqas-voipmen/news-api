@@ -15,8 +15,22 @@ import re
 CURRENCIES = ["USD", "EUR", "GBP", "JPY", "AUD", "CAD", "CHF", "NZD"]
 INSTRUMENT_LABELS = {"XAU": "Gold", "XAG": "Silver", "BTC": "Bitcoin", "WTI": "Oil", **{c: c for c in CURRENCIES}}
 
-# base/quote for the pairs retail traders watch most, including Gold/Silver vs USD
+# base/quote for the pairs retail traders watch most, including Gold/Silver vs USD.
+# Same order as Live Prices: DXY, Gold, Silver, Bitcoin, Oil first, then the rest
+# of the currency pairs -- this order flows through to the Market Bias grid and
+# Social Sentiment (SOCIAL_PAIRS in app.py is just PAIRS' keys) too.
 PAIRS = {
+    # US Dollar Index -- USD's strength vs a currency basket, not a real base/quote
+    # pair, but pair_bias() already handles a None quote correctly (it only ever
+    # matches the `base` side, so DXY just tracks USD strength 1:1).
+    "DXY": ("USD", None),
+    "XAUUSD": ("XAU", "USD"),
+    "XAGUSD": ("XAG", "USD"),
+    "BTCUSD": ("BTC", "USD"),
+    # StockTwits' real ticker for WTI crude oil futures is "CL_F" (not "WTIUSD"),
+    # so this key doubles as both the pair-bias display code and the StockTwits
+    # symbol -- same shape as DXY.
+    "CL_F": ("WTI", "USD"),
     "EURUSD": ("EUR", "USD"),
     "GBPUSD": ("GBP", "USD"),
     "USDJPY": ("USD", "JPY"),
@@ -24,17 +38,6 @@ PAIRS = {
     "USDCAD": ("USD", "CAD"),
     "AUDUSD": ("AUD", "USD"),
     "NZDUSD": ("NZD", "USD"),
-    "XAUUSD": ("XAU", "USD"),
-    "XAGUSD": ("XAG", "USD"),
-    "BTCUSD": ("BTC", "USD"),
-    # US Dollar Index -- USD's strength vs a currency basket, not a real base/quote
-    # pair, but pair_bias() already handles a None quote correctly (it only ever
-    # matches the `base` side, so DXY just tracks USD strength 1:1).
-    "DXY": ("USD", None),
-    # StockTwits' real ticker for WTI crude oil futures is "CL_F" (not "WTIUSD"),
-    # so this key doubles as both the pair-bias display code and the StockTwits
-    # symbol (SOCIAL_PAIRS in app.py is just PAIRS' keys) -- same shape as DXY.
-    "CL_F": ("WTI", "USD"),
 }
 
 # indicators where a HIGHER number is actually bad news for the currency
