@@ -83,6 +83,15 @@ def fetch():
 
 
 if __name__ == "__main__":
-    events = fetch()
+    # Myfxbook's Cloudflare check occasionally blocks even a residential IP for a
+    # while (rate limiting, a one-off block, ...) -- that's a known, expected
+    # failure mode, not a bug, so it shouldn't crash with a scary traceback.
+    # Leave the previous cache file exactly as it was rather than overwrite it
+    # with nothing.
+    try:
+        events = fetch()
+    except Exception as e:
+        print(f"failed ({e}), keeping previous cache")
+        sys.exit(0)
     OUTPUT_PATH.write_text(json.dumps({"fetched_at": datetime.now(timezone.utc).isoformat(), "events": events}, indent=2))
     print(f"Wrote {len(events)} events to {OUTPUT_PATH}")
