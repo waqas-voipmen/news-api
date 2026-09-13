@@ -371,9 +371,16 @@ async function loadSocialSentiment() {
   btn.textContent = 'Checking...';
   grid.innerHTML = '<span style="color:var(--muted); font-size:12px;">Fetching social posts...</span>';
 
+  const params = new URLSearchParams();
+  params.set('period', document.getElementById('period').value);
+  const from = document.getElementById('from').value;
+  if (from) params.set('from', new Date(from).toISOString());
+  const to = document.getElementById('to').value;
+  if (to) params.set('to', new Date(to).toISOString());
+
   let data;
   try {
-    const res = await fetch('/api/social-sentiment');
+    const res = await fetch('/api/social-sentiment?' + params.toString());
     data = await res.json();
   } catch (err) {
     grid.innerHTML = '<span style="color:var(--muted); font-size:12px;">Error: could not reach the server</span>';
@@ -392,9 +399,15 @@ async function loadSocialSentiment() {
     }
 
     const pct = info.bullish_pct === null ? 0 : info.bullish_pct;
-    const posts = (info.sample_posts || []).slice(0, 3).map(p => `
-      <div class="post"><span class="tag ${p.sentiment}">${p.sentiment}:</span> ${escapeHtml(p.body).slice(0, 90)}</div>
-    `).join('');
+    const posts = (info.sample_posts || []).slice(0, 3).map(p => {
+      const when = p.date ? new Date(p.date).toLocaleString([], {
+        month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit',
+      }) : '';
+      return `<div class="post">
+        <span class="tag ${p.sentiment}">${p.sentiment}:</span> ${escapeHtml(p.body).slice(0, 90)}
+        ${when ? `<div class="post-time">${when}</div>` : ''}
+      </div>`;
+    }).join('');
 
     return `<div class="bias-card ${info.bias}">
       <div class="pair-name">${pairDisplayName(pair)}</div>

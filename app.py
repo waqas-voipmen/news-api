@@ -512,6 +512,15 @@ def get_social_sentiment():
     pairs = [p.strip().upper() for p in pairs_param.split(",")] if pairs_param else SOCIAL_PAIRS
     pairs = [p for p in pairs if p in SOCIAL_PAIRS]
 
+    # StockTwits' stream endpoint only ever returns its ~30 most recent posts for a
+    # symbol (no deep history), so this can only narrow DOWN to a period, not fetch
+    # further back than that -- e.g. "Last Week" may show fewer/no posts if none of
+    # the most recent 30 happen to fall in that window.
+    period = request.args.get("period", "week")
+    raw_from, raw_to = _period_date_range(period, request.args.get("from"), request.args.get("to"))
+    date_from = _parse_iso(raw_from) if raw_from else None
+    date_to = _parse_iso(raw_to) if raw_to else None
+
     result = {}
     for pair in pairs:
         try:
@@ -522,6 +531,18 @@ def get_social_sentiment():
         except (*NETWORK_ERRORS, *PARSE_ERRORS) as e:
             result[pair] = {"error": f"failed to fetch: {e}"}
             continue
+
+        if date_from or date_to:
+            def _in_range(post):
+                if not post.get("date"):
+                    return False
+                post_time = _parse_iso(post["date"])
+                if date_from and post_time < date_from:
+                    return False
+                if date_to and post_time > date_to:
+                    return False
+                return True
+            posts = [p for p in posts if _in_range(p)]
 
         summary = analysis.aggregate_social_posts(posts)
         summary["sample_posts"] = [p for p in posts if p["sentiment"] != "Neutral"][:5]
@@ -563,6 +584,39 @@ def get_settings():
     return jsonify(_load_settings())
 
 
+def _period_date_range(period, date_from, date_to):
+    """Derives a (date_from, date_to) ISO range for a period, unless the caller
+    already gave an explicit range. Shared by /api/news and /api/social-sentiment
+    so picking e.g. "Last Week" narrows both sections the same way."""
+    if date_from or date_to:
+        return date_from, date_to
+
+    if period == "tomorrow":
+        target_date = datetime.now(timezone.utc).date() + timedelta(days=1)
+        date_from = datetime.combine(target_date, datetime.min.time(), tzinfo=timezone.utc).isoformat()
+        date_to = datetime.combine(target_date, datetime.max.time(), tzinfo=timezone.utc).isoformat()
+    elif period == "today":
+        target_date = datetime.now(timezone.utc).date()
+        date_from = datetime.combine(target_date, datetime.min.time(), tzinfo=timezone.utc).isoformat()
+        date_to = datetime.combine(target_date, datetime.max.time(), tzinfo=timezone.utc).isoformat()
+    elif period in ("week", "lastweek", "nextweek"):
+        # ForexFactory's own calendar feed is scoped Sun-Fri per week, but the other
+        # sources (FXStreet/Investing/Myfxbook/StockTwits) are plain recent-post
+        # feeds with no built-in notion of "last/next week" -- without this,
+        # picking "Last Week" or "Next Week" left every one of them showing the
+        # same generic "recent" items regardless of which period was selected.
+        today = datetime.now(timezone.utc).date()
+        days_since_sunday = (today.weekday() + 1) % 7  # Mon=0..Sun=6 -> Sun=0..Sat=6
+        this_sunday = today - timedelta(days=days_since_sunday)
+        week_offset = {"lastweek": -7, "week": 0, "nextweek": 7}[period]
+        week_start = this_sunday + timedelta(days=week_offset)
+        week_end = week_start + timedelta(days=5)  # Sunday through Friday
+        date_from = datetime.combine(week_start, datetime.min.time(), tzinfo=timezone.utc).isoformat()
+        date_to = datetime.combine(week_end, datetime.max.time(), tzinfo=timezone.utc).isoformat()
+
+    return date_from, date_to
+
+
 @app.route("/api/news")
 @login_required
 def get_news():
@@ -573,33 +627,15 @@ def get_news():
     date_from = request.args.get("from")  # ISO datetime, e.g. 2026-09-03T00:00
     date_to = request.args.get("to")
 
-    # "today"/"tomorrow" aren't their own feeds -- pull the underlying week(s) and,
-    # unless the user picked an explicit range, narrow every source down to just
-    # that single day. "tomorrow" can fall in either this week's or next week's feed
-    # (e.g. today is Sunday), so both are fetched and merged to be safe.
+    # "today"/"tomorrow" aren't their own feeds -- pull the underlying week(s) so
+    # the events used to derive the date-filtered day actually exist. "tomorrow"
+    # can fall in either this week's or next week's feed (e.g. today is Sunday),
+    # so both are fetched and merged to be safe.
     fetch_periods = [period]
     if period in ("today", "tomorrow"):
         fetch_periods = ["week", "nextweek"] if period == "tomorrow" else ["week"]
-        if not date_from and not date_to:
-            target_date = datetime.now(timezone.utc).date()
-            if period == "tomorrow":
-                target_date += timedelta(days=1)
-            date_from = datetime.combine(target_date, datetime.min.time(), tzinfo=timezone.utc).isoformat()
-            date_to = datetime.combine(target_date, datetime.max.time(), tzinfo=timezone.utc).isoformat()
-    elif period in ("week", "lastweek", "nextweek") and not date_from and not date_to:
-        # ForexFactory's own calendar feed is scoped Sun-Fri per week, but the other
-        # sources (FXStreet/Investing/Myfxbook) are plain recent-news feeds with no
-        # built-in notion of "last/next week" -- without this, picking "Last Week"
-        # or "Next Week" left every non-ForexFactory source showing the same
-        # generic "recent" items regardless of which period was selected.
-        today = datetime.now(timezone.utc).date()
-        days_since_sunday = (today.weekday() + 1) % 7  # Mon=0..Sun=6 -> Sun=0..Sat=6
-        this_sunday = today - timedelta(days=days_since_sunday)
-        week_offset = {"lastweek": -7, "week": 0, "nextweek": 7}[period]
-        week_start = this_sunday + timedelta(days=week_offset)
-        week_end = week_start + timedelta(days=5)  # Sunday through Friday
-        date_from = datetime.combine(week_start, datetime.min.time(), tzinfo=timezone.utc).isoformat()
-        date_to = datetime.combine(week_end, datetime.max.time(), tzinfo=timezone.utc).isoformat()
+
+    date_from, date_to = _period_date_range(period, date_from, date_to)
 
     settings = _load_settings()
     allowed_sources = {key for key, enabled in settings["sources"].items() if enabled}
