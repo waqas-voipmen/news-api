@@ -36,6 +36,31 @@
 
 <div class="page">
 
+{% if live_prices_enabled %}
+<div class="bias-section">
+  <h3 class="social-title">Live Prices</h3>
+  <p class="disclaimer">Live quotes via TradingView &mdash; for reference only, not for trade execution; always confirm with your broker's feed.</p>
+  <div class="bias-grid prices-grid">
+    {% for pair, tv_symbol in tradingview_pairs %}
+    <div class="bias-card price-card">
+      <div class="tradingview-widget-container">
+        <div class="tradingview-widget-container__widget"></div>
+        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>
+        {
+          "symbol": "{{ tv_symbol }}",
+          "width": "100%",
+          "locale": "en",
+          "colorTheme": "{{ tradingview_color_theme }}",
+          "isTransparent": true
+        }
+        </script>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+{% endif %}
+
 <div class="filter-bar">
   <div class="filter-bar-label">Filters</div>
   <div class="filter-row filter-row-controls">
@@ -106,31 +131,6 @@
     </div>
   </div>
 </div>
-
-{% if live_prices_enabled %}
-<div class="bias-section">
-  <h3 class="social-title">Live Prices</h3>
-  <p class="disclaimer">Live quotes via TradingView &mdash; for reference only, not for trade execution; always confirm with your broker's feed.</p>
-  <div class="bias-grid prices-grid">
-    {% for pair, tv_symbol in tradingview_pairs %}
-    <div class="bias-card price-card">
-      <div class="tradingview-widget-container">
-        <div class="tradingview-widget-container__widget"></div>
-        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>
-        {
-          "symbol": "{{ tv_symbol }}",
-          "width": "100%",
-          "locale": "en",
-          "colorTheme": "{{ tradingview_color_theme }}",
-          "isTransparent": true
-        }
-        </script>
-      </div>
-    </div>
-    {% endfor %}
-  </div>
-</div>
-{% endif %}
 
 {% if market_bias_enabled %}
 <div class="bias-section">
