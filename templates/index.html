@@ -319,7 +319,7 @@ async function loadNewsInner() {
       : '-';
     const affected = a && a.affected && Object.keys(a.affected).length
       ? `<div class="affected">${Object.entries(a.affected).map(([pair, dir]) =>
-          `<span class="chip">${pair} <span class="dir ${dir}">${dir === 'Up' ? '↑' : '↓'}</span></span>`
+          `<span class="chip">${pairDisplayName(pair)} <span class="dir ${dir}">${dir === 'Up' ? '↑' : '↓'}</span></span>`
         ).join('')}</div>`
       : '-';
 
@@ -337,6 +337,13 @@ async function loadNewsInner() {
   }).join('');
 }
 
+// StockTwits' real ticker for WTI crude oil is "CL_F" (not a human-friendly pair
+// name like "XAUUSD"), so give it a readable label wherever a pair code is shown.
+const PAIR_DISPLAY_NAMES = { CL_F: 'OIL' };
+function pairDisplayName(pair) {
+  return PAIR_DISPLAY_NAMES[pair] || pair;
+}
+
 function renderBiasGrid(pairBias) {
   const grid = document.getElementById('biasGrid');
   if (!grid) return;
@@ -347,7 +354,7 @@ function renderBiasGrid(pairBias) {
   }
   grid.innerHTML = entries.map(([pair, info]) => `
     <div class="bias-card ${info.bias}">
-      <div class="pair-name">${pair}</div>
+      <div class="pair-name">${pairDisplayName(pair)}</div>
       <div class="bias-label ${info.bias}">${info.bias}</div>
       <div class="signals">weighted ${info.bullish_weight} bullish &middot; ${info.bearish_weight} bearish (${info.signal_count} signals)</div>
     </div>
@@ -376,7 +383,7 @@ async function loadSocialSentiment() {
   grid.innerHTML = entries.map(([pair, info]) => {
     if (info.error) {
       return `<div class="bias-card">
-        <div class="pair-name">${pair}</div>
+        <div class="pair-name">${pairDisplayName(pair)}</div>
         <div class="signals">${escapeHtml(info.error)}</div>
       </div>`;
     }
@@ -387,7 +394,7 @@ async function loadSocialSentiment() {
     `).join('');
 
     return `<div class="bias-card ${info.bias}">
-      <div class="pair-name">${pair}</div>
+      <div class="pair-name">${pairDisplayName(pair)}</div>
       <div class="bias-label ${info.bias}">${info.bias}</div>
       <div class="social-bar"><div class="social-bar-fill" style="width:${pct}%"></div></div>
       <div class="signals">${info.bullish_count} bullish &middot; ${info.bearish_count} bearish &middot; ${info.neutral_count} neutral (${info.total} posts)</div>
