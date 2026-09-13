@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-13T21:18:05.878714+00:00",
+  "fetched_at": "2026-09-13T21:48:05.822137+00:00",
   "periods": {
     "week": [
       {
@@ -163,6 +163,17 @@
         "impact": "Low",
         "forecast": "",
         "previous": "-0.4%",
+        "source": "ForexFactory",
+        "type": "calendar",
+        "link": null
+      },
+      {
+        "title": "ECB President Lagarde Speaks",
+        "country": "EUR",
+        "date": "2026-09-14T11:15:00-04:00",
+        "impact": "Medium",
+        "forecast": "",
+        "previous": "",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null
@@ -656,7 +667,7 @@
         "country": "USD",
         "date": "2026-09-16T14:00:00-04:00",
         "impact": "High",
-        "forecast": "3.75%",
+        "forecast": "4.00%",
         "previous": "3.75%",
         "source": "ForexFactory",
         "type": "calendar",
@@ -1026,6 +1037,39 @@
         "link": null
       },
       {
+        "title": "Eurogroup Meetings",
+        "country": "EUR",
+        "date": "2026-09-18T06:15:00-04:00",
+        "impact": "Low",
+        "forecast": "",
+        "previous": "",
+        "source": "ForexFactory",
+        "type": "calendar",
+        "link": null
+      },
+      {
+        "title": "ECOFIN Meetings",
+        "country": "EUR",
+        "date": "2026-09-18T06:15:00-04:00",
+        "impact": "Low",
+        "forecast": "",
+        "previous": "",
+        "source": "ForexFactory",
+        "type": "calendar",
+        "link": null
+      },
+      {
+        "title": "ECB President Lagarde Speaks",
+        "country": "EUR",
+        "date": "2026-09-18T06:30:00-04:00",
+        "impact": "Medium",
+        "forecast": "",
+        "previous": "",
+        "source": "ForexFactory",
+        "type": "calendar",
+        "link": null
+      },
+      {
         "title": "Capacity Utilization Rate",
         "country": "USD",
         "date": "2026-09-18T09:15:00-04:00",
@@ -1065,6 +1109,17 @@
         "impact": "Low",
         "forecast": "0.2%",
         "previous": "0.2%",
+        "source": "ForexFactory",
+        "type": "calendar",
+        "link": null
+      },
+      {
+        "title": "ECOFIN Meetings",
+        "country": "EUR",
+        "date": "2026-09-19T06:15:00-04:00",
+        "impact": "Low",
+        "forecast": "",
+        "previous": "",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null
