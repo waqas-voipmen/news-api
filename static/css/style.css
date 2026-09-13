@@ -593,8 +593,10 @@ a.title-link:hover { color: var(--accent-strong); text-decoration: underline; }
   .site-header { padding: 14px 16px; }
   .filter-row-controls select,
   .filter-row-controls input[type=datetime-local] { width: 100%; }
-  .field-inline { flex: 1 1 140px; }
+  .field-inline { flex: 1 1 100%; }
   .filter-row-controls #apply { width: 100%; }
+  .filter-bar { padding: 16px 18px; gap: 14px; }
+  .filter-row { gap: 12px; }
   .filter-row-chips { flex-direction: column; align-items: flex-start; gap: 14px; }
   .brand-text h1 { font-size: 16px; }
   .brand-text p { font-size: 13.5px; }
