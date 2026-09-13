@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-13T14:28:21.867574+00:00",
+  "fetched_at": "2026-09-13T18:14:09.774313+00:00",
   "periods": {
     "week": [
       {
@@ -53,17 +53,6 @@
         "impact": "Low",
         "forecast": "0.1%",
         "previous": "0.1%",
-        "source": "ForexFactory",
-        "type": "calendar",
-        "link": null
-      },
-      {
-        "title": "Foreign Direct Investment ytd/y",
-        "country": "CNY",
-        "date": "2026-09-14T02:02:00-04:00",
-        "impact": "Low",
-        "forecast": "",
-        "previous": "-6.2%",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null
@@ -295,6 +284,17 @@
         "impact": "Low",
         "forecast": "4.9%",
         "previous": "4.9%",
+        "source": "ForexFactory",
+        "type": "calendar",
+        "link": null
+      },
+      {
+        "title": "Foreign Direct Investment ytd/y",
+        "country": "CNY",
+        "date": "2026-09-15T02:02:00-04:00",
+        "impact": "Low",
+        "forecast": "",
+        "previous": "-6.2%",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null
@@ -656,7 +656,7 @@
         "country": "USD",
         "date": "2026-09-16T14:00:00-04:00",
         "impact": "High",
-        "forecast": "",
+        "forecast": "3.75%",
         "previous": "3.75%",
         "source": "ForexFactory",
         "type": "calendar",
