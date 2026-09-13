@@ -40,7 +40,7 @@ HEADERS = {
 }
 
 CURRENCIES = ["USD", "EUR", "GBP", "JPY", "AUD", "CAD", "CHF", "NZD"]
-FILTERABLE_INSTRUMENTS = CURRENCIES + ["XAU", "XAG", "BTC"]  # Gold, Silver, Bitcoin
+FILTERABLE_INSTRUMENTS = CURRENCIES + ["XAU", "XAG", "BTC", "WTI"]  # Gold, Silver, Bitcoin, Crude Oil
 
 SOURCE_LABELS = {
     "forexfactory": "ForexFactory (calendar)",
@@ -82,6 +82,7 @@ TRADINGVIEW_SYMBOLS = {
     "XAGUSD": "FOREXCOM:XAGUSD",
     "DXY": "CAPITALCOM:DXY",
     "BTCUSD": "COINBASE:BTCUSD",
+    "USOIL": "TVC:USOIL",
 }
 
 # DailyFX sits behind Akamai's bot-protection, which blocks at the network/IP level

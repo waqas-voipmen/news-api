@@ -13,7 +13,7 @@ of being collapsed into one instrument.
 import re
 
 CURRENCIES = ["USD", "EUR", "GBP", "JPY", "AUD", "CAD", "CHF", "NZD"]
-INSTRUMENT_LABELS = {"XAU": "Gold", "XAG": "Silver", "BTC": "Bitcoin", **{c: c for c in CURRENCIES}}
+INSTRUMENT_LABELS = {"XAU": "Gold", "XAG": "Silver", "BTC": "Bitcoin", "WTI": "Oil", **{c: c for c in CURRENCIES}}
 
 # base/quote for the pairs retail traders watch most, including Gold/Silver vs USD
 PAIRS = {
@@ -31,6 +31,10 @@ PAIRS = {
     # pair, but pair_bias() already handles a None quote correctly (it only ever
     # matches the `base` side, so DXY just tracks USD strength 1:1).
     "DXY": ("USD", None),
+    # StockTwits' real ticker for WTI crude oil futures is "CL_F" (not "WTIUSD"),
+    # so this key doubles as both the pair-bias display code and the StockTwits
+    # symbol (SOCIAL_PAIRS in app.py is just PAIRS' keys) -- same shape as DXY.
+    "CL_F": ("WTI", "USD"),
 }
 
 # indicators where a HIGHER number is actually bad news for the currency
@@ -94,6 +98,7 @@ _INSTRUMENT_PATTERNS = [
     ("XAU", re.compile(r"\bGOLD\b|\bXAU\b")),
     ("XAG", re.compile(r"\bSILVER\b|\bXAG\b")),
     ("BTC", re.compile(r"\bBITCOIN\b|\bBTC\b")),
+    ("WTI", re.compile(r"\bWTI\b|\bCRUDE\s+OIL\b|\bCRUDE\b|\bOIL\s+PRICES?\b|\bOPEC\b|\bUSOIL\b")),
     ("AUD", re.compile(r"\bAUSTRALIAN\s+DOLLAR\b|\bAUSSIE\b|\bAUD\b|\bAUSTRALIA\b|\bAUSTRALIAN\b")),
     ("CAD", re.compile(r"\bCANADIAN\s+DOLLAR\b|\bLOONIE\b|\bCAD\b|\bCANADA\b|\bCANADIAN\b")),
     ("NZD", re.compile(r"\bNEW\s+ZEALAND\s+DOLLAR\b|\bKIWI\b|\bNZD\b|\bNEW\s+ZEALAND\b")),

@@ -8,3 +8,5 @@ services:
     envVars:
       - key: FLASK_DEBUG
         value: "false"
+      - key: SECRET_KEY
+        generateValue: true
