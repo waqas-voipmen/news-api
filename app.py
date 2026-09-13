@@ -376,6 +376,11 @@ def fetch_forexfactory(period):
         response.raise_for_status()
         raw_events = response.json()["periods"].get(period)
         if raw_events is None:
+            if period in ("lastweek", "nextweek"):
+                raise requests.RequestException(
+                    "ForexFactory's free feed only publishes the current week's calendar -- "
+                    "last/next week's events aren't available from this source"
+                )
             raise requests.RequestException(f"no cached ForexFactory data for period '{period}'")
         return raw_events
 
@@ -581,6 +586,20 @@ def get_news():
                 target_date += timedelta(days=1)
             date_from = datetime.combine(target_date, datetime.min.time(), tzinfo=timezone.utc).isoformat()
             date_to = datetime.combine(target_date, datetime.max.time(), tzinfo=timezone.utc).isoformat()
+    elif period in ("week", "lastweek", "nextweek") and not date_from and not date_to:
+        # ForexFactory's own calendar feed is scoped Sun-Fri per week, but the other
+        # sources (FXStreet/Investing/Myfxbook) are plain recent-news feeds with no
+        # built-in notion of "last/next week" -- without this, picking "Last Week"
+        # or "Next Week" left every non-ForexFactory source showing the same
+        # generic "recent" items regardless of which period was selected.
+        today = datetime.now(timezone.utc).date()
+        days_since_sunday = (today.weekday() + 1) % 7  # Mon=0..Sun=6 -> Sun=0..Sat=6
+        this_sunday = today - timedelta(days=days_since_sunday)
+        week_offset = {"lastweek": -7, "week": 0, "nextweek": 7}[period]
+        week_start = this_sunday + timedelta(days=week_offset)
+        week_end = week_start + timedelta(days=5)  # Sunday through Friday
+        date_from = datetime.combine(week_start, datetime.min.time(), tzinfo=timezone.utc).isoformat()
+        date_to = datetime.combine(week_end, datetime.max.time(), tzinfo=timezone.utc).isoformat()
 
     settings = _load_settings()
     allowed_sources = {key for key, enabled in settings["sources"].items() if enabled}
