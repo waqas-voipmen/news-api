@@ -66,8 +66,8 @@ FF_CACHE_URL = "https://raw.githubusercontent.com/waqas-voipmen/news-api/master/
 STOCKTWITS_STREAM_URL = "https://api.stocktwits.com/api/2/streams/symbol/{symbol}.json"
 SOCIAL_PAIRS = list(analysis.PAIRS)  # StockTwits recognizes these same tickers directly (BTCUSD included)
 
-# Live prices are shown via TradingView's own embeddable widgets (see the Live
-# Prices section in index.html) rather than fetched server-side -- that gives
+# Live prices are shown via TradingView's own embeddable widgets (see
+# templates/live_prices.html) rather than fetched server-side -- that gives
 # real spot XAUUSD/XAGUSD/DXY ticks straight from TradingView's feed instead of
 # an approximated proxy, with no scraping, rate limits, or backend fetch at all.
 TRADINGVIEW_SYMBOLS = {
@@ -227,7 +227,7 @@ def login():
         user = _load_users().get(username)
         if user and check_password_hash(user["password_hash"], password):
             session["username"] = username
-            return redirect(request.args.get("next") or url_for("home"))
+            return redirect(request.args.get("next") or url_for("news_page"))
         error = "Invalid username or password"
     return render_template("login.html", error=error, theme=_get_theme())
 
@@ -551,9 +551,23 @@ def get_social_sentiment():
     return jsonify({"pairs": result})
 
 
-@app.route("/")
-@login_required
-def home():
+def _tv_pair_matches(code, tv_key):
+    """Loose match between a Pairs-filter instrument code (USD, XAU, WTI, ...) and
+    a Live Prices TradingView key (EURUSD, XAUUSD, USOIL, DXY, ...) -- most of
+    these keys are literally "{code}USD" so a substring check covers them, plus
+    the couple of keys that don't spell the code out at all."""
+    if code == "WTI":
+        return tv_key == "USOIL"
+    if code == "USD":
+        return code in tv_key or tv_key == "DXY"
+    return code in tv_key
+
+
+def _page_context(active_page, **extra):
+    """Template variables shared by every page: header/nav chrome, the filter bar's
+    options, and feature-flag/theme state. `filters` is the current request's own
+    query string, reused to build the nav links so picking a filter on one page
+    carries it over when you click to another (see base.html)."""
     is_admin = _load_users().get(session["username"], {}).get("is_admin", False)
     settings = _load_settings()
     enabled_sources = [
@@ -561,8 +575,9 @@ def home():
         for key, label in SOURCE_LABELS.items() if settings["sources"].get(key, True)
     ]
     theme = _get_theme()
-    return render_template(
-        "index.html",
+    ctx = dict(
+        active_page=active_page,
+        filters=request.args,
         currencies=[{"code": c, "label": analysis.INSTRUMENT_LABELS[c]} for c in FILTERABLE_INSTRUMENTS],
         unavailable_sources=UNAVAILABLE_SOURCES,
         current_user=session["username"],
@@ -571,11 +586,45 @@ def home():
         social_sentiment_enabled=settings["social_sentiment_enabled"],
         market_bias_enabled=settings["market_bias_enabled"],
         live_prices_enabled=settings["live_prices_enabled"],
-        tradingview_pairs=list(TRADINGVIEW_SYMBOLS.items()),
         settings_json=json.dumps(settings, sort_keys=True),
         theme=theme,
         tradingview_color_theme=theme,
     )
+    ctx.update(extra)
+    return ctx
+
+
+@app.route("/")
+@login_required
+def news_page():
+    return render_template("news.html", **_page_context("news"))
+
+
+@app.route("/live-prices")
+@login_required
+def live_prices_page():
+    selected = request.args.get("currencies")
+    codes = [c.strip().upper() for c in selected.split(",") if c.strip()] if selected else None
+    pairs = list(TRADINGVIEW_SYMBOLS.items())
+    if codes:
+        pairs = [(pair, sym) for pair, sym in pairs if any(_tv_pair_matches(c, pair) for c in codes)]
+    return render_template(
+        "live_prices.html",
+        tradingview_pairs=pairs,
+        **_page_context("live_prices"),
+    )
+
+
+@app.route("/market-bias")
+@login_required
+def market_bias_page():
+    return render_template("market_bias.html", **_page_context("market_bias"))
+
+
+@app.route("/social-sentiment")
+@login_required
+def social_sentiment_page():
+    return render_template("social_sentiment.html", **_page_context("social_sentiment"))
 
 
 @app.route("/api/settings")

@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block title %}News - Forex News Aggregator{% endblock %}
+{% block content %}
+<div class="results-section">
+  <div class="panel">
+    <div class="results-header">
+      <div class="count" id="count">Loading...</div>
+      <div class="refresh-controls">
+        <span class="last-updated" id="lastUpdated"></span>
+        <button id="refreshNow" title="Re-fetch and re-analyze everything now">&#8635; Refresh</button>
+      </div>
+    </div>
+    <div class="table-scroll">
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>Time</th>
+            <th>Currency</th>
+            <th>Event</th>
+            <th>Impact</th>
+            <th>Forecast</th>
+            <th>Previous</th>
+            <th>Sentiment</th>
+            <th>Affects</th>
+            <th>Source</th>
+          </tr>
+        </thead>
+        <tbody id="rows"></tbody>
+      </table>
+    </div>
+    <div class="empty" id="empty" style="display:none;">No news found for the selected filters</div>
+  </div>
+</div>
+{% endblock %}
+{% block page_script %}
+document.getElementById('refreshNow').addEventListener('click', loadNews);
+loadNews();
+setInterval(loadNews, 5 * 60 * 1000);
+{% endblock %}

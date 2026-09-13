@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Forex News Aggregator</title>
+<title>{% block title %}Forex News Aggregator{% endblock %}</title>
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='6' fill='%23f2f2f3'/%3E%3Crect x='3' y='12' width='4' height='7' rx='1' fill='%230a0a0b'/%3E%3Crect x='10' y='8' width='4' height='11' rx='1' fill='%230a0a0b'/%3E%3Crect x='17' y='4' width='4' height='15' rx='1' fill='%230a0a0b'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -34,152 +34,18 @@
   </div>
 </header>
 
+<nav class="site-nav">
+  <a href="{{ url_for('live_prices_page', **filters) }}" class="{{ 'active' if active_page == 'live_prices' else '' }}">Live Prices</a>
+  <a href="{{ url_for('market_bias_page', **filters) }}" class="{{ 'active' if active_page == 'market_bias' else '' }}">Market Bias</a>
+  <a href="{{ url_for('social_sentiment_page', **filters) }}" class="{{ 'active' if active_page == 'social_sentiment' else '' }}">Social Sentiment</a>
+  <a href="{{ url_for('news_page', **filters) }}" class="{{ 'active' if active_page == 'news' else '' }}">News</a>
+</nav>
+
 <div class="page">
 
-{% if live_prices_enabled %}
-<div class="bias-section">
-  <h3 class="social-title">Live Prices</h3>
-  <p class="disclaimer">Live quotes via TradingView &mdash; for reference only, not for trade execution; always confirm with your broker's feed.</p>
-  <div class="bias-grid prices-grid">
-    {% for pair, tv_symbol in tradingview_pairs %}
-    <div class="bias-card price-card">
-      <div class="tradingview-widget-container">
-        <div class="tradingview-widget-container__widget"></div>
-        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-single-quote.js" async>
-        {
-          "symbol": "{{ tv_symbol }}",
-          "width": "100%",
-          "locale": "en",
-          "colorTheme": "{{ tradingview_color_theme }}",
-          "isTransparent": true
-        }
-        </script>
-      </div>
-    </div>
-    {% endfor %}
-  </div>
-</div>
-{% endif %}
+{% include "_filters.html" %}
 
-<div class="filter-bar">
-  <div class="filter-bar-label">Filters</div>
-  <div class="filter-row filter-row-controls">
-    <div class="field-inline">
-      <label>Period</label>
-      <select id="period">
-        <option value="today">Today</option>
-        <option value="tomorrow">Tomorrow</option>
-        <option value="lastweek">Last Week</option>
-        <option value="week" selected>This Week</option>
-        <option value="nextweek">Next Week</option>
-      </select>
-    </div>
-
-    <div class="field-inline">
-      <label>Impact</label>
-      <select id="impact">
-        <option value="">All</option>
-        <option value="High">High</option>
-        <option value="Medium">Medium</option>
-        <option value="Low">Low</option>
-      </select>
-    </div>
-
-    <div class="field-inline">
-      <label>From</label>
-      <input type="datetime-local" id="from">
-    </div>
-
-    <div class="field-inline">
-      <label>To</label>
-      <input type="datetime-local" id="to">
-    </div>
-
-    <button id="apply">Apply Filters</button>
-  </div>
-
-  <div class="filter-row filter-row-chips">
-    <div class="chip-group">
-      <span class="chip-group-label">Sources</span>
-      <div class="sources" id="sources">
-        {% for source in enabled_sources %}
-        <label class="source-chip active" data-source="{{ source.key }}">
-          <input type="checkbox" value="{{ source.key }}" checked>
-          {{ source.label }}
-        </label>
-        {% endfor %}
-        {% for key, reason in unavailable_sources.items() %}
-        <label class="source-chip disabled" title="Unavailable: {{ reason }}">
-          <input type="checkbox" disabled>
-          {{ key|capitalize }}
-          <span class="why">unavailable</span>
-        </label>
-        {% endfor %}
-      </div>
-    </div>
-
-    <div class="chip-group">
-      <span class="chip-group-label">Pairs</span>
-      <div class="pairs" id="pairs">
-        {% for c in currencies %}
-        <label class="pair-chip" data-code="{{ c.code }}">
-          <input type="checkbox" value="{{ c.code }}">
-          {{ c.label }}
-        </label>
-        {% endfor %}
-      </div>
-    </div>
-  </div>
-</div>
-
-{% if market_bias_enabled %}
-<div class="bias-section">
-  <p class="disclaimer">Market Bias is a rule-based heuristic (forecast vs previous, headline keywords) built from the news below &mdash; not financial advice, verify before trading.</p>
-  <div class="bias-grid" id="biasGrid"></div>
-</div>
-{% endif %}
-
-{% if social_sentiment_enabled %}
-<div class="bias-section">
-  <div class="social-header">
-    <h3 class="social-title">Social Media Sentiment (StockTwits)</h3>
-    <button id="checkSocial">Check Social Sentiment</button>
-  </div>
-  <p class="disclaimer">These are retail traders' own posts (StockTwits) &mdash; crowd chatter that can sometimes be a contrarian signal. Not financial advice.</p>
-  <div class="bias-grid" id="socialGrid"></div>
-</div>
-{% endif %}
-
-<div class="results-section">
-  <div class="panel">
-    <div class="results-header">
-      <div class="count" id="count">Loading...</div>
-      <div class="refresh-controls">
-        <span class="last-updated" id="lastUpdated"></span>
-        <button id="refreshNow" title="Re-fetch and re-analyze everything now">&#8635; Refresh</button>
-      </div>
-    </div>
-    <div class="table-scroll">
-      <table class="data-table">
-        <thead>
-          <tr>
-            <th>Time</th>
-            <th>Currency</th>
-            <th>Event</th>
-            <th>Impact</th>
-            <th>Forecast</th>
-            <th>Previous</th>
-            <th>Sentiment</th>
-            <th>Affects</th>
-            <th>Source</th>
-          </tr>
-        </thead>
-        <tbody id="rows"></tbody>
-      </table>
-    </div>
-    <div class="empty" id="empty" style="display:none;">No news found for the selected filters</div>
-  </div>
-</div>
+{% block content %}{% endblock %}
 
 </div>
 
@@ -190,34 +56,147 @@ function escapeHtml(text) {
   return div.innerHTML;
 }
 
+// StockTwits' real ticker for WTI crude oil is "CL_F" (not a human-friendly pair
+// name like "XAUUSD"), so give it a readable label wherever a pair code is shown.
+const PAIR_DISPLAY_NAMES = { CL_F: 'OIL' };
+function pairDisplayName(pair) {
+  return PAIR_DISPLAY_NAMES[pair] || pair;
+}
+
 const pairsEl = document.getElementById('pairs');
-pairsEl.addEventListener('click', (e) => {
-  const chip = e.target.closest('.pair-chip');
-  if (!chip) return;
-  // The checkbox is wrapped by this <label>, so the browser already toggles it
-  // natively on any click inside the label (not just on the checkbox square
-  // itself) -- manually flipping `checked` here again would toggle it TWICE,
-  // canceling out for most clicks. Just re-sync the active class instead.
-  chip.classList.toggle('active', chip.querySelector('input').checked);
-});
+if (pairsEl) {
+  pairsEl.addEventListener('click', (e) => {
+    const chip = e.target.closest('.pair-chip');
+    if (!chip) return;
+    // The checkbox is wrapped by this <label>, so the browser already toggles it
+    // natively on any click inside the label (not just on the checkbox square
+    // itself) -- manually flipping `checked` here again would toggle it TWICE,
+    // canceling out for most clicks. Just re-sync the active class instead.
+    chip.classList.toggle('active', chip.querySelector('input').checked);
+  });
+}
 
 function selectedCurrencies() {
+  if (!pairsEl) return [];
   return [...pairsEl.querySelectorAll('input:checked')].map(i => i.value);
 }
 
 const sourcesEl = document.getElementById('sources');
-sourcesEl.addEventListener('click', (e) => {
-  const chip = e.target.closest('.source-chip');
-  if (!chip || chip.classList.contains('disabled')) return;
-  // Same reasoning as the pairs handler above: the label already natively
-  // toggles its wrapped checkbox, so just re-sync the active class.
-  chip.classList.toggle('active', chip.querySelector('input').checked);
-});
+if (sourcesEl) {
+  sourcesEl.addEventListener('click', (e) => {
+    const chip = e.target.closest('.source-chip');
+    if (!chip || chip.classList.contains('disabled')) return;
+    // Same reasoning as the pairs handler above: the label already natively
+    // toggles its wrapped checkbox, so just re-sync the active class.
+    chip.classList.toggle('active', chip.querySelector('input').checked);
+  });
+}
 
 function selectedSources() {
+  if (!sourcesEl) return [];
   return [...sourcesEl.querySelectorAll('input:not([disabled]):checked')].map(i => i.value);
 }
 
+// Filters are carried across pages via the URL's query string (see the nav links
+// above, each built with the current filters) rather than any client-side state,
+// so every page starts by syncing its filter controls from the URL, then loading
+// its own data using whatever those controls end up set to.
+function isoToLocalInputValue(iso) {
+  const d = new Date(iso);
+  if (isNaN(d)) return '';
+  const pad = n => String(n).padStart(2, '0');
+  return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}T${pad(d.getHours())}:${pad(d.getMinutes())}`;
+}
+
+function initFiltersFromURL() {
+  const params = new URLSearchParams(window.location.search);
+
+  const periodEl = document.getElementById('period');
+  if (periodEl) periodEl.value = params.get('period') || 'week';
+
+  const impactEl = document.getElementById('impact');
+  if (impactEl) impactEl.value = params.get('impact') || '';
+
+  const fromEl = document.getElementById('from');
+  if (fromEl) fromEl.value = params.get('from') ? isoToLocalInputValue(params.get('from')) : '';
+
+  const toEl = document.getElementById('to');
+  if (toEl) toEl.value = params.get('to') ? isoToLocalInputValue(params.get('to')) : '';
+
+  if (sourcesEl) {
+    const sourcesParam = params.get('sources');
+    // No "sources" in the URL yet (first visit) means "everything enabled",
+    // matching the checked-by-default markup in _filters.html.
+    const selected = sourcesParam === null ? null : sourcesParam.split(',');
+    sourcesEl.querySelectorAll('.source-chip:not(.disabled)').forEach(chip => {
+      const cb = chip.querySelector('input');
+      const isChecked = selected === null || selected.includes(cb.value);
+      cb.checked = isChecked;
+      chip.classList.toggle('active', isChecked);
+    });
+  }
+
+  if (pairsEl) {
+    const currenciesParam = params.get('currencies');
+    const selected = currenciesParam ? currenciesParam.split(',') : [];
+    pairsEl.querySelectorAll('.pair-chip').forEach(chip => {
+      const cb = chip.querySelector('input');
+      const isChecked = selected.includes(cb.value);
+      cb.checked = isChecked;
+      chip.classList.toggle('active', isChecked);
+    });
+  }
+}
+initFiltersFromURL();
+
+document.getElementById('apply').addEventListener('click', () => {
+  const params = new URLSearchParams();
+  params.set('period', document.getElementById('period').value);
+
+  const impact = document.getElementById('impact').value;
+  if (impact) params.set('impact', impact);
+
+  // datetime-local inputs give a value with no timezone (interpreted by the
+  // Date constructor as the browser's local time); convert to a UTC ISO string
+  // so it means the same moment regardless of which page reads it back.
+  const from = document.getElementById('from').value;
+  if (from) params.set('from', new Date(from).toISOString());
+
+  const to = document.getElementById('to').value;
+  if (to) params.set('to', new Date(to).toISOString());
+
+  const sources = selectedSources();
+  params.set('sources', sources.length ? sources.join(',') : 'none');
+
+  const currencies = selectedCurrencies();
+  if (currencies.length) params.set('currencies', currencies.join(','));
+
+  // A real navigation (not just an AJAX refetch) so the new filters land in the
+  // URL -- that's what lets the nav links above carry them to the other pages.
+  window.location.href = window.location.pathname + '?' + params.toString();
+});
+
+function renderBiasGrid(pairBias) {
+  const grid = document.getElementById('biasGrid');
+  if (!grid) return;
+  const entries = Object.entries(pairBias);
+  if (!entries.length) {
+    grid.innerHTML = '<span style="color:var(--muted); font-size:12px;">No bias data yet</span>';
+    return;
+  }
+  grid.innerHTML = entries.map(([pair, info]) => `
+    <div class="bias-card ${info.bias}">
+      <div class="pair-name">${pairDisplayName(pair)}</div>
+      <div class="bias-label ${info.bias}">${info.bias}</div>
+      <div class="signals">weighted ${info.bullish_weight} bullish &middot; ${info.bearish_weight} bearish (${info.signal_count} signals)</div>
+    </div>
+  `).join('');
+}
+
+// Shared by the News page (full results table) and the Market Bias page (which
+// only cares about the pair_bias half of the same /api/news response) -- every
+// element it touches is looked up defensively since only one of those pages has
+// the results table in its markup.
 let newsRequestInFlight = false;
 
 async function loadNews() {
@@ -240,10 +219,6 @@ async function loadNewsInner() {
   const impact = document.getElementById('impact').value;
   if (impact) params.set('impact', impact);
 
-  // datetime-local inputs give a value with no timezone (interpreted by the
-  // Date constructor as the browser's local time); convert to a UTC ISO string
-  // before sending so the backend compares against the user's actual intended
-  // moment instead of misreading it as UTC.
   const from = document.getElementById('from').value;
   if (from) params.set('from', new Date(from).toISOString());
 
@@ -259,11 +234,10 @@ async function loadNewsInner() {
   const refreshBtn = document.getElementById('refreshNow');
   const applyBtn = document.getElementById('apply');
 
-  countEl.textContent = 'Loading...';
-  rowsEl.innerHTML = '';
-  emptyEl.style.display = 'none';
-  refreshBtn.classList.add('spinning');
-  refreshBtn.disabled = true;
+  if (countEl) countEl.textContent = 'Loading...';
+  if (rowsEl) rowsEl.innerHTML = '';
+  if (emptyEl) emptyEl.style.display = 'none';
+  if (refreshBtn) { refreshBtn.classList.add('spinning'); refreshBtn.disabled = true; }
   applyBtn.disabled = true;
 
   let data;
@@ -271,30 +245,31 @@ async function loadNewsInner() {
     const res = await fetch('/api/news?' + params.toString());
     data = await res.json();
   } catch (err) {
-    countEl.textContent = 'Error: could not reach the server';
-    refreshBtn.classList.remove('spinning');
-    refreshBtn.disabled = false;
+    if (countEl) countEl.textContent = 'Error: could not reach the server';
+    if (refreshBtn) refreshBtn.classList.remove('spinning');
+    if (refreshBtn) refreshBtn.disabled = false;
     applyBtn.disabled = false;
     return;
   }
-  refreshBtn.classList.remove('spinning');
-  refreshBtn.disabled = false;
+  if (refreshBtn) { refreshBtn.classList.remove('spinning'); refreshBtn.disabled = false; }
   applyBtn.disabled = false;
 
   if (data.error) {
-    countEl.textContent = 'Error: ' + data.error;
+    if (countEl) countEl.textContent = 'Error: ' + data.error;
     return;
   }
 
-  document.getElementById('lastUpdated').textContent =
-    'Last updated: ' + new Date().toLocaleTimeString();
+  const lastUpdatedEl = document.getElementById('lastUpdated');
+  if (lastUpdatedEl) lastUpdatedEl.textContent = 'Last updated: ' + new Date().toLocaleTimeString();
 
   const errorEntries = Object.entries(data.source_errors || {});
   const errorNote = errorEntries.length
     ? ' (unavailable: ' + errorEntries.map(([src, msg]) => `${src} - ${msg}`).join('; ') + ')'
     : '';
-  countEl.textContent = data.count + ' events found' + errorNote;
+  if (countEl) countEl.textContent = data.count + ' events found' + errorNote;
   renderBiasGrid(data.pair_bias || {});
+
+  if (!rowsEl) return; // Market Bias page has no results table to fill in
 
   if (data.count === 0) {
     emptyEl.textContent = params.get('period') === 'nextweek'
@@ -338,30 +313,6 @@ async function loadNewsInner() {
       <td data-label="Source"><span class="source-tag">${escapeHtml(ev.source)}</span></td>
     </tr>`;
   }).join('');
-}
-
-// StockTwits' real ticker for WTI crude oil is "CL_F" (not a human-friendly pair
-// name like "XAUUSD"), so give it a readable label wherever a pair code is shown.
-const PAIR_DISPLAY_NAMES = { CL_F: 'OIL' };
-function pairDisplayName(pair) {
-  return PAIR_DISPLAY_NAMES[pair] || pair;
-}
-
-function renderBiasGrid(pairBias) {
-  const grid = document.getElementById('biasGrid');
-  if (!grid) return;
-  const entries = Object.entries(pairBias);
-  if (!entries.length) {
-    grid.innerHTML = '<span style="color:var(--muted); font-size:12px;">No bias data yet</span>';
-    return;
-  }
-  grid.innerHTML = entries.map(([pair, info]) => `
-    <div class="bias-card ${info.bias}">
-      <div class="pair-name">${pairDisplayName(pair)}</div>
-      <div class="bias-label ${info.bias}">${info.bias}</div>
-      <div class="signals">weighted ${info.bullish_weight} bullish &middot; ${info.bearish_weight} bearish (${info.signal_count} signals)</div>
-    </div>
-  `).join('');
 }
 
 async function loadSocialSentiment() {
@@ -425,14 +376,6 @@ async function loadSocialSentiment() {
 const checkSocialBtn = document.getElementById('checkSocial');
 if (checkSocialBtn) checkSocialBtn.addEventListener('click', loadSocialSentiment);
 
-document.getElementById('apply').addEventListener('click', loadNews);
-document.getElementById('refreshNow').addEventListener('click', loadNews);
-
-const AUTO_REFRESH_MS = 5 * 60 * 1000;
-setInterval(loadNews, AUTO_REFRESH_MS);
-
-loadNews();
-
 // If the admin changes Feature Controls while this page is open, pick it up
 // automatically instead of leaving stale sources/sections showing.
 const INITIAL_SETTINGS = {{ settings_json|safe }};
@@ -453,6 +396,8 @@ async function checkSettingsChanged() {
 
 const SETTINGS_POLL_MS = 15 * 1000;
 setInterval(checkSettingsChanged, SETTINGS_POLL_MS);
+
+{% block page_script %}{% endblock %}
 </script>
 <script src="{{ url_for('static', filename='js/theme.js') }}"></script>
 

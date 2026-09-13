@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}Social Sentiment - Forex News Aggregator{% endblock %}
+{% block content %}
+{% if social_sentiment_enabled %}
+<div class="bias-section">
+  <div class="social-header">
+    <h3 class="social-title">Social Media Sentiment (StockTwits)</h3>
+    <button id="checkSocial">Check Social Sentiment</button>
+  </div>
+  <p class="disclaimer">These are retail traders' own posts (StockTwits) &mdash; crowd chatter that can sometimes be a contrarian signal. Not financial advice. Uses the Period/From/To filters above; StockTwits only ever returns its most recent posts, so a past period may show fewer results for quieter pairs.</p>
+  <div class="bias-grid" id="socialGrid"></div>
+</div>
+{% else %}
+<div class="bias-section">
+  <p class="disclaimer">Social Media Sentiment has been disabled by the admin.</p>
+</div>
+{% endif %}
+{% endblock %}
