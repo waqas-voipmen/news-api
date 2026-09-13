@@ -364,14 +364,30 @@ if (socialRefreshBtn) {
 
 // If the admin changes Feature Controls while this page is open, pick it up
 // automatically instead of leaving stale sources/sections showing.
+//
+// Comparing needs a stable (sorted-key) stringify on BOTH sides -- /api/settings
+// and the settings baked into this page at render time can come back with their
+// object keys in a different order (Flask's own JSON serialization doesn't
+// guarantee key order matches Python's json.dumps(sort_keys=True) used server
+// side), and a plain JSON.stringify() treats that as "different" even when the
+// actual settings are identical, which was forcing a reload every 15s.
+function stableStringify(value) {
+  if (Array.isArray(value)) return '[' + value.map(stableStringify).join(',') + ']';
+  if (value && typeof value === 'object') {
+    const keys = Object.keys(value).sort();
+    return '{' + keys.map(k => JSON.stringify(k) + ':' + stableStringify(value[k])).join(',') + '}';
+  }
+  return JSON.stringify(value);
+}
+
 const INITIAL_SETTINGS = {{ settings_json|safe }};
-let lastSettingsJSON = JSON.stringify(INITIAL_SETTINGS);
+let lastSettingsJSON = stableStringify(INITIAL_SETTINGS);
 
 async function checkSettingsChanged() {
   try {
     const res = await fetch('/api/settings');
     const data = await res.json();
-    const current = JSON.stringify(data);
+    const current = stableStringify(data);
     if (current !== lastSettingsJSON) {
       location.reload();
     }
