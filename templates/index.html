@@ -404,8 +404,8 @@ async function loadSocialSentiment() {
         month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit',
       }) : '';
       return `<div class="post">
-        <span class="tag ${p.sentiment}">${p.sentiment}:</span> ${escapeHtml(p.body).slice(0, 90)}
-        ${when ? `<div class="post-time">${when}</div>` : ''}
+        <span class="tag ${p.sentiment}">${p.sentiment}</span>${when ? ` <span class="post-time">${when}</span>` : ''}
+        <div>${escapeHtml(p.body).slice(0, 90)}</div>
       </div>`;
     }).join('');
 
