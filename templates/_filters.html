@@ -36,6 +36,7 @@
   </div>
 
   <div class="filter-row filter-row-chips">
+    {% if not hide_sources %}
     <div class="chip-group">
       <span class="chip-group-label">Sources</span>
       <div class="sources" id="sources">
@@ -54,6 +55,7 @@
         {% endfor %}
       </div>
     </div>
+    {% endif %}
 
     <div class="chip-group">
       <span class="chip-group-label">Pairs</span>

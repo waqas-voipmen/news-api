@@ -93,7 +93,10 @@ if (sourcesEl) {
 }
 
 function selectedSources() {
-  if (!sourcesEl) return [];
+  // null (not just an empty array) means "no Sources UI on this page" so the
+  // caller can leave the sources param out entirely and let the backend use
+  // every enabled source, instead of reading "nothing checked" as "use none".
+  if (!sourcesEl) return null;
   return [...sourcesEl.querySelectorAll('input:not([disabled]):checked')].map(i => i.value);
 }
 
@@ -108,11 +111,15 @@ function isoToLocalInputValue(iso) {
   return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}T${pad(d.getHours())}:${pad(d.getMinutes())}`;
 }
 
+// Each page can set its own default (e.g. Market Bias defaults to "Today" rather
+// than "This Week") for a first visit with nothing in the URL yet.
+const DEFAULT_PERIOD = '{{ default_period|default("week") }}';
+
 function initFiltersFromURL() {
   const params = new URLSearchParams(window.location.search);
 
   const periodEl = document.getElementById('period');
-  if (periodEl) periodEl.value = params.get('period') || 'week';
+  if (periodEl) periodEl.value = params.get('period') || DEFAULT_PERIOD;
 
   const impactEl = document.getElementById('impact');
   if (impactEl) impactEl.value = params.get('impact') || '';
@@ -168,7 +175,7 @@ if (applyFiltersBtn) {
     if (to) params.set('to', new Date(to).toISOString());
 
     const sources = selectedSources();
-    params.set('sources', sources.length ? sources.join(',') : 'none');
+    if (sources !== null) params.set('sources', sources.length ? sources.join(',') : 'none');
 
     const currencies = selectedCurrencies();
     if (currencies.length) params.set('currencies', currencies.join(','));
@@ -217,7 +224,7 @@ async function loadNewsInner() {
   params.set('period', document.getElementById('period').value);
 
   const sources = selectedSources();
-  params.set('sources', sources.length ? sources.join(',') : 'none');
+  if (sources !== null) params.set('sources', sources.length ? sources.join(',') : 'none');
 
   const impact = document.getElementById('impact').value;
   if (impact) params.set('impact', impact);

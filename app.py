@@ -589,6 +589,8 @@ def _page_context(active_page, **extra):
         settings_json=json.dumps(settings, sort_keys=True),
         theme=theme,
         tradingview_color_theme=theme,
+        hide_sources=False,
+        default_period="week",
     )
     ctx.update(extra)
     return ctx
@@ -618,7 +620,10 @@ def live_prices_page():
 @app.route("/market-bias")
 @login_required
 def market_bias_page():
-    return render_template("market_bias.html", **_page_context("market_bias"))
+    return render_template(
+        "market_bias.html",
+        **_page_context("market_bias", hide_sources=True, default_period="today"),
+    )
 
 
 @app.route("/social-sentiment")
@@ -741,9 +746,9 @@ def get_news():
     if "myfxbook" in wanted_sources:
         events += _fetch_source("myfxbook", fetch_myfxbook_news)
 
-    if currencies:
-        wanted = {c.strip().upper() for c in currencies.split(",") if c.strip()}
-        events = [e for e in events if e.get("country", "").upper() in wanted]
+    wanted_currencies = {c.strip().upper() for c in currencies.split(",") if c.strip()} if currencies else None
+    if wanted_currencies:
+        events = [e for e in events if e.get("country", "").upper() in wanted_currencies]
 
     if impact:
         events = [e for e in events if e.get("impact", "").lower() == impact.lower()]
@@ -763,6 +768,16 @@ def get_news():
         e["analysis"] = analysis.analyze_event(e) if settings["news_sentiment_enabled"] else None
 
     pair_bias = analysis.aggregate_pair_bias(events) if settings["market_bias_enabled"] else {}
+    if wanted_currencies:
+        # aggregate_pair_bias always returns all of analysis.PAIRS (so a pair with
+        # zero matching signals still shows as a "Neutral, 0 signals" card) --
+        # the Pairs filter is expected to actually hide cards for pairs that
+        # don't involve a selected currency/instrument, not just zero them out.
+        pair_bias = {
+            pair: info for pair, info in pair_bias.items()
+            if analysis.PAIRS[pair][0] in wanted_currencies
+            or (analysis.PAIRS[pair][1] and analysis.PAIRS[pair][1] in wanted_currencies)
+        }
 
     return jsonify({"count": len(events), "events": events, "pair_bias": pair_bias, "source_errors": source_errors})
 
