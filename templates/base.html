@@ -35,10 +35,13 @@
 </header>
 
 <nav class="site-nav">
-  <a href="{{ url_for('live_prices_page', **filters) }}" class="{{ 'active' if active_page == 'live_prices' else '' }}">Live Prices</a>
-  <a href="{{ url_for('market_bias_page', **filters) }}" class="{{ 'active' if active_page == 'market_bias' else '' }}">Market Bias</a>
-  <a href="{{ url_for('social_sentiment_page', **filters) }}" class="{{ 'active' if active_page == 'social_sentiment' else '' }}">Social Sentiment</a>
-  <a href="{{ url_for('news_page', **filters) }}" class="{{ 'active' if active_page == 'news' else '' }}">News</a>
+  {# Each page keeps its own independent filter state -- these are plain links
+     with no query string, not carrying the current page's filters along, so
+     applying a filter on one page never silently affects another. #}
+  <a href="{{ url_for('live_prices_page') }}" class="{{ 'active' if active_page == 'live_prices' else '' }}">Live Prices</a>
+  <a href="{{ url_for('market_bias_page') }}" class="{{ 'active' if active_page == 'market_bias' else '' }}">Market Bias</a>
+  <a href="{{ url_for('social_sentiment_page') }}" class="{{ 'active' if active_page == 'social_sentiment' else '' }}">Social Sentiment</a>
+  <a href="{{ url_for('news_page') }}" class="{{ 'active' if active_page == 'news' else '' }}">News</a>
 </nav>
 
 <div class="page">
@@ -100,10 +103,11 @@ function selectedSources() {
   return [...sourcesEl.querySelectorAll('input:not([disabled]):checked')].map(i => i.value);
 }
 
-// Filters are carried across pages via the URL's query string (see the nav links
-// above, each built with the current filters) rather than any client-side state,
-// so every page starts by syncing its filter controls from the URL, then loading
-// its own data using whatever those controls end up set to.
+// Each page's filters live only in its own URL's query string -- the nav links
+// carry no query string, so switching pages always lands on that page's own
+// defaults instead of whatever was applied elsewhere. Reloading THIS page (or
+// bookmarking/sharing its URL) still keeps its own filters, since Apply writes
+// them into the URL before navigating.
 function isoToLocalInputValue(iso) {
   const d = new Date(iso);
   if (isNaN(d)) return '';

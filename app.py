@@ -577,9 +577,9 @@ def _tv_pair_matches(code, tv_key):
 
 def _page_context(active_page, **extra):
     """Template variables shared by every page: header/nav chrome, the filter bar's
-    options, and feature-flag/theme state. `filters` is the current request's own
-    query string, reused to build the nav links so picking a filter on one page
-    carries it over when you click to another (see base.html)."""
+    options, and feature-flag/theme state. Each page's filters are independent --
+    the nav links deliberately carry no query string, so applying a filter on one
+    page never bleeds into another (see base.html)."""
     is_admin = _load_users().get(session["username"], {}).get("is_admin", False)
     settings = _load_settings()
     enabled_sources = [
@@ -589,7 +589,6 @@ def _page_context(active_page, **extra):
     theme = _get_theme()
     ctx = dict(
         active_page=active_page,
-        filters=request.args,
         currencies=[{"code": c, "label": analysis.INSTRUMENT_LABELS[c]} for c in FILTERABLE_INSTRUMENTS],
         unavailable_sources=UNAVAILABLE_SOURCES,
         current_user=session["username"],
