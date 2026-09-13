@@ -71,6 +71,11 @@ SOCIAL_PAIRS = list(analysis.PAIRS)  # StockTwits recognizes these same tickers 
 # real spot XAUUSD/XAGUSD/DXY ticks straight from TradingView's feed instead of
 # an approximated proxy, with no scraping, rate limits, or backend fetch at all.
 TRADINGVIEW_SYMBOLS = {
+    "DXY": "CAPITALCOM:DXY",
+    "XAUUSD": "FOREXCOM:XAUUSD",
+    "XAGUSD": "FOREXCOM:XAGUSD",
+    "BTCUSD": "COINBASE:BTCUSD",
+    "USOIL": "TVC:USOIL",
     "EURUSD": "OANDA:EURUSD",
     "GBPUSD": "OANDA:GBPUSD",
     "USDJPY": "OANDA:USDJPY",
@@ -78,11 +83,6 @@ TRADINGVIEW_SYMBOLS = {
     "USDCAD": "OANDA:USDCAD",
     "AUDUSD": "OANDA:AUDUSD",
     "NZDUSD": "OANDA:NZDUSD",
-    "XAUUSD": "FOREXCOM:XAUUSD",
-    "XAGUSD": "FOREXCOM:XAGUSD",
-    "DXY": "CAPITALCOM:DXY",
-    "BTCUSD": "COINBASE:BTCUSD",
-    "USOIL": "TVC:USOIL",
 }
 
 # DailyFX sits behind Akamai's bot-protection, which blocks at the network/IP level
