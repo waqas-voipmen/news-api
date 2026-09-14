@@ -378,6 +378,25 @@ button#refreshNow {
 button#refreshNow:hover { border-color: var(--border-strong); color: var(--text); }
 button#refreshNow.spinning { opacity: .5; cursor: wait; }
 
+/* Shown while a filter/refresh request is in flight, so applying a filter reads
+   as "fetching and analyzing" rather than the UI just going blank for a beat. */
+@keyframes pulse-icon { 0%, 100% { opacity: .5; transform: scale(.92); } 50% { opacity: 1; transform: scale(1.08); } }
+.loading-state {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 36px 16px;
+  color: var(--muted);
+  font-size: 13px;
+  grid-column: 1 / -1;
+}
+.loading-state .loading-icon {
+  font-size: 19px;
+  line-height: 1;
+  animation: pulse-icon 1.3s ease-in-out infinite;
+}
+
 button.danger {
   background: transparent;
   color: var(--bear);

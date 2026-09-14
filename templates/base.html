@@ -159,10 +159,24 @@ if (applyFiltersBtn) {
     const currencies = selectedCurrencies();
     if (currencies.length) params.set('currencies', currencies.join(','));
 
+    // Instant feedback for the click itself -- the actual navigation below
+    // reloads the page, so this only flashes briefly, but it stops the button
+    // from feeling unresponsive in the moment before the browser moves on.
+    applyFiltersBtn.disabled = true;
+    applyFiltersBtn.textContent = 'Applying...';
+
     // A real navigation (not just an AJAX refetch) so the new filters land in
     // this page's own URL (see initFiltersFromURL above).
     window.location.href = window.location.pathname + '?' + params.toString();
   });
+}
+
+// A shared "fetching/analyzing" placeholder shown in place of a grid or table's
+// rows while a request is in flight, so applying a filter reads as real work
+// happening rather than the page just going blank for a beat.
+function renderLoadingState(el, icon, text) {
+  if (!el) return;
+  el.innerHTML = `<div class="loading-state"><span class="loading-icon">${icon}</span><span>${escapeHtml(text)}</span></div>`;
 }
 
 function renderBiasGrid(pairBias) {
@@ -213,15 +227,21 @@ async function loadNewsInner() {
 
   const countEl = document.getElementById('count');
   const rowsEl = document.getElementById('rows');
+  const biasGridEl = document.getElementById('biasGrid');
   const emptyEl = document.getElementById('empty');
   const refreshBtn = document.getElementById('refreshNow');
   const applyBtn = document.getElementById('apply');
 
-  if (countEl) countEl.textContent = 'Loading...';
-  if (rowsEl) rowsEl.innerHTML = '';
+  if (countEl) countEl.textContent = 'Analyzing news & calendar events...';
+  if (rowsEl) {
+    rowsEl.innerHTML = '<tr><td colspan="9"><div class="loading-state">'
+      + '<span class="loading-icon">\u{1F50E}</span><span>Fetching and analyzing news...</span></div></td></tr>';
+  }
+  renderLoadingState(biasGridEl, '\u{1F9E0}', 'Analyzing news for market bias...');
   if (emptyEl) emptyEl.style.display = 'none';
   if (refreshBtn) { refreshBtn.classList.add('spinning'); refreshBtn.disabled = true; }
   applyBtn.disabled = true;
+  applyBtn.textContent = 'Applying...';
 
   let data;
   try {
@@ -232,13 +252,17 @@ async function loadNewsInner() {
     if (refreshBtn) refreshBtn.classList.remove('spinning');
     if (refreshBtn) refreshBtn.disabled = false;
     applyBtn.disabled = false;
+    applyBtn.textContent = 'Apply Filters';
     return;
   }
   if (refreshBtn) { refreshBtn.classList.remove('spinning'); refreshBtn.disabled = false; }
   applyBtn.disabled = false;
+  applyBtn.textContent = 'Apply Filters';
 
   if (data.error) {
     if (countEl) countEl.textContent = 'Error: ' + data.error;
+    if (rowsEl) rowsEl.innerHTML = '';
+    if (biasGridEl) biasGridEl.innerHTML = '';
     return;
   }
 
@@ -303,7 +327,7 @@ async function loadSocialSentiment() {
   const grid = document.getElementById('socialGrid');
   if (!grid) return;
   if (btn) { btn.disabled = true; btn.classList.add('spinning'); }
-  grid.innerHTML = '<span style="color:var(--muted); font-size:12px;">Fetching social posts...</span>';
+  renderLoadingState(grid, '\u{1F4AC}', 'Pulling live posts from StockTwits...');
 
   const params = new URLSearchParams();
   params.set('period', document.getElementById('period').value);
