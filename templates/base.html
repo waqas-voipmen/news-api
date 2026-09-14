@@ -245,7 +245,7 @@ async function loadNewsInner() {
 
   if (countEl) countEl.textContent = 'Analyzing news & calendar events...';
   if (rowsEl) {
-    rowsEl.innerHTML = '<tr><td colspan="9"><div class="loading-state">'
+    rowsEl.innerHTML = '<tr><td colspan="9" class="loading-cell"><div class="loading-state">'
       + '<span class="loading-icon">\u{1F50E}</span><span>Fetching and analyzing news...</span></div></td></tr>';
   }
   renderLoadingState(biasGridEl, '\u{1F9E0}', 'Analyzing news for market bias...');

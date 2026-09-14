@@ -383,8 +383,10 @@ button#refreshNow.spinning { opacity: .5; cursor: wait; }
 @keyframes pulse-icon { 0%, 100% { opacity: .5; transform: scale(.92); } 50% { opacity: 1; transform: scale(1.08); } }
 .loading-state {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  text-align: center;
   gap: 10px;
   padding: 36px 16px;
   color: var(--muted);
@@ -684,6 +686,10 @@ a.title-link:hover { color: var(--accent-strong); text-decoration: underline; }
     letter-spacing: .04em;
     color: var(--muted-2);
   }
+  /* The loading row has no per-field label to stack above -- keep it a plain
+     centered block instead of the empty label line every other td gets. */
+  table.data-table td.loading-cell { display: block; text-align: center; }
+  table.data-table td.loading-cell::before { content: none; }
 
   .admin-shell { flex-direction: column; }
   .sidebar { width: 100%; flex-direction: row; flex-wrap: wrap; align-items: center; padding: 12px; gap: 2px; }
