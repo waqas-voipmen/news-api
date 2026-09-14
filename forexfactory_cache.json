@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-14T07:48:07.862123+00:00",
+  "fetched_at": "2026-09-14T17:58:49.974078+00:00",
   "periods": {
     "week": [
       {
@@ -71,7 +71,7 @@
       {
         "title": "M2 Money Supply y/y",
         "country": "CNY",
-        "date": "2026-09-14T04:03:00-04:00",
+        "date": "2026-09-14T05:01:00-04:00",
         "impact": "Low",
         "forecast": "7.6%",
         "previous": "7.7%",
@@ -82,7 +82,7 @@
       {
         "title": "New Loans",
         "country": "CNY",
-        "date": "2026-09-14T04:03:00-04:00",
+        "date": "2026-09-14T05:01:00-04:00",
         "impact": "Low",
         "forecast": "480B",
         "previous": "-340B",
