@@ -12,6 +12,13 @@
 </head>
 <body>
 
+<div class="loading-overlay" id="loadingOverlay" hidden>
+  <div class="loading-overlay-box">
+    <span class="loading-icon loading-overlay-icon">&#128269;</span>
+    <div class="loading-overlay-text">Loading...</div>
+  </div>
+</div>
+
 <header class="site-header">
   <div class="brand">
     <div class="brand-mark">
@@ -190,6 +197,23 @@ function renderLoadingState(el, icon, text) {
   el.innerHTML = `<div class="loading-state"><span class="loading-icon">${icon}</span><span>${escapeHtml(text)}</span></div>`;
 }
 
+// A blocking popup shown over the whole page for user-triggered loads (first
+// page load, Apply, the manual Refresh button) -- makes it unmistakable that a
+// search is fetching/analyzing real data, not just a quick client-side filter.
+// Left out of the silent 5-minute background auto-refresh on purpose, since
+// popping this up unasked every few minutes while someone is mid-read would be
+// more annoying than reassuring.
+const loadingOverlayEl = document.getElementById('loadingOverlay');
+function showLoadingOverlay(icon, text) {
+  if (!loadingOverlayEl) return;
+  loadingOverlayEl.querySelector('.loading-overlay-icon').textContent = icon;
+  loadingOverlayEl.querySelector('.loading-overlay-text').textContent = text;
+  loadingOverlayEl.hidden = false;
+}
+function hideLoadingOverlay() {
+  if (loadingOverlayEl) loadingOverlayEl.hidden = true;
+}
+
 function renderBiasGrid(pairBias) {
   const grid = document.getElementById('biasGrid');
   if (!grid) return;
@@ -213,17 +237,17 @@ function renderBiasGrid(pairBias) {
 // the results table in its markup.
 let newsRequestInFlight = false;
 
-async function loadNews() {
+async function loadNews(background) {
   if (newsRequestInFlight) return;
   newsRequestInFlight = true;
   try {
-    await loadNewsInner();
+    await loadNewsInner(background);
   } finally {
     newsRequestInFlight = false;
   }
 }
 
-async function loadNewsInner() {
+async function loadNewsInner(background) {
   const params = new URLSearchParams();
   params.set('period', document.getElementById('period').value);
 
@@ -253,6 +277,9 @@ async function loadNewsInner() {
   if (refreshBtn) { refreshBtn.classList.add('spinning'); refreshBtn.disabled = true; }
   applyBtn.disabled = true;
   applyBtn.textContent = 'Applying...';
+  if (!background) {
+    showLoadingOverlay(rowsEl ? '\u{1F50E}' : '\u{1F9E0}', rowsEl ? 'Fetching and analyzing news...' : 'Analyzing news for market bias...');
+  }
 
   const loadStartedAt = Date.now();
   let data;
@@ -266,11 +293,13 @@ async function loadNewsInner() {
     if (refreshBtn) refreshBtn.disabled = false;
     applyBtn.disabled = false;
     applyBtn.textContent = 'Apply Filters';
+    hideLoadingOverlay();
     return;
   }
   if (refreshBtn) { refreshBtn.classList.remove('spinning'); refreshBtn.disabled = false; }
   applyBtn.disabled = false;
   applyBtn.textContent = 'Apply Filters';
+  hideLoadingOverlay();
 
   if (data.error) {
     if (countEl) countEl.textContent = 'Error: ' + data.error;
@@ -341,6 +370,7 @@ async function loadSocialSentiment() {
   if (!grid) return;
   if (btn) { btn.disabled = true; btn.classList.add('spinning'); }
   renderLoadingState(grid, '\u{1F4AC}', 'Pulling live posts from StockTwits...');
+  showLoadingOverlay('\u{1F4AC}', 'Pulling live posts from StockTwits...');
 
   const params = new URLSearchParams();
   params.set('period', document.getElementById('period').value);
@@ -356,8 +386,10 @@ async function loadSocialSentiment() {
   } catch (err) {
     grid.innerHTML = '<span style="color:var(--muted); font-size:12px;">Error: could not reach the server</span>';
     if (btn) { btn.disabled = false; btn.classList.remove('spinning'); }
+    hideLoadingOverlay();
     return;
   }
+  hideLoadingOverlay();
 
   const entries = Object.entries(data.pairs || {});
   grid.innerHTML = entries.map(([pair, info]) => {

@@ -399,6 +399,39 @@ button#refreshNow.spinning { opacity: .5; cursor: wait; }
   animation: pulse-icon 1.3s ease-in-out infinite;
 }
 
+/* Blocking popup for user-triggered loads (first page load, Apply, manual
+   Refresh) -- see showLoadingOverlay()/hideLoadingOverlay() in base.html. */
+.loading-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 16px;
+}
+.loading-overlay[hidden] { display: none; }
+.loading-overlay-box {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  padding: 30px 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  text-align: center;
+  max-width: 320px;
+}
+.loading-overlay-icon {
+  font-size: 34px;
+  line-height: 1;
+  animation: pulse-icon 1.3s ease-in-out infinite;
+}
+.loading-overlay-text { color: var(--text); font-size: 14px; font-weight: 500; }
+
 button.danger {
   background: transparent;
   color: var(--bear);

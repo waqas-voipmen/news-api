@@ -14,5 +14,5 @@
 {% endblock %}
 {% block page_script %}
 loadNews();
-setInterval(loadNews, 5 * 60 * 1000);
+setInterval(() => loadNews(true), 5 * 60 * 1000);
 {% endblock %}
