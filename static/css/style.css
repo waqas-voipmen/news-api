@@ -201,12 +201,32 @@ a { color: var(--accent); }
   z-index: 19;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: 4px;
-  padding: 0 40px;
+  padding: 10px 40px;
   background: var(--surface);
   border-bottom: 1px solid var(--border);
 }
 
+.site-nav a {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 9px 16px;
+  border-radius: var(--radius);
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  white-space: nowrap;
+  transition: color .15s ease, background-color .15s ease;
+}
+.site-nav a:hover { color: var(--text); background: var(--tint); }
+.site-nav a.active { color: var(--accent-strong); background: var(--accent-soft); font-weight: 600; }
+.site-nav .nav-icon { font-size: 15px; line-height: 1; }
+
+/* Mobile overrides come last so they win ties with the shared rules above
+   instead of losing to them by source order at the same specificity. */
 @media (max-width: 640px) {
   .nav-toggle { display: flex; }
 
@@ -218,6 +238,7 @@ a { color: var(--accent); }
     position: static;
     flex-direction: column;
     flex-wrap: nowrap;
+    align-items: stretch;
     gap: 2px;
     padding: 0 8px;
     max-height: 0;
@@ -226,26 +247,8 @@ a { color: var(--accent); }
     transition: max-height .2s ease;
   }
   .site-nav.open { max-height: 320px; padding: 8px; }
-  .site-nav a {
-    padding: 12px 14px;
-    border-radius: var(--radius-sm);
-    border-bottom: none;
-  }
-  .site-nav a.active { background: var(--accent-soft); }
+  .site-nav a { padding: 12px 14px; }
 }
-
-.site-nav a {
-  padding: 12px 14px;
-  color: var(--muted);
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: 500;
-  white-space: nowrap;
-  border-bottom: 2px solid transparent;
-  transition: color .15s ease, border-color .15s ease;
-}
-.site-nav a:hover { color: var(--text); }
-.site-nav a.active { color: var(--accent); border-bottom-color: var(--accent); }
 
 .theme-toggle-sidebar { margin: 4px 22px 0; width: calc(100% - 44px); }
 
