@@ -40,6 +40,19 @@ PAIRS = {
     "NZDUSD": ("NZD", "USD"),
 }
 
+
+def pair_identity(pair):
+    """The one currency/commodity a pair "is" for filtering purposes -- USD is
+    a leg of every single entry in PAIRS (it's the board's universal quote/base),
+    so treating either leg as an equally valid match would make selecting "USD"
+    alone match all twelve pairs instead of just DXY. The identity is whichever
+    leg ISN'T USD, falling back to USD itself only for DXY, which has no other
+    leg at all."""
+    base, quote = PAIRS[pair]
+    if quote is None:
+        return base
+    return quote if base == "USD" else base
+
 # indicators where a HIGHER number is actually bad news for the currency
 INVERSE_INDICATOR_KEYWORDS = [
     "unemployment", "jobless", "claims", "redundanc", "trade deficit",

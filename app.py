@@ -802,11 +802,12 @@ def get_news():
         # aggregate_pair_bias always returns all of analysis.PAIRS (so a pair with
         # zero matching signals still shows as a "Neutral, 0 signals" card) --
         # the Pairs filter is expected to actually hide cards for pairs that
-        # don't involve a selected currency/instrument, not just zero them out.
+        # don't match a selected currency/instrument, not just zero them out.
+        # Matching on pair_identity (not "either leg") keeps selecting USD alone
+        # from pulling in every pair on the board -- USD is a leg of all twelve.
         pair_bias = {
             pair: info for pair, info in pair_bias.items()
-            if analysis.PAIRS[pair][0] in wanted_currencies
-            or (analysis.PAIRS[pair][1] and analysis.PAIRS[pair][1] in wanted_currencies)
+            if analysis.pair_identity(pair) in wanted_currencies
         }
         events = [e for e in events if e.get("country", "").upper() in wanted_currencies]
 
