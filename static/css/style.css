@@ -158,6 +158,34 @@ a { color: var(--accent); }
 }
 .theme-toggle:hover { border-color: var(--border-strong); color: var(--text); }
 
+/* Hamburger toggle for the mobile nav dropdown -- hidden on desktop, where the
+   page links already show inline in .site-nav. */
+.nav-toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 34px;
+  height: 34px;
+  padding: 0;
+  border-radius: var(--radius-sm);
+  background: transparent;
+  border: 1px solid var(--border);
+}
+.nav-toggle:hover { border-color: var(--border-strong); }
+.nav-toggle span {
+  display: block;
+  width: 16px;
+  height: 2px;
+  border-radius: 1px;
+  background: var(--muted);
+  transition: transform .2s ease, opacity .2s ease;
+}
+.nav-toggle.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+.nav-toggle.open span:nth-child(2) { opacity: 0; }
+.nav-toggle.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
 .theme-toggle-float {
   position: fixed;
   top: 20px;
@@ -180,7 +208,30 @@ a { color: var(--accent); }
 }
 
 @media (max-width: 640px) {
-  .site-nav { padding: 0 16px; }
+  .nav-toggle { display: flex; }
+
+  /* Collapsed into a dropdown panel right under the header, opened via
+     .nav-toggle -- max-height (not display:none) so open/close can animate,
+     and plain static flow (not sticky) so it just pushes the page down
+     when open instead of needing a positioned ancestor to anchor to. */
+  .site-nav {
+    position: static;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 2px;
+    padding: 0 8px;
+    max-height: 0;
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+    transition: max-height .2s ease;
+  }
+  .site-nav.open { max-height: 320px; padding: 8px; }
+  .site-nav a {
+    padding: 12px 14px;
+    border-radius: var(--radius-sm);
+    border-bottom: none;
+  }
+  .site-nav a.active { background: var(--accent-soft); }
 }
 
 .site-nav a {

@@ -34,10 +34,13 @@
     {% if is_admin %}<a href="{{ url_for('admin_panel') }}" class="primary-link">Admin Panel</a>{% endif %}
     <a href="{{ url_for('logout') }}">Logout</a>
     <button type="button" class="theme-toggle" aria-label="Toggle night mode">&#9789;</button>
+    <button type="button" class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="siteNav">
+      <span></span><span></span><span></span>
+    </button>
   </div>
 </header>
 
-<nav class="site-nav">
+<nav class="site-nav" id="siteNav">
   {# Each page keeps its own independent filter state -- these are plain links
      with no query string, not carrying the current page's filters along, so
      applying a filter on one page never silently affects another. #}
@@ -60,6 +63,29 @@ function escapeHtml(text) {
   const div = document.createElement('div');
   div.textContent = text || '';
   return div.innerHTML;
+}
+
+// Mobile nav: the hamburger toggle opens/closes the page-link dropdown. Tapping
+// a link, tapping outside it, or resizing back up to desktop width all close it
+// again, so it never gets left open behind a fresh page load or a wider layout.
+const navToggle = document.getElementById('navToggle');
+const siteNav = document.getElementById('siteNav');
+if (navToggle && siteNav) {
+  const closeNav = () => {
+    siteNav.classList.remove('open');
+    navToggle.classList.remove('open');
+    navToggle.setAttribute('aria-expanded', 'false');
+  };
+  navToggle.addEventListener('click', () => {
+    const willOpen = !siteNav.classList.contains('open');
+    siteNav.classList.toggle('open', willOpen);
+    navToggle.classList.toggle('open', willOpen);
+    navToggle.setAttribute('aria-expanded', String(willOpen));
+  });
+  document.addEventListener('click', (e) => {
+    if (siteNav.classList.contains('open') && !siteNav.contains(e.target) && e.target !== navToggle) closeNav();
+  });
+  window.addEventListener('resize', () => { if (window.innerWidth > 640) closeNav(); });
 }
 
 // Most of these responses (especially cached ones) come back in well under a
