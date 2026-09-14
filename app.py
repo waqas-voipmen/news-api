@@ -770,10 +770,6 @@ def get_news():
     if "myfxbook" in wanted_sources:
         events += _fetch_source("myfxbook", fetch_myfxbook_news)
 
-    wanted_currencies = {c.strip().upper() for c in currencies.split(",") if c.strip()} if currencies else None
-    if wanted_currencies:
-        events = [e for e in events if e.get("country", "").upper() in wanted_currencies]
-
     if impact:
         events = [e for e in events if e.get("impact", "").lower() == impact.lower()]
 
@@ -791,7 +787,17 @@ def get_news():
     for e in events:
         e["analysis"] = analysis.analyze_event(e) if settings["news_sentiment_enabled"] else None
 
+    # Bias is aggregated from EVERY event above, before the Pairs filter narrows
+    # `events` down below -- an event's own top-level `country` tag is just
+    # whichever single instrument its headline names first, but analyze_event's
+    # per-clause reading can still attribute it to other pairs too (e.g. a
+    # "dollar weakens, gold gains" headline tagged country=USD still carries a
+    # real XAUUSD signal). Aggregating post-filter would silently drop those
+    # cross-references, leaving commodity/crypto pairs stuck at 0 signals
+    # whenever a currency other than their own was the one selected.
     pair_bias = analysis.aggregate_pair_bias(events) if settings["market_bias_enabled"] else {}
+
+    wanted_currencies = {c.strip().upper() for c in currencies.split(",") if c.strip()} if currencies else None
     if wanted_currencies:
         # aggregate_pair_bias always returns all of analysis.PAIRS (so a pair with
         # zero matching signals still shows as a "Neutral, 0 signals" card) --
@@ -802,6 +808,7 @@ def get_news():
             if analysis.PAIRS[pair][0] in wanted_currencies
             or (analysis.PAIRS[pair][1] and analysis.PAIRS[pair][1] in wanted_currencies)
         }
+        events = [e for e in events if e.get("country", "").upper() in wanted_currencies]
 
     return jsonify({"count": len(events), "events": events, "pair_bias": pair_bias, "source_errors": source_errors})
 
