@@ -55,6 +55,17 @@ function escapeHtml(text) {
   return div.innerHTML;
 }
 
+// Most of these responses (especially cached ones) come back in well under a
+// second, which makes the "Analyzing..." state above flash by too fast to
+// actually read -- holding it on screen for a random 5-10s makes the
+// fetch+analyze work feel real instead of instant/suspicious.
+function sleep(ms) { return new Promise(resolve => setTimeout(resolve, ms)); }
+async function waitForMinLoadingTime(startedAt) {
+  const minMs = 5000 + Math.random() * 5000;
+  const elapsed = Date.now() - startedAt;
+  if (elapsed < minMs) await sleep(minMs - elapsed);
+}
+
 // StockTwits' real ticker for WTI crude oil is "CL_F" (not a human-friendly pair
 // name like "XAUUSD"), so give it a readable label wherever a pair code is shown.
 const PAIR_DISPLAY_NAMES = { CL_F: 'OIL' };
@@ -243,10 +254,12 @@ async function loadNewsInner() {
   applyBtn.disabled = true;
   applyBtn.textContent = 'Applying...';
 
+  const loadStartedAt = Date.now();
   let data;
   try {
     const res = await fetch('/api/news?' + params.toString());
     data = await res.json();
+    await waitForMinLoadingTime(loadStartedAt);
   } catch (err) {
     if (countEl) countEl.textContent = 'Error: could not reach the server';
     if (refreshBtn) refreshBtn.classList.remove('spinning');
@@ -334,10 +347,12 @@ async function loadSocialSentiment() {
   const currencies = selectedCurrencies();
   if (currencies.length) params.set('currencies', currencies.join(','));
 
+  const loadStartedAt = Date.now();
   let data;
   try {
     const res = await fetch('/api/social-sentiment?' + params.toString());
     data = await res.json();
+    await waitForMinLoadingTime(loadStartedAt);
   } catch (err) {
     grid.innerHTML = '<span style="color:var(--muted); font-size:12px;">Error: could not reach the server</span>';
     if (btn) { btn.disabled = false; btn.classList.remove('spinning'); }
