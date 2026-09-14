@@ -523,16 +523,12 @@ def get_social_sentiment():
     pairs = [p for p in pairs if p in SOCIAL_PAIRS]
 
     # The shared Pairs filter chips use instrument-level codes (USD, XAU, WTI, ...),
-    # not raw StockTwits tickers (EURUSD, XAUUSD, CL_F) -- same base/quote match
+    # not raw StockTwits tickers (EURUSD, XAUUSD, CL_F) -- same pair_identity match
     # already used to narrow Market Bias's pair_bias.
     currencies = request.args.get("currencies")
     if currencies:
         wanted_currencies = {c.strip().upper() for c in currencies.split(",") if c.strip()}
-        pairs = [
-            p for p in pairs
-            if analysis.PAIRS[p][0] in wanted_currencies
-            or (analysis.PAIRS[p][1] and analysis.PAIRS[p][1] in wanted_currencies)
-        ]
+        pairs = [p for p in pairs if analysis.pair_identity(p) in wanted_currencies]
 
     # StockTwits' stream endpoint only ever returns its ~30 most recent posts for a
     # symbol (no deep history), so this can only narrow DOWN to a period, not fetch
@@ -573,16 +569,18 @@ def get_social_sentiment():
     return jsonify({"pairs": result})
 
 
+# Every Live Prices key is spelled exactly like its analysis.PAIRS key already
+# (EURUSD, XAUUSD, DXY, ...) except crude oil, which analysis.PAIRS keys as
+# "CL_F" (StockTwits' real ticker) instead of "USOIL".
+_TV_KEY_TO_PAIR = {"USOIL": "CL_F"}
+
+
 def _tv_pair_matches(code, tv_key):
-    """Loose match between a Pairs-filter instrument code (USD, XAU, WTI, ...) and
-    a Live Prices TradingView key (EURUSD, XAUUSD, USOIL, DXY, ...) -- most of
-    these keys are literally "{code}USD" so a substring check covers them, plus
-    the couple of keys that don't spell the code out at all."""
-    if code == "WTI":
-        return tv_key == "USOIL"
-    if code == "USD":
-        return code in tv_key or tv_key == "DXY"
-    return code in tv_key
+    """Whether a Pairs-filter instrument code (USD, XAU, WTI, ...) matches a Live
+    Prices TradingView key (EURUSD, XAUUSD, USOIL, DXY, ...) -- same pair_identity
+    match used to narrow Market Bias and Social Sentiment, so e.g. selecting "USD"
+    alone matches only DXY here too, not every USD-quoted instrument on the page."""
+    return analysis.pair_identity(_TV_KEY_TO_PAIR.get(tv_key, tv_key)) == code
 
 
 def _page_context(active_page, **extra):
