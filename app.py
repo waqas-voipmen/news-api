@@ -82,7 +82,9 @@ TRADINGVIEW_SYMBOLS = {
     "DXY": "CAPITALCOM:DXY",
     "XAUUSD": "FOREXCOM:XAUUSD",
     "XAGUSD": "FOREXCOM:XAGUSD",
-    "BTCUSD": "COINBASE:BTCUSD",
+    # Coinbase's BTCUSD feed doesn't carry the previous-close data this widget
+    # needs, so it silently renders with no % change line; Bitstamp's does.
+    "BTCUSD": "BITSTAMP:BTCUSD",
     "USOIL": "TVC:USOIL",
     "EURUSD": "OANDA:EURUSD",
     "GBPUSD": "OANDA:GBPUSD",
