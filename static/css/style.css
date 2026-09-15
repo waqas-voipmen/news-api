@@ -391,6 +391,38 @@ a { color: var(--accent); }
   margin-bottom: 7px;
 }
 
+/* Login form's icon-prefixed inputs, with an eye toggle on the password
+   field -- scoped to this wrapper (not input[type=...] globally) so it
+   doesn't add unwanted left/right padding to every text/password field
+   elsewhere, like the admin user forms. */
+.input-icon-wrap { position: relative; }
+.input-icon-wrap input { padding-left: 38px; }
+.input-icon-wrap .input-icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 15px;
+  color: var(--muted-2);
+  pointer-events: none;
+}
+.input-icon-wrap.has-toggle input { padding-right: 40px; }
+.password-toggle {
+  position: absolute;
+  right: 4px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: auto;
+  padding: 6px 8px;
+  background: transparent;
+  border: none;
+  color: var(--muted-2);
+  font-size: 16px;
+  line-height: 1;
+  cursor: pointer;
+}
+.password-toggle:hover { color: var(--text); }
+
 select, input[type=datetime-local], input[type=text], input[type=password] {
   width: 100%;
   background: var(--bg);

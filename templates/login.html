@@ -22,15 +22,32 @@
       {% if error %}<div class="error">{{ error }}</div>{% endif %}
       <div class="field">
         <label>Username</label>
-        <input type="text" name="username" required autofocus>
+        <div class="input-icon-wrap">
+          <span class="input-icon">&#128100;</span>
+          <input type="text" name="username" required autofocus>
+        </div>
       </div>
       <div class="field">
         <label>Password</label>
-        <input type="password" name="password" required>
+        <div class="input-icon-wrap has-toggle">
+          <span class="input-icon">&#128274;</span>
+          <input type="password" name="password" id="passwordInput" required>
+          <button type="button" class="password-toggle" id="passwordToggle" aria-label="Show password">&#128065;</button>
+        </div>
       </div>
       <button type="submit" class="btn">Login</button>
     </form>
   </div>
+  <script>
+    const passwordInput = document.getElementById('passwordInput');
+    const passwordToggle = document.getElementById('passwordToggle');
+    passwordToggle.addEventListener('click', () => {
+      const revealed = passwordInput.type === 'text';
+      passwordInput.type = revealed ? 'password' : 'text';
+      passwordToggle.textContent = revealed ? '\u{1F441}' : '\u{1F648}';
+      passwordToggle.setAttribute('aria-label', revealed ? 'Show password' : 'Hide password');
+    });
+  </script>
   <script src="{{ url_for('static', filename='js/theme.js') }}"></script>
 </body>
 </html>
