@@ -812,14 +812,35 @@ a.title-link:hover { color: var(--accent-strong); text-decoration: underline; }
   }
   table.data-table td.loading-cell { display: block; text-align: center; }
 
-  /* Currency + Impact together as a tag row up top, so which currency a
-     card is about is visible before reading the headline, not buried in a
-     footer at the very bottom. */
+  /* Time + Source now form a small byline right at the top of the card --
+     when this was posted and where it came from, read first, like a social
+     post's timestamp/platform line -- with a rule underneath separating it
+     from the tag row and headline below. */
+  table.data-table td[data-label="Time"],
+  table.data-table td[data-label="Source"] {
+    order: 1;
+    flex-basis: 100%;
+    font-size: 12px;
+    color: var(--muted-2);
+  }
+  table.data-table td[data-label="Time"]::before,
+  table.data-table td[data-label="Source"]::before { content: none; }
+  table.data-table td[data-label="Source"] {
+    margin-top: 4px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--border);
+  }
+  table.data-table td[data-label="Source"] .source-tag::before { content: "via "; }
+  table.data-table td[data-label="Source"] .source-tag { font-size: 12px; }
+
+  /* Currency + Impact together as a tag row, so which currency/pair a card
+     is about is visible before reading the headline. */
   table.data-table td[data-label="Currency"],
   table.data-table td[data-label="Impact"] {
-    order: 1;
+    order: 2;
     flex: 0 1 auto;
     align-self: center;
+    margin-top: 12px;
   }
   table.data-table td[data-label="Currency"] { margin-right: 6px; }
   table.data-table td[data-label="Currency"]::before,
@@ -843,15 +864,15 @@ a.title-link:hover { color: var(--accent-strong); text-decoration: underline; }
   table.data-table td[data-label="Sentiment"]::before,
   table.data-table td[data-label="Affects"]::before { content: none; }
   table.data-table td[data-label="Event"] {
-    order: 2;
+    order: 3;
     margin-top: 12px;
     font-size: 15.5px;
     font-weight: 600;
     line-height: 1.4;
     color: var(--text);
   }
-  table.data-table td[data-label="Sentiment"] { order: 3; margin-top: 12px; }
-  table.data-table td[data-label="Affects"] { order: 4; margin-top: 12px; }
+  table.data-table td[data-label="Sentiment"] { order: 4; margin-top: 12px; }
+  table.data-table td[data-label="Affects"] { order: 5; margin-top: 12px; }
   table.data-table td[data-label="Affects"] .affected { gap: 6px; }
   table.data-table td[data-label="Affects"] .affected .chip {
     border-radius: 12px;
@@ -863,7 +884,7 @@ a.title-link:hover { color: var(--accent-strong); text-decoration: underline; }
      full-width block each, since they're just two bare numbers. */
   table.data-table td[data-label="Forecast"],
   table.data-table td[data-label="Previous"] {
-    order: 5;
+    order: 6;
     flex: 0 1 auto;
     flex-direction: row;
     align-items: baseline;
@@ -879,27 +900,6 @@ a.title-link:hover { color: var(--accent-strong); text-decoration: underline; }
     letter-spacing: normal;
     font-size: 12.5px;
   }
-
-  /* Time + Source: a small muted byline footer, like a post's timestamp +
-     platform tag, separated from the content above by a rule. */
-  table.data-table td[data-label="Time"],
-  table.data-table td[data-label="Source"] {
-    order: 6;
-    flex: 0 1 auto;
-    font-size: 12px;
-    color: var(--muted-2);
-  }
-  table.data-table td[data-label="Time"]::before,
-  table.data-table td[data-label="Source"]::before { content: none; }
-  table.data-table td[data-label="Time"] {
-    margin-top: 14px;
-    padding-top: 10px;
-    border-top: 1px solid var(--border);
-    flex-basis: 100%;
-  }
-  table.data-table td[data-label="Source"] { margin-top: 4px; }
-  table.data-table td[data-label="Source"] .source-tag::before { content: "via "; }
-  table.data-table td[data-label="Source"] .source-tag { font-size: 12px; }
 
   .admin-shell { flex-direction: column; }
   .sidebar { width: 100%; flex-direction: row; flex-wrap: wrap; align-items: center; padding: 12px; gap: 2px; }
