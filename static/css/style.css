@@ -769,31 +769,32 @@ a.title-link:hover { color: var(--accent-strong); text-decoration: underline; }
   .social-header { flex-wrap: wrap; gap: 10px; }
   .reason-text { max-width: 100%; }
 
-  /* Responsive table -> stacked cards */
+  /* Responsive table -> social-post-style cards. A labeled-field-per-line
+     layout (every value under its own uppercase heading, table order) read
+     like a form, not something you'd casually scroll through -- reordered
+     into headline -> tags -> analysis -> affected pairs -> stats -> a small
+     byline footer instead, with labels only kept where the value alone
+     would be ambiguous (Forecast/Previous are bare numbers; everything else
+     is already self-describing via its own badge color or styling). */
   table.data-table { min-width: 0; }
   table.data-table thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
   table.data-table tr {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
     margin-bottom: 12px;
     border: 1px solid var(--border);
     border-radius: var(--radius);
-    padding: 4px 14px;
+    padding: 14px;
     background: var(--surface);
   }
-  /* Label stacked above value (not side-by-side) -- a side-by-side row with a
-     fixed-width label squeezed values like the sentiment reason or a long
-     headline into whatever space was left, clipping them at the card edge
-     instead of wrapping. Stacking gives every value the full card width. */
   table.data-table td {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 4px;
+    flex: 1 1 100%;
     text-align: left;
-    padding: 10px 0;
-    border-bottom: 1px solid var(--border);
+    border-bottom: none;
   }
-  table.data-table td:last-child { border-bottom: none; }
   table.data-table td::before {
     content: attr(data-label);
     font-size: 11px;
@@ -802,10 +803,73 @@ a.title-link:hover { color: var(--accent-strong); text-decoration: underline; }
     letter-spacing: .04em;
     color: var(--muted-2);
   }
-  /* The loading row has no per-field label to stack above -- keep it a plain
-     centered block instead of the empty label line every other td gets. */
   table.data-table td.loading-cell { display: block; text-align: center; }
-  table.data-table td.loading-cell::before { content: none; }
+
+  table.data-table td[data-label="Event"] {
+    order: 1;
+    font-size: 15.5px;
+    font-weight: 600;
+    line-height: 1.4;
+    color: var(--text);
+  }
+  table.data-table td[data-label="Impact"] { order: 2; margin-top: 8px; }
+  table.data-table td[data-label="Sentiment"] { order: 3; margin-top: 10px; }
+  table.data-table td[data-label="Affects"] { order: 4; margin-top: 10px; }
+  table.data-table td[data-label="Affects"]::before { font-size: 10px; }
+
+  /* Forecast/Previous: compact "label: value" pairs on one line instead of a
+     full-width block each, since they're just two bare numbers. */
+  table.data-table td[data-label="Forecast"],
+  table.data-table td[data-label="Previous"] {
+    order: 5;
+    flex: 0 1 auto;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 4px;
+    margin-top: 10px;
+    margin-right: 18px;
+    font-size: 13.5px;
+  }
+  table.data-table td[data-label="Forecast"]::before,
+  table.data-table td[data-label="Previous"]::before {
+    content: attr(data-label) ":";
+    text-transform: none;
+    letter-spacing: normal;
+    font-size: 12.5px;
+  }
+
+  /* Time/Currency/Source: a small muted byline footer, like a post's
+     timestamp + platform tag, separated from the content above by a rule. */
+  table.data-table td[data-label="Time"],
+  table.data-table td[data-label="Currency"],
+  table.data-table td[data-label="Source"] {
+    order: 6;
+    flex: 0 1 auto;
+    font-size: 12px;
+    color: var(--muted-2);
+  }
+  table.data-table td[data-label="Time"]::before,
+  table.data-table td[data-label="Currency"]::before,
+  table.data-table td[data-label="Source"]::before { content: none; }
+  table.data-table td[data-label="Time"] {
+    margin-top: 14px;
+    padding-top: 10px;
+    border-top: 1px solid var(--border);
+    flex-basis: 100%;
+  }
+  table.data-table td[data-label="Currency"] { margin-top: 6px; }
+  table.data-table td[data-label="Currency"]::after {
+    content: "\00b7";
+    margin-left: 10px;
+    color: var(--border-strong);
+  }
+  table.data-table td[data-label="Source"] { margin-top: 6px; }
+  table.data-table td[data-label="Currency"] .currency-tag {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--muted-2);
+  }
+  table.data-table td[data-label="Source"] .source-tag { font-size: 12px; }
 
   .admin-shell { flex-direction: column; }
   .sidebar { width: 100%; flex-direction: row; flex-wrap: wrap; align-items: center; padding: 12px; gap: 2px; }
