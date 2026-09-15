@@ -589,11 +589,10 @@ td { padding: 14px 12px; border-bottom: 1px solid var(--border); vertical-align:
     padding: 3px 10px;
   }
 
-  /* Social Sentiment cards on desktop -- wider columns than Market Bias's
-     plain .bias-grid gets (these carry post excerpts, not just a pair name
-     and a count), a sentiment-colored left edge matching the mobile cards,
-     and post excerpts as their own tinted blocks instead of a cramped 90px
-     scrollbox. */
+  /* Social Sentiment cards on desktop -- wider columns (these carry post
+     excerpts, not just a pair name and a count), a sentiment-colored left
+     edge matching the mobile cards, and post excerpts as their own tinted
+     blocks instead of a cramped 90px scrollbox. */
   #socialGrid { grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; }
   #socialGrid .bias-card { border-left: 3px solid var(--border-strong); }
   #socialGrid .bias-card.Bullish { border-left-color: var(--bull); }
@@ -606,6 +605,13 @@ td { padding: 14px 12px; border-bottom: 1px solid var(--border); vertical-align:
     margin-bottom: 8px;
   }
   #socialGrid .social-posts .post:last-child { margin-bottom: 0; }
+
+  /* Market Bias cards on desktop -- same sentiment-colored left edge and a
+     bit more breathing room than the 160px floor other .bias-grid users get. */
+  #biasGrid { grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 14px; }
+  #biasGrid .bias-card { border-left: 3px solid var(--border-strong); }
+  #biasGrid .bias-card.Bullish { border-left-color: var(--bull); }
+  #biasGrid .bias-card.Bearish { border-left-color: var(--bear); }
 }
 tbody tr { transition: background .15s ease; }
 tbody tr:hover td { background: var(--tint); }
@@ -970,9 +976,20 @@ a.title-link:hover { color: var(--accent-strong); text-decoration: underline; }
     font-size: 12.5px;
   }
 
+  /* Market Bias cards, one per row, same sentiment-colored left edge and
+     bigger text as Social Sentiment's cards below. */
+  #biasGrid { grid-template-columns: 1fr; }
+  #biasGrid .bias-card {
+    border-left: 3px solid var(--border-strong);
+    padding: 16px;
+  }
+  #biasGrid .bias-card.Bullish { border-left-color: var(--bull); }
+  #biasGrid .bias-card.Bearish { border-left-color: var(--bear); }
+  #biasGrid .bias-card .pair-name { font-size: 17px; }
+  #biasGrid .bias-card .bias-label { font-size: 15px; }
+
   /* Social Sentiment cards, one per row (same idea as the News cards) --
-     #socialGrid specifically, not Market Bias's simpler .bias-grid, since
-     these cards carry StockTwits post excerpts that need real room instead
+     these also carry StockTwits post excerpts that need real room instead
      of a cramped 2-column grid with a tiny scrolling box cutting them off. */
   #socialGrid { grid-template-columns: 1fr; }
   #socialGrid .bias-card {
