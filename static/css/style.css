@@ -588,6 +588,24 @@ td { padding: 14px 12px; border-bottom: 1px solid var(--border); vertical-align:
     border-radius: 20px;
     padding: 3px 10px;
   }
+
+  /* Social Sentiment cards on desktop -- wider columns than Market Bias's
+     plain .bias-grid gets (these carry post excerpts, not just a pair name
+     and a count), a sentiment-colored left edge matching the mobile cards,
+     and post excerpts as their own tinted blocks instead of a cramped 90px
+     scrollbox. */
+  #socialGrid { grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; }
+  #socialGrid .bias-card { border-left: 3px solid var(--border-strong); }
+  #socialGrid .bias-card.Bullish { border-left-color: var(--bull); }
+  #socialGrid .bias-card.Bearish { border-left-color: var(--bear); }
+  #socialGrid .social-posts { max-height: none; overflow-y: visible; }
+  #socialGrid .social-posts .post {
+    background: var(--tint);
+    border-radius: var(--radius-sm);
+    padding: 8px 10px;
+    margin-bottom: 8px;
+  }
+  #socialGrid .social-posts .post:last-child { margin-bottom: 0; }
 }
 tbody tr { transition: background .15s ease; }
 tbody tr:hover td { background: var(--tint); }
