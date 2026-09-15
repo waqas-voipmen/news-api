@@ -782,7 +782,11 @@ def get_news():
         events = [e for e in events if (t := _event_time(e)) and t <= end]
 
     events = [e for e in events if e.get("date")]
-    events.sort(key=lambda e: e["date"])
+    # ForexFactory (the economic calendar) sorts ahead of the RSS sources --
+    # applies whether or not any filter is active, since this is the same
+    # sort every /api/news call goes through regardless of the request's
+    # query params.
+    events.sort(key=lambda e: (e.get("source") != "ForexFactory", e["date"]))
 
     for e in events:
         e["analysis"] = analysis.analyze_event(e) if settings["news_sentiment_enabled"] else None
