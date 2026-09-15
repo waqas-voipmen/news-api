@@ -268,7 +268,14 @@ a { color: var(--accent); }
     padding-top: 10px;
     border-top: 1px solid var(--border);
   }
-  .site-nav-user .user-pill { padding: 6px 14px; color: var(--muted); font-size: 13px; }
+  .site-nav-user .user-pill {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 6px 14px;
+    color: var(--muted);
+    font-size: 13px;
+  }
   .site-nav-user a { padding: 12px 14px; border-radius: var(--radius-sm); color: var(--muted); text-decoration: none; font-weight: 500; }
   .site-nav-user a:hover { color: var(--text); background: var(--tint); }
   .site-nav-user a.primary-link { color: var(--accent); }
