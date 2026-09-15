@@ -772,10 +772,14 @@ a.title-link:hover { color: var(--accent-strong); text-decoration: underline; }
   /* Responsive table -> social-post-style cards. A labeled-field-per-line
      layout (every value under its own uppercase heading, table order) read
      like a form, not something you'd casually scroll through -- reordered
-     into headline -> tags -> analysis -> affected pairs -> stats -> a small
-     byline footer instead, with labels only kept where the value alone
-     would be ambiguous (Forecast/Previous are bare numbers; everything else
-     is already self-describing via its own badge color or styling). */
+     into a currency+impact tag row -> headline -> analysis -> affected
+     pairs -> stats -> a small byline footer instead, with labels only kept
+     where the value alone would be ambiguous (Forecast/Previous are bare
+     numbers; everything else is already self-describing via its own badge
+     color or styling). Each card also gets a colored left edge from its own
+     sentiment (tr[data-sentiment], set in loadNewsInner's row template) so
+     bullish/bearish/neutral news is tellable apart at a glance while
+     scrolling, not just readable one card at a time. */
   table.data-table { min-width: 0; }
   table.data-table thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
   table.data-table tr {
@@ -783,10 +787,13 @@ a.title-link:hover { color: var(--accent-strong); text-decoration: underline; }
     flex-wrap: wrap;
     margin-bottom: 12px;
     border: 1px solid var(--border);
+    border-left: 3px solid var(--border-strong);
     border-radius: var(--radius);
-    padding: 14px;
+    padding: 14px 14px 14px 12px;
     background: var(--surface);
   }
+  table.data-table tr[data-sentiment="Bullish"] { border-left-color: var(--bull); }
+  table.data-table tr[data-sentiment="Bearish"] { border-left-color: var(--bear); }
   table.data-table td {
     display: flex;
     flex-direction: column;
@@ -805,14 +812,35 @@ a.title-link:hover { color: var(--accent-strong); text-decoration: underline; }
   }
   table.data-table td.loading-cell { display: block; text-align: center; }
 
-  table.data-table td[data-label="Event"] {
+  /* Currency + Impact together as a tag row up top, so which currency a
+     card is about is visible before reading the headline, not buried in a
+     footer at the very bottom. */
+  table.data-table td[data-label="Currency"],
+  table.data-table td[data-label="Impact"] {
     order: 1;
+    flex: 0 1 auto;
+  }
+  table.data-table td[data-label="Currency"]::before,
+  table.data-table td[data-label="Impact"]::before { content: none; }
+  table.data-table td[data-label="Currency"] .currency-tag {
+    display: inline-block;
+    font-size: 11.5px;
+    font-weight: 700;
+    letter-spacing: .02em;
+    color: var(--accent-strong);
+    background: var(--accent-soft);
+    border-radius: var(--radius-sm);
+    padding: 3px 8px;
+  }
+
+  table.data-table td[data-label="Event"] {
+    order: 2;
+    margin-top: 10px;
     font-size: 15.5px;
     font-weight: 600;
     line-height: 1.4;
     color: var(--text);
   }
-  table.data-table td[data-label="Impact"] { order: 2; margin-top: 8px; }
   table.data-table td[data-label="Sentiment"] { order: 3; margin-top: 10px; }
   table.data-table td[data-label="Affects"] { order: 4; margin-top: 10px; }
   table.data-table td[data-label="Affects"]::before { font-size: 10px; }
@@ -838,10 +866,9 @@ a.title-link:hover { color: var(--accent-strong); text-decoration: underline; }
     font-size: 12.5px;
   }
 
-  /* Time/Currency/Source: a small muted byline footer, like a post's
-     timestamp + platform tag, separated from the content above by a rule. */
+  /* Time + Source: a small muted byline footer, like a post's timestamp +
+     platform tag, separated from the content above by a rule. */
   table.data-table td[data-label="Time"],
-  table.data-table td[data-label="Currency"],
   table.data-table td[data-label="Source"] {
     order: 6;
     flex: 0 1 auto;
@@ -849,7 +876,6 @@ a.title-link:hover { color: var(--accent-strong); text-decoration: underline; }
     color: var(--muted-2);
   }
   table.data-table td[data-label="Time"]::before,
-  table.data-table td[data-label="Currency"]::before,
   table.data-table td[data-label="Source"]::before { content: none; }
   table.data-table td[data-label="Time"] {
     margin-top: 14px;
@@ -857,18 +883,8 @@ a.title-link:hover { color: var(--accent-strong); text-decoration: underline; }
     border-top: 1px solid var(--border);
     flex-basis: 100%;
   }
-  table.data-table td[data-label="Currency"] { margin-top: 6px; }
-  table.data-table td[data-label="Currency"]::after {
-    content: "\00b7";
-    margin-left: 10px;
-    color: var(--border-strong);
-  }
-  table.data-table td[data-label="Source"] { margin-top: 6px; }
-  table.data-table td[data-label="Currency"] .currency-tag {
-    font-size: 12px;
-    font-weight: 600;
-    color: var(--muted-2);
-  }
+  table.data-table td[data-label="Source"] { margin-top: 4px; }
+  table.data-table td[data-label="Source"] .source-tag::before { content: "via "; }
   table.data-table td[data-label="Source"] .source-tag { font-size: 12px; }
 
   .admin-shell { flex-direction: column; }

@@ -378,7 +378,7 @@ async function loadNewsInner(background) {
         ).join('')}</div>`
       : '-';
 
-    return `<tr>
+    return `<tr data-sentiment="${a ? a.sentiment : 'None'}">
       <td data-label="Time">${time}</td>
       <td data-label="Currency"><span class="currency-tag">${escapeHtml(ev.country)}</span></td>
       <td data-label="Event">${title}</td>
