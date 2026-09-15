@@ -11,6 +11,7 @@ gold gains" is attributed correctly to BOTH USD (bearish) and Gold (bullish) ins
 of being collapsed into one instrument.
 """
 import re
+from datetime import datetime
 
 CURRENCIES = ["USD", "EUR", "GBP", "JPY", "AUD", "CAD", "CHF", "NZD"]
 INSTRUMENT_LABELS = {"XAU": "Gold", "XAG": "Silver", "BTC": "Bitcoin", "WTI": "Oil", **{c: c for c in CURRENCIES}}
@@ -363,6 +364,20 @@ def analyze_event(event):
     return _analyze_news_text(event["title"], event.get("description", ""))
 
 
+def _safe_parse_date(raw):
+    """Every event's date has already been normalized to ISO-8601 with an
+    explicit UTC offset by the time it reaches here (see app.py's
+    _parse_pub_date), so a plain fromisoformat() is enough -- this just
+    guards against the odd malformed/missing value instead of blowing up
+    the whole bias aggregation over it."""
+    if not raw:
+        return None
+    try:
+        return datetime.fromisoformat(raw)
+    except ValueError:
+        return None
+
+
 def aggregate_pair_bias(events):
     """Net bias per pair across a set of already-analyzed events, weighted by each
     event's impact level (High/Medium/Analysis/Low/News) and how strong its own
@@ -373,14 +388,18 @@ def aggregate_pair_bias(events):
     bull_weight = {pair: 0.0 for pair in PAIRS}
     bear_weight = {pair: 0.0 for pair in PAIRS}
     counts = {pair: 0 for pair in PAIRS}
+    latest_date = {pair: None for pair in PAIRS}
 
     for event in events:
         analysis = event.get("analysis")
         if not analysis or not analysis.get("affected"):
             continue
         weight = IMPACT_WEIGHT.get(event.get("impact"), 1) * (0.3 + 0.7 * analysis.get("strength", 0.5))
+        event_dt = _safe_parse_date(event.get("date"))
         for pair, direction in analysis["affected"].items():
             counts[pair] += 1
+            if event_dt and (latest_date[pair] is None or event_dt > latest_date[pair]):
+                latest_date[pair] = event_dt
             if direction == "Up":
                 scores[pair] += weight
                 bull_weight[pair] += weight
@@ -402,6 +421,7 @@ def aggregate_pair_bias(events):
             "bullish_weight": round(bull_weight[pair], 1),
             "bearish_weight": round(bear_weight[pair], 1),
             "signal_count": counts[pair],
+            "latest_date": latest_date[pair].isoformat() if latest_date[pair] else None,
         }
     return summary
 

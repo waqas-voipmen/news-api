@@ -67,6 +67,15 @@ function escapeHtml(text) {
   return div.innerHTML;
 }
 
+// Shared by Market Bias's card-time (latest contributing event) and Social
+// Sentiment's (latest sample post) -- both lead with this, same as News
+// cards lead with Time.
+function formatCardTime(date) {
+  return date ? new Date(date).toLocaleString([], {
+    month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit',
+  }) : '';
+}
+
 // Mobile nav: the hamburger toggle opens/closes the page-link dropdown. Tapping
 // a link, tapping outside it, or resizing back up to desktop width all close it
 // again, so it never gets left open behind a fresh page load or a wider layout.
@@ -250,13 +259,17 @@ function renderBiasGrid(pairBias) {
     grid.innerHTML = '<span style="color:var(--muted); font-size:12px;">No bias data yet</span>';
     return;
   }
-  grid.innerHTML = entries.map(([pair, info]) => `
+  grid.innerHTML = entries.map(([pair, info]) => {
+    const cardTime = formatCardTime(info.latest_date);
+    return `
     <div class="bias-card ${info.bias}">
+      ${cardTime ? `<div class="card-time">${cardTime}</div>` : ''}
       <div class="pair-name">${pairDisplayName(pair)}</div>
       <div class="bias-label ${info.bias}">${info.bias}</div>
       <div class="signals">weighted ${info.bullish_weight} bullish &middot; ${info.bearish_weight} bearish (${info.signal_count} signals)</div>
     </div>
-  `).join('');
+  `;
+  }).join('');
 }
 
 // Shared by the News page (full results table) and the Market Bias page (which
@@ -429,11 +442,8 @@ async function loadSocialSentiment() {
     }
 
     const pct = info.bullish_pct === null ? 0 : info.bullish_pct;
-    const formatPostTime = (date) => date ? new Date(date).toLocaleString([], {
-      month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit',
-    }) : '';
     const posts = (info.sample_posts || []).slice(0, 3).map(p => {
-      const when = formatPostTime(p.date);
+      const when = formatCardTime(p.date);
       return `<div class="post">
         <span class="tag ${p.sentiment}">${p.sentiment}</span>${when ? ` <span class="post-time">${when}</span>` : ''}
         <div>${escapeHtml(p.body).slice(0, 90)}</div>
@@ -442,7 +452,7 @@ async function loadSocialSentiment() {
     // The card's own headline time is its most recent sample post's date --
     // sample_posts is already newest-first, so this is "as of" freshness for
     // the whole card, shown the same way the News cards lead with Time.
-    const cardTime = formatPostTime(info.sample_posts && info.sample_posts[0] && info.sample_posts[0].date);
+    const cardTime = formatCardTime(info.sample_posts && info.sample_posts[0] && info.sample_posts[0].date);
 
     return `<div class="bias-card ${info.bias}">
       ${cardTime ? `<div class="card-time">${cardTime}</div>` : ''}
