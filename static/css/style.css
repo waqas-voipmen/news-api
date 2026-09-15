@@ -853,12 +853,17 @@ a.title-link:hover { color: var(--accent-strong); text-decoration: underline; }
   #apply.filter-area-apply { width: 100%; }
   .filter-bar { padding: 16px 18px; gap: 14px; }
   .filter-row-chips { flex-direction: column; align-items: flex-start; gap: 14px; }
-  .brand-text h1 { font-size: 16px; }
-  .brand-text p { font-size: 13.5px; }
+  /* The description line just repeats what the page already communicates,
+     and dropping it keeps the logo/title and the theme toggle/hamburger on
+     one compact row instead of the header wrapping onto two. */
+  .brand-text p { display: none; }
+  .brand-text { min-width: 0; }
+  .brand-text h1 { font-size: 16px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   /* Just the theme toggle + hamburger remain here now that username/Admin/
-     Logout moved into the nav dropdown -- group them on the right instead of
+     Logout moved into the nav dropdown -- group them on the right, on the
+     same row as the logo (no forced width:100% line break), instead of
      space-between spreading two lone icons to opposite edges. */
-  .header-actions { width: 100%; justify-content: flex-end; gap: 12px; }
+  .header-actions { justify-content: flex-end; gap: 12px; }
   .bias-section { margin: 0 16px 20px; }
   .prices-grid { grid-template-columns: 1fr; }
   .panel { padding: 16px; }
