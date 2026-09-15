@@ -49,6 +49,14 @@
   <a href="{{ url_for('market_bias_page') }}" class="{{ 'active' if active_page == 'market_bias' else '' }}"><span class="nav-icon">&#9878;&#65039;</span>Market Bias</a>
   <a href="{{ url_for('social_sentiment_page') }}" class="{{ 'active' if active_page == 'social_sentiment' else '' }}"><span class="nav-icon">&#128172;</span>Social Sentiment</a>
   <a href="{{ url_for('news_page') }}" class="{{ 'active' if active_page == 'news' else '' }}"><span class="nav-icon">&#128240;</span>News</a>
+  {# Mobile-only: the username/Admin/Logout row that otherwise sits cramped in
+     the header next to the theme toggle and hamburger -- hidden here on
+     desktop (already visible in the header there) via .site-nav-user's CSS. #}
+  <div class="site-nav-user">
+    <span class="user-pill">{{ current_user }}</span>
+    {% if is_admin %}<a href="{{ url_for('admin_panel') }}" class="primary-link">Admin Panel</a>{% endif %}
+    <a href="{{ url_for('logout') }}">Logout</a>
+  </div>
 </nav>
 </div>
 

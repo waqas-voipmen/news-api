@@ -228,6 +228,9 @@ a { color: var(--accent); }
 .site-nav a:hover { color: var(--text); background: var(--tint); }
 .site-nav a.active { color: var(--accent-strong); background: var(--accent-soft); font-weight: 600; }
 .site-nav .nav-icon { font-size: 15px; line-height: 1; }
+/* Desktop already shows username/Admin/Logout in the header -- this mobile-
+   only duplicate inside the nav dropdown stays hidden here. */
+.site-nav-user { display: none; }
 
 /* Mobile overrides come last so they win ties with the shared rules above
    instead of losing to them by source order at the same specificity. */
@@ -250,8 +253,25 @@ a { color: var(--accent); }
     box-shadow: var(--shadow-sm);
     transition: max-height .2s ease;
   }
-  .site-nav.open { max-height: 320px; padding: 8px; }
+  .site-nav.open { max-height: 420px; padding: 8px; }
   .site-nav a { padding: 12px 14px; }
+
+  /* Username/Admin/Logout move into the nav dropdown on mobile instead of
+     staying cramped in the header next to the theme toggle and hamburger. */
+  .header-actions .user-pill,
+  .header-actions a { display: none; }
+  .site-nav-user {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin-top: 8px;
+    padding-top: 10px;
+    border-top: 1px solid var(--border);
+  }
+  .site-nav-user .user-pill { padding: 6px 14px; color: var(--muted); font-size: 13px; }
+  .site-nav-user a { padding: 12px 14px; border-radius: var(--radius-sm); color: var(--muted); text-decoration: none; font-weight: 500; }
+  .site-nav-user a:hover { color: var(--text); background: var(--tint); }
+  .site-nav-user a.primary-link { color: var(--accent); }
 }
 
 .theme-toggle-sidebar { margin: 4px 22px 0; width: calc(100% - 44px); }
@@ -835,7 +855,10 @@ a.title-link:hover { color: var(--accent-strong); text-decoration: underline; }
   .filter-row-chips { flex-direction: column; align-items: flex-start; gap: 14px; }
   .brand-text h1 { font-size: 16px; }
   .brand-text p { font-size: 13.5px; }
-  .header-actions { width: 100%; justify-content: space-between; gap: 12px; }
+  /* Just the theme toggle + hamburger remain here now that username/Admin/
+     Logout moved into the nav dropdown -- group them on the right instead of
+     space-between spreading two lone icons to opposite edges. */
+  .header-actions { width: 100%; justify-content: flex-end; gap: 12px; }
   .bias-section { margin: 0 16px 20px; }
   .prices-grid { grid-template-columns: 1fr; }
   .panel { padding: 16px; }
