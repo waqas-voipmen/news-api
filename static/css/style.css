@@ -948,6 +948,29 @@ a.title-link:hover { color: var(--accent-strong); text-decoration: underline; }
     font-size: 12.5px;
   }
 
+  /* Social Sentiment cards, one per row (same idea as the News cards) --
+     #socialGrid specifically, not Market Bias's simpler .bias-grid, since
+     these cards carry StockTwits post excerpts that need real room instead
+     of a cramped 2-column grid with a tiny scrolling box cutting them off. */
+  #socialGrid { grid-template-columns: 1fr; }
+  #socialGrid .bias-card {
+    border-left: 3px solid var(--border-strong);
+    padding: 16px;
+  }
+  #socialGrid .bias-card.Bullish { border-left-color: var(--bull); }
+  #socialGrid .bias-card.Bearish { border-left-color: var(--bear); }
+  #socialGrid .bias-card .pair-name { font-size: 17px; }
+  #socialGrid .bias-card .bias-label { font-size: 15px; }
+  #socialGrid .social-bar { height: 6px; }
+  #socialGrid .social-posts { max-height: none; overflow-y: visible; }
+  #socialGrid .social-posts .post {
+    background: var(--tint);
+    border-radius: var(--radius-sm);
+    padding: 8px 10px;
+    margin-bottom: 8px;
+  }
+  #socialGrid .social-posts .post:last-child { margin-bottom: 0; }
+
   .admin-shell { flex-direction: column; }
   .sidebar { width: 100%; flex-direction: row; flex-wrap: wrap; align-items: center; padding: 12px; gap: 2px; }
   .sidebar .brand { display: none; }
