@@ -80,10 +80,17 @@ a { color: var(--accent); }
 
 /* ---------- Header / branding ---------- */
 
-.site-header {
+/* Sticks the header and its nav dropdown together as one unit -- without
+   this, the mobile dropdown (position:static, sitting right after the
+   header in the document) opened at its original spot on the page instead
+   of following the header once the page was scrolled down. */
+.site-header-wrap {
   position: sticky;
   top: 0;
   z-index: 20;
+}
+
+.site-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -196,9 +203,6 @@ a { color: var(--accent); }
 }
 
 .site-nav {
-  position: sticky;
-  top: 0;
-  z-index: 19;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
