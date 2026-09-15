@@ -1,7 +1,7 @@
 <div class="filter-bar">
   <div class="filter-bar-label">Filters</div>
-  <div class="filter-row filter-row-controls">
-    <div class="field-inline">
+  <div class="filter-grid">
+    <div class="field-inline filter-area-period">
       <label>Period</label>
       <select id="period">
         <option value="today">Today</option>
@@ -12,7 +12,7 @@
       </select>
     </div>
 
-    <div class="field-inline">
+    <div class="field-inline filter-area-impact">
       <label>Impact</label>
       <select id="impact">
         <option value="">All</option>
@@ -21,44 +21,42 @@
         <option value="Low">Low</option>
       </select>
     </div>
-  </div>
 
-  <div class="filter-row filter-row-chips">
-    {% if not hide_sources %}
-    <div class="chip-group">
-      <span class="chip-group-label">Sources</span>
-      <div class="sources" id="sources">
-        {% for source in enabled_sources %}
-        <label class="source-chip active" data-source="{{ source.key }}">
-          <input type="checkbox" value="{{ source.key }}" checked>
-          {{ source.label }}
-        </label>
-        {% endfor %}
-        {% for key, reason in unavailable_sources.items() %}
-        <label class="source-chip disabled" title="Unavailable: {{ reason }}">
-          <input type="checkbox" disabled>
-          {{ key|capitalize }}
-          <span class="why">unavailable</span>
-        </label>
-        {% endfor %}
+    <button id="apply" class="filter-area-apply">Apply Filters</button>
+
+    <div class="filter-row-chips filter-area-chips">
+      {% if not hide_sources %}
+      <div class="chip-group">
+        <span class="chip-group-label">Sources</span>
+        <div class="sources" id="sources">
+          {% for source in enabled_sources %}
+          <label class="source-chip active" data-source="{{ source.key }}">
+            <input type="checkbox" value="{{ source.key }}" checked>
+            {{ source.label }}
+          </label>
+          {% endfor %}
+          {% for key, reason in unavailable_sources.items() %}
+          <label class="source-chip disabled" title="Unavailable: {{ reason }}">
+            <input type="checkbox" disabled>
+            {{ key|capitalize }}
+            <span class="why">unavailable</span>
+          </label>
+          {% endfor %}
+        </div>
+      </div>
+      {% endif %}
+
+      <div class="chip-group">
+        <span class="chip-group-label">Pairs</span>
+        <div class="pairs" id="pairs">
+          {% for c in currencies %}
+          <label class="pair-chip" data-code="{{ c.code }}">
+            <input type="checkbox" value="{{ c.code }}">
+            {{ c.label }}
+          </label>
+          {% endfor %}
+        </div>
       </div>
     </div>
-    {% endif %}
-
-    <div class="chip-group">
-      <span class="chip-group-label">Pairs</span>
-      <div class="pairs" id="pairs">
-        {% for c in currencies %}
-        <label class="pair-chip" data-code="{{ c.code }}">
-          <input type="checkbox" value="{{ c.code }}">
-          {{ c.label }}
-        </label>
-        {% endfor %}
-      </div>
-    </div>
-  </div>
-
-  <div class="filter-row filter-row-actions">
-    <button id="apply">Apply Filters</button>
   </div>
 </div>

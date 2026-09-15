@@ -299,8 +299,22 @@ a { color: var(--accent); }
   color: var(--muted-2);
 }
 
-.filter-row { display: flex; flex-wrap: wrap; gap: 16px; }
-.filter-row-controls { align-items: flex-end; }
+/* Grid areas (not two separate flex rows) so Apply can sit inline with
+   Period/Impact on wide screens and drop to its own full-width row below the
+   Pairs chips on narrow ones just by reassigning areas in the media query
+   below -- no JS needed to move the button between two different containers. */
+.filter-grid {
+  display: grid;
+  column-gap: 16px;
+  row-gap: 16px;
+  grid-template-columns: auto auto 1fr;
+  grid-template-areas: "period impact apply" "chips chips chips";
+  align-items: end;
+}
+.filter-area-period { grid-area: period; }
+.filter-area-impact { grid-area: impact; }
+.filter-area-chips { grid-area: chips; }
+.filter-area-apply { grid-area: apply; justify-self: end; width: auto; padding: 9px 20px; }
 
 .field-inline { display: flex; flex-direction: column; gap: 6px; }
 .field-inline label {
@@ -308,16 +322,13 @@ a { color: var(--accent); }
   font-weight: 500;
   color: var(--muted);
 }
-.filter-row-controls select,
-.filter-row-controls input[type=datetime-local] {
+.filter-area-period select,
+.filter-area-impact select {
   width: auto;
   min-width: 150px;
 }
 
-.filter-row-actions { justify-content: flex-end; }
-.filter-row-actions #apply { width: auto; padding: 9px 20px; }
-
-.filter-row-chips { align-items: center; column-gap: 28px; }
+.filter-row-chips { display: flex; flex-wrap: wrap; align-items: center; gap: 16px 28px; }
 
 .chip-group { display: flex; align-items: center; flex-wrap: wrap; gap: 10px; }
 .chip-group-label {
@@ -722,12 +733,16 @@ a.title-link:hover { color: var(--accent-strong); text-decoration: underline; }
 
 @media (max-width: 640px) {
   .site-header { padding: 14px 16px; }
-  .filter-row-controls select,
-  .filter-row-controls input[type=datetime-local] { width: 100%; }
-  .field-inline { flex: 1 1 100%; }
-  .filter-row-actions #apply { width: 100%; }
+  /* Stack everything into one column, with Apply moved after the chips instead
+     of staying inline with Period/Impact -- same grid, different areas. */
+  .filter-grid {
+    grid-template-columns: 1fr;
+    grid-template-areas: "period" "impact" "chips" "apply";
+  }
+  .filter-area-period select,
+  .filter-area-impact select { width: 100%; }
+  .filter-area-apply { justify-self: stretch; width: 100%; }
   .filter-bar { padding: 16px 18px; gap: 14px; }
-  .filter-row { gap: 12px; }
   .filter-row-chips { flex-direction: column; align-items: flex-start; gap: 14px; }
   .brand-text h1 { font-size: 16px; }
   .brand-text p { font-size: 13.5px; }
