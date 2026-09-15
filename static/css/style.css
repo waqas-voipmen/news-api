@@ -307,14 +307,19 @@ a { color: var(--accent); }
   display: grid;
   column-gap: 16px;
   row-gap: 16px;
-  grid-template-columns: auto auto 1fr;
-  grid-template-areas: "period impact apply" "chips chips chips";
+  /* The 4th column is a plain empty filler ("."), not the Apply button's own
+     column -- that keeps Apply's own column content-sized (auto), so it sits
+     right next to Impact with a normal gap instead of snapping to the far
+     right edge of the bar, while still giving the chips row (which spans all
+     4 columns) the full bar width to work with. */
+  grid-template-columns: auto auto auto 1fr;
+  grid-template-areas: "period impact apply ." "chips chips chips chips";
   align-items: end;
 }
 .filter-area-period { grid-area: period; }
 .filter-area-impact { grid-area: impact; }
 .filter-area-chips { grid-area: chips; }
-.filter-area-apply { grid-area: apply; justify-self: end; }
+.filter-area-apply { grid-area: apply; justify-self: start; }
 /* #apply.filter-area-apply (id+class) so this beats button#apply's width:100%
    below, which otherwise wins on specificity (id+type) regardless of source
    order and stretches the button across the whole third grid column. */
