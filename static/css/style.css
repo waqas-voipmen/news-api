@@ -314,7 +314,11 @@ a { color: var(--accent); }
 .filter-area-period { grid-area: period; }
 .filter-area-impact { grid-area: impact; }
 .filter-area-chips { grid-area: chips; }
-.filter-area-apply { grid-area: apply; justify-self: end; width: auto; padding: 9px 20px; }
+.filter-area-apply { grid-area: apply; justify-self: end; }
+/* #apply.filter-area-apply (id+class) so this beats button#apply's width:100%
+   below, which otherwise wins on specificity (id+type) regardless of source
+   order and stretches the button across the whole third grid column. */
+#apply.filter-area-apply { width: auto; padding: 9px 20px; }
 
 .field-inline { display: flex; flex-direction: column; gap: 6px; }
 .field-inline label {
@@ -741,7 +745,8 @@ a.title-link:hover { color: var(--accent-strong); text-decoration: underline; }
   }
   .filter-area-period select,
   .filter-area-impact select { width: 100%; }
-  .filter-area-apply { justify-self: stretch; width: 100%; }
+  .filter-area-apply { justify-self: stretch; }
+  #apply.filter-area-apply { width: 100%; }
   .filter-bar { padding: 16px 18px; gap: 14px; }
   .filter-row-chips { flex-direction: column; align-items: flex-start; gap: 14px; }
   .brand-text h1 { font-size: 16px; }
