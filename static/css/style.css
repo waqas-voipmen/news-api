@@ -550,12 +550,33 @@ td { padding: 14px 12px; border-bottom: 1px solid var(--border); vertical-align:
    this touches the mobile card layout, which has its own separate styling
    further down and stays as-is. */
 @media (min-width: 641px) {
-  /* News table rows: a sentiment-colored left edge (same idea as the mobile
-     cards, same data-sentiment attribute from the row template) so
-     bullish/bearish news is tellable apart while scanning a full page of
-     rows, not just row by row. border-collapse ignores a border set on <tr>
-     itself in most browsers, so it goes on each row's first cell instead. */
-  table.data-table tbody tr td:first-child { border-left: 3px solid transparent; }
+  /* Rows of very uneven height (a 3-line headline and a dozen Affects chips
+     next to a one-line row) packed edge-to-edge with just a hairline border
+     read as one dense block, not separate news items -- border-collapse:
+     separate + border-spacing puts real breathing room between rows, and
+     each row gets its own bordered, rounded box so it reads as a distinct
+     card rather than a spreadsheet line. */
+  table.data-table { border-collapse: separate; border-spacing: 0 10px; }
+  table.data-table thead th { border-bottom: none; }
+  table.data-table tbody tr td {
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+  }
+  table.data-table tbody tr:last-child td { border-bottom: 1px solid var(--border); }
+  table.data-table tbody tr td:first-child {
+    border-left: 3px solid transparent;
+    border-top-left-radius: var(--radius);
+    border-bottom-left-radius: var(--radius);
+  }
+  table.data-table tbody tr td:last-child {
+    border-right: 1px solid var(--border);
+    border-top-right-radius: var(--radius);
+    border-bottom-right-radius: var(--radius);
+  }
+
+  /* Sentiment-colored left edge (same idea as the mobile cards, same
+     data-sentiment attribute from the row template) so bullish/bearish news
+     is tellable apart while scanning a full page of rows. */
   table.data-table tbody tr[data-sentiment="Bullish"] td:first-child { border-left-color: var(--bull); }
   table.data-table tbody tr[data-sentiment="Bearish"] td:first-child { border-left-color: var(--bear); }
   table.data-table .currency-tag {
