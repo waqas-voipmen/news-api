@@ -13,13 +13,13 @@
   }
 
   function toggleTheme() {
-    const current = document.documentElement.getAttribute('data-theme') || 'light';
+    const current = document.documentElement.getAttribute('data-theme') || 'dark';
     setTheme(current === 'dark' ? 'light' : 'dark');
     location.reload();
   }
 
   document.addEventListener('DOMContentLoaded', function () {
-    applyIcon(document.documentElement.getAttribute('data-theme') || 'light');
+    applyIcon(document.documentElement.getAttribute('data-theme') || 'dark');
     document.querySelectorAll('.theme-toggle').forEach(function (btn) {
       btn.addEventListener('click', toggleTheme);
     });

@@ -225,7 +225,9 @@ def admin_required(view):
 
 
 def _get_theme():
-    return "dark" if request.cookies.get("theme") == "dark" else "light"
+    # Dark is the default look for a first-time visitor (no cookie yet) --
+    # only an explicit "light" choice from the theme toggle opts back out.
+    return "light" if request.cookies.get("theme") == "light" else "dark"
 
 
 @app.route("/login", methods=["GET", "POST"])
