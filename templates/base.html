@@ -83,7 +83,7 @@ if (navToggle && siteNav) {
     navToggle.setAttribute('aria-expanded', String(willOpen));
   });
   document.addEventListener('click', (e) => {
-    if (siteNav.classList.contains('open') && !siteNav.contains(e.target) && e.target !== navToggle) closeNav();
+    if (siteNav.classList.contains('open') && !siteNav.contains(e.target) && !navToggle.contains(e.target)) closeNav();
   });
   window.addEventListener('resize', () => { if (window.innerWidth > 640) closeNav(); });
 }
