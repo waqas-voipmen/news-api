@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-15T12:18:04.830932+00:00",
+  "fetched_at": "2026-09-15T12:48:05.287244+00:00",
   "periods": {
     "week": [
       {
@@ -568,7 +568,7 @@
         "country": "CAD",
         "date": "2026-09-16T08:30:00-04:00",
         "impact": "Low",
-        "forecast": "-4.5%",
+        "forecast": "-4.7%",
         "previous": "18.5%",
         "source": "ForexFactory",
         "type": "calendar",
