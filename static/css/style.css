@@ -396,7 +396,12 @@ a { color: var(--accent); }
    doesn't add unwanted left/right padding to every text/password field
    elsewhere, like the admin user forms. */
 .input-icon-wrap { position: relative; }
-.input-icon-wrap input { padding-left: 38px; }
+/* input[type=text]/[type=password] below match on the type attribute too, so
+   this needs the same specificity (not just source order) to actually win --
+   otherwise that later, equal-specificity rule's padding shorthand resets
+   padding-left back to 12px and the typed text runs under the icon. */
+.input-icon-wrap input[type=text],
+.input-icon-wrap input[type=password] { padding-left: 38px; }
 .input-icon-wrap .input-icon {
   position: absolute;
   left: 12px;
@@ -433,6 +438,18 @@ select, input[type=datetime-local], input[type=text], input[type=password] {
   font-size: 15px;
   font-family: inherit;
   transition: border-color .15s ease, box-shadow .15s ease;
+}
+
+/* Chrome/Edge paint autofilled fields with their own light background no
+   matter what's set above -- an inset box-shadow the size of the whole
+   field is the one thing that actually paints over it, plus -webkit-text-
+   fill-color since autofill also locks the text color. Without this, a
+   saved username/password shows as a jarring light box in dark mode. */
+input[type=text]:-webkit-autofill,
+input[type=password]:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px var(--bg) inset;
+  -webkit-text-fill-color: var(--text);
+  transition: background-color 9999s ease-in-out 0s;
 }
 
 select:focus, input:focus {
