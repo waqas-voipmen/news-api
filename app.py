@@ -74,6 +74,32 @@ FF_CACHE_URL = "https://raw.githubusercontent.com/waqas-voipmen/news-api/master/
 STOCKTWITS_STREAM_URL = "https://api.stocktwits.com/api/2/streams/symbol/{symbol}.json"
 SOCIAL_PAIRS = list(analysis.PAIRS)  # StockTwits recognizes these same tickers directly (BTCUSD included)
 
+# Reddit's search doesn't understand pair tickers as a "topic" the way StockTwits'
+# cashtags do, so each pair gets a plain-English query instead, run across a
+# handful of trading-focused subreddits.
+REDDIT_SUBREDDITS = "Forex+Gold+Silverbugs+CryptoCurrency+investing+StockMarket+Economics+wallstreetbets"
+REDDIT_SEARCH_QUERIES = {
+    "DXY": 'DXY OR "dollar index"',
+    "XAUUSD": "gold OR XAUUSD",
+    "XAGUSD": "silver OR XAGUSD",
+    "BTCUSD": "bitcoin OR BTC",
+    "CL_F": '"crude oil" OR WTI',
+    "EURUSD": "EURUSD",
+    "GBPUSD": "GBPUSD OR cable",
+    "USDJPY": "USDJPY",
+    "USDCHF": "USDCHF",
+    "USDCAD": "USDCAD",
+    "AUDUSD": "AUDUSD",
+    "NZDUSD": "NZDUSD",
+}
+REDDIT_SEARCH_URL = f"https://www.reddit.com/r/{REDDIT_SUBREDDITS}/search.json"
+
+# Public channels' web preview (t.me/s/<name>) needs no login or API token, but
+# also isn't per-pair -- each channel's whole recent feed is fetched once and
+# cached, then filtered per pair the same way News detects an instrument from
+# free text (analysis.infer_instrument), matched against analysis.pair_identity.
+TELEGRAM_CHANNELS = ["FXStreetNews", "Cointelegraph"]
+
 # Live prices are shown via TradingView's own embeddable widgets (see
 # templates/live_prices.html) rather than fetched server-side -- that gives
 # real spot XAUUSD/XAGUSD/DXY ticks straight from TradingView's feed instead of
@@ -484,7 +510,7 @@ def fetch_myfxbook_news():
     return _cached_fetch("myfxbook_news", loader)
 
 
-def fetch_social_sentiment(pair):
+def fetch_stocktwits_sentiment(pair):
     """Pulls the latest StockTwits posts tagged with a pair's ticker (StockTwits uses
     the same EURUSD/XAUUSD-style symbols we already use) and classifies each one --
     using the poster's own Bullish/Bearish tag when they set it, otherwise scoring
@@ -508,10 +534,108 @@ def fetch_social_sentiment(pair):
                 "body": msg.get("body", ""),
                 "user": (msg.get("user") or {}).get("username"),
                 "date": msg.get("created_at"),
+                "source": "StockTwits",
             })
         return posts
 
     return _cached_fetch(f"social_{pair}", loader)
+
+
+def fetch_reddit_sentiment(pair):
+    """Reddit's search doesn't recognize pair tickers as cashtags, so this runs a
+    plain-English query (REDDIT_SEARCH_QUERIES) across a handful of trading
+    subreddits instead, then classifies each result's title+selftext the same
+    keyword-scoring way as a StockTwits post with no explicit tag. Free and
+    needs no API token, but Reddit's own bot-detection blocks non-browser
+    traffic aggressively -- routed through the same Cloudflare Worker proxy
+    used for other sources PythonAnywhere can't reach directly."""
+    query = REDDIT_SEARCH_QUERIES.get(pair)
+    if not query:
+        return []
+
+    def loader():
+        url = f"{REDDIT_SEARCH_URL}?q={quote(query)}&restrict_sr=on&sort=new&limit=15&t=month"
+        response = requests.get(_via_proxy(url), headers=HEADERS, timeout=10)
+        if response.status_code == 429:
+            raise RateLimited(int(response.headers.get("Retry-After", 60)))
+        response.raise_for_status()
+        data = response.json()
+
+        posts = []
+        for child in data.get("data", {}).get("children", []):
+            item = child.get("data") or {}
+            title = item.get("title", "")
+            selftext = (item.get("selftext") or "")[:280]
+            body = f"{title}. {selftext}".strip(". ")
+            if not body:
+                continue
+            result = analysis.classify_social_post(body)
+            created = item.get("created_utc")
+            permalink = item.get("permalink")
+            posts.append({
+                "sentiment": result["sentiment"],
+                "reason": result["reason"],
+                "body": body,
+                "user": item.get("author"),
+                "date": datetime.fromtimestamp(created, tz=timezone.utc).isoformat() if created else None,
+                "source": "Reddit",
+                "link": f"https://www.reddit.com{permalink}" if permalink else None,
+            })
+        return posts
+
+    return _cached_fetch(f"reddit_{pair}", loader)
+
+
+def fetch_telegram_posts():
+    """Fetches each configured public channel's web preview (t.me/s/<name> --
+    no login or bot token needed) ONCE, cached, covering every pair at once;
+    the caller filters this same list down per pair by keyword afterward,
+    same as fetch_reddit_sentiment's callers do for the News page's instrument
+    detection. One channel failing doesn't take the others down with it."""
+    from bs4 import BeautifulSoup
+
+    posts = []
+    last_error = None
+    for channel in TELEGRAM_CHANNELS:
+        def loader(channel=channel):
+            url = f"https://t.me/s/{channel}"
+            response = requests.get(_via_proxy(url), headers=HEADERS, timeout=10)
+            if response.status_code == 429:
+                raise RateLimited(int(response.headers.get("Retry-After", 60)))
+            response.raise_for_status()
+            soup = BeautifulSoup(response.text, "html.parser")
+            channel_posts = []
+            for wrap in soup.select(".tgme_widget_message_wrap"):
+                text_el = wrap.select_one(".tgme_widget_message_text")
+                if not text_el:
+                    continue
+                body = text_el.get_text(" ", strip=True)[:400]
+                if not body:
+                    continue
+                time_el = wrap.select_one("time.time")
+                date = time_el.get("datetime") if time_el else None
+                result = analysis.classify_social_post(body)
+                channel_posts.append({
+                    "sentiment": result["sentiment"],
+                    "reason": result["reason"],
+                    "body": body,
+                    "user": channel,
+                    "date": date,
+                    "source": "Telegram",
+                })
+            return channel_posts
+
+        try:
+            posts += _cached_fetch(f"telegram_{channel}", loader)
+        except (RateLimited, *NETWORK_ERRORS, *PARSE_ERRORS) as e:
+            last_error = e
+            continue
+    # Only surface a failure if EVERY channel failed -- one dead channel
+    # shouldn't hide posts the others returned just fine. If at least one
+    # succeeded (even with zero matching posts), that's not an error.
+    if not posts and last_error is not None:
+        raise last_error
+    return posts
 
 
 @app.route("/api/social-sentiment")
@@ -541,34 +665,62 @@ def get_social_sentiment():
     date_from = _parse_iso(raw_from) if raw_from else None
     date_to = _parse_iso(raw_to) if raw_to else None
 
+    # Telegram isn't fetched per-pair (each channel's whole recent feed is one
+    # request), so it's pulled once up front and filtered per pair below,
+    # same instrument-detection match already used for Market Bias/Live Prices.
+    telegram_posts = []
+    source_errors = {}
+    try:
+        telegram_posts = fetch_telegram_posts()
+    except (*NETWORK_ERRORS, *PARSE_ERRORS) as e:
+        source_errors["telegram"] = f"failed to fetch: {e}"
+
+    def _in_range(post):
+        if not post.get("date"):
+            return False
+        post_time = _parse_iso(post["date"])
+        if date_from and post_time < date_from:
+            return False
+        if date_to and post_time > date_to:
+            return False
+        return True
+
     result = {}
     for pair in pairs:
+        posts = []
+
         try:
-            posts = fetch_social_sentiment(pair)
+            posts += fetch_stocktwits_sentiment(pair)
         except RateLimited as e:
-            result[pair] = {"error": f"rate limited, try again in {e.retry_after}s"}
-            continue
+            source_errors.setdefault("stocktwits", f"rate limited, try again in {e.retry_after}s")
         except (*NETWORK_ERRORS, *PARSE_ERRORS) as e:
-            result[pair] = {"error": f"failed to fetch: {e}"}
-            continue
+            source_errors.setdefault("stocktwits", f"failed to fetch: {e}")
+
+        try:
+            posts += fetch_reddit_sentiment(pair)
+        except RateLimited as e:
+            source_errors.setdefault("reddit", f"rate limited, try again in {e.retry_after}s")
+        except (*NETWORK_ERRORS, *PARSE_ERRORS) as e:
+            source_errors.setdefault("reddit", f"failed to fetch: {e}")
+
+        pair_identity = analysis.pair_identity(pair)
+        posts += [p for p in telegram_posts if analysis.infer_instrument(p["body"]) == pair_identity]
 
         if date_from or date_to:
-            def _in_range(post):
-                if not post.get("date"):
-                    return False
-                post_time = _parse_iso(post["date"])
-                if date_from and post_time < date_from:
-                    return False
-                if date_to and post_time > date_to:
-                    return False
-                return True
             posts = [p for p in posts if _in_range(p)]
 
         summary = analysis.aggregate_social_posts(posts)
-        summary["sample_posts"] = [p for p in posts if p["sentiment"] != "Neutral"][:5]
+        # Newest first across all three sources combined, not just whichever
+        # source's own posts happened to come first in the merge above.
+        directional = sorted(
+            (p for p in posts if p["sentiment"] != "Neutral"),
+            key=lambda p: p.get("date") or "",
+            reverse=True,
+        )
+        summary["sample_posts"] = directional[:5]
         result[pair] = summary
 
-    return jsonify({"pairs": result})
+    return jsonify({"pairs": result, "source_errors": source_errors})
 
 
 # Every Live Prices key is spelled exactly like its analysis.PAIRS key already

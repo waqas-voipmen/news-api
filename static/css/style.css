@@ -789,6 +789,7 @@ a.title-link:hover { color: var(--accent-strong); text-decoration: underline; }
 .social-posts .post .tag.Bullish { color: var(--bull); }
 .social-posts .post .tag.Bearish { color: var(--bear); }
 .social-posts .post .post-time { font-size: 11px; color: var(--muted); }
+.social-posts .post .post-source { font-size: 11px; color: var(--muted-2); }
 
 /* ---------- Login page ---------- */
 

@@ -418,8 +418,8 @@ async function loadSocialSentiment() {
   const grid = document.getElementById('socialGrid');
   if (!grid) return;
   if (btn) { btn.disabled = true; btn.classList.add('spinning'); }
-  renderLoadingState(grid, '\u{1F4AC}', 'Pulling live posts from StockTwits...');
-  showLoadingOverlay('\u{1F4AC}', 'Pulling live posts from StockTwits...');
+  renderLoadingState(grid, '\u{1F4AC}', 'Pulling live posts from social media...');
+  showLoadingOverlay('\u{1F4AC}', 'Pulling live posts from social media...');
 
   const params = new URLSearchParams();
   params.set('period', document.getElementById('period').value);
@@ -440,20 +440,26 @@ async function loadSocialSentiment() {
   }
   hideLoadingOverlay();
 
+  const sourceErrorsEl = document.getElementById('socialSourceErrors');
+  if (sourceErrorsEl) {
+    const errorEntries = Object.entries(data.source_errors || {});
+    sourceErrorsEl.textContent = errorEntries.length
+      ? '(unavailable: ' + errorEntries.map(([src, msg]) => `${src} - ${msg}`).join('; ') + ')'
+      : '';
+  }
+
+  // Small per-platform tag so a post's source is visible at a glance now that
+  // these are merged from three different platforms instead of just StockTwits.
+  const SOURCE_ICONS = { StockTwits: '\u{1F4C8}', Reddit: '\u{1F47D}', Telegram: '✈️' };
+
   const entries = Object.entries(data.pairs || {});
   grid.innerHTML = entries.map(([pair, info]) => {
-    if (info.error) {
-      return `<div class="bias-card">
-        <div class="pair-name">${pairDisplayName(pair)}</div>
-        <div class="signals">${escapeHtml(info.error)}</div>
-      </div>`;
-    }
-
     const pct = info.bullish_pct === null ? 0 : info.bullish_pct;
     const posts = (info.sample_posts || []).slice(0, 3).map(p => {
       const when = formatCardTime(p.date);
+      const sourceIcon = SOURCE_ICONS[p.source] || '';
       return `<div class="post">
-        <span class="tag ${p.sentiment}">${p.sentiment}</span>${when ? ` <span class="post-time">${when}</span>` : ''}
+        <span class="tag ${p.sentiment}">${p.sentiment}</span>${when ? ` <span class="post-time">${when}</span>` : ''}${p.source ? ` <span class="post-source">${sourceIcon} ${escapeHtml(p.source)}</span>` : ''}
         <div>${escapeHtml(p.body).slice(0, 90)}</div>
       </div>`;
     }).join('');
