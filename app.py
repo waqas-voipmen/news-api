@@ -599,7 +599,10 @@ def fetch_telegram_posts():
     for channel in TELEGRAM_CHANNELS:
         def loader(channel=channel):
             url = f"https://t.me/s/{channel}"
-            response = requests.get(_via_proxy(url), headers=HEADERS, timeout=10)
+            # Unlike Reddit, Telegram's web preview is directly reachable from
+            # PythonAnywhere -- routing it through the Cloudflare Worker proxy
+            # actually breaks it (403), so this skips _via_proxy() on purpose.
+            response = requests.get(url, headers=HEADERS, timeout=10)
             if response.status_code == 429:
                 raise RateLimited(int(response.headers.get("Retry-After", 60)))
             response.raise_for_status()
