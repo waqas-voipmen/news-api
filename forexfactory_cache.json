@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-16T23:01:27.401971+00:00",
+  "fetched_at": "2026-09-16T23:23:28.586383+00:00",
   "periods": {
     "week": [
       {
@@ -36,7 +36,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": "8.5%"
+        "actual": ""
       },
       {
         "title": "RBA Assist Gov Hunter Speaks",
@@ -84,7 +84,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "7.5%"
       },
       {
         "title": "New Loans",
@@ -96,7 +96,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "60"
       },
       {
         "title": "CPI m/m",
@@ -396,7 +396,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": "16.25"
+        "actual": ""
       },
       {
         "title": "Wholesale Sales m/m",
@@ -432,7 +432,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "8.5%"
       },
       {
         "title": "GDT Price Index",
@@ -444,7 +444,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-1.1%"
       },
       {
         "title": "API Weekly Statistical Bulletin",
@@ -492,7 +492,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-3.7%"
       },
       {
         "title": "Trade Balance",
@@ -516,7 +516,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-0.04%"
       },
       {
         "title": "CPI y/y",
@@ -576,7 +576,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "3.4%"
       },
       {
         "title": "HPI y/y",
@@ -612,7 +612,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "3.9%"
       },
       {
         "title": "Housing Starts",
@@ -648,7 +648,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "1.4%"
       },
       {
         "title": "Retail Sales m/m",
@@ -672,7 +672,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.7%"
       },
       {
         "title": "Business Inventories m/m",
@@ -708,7 +708,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-0.64"
       },
       {
         "title": "German Buba President Nagel Speaks",
@@ -744,7 +744,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "4%"
       },
       {
         "title": "FOMC Economic Projections",

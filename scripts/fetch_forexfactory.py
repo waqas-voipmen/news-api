@@ -98,9 +98,38 @@ _PHRASE_COLLAPSE = [
     (r"\bproducer price index\b", "ppi"),
     (r"\bproducer( and import)? prices\b", "ppi"),
     (r"\bwholesale price index\b", "wpi"),
+    (r"\bretail price index\b", "rpi"),
     (r"\bgross domestic product\b", "gdp"),
     (r"\bpurchasing managers?'?s? index\b", "pmi"),
     (r"\bnon[- ]?farm payrolls\b", "nfp"),
+    # Each central bank's own rate-decision wording collapses to one token;
+    # already scoped to one currency's candidates, so no cross-bank risk.
+    (r"\bfederal funds rate\b", "cbrate"),
+    (r"\bfed interest rate decision\b", "cbrate"),
+    (r"\binterest rate decision\b", "cbrate"),
+    (r"\bofficial cash rate\b", "cbrate"),
+    (r"\bcash rate\b", "cbrate"),
+    (r"\bmain refinancing rate\b", "cbrate"),
+    (r"\bofficial bank rate\b", "cbrate"),
+    # "Core retail sales" is the conventional name for "retail sales ex autos".
+    (r"\bcore retail sales?\b", "retailsalesexauto"),
+    (r"\bretail sales? ex[- ]?autos?\b", "retailsalesexauto"),
+    # ForexFactory's EIA/API weekly oil-inventory reports vs FXStreet's naming.
+    (r"\bcrude oil inventor(?:y|ies)\b", "eiacrudeoil"),
+    (r"\beia crude oil stocks? change\b", "eiacrudeoil"),
+    (r"\bapi weekly statistical bulletin\b", "apicrudeoil"),
+    (r"\bapi weekly crude oil stocks?\b", "apicrudeoil"),
+    # Same Australian series, branded differently by different aggregators.
+    (r"\bmi leading index\b", "wmileadingindex"),
+    (r"\bwestpac leading index\b", "wmileadingindex"),
+    (r"\bbusinessnz services index\b", "businessnzpsi"),
+    (r"\bbusiness ?nz psi\b", "businessnzpsi"),
+    # China's NBS new-home-price release; FXStreet just calls it a house price index.
+    (r"\bnew home prices?\b", "cnhomeprices"),
+    (r"\bhouse price index\b", "cnhomeprices"),
+    # Japan's headline is always "core" machinery orders regardless of who's naming it.
+    (r"\bcore machinery orders?\b", "machineryorders"),
+    (r"\bmachinery orders?\b", "machineryorders"),
 ]
 # Genuinely different sub-series within the same release batch -- must match
 # exactly. Revision-stage labels (final/preliminary/flash/revised) describe
@@ -117,6 +146,14 @@ _COUNTRY_ADJECTIVES = {
     "german": "DE", "french": "FR", "italian": "IT", "spanish": "ES", "dutch": "NL",
 }
 _ZONE_WIDE_COUNTRY_CODES = {"EMU", "EU"}
+# Speeches/press conferences/summits are calendar placeholders, not data
+# releases -- they can never have a real "actual", and FF times them on
+# round numbers (14:00, 15:00) that can coincidentally collide with an
+# unrelated real release at the same instant (confirmed by hand: "Treasury
+# Sec Bessent Speaks" landed on the Redbook Index's timestamp and would have
+# picked up its 8.5% as if it were the speech's own number). Skip matching
+# for these outright rather than rely on topic overlap to save us every time.
+_NO_ACTUAL_RE = re.compile(r"\b(speaks?|speech|testimony|remarks|press conference|summit)\b", re.I)
 _PERIOD_MAP = {
     "m/m": "mom", "mom": "mom",
     "y/y": "yoy", "yoy": "yoy",
@@ -127,6 +164,15 @@ _PERIOD_MAP = {
 _PERIOD_RE = re.compile(r"\b(m/m|y/y|q/q|w/w|ytd/y|mom|yoy|qoq|wow|ytdy|ytd)\b")
 
 
+def _stem(token):
+    # Just enough to line up "Prices" (FF) with "Price" (FXStreet) etc. --
+    # not a real stemmer, and deliberately conservative (skips short words
+    # and "-ss" endings) to avoid mangling unrelated tokens.
+    if len(token) > 3 and token.endswith("s") and not token.endswith("ss"):
+        return token[:-1]
+    return token
+
+
 def _title_parts(title):
     text = (title or "").lower()
     match = _PERIOD_RE.search(text)
@@ -134,18 +180,21 @@ def _title_parts(title):
     text = _PERIOD_RE.sub(" ", text)
     for pattern, replacement in _PHRASE_COLLAPSE:
         text = re.sub(pattern, replacement, text)
-    tokens = set(re.findall(r"[a-z0-9]+", text)) - _FILLER
+    tokens = {_stem(t) for t in re.findall(r"[a-z0-9]+", text)} - _FILLER
     qualifiers = tokens & _QUALIFIERS
     return period, qualifiers, tokens - _QUALIFIERS
 
 
 def _best_match(ff_title, candidates):
-    """candidates: [(fxstreet_name, formatted_actual, countryCode), ...] all
-    sharing the same (currency, timestamp) as ff_title. Returns the
-    formatted_actual of the one unambiguous match, or "" if none clears the
-    bar -- a blank Actual is far less harmful than a confidently wrong one."""
-    if len(candidates) == 1:
-        return candidates[0][1]
+    """candidates: [(fxstreet_name, formatted_actual, countryCode), ...], all
+    within _MATCH_WINDOW of ff_title's event but not necessarily the same
+    instant, so -- unlike the exact-timestamp tier in fetch() -- a lone
+    candidate here is NOT trusted on proximity alone; it still has to clear
+    the topic-overlap bar below. Returns the formatted_actual of the one
+    unambiguous match, or "" if none clears the bar -- a blank Actual is far
+    less harmful than a confidently wrong one."""
+    if not candidates:
+        return ""
 
     lower_title = ff_title.lower()
     ff_country = next(
@@ -157,10 +206,10 @@ def _best_match(ff_title, candidates):
         [c for c in candidates if c[2] in _ZONE_WIDE_COUNTRY_CODES]
     if by_country:
         candidates = by_country
-        if len(candidates) == 1:
-            return candidates[0][1]
 
     ff_period, ff_qualifiers, ff_topic = _title_parts(ff_title)
+    if ff_country:
+        ff_topic = ff_topic - {word for word in _COUNTRY_ADJECTIVES if _COUNTRY_ADJECTIVES[word] == ff_country}
     scored = []
     for name, actual, _country in candidates:
         period, qualifiers, topic = _title_parts(name)
@@ -181,12 +230,31 @@ def _best_match(ff_title, candidates):
     return scored[0][1]
 
 
+# Two tiers, trading window width for how much trust a lone candidate gets:
+#  - _EXACT_WINDOW: this is the original discovery (currency + near-enough-
+#    exact release instant, no title comparison at all) -- validated by hand
+#    at ~74% accuracy for singleton matches, because two DIFFERENT real
+#    indicators from the same country essentially never fire in the same
+#    minute. A single candidate this close is trusted outright.
+#  - _MATCH_WINDOW: FXStreet and ForexFactory don't always log the exact same
+#    publish minute for the same real release (confirmed by hand: Germany's
+#    30-y Bond Auction off by 5 minutes, NZD's GDT Price Index off by 39,
+#    AU's MI/Westpac Leading Index off by 30), so a wider window is checked
+#    too -- but at this distance coincidental unrelated overlaps are
+#    plausible, so every candidate here still has to clear _best_match()'s
+#    title-agreement bar; a lone candidate is never trusted on proximity
+#    alone (see _best_match's docstring for why that matters).
+_EXACT_WINDOW = timedelta(seconds=60)
+_MATCH_WINDOW = timedelta(minutes=45)
+
+
 def fetch_actuals():
-    """Returns {(currency, ISO UTC release time): [(name, actual, countryCode), ...]}
-    from FXStreet's calendar API, covering roughly the last 8 days through 2
-    days ahead (comfortably wider than the "week" feed's own span). Returns {}
-    (not raising) on any failure -- a missing Actual column is a lesser
-    problem than losing the whole week's data over one flaky request."""
+    """Returns a list of (currency, datetime, name, formatted actual,
+    countryCode) tuples from FXStreet's calendar API, covering roughly the
+    last 8 days through 2 days ahead (comfortably wider than the "week"
+    feed's own span). Returns [] (not raising) on any failure -- a missing
+    Actual column is a lesser problem than losing the whole week's data over
+    one flaky request."""
     now = datetime.now(timezone.utc)
     start = (now - timedelta(days=8)).strftime("%Y-%m-%dT00:00:00Z")
     end = (now + timedelta(days=2)).strftime("%Y-%m-%dT23:59:59Z")
@@ -198,9 +266,9 @@ def fetch_actuals():
         events = response.json()
     except (requests.RequestException, ValueError) as e:
         print(f"actuals: failed ({e}), leaving Actual blank for this run")
-        return {}
+        return []
 
-    actuals = {}
+    actuals = []
     for event in events:
         if event.get("actual") is None:
             continue
@@ -208,11 +276,28 @@ def fetch_actuals():
             dt = datetime.fromisoformat(event["dateUtc"].replace("Z", "+00:00"))
         except (KeyError, ValueError):
             continue
-        key = (event.get("currencyCode", ""), dt.isoformat())
-        actuals.setdefault(key, []).append(
-            (event.get("name", ""), _format_actual(event), event.get("countryCode", ""))
-        )
+        actuals.append((
+            event.get("currencyCode", ""), dt,
+            event.get("name", ""), _format_actual(event), event.get("countryCode", ""),
+        ))
     return actuals
+
+
+def _candidates_near(actuals, currency, event_dt, window):
+    return [
+        (name, actual, country) for cur, dt, name, actual, country in actuals
+        if cur == currency and abs(dt - event_dt) <= window
+    ]
+
+
+def _match_actual(actuals, country, title, event_dt):
+    if not event_dt or _NO_ACTUAL_RE.search(title or ""):
+        return ""
+    exact = _candidates_near(actuals, country, event_dt, _EXACT_WINDOW)
+    if len(exact) == 1:
+        return exact[0][1]
+    wide = _candidates_near(actuals, country, event_dt, _MATCH_WINDOW)
+    return _best_match(title, wide) if wide else ""
 
 
 def fetch():
@@ -237,8 +322,7 @@ def fetch():
                 event_dt = datetime.fromisoformat(e["date"]).astimezone(timezone.utc)
             except (KeyError, ValueError):
                 event_dt = None
-            candidates = actuals.get((e.get("country", ""), event_dt.isoformat()), []) if event_dt else []
-            e["actual"] = _best_match(e.get("title", ""), candidates) if candidates else ""
+            e["actual"] = _match_actual(actuals, e.get("country", ""), e.get("title", ""), event_dt)
             if not e["actual"] and event_dt and event_dt < now:
                 unmatched_past.append((e.get("country", ""), e.get("title", "")))
         result[period] = events
