@@ -86,55 +86,43 @@ def _normalize(text):
     return re.sub(r"\s+", " ", (text or "").strip().lower())
 
 
-CDP_URL = "http://localhost:9222"
+# A dedicated, persistent Chrome profile -- separate from the user's real
+# default one -- that this script owns end to end. First run still hits the
+# challenge cold, same as every other approach tried, but Chrome itself
+# writes whatever cookies/state that run earns to this directory, so later
+# runs start as a profile with real browsing history for this site instead
+# of a blank one every time. That's meaningfully different from replaying a
+# single exported cookie into a fresh context each run (tried and failed):
+# it's the same kind of trust a real returning visitor accumulates, not one
+# frozen snapshot. (Attaching to the user's actual default-profile Chrome via
+# --remote-debugging-port was tried first -- Chrome's own security policy
+# silently refuses to open the debug port on the default profile at all, so
+# that path is a dead end regardless of anything on the ForexFactory side.)
+PROFILE_DIR = Path(__file__).parent.parent / ".forexfactory_chrome_profile"
 
 
 def _get_page(p):
-    """Returns (page, cleanup) -- cleanup() closes whatever this opened,
-    without ever closing a browser it didn't launch itself.
-
-    Confirmed by hand, in order of increasing effort, that none of these get
-    past Cloudflare's challenge here from a fresh automated session: plain
-    curl_cffi TLS impersonation, Playwright's bundled Chromium (headless or
-    headed), channel="chrome" (the machine's real, installed Chrome) with
-    playwright_stealth patches and headed mode, and replaying an exported
-    __cf_bm cookie into that session. Cloudflare is evidently scoring the
-    whole live session (IP + TLS + fingerprint + behavior together), not any
-    one replayable piece of it.
-
-    The one thing that reliably has trust here is the user's own already-open,
-    already-browsing-fine Chrome -- so if it's running with
-    --remote-debugging-port=9222 (chrome.exe --remote-debugging-port=9222),
-    this attaches to THAT live session via Chrome DevTools Protocol and opens
-    a new tab in it, instead of spinning up a separate automated one. Falls
-    back to launching a fresh browser (real Chrome + stealth + cookie file)
-    if nothing's listening on that port -- worse odds, but something rather
-    than a hard requirement to have Chrome running in debug mode."""
+    """Returns (page, cleanup) -- cleanup() closes the persistent context,
+    which is what actually flushes its cookies/state to PROFILE_DIR."""
+    kwargs = dict(
+        headless=False,
+        user_agent=HEADERS["User-Agent"],
+        viewport={"width": 1366, "height": 900},
+        args=["--disable-blink-features=AutomationControlled"],
+    )
     try:
-        browser = p.chromium.connect_over_cdp(CDP_URL, timeout=5000)
-        context = browser.contexts[0] if browser.contexts else browser.new_context()
-        page = context.new_page()
-        print("actuals: attached to your already-running Chrome via CDP -- using that live session")
-        return page, page.close  # never close someone's actual browser
-
+        context = p.chromium.launch_persistent_context(str(PROFILE_DIR), channel="chrome", **kwargs)
     except Exception:
-        print(f"actuals: no Chrome listening on {CDP_URL} (start it with "
-              f"--remote-debugging-port=9222 for the best odds) -- launching a fresh automated browser instead")
-
-    try:
-        browser = p.chromium.launch(headless=False, channel="chrome", args=["--disable-blink-features=AutomationControlled"])
-    except Exception:
-        print("actuals: no installed Chrome found for channel='chrome' either -- falling back to Playwright's "
+        print("actuals: no installed Chrome found for channel='chrome' -- falling back to Playwright's "
               "bundled Chromium, which is more likely to get stuck on Cloudflare's challenge")
-        browser = p.chromium.launch(headless=False, args=["--disable-blink-features=AutomationControlled"])
+        context = p.chromium.launch_persistent_context(str(PROFILE_DIR), **kwargs)
 
-    context = browser.new_context(user_agent=HEADERS["User-Agent"], viewport={"width": 1366, "height": 900})
     Stealth().apply_stealth_sync(context)
     cookies = _load_cookies()
     if cookies:
         context.add_cookies(cookies)
-    page = context.new_page()
-    return page, browser.close
+    page = context.pages[0] if context.pages else context.new_page()
+    return page, context.close
 
 
 def fetch_actuals():
