@@ -417,13 +417,31 @@ async function loadNewsInner(background) {
   }).join('');
 }
 
-async function loadSocialSentiment() {
-  const btn = document.getElementById('refreshNow');
+let socialRequestInFlight = false;
+
+async function loadSocialSentiment(background) {
+  if (socialRequestInFlight) return;
   const grid = document.getElementById('socialGrid');
   if (!grid) return;
+  socialRequestInFlight = true;
+  try {
+    await loadSocialSentimentInner(background);
+  } finally {
+    socialRequestInFlight = false;
+  }
+}
+
+async function loadSocialSentimentInner(background) {
+  const btn = document.getElementById('refreshNow');
+  const grid = document.getElementById('socialGrid');
   if (btn) { btn.disabled = true; btn.classList.add('spinning'); }
-  renderLoadingState(grid, '\u{1F4AC}', 'Pulling live posts from social media...');
-  showLoadingOverlay('\u{1F4AC}', 'Pulling live posts from social media...');
+  // A silent auto-refresh shouldn't blank out posts the viewer might be
+  // reading right now or flash the full-screen overlay every few minutes --
+  // both stay reserved for an explicit period/currency change or manual click.
+  if (!background) {
+    renderLoadingState(grid, '\u{1F4AC}', 'Pulling live posts from social media...');
+    showLoadingOverlay('\u{1F4AC}', 'Pulling live posts from social media...');
+  }
 
   const params = new URLSearchParams();
   params.set('period', document.getElementById('period').value);
@@ -436,9 +454,11 @@ async function loadSocialSentiment() {
   try {
     const res = await fetch('/api/social-sentiment?' + params.toString());
     data = await res.json();
-    await waitForMinLoadingTime(loadStartedAt);
+    if (!background) await waitForMinLoadingTime(loadStartedAt);
   } catch (err) {
-    grid.innerHTML = '<span style="color:var(--muted); font-size:12px;">Error: could not reach the server</span>';
+    // A silent background refresh that fails leaves the last good data on
+    // screen rather than replacing it with an error message.
+    if (!background) grid.innerHTML = '<span style="color:var(--muted); font-size:12px;">Error: could not reach the server</span>';
     if (btn) { btn.disabled = false; btn.classList.remove('spinning'); }
     hideLoadingOverlay();
     return;
@@ -503,8 +523,13 @@ async function loadSocialSentiment() {
 
 const socialRefreshBtn = document.getElementById('socialGrid') ? document.getElementById('refreshNow') : null;
 if (socialRefreshBtn) {
-  socialRefreshBtn.addEventListener('click', loadSocialSentiment);
+  // Passing loadSocialSentiment straight to addEventListener would forward the
+  // click Event as its "background" argument (truthy) and silently suppress
+  // the loading overlay on a manual click -- wrap it so only the timer below
+  // ever requests a background refresh.
+  socialRefreshBtn.addEventListener('click', () => loadSocialSentiment());
   loadSocialSentiment(); // show current data by default, no manual click needed
+  setInterval(() => loadSocialSentiment(true), 5 * 60 * 1000);
 }
 
 // If the admin changes Feature Controls while this page is open, pick it up
