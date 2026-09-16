@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-16T17:48:30.694496+00:00",
+  "fetched_at": "2026-09-16T18:47:47.666187+00:00",
   "periods": {
     "week": [
       {
@@ -740,17 +740,6 @@
         "link": null
       },
       {
-        "title": "Foreign Direct Investment ytd/y",
-        "country": "CNY",
-        "date": "2026-09-17T02:02:00-04:00",
-        "impact": "Low",
-        "forecast": "",
-        "previous": "-6.2%",
-        "source": "ForexFactory",
-        "type": "calendar",
-        "link": null
-      },
-      {
         "title": "SECO Economic Forecasts",
         "country": "CHF",
         "date": "2026-09-17T03:00:00-04:00",
@@ -1043,6 +1032,17 @@
         "impact": "Medium",
         "forecast": "-0.2%",
         "previous": "-0.5%",
+        "source": "ForexFactory",
+        "type": "calendar",
+        "link": null
+      },
+      {
+        "title": "Foreign Direct Investment ytd/y",
+        "country": "CNY",
+        "date": "2026-09-18T02:02:00-04:00",
+        "impact": "Low",
+        "forecast": "",
+        "previous": "-6.2%",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null
