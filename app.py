@@ -107,7 +107,10 @@ REDDIT_USER_AGENT = "web:forex-news-aggregator:v1.0 (by /u/forex-news-aggregator
 # also isn't per-pair -- each channel's whole recent feed is fetched once and
 # cached, then filtered per pair the same way News detects an instrument from
 # free text (analysis.infer_instrument), matched against analysis.pair_identity.
-TELEGRAM_CHANNELS = ["FXStreetNews", "Cointelegraph"]
+# "FXStreetNews" turned out not to be a real public channel (Telegram's generic
+# "Contact @..." landing page, zero messages) -- verified by hand which
+# usernames actually resolve to real, active, public channels before using them.
+TELEGRAM_CHANNELS = ["Cointelegraph", "DailyFX", "ForexSignals", "Bloomberg"]
 
 # mastodon.social's public hashtag timeline is a genuinely open,
 # unauthenticated API -- no account, token, or app registration needed, and
