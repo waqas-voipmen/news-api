@@ -219,7 +219,27 @@ def _split_clauses(text):
 
 
 def _classify_calendar_event(event):
+    inverse = any(k in event["title"].lower() for k in INVERSE_INDICATOR_KEYWORDS)
+
+    # Once the real number is out, "did it beat or miss expectations" is the
+    # actual market-moving surprise -- a stronger signal than the pre-release
+    # forecast/previous trend below, which this only falls back to for
+    # events that haven't released yet (no Actual available).
+    actual = _parse_number(event.get("actual"))
     forecast = _parse_number(event.get("forecast"))
+    if actual is not None and forecast is not None:
+        diff = actual - forecast
+        if diff == 0:
+            return {"sentiment": "Neutral", "reason": "actual matches forecast, no surprise", "strength": 0.0}
+        beat = diff > 0
+        sentiment = "Bullish" if (beat != inverse) else "Bearish"
+        verb = "beat" if beat else "missed"
+        reason = f"actual ({event['actual']}) {verb} forecast ({event['forecast']})"
+        if inverse:
+            reason += " -- this is an inverse indicator, so a higher number is bad for the currency"
+        relative_move = abs(diff) / abs(forecast) if forecast else 0.5
+        return {"sentiment": sentiment, "reason": reason, "strength": min(relative_move, 1.0)}
+
     previous = _parse_number(event.get("previous"))
     if forecast is None or previous is None:
         return {"sentiment": "Neutral", "reason": "no forecast/previous figures available, so no comparison could be made", "strength": 0.0}
@@ -228,7 +248,6 @@ def _classify_calendar_event(event):
     if diff == 0:
         return {"sentiment": "Neutral", "reason": "forecast matches previous, no change", "strength": 0.0}
 
-    inverse = any(k in event["title"].lower() for k in INVERSE_INDICATOR_KEYWORDS)
     improving = diff > 0
     sentiment = "Bullish" if (improving != inverse) else "Bearish"
 

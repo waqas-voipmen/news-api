@@ -3,3 +3,11 @@ requests
 beautifulsoup4
 curl_cffi
 gunicorn
+# Only used by scripts/fetch_forexfactory.py, run locally on a residential
+# machine -- forexfactory.com's real calendar page (needed for the "Actual"
+# column, which the free nfs.faireconomy.media feed doesn't provide) sits
+# behind a Cloudflare JS challenge that curl_cffi's TLS impersonation alone
+# can't clear, since it never executes the challenge's JavaScript. Not needed
+# on the deployed app, which only ever reads the pre-fetched cache from
+# GitHub. After installing, also run: playwright install chromium
+playwright

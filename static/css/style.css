@@ -1049,8 +1049,9 @@ a.title-link:hover { color: var(--accent-strong); text-decoration: underline; }
     font-size: 12.5px;
   }
 
-  /* Forecast/Previous: compact "label: value" pairs on one line instead of a
-     full-width block each, since they're just two bare numbers. */
+  /* Actual/Forecast/Previous: compact "label: value" pairs on one line
+     instead of a full-width block each, since they're just bare numbers. */
+  table.data-table td[data-label="Actual"],
   table.data-table td[data-label="Forecast"],
   table.data-table td[data-label="Previous"] {
     order: 6;
@@ -1062,6 +1063,7 @@ a.title-link:hover { color: var(--accent-strong); text-decoration: underline; }
     margin-right: 18px;
     font-size: 13.5px;
   }
+  table.data-table td[data-label="Actual"]::before,
   table.data-table td[data-label="Forecast"]::before,
   table.data-table td[data-label="Previous"]::before {
     content: attr(data-label) ":";

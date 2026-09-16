@@ -321,7 +321,7 @@ async function loadNewsInner(background) {
 
   if (countEl) countEl.textContent = 'Analyzing news & calendar events...';
   if (rowsEl) {
-    rowsEl.innerHTML = '<tr><td colspan="9" class="loading-cell"><div class="loading-state">'
+    rowsEl.innerHTML = '<tr><td colspan="10" class="loading-cell"><div class="loading-state">'
       + '<span class="loading-icon">\u{1F50E}</span><span>Fetching and analyzing news...</span></div></td></tr>';
   }
   renderLoadingState(biasGridEl, '\u{1F9E0}', 'Analyzing news for market bias...');
@@ -407,6 +407,7 @@ async function loadNewsInner(background) {
       <td data-label="Currency"><span class="currency-tag">${escapeHtml(ev.country)}</span></td>
       <td data-label="Event">${title}</td>
       <td data-label="Impact"><span class="badge ${ev.impact}">${escapeHtml(ev.impact)}</span></td>
+      <td data-label="Actual">${escapeHtml(ev.actual) || '-'}</td>
       <td data-label="Forecast">${escapeHtml(ev.forecast) || '-'}</td>
       <td data-label="Previous">${escapeHtml(ev.previous) || '-'}</td>
       <td data-label="Sentiment">${sentiment}</td>
