@@ -109,6 +109,26 @@ REDDIT_USER_AGENT = "web:forex-news-aggregator:v1.0 (by /u/forex-news-aggregator
 # free text (analysis.infer_instrument), matched against analysis.pair_identity.
 TELEGRAM_CHANNELS = ["FXStreetNews", "Cointelegraph"]
 
+# mastodon.social's public hashtag timeline is a genuinely open,
+# unauthenticated API -- no account, token, or app registration needed, and
+# (confirmed by hand) directly reachable from PythonAnywhere, unlike Reddit's
+# blocked public JSON endpoints.
+MASTODON_INSTANCE = "https://mastodon.social"
+MASTODON_HASHTAGS = {
+    "DXY": "dollar",
+    "XAUUSD": "gold",
+    "XAGUSD": "silver",
+    "BTCUSD": "bitcoin",
+    "CL_F": "crudeoil",
+    "EURUSD": "eurusd",
+    "GBPUSD": "gbpusd",
+    "USDJPY": "usdjpy",
+    "USDCHF": "usdchf",
+    "USDCAD": "usdcad",
+    "AUDUSD": "audusd",
+    "NZDUSD": "nzdusd",
+}
+
 # Live prices are shown via TradingView's own embeddable widgets (see
 # templates/live_prices.html) rather than fetched server-side -- that gives
 # real spot XAUUSD/XAGUSD/DXY ticks straight from TradingView's feed instead of
@@ -690,6 +710,44 @@ def fetch_telegram_posts():
     return posts
 
 
+def fetch_mastodon_sentiment(pair):
+    """Each pair maps to one hashtag (MASTODON_HASHTAGS) on mastodon.social's
+    public tag timeline -- no login, token, or app registration needed. Quieter
+    pairs' hashtags may simply have few or no recent posts, same limitation as
+    StockTwits/Reddit for anything not actively discussed right now."""
+    hashtag = MASTODON_HASHTAGS.get(pair)
+    if not hashtag:
+        return []
+
+    def loader():
+        url = f"{MASTODON_INSTANCE}/api/v1/timelines/tag/{hashtag}"
+        response = requests.get(url, params={"limit": 15}, headers=HEADERS, timeout=10)
+        if response.status_code == 429:
+            raise RateLimited(int(response.headers.get("Retry-After", 60)))
+        response.raise_for_status()
+        statuses = response.json()
+
+        posts = []
+        for status in statuses:
+            body = _strip_html(status.get("content", ""))[:280]
+            if not body:
+                continue
+            result = analysis.classify_social_post(body)
+            account = status.get("account") or {}
+            posts.append({
+                "sentiment": result["sentiment"],
+                "reason": result["reason"],
+                "body": body,
+                "user": account.get("acct") or account.get("username"),
+                "date": status.get("created_at"),
+                "source": "Mastodon",
+                "link": status.get("url"),
+            })
+        return posts
+
+    return _cached_fetch(f"mastodon_{pair}", loader)
+
+
 @app.route("/api/social-sentiment")
 @login_required
 def get_social_sentiment():
@@ -757,6 +815,13 @@ def get_social_sentiment():
             source_errors.setdefault("reddit", f"rate limited, try again in {e.retry_after}s")
         except (*NETWORK_ERRORS, *PARSE_ERRORS) as e:
             source_errors.setdefault("reddit", f"failed to fetch: {e}")
+
+        try:
+            posts += fetch_mastodon_sentiment(pair)
+        except RateLimited as e:
+            source_errors.setdefault("mastodon", f"rate limited, try again in {e.retry_after}s")
+        except (*NETWORK_ERRORS, *PARSE_ERRORS) as e:
+            source_errors.setdefault("mastodon", f"failed to fetch: {e}")
 
         pair_identity = analysis.pair_identity(pair)
         posts += [p for p in telegram_posts if analysis.infer_instrument(p["body"]) == pair_identity]

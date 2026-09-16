@@ -454,7 +454,7 @@ async function loadSocialSentiment() {
 
   // Small per-platform tag so a post's source is visible at a glance now that
   // these are merged from three different platforms instead of just StockTwits.
-  const SOURCE_ICONS = { StockTwits: '\u{1F4C8}', Reddit: '\u{1F47D}', Telegram: '✈️' };
+  const SOURCE_ICONS = { StockTwits: '\u{1F4C8}', Reddit: '\u{1F47D}', Telegram: '✈️', Mastodon: '\u{1F418}' };
 
   const entries = Object.entries(data.pairs || {});
   grid.innerHTML = entries.map(([pair, info]) => {
