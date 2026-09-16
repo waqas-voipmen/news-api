@@ -27,6 +27,7 @@ from pathlib import Path
 
 import requests
 from playwright.sync_api import sync_playwright
+from playwright_stealth import Stealth
 
 FF_FEEDS = {
     "week": "https://nfs.faireconomy.media/ff_calendar_thisweek.json",
@@ -39,12 +40,38 @@ HEADERS = {
 }
 
 OUTPUT_PATH = Path(__file__).parent.parent / "forexfactory_cache.json"
+# Real Chrome + stealth patches + a residential IP still didn't clear
+# Cloudflare's challenge here (confirmed by hand) -- if this file exists
+# (git-ignored; export it once from a real, already-cleared browser session
+# with something like the Cookie-Editor extension), its cookies are loaded
+# into the browser context before navigating so Cloudflare sees an
+# already-verified session instead of a fresh one. cf_clearance-style cookies
+# are typically good for hours, not indefinitely, so this needs re-exporting
+# every so often when the scrape starts failing again.
+COOKIES_PATH = Path(__file__).parent.parent / "forexfactory_cookies.json"
 
 
 def _previous_periods():
     if not OUTPUT_PATH.exists():
         return {}
     return json.loads(OUTPUT_PATH.read_text()).get("periods", {})
+
+
+def _load_cookies():
+    if not COOKIES_PATH.exists():
+        return None
+    cookies = json.loads(COOKIES_PATH.read_text())
+    # Cookie-Editor (and most export tools) call the expiry field
+    # "expirationDate"; Playwright wants "expires". Session cookies have
+    # neither, which Playwright is fine with (they just won't persist past
+    # this run, which doesn't matter for a one-shot script).
+    for c in cookies:
+        if "expirationDate" in c and "expires" not in c:
+            c["expires"] = c.pop("expirationDate")
+        c.pop("hostOnly", None)
+        c.pop("session", None)
+        c.pop("storeId", None)
+    return cookies
 
 
 def _normalize(text):
@@ -58,18 +85,35 @@ def fetch_actuals():
     a scrape hiccup; the caller just leaves "actual" blank for every event."""
     try:
         with sync_playwright() as p:
-            # headless=False on purpose -- confirmed by hand that Cloudflare's
-            # managed challenge here never clears for a headless Chromium
-            # instance (stuck on "Just a moment..." indefinitely) even from a
-            # real browser engine, not just curl_cffi's TLS-only impersonation.
-            # A visible window is a small price on a residential machine this
-            # only runs on occasionally. The navigator.webdriver override
-            # below hides the one flag headless/automated Chromium sets that
-            # a real user's browser never would.
-            browser = p.chromium.launch(headless=False, args=["--disable-blink-features=AutomationControlled"])
+            # Confirmed by hand: Cloudflare's challenge here never clears for
+            # Playwright's bundled Chromium -- neither headless nor headed,
+            # even from a residential IP -- because the bundled build itself
+            # carries fingerprint differences (CDP artifacts, missing plugins,
+            # etc.) Cloudflare's bot management checks for beyond just
+            # navigator.webdriver. Two mitigations, stacked: channel="chrome"
+            # drives the machine's real, actually-installed Chrome instead of
+            # that bundled build, and playwright_stealth patches the broader
+            # set of automation tells (plugins, webgl, permissions, ...) a
+            # single manual navigator.webdriver override doesn't cover.
+            # headless=False on top of that, since a visible window is a
+            # small price on a residential machine this only runs on
+            # occasionally, and headless is itself one more thing real
+            # traffic never is.
+            try:
+                browser = p.chromium.launch(headless=False, channel="chrome", args=["--disable-blink-features=AutomationControlled"])
+            except Exception:
+                print("actuals: no installed Chrome found for channel='chrome' -- falling back to Playwright's "
+                      "bundled Chromium, which is more likely to get stuck on Cloudflare's challenge")
+                browser = p.chromium.launch(headless=False, args=["--disable-blink-features=AutomationControlled"])
             try:
                 context = browser.new_context(user_agent=HEADERS["User-Agent"], viewport={"width": 1366, "height": 900})
-                context.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
+                Stealth().apply_stealth_sync(context)
+                cookies = _load_cookies()
+                if cookies:
+                    context.add_cookies(cookies)
+                else:
+                    print(f"actuals: no {COOKIES_PATH.name} found -- relying on channel=chrome + stealth alone, "
+                          f"which hasn't been enough on its own so far")
                 page = context.new_page()
                 page.goto(CALENDAR_URL, timeout=30000, wait_until="domcontentloaded")
 

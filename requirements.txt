@@ -6,8 +6,13 @@ gunicorn
 # Only used by scripts/fetch_forexfactory.py, run locally on a residential
 # machine -- forexfactory.com's real calendar page (needed for the "Actual"
 # column, which the free nfs.faireconomy.media feed doesn't provide) sits
-# behind a Cloudflare JS challenge that curl_cffi's TLS impersonation alone
-# can't clear, since it never executes the challenge's JavaScript. Not needed
-# on the deployed app, which only ever reads the pre-fetched cache from
-# GitHub. After installing, also run: playwright install chromium
+# behind a Cloudflare challenge that curl_cffi's TLS impersonation alone
+# can't clear, since it never executes the challenge's JavaScript, and that
+# Playwright's bundled Chromium alone still gets stuck on even from a
+# residential IP (confirmed by hand) -- playwright-stealth patches the
+# broader set of automation fingerprints (plugins, webgl, permissions, ...)
+# needed on top of that. Not needed on the deployed app, which only ever
+# reads the pre-fetched cache from GitHub. After installing, also run:
+# playwright install chromium
 playwright
+playwright-stealth
