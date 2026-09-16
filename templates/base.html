@@ -529,7 +529,7 @@ if (socialRefreshBtn) {
   // ever requests a background refresh.
   socialRefreshBtn.addEventListener('click', () => loadSocialSentiment());
   loadSocialSentiment(); // show current data by default, no manual click needed
-  setInterval(() => loadSocialSentiment(true), 5 * 60 * 1000);
+  setInterval(() => loadSocialSentiment(true), 2 * 60 * 1000);
 }
 
 // If the admin changes Feature Controls while this page is open, pick it up

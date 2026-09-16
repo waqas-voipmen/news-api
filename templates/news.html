@@ -36,5 +36,5 @@
 {% block page_script %}
 document.getElementById('refreshNow').addEventListener('click', () => loadNews());
 loadNews();
-setInterval(() => loadNews(true), 5 * 60 * 1000);
+setInterval(() => loadNews(true), 2 * 60 * 1000);
 {% endblock %}

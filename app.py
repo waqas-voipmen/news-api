@@ -176,6 +176,7 @@ def _via_proxy(url):
 
 
 CACHE_TTL = 300  # seconds
+GITHUB_CACHE_TTL = 60  # seconds -- GitHub's raw-content CDN isn't rate-limited like the sources CACHE_TTL is sized for
 CACHE_DIR = Path(__file__).parent / ".cache"
 USERS_FILE = Path(__file__).parent / "users.json"
 SETTINGS_FILE = Path(__file__).parent / "settings.json"
@@ -454,7 +455,12 @@ def fetch_forexfactory(period):
             raise requests.RequestException(f"no cached ForexFactory data for period '{period}'")
         return raw_events
 
-    return _cached_fetch(f"ff_{period}", loader)
+    # This hits GitHub's raw-content CDN, not ForexFactory's own rate-limited
+    # feed, so there's no reason to sit on CACHE_TTL's 5-minute default -- a
+    # short TTL here is what actually makes scripts/fetch_forexfactory.py's
+    # pushes show up live shortly after they land, instead of up to 5 minutes
+    # later regardless of how fresh the pushed file already is.
+    return _cached_fetch(f"ff_{period}", loader, ttl=GITHUB_CACHE_TTL)
 
 
 def _parse_pub_date(raw):
@@ -539,7 +545,7 @@ def fetch_myfxbook_news():
         response.raise_for_status()
         return response.json()["events"]
 
-    return _cached_fetch("myfxbook_news", loader)
+    return _cached_fetch("myfxbook_news", loader, ttl=GITHUB_CACHE_TTL)
 
 
 def fetch_stocktwits_sentiment(pair):
