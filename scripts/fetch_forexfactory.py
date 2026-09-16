@@ -58,14 +58,49 @@ def fetch_actuals():
     a scrape hiccup; the caller just leaves "actual" blank for every event."""
     try:
         with sync_playwright() as p:
-            browser = p.chromium.launch(headless=True)
+            # headless=False on purpose -- confirmed by hand that Cloudflare's
+            # managed challenge here never clears for a headless Chromium
+            # instance (stuck on "Just a moment..." indefinitely) even from a
+            # real browser engine, not just curl_cffi's TLS-only impersonation.
+            # A visible window is a small price on a residential machine this
+            # only runs on occasionally. The navigator.webdriver override
+            # below hides the one flag headless/automated Chromium sets that
+            # a real user's browser never would.
+            browser = p.chromium.launch(headless=False, args=["--disable-blink-features=AutomationControlled"])
             try:
-                page = browser.new_page(user_agent=HEADERS["User-Agent"])
+                context = browser.new_context(user_agent=HEADERS["User-Agent"], viewport={"width": 1366, "height": 900})
+                context.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
+                page = context.new_page()
                 page.goto(CALENDAR_URL, timeout=30000, wait_until="domcontentloaded")
-                # Cloudflare's challenge runs its own JS and redirects once
-                # cleared -- give it a few seconds before looking for the
-                # actual calendar table rather than a fixed sleep.
-                page.wait_for_selector("tr.calendar__row", timeout=20000)
+
+                # Some of Cloudflare's challenges auto-clear after a few
+                # seconds; others are an actual "Verify you are human"
+                # checkbox (Turnstile, in its own iframe) that needs a real
+                # click. Try that once, best-effort -- if the iframe/checkbox
+                # isn't there (because it already auto-cleared, or the DOM
+                # doesn't match), this just falls through to the poll below.
+                try:
+                    page.wait_for_timeout(2000)
+                    checkbox = page.frame_locator("iframe[title*='Cloudflare' i], iframe[src*='challenges.cloudflare.com']").locator("input[type=checkbox]")
+                    checkbox.click(timeout=3000)
+                except Exception:
+                    pass
+
+                # Poll for the real calendar table instead of one fixed wait,
+                # and say plainly if it's still stuck on the challenge page
+                # when time runs out, rather than quietly returning zero rows
+                # that look identical to "the page loaded but had nothing".
+                cleared = False
+                for _ in range(30):
+                    if page.query_selector("tr.calendar__row"):
+                        cleared = True
+                        break
+                    page.wait_for_timeout(1000)
+                if not cleared:
+                    print(f"actuals: still on Cloudflare's challenge page after 30s (title: {page.title()!r}) "
+                          f"-- this residential IP may itself be getting flagged, or the challenge needs longer")
+                    return {}
+
                 rows = page.query_selector_all("tr.calendar__row")
 
                 actuals = {}
