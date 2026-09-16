@@ -1006,7 +1006,7 @@ a.title-link:hover { color: var(--accent-strong); text-decoration: underline; }
   }
   table.data-table td[data-label="Impact"] {
     position: absolute;
-    top: 46px;
+    top: 58px;
     right: 14px;
   }
   table.data-table td[data-label="Currency"]::before,
@@ -1031,7 +1031,9 @@ a.title-link:hover { color: var(--accent-strong); text-decoration: underline; }
   table.data-table td[data-label="Affects"]::before { content: none; }
   table.data-table td[data-label="Event"] {
     order: 3;
-    margin-top: 12px;
+    /* Extra clearance so the headline's first line never runs under the
+       Currency/Impact badges stacked in the corner above it. */
+    margin-top: 24px;
     font-size: 15.5px;
     font-weight: 600;
     line-height: 1.4;
