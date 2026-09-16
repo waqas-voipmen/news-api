@@ -478,6 +478,21 @@ async function loadSocialSentiment() {
     </div>`;
   }).join('');
 
+  const telegramGrid = document.getElementById('telegramGrid');
+  if (telegramGrid) {
+    const feed = data.telegram_feed || [];
+    telegramGrid.innerHTML = feed.length
+      ? feed.map(p => `
+        <div class="bias-card ${p.sentiment}">
+          <div class="card-time">${formatCardTime(p.date)}</div>
+          <div class="pair-name">${escapeHtml(p.user)}</div>
+          <div class="bias-label ${p.sentiment}">${p.sentiment}</div>
+          <div class="signals">${escapeHtml(p.body)}</div>
+        </div>
+      `).join('')
+      : '<span style="color:var(--muted); font-size:12px;">No Telegram posts for this period</span>';
+  }
+
   if (btn) { btn.disabled = false; btn.classList.remove('spinning'); }
 }
 

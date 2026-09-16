@@ -723,7 +723,17 @@ def get_social_sentiment():
         summary["sample_posts"] = directional[:5]
         result[pair] = summary
 
-    return jsonify({"pairs": result, "source_errors": source_errors})
+    # The per-pair cards above only ever show Telegram messages that matched
+    # a specific instrument (analysis.infer_instrument) -- general market
+    # commentary that doesn't name one clearly gets filtered out entirely.
+    # This is the same telegram_posts list unfiltered, so the raw channel
+    # feed is still visible somewhere on the page.
+    telegram_feed = telegram_posts
+    if date_from or date_to:
+        telegram_feed = [p for p in telegram_feed if _in_range(p)]
+    telegram_feed = sorted(telegram_feed, key=lambda p: p.get("date") or "", reverse=True)[:30]
+
+    return jsonify({"pairs": result, "telegram_feed": telegram_feed, "source_errors": source_errors})
 
 
 # Every Live Prices key is spelled exactly like its analysis.PAIRS key already
