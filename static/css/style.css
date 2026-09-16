@@ -996,17 +996,17 @@ a.title-link:hover { color: var(--accent-strong); text-decoration: underline; }
   table.data-table td[data-label="Source"] .source-tag::before { content: "via "; }
   table.data-table td[data-label="Source"] .source-tag { font-size: 12px; }
 
-  /* Currency is still a tag row under the byline; Impact moves out of the
-     normal flow entirely, pinned to the card's own top-right corner. */
+  /* Currency and Impact both pinned in the card's top-right corner, stacked
+     -- Currency (the pair) on top, Impact directly below it -- instead of
+     Currency sitting in the normal flow under the byline. */
   table.data-table td[data-label="Currency"] {
-    order: 2;
-    flex: 0 1 auto;
-    align-self: center;
-    margin-top: 12px;
+    position: absolute;
+    top: 14px;
+    right: 14px;
   }
   table.data-table td[data-label="Impact"] {
     position: absolute;
-    top: 14px;
+    top: 46px;
     right: 14px;
   }
   table.data-table td[data-label="Currency"]::before,
