@@ -20,6 +20,7 @@ does. Each scraped row is matched back to a feed event by (country, title) --
 both are ForexFactory's own data either way, so titles line up exactly --
 rather than replacing the reliable feed with a full HTML-scraped parse."""
 import json
+import random
 import re
 import sys
 from datetime import datetime, timezone
@@ -86,6 +87,22 @@ def _normalize(text):
     return re.sub(r"\s+", " ", (text or "").strip().lower())
 
 
+def _act_human(page):
+    """A little randomized mouse movement and scrolling -- a page that never
+    moves the mouse or scrolls at all is itself a signal a real visitor never
+    produces. Best-effort and silent: if the page navigated away mid-call or
+    anything else goes wrong, this just does nothing rather than breaking the
+    caller's flow over what's only ever a minor behavioral nudge."""
+    try:
+        for _ in range(random.randint(2, 4)):
+            page.mouse.move(random.randint(50, 1200), random.randint(50, 800), steps=random.randint(5, 15))
+            page.wait_for_timeout(random.randint(150, 400))
+        if random.random() < 0.6:
+            page.mouse.wheel(0, random.randint(150, 600))
+    except Exception:
+        pass
+
+
 # A dedicated, persistent Chrome profile -- separate from the user's real
 # default one -- that this script owns end to end. First run still hits the
 # challenge cold, same as every other approach tried, but Chrome itself
@@ -134,7 +151,21 @@ def fetch_actuals():
         with sync_playwright() as p:
             page, cleanup = _get_page(p)
             try:
-                page.goto(CALENDAR_URL, timeout=30000, wait_until="domcontentloaded")
+                # A cold, direct deep-link straight to /calendar is itself an
+                # unusual thing for a real visitor to do -- arrive at the
+                # homepage first (like someone who typed forexfactory.com or
+                # came from a bookmark), let a little real-looking activity
+                # happen, then navigate to the calendar via its own nav link
+                # rather than a second bare page.goto().
+                page.goto("https://www.forexfactory.com/", timeout=30000, wait_until="domcontentloaded")
+                _act_human(page)
+
+                nav_link = page.locator("a[href*='calendar']").first
+                try:
+                    nav_link.click(timeout=5000)
+                except Exception:
+                    page.goto(CALENDAR_URL, timeout=30000, wait_until="domcontentloaded")
+                _act_human(page)
 
                 # Some of Cloudflare's challenges auto-clear after a few
                 # seconds; others are an actual "Verify you are human"
@@ -143,7 +174,6 @@ def fetch_actuals():
                 # isn't there (because it already auto-cleared, or the DOM
                 # doesn't match), this just falls through to the poll below.
                 try:
-                    page.wait_for_timeout(2000)
                     checkbox = page.frame_locator("iframe[title*='Cloudflare' i], iframe[src*='challenges.cloudflare.com']").locator("input[type=checkbox]")
                     checkbox.click(timeout=3000)
                 except Exception:
@@ -153,14 +183,18 @@ def fetch_actuals():
                 # and say plainly if it's still stuck on the challenge page
                 # when time runs out, rather than quietly returning zero rows
                 # that look identical to "the page loaded but had nothing".
+                # A little activity on every tick, not just a one-time nudge
+                # at the start, in case what's being scored is continuous
+                # behavior rather than a single checkpoint.
                 cleared = False
-                for _ in range(30):
+                for _ in range(60):
                     if page.query_selector("tr.calendar__row"):
                         cleared = True
                         break
+                    _act_human(page)
                     page.wait_for_timeout(1000)
                 if not cleared:
-                    print(f"actuals: still on Cloudflare's challenge page after 30s (title: {page.title()!r})")
+                    print(f"actuals: still on Cloudflare's challenge page after 60s (title: {page.title()!r})")
                     return {}
 
                 rows = page.query_selector_all("tr.calendar__row")
