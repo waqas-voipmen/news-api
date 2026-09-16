@@ -92,7 +92,16 @@ REDDIT_SEARCH_QUERIES = {
     "AUDUSD": "AUDUSD",
     "NZDUSD": "NZDUSD",
 }
-REDDIT_SEARCH_URL = f"https://www.reddit.com/r/{REDDIT_SUBREDDITS}/search.json"
+# Reddit's public www.reddit.com/old.reddit.com/api.reddit.com JSON endpoints
+# return a 403 "Blocked" page from PythonAnywhere's IP range no matter the
+# User-Agent (confirmed by hand) -- oauth.reddit.com, the actual sanctioned
+# API surface, needs a free "script" app (reddit.com/prefs/apps) for this
+# app-only client-credentials grant. Unset by default; Reddit is reported as
+# unavailable via source_errors until these are configured, same as any
+# other source failure.
+REDDIT_CLIENT_ID = os.environ.get("REDDIT_CLIENT_ID")
+REDDIT_CLIENT_SECRET = os.environ.get("REDDIT_CLIENT_SECRET")
+REDDIT_USER_AGENT = "web:forex-news-aggregator:v1.0 (by /u/forex-news-aggregator-bot)"
 
 # Public channels' web preview (t.me/s/<name>) needs no login or API token, but
 # also isn't per-pair -- each channel's whole recent feed is fetched once and
@@ -541,21 +550,61 @@ def fetch_stocktwits_sentiment(pair):
     return _cached_fetch(f"social_{pair}", loader)
 
 
+class RedditNotConfigured(Exception):
+    """Raised when REDDIT_CLIENT_ID/REDDIT_CLIENT_SECRET aren't set -- reported
+    through the normal source_errors path rather than crashing the request."""
+
+
+_reddit_token_cache = {"token": None, "expires_at": 0.0}
+
+
+def _get_reddit_access_token():
+    """Reddit's public www.reddit.com JSON endpoints are blocked outright from
+    PythonAnywhere's IP range (confirmed: www/old/api subdomains all return a
+    403 "Blocked" page regardless of User-Agent) -- that's Reddit's anti-
+    scraping wall around browser-facing pages, not a rate limit. oauth.reddit.com
+    is Reddit's actual sanctioned API surface and isn't behind that wall, but
+    it requires a free "script" app (reddit.com/prefs/apps) for the client-
+    credentials grant used here (app-only auth, no end-user Reddit login
+    needed). Token is cached until shortly before Reddit's own expiry."""
+    if not REDDIT_CLIENT_ID or not REDDIT_CLIENT_SECRET:
+        raise RedditNotConfigured("REDDIT_CLIENT_ID/REDDIT_CLIENT_SECRET not set")
+
+    if _reddit_token_cache["token"] and time.time() < _reddit_token_cache["expires_at"]:
+        return _reddit_token_cache["token"]
+
+    response = requests.post(
+        "https://www.reddit.com/api/v1/access_token",
+        data={"grant_type": "client_credentials"},
+        auth=(REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET),
+        headers={"User-Agent": REDDIT_USER_AGENT},
+        timeout=10,
+    )
+    response.raise_for_status()
+    token_data = response.json()
+    _reddit_token_cache["token"] = token_data["access_token"]
+    _reddit_token_cache["expires_at"] = time.time() + token_data.get("expires_in", 3600) - 60
+    return _reddit_token_cache["token"]
+
+
 def fetch_reddit_sentiment(pair):
     """Reddit's search doesn't recognize pair tickers as cashtags, so this runs a
     plain-English query (REDDIT_SEARCH_QUERIES) across a handful of trading
     subreddits instead, then classifies each result's title+selftext the same
-    keyword-scoring way as a StockTwits post with no explicit tag. Free and
-    needs no API token, but Reddit's own bot-detection blocks non-browser
-    traffic aggressively -- routed through the same Cloudflare Worker proxy
-    used for other sources PythonAnywhere can't reach directly."""
+    keyword-scoring way as a StockTwits post with no explicit tag."""
     query = REDDIT_SEARCH_QUERIES.get(pair)
     if not query:
         return []
 
     def loader():
-        url = f"{REDDIT_SEARCH_URL}?q={quote(query)}&restrict_sr=on&sort=new&limit=15&t=month"
-        response = requests.get(_via_proxy(url), headers=HEADERS, timeout=10)
+        token = _get_reddit_access_token()
+        url = f"https://oauth.reddit.com/r/{REDDIT_SUBREDDITS}/search"
+        params = {"q": query, "restrict_sr": "on", "sort": "new", "limit": 15, "t": "month"}
+        response = requests.get(
+            url, params=params,
+            headers={"Authorization": f"Bearer {token}", "User-Agent": REDDIT_USER_AGENT},
+            timeout=10,
+        )
         if response.status_code == 429:
             raise RateLimited(int(response.headers.get("Retry-After", 60)))
         response.raise_for_status()
@@ -701,6 +750,8 @@ def get_social_sentiment():
 
         try:
             posts += fetch_reddit_sentiment(pair)
+        except RedditNotConfigured:
+            source_errors.setdefault("reddit", "not configured (needs REDDIT_CLIENT_ID/REDDIT_CLIENT_SECRET)")
         except RateLimited as e:
             source_errors.setdefault("reddit", f"rate limited, try again in {e.retry_after}s")
         except (*NETWORK_ERRORS, *PARSE_ERRORS) as e:
