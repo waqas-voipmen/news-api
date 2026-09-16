@@ -71,12 +71,25 @@ def fetch_actuals():
                 actuals = {}
                 last_country = ""
                 for row in rows:
+                    # ForexFactory only prints the currency once per group of
+                    # same-time events, leaving every row after the first in
+                    # that group with an empty (not missing) currency cell --
+                    # falling back only when the *element* is absent, like the
+                    # first version of this did, silently dropped every one of
+                    # those follow-up rows instead of inheriting the group's
+                    # currency.
                     country_el = row.query_selector(".calendar__currency")
-                    country = country_el.inner_text().strip() if country_el else last_country
+                    country_text = country_el.inner_text().strip() if country_el else ""
+                    country = country_text or last_country
                     if country:
                         last_country = country
 
-                    title_el = row.query_selector(".calendar__event-title, .calendar__event")
+                    # A comma-separated selector matches whichever of the two
+                    # comes first in the DOM, not "prefer the specific one" --
+                    # .calendar__event is the whole cell (icons and all), so
+                    # picking it over the actual title span pulled in extra
+                    # text that never matched the feed's clean title.
+                    title_el = row.query_selector(".calendar__event-title") or row.query_selector(".calendar__event")
                     actual_el = row.query_selector(".calendar__actual")
                     if not title_el or not actual_el:
                         continue
@@ -95,6 +108,8 @@ def fetch_actuals():
 def fetch():
     result = _previous_periods()
     actuals = fetch_actuals()
+    unmatched_past = []
+    now = datetime.now(timezone.utc)
 
     for period, url in FF_FEEDS.items():
         try:
@@ -109,7 +124,21 @@ def fetch():
             e["type"] = "calendar"
             e["link"] = None
             e["actual"] = actuals.get((e.get("country", ""), _normalize(e.get("title"))), "")
+            if not e["actual"]:
+                try:
+                    already_happened = datetime.fromisoformat(e["date"]) < now
+                except (KeyError, ValueError):
+                    already_happened = False
+                if already_happened:
+                    unmatched_past.append((e.get("country", ""), e.get("title", "")))
         result[period] = events
+
+    if unmatched_past:
+        print(f"{len(unmatched_past)} already-released event(s) got no Actual match "
+              f"(scrape found nothing for that country+title, or the row wasn't on the page):")
+        for country, title in unmatched_past[:20]:
+            print(f"  {country}: {title}")
+
     return result
 
 
