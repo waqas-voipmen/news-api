@@ -299,6 +299,9 @@ async function loadNews(background) {
 async function loadNewsInner(background) {
   const params = new URLSearchParams();
   params.set('period', document.getElementById('period').value);
+  // So "Today"/"Tomorrow" mean the viewer's own calendar day, not the
+  // server's UTC one -- see _period_date_range in app.py.
+  params.set('tz_offset', new Date().getTimezoneOffset());
 
   const sources = selectedSources();
   if (sources !== null) params.set('sources', sources.length ? sources.join(',') : 'none');
@@ -423,6 +426,7 @@ async function loadSocialSentiment() {
 
   const params = new URLSearchParams();
   params.set('period', document.getElementById('period').value);
+  params.set('tz_offset', new Date().getTimezoneOffset());
   const currencies = selectedCurrencies();
   if (currencies.length) params.set('currencies', currencies.join(','));
 

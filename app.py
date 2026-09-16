@@ -713,7 +713,8 @@ def get_social_sentiment():
     # further back than that -- e.g. "Last Week" may show fewer/no posts if none of
     # the most recent 30 happen to fall in that window.
     period = request.args.get("period", "week")
-    raw_from, raw_to = _period_date_range(period, request.args.get("from"), request.args.get("to"))
+    tz_offset = request.args.get("tz_offset", 0, type=int)
+    raw_from, raw_to = _period_date_range(period, request.args.get("from"), request.args.get("to"), tz_offset)
     date_from = _parse_iso(raw_from) if raw_from else None
     date_to = _parse_iso(raw_to) if raw_to else None
 
@@ -878,35 +879,48 @@ def get_settings():
     return jsonify(_load_settings())
 
 
-def _period_date_range(period, date_from, date_to):
+def _period_date_range(period, date_from, date_to, tz_offset_minutes=0):
     """Derives a (date_from, date_to) ISO range for a period, unless the caller
     already gave an explicit range. Shared by /api/news and /api/social-sentiment
-    so picking e.g. "Last Week" narrows both sections the same way."""
+    so picking e.g. "Last Week" narrows both sections the same way.
+
+    "Today"/"Tomorrow" mean the viewer's own calendar day, not the server's UTC
+    one -- tz_offset_minutes is the browser's own Date.getTimezoneOffset()
+    (JS convention: UTC = local + offset), passed through from the request.
+    Without this, a viewer east of UTC (e.g. Pakistan, UTC+5) sees a card dated
+    "tomorrow" show up under "Today" for anything in roughly its last 5 hours,
+    since that instant is already past UTC midnight while still today locally."""
     if date_from or date_to:
         return date_from, date_to
 
+    tz_delta = timedelta(minutes=tz_offset_minutes)
+
+    def _local_today():
+        return (datetime.now(timezone.utc).replace(tzinfo=None) - tz_delta).date()
+
+    def _day_bounds_utc(local_date):
+        start_utc = datetime.combine(local_date, datetime.min.time()) + tz_delta
+        end_utc = datetime.combine(local_date, datetime.max.time()) + tz_delta
+        return start_utc.replace(tzinfo=timezone.utc).isoformat(), end_utc.replace(tzinfo=timezone.utc).isoformat()
+
     if period == "tomorrow":
-        target_date = datetime.now(timezone.utc).date() + timedelta(days=1)
-        date_from = datetime.combine(target_date, datetime.min.time(), tzinfo=timezone.utc).isoformat()
-        date_to = datetime.combine(target_date, datetime.max.time(), tzinfo=timezone.utc).isoformat()
+        date_from, date_to = _day_bounds_utc(_local_today() + timedelta(days=1))
     elif period == "today":
-        target_date = datetime.now(timezone.utc).date()
-        date_from = datetime.combine(target_date, datetime.min.time(), tzinfo=timezone.utc).isoformat()
-        date_to = datetime.combine(target_date, datetime.max.time(), tzinfo=timezone.utc).isoformat()
+        date_from, date_to = _day_bounds_utc(_local_today())
     elif period in ("week", "lastweek", "nextweek"):
         # ForexFactory's own calendar feed is scoped Sun-Fri per week, but the other
         # sources (FXStreet/Investing/Myfxbook/StockTwits) are plain recent-post
         # feeds with no built-in notion of "last/next week" -- without this,
         # picking "Last Week" or "Next Week" left every one of them showing the
         # same generic "recent" items regardless of which period was selected.
-        today = datetime.now(timezone.utc).date()
+        today = _local_today()
         days_since_sunday = (today.weekday() + 1) % 7  # Mon=0..Sun=6 -> Sun=0..Sat=6
         this_sunday = today - timedelta(days=days_since_sunday)
         week_offset = {"lastweek": -7, "week": 0, "nextweek": 7}[period]
         week_start = this_sunday + timedelta(days=week_offset)
         week_end = week_start + timedelta(days=5)  # Sunday through Friday
-        date_from = datetime.combine(week_start, datetime.min.time(), tzinfo=timezone.utc).isoformat()
-        date_to = datetime.combine(week_end, datetime.max.time(), tzinfo=timezone.utc).isoformat()
+        date_from, _ = _day_bounds_utc(week_start)
+        _, date_to = _day_bounds_utc(week_end)
 
     return date_from, date_to
 
@@ -920,6 +934,7 @@ def get_news():
     impact = request.args.get("impact")
     date_from = request.args.get("from")  # ISO datetime, e.g. 2026-09-03T00:00
     date_to = request.args.get("to")
+    tz_offset = request.args.get("tz_offset", 0, type=int)
 
     # "today"/"tomorrow" aren't their own feeds -- pull the underlying week(s) so
     # the events used to derive the date-filtered day actually exist. "tomorrow"
@@ -929,7 +944,7 @@ def get_news():
     if period in ("today", "tomorrow"):
         fetch_periods = ["week", "nextweek"] if period == "tomorrow" else ["week"]
 
-    date_from, date_to = _period_date_range(period, date_from, date_to)
+    date_from, date_to = _period_date_range(period, date_from, date_to, tz_offset)
 
     settings = _load_settings()
     allowed_sources = {key for key, enabled in settings["sources"].items() if enabled}
