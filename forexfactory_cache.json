@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-16T20:48:11.688010+00:00",
+  "fetched_at": "2026-09-16T23:01:27.401971+00:00",
   "periods": {
     "week": [
       {
@@ -11,7 +11,8 @@
         "previous": "",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "BusinessNZ Services Index",
@@ -22,7 +23,8 @@
         "previous": "50.6",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": "51.2"
       },
       {
         "title": "Visitor Arrivals m/m",
@@ -33,7 +35,8 @@
         "previous": "-0.1%",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": "8.5%"
       },
       {
         "title": "RBA Assist Gov Hunter Speaks",
@@ -44,7 +47,8 @@
         "previous": "",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "Revised Industrial Production m/m",
@@ -55,7 +59,8 @@
         "previous": "0.1%",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": "-0.2%"
       },
       {
         "title": "PPI m/m",
@@ -66,7 +71,8 @@
         "previous": "-0.1%",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": "0.7%"
       },
       {
         "title": "M2 Money Supply y/y",
@@ -77,7 +83,8 @@
         "previous": "7.7%",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "New Loans",
@@ -88,7 +95,8 @@
         "previous": "-340B",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "CPI m/m",
@@ -99,7 +107,8 @@
         "previous": "0.5%",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": "-0.1%"
       },
       {
         "title": "Median CPI y/y",
@@ -110,7 +119,8 @@
         "previous": "2.0%",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "Trimmed CPI y/y",
@@ -121,7 +131,8 @@
         "previous": "1.9%",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "Common CPI y/y",
@@ -132,7 +143,8 @@
         "previous": "2.7%",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "Core CPI m/m",
@@ -143,7 +155,8 @@
         "previous": "0.2%",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": "0.2%"
       },
       {
         "title": "Manufacturing Sales m/m",
@@ -154,7 +167,8 @@
         "previous": "0.1%",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": "-0.4%"
       },
       {
         "title": "CB Leading Index m/m",
@@ -165,7 +179,8 @@
         "previous": "-0.4%",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "ECB President Lagarde Speaks",
@@ -176,7 +191,8 @@
         "previous": "",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "New Home Prices m/m",
@@ -187,7 +203,8 @@
         "previous": "-0.18%",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": "-3%"
       },
       {
         "title": "Fixed Asset Investment ytd/y",
@@ -198,7 +215,8 @@
         "previous": "-6.7%",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": "-7.2%"
       },
       {
         "title": "Industrial Production y/y",
@@ -209,7 +227,8 @@
         "previous": "4.5%",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": "5.2%"
       },
       {
         "title": "NBS Press Conference",
@@ -220,7 +239,8 @@
         "previous": "",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "Retail Sales y/y",
@@ -231,7 +251,8 @@
         "previous": "0.6%",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": "0.4%"
       },
       {
         "title": "Unemployment Rate",
@@ -242,7 +263,8 @@
         "previous": "5.2%",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "Tertiary Industry Activity m/m",
@@ -253,7 +275,8 @@
         "previous": "-0.2%",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": "0.4%"
       },
       {
         "title": "German WPI m/m",
@@ -264,7 +287,8 @@
         "previous": "0.2%",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": "0.9%"
       },
       {
         "title": "Claimant Count Change",
@@ -275,7 +299,8 @@
         "previous": "-11.0K",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": "27.8"
       },
       {
         "title": "Average Earnings Index 3m/y",
@@ -286,7 +311,8 @@
         "previous": "4.1%",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "Unemployment Rate",
@@ -297,7 +323,8 @@
         "previous": "4.9%",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": "4.9%"
       },
       {
         "title": "French Final CPI m/m",
@@ -308,7 +335,8 @@
         "previous": "0.7%",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "Italian Trade Balance",
@@ -319,7 +347,8 @@
         "previous": "4.23B",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "Trade Balance",
@@ -330,7 +359,8 @@
         "previous": "1.8B",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": "5\u20ac"
       },
       {
         "title": "German ZEW Economic Sentiment",
@@ -341,7 +371,8 @@
         "previous": "34.2",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": "34.7"
       },
       {
         "title": "ZEW Economic Sentiment",
@@ -352,7 +383,8 @@
         "previous": "31.4",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": "25.8"
       },
       {
         "title": "ADP Weekly Employment Change",
@@ -363,7 +395,8 @@
         "previous": "12.0K",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": "16.25"
       },
       {
         "title": "Wholesale Sales m/m",
@@ -374,7 +407,8 @@
         "previous": "2.8%",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": "0.3%"
       },
       {
         "title": "Empire State Manufacturing Index",
@@ -385,7 +419,8 @@
         "previous": "20.6",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": "7.6"
       },
       {
         "title": "Treasury Sec Bessent Speaks",
@@ -396,7 +431,8 @@
         "previous": "",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "GDT Price Index",
@@ -407,7 +443,8 @@
         "previous": "0.9%",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "API Weekly Statistical Bulletin",
@@ -418,7 +455,8 @@
         "previous": "",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "Westpac Consumer Sentiment",
@@ -429,7 +467,8 @@
         "previous": "80.4",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "Current Account",
@@ -440,7 +479,8 @@
         "previous": "-1.01B",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": "-1.67$"
       },
       {
         "title": "Core Machinery Orders m/m",
@@ -451,7 +491,8 @@
         "previous": "9.7%",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "Trade Balance",
@@ -462,7 +503,8 @@
         "previous": "-0.69T",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "MI Leading Index m/m",
@@ -473,7 +515,8 @@
         "previous": "0.0%",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "CPI y/y",
@@ -484,7 +527,8 @@
         "previous": "2.9%",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": "3.1%"
       },
       {
         "title": "Core CPI y/y",
@@ -495,7 +539,8 @@
         "previous": "2.6%",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": "2.6%"
       },
       {
         "title": "PPI Input m/m",
@@ -506,7 +551,8 @@
         "previous": "-1.7%",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": "0.3%"
       },
       {
         "title": "PPI Output m/m",
@@ -517,7 +563,8 @@
         "previous": "0.2%",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": "0.7%"
       },
       {
         "title": "RPI y/y",
@@ -528,7 +575,8 @@
         "previous": "3.2%",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "HPI y/y",
@@ -539,7 +587,8 @@
         "previous": "2.0%",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": "1.4%"
       },
       {
         "title": "Industrial Production m/m",
@@ -550,7 +599,8 @@
         "previous": "0.0%",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": "-0.1%"
       },
       {
         "title": "German 30-y Bond Auction",
@@ -561,7 +611,8 @@
         "previous": "3.65|1.3",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "Housing Starts",
@@ -572,7 +623,8 @@
         "previous": "229K",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": "229"
       },
       {
         "title": "Building Permits m/m",
@@ -583,7 +635,8 @@
         "previous": "18.5%",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": "-17.3%"
       },
       {
         "title": "Core Retail Sales m/m",
@@ -594,7 +647,8 @@
         "previous": "-0.3%",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "Retail Sales m/m",
@@ -605,7 +659,8 @@
         "previous": "-0.6%",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": "1.2%"
       },
       {
         "title": "Import Prices m/m",
@@ -616,7 +671,8 @@
         "previous": "-0.4%",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "Business Inventories m/m",
@@ -627,7 +683,8 @@
         "previous": "0.0%",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": "0.8%"
       },
       {
         "title": "NAHB Housing Market Index",
@@ -638,7 +695,8 @@
         "previous": "35",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": "32"
       },
       {
         "title": "Crude Oil Inventories",
@@ -649,7 +707,8 @@
         "previous": "-0.4M",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "German Buba President Nagel Speaks",
@@ -660,7 +719,8 @@
         "previous": "",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "BOC Summary of Deliberations",
@@ -671,7 +731,8 @@
         "previous": "",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "Federal Funds Rate",
@@ -682,7 +743,8 @@
         "previous": "3.75%",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "FOMC Economic Projections",
@@ -693,7 +755,8 @@
         "previous": "",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "FOMC Statement",
@@ -704,7 +767,8 @@
         "previous": "",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "FOMC Press Conference",
@@ -715,7 +779,8 @@
         "previous": "",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "TIC Long-Term Purchases",
@@ -726,7 +791,8 @@
         "previous": "172.7B",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": "-27.9$"
       },
       {
         "title": "GDP q/q",
@@ -737,7 +803,8 @@
         "previous": "0.8%",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": "0.2%"
       },
       {
         "title": "SECO Economic Forecasts",
@@ -748,7 +815,8 @@
         "previous": "",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "Final Core CPI y/y",
@@ -759,7 +827,8 @@
         "previous": "2.4%",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "Final CPI y/y",
@@ -770,7 +839,8 @@
         "previous": "3.3%",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "Spanish 10-y Bond Auction",
@@ -781,7 +851,8 @@
         "previous": "3.74|2.3",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "Monetary Policy Summary",
@@ -792,7 +863,8 @@
         "previous": "",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "MPC Official Bank Rate Votes",
@@ -803,7 +875,8 @@
         "previous": "3-0-6",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "Official Bank Rate",
@@ -814,7 +887,8 @@
         "previous": "3.75%",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "Foreign Securities Purchases",
@@ -825,7 +899,8 @@
         "previous": "40.83B",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "IPPI m/m",
@@ -836,7 +911,8 @@
         "previous": "0.6%",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "RMPI m/m",
@@ -847,7 +923,8 @@
         "previous": "-2.2%",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "Philly Fed Manufacturing Index",
@@ -858,7 +935,8 @@
         "previous": "47.4",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "Unemployment Claims",
@@ -869,7 +947,8 @@
         "previous": "206K",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "Building Permits",
@@ -880,7 +959,8 @@
         "previous": "1.44M",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "Housing Starts",
@@ -891,7 +971,8 @@
         "previous": "1.24M",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "Pending Home Sales m/m",
@@ -902,7 +983,8 @@
         "previous": "-2.3%",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "CB Leading Index m/m",
@@ -913,7 +995,8 @@
         "previous": "0.3%",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "Natural Gas Storage",
@@ -924,7 +1007,8 @@
         "previous": "40B",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "FPI m/m",
@@ -935,7 +1019,8 @@
         "previous": "0.1%",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "Trade Balance",
@@ -946,7 +1031,8 @@
         "previous": "-1949M",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "GfK Consumer Confidence",
@@ -957,7 +1043,8 @@
         "previous": "-14",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "RBA Gov Bullock Speaks",
@@ -968,7 +1055,8 @@
         "previous": "",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "National Core CPI y/y",
@@ -979,7 +1067,8 @@
         "previous": "1.8%",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "BOJ Policy Rate",
@@ -990,7 +1079,8 @@
         "previous": "<1.00%",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "Monetary Policy Statement",
@@ -1001,7 +1091,8 @@
         "previous": "",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "BOJ Press Conference",
@@ -1012,7 +1103,8 @@
         "previous": "",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "German PPI m/m",
@@ -1023,7 +1115,8 @@
         "previous": "1.1%",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "Retail Sales m/m",
@@ -1034,7 +1127,8 @@
         "previous": "-0.5%",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "Foreign Direct Investment ytd/y",
@@ -1045,7 +1139,8 @@
         "previous": "-6.2%",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "Current Account",
@@ -1056,7 +1151,8 @@
         "previous": "35.1B",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "ECOFIN Meetings",
@@ -1067,7 +1163,8 @@
         "previous": "",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "Eurogroup Meetings",
@@ -1078,7 +1175,8 @@
         "previous": "",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "ECB President Lagarde Speaks",
@@ -1089,7 +1187,8 @@
         "previous": "",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "Capacity Utilization Rate",
@@ -1100,7 +1199,8 @@
         "previous": "76.3%",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "Industrial Production m/m",
@@ -1111,7 +1211,8 @@
         "previous": "0.2%",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "FOMC Member Bowman Speaks",
@@ -1122,7 +1223,8 @@
         "previous": "",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "CB Leading Index m/m",
@@ -1133,7 +1235,8 @@
         "previous": "0.2%",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "FOMC Member Schmid Speaks",
@@ -1144,7 +1247,8 @@
         "previous": "",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       },
       {
         "title": "ECOFIN Meetings",
@@ -1155,7 +1259,8 @@
         "previous": "",
         "source": "ForexFactory",
         "type": "calendar",
-        "link": null
+        "link": null,
+        "actual": ""
       }
     ]
   }

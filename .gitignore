@@ -3,10 +3,3 @@ __pycache__/
 .cache/
 users.json
 settings.json
-# A real browser session's cookies for forexfactory.com (see
-# scripts/fetch_forexfactory.py) -- never commit this, it's a live security
-# token that would let anyone with the repo act as that logged-in session.
-forexfactory_cookies.json
-# The dedicated persistent Chrome profile scripts/fetch_forexfactory.py uses
-# for its scrape -- real browser state (cookies, cache, ...), never commit it.
-.forexfactory_chrome_profile/
