@@ -27,7 +27,13 @@ PAIRS = {
     "DXY": ("USD", None),
     "XAUUSD": ("XAU", "USD"),
     "XAGUSD": ("XAG", "USD"),
-    "BTCUSD": ("BTC", "USD"),
+    # Unlike gold/silver/oil, Bitcoin has no established, mechanical inverse
+    # relationship to routine USD macro data -- confirmed by hand that this
+    # was making a Building Permits or Natural Gas Storage forecast (neither
+    # remotely crypto-relevant) swing BTCUSD's bias the same as it would
+    # EURUSD's. Quote is None (same trick as DXY above) so BTCUSD only moves
+    # on signals that name Bitcoin/BTC directly, not on generic USD strength.
+    "BTCUSD": ("BTC", None),
     # StockTwits' real ticker for WTI crude oil futures is "CL_F" (not "WTIUSD"),
     # so this key doubles as both the pair-bias display code and the StockTwits
     # symbol -- same shape as DXY.
@@ -102,6 +108,10 @@ _SOCIAL_BULLISH_PATTERNS = [re.compile(r"\b" + re.escape(w) + r"\b") for w in SO
 _SOCIAL_BEARISH_PATTERNS = [re.compile(r"\b" + re.escape(w) + r"\b") for w in SOCIAL_BEARISH_WORDS]
 
 IMPACT_WEIGHT = {"High": 3, "Medium": 2, "Analysis": 2.5, "Low": 1, "News": 1, "Holiday": 0}
+# How much less a still-pending event's forecast-vs-previous guess counts
+# versus a released event's confirmed actual-vs-forecast surprise -- see
+# _classify_calendar_event's fallback branch for why.
+PRERELEASE_STRENGTH_DISCOUNT = 0.4
 
 # Comma splits only OUTSIDE numbers, so "$4,500" doesn't get cut into "$4" / "500"
 CLAUSE_SPLIT_RE = re.compile(
@@ -258,8 +268,18 @@ def _classify_calendar_event(event):
     if inverse:
         reason += " -- this is an inverse indicator, so a higher number is bad for the currency"
 
+    # This branch only ever fires for events that HAVEN'T released yet (the
+    # actual-vs-forecast branch above returns first when they have), so it's
+    # a guess about what the market will do once real data lands, not a
+    # reaction to something that already happened -- the comment atop this
+    # function already called it a weaker signal than the confirmed-surprise
+    # kind above; PRERELEASE_STRENGTH_DISCOUNT is what actually makes that
+    # true numerically, so a full day of still-pending, low/medium-impact
+    # releases can no longer outweigh the day's actual, already-happened news
+    # and confirmed beats/misses the way it was -- confirmed by hand pushing
+    # DXY's own Bias to "Bullish" on a day the index itself was trading down.
     relative_move = abs(diff) / abs(previous) if previous else 0.5
-    return {"sentiment": sentiment, "reason": reason, "strength": min(relative_move, 1.0)}
+    return {"sentiment": sentiment, "reason": reason, "strength": min(relative_move, 1.0) * PRERELEASE_STRENGTH_DISCOUNT}
 
 
 def pair_bias(instrument, sentiment):
