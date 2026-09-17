@@ -385,9 +385,59 @@ def _analyze_news_text(title, description=""):
     }
 
 
-def analyze_event(event):
+def _build_llm_result(llm_data):
+    """Turns a raw {"pair", "instrument", "sentiment", "strength", "reason"} dict from
+    the AI classifier (app.py's _classify_with_llm) into the exact shape
+    _analyze_news_text() returns, so nothing downstream (aggregate_pair_bias, the News
+    page, ...) can tell which one produced it. Revalidates every field instead of
+    trusting the model's output verbatim -- it's an LLM response, not our own code."""
+    pair = llm_data.get("pair")
+    pair = pair if pair in PAIRS else None
+    instrument = llm_data.get("instrument")
+    instrument = instrument if instrument in INSTRUMENT_LABELS else None
+    sentiment = llm_data.get("sentiment")
+    if sentiment not in ("Bullish", "Bearish", "Neutral"):
+        sentiment = "Neutral"
+    try:
+        strength = max(0.0, min(float(llm_data.get("strength", 0.5)), 1.0))
+    except (TypeError, ValueError):
+        strength = 0.5
+    reason = str(llm_data.get("reason") or "")[:300]
+
+    if sentiment == "Neutral" or (not pair and not instrument):
+        return {
+            "sentiment": "Neutral", "reason": reason or "no clear directional signal for a tracked pair",
+            "strength": 0.0, "instrument": None, "instrument_label": None, "affected": {}, "signals": [],
+        }
+
+    instrument_label = pair if pair else INSTRUMENT_LABELS[instrument]
+    signal = {
+        "pair": pair, "instrument": None if pair else instrument, "instrument_label": instrument_label,
+        "sentiment": sentiment, "reason": reason, "strength": strength,
+    }
+    return {
+        "sentiment": sentiment,
+        "reason": reason,
+        "strength": strength,
+        "instrument": None if pair else instrument,
+        "instrument_label": instrument_label,
+        "affected": _merge_pair_scores([signal]),
+        "signals": [signal],
+    }
+
+
+def analyze_event(event, llm_result=None):
     """Returns None if the event has no identifiable currency/commodity to analyze
-    (e.g. a calendar row like 'G20 Meetings' tagged country='All')."""
+    (e.g. a calendar row like 'G20 Meetings' tagged country='All').
+
+    llm_result, when given, is a pre-fetched AI classification for this event's
+    headline (see app.py's _classify_with_llm) and is used instead of the
+    keyword-based fallback below -- an LLM actually understands financial nuance
+    ("higher yields" is bearish for gold, "caps recovery" isn't bullish, a
+    fragile-sounding "bounce" isn't a clean buy signal) that keyword matching
+    structurally can't. Calendar events always use the deterministic
+    actual/forecast-vs-previous comparison regardless, since that's already
+    unambiguous arithmetic an LLM read couldn't improve on."""
     if event["type"] == "calendar":
         instrument = event.get("country", "").upper()
         if instrument not in CURRENCIES:
@@ -402,6 +452,8 @@ def analyze_event(event):
         }]
         return result
 
+    if llm_result:
+        return _build_llm_result(llm_result)
     return _analyze_news_text(event["title"], event.get("description", ""))
 
 

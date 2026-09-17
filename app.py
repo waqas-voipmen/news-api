@@ -1,9 +1,12 @@
+import hashlib
 import json
 import os
 import re
 import secrets
+import threading
 import time
 import xml.etree.ElementTree as ET
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from functools import wraps
@@ -102,6 +105,39 @@ REDDIT_SEARCH_QUERIES = {
 REDDIT_CLIENT_ID = os.environ.get("REDDIT_CLIENT_ID")
 REDDIT_CLIENT_SECRET = os.environ.get("REDDIT_CLIENT_SECRET")
 REDDIT_USER_AGENT = "web:forex-news-aggregator:v1.0 (by /u/forex-news-aggregator-bot)"
+
+# Keyword matching (BULLISH_WORDS/BEARISH_WORDS in analysis.py) structurally can't
+# read financial nuance -- confirmed by hand on real headlines it got backwards:
+# "higher yields" scored bullish for gold despite yields being bearish for it,
+# "caps recovery" scored as a plain bullish "recovery" hit despite being capped, a
+# fragile "bounces... but not out of the woods yet" read as a clean buy signal.
+# Groq's free tier runs a real LLM for this instead. Unset by default; article
+# analysis silently falls back to the keyword heuristic (see analyze_event) until
+# GROQ_API_KEY is configured, same graceful-degradation pattern as Reddit above.
+GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
+GROQ_CHAT_URL = "https://api.groq.com/openai/v1/chat/completions"
+GROQ_MODEL = "qwen/qwen3.8-27b"
+_VALID_LLM_PAIRS = set(analysis.PAIRS)
+_VALID_LLM_INSTRUMENTS = set(analysis.INSTRUMENT_LABELS)
+GROQ_SYSTEM_PROMPT = f"""You are a forex/commodities market analyst reading a single news \
+headline and description. Decide which ONE tradeable pair or currency/commodity it most \
+directly affects, and whether it is Bullish, Bearish, or Neutral for that instrument's price.
+
+Use real financial judgment, not just keyword spotting:
+- "Higher yields" is usually BEARISH for gold/silver (yield-free assets lose appeal when bonds pay more), even though "higher" sounds bullish on its own.
+- A headline saying gains/a rally/a recovery is "capped", "limited", or "curbed" is NOT simply bullish -- the move is being held back.
+- "Bounces"/"rebounds"/"recovers" mean price moved up, but read the rest of the sentence -- a fragile, short-lived, or heavily-caveated bounce ("but not out of the woods yet", "still facing pressure") is not a clean bullish signal.
+- A scheduled speech/press conference with no reported content yet is Neutral, not Bullish or Bearish.
+- If a specific pair is named (e.g. "XAU/USD", "EUR/USD"), set "pair" to that pair and leave "instrument" null. Otherwise, if it's about one currency/commodity's own strength (e.g. "US Dollar gains on hawkish Fed"), set "instrument" and leave "pair" null.
+
+Valid "pair" values: {", ".join(sorted(_VALID_LLM_PAIRS))}, or null.
+Valid "instrument" values: {", ".join(sorted(_VALID_LLM_INSTRUMENTS))}, or null.
+
+Respond with ONLY a JSON object, no other text: {{"pair": <string or null>, "instrument": <string or null>, "sentiment": "Bullish"|"Bearish"|"Neutral", "strength": <number 0.0-1.0>, "reason": "<one short sentence>"}}"""
+# Bump this if the prompt/model changes meaningfully, so old cached reads (from a
+# worse prompt) don't linger forever mixed in with better ones.
+LLM_PROMPT_VERSION = "v1"
+LLM_CACHE_FILE = Path(__file__).parent / ".cache" / "llm_analysis.json"
 
 # Public channels' web preview (t.me/s/<name>) needs no login or API token, but
 # also isn't per-pair -- each channel's whole recent feed is fetched once and
@@ -430,6 +466,116 @@ def _cached_fetch(key, loader, ttl=CACHE_TTL):
 
     _write_cache(key, events)
     return events
+
+
+def _llm_cache_key(title, description):
+    return hashlib.sha256(f"{LLM_PROMPT_VERSION}|{title}|{description or ''}".encode("utf-8")).hexdigest()
+
+
+def _load_llm_cache():
+    if not LLM_CACHE_FILE.exists():
+        return {}
+    try:
+        return json.loads(LLM_CACHE_FILE.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+
+
+def _save_llm_cache(cache):
+    try:
+        LLM_CACHE_FILE.parent.mkdir(exist_ok=True)
+        LLM_CACHE_FILE.write_text(json.dumps(cache), encoding="utf-8")
+    except OSError:
+        pass
+
+
+def _classify_with_llm(title, description):
+    """Returns a validated classification dict, or None on any failure (no API key
+    configured, network error, rate limit, malformed response) -- callers fall back
+    to the keyword-based analysis, so a Groq outage never breaks the page."""
+    if not GROQ_API_KEY:
+        return None
+    try:
+        response = requests.post(
+            GROQ_CHAT_URL,
+            headers={"Authorization": f"Bearer {GROQ_API_KEY}"},
+            json={
+                "model": GROQ_MODEL,
+                "messages": [
+                    {"role": "system", "content": GROQ_SYSTEM_PROMPT},
+                    {"role": "user", "content": f"Title: {title}\nDescription: {description or ''}"},
+                ],
+                "max_tokens": 200,
+                "temperature": 0,
+                "response_format": {"type": "json_object"},
+            },
+            timeout=15,
+        )
+        response.raise_for_status()
+        data = json.loads(response.json()["choices"][0]["message"]["content"])
+    except (*NETWORK_ERRORS, *PARSE_ERRORS, IndexError):
+        return None
+    if data.get("sentiment") not in ("Bullish", "Bearish", "Neutral"):
+        return None
+    return data
+
+
+# Classifying ~15-20 uncached articles through Groq took over 13s in testing --
+# fine for a background job, not for something a page load blocks on. Cached
+# lookups (the common case once the cache has warmed up) stay fully synchronous;
+# anything not yet cached uses the keyword fallback for THIS response only, while
+# a background thread classifies it and saves the result for next time -- the
+# News page's own 2-minute silent auto-refresh means a brand-new article gets
+# upgraded to the AI read within a couple of minutes, never by making anyone wait.
+_llm_pending_keys = set()
+_llm_pending_lock = threading.Lock()
+
+
+def _classify_events_with_llm(events):
+    """Returns {id(event): cached classification} for every non-calendar event
+    already in the on-disk cache -- a pure cache lookup, no network call, so this
+    can't add latency to the request. See the module comment above for how
+    not-yet-cached articles get classified instead."""
+    cache = _load_llm_cache()
+    results = {}
+    to_classify = []
+    with _llm_pending_lock:
+        for e in events:
+            if e.get("type") == "calendar":
+                continue
+            key = _llm_cache_key(e.get("title", ""), e.get("description", ""))
+            if key in cache:
+                results[id(e)] = cache[key]
+            elif key not in _llm_pending_keys:
+                _llm_pending_keys.add(key)
+                to_classify.append((e.get("title", ""), e.get("description", ""), key))
+
+    if to_classify:
+        threading.Thread(target=_classify_in_background, args=(to_classify,), daemon=True).start()
+
+    return results
+
+
+def _classify_in_background(items):
+    cache = _load_llm_cache()
+    try:
+        with ThreadPoolExecutor(max_workers=8) as pool:
+            future_to_key = {
+                pool.submit(_classify_with_llm, title, description): key
+                for title, description, key in items
+            }
+            for future in as_completed(future_to_key):
+                key = future_to_key[future]
+                result = future.result()
+                # Only cache successes -- a transient network/rate-limit failure
+                # should retry next cycle, not be remembered as "unclassifiable" forever.
+                if result is not None:
+                    cache[key] = result
+        _save_llm_cache(cache)
+    finally:
+        with _llm_pending_lock:
+            for _, _, key in items:
+                _llm_pending_keys.discard(key)
 
 
 def fetch_forexfactory(period):
@@ -1093,8 +1239,13 @@ def get_news():
     # query params.
     events.sort(key=lambda e: (e.get("source") != "ForexFactory", e["date"]))
 
-    for e in events:
-        e["analysis"] = analysis.analyze_event(e) if settings["news_sentiment_enabled"] else None
+    if settings["news_sentiment_enabled"]:
+        llm_results = _classify_events_with_llm(events)
+        for e in events:
+            e["analysis"] = analysis.analyze_event(e, llm_results.get(id(e)))
+    else:
+        for e in events:
+            e["analysis"] = None
 
     # Bias is aggregated from EVERY event above, before the Pairs filter narrows
     # `events` down below -- an event's own top-level `country` tag is just
