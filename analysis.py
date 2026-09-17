@@ -11,7 +11,7 @@ gold gains" is attributed correctly to BOTH USD (bearish) and Gold (bullish) ins
 of being collapsed into one instrument.
 """
 import re
-from datetime import datetime
+from datetime import datetime, timezone
 
 CURRENCIES = ["USD", "EUR", "GBP", "JPY", "AUD", "CAD", "CHF", "NZD"]
 INSTRUMENT_LABELS = {"XAU": "Gold", "XAG": "Silver", "BTC": "Bitcoin", "WTI": "Oil", **{c: c for c in CURRENCIES}}
@@ -405,6 +405,27 @@ def analyze_event(event):
     return _analyze_news_text(event["title"], event.get("description", ""))
 
 
+# A live "how would this trade right now" read needs the last hour or two to
+# matter far more than first thing this morning -- confirmed by hand on a
+# post-FOMC session where the day's Bias stayed "USD bullish" hours after a
+# brand-new headline ("...vs retreating USD", 10 minutes old) was already
+# describing the opposite, because a 6-hour-old "hawkish hike" reaction
+# article still counted exactly as much as it did the moment it was posted.
+# Halves every four hours, floored so a single very old High-impact release
+# doesn't vanish completely just because the clock ran -- its effect can
+# genuinely still be playing out, just less freshly than something from ten
+# minutes ago.
+RECENCY_HALF_LIFE_HOURS = 4.0
+MIN_RECENCY_WEIGHT = 0.15
+
+
+def _recency_weight(event_dt, now):
+    if not event_dt:
+        return 1.0
+    age_hours = max((now - event_dt).total_seconds() / 3600, 0)
+    return max(0.5 ** (age_hours / RECENCY_HALF_LIFE_HOURS), MIN_RECENCY_WEIGHT)
+
+
 def _safe_parse_date(raw):
     """Every event's date has already been normalized to ISO-8601 with an
     explicit UTC offset by the time it reaches here (see app.py's
@@ -421,22 +442,26 @@ def _safe_parse_date(raw):
 
 def aggregate_pair_bias(events):
     """Net bias per pair across a set of already-analyzed events, weighted by each
-    event's impact level (High/Medium/Analysis/Low/News) and how strong its own
-    signal was. The bullish/bearish totals returned are these SAME weights, not raw
-    event counts, so the displayed numbers always agree with the bias label -- a
-    High-impact bearish release can outweigh several small bullish headlines."""
+    event's impact level (High/Medium/Analysis/Low/News), how strong its own signal
+    was, and how recent it is (see _recency_weight). The bullish/bearish totals
+    returned are these SAME weights, not raw event counts, so the displayed numbers
+    always agree with the bias label -- a High-impact bearish release can outweigh
+    several small bullish headlines."""
     scores = {pair: 0.0 for pair in PAIRS}
     bull_weight = {pair: 0.0 for pair in PAIRS}
     bear_weight = {pair: 0.0 for pair in PAIRS}
     counts = {pair: 0 for pair in PAIRS}
     latest_date = {pair: None for pair in PAIRS}
+    now = datetime.now(timezone.utc)
 
     for event in events:
         analysis = event.get("analysis")
         if not analysis or not analysis.get("affected"):
             continue
-        weight = IMPACT_WEIGHT.get(event.get("impact"), 1) * (0.3 + 0.7 * analysis.get("strength", 0.5))
         event_dt = _safe_parse_date(event.get("date"))
+        weight = (IMPACT_WEIGHT.get(event.get("impact"), 1)
+                  * (0.3 + 0.7 * analysis.get("strength", 0.5))
+                  * _recency_weight(event_dt, now))
         for pair, direction in analysis["affected"].items():
             counts[pair] += 1
             if event_dt and (latest_date[pair] is None or event_dt > latest_date[pair]):
