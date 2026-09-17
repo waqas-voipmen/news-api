@@ -71,6 +71,7 @@ BULLISH_WORDS = [
     "expanded", "expands", "expansion", "accelerated", "accelerates", "accelerating",
     "picked up", "inched up", "ticked up", "beat", "beats", "upbeat", "improves",
     "improved", "improvement", "improving", "widens", "widened", "widen",
+    "bounce", "bounces", "bouncing", "bounced", "edges higher", "ticks higher",
 ]
 BEARISH_WORDS = [
     "fall", "falls", "falling", "fallen", "drop", "drops", "dropping", "decline",
@@ -82,7 +83,8 @@ BEARISH_WORDS = [
     "decreased", "decreases", "decreasing", "shrank", "shrinks", "contracted",
     "contraction", "slowed", "slows", "slowdown", "cooled", "cooling", "disappoints",
     "disappointing", "disappoint", "downbeat", "worsens", "worsened", "narrows",
-    "narrowed", "narrowing",
+    "narrowed", "narrowing", "dip", "dips", "dipping", "dipped", "slip", "slips",
+    "slipping", "slipped", "edges lower", "ticks lower",
 ]
 
 NEGATION_WORDS = ["not", "no", "never", "fails to", "failed to", "unable to", "struggles to"]
