@@ -134,12 +134,35 @@ _PHRASE_COLLAPSE = [
     # Japan's headline is always "core" machinery orders regardless of who's naming it.
     (r"\bcore machinery orders?\b", "machineryorders"),
     (r"\bmachinery orders?\b", "machineryorders"),
+    # ADP's own weekly report headlines its 4-week average by design (the raw
+    # weekly print is too noisy to be meaningful alone) -- confirmed by hand
+    # against forexfactory.com's own Actual (16.3K) matching FXStreet's 4-week
+    # average (16.25) for the same release, not two different numbers.
+    (r"\badp weekly employment change\b", "adpemployment"),
+    (r"\badp employment change 4-week average\b", "adpemployment"),
+    # The UK's "3m/y" and FXStreet's "3Mo/Yr" are the same 3-month-average-YoY
+    # notation, just abbreviated differently.
+    (r"\b3m/y\b", "3myoy"),
+    (r"\b3mo/yr\b", "3myoy"),
+    # ForexFactory's unqualified "Average Earnings Index" is, by UK convention,
+    # specifically the *including*-bonus headline figure -- confirmed by hand
+    # against forexfactory.com's own Actual (3.9%) matching the Including
+    # Bonus variant (3.9%), not Excluding Bonus (3.5%) that week.
+    (r"\baverage earnings index\b", "avgweeklyearnings"),
+    (r"\baverage earnings including bonus\b", "avgweeklyearnings"),
 ]
 # Genuinely different sub-series within the same release batch -- must match
 # exactly. Revision-stage labels (final/preliminary/flash/revised) describe
 # the SAME series at a different publish stage, not a different one, so they
-# are filler, not a qualifier to require agreement on.
-_QUALIFIERS = {"core", "median", "trimmed", "common", "underlying", "headline"}
+# are filler, not a qualifier to require agreement on. "eu" also belongs here:
+# a country can publish its trade balance against all partners alongside an
+# EU-only sub-total (e.g. Italy's "Global Trade Balance" vs "Trade Balance
+# EU") -- ForexFactory's unqualified title should never silently match the
+# EU-only variant just because it happened to be the other thing nearby, and
+# requiring equal qualifier sets means an unqualified title (no "eu") simply
+# can't match a "...EU" candidate, confirmed by hand needed to get Italy's
+# Trade Balance to land on the Global figure forexfactory.com itself shows.
+_QUALIFIERS = {"core", "median", "trimmed", "common", "underlying", "headline", "eu"}
 _FILLER = {"the", "of", "a", "an", "final", "preliminary", "advance", "flash", "revised"}
 # ForexFactory prefixes a country adjective onto a Eurozone-wide series name
 # to mean the national release (vs the bloc-wide one); FXStreet instead tags
