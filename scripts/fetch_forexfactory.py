@@ -124,9 +124,13 @@ _PHRASE_COLLAPSE = [
     (r"\bwestpac leading index\b", "wmileadingindex"),
     (r"\bbusinessnz services index\b", "businessnzpsi"),
     (r"\bbusiness ?nz psi\b", "businessnzpsi"),
-    # China's NBS new-home-price release; FXStreet just calls it a house price index.
-    (r"\bnew home prices?\b", "cnhomeprices"),
-    (r"\bhouse price index\b", "cnhomeprices"),
+    # China's NBS new-home-price release, FF's own "HPI" abbreviation (e.g. UK's
+    # HPI y/y), and FXStreet's spelled-out "House Price Index" are all the same
+    # concept -- safely shared across currencies since matching is already
+    # currency-scoped, so this never mixes a UK HPI candidate into a CNY event.
+    (r"\bnew home prices?\b", "housepriceindex"),
+    (r"\bhouse price index\b", "housepriceindex"),
+    (r"\bhpi\b", "housepriceindex"),
     # Japan's headline is always "core" machinery orders regardless of who's naming it.
     (r"\bcore machinery orders?\b", "machineryorders"),
     (r"\bmachinery orders?\b", "machineryorders"),
@@ -187,10 +191,11 @@ def _title_parts(title):
 
 def _best_match(ff_title, candidates):
     """candidates: [(fxstreet_name, formatted_actual, countryCode), ...], all
-    within _MATCH_WINDOW of ff_title's event but not necessarily the same
-    instant, so -- unlike the exact-timestamp tier in fetch() -- a lone
-    candidate here is NOT trusted on proximity alone; it still has to clear
-    the topic-overlap bar below. Returns the formatted_actual of the one
+    within _MATCH_WINDOW of ff_title's event. A lone candidate is NOT trusted
+    on proximity alone -- being the only other thing FXStreet reported in
+    that window doesn't make it the same series (see _MATCH_WINDOW's comment
+    for two real, confirmed cases where it wasn't); it still has to clear the
+    topic-overlap bar below. Returns the formatted_actual of the one
     unambiguous match, or "" if none clears the bar -- a blank Actual is far
     less harmful than a confidently wrong one."""
     if not candidates:
@@ -230,21 +235,21 @@ def _best_match(ff_title, candidates):
     return scored[0][1]
 
 
-# Two tiers, trading window width for how much trust a lone candidate gets:
-#  - _EXACT_WINDOW: this is the original discovery (currency + near-enough-
-#    exact release instant, no title comparison at all) -- validated by hand
-#    at ~74% accuracy for singleton matches, because two DIFFERENT real
-#    indicators from the same country essentially never fire in the same
-#    minute. A single candidate this close is trusted outright.
-#  - _MATCH_WINDOW: FXStreet and ForexFactory don't always log the exact same
-#    publish minute for the same real release (confirmed by hand: Germany's
-#    30-y Bond Auction off by 5 minutes, NZD's GDT Price Index off by 39,
-#    AU's MI/Westpac Leading Index off by 30), so a wider window is checked
-#    too -- but at this distance coincidental unrelated overlaps are
-#    plausible, so every candidate here still has to clear _best_match()'s
-#    title-agreement bar; a lone candidate is never trusted on proximity
-#    alone (see _best_match's docstring for why that matters).
-_EXACT_WINDOW = timedelta(seconds=60)
+# The original version of this trusted a single candidate at the exact same
+# timestamp with no title comparison at all, reasoning that two DIFFERENT
+# real indicators from the same country essentially never fire in the same
+# minute. That's true, but incomplete: a single statistics release routinely
+# reports several period-variants of itself at once -- confirmed by hand on
+# two real, wrong-data cases -- NZD's Visitor Arrivals (MoM) landed on the
+# YoY figure, and USD's ADP Weekly Employment Change landed on the 4-week
+# average, both because that was the only other thing FXStreet had at that
+# exact minute. A "the only candidate nearby" isn't a "the same series"; only
+# _best_match()'s period/qualifier/topic agreement is, so every candidate now
+# goes through it regardless of how close the timestamp is. FXStreet and
+# ForexFactory also don't always log the exact same publish minute for the
+# same real release (confirmed by hand: Germany's 30-y Bond Auction off by 5
+# minutes, NZD's GDT Price Index off by 39, AU's MI/Westpac Leading Index off
+# by 30), which is what the window width is actually sized for.
 _MATCH_WINDOW = timedelta(minutes=45)
 
 
@@ -290,14 +295,32 @@ def _candidates_near(actuals, currency, event_dt, window):
     ]
 
 
+# A last-resort third tier for the rare case where the SAME weekly report
+# lands on a different calendar day between the two providers, not just a
+# different minute -- confirmed by hand on the API Weekly Statistical
+# Bulletin, which FXStreet logged a full ~24.5 hours later one week. Safe at
+# this width specifically because it demands an EXACT normalized-title match
+# (not just >=0.5 overlap like _best_match) and uniqueness, and because a day
+# and a half is comfortably under half of any weekly indicator's own release
+# cadence, so it can't accidentally reach into an adjacent week's number.
+_WIDE_EXACT_WINDOW = timedelta(hours=36)
+
+
+def _exact_title_match(actuals, currency, event_dt, title):
+    candidates = _candidates_near(actuals, currency, event_dt, _WIDE_EXACT_WINDOW)
+    if not candidates:
+        return ""
+    ff_parts = _title_parts(title)
+    matches = [actual for name, actual, _country in candidates if _title_parts(name) == ff_parts]
+    return matches[0] if len(matches) == 1 else ""
+
+
 def _match_actual(actuals, country, title, event_dt):
     if not event_dt or _NO_ACTUAL_RE.search(title or ""):
         return ""
-    exact = _candidates_near(actuals, country, event_dt, _EXACT_WINDOW)
-    if len(exact) == 1:
-        return exact[0][1]
     wide = _candidates_near(actuals, country, event_dt, _MATCH_WINDOW)
-    return _best_match(title, wide) if wide else ""
+    result = _best_match(title, wide) if wide else ""
+    return result or _exact_title_match(actuals, country, event_dt, title)
 
 
 def fetch():

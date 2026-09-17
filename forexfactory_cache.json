@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-16T23:23:28.586383+00:00",
+  "fetched_at": "2026-09-17T00:02:40.555038+00:00",
   "periods": {
     "week": [
       {
@@ -432,7 +432,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": "8.5%"
+        "actual": ""
       },
       {
         "title": "GDT Price Index",
@@ -456,7 +456,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "7.14"
       },
       {
         "title": "Westpac Consumer Sentiment",
@@ -840,7 +840,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "3.3%"
       },
       {
         "title": "Spanish 10-y Bond Auction",
