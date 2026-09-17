@@ -111,10 +111,10 @@ REDDIT_USER_AGENT = "web:forex-news-aggregator:v1.0 (by /u/forex-news-aggregator
 # "higher yields" scored bullish for gold despite yields being bearish for it,
 # "caps recovery" scored as a plain bullish "recovery" hit despite being capped, a
 # fragile "bounces... but not out of the woods yet" read as a clean buy signal.
-# Groq's free tier runs a real LLM for this instead. Unset by default; article
-# analysis silently falls back to the keyword heuristic (see analyze_event) until
-# GROQ_API_KEY is configured, same graceful-degradation pattern as Reddit above.
-GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
+# Groq's free tier runs a real LLM for this instead. Unconfigured by default;
+# article analysis silently falls back to the keyword heuristic (see analyze_event)
+# until an admin sets a key on the Feature Controls page (see _groq_api_key below),
+# same graceful-degradation pattern as Reddit above.
 GROQ_CHAT_URL = "https://api.groq.com/openai/v1/chat/completions"
 GROQ_MODEL = "qwen/qwen3.8-27b"
 _VALID_LLM_PAIRS = set(analysis.PAIRS)
@@ -216,6 +216,11 @@ GITHUB_CACHE_TTL = 60  # seconds -- GitHub's raw-content CDN isn't rate-limited 
 CACHE_DIR = Path(__file__).parent / ".cache"
 USERS_FILE = Path(__file__).parent / "users.json"
 SETTINGS_FILE = Path(__file__).parent / "settings.json"
+# Separate from settings.json on purpose: settings.json's contents get serialized
+# straight to the browser (see _page_context's settings_json and /api/settings) so
+# every logged-in user can see feature toggles -- a real secret can never go in
+# there. This file is only ever read server-side.
+SECRETS_FILE = Path(__file__).parent / "secrets.json"
 USER_EXPIRY_DAYS = 30  # non-admin users are auto-deleted this many days after creation
 
 DEFAULT_SETTINGS = {
@@ -287,6 +292,27 @@ def _load_settings():
 
 def _save_settings(settings):
     SETTINGS_FILE.write_text(json.dumps(settings, indent=2))
+
+
+def _load_secrets_file():
+    if not SECRETS_FILE.exists():
+        return {}
+    try:
+        return json.loads(SECRETS_FILE.read_text())
+    except (OSError, json.JSONDecodeError):
+        return {}
+
+
+def _save_secrets_file(data):
+    SECRETS_FILE.write_text(json.dumps(data, indent=2))
+
+
+def _groq_api_key():
+    """An admin-set key (via Feature Controls -> secrets.json, server-side only)
+    takes priority over a GROQ_API_KEY environment variable, so getting this
+    working doesn't require editing a WSGI file or hunting through a hosting
+    dashboard's environment-variable settings -- just this app's own admin page."""
+    return _load_secrets_file().get("groq_api_key") or os.environ.get("GROQ_API_KEY")
 
 
 def _save_users(users):
@@ -422,6 +448,16 @@ def admin_settings():
         settings["news_sentiment_enabled"] = request.form.get("news_sentiment_enabled") == "on"
         settings["live_prices_enabled"] = request.form.get("live_prices_enabled") == "on"
         _save_settings(settings)
+
+        # A blank submission means "leave the existing key alone" -- the field is
+        # never pre-filled with the real value (see admin_settings.html), so an
+        # empty save must not be read as "the admin wants to clear it".
+        groq_key = request.form.get("groq_api_key", "").strip()
+        if groq_key:
+            secrets_data = _load_secrets_file()
+            secrets_data["groq_api_key"] = groq_key
+            _save_secrets_file(secrets_data)
+
         message = "Settings saved"
 
     return render_template(
@@ -429,6 +465,7 @@ def admin_settings():
         message=message,
         settings=_load_settings(),
         source_labels=SOURCE_LABELS,
+        groq_configured=bool(_groq_api_key()),
         active="settings",
         theme=_get_theme(),
     )
@@ -493,12 +530,13 @@ def _classify_with_llm(title, description):
     """Returns a validated classification dict, or None on any failure (no API key
     configured, network error, rate limit, malformed response) -- callers fall back
     to the keyword-based analysis, so a Groq outage never breaks the page."""
-    if not GROQ_API_KEY:
+    api_key = _groq_api_key()
+    if not api_key:
         return None
     try:
         response = requests.post(
             GROQ_CHAT_URL,
-            headers={"Authorization": f"Bearer {GROQ_API_KEY}"},
+            headers={"Authorization": f"Bearer {api_key}"},
             json={
                 "model": GROQ_MODEL,
                 "messages": [

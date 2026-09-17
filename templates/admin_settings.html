@@ -33,6 +33,19 @@
       Live Prices (TradingView)
     </label>
 
+    <h3 style="margin-top:22px;">AI Analysis</h3>
+    <p style="font-size:13px; color:var(--muted); margin:4px 0 10px;">
+      Groq API key for AI-powered headline sentiment (free tier, get one at
+      <a href="https://console.groq.com" target="_blank" rel="noopener">console.groq.com</a> --
+      Sign in with Google, then API Keys -> Create API Key). Without this, News/Market Bias
+      fall back to a simpler keyword-based heuristic.
+      Status: {% if groq_configured %}<strong style="color:var(--success, #2e7d32);">configured</strong>{% else %}<strong style="color:var(--danger, #c62828);">not configured</strong>{% endif %}
+    </p>
+    <label style="display:block; margin-bottom:16px;">
+      <span style="display:block; margin-bottom:4px;">Groq API key</span>
+      <input type="password" name="groq_api_key" placeholder="{% if groq_configured %}Already set -- leave blank to keep it{% else %}gsk_...{% endif %}" autocomplete="off" style="width:100%; max-width:420px; padding:8px;">
+    </label>
+
     <button type="submit" style="margin-top:16px;">Save Settings</button>
   </form>
 </div>
