@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-22T09:33:06.727009+00:00",
+  "fetched_at": "2026-09-22T13:21:08.715938+00:00",
   "periods": {
     "week": [
       {
@@ -177,6 +177,18 @@
         "impact": "Low",
         "forecast": "",
         "previous": "16.3K",
+        "source": "ForexFactory",
+        "type": "calendar",
+        "link": null,
+        "actual": "20"
+      },
+      {
+        "title": "President Trump Speaks",
+        "country": "USD",
+        "date": "2026-09-22T09:55:00-04:00",
+        "impact": "Medium",
+        "forecast": "",
+        "previous": "",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
