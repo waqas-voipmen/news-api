@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-22T13:21:08.715938+00:00",
+  "fetched_at": "2026-09-22T14:01:05.623932+00:00",
   "periods": {
     "week": [
       {
@@ -204,7 +204,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-16.5"
       },
       {
         "title": "Richmond Manufacturing Index",
@@ -216,7 +216,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-2"
       },
       {
         "title": "FOMC Member Williams Speaks",
