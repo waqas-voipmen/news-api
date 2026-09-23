@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-23T12:48:10.174728+00:00",
+  "fetched_at": "2026-09-23T14:07:13.748323+00:00",
   "periods": {
     "week": [
       {
@@ -511,7 +511,7 @@
         "country": "AUD",
         "date": "2026-09-23T21:30:00-04:00",
         "impact": "High",
-        "forecast": "22.5K",
+        "forecast": "21.5K",
         "previous": "-15.8K",
         "source": "ForexFactory",
         "type": "calendar",
