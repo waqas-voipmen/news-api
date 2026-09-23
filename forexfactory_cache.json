@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-23T07:19:04.054609+00:00",
+  "fetched_at": "2026-09-23T07:33:11.953948+00:00",
   "periods": {
     "week": [
       {
@@ -348,7 +348,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": "50.3"
+        "actual": "53.8"
       },
       {
         "title": "German Flash Services PMI",
@@ -360,7 +360,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": "51.4"
+        "actual": "52.9"
       },
       {
         "title": "Flash Manufacturing PMI",
@@ -372,7 +372,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": "50.3"
+        "actual": ""
       },
       {
         "title": "Flash Services PMI",
@@ -384,7 +384,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": "51.4"
+        "actual": ""
       },
       {
         "title": "Flash Manufacturing PMI",
