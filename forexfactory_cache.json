@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-22T23:33:11.529861+00:00",
+  "fetched_at": "2026-09-23T07:19:04.054609+00:00",
   "periods": {
     "week": [
       {
@@ -324,7 +324,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "50.3"
       },
       {
         "title": "French Flash Services PMI",
@@ -336,7 +336,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "51.4"
       },
       {
         "title": "German Flash Manufacturing PMI",
@@ -348,7 +348,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "50.3"
       },
       {
         "title": "German Flash Services PMI",
@@ -360,7 +360,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "51.4"
       },
       {
         "title": "Flash Manufacturing PMI",
@@ -372,7 +372,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "50.3"
       },
       {
         "title": "Flash Services PMI",
@@ -384,7 +384,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "51.4"
       },
       {
         "title": "Flash Manufacturing PMI",
@@ -463,8 +463,20 @@
         "country": "USD",
         "date": "2026-09-23T10:30:00-04:00",
         "impact": "Low",
-        "forecast": "-0.6M",
+        "forecast": "-0.7M",
         "previous": "-0.6M",
+        "source": "ForexFactory",
+        "type": "calendar",
+        "link": null,
+        "actual": ""
+      },
+      {
+        "title": "FOMC Member Goolsbee Speaks",
+        "country": "USD",
+        "date": "2026-09-23T12:00:00-04:00",
+        "impact": "Low",
+        "forecast": "",
+        "previous": "",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
@@ -763,7 +775,7 @@
         "country": "USD",
         "date": "2026-09-24T10:30:00-04:00",
         "impact": "Low",
-        "forecast": "52B",
+        "forecast": "50B",
         "previous": "44B",
         "source": "ForexFactory",
         "type": "calendar",
@@ -885,6 +897,18 @@
         "impact": "Low",
         "forecast": "-0.3%",
         "previous": "1.1%",
+        "source": "ForexFactory",
+        "type": "calendar",
+        "link": null,
+        "actual": ""
+      },
+      {
+        "title": "FOMC Member Schmid Speaks",
+        "country": "USD",
+        "date": "2026-09-25T09:20:00-04:00",
+        "impact": "Low",
+        "forecast": "",
+        "previous": "",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
