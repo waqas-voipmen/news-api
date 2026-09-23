@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-23T14:07:13.748323+00:00",
+  "fetched_at": "2026-09-23T18:24:18.114287+00:00",
   "periods": {
     "week": [
       {
@@ -468,7 +468,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "2.969"
       },
       {
         "title": "FOMC Member Goolsbee Speaks",
