@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-23T09:33:07.431367+00:00",
+  "fetched_at": "2026-09-23T09:48:07.448017+00:00",
   "periods": {
     "week": [
       {
@@ -413,7 +413,7 @@
       {
         "title": "German 30-y Bond Auction",
         "country": "EUR",
-        "date": "2026-09-23T05:34:00-04:00",
+        "date": "2026-09-23T05:35:00-04:00",
         "impact": "Low",
         "forecast": "",
         "previous": "3.90|2.4",
