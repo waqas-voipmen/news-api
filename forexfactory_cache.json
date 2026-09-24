@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-24T12:18:05.691471+00:00",
+  "fetched_at": "2026-09-24T12:33:05.366713+00:00",
   "periods": {
     "week": [
       {
@@ -636,7 +636,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-0.7%"
       },
       {
         "title": "Retail Sales m/m",
@@ -648,7 +648,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-0.7%"
       },
       {
         "title": "Unemployment Claims",
@@ -672,7 +672,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-246$"
       },
       {
         "title": "FOMC Member Barkin Speaks",
