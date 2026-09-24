@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-24T05:33:06.839040+00:00",
+  "fetched_at": "2026-09-24T05:48:07.193687+00:00",
   "periods": {
     "week": [
       {
@@ -519,6 +519,18 @@
         "actual": "4.6%"
       },
       {
+        "title": "NAB Quarterly Business Confidence",
+        "country": "AUD",
+        "date": "2026-09-23T21:30:00-04:00",
+        "impact": "Low",
+        "forecast": "",
+        "previous": "-19",
+        "source": "ForexFactory",
+        "type": "calendar",
+        "link": null,
+        "actual": ""
+      },
+      {
         "title": "SNB Monetary Policy Assessment",
         "country": "CHF",
         "date": "2026-09-24T03:30:00-04:00",
@@ -789,18 +801,6 @@
         "impact": "Holiday",
         "forecast": "",
         "previous": "",
-        "source": "ForexFactory",
-        "type": "calendar",
-        "link": null,
-        "actual": ""
-      },
-      {
-        "title": "NAB Quarterly Business Confidence",
-        "country": "AUD",
-        "date": "2026-09-24T21:30:00-04:00",
-        "impact": "Low",
-        "forecast": "",
-        "previous": "-19",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
