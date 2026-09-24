@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-24T07:48:06.640935+00:00",
+  "fetched_at": "2026-09-24T08:03:07.109198+00:00",
   "periods": {
     "week": [
       {
@@ -588,7 +588,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "89.9"
       },
       {
         "title": "FOMC Member Williams Speaks",
