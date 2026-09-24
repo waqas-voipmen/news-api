@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-23T22:33:09.395360+00:00",
+  "fetched_at": "2026-09-24T04:31:12.500412+00:00",
   "periods": {
     "week": [
       {
@@ -492,19 +492,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
-      },
-      {
-        "title": "NAB Quarterly Business Confidence",
-        "country": "AUD",
-        "date": "2026-09-23T20:35:00-04:00",
-        "impact": "Low",
-        "forecast": "",
-        "previous": "-19",
-        "source": "ForexFactory",
-        "type": "calendar",
-        "link": null,
-        "actual": ""
+        "actual": "54.1"
       },
       {
         "title": "Employment Change",
@@ -516,7 +504,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "39.5"
       },
       {
         "title": "Unemployment Rate",
@@ -528,7 +516,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "4.6%"
       },
       {
         "title": "SNB Monetary Policy Assessment",
@@ -801,6 +789,18 @@
         "impact": "Holiday",
         "forecast": "",
         "previous": "",
+        "source": "ForexFactory",
+        "type": "calendar",
+        "link": null,
+        "actual": ""
+      },
+      {
+        "title": "NAB Quarterly Business Confidence",
+        "country": "AUD",
+        "date": "2026-09-24T21:30:00-04:00",
+        "impact": "Low",
+        "forecast": "",
+        "previous": "-19",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,

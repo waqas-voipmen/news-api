@@ -1,161 +1,161 @@
 {
-  "fetched_at": "2026-09-23T22:33:05.674999+00:00",
+  "fetched_at": "2026-09-24T04:31:08.636453+00:00",
   "events": [
     {
       "source": "Myfxbook",
       "type": "news",
-      "country": "USD",
-      "title": "Major Averages Shed Ground As Geopolitical Uncertainty, Rate Concerns Weigh",
-      "description": "U.S. stocks drifted lower on Wednesday as higher bond yields and oil's rebound amid uncertainty about Strait of Hormuz reopening rendered the mood weak. Prospects of another interest rate hike by the Federal Reserve weighed as well on sentiment.",
-      "date": "2026-09-23T18:15:05.671790+00:00",
+      "country": "AUD",
+      "title": "Australian Market Trims Early Losses In Mid-market",
+      "description": "The Australian market is trimming its early losses in mid-market moves on Thursday, snapping a three-session winning streak, following the broadly negative cues from Wall Street overnight. The benchmark S&P/ASX 200 is falling to near the 8,700 level, with weakness in mining, financial and technology stocks partially offset by energy stocks.",
+      "date": "2026-09-24T03:26:08.632457+00:00",
       "impact": "News",
       "forecast": "",
       "previous": "",
-      "link": "https://www.myfxbook.com/news/major-averages-shed-ground-as-geopolitical-uncertainty-rate-concerns-weigh/54498"
+      "link": "https://www.myfxbook.com/news/australian-market-trims-early-losses-in-mid-market/54513"
     },
     {
       "source": "Myfxbook",
       "type": "news",
       "country": "WTI",
-      "title": "Swiss Market Ends Weak",
-      "description": "The Switzerland market ended on a weak note on Wednesday despite spending much of the day's session above the flat line. \n\nThe mood turned cautious around late morning, and the market remained sluggish thereafter as oil prices rebounded after five successive days of losses.",
-      "date": "2026-09-23T17:37:05.672161+00:00",
+      "title": "Asian Markets Track Wall Street Lower",
+      "description": "Asian stock markets are trading mostly lower on Thursday, following the broadly negative cues from Wall Street overnight, as a rebound in crude oil prices and surging bond yields renewed global inflation risks and interest rate hike concerns amid uncertainty in the resolution of the Middle East conflict and the reopening of the critical Strait of Hormuz. Asian markets closed mixed on Wednesday.",
+      "date": "2026-09-24T03:11:08.633167+00:00",
       "impact": "News",
       "forecast": "",
       "previous": "",
-      "link": "https://www.myfxbook.com/news/swiss-market-ends-weak/54497"
+      "link": "https://www.myfxbook.com/news/asian-markets-track-wall-street-lower/54512"
     },
     {
       "source": "Myfxbook",
       "type": "news",
       "country": "WTI",
-      "title": "European Stocks Close Weak As Oil Rebounds Amid Hormuz Reopening Uncertainty",
-      "description": "European stocks closed weak on Wednesday as oil prices swung back into positive territory after five successive days of losses. Uncertainty about reopening of the Strait of Hormuz appeared to have contributed to the reversal in trend.",
-      "date": "2026-09-23T17:15:05.672436+00:00",
+      "title": "Indian Shares Likely To Drift Lower As Oil And Bond Yields Rise",
+      "description": "Indian shares are seen opening lower on Thursday after oil prices rose sharply overnight and U.S. bond yields jumped to their highest levels in nearly two decades, raising the possibility of another interest-rate hike from the Federal Reserve this year.",
+      "date": "2026-09-24T02:38:08.633388+00:00",
       "impact": "News",
       "forecast": "",
       "previous": "",
-      "link": "https://www.myfxbook.com/news/european-stocks-close-weak-as-oil-rebounds-amid-hormuz-reopening-uncertainty/54496"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "XAU",
-      "title": "TSX Tumbles 1.23% As Materials Stocks Slide On Metal Price Weakness",
-      "description": "Canadian stocks retreated Wednesday as the S&P/TSX Composite Index fell 1.23%, driven by heavy selling in materials following steep drops in gold and silver prices. Financials, utilities, and consumer stocks also declined amid elevated Treasury yields.",
-      "date": "2026-09-23T16:31:05.672668+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/tsx-tumbles-123-as-materials-stocks-slide-on-metal-price-weakness/54495"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "CAD",
-      "title": "Bay Street Looks Headed For Weak Start",
-      "description": "Lower Canadian and U.S. futures and weak precious metals prices point to a negative start on Bay Street on Wednesday. Oil's recovery could weigh as well.",
-      "date": "2026-09-23T12:56:05.672857+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/bay-street-looks-headed-for-weak-start/54492"
+      "link": "https://www.myfxbook.com/news/indian-shares-likely-to-drift-lower-as-oil-and-bond-yields-rise/54511"
     },
     {
       "source": "Myfxbook",
       "type": "news",
       "country": "General",
-      "title": "Wall Street May Open Slightly Weak",
-      "description": "Lower index futures point to a weak open on Wall Street on Wednesday. Flash PMI data for the month of September could make an impact on sentiment.",
-      "date": "2026-09-23T12:44:05.673065+00:00",
+      "title": "Rally May Stall For Thai Stock Market",
+      "description": "The Thai stock market has moved higher in five straight sessions, collecting almost 50 points or 3.1 percent in that span. The Stock Exchange of Thailand now sits just above the 1,610-point plateau although it's likely to open to the downside on Thursday.",
+      "date": "2026-09-24T02:04:08.633596+00:00",
       "impact": "News",
       "forecast": "",
       "previous": "",
-      "link": "https://www.myfxbook.com/news/wall-street-may-open-slightly-weak/54491"
+      "link": "https://www.myfxbook.com/news/rally-may-stall-for-thai-stock-market/54510"
     },
     {
       "source": "Myfxbook",
       "type": "news",
-      "country": "USD",
-      "title": "General Mills Q1 Profit Plunges, Confirms FY27 Outlook",
-      "description": "Branded consumer foods maker General Mills, Inc. reported Wednesday sharply lower profit in the first quarter of fiscal 2027, hurt by the absence of prior year's significant gain and weak net sales, both related to the sale of the U.S. yogurt business. Further, the firm maintained fiscal 2027 outlook.",
-      "date": "2026-09-23T12:17:05.673310+00:00",
+      "country": "General",
+      "title": "Indonesia Stock Market May Turn Lower Again On Thursday",
+      "description": "The Indonesia stock market on Wednesday ended the three-day slide in which it had tumbled almost 190 points or 3 percent. The Jakarta Composite Index now sits just beneath the 6,375-point plateau although it may head south again on Thursday.",
+      "date": "2026-09-24T01:34:08.633876+00:00",
       "impact": "News",
       "forecast": "",
       "previous": "",
-      "link": "https://www.myfxbook.com/news/general-mills-q1-profit-plunges-confirms-fy27-outlook/54490"
+      "link": "https://www.myfxbook.com/news/indonesia-stock-market-may-turn-lower-again-on-thursday/54509"
     },
     {
       "source": "Myfxbook",
       "type": "news",
-      "country": "USD",
-      "title": "U.S. Dollar Rises Amid Fed Rate Hike Speculation",
-      "description": "The U.S. dollar strengthened against other major currencies in the European session on Wednesday, as the market's anticipation of additional Fed monetary tightening in the upcoming months and investors' confidence regarding the results of new efforts to establish a peace agreement with Iran.",
-      "date": "2026-09-23T11:45:05.673606+00:00",
+      "country": "JPY",
+      "title": "Japanese Market Sharply Higher",
+      "description": "The Japanese market is sharply higher in post-holiday trading on Thursday, extending the gains in the previous three sessions, despite the broadly negative cues from Wall Street overnight. The Nikkei 225 is moving well above the 66,150 level, with gains in index heavyweights, exporters and technology stocks partially offset by weakness in financial stocks.",
+      "date": "2026-09-24T01:32:08.634146+00:00",
       "impact": "News",
       "forecast": "",
       "previous": "",
-      "link": "https://www.myfxbook.com/news/us-dollar-rises-amid-fed-rate-hike-speculation/54488"
+      "link": "https://www.myfxbook.com/news/japanese-market-sharply-higher/54508"
     },
     {
       "source": "Myfxbook",
       "type": "news",
-      "country": "GBP",
-      "title": "UK Private Sector Growth Softens",
-      "description": "The UK private sector growth moderated to a three-month low in September, reflecting a loss of momentum in manufacturing and service sectors, flash data from S&P Global showed Wednesday. The headline composite output index fell to 51.7 in September from 52.5 in August. This was the lowest since June and below forecast of 52.0.",
-      "date": "2026-09-23T11:45:05.673886+00:00",
+      "country": "General",
+      "title": "Hong Kong Stock Market May Take Further Damage On Thursday",
+      "description": "The Hong Kong stock market halted the three-day winning streak in which it had jumped more than 480 points or 1.9 percent. The Hang Seng Index now sits just above the 24,830-point plateau and it's tipped to open in the red again on Thursday.",
+      "date": "2026-09-24T01:19:08.634413+00:00",
       "impact": "News",
       "forecast": "",
       "previous": "",
-      "link": "https://www.myfxbook.com/news/uk-private-sector-growth-softens/54487"
+      "link": "https://www.myfxbook.com/news/hong-kong-stock-market-may-take-further-damage-on-thursday/54507"
     },
     {
       "source": "Myfxbook",
       "type": "news",
-      "country": "USD",
-      "title": "U.S. Dollar Rises Against Majors",
-      "description": "The U.S. dollar strengthened against other major currencies in the European session on Wednesday.",
-      "date": "2026-09-23T11:13:05.674141+00:00",
+      "country": "General",
+      "title": "China Stock Market May Extend Wednesday's Losses",
+      "description": "The China stock market on Wednesday wrote a finish to the three-day winning streak in which it had advanced more than 75 points or 1.7 percent. The Shanghai Composite Index now sits just above the 3,935-point plateau and the losses may accelerate on Thursday.",
+      "date": "2026-09-24T01:04:08.634813+00:00",
       "impact": "News",
       "forecast": "",
       "previous": "",
-      "link": "https://www.myfxbook.com/news/us-dollar-rises-against-majors/54486"
+      "link": "https://www.myfxbook.com/news/china-stock-market-may-extend-wednesdays-losses/54506"
     },
     {
       "source": "Myfxbook",
       "type": "news",
-      "country": "WTI",
-      "title": "FTSE 100 Flat At Noon; Weak PMI Data Weighs",
-      "description": "U.K. stocks turned in a mixed performance Wednesday morning as weak PMI data weighed on sentiment. Oil prices recovered from early lows, rendering the mood a bit cautious.",
-      "date": "2026-09-23T11:07:05.674360+00:00",
+      "country": "JPY",
+      "title": "Japan Manufacturing PMI Slows To 54.1 In September - S&P Global",
+      "description": "The manufacturing sector in Japan continued to expand in September, albeit at a slower pace, the latest survey from S&P Global revealed on Thursday with a manufacturing PMI score of 54.1.",
+      "date": "2026-09-24T00:57:08.635301+00:00",
       "impact": "News",
       "forecast": "",
       "previous": "",
-      "link": "https://www.myfxbook.com/news/ftse-100-flat-at-noon-weak-pmi-data-weighs/54485"
+      "link": "https://www.myfxbook.com/news/japan-manufacturing-pmi-slows-to-541-in-september---sp-global/54505"
     },
     {
       "source": "Myfxbook",
       "type": "news",
-      "country": "EUR",
-      "title": "Eurozone Private Sector Growth Strongest Since Early 2023",
-      "description": "The euro area private sector expanded at the fastest pace since April 2023 amid solid expansions in both the services and manufacturing sectors, survey data from S&P Global revealed Wednesday. The flash composite output index advanced to 53.1 in September from 52.0 in the prior month. The score was seen at 51.7.",
-      "date": "2026-09-23T10:31:05.674572+00:00",
+      "country": "AUD",
+      "title": "Australian Market Sharply Lower",
+      "description": "The Australian market is sharply lower on Thursday, snapping a three-session winning streak, following the broadly negative cues from Wall Street overnight. The benchmark S&P/ASX 200 is falling to near the 8,650 level, with weakness in mining, financial and technology stocks partially offset by energy stocks.",
+      "date": "2026-09-24T00:51:08.635542+00:00",
       "impact": "News",
       "forecast": "",
       "previous": "",
-      "link": "https://www.myfxbook.com/news/eurozone-private-sector-growth-strongest-since-early-2023/54482"
+      "link": "https://www.myfxbook.com/news/australian-market-sharply-lower/54504"
     },
     {
       "source": "Myfxbook",
       "type": "news",
-      "country": "USD",
-      "title": "Indian Shares End Modestly Higher As Brent Oil Falls Below $100",
-      "description": "Indian shares ended modestly higher on Wednesday as investors kept a close eye on developments between the U.S. and Iran, and looked forward to a crucial U.S.-China summit on Thursday, which could lead to new trade agreements amid escalating competition and restrictions on advanced technologies.",
-      "date": "2026-09-23T10:31:05.674848+00:00",
+      "country": "General",
+      "title": "Taiwan Stock Market Overdue For Profit Taking",
+      "description": "The Taiwan stock market has tracked higher in six straight sessions, surging more than 3,250 points or 7.2 percent along the way. The Taiwan Stock Exchange now sits just above the 48,150-point plateau although investors are likely to cash in on Thursday.",
+      "date": "2026-09-24T00:34:08.635748+00:00",
       "impact": "News",
       "forecast": "",
       "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-end-modestly-higher-as-brent-oil-falls-below-100/54481"
+      "link": "https://www.myfxbook.com/news/taiwan-stock-market-overdue-for-profit-taking/54503"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Singapore Stock Market Tipped To Open Under Pressure",
+      "description": "The Singapore stock market on Wednesday ended the two-day winning streak in which it had gathered almost 70 points or 1.2 percent. The Straits Times Index now sits just beneath the 5,710-point plateau and it may take further damage on Thursday.",
+      "date": "2026-09-24T00:04:08.636016+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/singapore-stock-market-tipped-to-open-under-pressure/54502"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Continued Consolidation Seen For Malaysia Stock Market",
+      "description": "The Malaysia stock market on Wednesday snapped the two-day winning streak in which it had collected almost 20 points or 1.2 percent. The Kuala Lumpur Composite Index now sits just above the 1,675-point plateau and it may extend its losses on Thursday.",
+      "date": "2026-09-23T23:34:08.636280+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/continued-consolidation-seen-for-malaysia-stock-market/54501"
     }
   ]
 }
