@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-24T22:48:08.199706+00:00",
+  "fetched_at": "2026-09-24T23:33:11.266945+00:00",
   "periods": {
     "week": [
       {
@@ -804,7 +804,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-13"
       },
       {
         "title": "Bank Holiday",
