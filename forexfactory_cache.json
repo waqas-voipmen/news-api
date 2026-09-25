@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-25T12:18:14.238777+00:00",
+  "fetched_at": "2026-09-25T12:33:07.784051+00:00",
   "periods": {
     "week": [
       {
@@ -924,7 +924,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0%"
       },
       {
         "title": "FOMC Member Schmid Speaks",
