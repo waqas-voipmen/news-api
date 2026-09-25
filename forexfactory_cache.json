@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-25T07:48:12.215842+00:00",
+  "fetched_at": "2026-09-25T08:03:08.406552+00:00",
   "periods": {
     "week": [
       {
@@ -864,7 +864,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "3.5%"
       },
       {
         "title": "Private Loans y/y",
@@ -876,7 +876,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "3.1%"
       },
       {
         "title": "BOE Gov Bailey Speaks",
