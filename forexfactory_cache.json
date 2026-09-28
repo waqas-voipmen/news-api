@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-28T23:03:14.233544+00:00",
+  "fetched_at": "2026-09-28T23:18:09.133825+00:00",
   "periods": {
     "week": [
       {
@@ -96,7 +96,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "1.4%"
       },
       {
         "title": "Household Spending m/m",
