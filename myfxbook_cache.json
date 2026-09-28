@@ -1,161 +1,161 @@
 {
-  "fetched_at": "2026-09-26T19:48:07.225914+00:00",
+  "fetched_at": "2026-09-28T06:48:04.153538+00:00",
   "events": [
     {
       "source": "Myfxbook",
       "type": "news",
-      "country": "WTI",
-      "title": "Swiss Market Ends Modestly Higher",
-      "description": "The Switzerland market ended modestly higher on Friday, after moving in a narrow range in positive territory right through the session. Lower oil prices and bond yields amid hopes about potential opening of the Strait of Hormuz in seven days lifted investor sentiment.",
-      "date": "2026-09-25T19:48:07.222770+00:00",
+      "country": "USD",
+      "title": "European Shares Seen Subdued As Hormuz Reopening Hopes Fade",
+      "description": "European stocks are seen opening on a cautious note on Monday due to continued uncertainty over the end to the U.S.-Iran war in the Middle East after U.S. President Donald Trump rejected Iran's latest proposal to reopen the Strait of Hormuz and signaled possible new military strikes after midterm elections.",
+      "date": "2026-09-28T05:33:04.149459+00:00",
       "impact": "News",
       "forecast": "",
       "previous": "",
-      "link": "https://www.myfxbook.com/news/swiss-market-ends-modestly-higher/54607"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "European Stocks Rise On Oil Decline, Middle East Peace Hopes",
-      "description": "European stocks rose Friday following a more than 2% decline in Brent crude futures and falling bond yields, supported by reports that Iran has submitted a proposal to end Middle East hostilities. Major indices including the DAX and FTSE 100 posted modest gains.",
-      "date": "2026-09-25T19:48:07.223553+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-stocks-rise-on-oil-decline-middle-east-peace-hopes/54606"
+      "link": "https://www.myfxbook.com/news/european-shares-seen-subdued-as-hormuz-reopening-hopes-fade/54627"
     },
     {
       "source": "Myfxbook",
       "type": "news",
       "country": "USD",
-      "title": "U.S. Consumer Sentiment Drops Less Than Previously Estimated In September",
-      "description": "Revised data released by the University of Michigan on Friday showed consumer sentiment in the U.S. deteriorated by less than previously estimated in the month of September. The University of Michigan said its consumer sentiment index for September was upwardly revised to 48.1 from a preliminary reading of 47.8.",
-      "date": "2026-09-25T19:48:07.223770+00:00",
+      "title": "Indian Shares Deep In Red As Financials Drag",
+      "description": "Indian shares were deep in the red on Monday after U.S. President Donald Trump rejected Iran's latest proposal to reopen the Strait of Hormuz and other demands.",
+      "date": "2026-09-28T04:32:04.150400+00:00",
       "impact": "News",
       "forecast": "",
       "previous": "",
-      "link": "https://www.myfxbook.com/news/us-consumer-sentiment-drops-less-than-previously-estimated-in-september/54605"
+      "link": "https://www.myfxbook.com/news/indian-shares-deep-in-red-as-financials-drag/54623"
     },
     {
       "source": "Myfxbook",
       "type": "news",
-      "country": "XAU",
-      "title": "Bay Street Poised For Positive Open On Metal Gains",
-      "description": "Higher gold and silver futures support Canadian stock sentiment Friday morning. Iranian officials have submitted peace proposals to U.S. mediators this week. BlackBerry's adjusted net income rose 79% to $43.2 mln in the second quarter.",
-      "date": "2026-09-25T19:48:07.224071+00:00",
+      "country": "AUD",
+      "title": "Australian Market Extends Early Gains In Mid-market",
+      "description": "The Australian stock market is extending its early gains in mid-market trading on Monday, but reversing some of the losses in the previous two sessions, following the broadly positive cues from Wall Street on Friday. The benchmark S&P/ASX 200 index is moving above the 8,700.00 level, with weakness in energy and mining stocks partially offset by gains in financial and technology stocks.",
+      "date": "2026-09-28T03:26:04.150683+00:00",
       "impact": "News",
       "forecast": "",
       "previous": "",
-      "link": "https://www.myfxbook.com/news/bay-street-poised-for-positive-open-on-metal-gains/54604"
+      "link": "https://www.myfxbook.com/news/australian-market-extends-early-gains-in-mid-market/54622"
     },
     {
       "source": "Myfxbook",
       "type": "news",
       "country": "USD",
-      "title": "U.S. Durable Goods Orders Unexpectedly Unchanged In August",
-      "description": "A report released by the Commerce Department on Friday showed new orders for U.S. manufactured durable goods unexpectedly came in nearly flat in the month of August.",
-      "date": "2026-09-25T19:48:07.224246+00:00",
+      "title": "Asian Markets Trade Mixed",
+      "description": "Asian stock markets are trading mixed on Monday, following the broadly positive cues from Wall Street on Friday, amid continued uncertainty over the end to the U.S.-Iran conflict after US President Donald Trump rejected Iran's latest conditional proposal to reopen the Strait of Hormuz. Trump said he expects negotiations to resume this week, but Iran said it would not soften its conditions.",
+      "date": "2026-09-28T03:05:04.150924+00:00",
       "impact": "News",
       "forecast": "",
       "previous": "",
-      "link": "https://www.myfxbook.com/news/us-durable-goods-orders-unexpectedly-unchanged-in-august/54603"
+      "link": "https://www.myfxbook.com/news/asian-markets-trade-mixed/54621"
     },
     {
       "source": "Myfxbook",
       "type": "news",
-      "country": "WTI",
-      "title": "FTSE 100 Edges Higher On Mining, Banking Strength",
-      "description": "Mining and banking sectors led the FTSE 100 higher by 27.95 points Friday, while energy stocks fell amid renewed Middle East peace proposals. Brent crude dropped nearly 2% to $98.34 per barrel as markets anticipate potential Strait of Hormuz reopening.",
-      "date": "2026-09-25T19:48:07.224487+00:00",
+      "country": "USD",
+      "title": "Indian Shares Seen Lower At Open Amid Iran-US Standoff, Fed Hike Bets",
+      "description": "Indian shares look set to open a tad lower on Monday amid continued uncertainty over the end to the U.S.-Iran war in the Middle East.",
+      "date": "2026-09-28T02:33:04.151234+00:00",
       "impact": "News",
       "forecast": "",
       "previous": "",
-      "link": "https://www.myfxbook.com/news/ftse-100-edges-higher-on-mining-banking-strength/54602"
+      "link": "https://www.myfxbook.com/news/indian-shares-seen-lower-at-open-amid-iran-us-standoff-fed-hike-bets/54620"
     },
     {
       "source": "Myfxbook",
       "type": "news",
-      "country": "WTI",
-      "title": "Canadian Dollar Falls As Crude Oil Prices Slide",
-      "description": "The Canadian dollar weakened against other major currencies in the Asian session on Friday, as the crude oil prices retreated from recent highs following reports that Iran has submitted a proposal to the United States to end their war and reopen the Strait of Hormuz within seven days.",
-      "date": "2026-09-25T19:48:07.224688+00:00",
+      "country": "General",
+      "title": "Thai Stock Market Tipped To Open In The Green",
+      "description": "The Thai stock market bounced higher again on Friday, one day after ending the five-day winning streak in which it had jumped almost 50 points or 3.1 percent. The Stock Exchange of Thailand now sits just above the 1,605-point plateau and it's likely to open to the upside again on Monday.",
+      "date": "2026-09-28T02:04:04.151474+00:00",
       "impact": "News",
       "forecast": "",
       "previous": "",
-      "link": "https://www.myfxbook.com/news/canadian-dollar-falls-as-crude-oil-prices-slide/54600"
+      "link": "https://www.myfxbook.com/news/thai-stock-market-tipped-to-open-in-the-green/54618"
     },
     {
       "source": "Myfxbook",
       "type": "news",
-      "country": "WTI",
-      "title": "CAC 40 Pares Early Gains, Down Marginally",
-      "description": "France's equity benchmark CAC 40 pared early gains and slipped slightly below the flat line Friday afternoon, despite weak oil prices and lower bond yields amid renewed hopes of a potential reopening of the Strait of Hormuz.",
-      "date": "2026-09-25T19:48:07.224884+00:00",
+      "country": "General",
+      "title": "Higher Open Called For Indonesia Stock Market",
+      "description": "The Indonesia stock market has finished lower in back-to-back sessions, retreating more than 130 points or 2 percent in that span. The Jakarta Composite Index now sits just above the 6,240-point plateau although it's du for support on Monday.",
+      "date": "2026-09-28T01:34:04.151762+00:00",
       "impact": "News",
       "forecast": "",
       "previous": "",
-      "link": "https://www.myfxbook.com/news/cac-40-pares-early-gains-down-marginally/54599"
+      "link": "https://www.myfxbook.com/news/higher-open-called-for-indonesia-stock-market/54617"
     },
     {
       "source": "Myfxbook",
       "type": "news",
-      "country": "WTI",
-      "title": "DAX Gains On Crude Pullback, Iran Peace Proposal News",
-      "description": "German stocks gained Friday as weak crude prices and lower bond yields supported sentiment amid renewed hopes for Strait of Hormuz reopening. The DAX benchmark climbed 184.58 points to 25,440.50. Energy and financial stocks led gains while HelloFresh tanked 12% after trimming FY26 outlook.",
-      "date": "2026-09-25T19:48:07.225096+00:00",
+      "country": "JPY",
+      "title": "Japanese Market Slightly Higher",
+      "description": "The Japanese stock market is slightly higher on Monday, extending the gains in the previous two sessions, following the broadly positive cues from Wall Street on Friday. The Nikkei 225 is moving up to near the 66,450 level, with gains in automakers, financial and technology stocks partially offset by weakness in financial stocks.",
+      "date": "2026-09-28T01:24:04.152029+00:00",
       "impact": "News",
       "forecast": "",
       "previous": "",
-      "link": "https://www.myfxbook.com/news/dax-gains-on-crude-pullback-iran-peace-proposal-news/54598"
+      "link": "https://www.myfxbook.com/news/japanese-market-slightly-higher/54616"
     },
     {
       "source": "Myfxbook",
       "type": "news",
-      "country": "WTI",
-      "title": "Indian Shares Stage Late Recovery To End Modestly Higher",
-      "description": "Indian shares fluctuated before finishing modestly higher on Friday, as a sell-off in government debt eased and oil prices retreated from recent highs following reports that Iran has submitted a proposal to the United States to end their war and reopen the Strait of Hormuz within seven days.",
-      "date": "2026-09-25T19:48:07.225294+00:00",
+      "country": "AUD",
+      "title": "Australian Markets Modestly Higher",
+      "description": "The Australian stock market is modestly higher on Monday, reversing some of the losses in the previous two sessions, following the broadly positive cues from Wall Street on Friday. The benchmark S&P/ASX 200 index is moving well above the 8,700.00 level, with weakness in energy and mining stocks partially offset by gains in financial and technology stocks.",
+      "date": "2026-09-28T01:06:04.152287+00:00",
       "impact": "News",
       "forecast": "",
       "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-stage-late-recovery-to-end-modestly-higher/54597"
+      "link": "https://www.myfxbook.com/news/australian-markets-modestly-higher/54615"
     },
     {
       "source": "Myfxbook",
       "type": "news",
-      "country": "XAU",
-      "title": "Gold Edges Higher As Oil Prices And Yields Ease",
-      "description": "Gold prices rose toward $4,300 an ounce on Friday as a sell-off in government debt eased and oil prices retreated from recent highs following reports that Iran has submitted a proposal to the United States to end their war and reopen the Strait of Hormuz within seven days.",
-      "date": "2026-09-25T19:48:07.225495+00:00",
+      "country": "General",
+      "title": "Hong Kong Stock Market Poised To Halt Losing Streak",
+      "description": "The Hong Kong stock market has moved lower in three straight sessions, retreating more than 570 points or 2.3 percent along the way. The Hang Seng Index now sits just above the 24,510-point plateau although it's due for support on Monday.",
+      "date": "2026-09-28T01:04:04.152514+00:00",
       "impact": "News",
       "forecast": "",
       "previous": "",
-      "link": "https://www.myfxbook.com/news/gold-edges-higher-as-oil-prices-and-yields-ease/54595"
+      "link": "https://www.myfxbook.com/news/hong-kong-stock-market-poised-to-halt-losing-streak/54614"
     },
     {
       "source": "Myfxbook",
       "type": "news",
-      "country": "WTI",
-      "title": "Oil Prices Ease On US-Iran Breakthrough Hopes",
-      "description": "Oil prices retreated from recent highs on Friday following reports that Iran has submitted a proposal to the United States to end their war and reopen the Strait of Hormuz within seven days.",
-      "date": "2026-09-25T19:48:07.225661+00:00",
+      "country": "General",
+      "title": "Steady Start Eyed For China Stock Market",
+      "description": "Ahead of Friday's holiday for the Mid-Autumn Festival, the China stock market had finished lower in two straight sessions, sinking more than 60 points or 1.5 percent along the way. The Shanghai Composite Index now sits just shy of the 3,890-point plateau although it's likely to find traction on Monday.",
+      "date": "2026-09-28T00:34:04.152784+00:00",
       "impact": "News",
       "forecast": "",
       "previous": "",
-      "link": "https://www.myfxbook.com/news/oil-prices-ease-on-us-iran-breakthrough-hopes/54593"
+      "link": "https://www.myfxbook.com/news/steady-start-eyed-for-china-stock-market/54613"
     },
     {
       "source": "Myfxbook",
       "type": "news",
-      "country": "WTI",
-      "title": "European Shares Edge Higher On US-Iran Truce Hopes",
-      "description": "European stocks advanced on Friday and were on course for a weekly gain as a sell-off in government debt eased and oil prices retreated from recent highs following reports that Iran has submitted a proposal to the United States to end their war and reopen the Strait of Hormuz within seven days.",
-      "date": "2026-09-25T19:48:07.225850+00:00",
+      "country": "General",
+      "title": "Singapore Stock Market Poised To Open To The Upside",
+      "description": "The Singapore stock market on Friday snapped the two-day slide in which it had slumped almost 40 points or 0.7 percent. The Straits Times Index now sits just above the 5,710-point plateau and it may add to its winnings on Monday.",
+      "date": "2026-09-28T00:04:04.153073+00:00",
       "impact": "News",
       "forecast": "",
       "previous": "",
-      "link": "https://www.myfxbook.com/news/european-shares-edge-higher-on-us-iran-truce-hopes/54590"
+      "link": "https://www.myfxbook.com/news/singapore-stock-market-poised-to-open-to-the-upside/54612"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Malaysia Stock Market May Find Traction On Monday",
+      "description": "The Malaysia stock market has tracked lower in three straight sessions, shedding almost a dozen points or 0.8 percent in that span. The Kuala Lumpur Composite Index now sits just above the 1,670-point plateau although it may stop the bleeding on Monday.",
+      "date": "2026-09-27T23:34:04.153337+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/malaysia-stock-market-may-find-traction-on-monday/54611"
     }
   ]
 }
