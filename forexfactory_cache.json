@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-28T12:33:08.153476+00:00",
+  "fetched_at": "2026-09-28T12:48:08.410665+00:00",
   "periods": {
     "week": [
       {
@@ -891,24 +891,24 @@
         "actual": ""
       },
       {
-        "title": "Crude Oil Inventories",
-        "country": "USD",
+        "title": "Gov Board Member Tschudin Speaks",
+        "country": "CHF",
         "date": "2026-09-30T10:30:00-04:00",
         "impact": "Low",
         "forecast": "",
-        "previous": "3.0M",
+        "previous": "",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
         "actual": ""
       },
       {
-        "title": "Gov Board Member Tschudin Speaks",
-        "country": "CHF",
-        "date": "2026-09-30T11:00:00-04:00",
+        "title": "Crude Oil Inventories",
+        "country": "USD",
+        "date": "2026-09-30T10:30:00-04:00",
         "impact": "Low",
         "forecast": "",
-        "previous": "",
+        "previous": "3.0M",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
