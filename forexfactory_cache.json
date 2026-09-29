@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-29T10:33:06.988799+00:00",
+  "fetched_at": "2026-09-29T10:48:08.382446+00:00",
   "periods": {
     "week": [
       {
@@ -207,21 +207,9 @@
         "actual": "6.9\u00a3"
       },
       {
-        "title": "Italian 10-y Bond Auction",
-        "country": "EUR",
-        "date": "2026-09-29T05:33:00-04:00",
-        "impact": "Low",
-        "forecast": "",
-        "previous": "4.10|1.6",
-        "source": "ForexFactory",
-        "type": "calendar",
-        "link": null,
-        "actual": "4.58%"
-      },
-      {
         "title": "10-y Bond Auction",
         "country": "GBP",
-        "date": "2026-09-29T05:33:00-04:00",
+        "date": "2026-09-29T05:02:00-04:00",
         "impact": "Low",
         "forecast": "",
         "previous": "5.16|3.6",
@@ -229,6 +217,18 @@
         "type": "calendar",
         "link": null,
         "actual": "5.383%"
+      },
+      {
+        "title": "Italian 10-y Bond Auction",
+        "country": "EUR",
+        "date": "2026-09-29T05:04:00-04:00",
+        "impact": "Low",
+        "forecast": "",
+        "previous": "4.10|1.6",
+        "source": "ForexFactory",
+        "type": "calendar",
+        "link": null,
+        "actual": "4.58%"
       },
       {
         "title": "German Buba President Nagel Speaks",
