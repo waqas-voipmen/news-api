@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-28T23:48:14.276730+00:00",
+  "fetched_at": "2026-09-29T05:01:59.610966+00:00",
   "periods": {
     "week": [
       {
@@ -120,7 +120,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "4.6%"
       },
       {
         "title": "RBA Rate Statement",
