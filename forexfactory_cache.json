@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-29T09:33:33.053811+00:00",
+  "fetched_at": "2026-09-29T09:48:12.081676+00:00",
   "periods": {
     "week": [
       {
@@ -216,7 +216,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "4.58%"
       },
       {
         "title": "10-y Bond Auction",
@@ -228,7 +228,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "5.383%"
       },
       {
         "title": "German Buba President Nagel Speaks",
