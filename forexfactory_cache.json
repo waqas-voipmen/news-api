@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-30T07:48:13.824797+00:00",
+  "fetched_at": "2026-09-30T08:03:16.998749+00:00",
   "periods": {
     "week": [
       {
@@ -696,7 +696,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "12"
       },
       {
         "title": "UBS Economic Expectations",
