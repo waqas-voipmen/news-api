@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-30T09:33:37.036477+00:00",
+  "fetched_at": "2026-09-30T09:48:20.885525+00:00",
   "periods": {
     "week": [
       {
@@ -749,14 +749,14 @@
       {
         "title": "German 10-y Bond Auction",
         "country": "EUR",
-        "date": "2026-09-30T05:42:00-04:00",
+        "date": "2026-09-30T05:32:00-04:00",
         "impact": "Low",
         "forecast": "",
         "previous": "3.39|1.5",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "3.58%"
       },
       {
         "title": "Bank Holiday",
