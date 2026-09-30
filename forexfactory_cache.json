@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-30T07:33:08.954060+00:00",
+  "fetched_at": "2026-09-30T07:48:13.824797+00:00",
   "periods": {
     "week": [
       {
@@ -444,7 +444,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": "-4.8%"
+        "actual": "-1.7%"
       },
       {
         "title": "Retail Sales y/y",
