@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-30T14:03:58.303018+00:00",
+  "fetched_at": "2026-09-30T14:18:17.940232+00:00",
   "periods": {
     "week": [
       {
@@ -96,7 +96,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "1.4%"
       },
       {
         "title": "Household Spending m/m",
@@ -120,7 +120,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "4.6%"
       },
       {
         "title": "RBA Rate Statement",
@@ -168,7 +168,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "4.9%"
       },
       {
         "title": "M4 Money Supply m/m",
@@ -180,7 +180,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.4%"
       },
       {
         "title": "Mortgage Approvals",
@@ -192,7 +192,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "54.918"
       },
       {
         "title": "Net Lending to Individuals m/m",
@@ -204,7 +204,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "6.9\u00a3"
       },
       {
         "title": "10-y Bond Auction",
@@ -216,7 +216,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "5.383%"
       },
       {
         "title": "Italian 10-y Bond Auction",
@@ -228,7 +228,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "4.58%"
       },
       {
         "title": "German Buba President Nagel Speaks",
@@ -264,7 +264,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0%"
       },
       {
         "title": "HPI m/m",
@@ -312,7 +312,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "7.079"
       },
       {
         "title": "MPC Member Mann Speaks",
@@ -432,7 +432,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "1.019"
       },
       {
         "title": "Prelim Industrial Production m/m",
@@ -444,7 +444,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-1.7%"
       },
       {
         "title": "Retail Sales y/y",
@@ -468,7 +468,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "51.9"
       },
       {
         "title": "CPI m/m",
@@ -480,7 +480,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.4%"
       },
       {
         "title": "CPI y/y",
@@ -492,7 +492,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "4%"
       },
       {
         "title": "Trimmed Mean CPI m/m",
@@ -504,7 +504,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.2%"
       },
       {
         "title": "Building Approvals m/m",
@@ -528,7 +528,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.6%"
       },
       {
         "title": "Manufacturing PMI",
@@ -552,7 +552,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "50.2"
       },
       {
         "title": "RatingDog Manufacturing PMI",
@@ -564,7 +564,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "52.1"
       },
       {
         "title": "RatingDog Services PMI",
@@ -576,7 +576,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "51.6"
       },
       {
         "title": "Housing Starts y/y",
@@ -588,7 +588,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "6.1%"
       },
       {
         "title": "German Import Prices m/m",
@@ -600,7 +600,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "1%"
       },
       {
         "title": "Current Account",
@@ -612,7 +612,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-19.932\u00a3"
       },
       {
         "title": "Final GDP q/q",
@@ -624,7 +624,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.5%"
       },
       {
         "title": "Revised Business Investment q/q",
@@ -636,7 +636,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "1.8%"
       },
       {
         "title": "German Retail Sales m/m",
@@ -648,7 +648,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "1.3%"
       },
       {
         "title": "German Prelim CPI m/m",
@@ -672,7 +672,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-0.5%"
       },
       {
         "title": "French Prelim CPI m/m",
@@ -696,7 +696,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "12"
       },
       {
         "title": "UBS Economic Expectations",
@@ -720,7 +720,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.7%"
       },
       {
         "title": "FPC Meeting Minutes",
@@ -756,7 +756,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "3.58%"
       },
       {
         "title": "Bank Holiday",
@@ -780,7 +780,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "90"
       },
       {
         "title": "Core PCE Price Index m/m",
@@ -804,7 +804,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "2.2%"
       },
       {
         "title": "Final GDP Price Index q/q",
@@ -816,7 +816,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "6.1%"
       },
       {
         "title": "Goods Trade Balance",
@@ -828,7 +828,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-132.6$"
       },
       {
         "title": "Personal Income m/m",
@@ -840,7 +840,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.2%"
       },
       {
         "title": "Personal Spending m/m",
@@ -852,7 +852,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.9%"
       },
       {
         "title": "Prelim Wholesale Inventories m/m",
@@ -864,7 +864,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.7%"
       },
       {
         "title": "SNB Quarterly Bulletin",
@@ -888,7 +888,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "58.8"
       },
       {
         "title": "Gov Board Member Tschudin Speaks",
