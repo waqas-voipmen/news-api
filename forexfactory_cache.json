@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-30T12:03:29.670472+00:00",
+  "fetched_at": "2026-09-30T12:18:24.303499+00:00",
   "periods": {
     "week": [
       {
@@ -780,7 +780,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "90"
       },
       {
         "title": "Core PCE Price Index m/m",
