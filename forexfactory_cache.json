@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-30T12:18:24.303499+00:00",
+  "fetched_at": "2026-09-30T12:33:31.463665+00:00",
   "periods": {
     "week": [
       {
@@ -804,7 +804,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "2.2%"
       },
       {
         "title": "Final GDP Price Index q/q",
@@ -816,7 +816,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "6.1%"
       },
       {
         "title": "Goods Trade Balance",
@@ -828,7 +828,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-132.6$"
       },
       {
         "title": "Personal Income m/m",
@@ -840,7 +840,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.2%"
       },
       {
         "title": "Personal Spending m/m",
@@ -852,7 +852,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.9%"
       },
       {
         "title": "Prelim Wholesale Inventories m/m",
@@ -864,7 +864,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.7%"
       },
       {
         "title": "SNB Quarterly Bulletin",
