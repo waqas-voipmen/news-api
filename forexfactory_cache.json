@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-30T13:33:18.255314+00:00",
+  "fetched_at": "2026-09-30T13:48:21.871910+00:00",
   "periods": {
     "week": [
       {
@@ -888,7 +888,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "58.8"
       },
       {
         "title": "Gov Board Member Tschudin Speaks",
