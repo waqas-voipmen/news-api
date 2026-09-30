@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-30T01:18:07.762127+00:00",
+  "fetched_at": "2026-09-30T01:33:22.318881+00:00",
   "periods": {
     "week": [
       {
@@ -480,7 +480,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.4%"
       },
       {
         "title": "CPI y/y",
@@ -492,7 +492,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "4%"
       },
       {
         "title": "Trimmed Mean CPI m/m",
@@ -504,7 +504,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.2%"
       },
       {
         "title": "Building Approvals m/m",
@@ -528,7 +528,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.6%"
       },
       {
         "title": "Manufacturing PMI",
@@ -540,7 +540,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "50.1"
       },
       {
         "title": "Non-Manufacturing PMI",
@@ -552,7 +552,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "50.2"
       },
       {
         "title": "RatingDog Manufacturing PMI",
@@ -564,7 +564,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "50.1"
       },
       {
         "title": "RatingDog Services PMI",
