@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-30T14:18:17.940232+00:00",
+  "fetched_at": "2026-09-30T14:33:16.671348+00:00",
   "periods": {
     "week": [
       {
@@ -912,7 +912,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.922"
       },
       {
         "title": "FOMC Member Barkin Speaks",
