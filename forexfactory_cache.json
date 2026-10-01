@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-01T07:48:33.548421+00:00",
+  "fetched_at": "2026-10-01T08:03:07.881773+00:00",
   "periods": {
     "week": [
       {
@@ -1164,7 +1164,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "50.6"
       },
       {
         "title": "German Final Manufacturing PMI",
@@ -1176,7 +1176,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "53.9"
       },
       {
         "title": "Final Manufacturing PMI",
@@ -1188,7 +1188,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "52.9"
       },
       {
         "title": "Italian Monthly Unemployment Rate",
