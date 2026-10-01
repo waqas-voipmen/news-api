@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-01T01:18:08.628598+00:00",
+  "fetched_at": "2026-10-01T01:33:09.372677+00:00",
   "periods": {
     "week": [
       {
@@ -1056,7 +1056,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "495"
       },
       {
         "title": "RBA Financial Stability Review",
