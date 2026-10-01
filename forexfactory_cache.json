@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-01T00:33:03.933911+00:00",
+  "fetched_at": "2026-10-01T00:48:08.933253+00:00",
   "periods": {
     "week": [
       {
@@ -1032,7 +1032,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "35"
       },
       {
         "title": "Final Manufacturing PMI",
@@ -1044,7 +1044,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "54.1"
       },
       {
         "title": "Goods Trade Balance",
