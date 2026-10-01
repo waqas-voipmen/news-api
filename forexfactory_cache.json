@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-01T08:48:09.265467+00:00",
+  "fetched_at": "2026-10-01T09:03:27.228359+00:00",
   "periods": {
     "week": [
       {
@@ -1236,7 +1236,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": "7.1%"
+        "actual": ""
       },
       {
         "title": "Spanish 10-y Bond Auction",
@@ -1248,7 +1248,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "4.176%"
       },
       {
         "title": "French 10-y Bond Auction",
@@ -1260,7 +1260,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "4.93%"
       },
       {
         "title": "Challenger Job Cuts y/y",
