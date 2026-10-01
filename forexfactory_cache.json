@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-01T09:18:18.751697+00:00",
+  "fetched_at": "2026-10-01T09:33:16.323970+00:00",
   "periods": {
     "week": [
       {
@@ -1272,7 +1272,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "43.281"
       },
       {
         "title": "German Buba President Nagel Speaks",
