@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-01T14:18:09.798738+00:00",
+  "fetched_at": "2026-10-01T14:33:09.892694+00:00",
   "periods": {
     "week": [
       {
@@ -1452,7 +1452,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "64"
       },
       {
         "title": "SNB Chairman Schlegel Speaks",
