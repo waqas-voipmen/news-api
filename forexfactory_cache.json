@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-01T07:33:29.802089+00:00",
+  "fetched_at": "2026-10-01T07:48:33.548421+00:00",
   "periods": {
     "week": [
       {
@@ -1152,7 +1152,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": "51"
+        "actual": "50.4"
       },
       {
         "title": "French Final Manufacturing PMI",
@@ -1164,7 +1164,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": "51"
+        "actual": ""
       },
       {
         "title": "German Final Manufacturing PMI",
@@ -1176,7 +1176,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": "51"
+        "actual": ""
       },
       {
         "title": "Final Manufacturing PMI",
@@ -1188,7 +1188,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": "51"
+        "actual": ""
       },
       {
         "title": "Italian Monthly Unemployment Rate",
@@ -1236,7 +1236,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "7.1%"
       },
       {
         "title": "Spanish 10-y Bond Auction",
