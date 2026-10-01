@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-01T13:48:09.285231+00:00",
+  "fetched_at": "2026-10-01T14:03:08.674211+00:00",
   "periods": {
     "week": [
       {
@@ -1380,7 +1380,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "54.5"
       },
       {
         "title": "FOMC Member Waller Speaks",
@@ -1404,7 +1404,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "54.5"
       },
       {
         "title": "Construction Spending m/m",
@@ -1416,7 +1416,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.9%"
       },
       {
         "title": "ISM Manufacturing Prices",
@@ -1428,7 +1428,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "77.9"
       },
       {
         "title": "Omdia Total Vehicle Sales",
