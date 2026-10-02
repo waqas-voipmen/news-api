@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-01T22:48:08.947121+00:00",
+  "fetched_at": "2026-10-02T00:40:06.336332+00:00",
   "periods": {
     "week": [
       {
@@ -1515,10 +1515,10 @@
         "actual": ""
       },
       {
-        "title": "FOMC Member Logan Speaks",
-        "country": "USD",
-        "date": "2026-10-01T18:45:00-04:00",
-        "impact": "Low",
+        "title": "Bank Holiday",
+        "country": "CNY",
+        "date": "2026-10-01T19:01:00-04:00",
+        "impact": "Holiday",
         "forecast": "",
         "previous": "",
         "source": "ForexFactory",
@@ -1527,10 +1527,10 @@
         "actual": ""
       },
       {
-        "title": "Bank Holiday",
-        "country": "CNY",
-        "date": "2026-10-01T19:01:00-04:00",
-        "impact": "Holiday",
+        "title": "FOMC Member Logan Speaks",
+        "country": "USD",
+        "date": "2026-10-01T19:20:00-04:00",
+        "impact": "Low",
         "forecast": "",
         "previous": "",
         "source": "ForexFactory",
@@ -1560,7 +1560,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "2.5%"
       },
       {
         "title": "Monetary Base y/y",
