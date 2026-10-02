@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-02T12:18:07.121180+00:00",
+  "fetched_at": "2026-10-02T12:33:07.264260+00:00",
   "periods": {
     "week": [
       {
@@ -1632,7 +1632,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.1%"
       },
       {
         "title": "Non-Farm Employment Change",
@@ -1656,7 +1656,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "4.2%"
       },
       {
         "title": "Factory Orders m/m",
