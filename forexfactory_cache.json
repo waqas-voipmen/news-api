@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-02T14:18:08.225026+00:00",
+  "fetched_at": "2026-10-02T15:05:26.626600+00:00",
   "periods": {
     "week": [
       {
@@ -1674,6 +1674,18 @@
         "title": "FOMC Member Logan Speaks",
         "country": "USD",
         "date": "2026-10-02T10:00:00-04:00",
+        "impact": "Low",
+        "forecast": "",
+        "previous": "",
+        "source": "ForexFactory",
+        "type": "calendar",
+        "link": null,
+        "actual": ""
+      },
+      {
+        "title": "FOMC Member Goolsbee Speaks",
+        "country": "USD",
+        "date": "2026-10-02T12:00:00-04:00",
         "impact": "Low",
         "forecast": "",
         "previous": "",
