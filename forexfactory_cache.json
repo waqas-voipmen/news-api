@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-02T06:18:09.455078+00:00",
+  "fetched_at": "2026-10-02T06:33:09.497059+00:00",
   "periods": {
     "week": [
       {
@@ -1572,7 +1572,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": "15.2%"
+        "actual": "-15.2%"
       },
       {
         "title": "Spanish Unemployment Change",
