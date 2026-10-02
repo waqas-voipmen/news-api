@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-02T06:48:08.775042+00:00",
+  "fetched_at": "2026-10-02T07:03:09.484388+00:00",
   "periods": {
     "week": [
       {
@@ -1584,7 +1584,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "23.587"
       },
       {
         "title": "Italian Retail Sales m/m",
