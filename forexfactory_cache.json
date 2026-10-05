@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-05T00:58:52.118270+00:00",
+  "fetched_at": "2026-10-05T01:03:07.240405+00:00",
   "periods": {
     "week": [
       {
@@ -48,7 +48,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.3%"
       },
       {
         "title": "ANZ Commodity Prices m/m",
@@ -60,7 +60,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.6%"
       },
       {
         "title": "Consumer Confidence",
