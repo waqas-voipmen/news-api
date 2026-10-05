@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-05T14:03:03.290278+00:00",
+  "fetched_at": "2026-10-05T17:04:11.657526+00:00",
   "periods": {
     "week": [
       {
@@ -192,7 +192,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "54.9"
       },
       {
         "title": "ISM Services PMI",
@@ -204,7 +204,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "54.9"
       },
       {
         "title": "NZIER Business Confidence",
@@ -271,7 +271,7 @@
         "country": "EUR",
         "date": "2026-10-06T02:00:00-04:00",
         "impact": "Low",
-        "forecast": "-1.0%",
+        "forecast": "-0.9%",
         "previous": "2.5%",
         "source": "ForexFactory",
         "type": "calendar",
@@ -367,7 +367,7 @@
         "country": "EUR",
         "date": "2026-10-06T05:00:00-04:00",
         "impact": "Low",
-        "forecast": "0.3%",
+        "forecast": "0.2%",
         "previous": "-0.6%",
         "source": "ForexFactory",
         "type": "calendar",
@@ -403,7 +403,7 @@
         "country": "CAD",
         "date": "2026-10-06T08:30:00-04:00",
         "impact": "Low",
-        "forecast": "1.3B",
+        "forecast": "1.5B",
         "previous": "0.8B",
         "source": "ForexFactory",
         "type": "calendar",
@@ -415,7 +415,7 @@
         "country": "USD",
         "date": "2026-10-06T08:30:00-04:00",
         "impact": "Low",
-        "forecast": "-95.2B",
+        "forecast": "-100.8B",
         "previous": "-88.6B",
         "source": "ForexFactory",
         "type": "calendar",
@@ -465,6 +465,18 @@
         "impact": "Low",
         "forecast": "",
         "previous": "-1.1%",
+        "source": "ForexFactory",
+        "type": "calendar",
+        "link": null,
+        "actual": ""
+      },
+      {
+        "title": "FOMC Member Schmid Speaks",
+        "country": "USD",
+        "date": "2026-10-06T13:15:00-04:00",
+        "impact": "Low",
+        "forecast": "",
+        "previous": "",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
@@ -711,6 +723,18 @@
         "actual": ""
       },
       {
+        "title": "FOMC Member Waller Speaks",
+        "country": "USD",
+        "date": "2026-10-08T04:30:00-04:00",
+        "impact": "Medium",
+        "forecast": "",
+        "previous": "",
+        "source": "ForexFactory",
+        "type": "calendar",
+        "link": null,
+        "actual": ""
+      },
+      {
         "title": "MPC Member Greene Speaks",
         "country": "GBP",
         "date": "2026-10-08T05:15:00-04:00",
@@ -751,6 +775,18 @@
         "country": "EUR",
         "date": "2026-10-08T07:30:00-04:00",
         "impact": "Low",
+        "forecast": "",
+        "previous": "",
+        "source": "ForexFactory",
+        "type": "calendar",
+        "link": null,
+        "actual": ""
+      },
+      {
+        "title": "BOE Gov Bailey Speaks",
+        "country": "GBP",
+        "date": "2026-10-08T08:15:00-04:00",
+        "impact": "High",
         "forecast": "",
         "previous": "",
         "source": "ForexFactory",
