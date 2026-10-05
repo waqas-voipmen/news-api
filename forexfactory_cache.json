@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-05T07:03:11.393385+00:00",
+  "fetched_at": "2026-10-05T07:18:10.491584+00:00",
   "periods": {
     "week": [
       {
@@ -84,7 +84,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "58.3"
       },
       {
         "title": "German Buba President Nagel Speaks",
@@ -108,7 +108,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "58.3"
       },
       {
         "title": "French Final Services PMI",
@@ -120,7 +120,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "58.3"
       },
       {
         "title": "German Final Services PMI",
@@ -132,7 +132,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "58.3"
       },
       {
         "title": "Final Services PMI",
@@ -144,7 +144,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "58.3"
       },
       {
         "title": "Sentix Investor Confidence",
