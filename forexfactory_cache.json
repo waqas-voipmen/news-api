@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-06T02:33:04.162469+00:00",
+  "fetched_at": "2026-10-06T02:48:08.882288+00:00",
   "periods": {
     "week": [
       {
@@ -252,7 +252,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "2.2%"
       },
       {
         "title": "10-y Bond Auction",
