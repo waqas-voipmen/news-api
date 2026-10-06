@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-06T13:48:07.444929+00:00",
+  "fetched_at": "2026-10-06T14:03:07.851793+00:00",
   "periods": {
     "week": [
       {
@@ -432,7 +432,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "61.9"
       },
       {
         "title": "RCM/TIPP Economic Optimism",
