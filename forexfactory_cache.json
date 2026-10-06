@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-06T15:07:30.518212+00:00",
+  "fetched_at": "2026-10-06T17:19:17.979588+00:00",
   "periods": {
     "week": [
       {
@@ -437,14 +437,14 @@
       {
         "title": "RCM/TIPP Economic Optimism",
         "country": "USD",
-        "date": "2026-10-06T10:10:00-04:00",
+        "date": "2026-10-06T10:01:00-04:00",
         "impact": "Low",
         "forecast": "44.5",
         "previous": "45.6",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "46.8"
       },
       {
         "title": "FOMC Member Bowman Speaks",
@@ -461,14 +461,14 @@
       {
         "title": "GDT Price Index",
         "country": "NZD",
-        "date": "2026-10-06T10:50:00-04:00",
+        "date": "2026-10-06T11:46:00-04:00",
         "impact": "Low",
         "forecast": "",
         "previous": "-1.1%",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "1.2%"
       },
       {
         "title": "FOMC Member Schmid Speaks",
