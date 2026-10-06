@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-05T21:48:10.283562+00:00",
+  "fetched_at": "2026-10-06T00:02:27.150159+00:00",
   "periods": {
     "week": [
       {
@@ -523,7 +523,7 @@
         "country": "JPY",
         "date": "2026-10-07T01:00:00-04:00",
         "impact": "Low",
-        "forecast": "118.1%",
+        "forecast": "118.3%",
         "previous": "117.9%",
         "source": "ForexFactory",
         "type": "calendar",
@@ -619,7 +619,7 @@
         "country": "USD",
         "date": "2026-10-07T15:00:00-04:00",
         "impact": "Low",
-        "forecast": "15.4B",
+        "forecast": "14.4B",
         "previous": "18.1B",
         "source": "ForexFactory",
         "type": "calendar",
@@ -643,7 +643,7 @@
         "country": "JPY",
         "date": "2026-10-07T19:50:00-04:00",
         "impact": "Low",
-        "forecast": "2.10T",
+        "forecast": "2.13T",
         "previous": "2.52T",
         "source": "ForexFactory",
         "type": "calendar",
@@ -679,7 +679,7 @@
         "country": "JPY",
         "date": "2026-10-08T01:00:00-04:00",
         "impact": "Low",
-        "forecast": "46.6",
+        "forecast": "46.7",
         "previous": "46.4",
         "source": "ForexFactory",
         "type": "calendar",
@@ -931,7 +931,7 @@
         "country": "CAD",
         "date": "2026-10-09T08:30:00-04:00",
         "impact": "High",
-        "forecast": "9.0K",
+        "forecast": "6.2K",
         "previous": "-41.7K",
         "source": "ForexFactory",
         "type": "calendar",
