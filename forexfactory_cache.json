@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-06T03:33:08.713278+00:00",
+  "fetched_at": "2026-10-06T03:48:08.933673+00:00",
   "periods": {
     "week": [
       {
@@ -264,7 +264,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "3.1%"
       },
       {
         "title": "German Factory Orders m/m",
