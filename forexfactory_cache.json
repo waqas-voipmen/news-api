@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-07T07:18:04.756628+00:00",
+  "fetched_at": "2026-10-07T07:33:07.966693+00:00",
   "periods": {
     "week": [
       {
@@ -576,7 +576,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "770.47"
       },
       {
         "title": "Crude Oil Inventories",
