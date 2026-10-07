@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-07T06:48:07.758746+00:00",
+  "fetched_at": "2026-10-07T07:03:08.064738+00:00",
   "periods": {
     "week": [
       {
@@ -564,7 +564,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-6.12\u20ac"
       },
       {
         "title": "Foreign Currency Reserves",
