@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-08T07:03:08.737333+00:00",
+  "fetched_at": "2026-10-08T07:18:08.119163+00:00",
   "periods": {
     "week": [
       {
@@ -240,7 +240,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-4.7%"
       },
       {
         "title": "ANZ Job Advertisements m/m",
@@ -420,7 +420,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": "-132.07$"
+        "actual": "-136.6$"
       },
       {
         "title": "Ivey PMI",
