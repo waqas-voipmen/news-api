@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-08T00:33:10.456464+00:00",
+  "fetched_at": "2026-10-08T00:48:10.289519+00:00",
   "periods": {
     "week": [
       {
@@ -747,6 +747,18 @@
         "actual": ""
       },
       {
+        "title": "MPC Member Pill Speaks",
+        "country": "GBP",
+        "date": "2026-10-08T05:00:00-04:00",
+        "impact": "Low",
+        "forecast": "",
+        "previous": "",
+        "source": "ForexFactory",
+        "type": "calendar",
+        "link": null,
+        "actual": ""
+      },
+      {
         "title": "MPC Member Greene Speaks",
         "country": "GBP",
         "date": "2026-10-08T05:15:00-04:00",
@@ -762,18 +774,6 @@
         "title": "Eurogroup Meetings",
         "country": "EUR",
         "date": "2026-10-08T05:15:00-04:00",
-        "impact": "Low",
-        "forecast": "",
-        "previous": "",
-        "source": "ForexFactory",
-        "type": "calendar",
-        "link": null,
-        "actual": ""
-      },
-      {
-        "title": "MPC Member Pill Speaks",
-        "country": "GBP",
-        "date": "2026-10-08T06:30:00-04:00",
         "impact": "Low",
         "forecast": "",
         "previous": "",
