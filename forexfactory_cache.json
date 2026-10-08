@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-08T17:04:03.839712+00:00",
+  "fetched_at": "2026-10-08T17:18:08.892284+00:00",
   "periods": {
     "week": [
       {
@@ -864,7 +864,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "5.62%"
       },
       {
         "title": "FOMC Member Musalem Speaks",
