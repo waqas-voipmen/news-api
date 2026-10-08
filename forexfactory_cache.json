@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-08T13:48:09.974798+00:00",
+  "fetched_at": "2026-10-08T14:03:10.387633+00:00",
   "periods": {
     "week": [
       {
@@ -840,7 +840,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.5%"
       },
       {
         "title": "Natural Gas Storage",
