@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-09T12:18:07.258276+00:00",
+  "fetched_at": "2026-10-09T12:33:07.146238+00:00",
   "periods": {
     "week": [
       {
@@ -948,7 +948,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-68.3"
       },
       {
         "title": "Unemployment Rate",
@@ -960,7 +960,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "6.5%"
       },
       {
         "title": "Prelim UoM Consumer Sentiment",
