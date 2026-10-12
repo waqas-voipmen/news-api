@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-12T05:18:04.069223+00:00",
+  "fetched_at": "2026-10-12T05:33:03.993569+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Indian Shares Fluctuate In Range-bound Trade",
+      "description": "Indian shares were fluctuating in early trade on Monday as investors monitored developments in energy markets and reacted to the Reserve Bank of India's latest measures to support the plunging rupee.",
+      "date": "2026-10-12T04:29:03.988346+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-fluctuate-in-range-bound-trade/55155"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/south-korea-shares-may-halt-losing-streak-on-monday/55141"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "CAD",
-      "title": "TSX Up Sharply As Rate Hike Concerns Fade; Aritzia Soars On Earnings Update",
-      "description": "The Canadian market is up firmly in positive territory Friday afternoon, supported by strong gains in technology, materials and consumer discretionary sectors. Energy and financials stocks are also notably higher.\n\nWeak Canadian jobs data has raised expectations that the Bank of Canada will not hike interest rates anytime soon.",
-      "date": "2026-10-10T04:50:45.351638+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/tsx-up-sharply-as-rate-hike-concerns-fade-aritzia-soars-on-earnings-update/55140"
     }
   ]
 }
