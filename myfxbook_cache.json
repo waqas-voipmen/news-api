@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-12T09:18:04.271194+00:00",
+  "fetched_at": "2026-10-12T09:33:04.466727+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "European Shares Edge Higher As Bond Yields Fall",
+      "description": "European stocks traded higher on Monday, after having recovered from four-month lows in the previous session on U.S. President Trump's remarks dismissing speculation of pre-midterm military action against Iran.",
+      "date": "2026-10-12T09:06:04.462751+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-shares-edge-higher-as-bond-yields-fall/55166"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/australian-markets-notably-higher/55145"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Taiwan Stock Market May Stop The Bleeding On Monday",
-      "description": "The Taiwan stock market has finished lower in consecutive trading days, sinking more than 510 points or 1.1 percent along the way. The Taiwan Stock Exchange bow sits just above he 49,310-point plateau although it's expected to bounce higher on Monday.",
-      "date": "2026-10-12T00:34:03.965125+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/taiwan-stock-market-may-stop-the-bleeding-on-monday/55144"
     }
   ]
 }
