@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-12T20:33:15.160756+00:00",
+  "fetched_at": "2026-10-12T20:48:14.087514+00:00",
   "periods": {
     "week": [
       {
@@ -187,7 +187,7 @@
         "country": "CNY",
         "date": "2026-10-13T04:03:00-04:00",
         "impact": "Low",
-        "forecast": "7.5%",
+        "forecast": "7.4%",
         "previous": "7.5%",
         "source": "ForexFactory",
         "type": "calendar",
@@ -199,7 +199,7 @@
         "country": "CNY",
         "date": "2026-10-13T04:03:00-04:00",
         "impact": "Low",
-        "forecast": "300B",
+        "forecast": "1025B",
         "previous": "60B",
         "source": "ForexFactory",
         "type": "calendar",
@@ -211,7 +211,7 @@
         "country": "USD",
         "date": "2026-10-13T06:00:00-04:00",
         "impact": "Low",
-        "forecast": "98.0",
+        "forecast": "98.1",
         "previous": "98.7",
         "source": "ForexFactory",
         "type": "calendar",
@@ -261,18 +261,6 @@
         "impact": "Low",
         "forecast": "",
         "previous": "0.5%",
-        "source": "ForexFactory",
-        "type": "calendar",
-        "link": null,
-        "actual": ""
-      },
-      {
-        "title": "MPC Member Dhingra Speaks",
-        "country": "GBP",
-        "date": "2026-10-13T12:00:00-04:00",
-        "impact": "Low",
-        "forecast": "",
-        "previous": "",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
