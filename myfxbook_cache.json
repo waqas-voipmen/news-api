@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-12T11:18:04.530552+00:00",
+  "fetched_at": "2026-10-12T11:33:04.394465+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "FTSE 100 Up Firmly In Positive Territory As Bank Stocks Post Strong Gains",
+      "description": "After opening modestly higher, the U.K. stock market's benchmark index FTSE 100 remained firmly up in positive territory a little past noon on Monday, extending previous session's upmove thanks to lower bond yields and somewhat stable oil prices.",
+      "date": "2026-10-12T11:15:04.391005+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/ftse-100-up-firmly-in-positive-territory-as-bank-stocks-post-strong-gains/55173"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/asian-markets-trade-mixed/55153"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "Indian Shares Seen Higher At Open After Trump's Russia Diesel Deal",
-      "description": "Indian shares look set to open higher on Monday as a U.S.-Russia deal on 500,000 metric tons of fuel to reach international markets cast doubt on the likelihood of the White House imposing new sanctions on Russia.",
-      "date": "2026-10-12T02:44:03.698847+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-seen-higher-at-open-after-trumps-russia-diesel-deal/55150"
     }
   ]
 }
