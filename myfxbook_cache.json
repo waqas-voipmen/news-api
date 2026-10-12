@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-12T00:03:03.698385+00:00",
+  "fetched_at": "2026-10-12T00:18:04.187550+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Malaysia Bourse May Extend Friday's Gains",
+      "description": "The Malaysia stock market on Friday snapped the two-day slide in which it had slumped more than 30 points or 2 percent. The Kuala Lumpur Composite Index now sits just shy of the 1,610-point plateau and it may add to its winnings on Monday.",
+      "date": "2026-10-11T23:34:04.183970+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/malaysia-bourse-may-extend-fridays-gains/55142"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/german-equities-rally-amid-de-escalation-signals-on-iran/55127"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "XAU",
-      "title": "Gold Rallies As Dollar Pauses, Yields Ease From 24-year Highs",
-      "description": "Gold prices were sharply higher on Friday as oil prices fell and bond yields steadied, helping ease concerns around inflation and interest rates.",
-      "date": "2026-10-10T04:50:45.354593+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/gold-rallies-as-dollar-pauses-yields-ease-from-24-year-highs/55125"
     }
   ]
 }
