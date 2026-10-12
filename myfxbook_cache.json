@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-12T02:33:03.640745+00:00",
+  "fetched_at": "2026-10-12T02:48:03.902810+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Thai Stock Market May Add To Its Winnings On Monday",
+      "description": "The Thai stock market bounced higher again on Friday, one day after ending the five-day winning streak in which it had gained almost 25 points or 1.6 percent. The Stock Exchange of Thailand now sits just above the 1,575-point plateau and it's looking at another solid lead for Monday's trade.",
+      "date": "2026-10-12T02:04:03.898900+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/thai-stock-market-may-add-to-its-winnings-on-monday/55149"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/us-consumer-sentiment-index-falls-more-than-expected-in-october/55137"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Delta Stock Drops On Cautious Earnings View In Q4 & FY27 After Weak Q3",
-      "description": "Shares of Delta Air Lines, Inc. were losing around 3 percent in the morning trading on the NYSE after the airline reported weak third-quarter earnings, issued cautious earnings view for the fourth quarter and trimmed fiscal 2027 earnings view amid high fuel cost environment.However, the company projects higher revenues for the fourth quarter, extending the strong third-quarter revenue performance.",
-      "date": "2026-10-10T04:50:45.352737+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/delta-stock-drops-on-cautious-earnings-view-in-q4--fy27-after-weak-q3/55135"
     }
   ]
 }
