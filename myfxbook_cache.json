@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-12T04:18:07.642062+00:00",
+  "fetched_at": "2026-10-12T04:33:03.979446+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australian Market Extends Early Gains In Mid-market",
+      "description": "The Australian stock market is extending its early gains in mid-market trading on Monday, adding to the gains in the previous session, following the broadly positive cues from Wall Street on Friday. The benchmark S&P/ASX 200 index is moving well above the 8,750.00 level, with gains across most sectors led by mining and technology stocks. Energy stocks are the only weak spot.",
+      "date": "2026-10-12T03:37:03.974691+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australian-market-extends-early-gains-in-mid-market/55154"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/tsx-up-sharply-as-rate-hike-concerns-fade-aritzia-soars-on-earnings-update/55140"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Swiss Market Ends On Bright Note",
-      "description": "The Switzerland stock market closed on a strong note on Friday like several other markets in Europe, as slightly easing geopolitical tensions and a drop in oil prices helped underpin sentiment.",
-      "date": "2026-10-10T04:50:45.351939+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/swiss-market-ends-on-bright-note/55139"
     }
   ]
 }
