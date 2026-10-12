@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-12T10:33:04.774795+00:00",
+  "fetched_at": "2026-10-12T10:48:04.608918+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Indian Shares End Notably Lower As FII Selling Continues",
+      "description": "Indian shares gave up early gains to end notably lower on Monday as persistent foreign selling, elevated crude oil prices and rising domestic bond yields offset investor optimism stemming from the Reserve Bank of India's (RBI) weekend measures to support the rupee and manage liquidity.",
+      "date": "2026-10-12T10:25:04.605009+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-end-notably-lower-as-fii-selling-continues/55171"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/thai-stock-market-may-add-to-its-winnings-on-monday/55149"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Higher Open Called For Indonesia Stock Market",
-      "description": "The Indonesia stock market on Friday ended the two-day losing streak in which it had lost more than 160 points or 2.5 percent. The Jakarta Composite Index now sits just shy of the 6,100-point plateau and it's likely to see additional support on Monday.",
-      "date": "2026-10-12T01:34:03.742120+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/higher-open-called-for-indonesia-stock-market/55148"
     }
   ]
 }
