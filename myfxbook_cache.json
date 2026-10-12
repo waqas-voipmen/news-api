@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-12T23:03:04.069019+00:00",
+  "fetched_at": "2026-10-12T23:18:04.037277+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Bargain Hunting May Boost South Korea Shares",
+      "description": "The South Korea stock market has finished lower in four straight sessions, sinking more than 620 points or 9 percent along the way. The KOSPI now sits just above the 6,380-point plateau although it's overdue for support on Tuesday.",
+      "date": "2026-10-12T23:04:04.030775+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/bargain-hunting-may-boost-south-korea-shares/55186"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/oil-prices-rise-in-choppy-trade/55167"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "European Shares Edge Higher As Bond Yields Fall",
-      "description": "European stocks traded higher on Monday, after having recovered from four-month lows in the previous session on U.S. President Trump's remarks dismissing speculation of pre-midterm military action against Iran.",
-      "date": "2026-10-12T09:06:04.462751+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-shares-edge-higher-as-bond-yields-fall/55166"
     }
   ]
 }
