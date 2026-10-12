@@ -1,18 +1,6 @@
 {
-  "fetched_at": "2026-10-12T03:03:03.590658+00:00",
+  "fetched_at": "2026-10-12T03:18:03.786402+00:00",
   "events": [
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "Indian Shares Seen Higher At Open After Trump's Russia Diesel Deal",
-      "description": "Indian shares look set to open higher on Monday as a U.S.-Russia deal on 500,000 metric tons of fuel to reach international markets cast doubt on the likelihood of the White House imposing new sanctions on Russia.",
-      "date": "2026-10-12T02:44:03.586858+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-seen-higher-at-open-after-trumps-russia-diesel-deal/55150"
-    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -156,6 +144,18 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/european-markets-close-higher-for-2nd-straight-session/55138"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Consumer Sentiment Index Falls More Than Expected In October",
+      "description": "Consumer sentiment in the U.S. has deteriorated by more than expected in the month of October, according to preliminary data released by the University of Michigan on Friday. The University of Michigan said its consumer sentiment index fell to 46.3 in October from 48.1 in September. Economists had expected the index to dip to 47.6.",
+      "date": "2026-10-10T03:18:03.785790+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-consumer-sentiment-index-falls-more-than-expected-in-october/55137"
     }
   ]
 }
