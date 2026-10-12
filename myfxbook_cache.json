@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-12T00:18:04.187550+00:00",
+  "fetched_at": "2026-10-12T00:33:04.069533+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Bargain Hunting Likely To Boost Singapore Stock Market",
+      "description": "The Singapore stock market has finished lower in three straight sessions, tumbling almost 300 points or 6 percent in that span. The STI now sits just above the 5,400-point plateau although it's due for support on Monday.",
+      "date": "2026-10-12T00:04:04.065953+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/bargain-hunting-likely-to-boost-singapore-stock-market/55143"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indian-shares-rebound-after-two-day-slide-it-stocks-lead-gainers/55128"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "German Equities Rally Amid De-Escalation Signals On Iran",
-      "description": "Germany's DAX index surged 281.35 points to 25,088.32 on Friday after U.S. President Donald Trump stated the U.S. will not attack Iran before midterm elections and described Tehran discussions as productive. Brent crude fell nearly 1% to $103.23 a barrel, while German 10-year bond yields dropped to 3.484%.",
-      "date": "2026-10-10T04:50:45.354284+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/german-equities-rally-amid-de-escalation-signals-on-iran/55127"
     }
   ]
 }
