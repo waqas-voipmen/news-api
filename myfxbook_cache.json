@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-12T10:03:04.508596+00:00",
+  "fetched_at": "2026-10-12T10:18:04.347592+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "German Stocks Extending Recent Gains",
+      "description": "German stocks gained notable ground in positive territory Monday morning, extending gains from the previous session, amid easing geopolitical tensions after U.S. President Donald Trump's comments that there won't be any military action against Iran before the midterm elections in the U.S.",
+      "date": "2026-10-12T09:51:04.343931+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/german-stocks-extending-recent-gains/55169"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/hong-kong-shares-poised-to-open-to-the-upside-on-monday/55147"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Additional Support Anticipated For China Stock Market",
-      "description": "The China stock market inched higher again on Friday, one session after ending the two-day winning streak in which it had collected almost 20 points or 0.5 percent. The Shanghai Composite Index now sits just above the 3,810-point plateau and it may extend its gains on Monday.",
-      "date": "2026-10-12T01:04:03.917151+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/additional-support-anticipated-for-china-stock-market/55146"
     }
   ]
 }
