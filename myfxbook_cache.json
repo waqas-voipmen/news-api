@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-12T10:18:04.347592+00:00",
+  "fetched_at": "2026-10-12T10:33:04.774795+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "XAU",
+      "title": "Gold Edges Lower Amid Gulf Unrest",
+      "description": "Gold prices edged lower on Monday as investors monitored the situation in oil markets and looked forward to the release of U.S. consumer and producer price inflation data due this week, which could impact expectations for the Federal Reserve's next monetary policy meeting later this month.",
+      "date": "2026-10-12T09:57:04.771047+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/gold-edges-lower-amid-gulf-unrest/55170"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/higher-open-called-for-indonesia-stock-market/55148"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Hong Kong Shares Poised To Open To The Upside On Monday",
-      "description": "The Hong Kong stock market on Friday halted the two-day slide in which it had fallen almost 500 points or 2 percent. The Hang Seng now sits just above the 24,200-point plateau and it's tipped to open in the green again on Monday.",
-      "date": "2026-10-12T01:19:04.422051+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/hong-kong-shares-poised-to-open-to-the-upside-on-monday/55147"
     }
   ]
 }
