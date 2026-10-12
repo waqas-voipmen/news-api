@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-12T01:03:03.968741+00:00",
+  "fetched_at": "2026-10-12T01:18:03.920933+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Additional Support Anticipated For China Stock Market",
+      "description": "The China stock market inched higher again on Friday, one session after ending the two-day winning streak in which it had collected almost 20 points or 0.5 percent. The Shanghai Composite Index now sits just above the 3,810-point plateau and it may extend its gains on Monday.",
+      "date": "2026-10-12T01:04:03.917151+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/additional-support-anticipated-for-china-stock-market/55146"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australian Markets Notably Higher",
+      "description": "The Australian stock market is notably higher on Monday, extending the gains in the previous session, following the broadly positive cues from Wall Street on Friday. The benchmark S&P/ASX 200 index is moving above the 8,750.00 level, with gains across most sectors led by mining and technology stocks. Energy stocks are the only weak spot.",
+      "date": "2026-10-12T00:59:03.917507+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australian-markets-notably-higher/55145"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/yen-falls-against-majors/55132"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "FTSE 100 Advances As Oil Drops; Miners Move Up",
-      "description": "The U.K. stock market's benchmark index FTSE 100 climbed higher Friday morning, supported by gains in mining and technology sectors. Lower crude oil prices and bond yields amid easing tensions about U.S.-Iran conflict lifted sentiment.",
-      "date": "2026-10-10T04:50:45.353459+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/ftse-100-advances-as-oil-drops-miners-move-up/55131"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "CAC 40 Modestly Higher As Oil Prices, Bond Yields Drop",
-      "description": "France's equity benchmark CAC 40 was modestly higher a little past noon on Friday as stocks gained some ground in positive territory amid easing geopolitical tensions. Lower bond yields and crude oil prices also helped underpin sentiment.",
-      "date": "2026-10-10T04:50:45.353654+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/cac-40-modestly-higher-as-oil-prices-bond-yields-drop/55130"
     }
   ]
 }
