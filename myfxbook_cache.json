@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-12T01:33:04.263651+00:00",
+  "fetched_at": "2026-10-12T01:48:04.425831+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Hong Kong Shares Poised To Open To The Upside On Monday",
+      "description": "The Hong Kong stock market on Friday halted the two-day slide in which it had fallen almost 500 points or 2 percent. The Hang Seng now sits just above the 24,200-point plateau and it's tipped to open in the green again on Monday.",
+      "date": "2026-10-12T01:19:04.422051+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/hong-kong-shares-poised-to-open-to-the-upside-on-monday/55147"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/canadian-market-likely-to-open-on-mixed-note/55134"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Yen Falls Against Majors",
-      "description": "The Japanese yen weakened against other major currencies in the European session on Friday.",
-      "date": "2026-10-10T04:50:45.353260+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/yen-falls-against-majors/55132"
     }
   ]
 }
