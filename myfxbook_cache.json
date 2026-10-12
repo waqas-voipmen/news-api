@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-12T06:18:03.777373+00:00",
+  "fetched_at": "2026-10-12T06:33:03.973513+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "European Shares Seen Up As Inflation Concerns Ease",
+      "description": "European stocks are seen opening higher on Monday as investors monitor the situation in oil markets and await cues from the third-quarter U.S. earnings season.",
+      "date": "2026-10-12T05:49:03.968944+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-shares-seen-up-as-inflation-concerns-ease/55156"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/malaysia-bourse-may-extend-fridays-gains/55142"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "South Korea Shares May Halt Losing Streak On Monday",
-      "description": "The South Korea stock market has finished lower in three straight sessions, sinking more than 375 points or 5.4 percent along the way. The KOSPI now sits just above the 6,625-point plateau although it's likely to stop the bleeding on Monday.",
-      "date": "2026-10-11T23:04:04.090511+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/south-korea-shares-may-halt-losing-streak-on-monday/55141"
     }
   ]
 }
