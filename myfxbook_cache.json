@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-12T13:33:05.680256+00:00",
+  "fetched_at": "2026-10-12T13:48:06.206635+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Dollar Rises Against Majors",
+      "description": "The U.S. dollar strengthened against other major currencies in the European session on Monday.",
+      "date": "2026-10-12T13:29:06.203423+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-dollar-rises-against-majors/55178"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/australian-market-extends-early-gains-in-mid-market/55154"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "Asian Markets Trade Mixed",
-      "description": "Asian markets are mixed on Monday, following the positive cues from Wall Street on Friday, as traders remain cautious about the developments in the Middle East as US President Donald trump said he may join Saudi Arabia in retaliating against Iran-backed Houthis in Yemen following another deadly attack on Riyadh's international airport and tanker attacks near the Strait of Hormuz over the weekend.",
-      "date": "2026-10-12T03:32:03.881224+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/asian-markets-trade-mixed/55153"
     }
   ]
 }
