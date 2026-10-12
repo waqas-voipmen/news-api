@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-12T02:03:05.186755+00:00",
+  "fetched_at": "2026-10-12T02:18:03.746389+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Higher Open Called For Indonesia Stock Market",
+      "description": "The Indonesia stock market on Friday ended the two-day losing streak in which it had lost more than 160 points or 2.5 percent. The Jakarta Composite Index now sits just shy of the 6,100-point plateau and it's likely to see additional support on Monday.",
+      "date": "2026-10-12T01:34:03.742120+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/higher-open-called-for-indonesia-stock-market/55148"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/delta-stock-drops-on-cautious-earnings-view-in-q4--fy27-after-weak-q3/55135"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "CAD",
-      "title": "Canadian Market Likely To Open On Mixed Note",
-      "description": "It's likely to be a mixed start for stocks on Bay Street on Friday with investors tracking a mixed trend in the commodities markets and reacting to Canadian jobs data for the month of September.",
-      "date": "2026-10-10T04:50:45.353058+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/canadian-market-likely-to-open-on-mixed-note/55134"
     }
   ]
 }
