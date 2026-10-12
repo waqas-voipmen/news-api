@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-12T22:03:04.153537+00:00",
+  "fetched_at": "2026-10-12T22:18:04.098047+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "RBA Minutes On Tap For Tuesday",
+      "description": "The Reserve Bank of Australia will on Tuesday release the minutes from its September 29 Monetary Policy Board meeting, highlighting a light day for Asia-Pacific economic activity.",
+      "date": "2026-10-12T22:04:04.092922+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/rba-minutes-on-tap-for-tuesday/55185"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/european-shares-edge-higher-as-bond-yields-fall/55166"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "Asian Shares Mixed In Cautious Trade",
-      "description": "Asian stocks turned in a mixed performance on Monday, with South Korean markets falling sharply due to worsening investor sentiment in the semiconductor sector on growing concerns over the AI industry in the U.S.",
-      "date": "2026-10-12T08:36:04.147693+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/asian-shares-mixed-in-cautious-trade/55163"
     }
   ]
 }
