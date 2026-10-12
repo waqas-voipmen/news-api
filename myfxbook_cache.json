@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-12T14:33:04.889973+00:00",
+  "fetched_at": "2026-10-12T15:33:16.380303+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "Dollar Rises Amidst Inflation Focus, Haven Demand",
+      "description": "The U.S. Dollar rallied further during the week ended October 9 as markets digested the hawkish minutes from the recent FOMC that revealed a Fed focused on inflation combat.",
+      "date": "2026-10-12T14:25:16.357411+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/dollar-rises-amidst-inflation-focus-haven-demand/55180"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/european-shares-seen-up-as-inflation-concerns-ease/55156"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Indian Shares Fluctuate In Range-bound Trade",
-      "description": "Indian shares were fluctuating in early trade on Monday as investors monitored developments in energy markets and reacted to the Reserve Bank of India's latest measures to support the plunging rupee.",
-      "date": "2026-10-12T04:29:03.988346+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-fluctuate-in-range-bound-trade/55155"
     }
   ]
 }
