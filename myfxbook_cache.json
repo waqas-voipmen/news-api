@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-12T09:48:04.318140+00:00",
+  "fetched_at": "2026-10-12T10:03:04.508596+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Oil Prices Rise In Choppy Trade",
+      "description": "Oil prices traded higher on Monday, recouping early losses in the wake of fresh attacks on Saudi Arabia's aviation infrastructure by Iran-backed Houthi militants and a drone strike on a tanker near the Sohar anchorage off Oman.",
+      "date": "2026-10-12T09:29:04.503025+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/oil-prices-rise-in-choppy-trade/55167"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/additional-support-anticipated-for-china-stock-market/55146"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australian Markets Notably Higher",
-      "description": "The Australian stock market is notably higher on Monday, extending the gains in the previous session, following the broadly positive cues from Wall Street on Friday. The benchmark S&P/ASX 200 index is moving above the 8,750.00 level, with gains across most sectors led by mining and technology stocks. Energy stocks are the only weak spot.",
-      "date": "2026-10-12T00:59:03.917507+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-markets-notably-higher/55145"
     }
   ]
 }
