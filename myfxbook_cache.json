@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-12T00:48:04.227757+00:00",
+  "fetched_at": "2026-10-12T01:03:03.968741+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Taiwan Stock Market May Stop The Bleeding On Monday",
+      "description": "The Taiwan stock market has finished lower in consecutive trading days, sinking more than 510 points or 1.1 percent along the way. The Taiwan Stock Exchange bow sits just above he 49,310-point plateau although it's expected to bounce higher on Monday.",
+      "date": "2026-10-12T00:34:03.965125+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/taiwan-stock-market-may-stop-the-bleeding-on-monday/55144"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/cac-40-modestly-higher-as-oil-prices-bond-yields-drop/55130"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Indian Shares Rebound After Two-day Slide; IT Stocks Lead Gainers",
-      "description": "Indian shares rose sharply on Friday, rebounding after two consecutive sessions of losses as oil prices fell and global bond yields steadied, helping ease concerns around inflation and interest rates.",
-      "date": "2026-10-10T04:50:45.353845+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-rebound-after-two-day-slide-it-stocks-lead-gainers/55128"
     }
   ]
 }
