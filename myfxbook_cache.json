@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-12T03:33:03.702656+00:00",
+  "fetched_at": "2026-10-12T03:48:03.885150+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "Asian Markets Trade Mixed",
+      "description": "Asian markets are mixed on Monday, following the positive cues from Wall Street on Friday, as traders remain cautious about the developments in the Middle East as US President Donald trump said he may join Saudi Arabia in retaliating against Iran-backed Houthis in Yemen following another deadly attack on Riyadh's international airport and tanker attacks near the Strait of Hormuz over the weekend.",
+      "date": "2026-10-12T03:32:03.881224+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/asian-markets-trade-mixed/55153"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/swiss-market-ends-on-bright-note/55139"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "European Markets Close Higher For 2nd Straight Session",
-      "description": "After two successive days of losses, European markets turned in a fine performance on Friday as geopolitical tensions eased after U.S. President Donald Trump said the U.S. will not attack Iran before next month's midterm elections and termed ongoing discussions with Tehran as \"productive.\"",
-      "date": "2026-10-10T04:50:45.352152+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-markets-close-higher-for-2nd-straight-session/55138"
     }
   ]
 }
