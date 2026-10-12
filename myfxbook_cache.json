@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-12T11:03:04.492132+00:00",
+  "fetched_at": "2026-10-12T11:18:04.530552+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "CAC 40 Modestly Higher As Stocks Turn In Mixed Performance",
+      "description": "French stocks turned in a mixed performance on Monday with investors assessing the Middle East situation and tracking oil prices and bond yields movements. \n\nOil's recovery from the lower levels limited market's upside.",
+      "date": "2026-10-12T10:43:04.526612+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/cac-40-modestly-higher-as-stocks-turn-in-mixed-performance/55172"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indian-shares-seen-higher-at-open-after-trumps-russia-diesel-deal/55150"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Thai Stock Market May Add To Its Winnings On Monday",
-      "description": "The Thai stock market bounced higher again on Friday, one day after ending the five-day winning streak in which it had gained almost 25 points or 1.6 percent. The Stock Exchange of Thailand now sits just above the 1,575-point plateau and it's looking at another solid lead for Monday's trade.",
-      "date": "2026-10-12T02:04:03.898900+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/thai-stock-market-may-add-to-its-winnings-on-monday/55149"
     }
   ]
 }
