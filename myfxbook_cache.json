@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-12T14:18:06.247546+00:00",
+  "fetched_at": "2026-10-12T14:33:04.889973+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Dollar Rises On Fed Rate Hike Bets",
+      "description": "The U.S. dollar strengthened against other major currencies in the European session on Monday, as trader are pricing out the likelihood of a rate hike at the Fed meeting in late October, although expectations for a 25-basis-point increase in December are still firmly on the table.",
+      "date": "2026-10-12T13:46:04.886594+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-dollar-rises-on-fed-rate-hike-bets/55179"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indian-shares-fluctuate-in-range-bound-trade/55155"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australian Market Extends Early Gains In Mid-market",
-      "description": "The Australian stock market is extending its early gains in mid-market trading on Monday, adding to the gains in the previous session, following the broadly positive cues from Wall Street on Friday. The benchmark S&P/ASX 200 index is moving well above the 8,750.00 level, with gains across most sectors led by mining and technology stocks. Energy stocks are the only weak spot.",
-      "date": "2026-10-12T03:37:03.974691+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-market-extends-early-gains-in-mid-market/55154"
     }
   ]
 }
