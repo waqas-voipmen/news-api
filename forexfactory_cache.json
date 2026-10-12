@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-12T23:18:07.481497+00:00",
+  "fetched_at": "2026-10-12T23:59:29.912580+00:00",
   "periods": {
     "week": [
       {
@@ -108,7 +108,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "5.3%"
       },
       {
         "title": "PPI y/y",
@@ -120,7 +120,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "6.8%"
       },
       {
         "title": "Monetary Policy Meeting Minutes",
