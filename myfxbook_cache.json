@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-13T18:03:13.870232+00:00",
+  "fetched_at": "2026-10-13T18:18:05.785335+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Major European Markets Fail To Hold Gains, End Marginally Down",
+      "description": "The major European markets settled slightly down on Tuesday as oil's rebound from lower levels and weakness in the tech sector amid renewed uncertainty about returns on AI investments rendered the mood cautious past mid-afternoon.\n\nThe markets started off on a firm note this morning as oil prices fell and bond yields edged lower.",
+      "date": "2026-10-13T17:52:05.779626+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/major-european-markets-fail-to-hold-gains-end-marginally-down/55233"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/gold-inches-higher-as-oil-dollar-retreat/55217"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Oil Prices Decline Amid Russian Diesel Relief",
-      "description": "Oil prices fell sharply on Tuesday as Russia partially lifted its diesel export restrictions, helping ease supply constraints in global fuel markets.",
-      "date": "2026-10-13T10:01:09.127336+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/oil-prices-decline-amid-russian-diesel-relief/55214"
     }
   ]
 }
