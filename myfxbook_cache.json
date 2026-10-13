@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-13T04:33:04.469580+00:00",
+  "fetched_at": "2026-10-13T04:48:04.460799+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Indian Shares Sharply Higher As IT Stocks Surge On AI Slowdown Worries",
+      "description": "Indian shares were sharply higher in early trade on Tuesday, with information stocks leading the surge as enthusiasm for artificial intelligence eased.",
+      "date": "2026-10-13T04:38:04.454193+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-sharply-higher-as-it-stocks-surge-on-ai-slowdown-worries/55202"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/singapore-stock-market-may-hand-back-mondays-gains/55189"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Malaysia Bourse May Run Out Of Steam On Tuesday",
-      "description": "The Malaysia stock market has finished higher in back-to-back sessions, collecting almost 20 points or 1.2 percent along the way. The Kuala Lumpur Composite Index now sits just shy of the 1,620-point plateau although the rally may stall on Tuesday.",
-      "date": "2026-10-12T23:33:21.778902+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/malaysia-bourse-may-run-out-of-steam-on-tuesday/55188"
     }
   ]
 }
