@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-13T09:33:07.713082+00:00",
+  "fetched_at": "2026-10-13T09:48:08.093724+00:00",
   "periods": {
     "week": [
       {
@@ -177,30 +177,6 @@
         "impact": "Low",
         "forecast": "",
         "previous": "",
-        "source": "ForexFactory",
-        "type": "calendar",
-        "link": null,
-        "actual": ""
-      },
-      {
-        "title": "M2 Money Supply y/y",
-        "country": "CNY",
-        "date": "2026-10-13T04:03:00-04:00",
-        "impact": "Low",
-        "forecast": "7.4%",
-        "previous": "7.5%",
-        "source": "ForexFactory",
-        "type": "calendar",
-        "link": null,
-        "actual": ""
-      },
-      {
-        "title": "New Loans",
-        "country": "CNY",
-        "date": "2026-10-13T04:03:00-04:00",
-        "impact": "Low",
-        "forecast": "1025B",
-        "previous": "60B",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
@@ -447,6 +423,30 @@
         "actual": ""
       },
       {
+        "title": "M2 Money Supply y/y",
+        "country": "CNY",
+        "date": "2026-10-14T04:03:00-04:00",
+        "impact": "Low",
+        "forecast": "7.4%",
+        "previous": "7.5%",
+        "source": "ForexFactory",
+        "type": "calendar",
+        "link": null,
+        "actual": ""
+      },
+      {
+        "title": "New Loans",
+        "country": "CNY",
+        "date": "2026-10-14T04:03:00-04:00",
+        "impact": "Low",
+        "forecast": "1025B",
+        "previous": "60B",
+        "source": "ForexFactory",
+        "type": "calendar",
+        "link": null,
+        "actual": ""
+      },
+      {
         "title": "ECB President Lagarde Speaks",
         "country": "EUR",
         "date": "2026-10-14T04:30:00-04:00",
@@ -475,6 +475,18 @@
         "country": "USD",
         "date": "2026-10-14T05:40:00-04:00",
         "impact": "Low",
+        "forecast": "",
+        "previous": "",
+        "source": "ForexFactory",
+        "type": "calendar",
+        "link": null,
+        "actual": ""
+      },
+      {
+        "title": "EU Economic Summit",
+        "country": "EUR",
+        "date": "2026-10-14T06:15:00-04:00",
+        "impact": "Medium",
         "forecast": "",
         "previous": "",
         "source": "ForexFactory",
@@ -849,6 +861,18 @@
         "impact": "Low",
         "forecast": "0.0%",
         "previous": "-0.1%",
+        "source": "ForexFactory",
+        "type": "calendar",
+        "link": null,
+        "actual": ""
+      },
+      {
+        "title": "EU Economic Summit",
+        "country": "EUR",
+        "date": "2026-10-15T06:15:00-04:00",
+        "impact": "Medium",
+        "forecast": "",
+        "previous": "",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
