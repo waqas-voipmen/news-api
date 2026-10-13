@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-13T23:18:07.522240+00:00",
+  "fetched_at": "2026-10-13T23:33:07.770402+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Japan Stock Market Has Another Weak Lead",
+      "description": "The Japan stock market has tracked lower in four straight sessions, slumping more than 2,900 points or 4.1 percent in that span. The Nikkei now sits just above the 67,775-point plateau and it's looking at another soft start again on Wednesday.",
+      "date": "2026-10-13T23:19:07.761929+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/japan-stock-market-has-another-weak-lead/55239"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "KOSPI May Find Support At Key 6,000-Point Level",
+      "description": "The South Korea stock market has finished lower in five straight sessions, plummeting more than 970 points or 14.5 percent along the way. The KOSPI now sits just above the 6,030-point plateau and it's overdue for support on Wednesday.",
+      "date": "2026-10-13T23:04:07.762660+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/kospi-may-find-support-at-key-6000-point-level/55238"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/johnson--johnson-q3-profit-plunges-lifts-fy26-outlook-stock-drops/55223"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "CAC 40 Pares Early Gains",
-      "description": "After a firm start, France's equity benchmark CAC 40 pared gains and hovered around the flat line about an hour past noon on Tuesday as investors turned a bit cautious, looking ahead to the earnings season.\n\nFalling oil prices and lower bond yields contributed to the positive start this morning.",
-      "date": "2026-10-13T11:12:04.791563+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/cac-40-pares-early-gains/55222"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Indian Shares Rally As IT Stocks Surge On AI Selloff",
-      "description": "Indian shares logged strong gains on Tuesday, with information technology stocks leading the surge as enthusiasm for artificial intelligence eased.",
-      "date": "2026-10-13T10:43:08.100447+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-rally-as-it-stocks-surge-on-ai-selloff/55219"
     }
   ]
 }
