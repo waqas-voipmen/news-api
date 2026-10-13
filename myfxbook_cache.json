@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-13T14:03:08.601841+00:00",
+  "fetched_at": "2026-10-13T14:18:04.628430+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "IMF Raises Global Growth Outlook Despite Geopolitical Tensions",
+      "description": "The International Monetary Fund upgraded its global growth outlook despite concerns over a more persistent energy market disruption than anticipated due to tensions in the Middle East. In the World Economic Outlook, released Tuesday, the IMF lifted its global growth outlook for this year to 3.1 percent from 3.0 percent estimated in July. But this was weaker than the 3.5 percent growth in 2025.",
+      "date": "2026-10-13T13:50:04.625081+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/imf-raises-global-growth-outlook-despite-geopolitical-tensions/55230"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/asian-shares-mostly-lower-amid-ai-jitters/55211"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "European Shares Poised For Cautious Open Amid AI Jitters",
-      "description": "European stocks are seen opening broadly lower on Tuesday as investors await key U.S. inflation data and corporate earnings in the coming days for direction.",
-      "date": "2026-10-13T05:49:04.681731+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-shares-poised-for-cautious-open-amid-ai-jitters/55206"
     }
   ]
 }
