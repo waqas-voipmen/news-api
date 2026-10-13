@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-13T09:18:04.803102+00:00",
+  "fetched_at": "2026-10-13T09:33:04.580980+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "European Shares Rise As Oil Prices Ease On Russian Diesel Supply Deal",
+      "description": "European shares edged higher on Tuesday as oil prices eased and investors reacted to a slew of earnings.",
+      "date": "2026-10-13T09:20:04.576782+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-shares-rise-as-oil-prices-ease-on-russian-diesel-supply-deal/55212"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/china-stock-market-may-remain-rangebound-on-tuesday/55193"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Tech Shares May Weigh On Taiwan Stock Market",
-      "description": "The Taiwan stock market has finished lower in three straight sessions, sinking more than 520 points or 1.1 percent along the way. The Taiwan Stock Exchange now sits just above he 49,300-point plateau and it may spin its wheels again on Tuesday.",
-      "date": "2026-10-13T00:34:04.881920+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/tech-shares-may-weigh-on-taiwan-stock-market/55192"
     }
   ]
 }
