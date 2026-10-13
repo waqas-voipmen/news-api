@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-13T01:33:04.553660+00:00",
+  "fetched_at": "2026-10-13T01:48:04.590030+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Mild Upside Tipped For Indonesia Stock Market",
+      "description": "The Indonesia stock market headed south again on Monday, one session after ending the two-day losing streak in which it had lost more than 160 points or 2.5 percent. The Jakarta Composite Index now sits just shy of the 5,940-point plateau although it may see at least a technical rebound on Tuesday.",
+      "date": "2026-10-13T01:34:04.584978+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/mild-upside-tipped-for-indonesia-stock-market/55197"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Japanese Market Sharply Lower",
+      "description": "The Japanese stock market is trading sharply lower on Tuesday, extending the losses in the previous three sessions, following the mixed cues from Wall Street overnight, with the Nikkei 225 tumbling 2.4 percent to well below the 67,400 level, with weakness in technology partially offset by gains in automakers and financial stocks.",
+      "date": "2026-10-13T01:33:04.585350+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/japanese-market-sharply-lower/55196"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/rba-minutes-on-tap-for-tuesday/55185"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "CHF",
-      "title": "Swiss Market Ends Higher For 2nd Straight Day",
-      "description": "After opening on a firm note, Swiss stocks stayed firm in positive territory through the trading session on Monday, in line with markets across Europe, as slightly easing geopolitical tensions lifted investor sentiment.",
-      "date": "2026-10-12T18:04:04.974536+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/swiss-market-ends-higher-for-2nd-straight-day/55184"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "European Markets Close On Firm Note Amid Easing Geopolitical Tensions",
-      "description": "European markets closed on a firm note on Monday, extending gains from previous session as lower bond yields and hopes of Russia-Ukraine \"energy ceasefire\" helped underpin sentiment.",
-      "date": "2026-10-12T17:49:04.975032+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-markets-close-on-firm-note-amid-easing-geopolitical-tensions/55183"
     }
   ]
 }
