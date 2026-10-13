@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-13T15:48:07.349961+00:00",
+  "fetched_at": "2026-10-13T16:03:08.236627+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "CAD",
+      "title": "TSX Up Firmly In Positive Territory; Energy Stocks Rally",
+      "description": "After a strong start, the Canadian market pared some gains Tuesday morning but still remains firmly placed in positive territory with stocks from energy, communications, consumer staples and financials sectors making significant progress up north.",
+      "date": "2026-10-13T15:34:08.224294+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/tsx-up-firmly-in-positive-territory-energy-stocks-rally/55232"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/oil-prices-decline-amid-russian-diesel-relief/55214"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "European Shares Rise As Oil Prices Ease On Russian Diesel Supply Deal",
-      "description": "European shares edged higher on Tuesday as oil prices eased and investors reacted to a slew of earnings.",
-      "date": "2026-10-13T09:20:04.576782+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-shares-rise-as-oil-prices-ease-on-russian-diesel-supply-deal/55212"
     }
   ]
 }
