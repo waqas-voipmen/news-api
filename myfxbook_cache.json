@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-13T10:03:04.094991+00:00",
+  "fetched_at": "2026-10-13T10:18:09.145460+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Oil Prices Decline Amid Russian Diesel Relief",
+      "description": "Oil prices fell sharply on Tuesday as Russia partially lifted its diesel export restrictions, helping ease supply constraints in global fuel markets.",
+      "date": "2026-10-13T10:01:09.127336+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/oil-prices-decline-amid-russian-diesel-relief/55214"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/australian-markets-modestly-lower/55194"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "China Stock Market May Remain Rangebound On Tuesday",
-      "description": "The China stock market has finished lower in two of three trading days since the end of the two-day winning streak in which it had collected almost 20 points or 0.5 percent. The Shanghai Composite Index now sits just beneath the 3,800-point plateau and it's likely to remain in that neighborhood again on Tuesday.",
-      "date": "2026-10-13T01:04:05.329744+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/china-stock-market-may-remain-rangebound-on-tuesday/55193"
     }
   ]
 }
