@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-13T09:48:08.093724+00:00",
+  "fetched_at": "2026-10-13T10:03:07.006814+00:00",
   "periods": {
     "week": [
       {
@@ -192,7 +192,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "97.9"
       },
       {
         "title": "ADP Weekly Employment Change",
