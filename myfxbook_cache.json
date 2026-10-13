@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-13T12:48:04.834374+00:00",
+  "fetched_at": "2026-10-13T13:03:05.061498+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "XAU",
+      "title": "Bay Street May Open Higher; Tech Stocks Likely To Decline",
+      "description": "Canadian stocks are seen opening on a positive note Tuesday morning, tracking higher gold prices and on easing worries about inflation following a sharp drop in oil prices. Tech stocks may find the going a bit tough amid renewed uncertainty about returns on AI investments.",
+      "date": "2026-10-13T12:47:05.055791+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/bay-street-may-open-higher-tech-stocks-likely-to-decline/55227"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indian-shares-sharply-higher-as-it-stocks-surge-on-ai-slowdown-worries/55202"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australian Market Maintains Early Losses In Mid-market",
-      "description": "The Australian stock market is maintaining its early losses in mid-market trading on Tuesday, reversing the gains in the previous two sessions, following the mixed cues from Wall Street overnight. The benchmark S&P/ASX 200 index is falling well below the 8,800 level, with weakness in mining and technology stocks partially offset by gains in financial and energy stocks.",
-      "date": "2026-10-13T03:26:04.767063+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-market-maintains-early-losses-in-mid-market/55200"
     }
   ]
 }
