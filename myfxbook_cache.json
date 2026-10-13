@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-13T02:33:04.389248+00:00",
+  "fetched_at": "2026-10-13T02:48:04.488783+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Indian Shares Seen Higher At Open; IT Stocks In Focus As AI Trade Falters",
+      "description": "Indian shares are seen opening higher on Tuesday, with information technology stocks likely to be in focus as enthusiasm for artificial intelligence eased.",
+      "date": "2026-10-13T02:36:04.483797+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-seen-higher-at-open-it-stocks-in-focus-as-ai-trade-falters/55198"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/bargain-hunting-may-boost-south-korea-shares/55186"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "RBA Minutes On Tap For Tuesday",
-      "description": "The Reserve Bank of Australia will on Tuesday release the minutes from its September 29 Monetary Policy Board meeting, highlighting a light day for Asia-Pacific economic activity.",
-      "date": "2026-10-12T22:04:04.092922+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/rba-minutes-on-tap-for-tuesday/55185"
     }
   ]
 }
