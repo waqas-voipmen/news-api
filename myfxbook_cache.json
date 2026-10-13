@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-13T01:03:03.710060+00:00",
+  "fetched_at": "2026-10-13T01:18:05.334066+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "China Stock Market May Remain Rangebound On Tuesday",
+      "description": "The China stock market has finished lower in two of three trading days since the end of the two-day winning streak in which it had collected almost 20 points or 0.5 percent. The Shanghai Composite Index now sits just beneath the 3,800-point plateau and it's likely to remain in that neighborhood again on Tuesday.",
+      "date": "2026-10-13T01:04:05.329744+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/china-stock-market-may-remain-rangebound-on-tuesday/55193"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/us-dollar-rises-on-fed-rate-hike-bets/55179"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Dollar Rises Against Majors",
-      "description": "The U.S. dollar strengthened against other major currencies in the European session on Monday.",
-      "date": "2026-10-12T13:29:06.203423+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-dollar-rises-against-majors/55178"
     }
   ]
 }
