@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-13T00:18:04.668831+00:00",
+  "fetched_at": "2026-10-13T00:33:04.415926+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Japan Overall Bank Lending Rises 5.3% On Year In September",
+      "description": "The total value of overall bank lending in Japan was up 5.3 percent on year in September, the Bank of Japan said on Tuesday - coming in at 681.974 trillion yen.",
+      "date": "2026-10-13T00:17:04.412371+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/japan-overall-bank-lending-rises-53-on-year-in-september/55191"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Japan Producer Prices Sink 0.3% In September",
+      "description": "Producer prices in Japan were down a seasonally adjusted 0.3 percent on month in September, the Bank of Japan said on Tuesday.",
+      "date": "2026-10-13T00:12:04.412683+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/japan-producer-prices-sink-03-in-september/55190"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/ftse-100-up-firmly-in-positive-territory-as-bank-stocks-post-strong-gains/55173"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "CAC 40 Modestly Higher As Stocks Turn In Mixed Performance",
-      "description": "French stocks turned in a mixed performance on Monday with investors assessing the Middle East situation and tracking oil prices and bond yields movements. \n\nOil's recovery from the lower levels limited market's upside.",
-      "date": "2026-10-12T10:43:04.526612+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/cac-40-modestly-higher-as-stocks-turn-in-mixed-performance/55172"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Indian Shares End Notably Lower As FII Selling Continues",
-      "description": "Indian shares gave up early gains to end notably lower on Monday as persistent foreign selling, elevated crude oil prices and rising domestic bond yields offset investor optimism stemming from the Reserve Bank of India's (RBI) weekend measures to support the rupee and manage liquidity.",
-      "date": "2026-10-12T10:25:04.605009+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-end-notably-lower-as-fii-selling-continues/55171"
     }
   ]
 }
