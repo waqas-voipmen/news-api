@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-13T10:33:08.322089+00:00",
+  "fetched_at": "2026-10-13T10:48:07.387995+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "German Equities Climb Amid Oil Retreat; September CPI Rises To 3.3%",
+      "description": "German stocks climbed to a third consecutive session of gains Tuesday as easing oil prices and bond yields boosted sentiment. The DAX gained 0.44%, while Brent crude fell 2% to $104.40 per barrel after Russia partially lifted diesel export restrictions. Germany's September inflation accelerated to 3.3% year-on-year, the highest since December 2023.",
+      "date": "2026-10-13T10:38:07.373207+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/german-equities-climb-amid-oil-retreat-september-cpi-rises-to-33/55218"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/japanese-market-sharply-lower/55196"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Rally May Stall For Hong Kong Stock Market",
-      "description": "The Hong Kong stock market has finished higher in two straight sessions, gathering almost 500 points or 2 percent along the way. The Hang Seng now sits just above the 24,270-point plateau although it may open in the red on Tuesday.",
-      "date": "2026-10-13T01:19:04.549627+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/rally-may-stall-for-hong-kong-stock-market/55195"
     }
   ]
 }
