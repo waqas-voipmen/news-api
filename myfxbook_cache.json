@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-13T10:18:09.145460+00:00",
+  "fetched_at": "2026-10-13T10:33:08.322089+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "XAU",
+      "title": "Gold Inches Higher As Oil, Dollar Retreat",
+      "description": "Gold prices were modestly higher on Tuesday as oil prices eased and the dollar retreated from an 18-month high ahead of key U.S. inflation data due later in week, which could influence Federal Reserve expectations.",
+      "date": "2026-10-13T10:18:08.303095+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/gold-inches-higher-as-oil-dollar-retreat/55217"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/rally-may-stall-for-hong-kong-stock-market/55195"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australian Markets Modestly Lower",
-      "description": "The Australian stock market is modestly lower on Tuesday, reversing the gains in the previous two sessions, following the mixed cues from Wall Street overnight. The benchmark S&P/ASX 200 index is falling well below the 8,800 level, with weakness in mining and technology stocks partially offset by gains in financial and energy stocks.",
-      "date": "2026-10-13T01:09:04.549973+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-markets-modestly-lower/55194"
     }
   ]
 }
