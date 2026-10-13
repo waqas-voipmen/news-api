@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-13T01:18:05.334066+00:00",
+  "fetched_at": "2026-10-13T01:33:04.553660+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Rally May Stall For Hong Kong Stock Market",
+      "description": "The Hong Kong stock market has finished higher in two straight sessions, gathering almost 500 points or 2 percent along the way. The Hang Seng now sits just above the 24,270-point plateau although it may open in the red on Tuesday.",
+      "date": "2026-10-13T01:19:04.549627+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/rally-may-stall-for-hong-kong-stock-market/55195"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australian Markets Modestly Lower",
+      "description": "The Australian stock market is modestly lower on Tuesday, reversing the gains in the previous two sessions, following the mixed cues from Wall Street overnight. The benchmark S&P/ASX 200 index is falling well below the 8,800 level, with weakness in mining and technology stocks partially offset by gains in financial and energy stocks.",
+      "date": "2026-10-13T01:09:04.549973+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australian-markets-modestly-lower/55194"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/european-markets-close-on-firm-note-amid-easing-geopolitical-tensions/55183"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "Dollar Rises Amidst Inflation Focus, Haven Demand",
-      "description": "The U.S. Dollar rallied further during the week ended October 9 as markets digested the hawkish minutes from the recent FOMC that revealed a Fed focused on inflation combat.",
-      "date": "2026-10-12T14:25:16.357411+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/dollar-rises-amidst-inflation-focus-haven-demand/55180"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Dollar Rises On Fed Rate Hike Bets",
-      "description": "The U.S. dollar strengthened against other major currencies in the European session on Monday, as trader are pricing out the likelihood of a rate hike at the Fed meeting in late October, although expectations for a 25-basis-point increase in December are still firmly on the table.",
-      "date": "2026-10-12T13:46:04.886594+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-dollar-rises-on-fed-rate-hike-bets/55179"
     }
   ]
 }
