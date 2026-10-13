@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-13T22:18:09.187965+00:00",
+  "fetched_at": "2026-10-13T22:33:07.801480+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "China Inflation, Trade Data Due On Wednesday",
+      "description": "China will on Wednesday release September figures for imports, exports, trade balance and consumer prices, highlighting a modest day for Asia-Pacific economic activity.",
+      "date": "2026-10-13T22:04:07.778168+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/china-inflation-trade-data-due-on-wednesday/55237"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indian-shares-rally-as-it-stocks-surge-on-ai-selloff/55219"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "German Equities Climb Amid Oil Retreat; September CPI Rises To 3.3%",
-      "description": "German stocks climbed to a third consecutive session of gains Tuesday as easing oil prices and bond yields boosted sentiment. The DAX gained 0.44%, while Brent crude fell 2% to $104.40 per barrel after Russia partially lifted diesel export restrictions. Germany's September inflation accelerated to 3.3% year-on-year, the highest since December 2023.",
-      "date": "2026-10-13T10:38:07.373207+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/german-equities-climb-amid-oil-retreat-september-cpi-rises-to-33/55218"
     }
   ]
 }
