@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-13T08:48:04.837582+00:00",
+  "fetched_at": "2026-10-13T09:03:04.542451+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Asian Shares Mostly Lower Amid AI Jitters",
+      "description": "Asian stocks retreated on Tuesday, with tech stocks coming under pressure as warnings mounted around the AI trade.",
+      "date": "2026-10-13T08:41:04.535894+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/asian-shares-mostly-lower-amid-ai-jitters/55211"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/tech-shares-may-weigh-on-taiwan-stock-market/55192"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Japan Overall Bank Lending Rises 5.3% On Year In September",
-      "description": "The total value of overall bank lending in Japan was up 5.3 percent on year in September, the Bank of Japan said on Tuesday - coming in at 681.974 trillion yen.",
-      "date": "2026-10-13T00:17:04.412371+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/japan-overall-bank-lending-rises-53-on-year-in-september/55191"
     }
   ]
 }
