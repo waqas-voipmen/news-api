@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-13T13:18:04.615643+00:00",
+  "fetched_at": "2026-10-13T13:33:04.686365+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Yen Rises Against Majors",
+      "description": "The Japanese yen strengthened against other major currencies in the late European session on Tuesday.",
+      "date": "2026-10-13T13:18:04.682629+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/yen-rises-against-majors/55228"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/australia-business-confidence-weakens-for-third-straight-month-nab/55205"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Indian Shares Sharply Higher As IT Stocks Surge On AI Slowdown Worries",
-      "description": "Indian shares were sharply higher in early trade on Tuesday, with information stocks leading the surge as enthusiasm for artificial intelligence eased.",
-      "date": "2026-10-13T04:38:04.454193+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-sharply-higher-as-it-stocks-surge-on-ai-slowdown-worries/55202"
     }
   ]
 }
