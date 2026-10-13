@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-13T00:03:04.444553+00:00",
+  "fetched_at": "2026-10-13T00:18:04.668831+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Singapore Stock Market May Hand Back Monday's Gains",
+      "description": "The Singapore stock market on Monday snapped the three-day losing streak in which it had tumbled almost 300 points or 6 percent. The STI now sits just beneath the 5,415-point plateau although it may head south again on Tuesday.",
+      "date": "2026-10-13T00:04:04.660620+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/singapore-stock-market-may-hand-back-mondays-gains/55189"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indian-shares-end-notably-lower-as-fii-selling-continues/55171"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "XAU",
-      "title": "Gold Edges Lower Amid Gulf Unrest",
-      "description": "Gold prices edged lower on Monday as investors monitored the situation in oil markets and looked forward to the release of U.S. consumer and producer price inflation data due this week, which could impact expectations for the Federal Reserve's next monetary policy meeting later this month.",
-      "date": "2026-10-12T09:57:04.771047+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/gold-edges-lower-amid-gulf-unrest/55170"
     }
   ]
 }
