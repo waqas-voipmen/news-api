@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-13T05:48:09.748993+00:00",
+  "fetched_at": "2026-10-13T06:03:07.610027+00:00",
   "periods": {
     "week": [
       {
@@ -168,7 +168,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.6%"
       },
       {
         "title": "FOMC Member Waller Speaks",

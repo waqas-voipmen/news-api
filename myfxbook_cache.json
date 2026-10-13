@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-13T05:48:06.219802+00:00",
+  "fetched_at": "2026-10-13T06:03:04.687641+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "European Shares Poised For Cautious Open Amid AI Jitters",
+      "description": "European stocks are seen opening broadly lower on Tuesday as investors await key U.S. inflation data and corporate earnings in the coming days for direction.",
+      "date": "2026-10-13T05:49:04.681731+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-shares-poised-for-cautious-open-amid-ai-jitters/55206"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australia Business Confidence Weakens For Third Straight Month: NAB",
+      "description": "Australia's business sentiment deteriorated for the third straight month in September amid concerns about higher interest rates, global uncertainty and elevated fuel costs, monthly business survey results from the National Australia Bank showed Tuesday. The business sentiment index fell to -13 from -9 in August. At the same time, the business conditions index was unchanged at 1 point in September.",
+      "date": "2026-10-13T05:46:04.682049+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australia-business-confidence-weakens-for-third-straight-month-nab/55205"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/japan-overall-bank-lending-rises-53-on-year-in-september/55191"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Japan Producer Prices Sink 0.3% In September",
-      "description": "Producer prices in Japan were down a seasonally adjusted 0.3 percent on month in September, the Bank of Japan said on Tuesday.",
-      "date": "2026-10-13T00:12:04.412683+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/japan-producer-prices-sink-03-in-september/55190"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Singapore Stock Market May Hand Back Monday's Gains",
-      "description": "The Singapore stock market on Monday snapped the three-day losing streak in which it had tumbled almost 300 points or 6 percent. The STI now sits just beneath the 5,415-point plateau although it may head south again on Tuesday.",
-      "date": "2026-10-13T00:04:04.660620+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/singapore-stock-market-may-hand-back-mondays-gains/55189"
     }
   ]
 }
