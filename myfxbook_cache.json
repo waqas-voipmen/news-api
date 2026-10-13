@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-13T13:48:04.744067+00:00",
+  "fetched_at": "2026-10-13T14:03:08.601841+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Yen Rises After BoJ Ueda Comments",
+      "description": "The Japanese yen strengthened against other major currencies in the late European session on Tuesday, after the Bank of Japan or the BoJ Governor Kazuho Ueda's comments left the door open to further interest rate hikes.",
+      "date": "2026-10-13T13:44:08.580868+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/yen-rises-after-boj-ueda-comments/55229"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/european-shares-poised-for-cautious-open-amid-ai-jitters/55206"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australia Business Confidence Weakens For Third Straight Month: NAB",
-      "description": "Australia's business sentiment deteriorated for the third straight month in September amid concerns about higher interest rates, global uncertainty and elevated fuel costs, monthly business survey results from the National Australia Bank showed Tuesday. The business sentiment index fell to -13 from -9 in August. At the same time, the business conditions index was unchanged at 1 point in September.",
-      "date": "2026-10-13T05:46:04.682049+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australia-business-confidence-weakens-for-third-straight-month-nab/55205"
     }
   ]
 }
