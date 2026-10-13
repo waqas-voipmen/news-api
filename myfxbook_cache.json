@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-13T18:18:05.785335+00:00",
+  "fetched_at": "2026-10-13T18:33:04.572235+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Swiss Market Ends Modestly Higher",
+      "description": "The Switzerland market ended modestly higher on Tuesday after holding in positive territory throughout the trading session as lower oil prices and bond yields helped underpin sentiment.",
+      "date": "2026-10-13T18:11:04.566774+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/swiss-market-ends-modestly-higher/55234"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/german-equities-climb-amid-oil-retreat-september-cpi-rises-to-33/55218"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "XAU",
-      "title": "Gold Inches Higher As Oil, Dollar Retreat",
-      "description": "Gold prices were modestly higher on Tuesday as oil prices eased and the dollar retreated from an 18-month high ahead of key U.S. inflation data due later in week, which could influence Federal Reserve expectations.",
-      "date": "2026-10-13T10:18:08.303095+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/gold-inches-higher-as-oil-dollar-retreat/55217"
     }
   ]
 }
