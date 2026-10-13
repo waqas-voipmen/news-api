@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-13T11:48:04.975774+00:00",
+  "fetched_at": "2026-10-13T12:03:04.625128+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "FTSE 100 Rises 0.65% As Oil Prices Fall On Russia Export Lift",
+      "description": "UK stocks climbed for a third consecutive session Tuesday, with the FTSE 100 gaining 0.65% to 10,725.98. Easing oil prices and bond yields supported sentiment, while Brent crude fell 1.7% to $104.90 a barrel as Russia partially lifted diesel export restrictions.",
+      "date": "2026-10-13T11:42:04.621203+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/ftse-100-rises-065-as-oil-prices-fall-on-russia-export-lift/55224"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Johnson & Johnson Q3 Profit Plunges, Lifts FY26 Outlook; Stock Drops",
+      "description": "Drug major Johnson & Johnson on Tuesday reported sharply lower third-quarter profit on special charges, despite sales growth. Further, the firm raised its fiscal 2026 outlook again and announced a quarterly dividend. In pre-market activity, the shares were losing around 2.6 percent.",
+      "date": "2026-10-13T11:40:04.621485+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/johnson--johnson-q3-profit-plunges-lifts-fy26-outlook-stock-drops/55223"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/australian-market-maintains-early-losses-in-mid-market/55200"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Asian Markets Trade Mostly Lower",
-      "description": "Asian stock markets are trading mostly lower on Tuesday, following the mixed cues from Wall Street overnight, on spiking crude oil prices and supply concerns amid continued escalation in the Middle East conflict in violation of the Russia-Ukraine \"energy ceasefire.\" Technology and semiconductor stocks are taking a hit amid mounting concerns over AI valuations and Chinese competition.",
-      "date": "2026-10-13T03:17:04.545483+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/asian-markets-trade-mostly-lower/55199"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Indian Shares Seen Higher At Open; IT Stocks In Focus As AI Trade Falters",
-      "description": "Indian shares are seen opening higher on Tuesday, with information technology stocks likely to be in focus as enthusiasm for artificial intelligence eased.",
-      "date": "2026-10-13T02:36:04.483797+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-seen-higher-at-open-it-stocks-in-focus-as-ai-trade-falters/55198"
     }
   ]
 }
