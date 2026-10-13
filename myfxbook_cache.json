@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-13T00:33:04.415926+00:00",
+  "fetched_at": "2026-10-13T00:48:04.886224+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Tech Shares May Weigh On Taiwan Stock Market",
+      "description": "The Taiwan stock market has finished lower in three straight sessions, sinking more than 520 points or 1.1 percent along the way. The Taiwan Stock Exchange now sits just above he 49,300-point plateau and it may spin its wheels again on Tuesday.",
+      "date": "2026-10-13T00:34:04.881920+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/tech-shares-may-weigh-on-taiwan-stock-market/55192"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/us-dollar-rises-against-majors/55178"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "FTSE 100 Up Firmly In Positive Territory As Bank Stocks Post Strong Gains",
-      "description": "After opening modestly higher, the U.K. stock market's benchmark index FTSE 100 remained firmly up in positive territory a little past noon on Monday, extending previous session's upmove thanks to lower bond yields and somewhat stable oil prices.",
-      "date": "2026-10-12T11:15:04.391005+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/ftse-100-up-firmly-in-positive-territory-as-bank-stocks-post-strong-gains/55173"
     }
   ]
 }
