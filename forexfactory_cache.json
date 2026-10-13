@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-13T12:03:07.732745+00:00",
+  "fetched_at": "2026-10-13T12:18:07.708048+00:00",
   "periods": {
     "week": [
       {
@@ -204,7 +204,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "24.75"
       },
       {
         "title": "Existing Home Sales",
