@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-13T11:18:04.689074+00:00",
+  "fetched_at": "2026-10-13T11:33:04.794803+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "CAC 40 Pares Early Gains",
+      "description": "After a firm start, France's equity benchmark CAC 40 pared gains and hovered around the flat line about an hour past noon on Tuesday as investors turned a bit cautious, looking ahead to the earnings season.\n\nFalling oil prices and lower bond yields contributed to the positive start this morning.",
+      "date": "2026-10-13T11:12:04.791563+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/cac-40-pares-early-gains/55222"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indian-shares-seen-higher-at-open-it-stocks-in-focus-as-ai-trade-falters/55198"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Mild Upside Tipped For Indonesia Stock Market",
-      "description": "The Indonesia stock market headed south again on Monday, one session after ending the two-day losing streak in which it had lost more than 160 points or 2.5 percent. The Jakarta Composite Index now sits just shy of the 5,940-point plateau although it may see at least a technical rebound on Tuesday.",
-      "date": "2026-10-13T01:34:04.584978+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/mild-upside-tipped-for-indonesia-stock-market/55197"
     }
   ]
 }
