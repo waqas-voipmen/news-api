@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-13T03:18:04.458060+00:00",
+  "fetched_at": "2026-10-13T03:33:04.549925+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Asian Markets Trade Mostly Lower",
+      "description": "Asian stock markets are trading mostly lower on Tuesday, following the mixed cues from Wall Street overnight, on spiking crude oil prices and supply concerns amid continued escalation in the Middle East conflict in violation of the Russia-Ukraine \"energy ceasefire.\" Technology and semiconductor stocks are taking a hit amid mounting concerns over AI valuations and Chinese competition.",
+      "date": "2026-10-13T03:17:04.545483+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/asian-markets-trade-mostly-lower/55199"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/steady-start-seen-for-japan-stock-market/55187"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Bargain Hunting May Boost South Korea Shares",
-      "description": "The South Korea stock market has finished lower in four straight sessions, sinking more than 620 points or 9 percent along the way. The KOSPI now sits just above the 6,380-point plateau although it's overdue for support on Tuesday.",
-      "date": "2026-10-12T23:04:04.030775+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/bargain-hunting-may-boost-south-korea-shares/55186"
     }
   ]
 }
