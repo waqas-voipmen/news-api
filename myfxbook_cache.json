@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-13T14:33:04.591886+00:00",
+  "fetched_at": "2026-10-13T14:48:08.072648+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Existing Home Sales Unexpectedly Rebound In September",
+      "description": "Existing home sales in the U.S. unexpectedly increased in the month of September, according to a report released by the National Association of Realtors on Tuesday. NAR said existing home sales jumped by 1.5 percent to an annual rate of 3.99 million in September after plunging by 3.2 percent to a downwardly revised rate of 3.93 million in August.",
+      "date": "2026-10-13T14:30:08.061606+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-existing-home-sales-unexpectedly-rebound-in-september/55231"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/european-shares-rise-as-oil-prices-ease-on-russian-diesel-supply-deal/55212"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Asian Shares Mostly Lower Amid AI Jitters",
-      "description": "Asian stocks retreated on Tuesday, with tech stocks coming under pressure as warnings mounted around the AI trade.",
-      "date": "2026-10-13T08:41:04.535894+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/asian-shares-mostly-lower-amid-ai-jitters/55211"
     }
   ]
 }
