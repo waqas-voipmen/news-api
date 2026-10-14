@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-14T00:18:07.483476+00:00",
+  "fetched_at": "2026-10-14T00:33:38.291805+00:00",
   "periods": {
     "week": [
       {
@@ -288,7 +288,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-0.1%"
       },
       {
         "title": "M2 Money Stock y/y",
