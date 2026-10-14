@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-14T12:18:07.228038+00:00",
+  "fetched_at": "2026-10-14T12:33:07.595886+00:00",
   "periods": {
     "week": [
       {
@@ -504,7 +504,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "8.8%"
       },
       {
         "title": "Core CPI m/m",
@@ -540,7 +540,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.6%"
       },
       {
         "title": "CPI y/y",
@@ -552,7 +552,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "3.7%"
       },
       {
         "title": "CB Leading Index m/m",

@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-14T12:18:04.449383+00:00",
+  "fetched_at": "2026-10-14T12:33:04.389577+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "GBP",
+      "title": "Pound Rises As UK Chancellor Assures Fiscal Discipline",
+      "description": "The British pound strengthened against other major currencies in the European session on Wednesday, as UK Chancellor of the Exchequer John Healey promises to finance the cost-of-living support package through increased taxes or cuts in public spending rather than further borrowing.",
+      "date": "2026-10-14T12:07:04.385304+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/pound-rises-as-uk-chancellor-assures-fiscal-discipline/55284"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/european-shares-rise-as-asml-raises-2026-sales-outlook/55269"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "Asian Shares Slide Ahead Of US Inflation Data",
-      "description": "Asian stocks ended mostly lower on Wednesday, even as pressure on tech stocks eased and dovish Fed remarks spurred expectations that the U.S. Federal Reserve may not need to raise interest rates aggressively next year.",
-      "date": "2026-10-14T08:43:04.298333+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/asian-shares-slide-ahead-of-us-inflation-data/55267"
     }
   ]
 }
