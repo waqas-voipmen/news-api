@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-14T13:48:04.192855+00:00",
+  "fetched_at": "2026-10-14T14:03:04.416599+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "CAD",
+      "title": "Bay Street Likely To Open With Slightly Positive Bias",
+      "description": "Canadian stocks may open with a positive bias on Wednesday, but the upside is likely to be limited amid a mixed trend in commodities markets. U.S. inflation data is likely to make an impact.",
+      "date": "2026-10-14T13:01:04.412677+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/bay-street-likely-to-open-with-slightly-positive-bias/55288"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/gold-extends-losses-ahead-of-us-inflation-data/55274"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Singapore Unexpectedly Pauses Monetary Policy Tightening",
-      "description": "The Monetary Authority of Singapore unexpectedly kept its monetary policy unchanged on Wednesday after two consecutive tightening. The MAS maintained the rate of appreciation of the policy band. Also, there will be no change to the width of the band and the level at which it is centered, the bank said in a statement. The bank was widely expected to tighten the policy.",
-      "date": "2026-10-14T09:57:03.777575+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/singapore-unexpectedly-pauses-monetary-policy-tightening/55273"
     }
   ]
 }
