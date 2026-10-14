@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-14T11:48:04.945985+00:00",
+  "fetched_at": "2026-10-14T12:03:04.544498+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "China Inflation Rises Marginally; PPI Inflation Strongest Since 2022",
+      "description": "China's consumer price inflation rose only slightly in September due to the fall in food prices, and remained sluggish when compared to global peers, while producer price inflation reached its highest level in over four years on rising commodity prices. Consumer prices rose 0.9 percent in September from a year ago, slightly faster than the 0.8 percent increase seen in August.",
+      "date": "2026-10-14T11:47:04.540767+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/china-inflation-rises-marginally-ppi-inflation-strongest-since-2022/55283"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "GBP",
+      "title": "FTSE 100 Modestly Higher In Cautious Trade",
+      "description": "The UK stock market's FTSE 100 moved modestly higher on Wednesday with stocks turning in a mixed performance amid a lack of fresh earnings or economic data from the home front. The mood remained slightly cautious as investors looked ahead to the U.S. crucial consumer price inflation data later in the day.",
+      "date": "2026-10-14T11:47:04.541157+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/ftse-100-modestly-higher-in-cautious-trade/55282"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/asian-shares-slide-ahead-of-us-inflation-data/55267"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australian Dollar Rises Against Majors",
-      "description": "The Australian dollar strengthened against other major currencies in the European session on Wednesday.",
-      "date": "2026-10-14T08:25:04.055904+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-dollar-rises-against-majors/55265"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "China Exports Growth Beats Expectations",
-      "description": "China exports growth accelerated more-than-expected in September on strong demand for hi-tech products, suggesting that overseas demand will help counteract the economic slowdown brought on by domestic demand and investment. Exports logged a sharp growth of 36.3 percent in September, bigger than the 25.0 percent rise in August, the General Administration of Customs reported Wednesday.",
-      "date": "2026-10-14T06:57:07.202597+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/china-exports-growth-beats-expectations/55262"
     }
   ]
 }
