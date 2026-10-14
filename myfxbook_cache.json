@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-14T14:48:05.403518+00:00",
+  "fetched_at": "2026-10-14T15:14:07.512836+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Core Consumer Prices Rise More Than Expected In September",
+      "description": "While the Labor Department released a report on Wednesday showing consumer prices in the U.S. grew in line with estimates in the month of September, the report also showed a bigger than expected increase in core consumer prices, which exclude food and energy prices. The report said consumer prices climbed by 0.6 percent in September after rising by 0.4 percent in August.",
+      "date": "2026-10-14T13:59:07.496149+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-core-consumer-prices-rise-more-than-expected-in-september/55289"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indian-shares-end-modestly-lower-after-strong-rally/55276"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "XAU",
-      "title": "Gold Extends Losses Ahead Of US Inflation Data",
-      "description": "Gold prices were moving lower on Wednesday, extending losses for a third consecutive session as investors assessed the prospect of another Federal Reserve interest-rate increase before the end of the year.",
-      "date": "2026-10-14T10:00:03.777123+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/gold-extends-losses-ahead-of-us-inflation-data/55274"
     }
   ]
 }
