@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-14T18:03:04.529371+00:00",
+  "fetched_at": "2026-10-14T18:18:04.484747+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Major European Markets Close On Firm Note",
+      "description": "The major European markets closed on the positive side on Wednesday even as several markets in the region failed to hold early gains. The early buoyancy over upbeat earnings update from Dutch semiconductor equipment maker ASML subsided a bit later on in the session.",
+      "date": "2026-10-14T17:48:04.480759+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/major-european-markets-close-on-firm-note/55291"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/asml-q3-profit-surges-lifts-fy26-outlook-warns-about-supply-constraints/55277"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Indian Shares End Modestly Lower After Strong Rally",
-      "description": "Indian shares ended modestly lower on Wednesday after logging strong gains in the previous session, led by information technology stocks.",
-      "date": "2026-10-14T10:25:04.184793+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-end-modestly-lower-after-strong-rally/55276"
     }
   ]
 }
