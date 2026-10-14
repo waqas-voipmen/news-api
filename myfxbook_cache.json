@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-14T11:33:04.248441+00:00",
+  "fetched_at": "2026-10-14T11:48:04.945985+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "GBP",
+      "title": "Pound Rises Against Majors",
+      "description": "The British pound strengthened against other major currencies in the European session on Wednesday.",
+      "date": "2026-10-14T11:29:04.942077+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/pound-rises-against-majors/55281"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "CAC 40 Climbs Higher As Technology, Luxury Stocks Move Up",
+      "description": "The French stock market's benchmark index CAC 40 moved higher on Wednesday, tracking positive cues from other major markets in Europe, after Dutch semiconductor equipment maker ASML's upbeat earnings update.",
+      "date": "2026-10-14T11:23:04.942462+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/cac-40-climbs-higher-as-technology-luxury-stocks-move-up/55280"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/china-exports-growth-beats-expectations/55262"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "European Shares Poised For Firm Start Ahead Of US Inflation Test",
-      "description": "European stocks are seen opening on a firm note on Wednesday as investors await the release of a closely watched report on U.S. consumer price inflation for directional cues.",
-      "date": "2026-10-14T05:47:07.204262+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-shares-poised-for-firm-start-ahead-of-us-inflation-test/55259"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Indian Shares Little Changed After Strong Rally",
-      "description": "Indian shares were little changed on Wednesday after logging strong gains in the previous session, led by information technology stocks.",
-      "date": "2026-10-14T04:33:07.206874+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-little-changed-after-strong-rally/55254"
     }
   ]
 }
