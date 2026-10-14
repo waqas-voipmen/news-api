@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-14T10:03:03.811204+00:00",
+  "fetched_at": "2026-10-14T10:18:03.781061+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "XAU",
+      "title": "Gold Extends Losses Ahead Of US Inflation Data",
+      "description": "Gold prices were moving lower on Wednesday, extending losses for a third consecutive session as investors assessed the prospect of another Federal Reserve interest-rate increase before the end of the year.",
+      "date": "2026-10-14T10:00:03.777123+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/gold-extends-losses-ahead-of-us-inflation-data/55274"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Singapore Unexpectedly Pauses Monetary Policy Tightening",
+      "description": "The Monetary Authority of Singapore unexpectedly kept its monetary policy unchanged on Wednesday after two consecutive tightening. The MAS maintained the rate of appreciation of the policy band. Also, there will be no change to the width of the band and the level at which it is centered, the bank said in a statement. The bank was widely expected to tighten the policy.",
+      "date": "2026-10-14T09:57:03.777575+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/singapore-unexpectedly-pauses-monetary-policy-tightening/55273"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/thai-shares-may-tick-lower-on-wednesday/55250"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Continued Consolidation Likely For Indonesia Stock Market",
-      "description": "The Indonesia stock market has moved lower in two straight sessions, sinking almost 170 points or 2.9 percent along the way. The Jakarta Composite Index now sits just above the 5,925-point plateau and it may take further damage again on Wednesday.",
-      "date": "2026-10-14T01:34:07.211461+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/continued-consolidation-likely-for-indonesia-stock-market/55249"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Japanese Market Modestly Higher",
-      "description": "The Japanese stock market is trading modestly higher on Wednesday, snapping a four-session losing streak, despite the broadly negative cues from Wall Street overnight. The Nikkei 225 is moving above the 68,000 mark, with gains in exporters, automakers and technology stocks partially offset by weakness in financial stocks.",
-      "date": "2026-10-14T01:29:07.212276+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/japanese-market-modestly-higher/55248"
     }
   ]
 }
