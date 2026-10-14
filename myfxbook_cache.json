@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-14T08:48:04.059552+00:00",
+  "fetched_at": "2026-10-14T09:03:04.302675+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "Asian Shares Slide Ahead Of US Inflation Data",
+      "description": "Asian stocks ended mostly lower on Wednesday, even as pressure on tech stocks eased and dovish Fed remarks spurred expectations that the U.S. Federal Reserve may not need to raise interest rates aggressively next year.",
+      "date": "2026-10-14T08:43:04.298333+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/asian-shares-slide-ahead-of-us-inflation-data/55267"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/australian-market-notably-lower/55246"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "China Bourse Likely Rangebound Again On Wednesday",
-      "description": "The China stock market has alternated between positive and negative finishes through the last four trading days since the end of the two-day winning streak in which it had collected almost 20 points or 0.5 percent. The Shanghai Composite Index now sits just above the 3,800-point plateau and it's likely to remain in that neighborhood again on Wednesday.",
-      "date": "2026-10-14T01:04:07.214163+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/china-bourse-likely-rangebound-again-on-wednesday/55245"
     }
   ]
 }
