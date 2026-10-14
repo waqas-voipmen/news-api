@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-14T00:33:38.291805+00:00",
+  "fetched_at": "2026-10-14T00:48:13.263744+00:00",
   "periods": {
     "week": [
       {
@@ -594,6 +594,18 @@
         "title": "Beige Book",
         "country": "USD",
         "date": "2026-10-14T14:00:00-04:00",
+        "impact": "Low",
+        "forecast": "",
+        "previous": "",
+        "source": "ForexFactory",
+        "type": "calendar",
+        "link": null,
+        "actual": ""
+      },
+      {
+        "title": "FOMC Member Goolsbee Speaks",
+        "country": "USD",
+        "date": "2026-10-14T15:00:00-04:00",
         "impact": "Low",
         "forecast": "",
         "previous": "",
