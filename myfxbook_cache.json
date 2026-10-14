@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-14T10:48:04.188546+00:00",
+  "fetched_at": "2026-10-14T11:03:18.797601+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "ASML Q3 Profit Surges, Lifts FY26 Outlook; Warns About Supply Constraints",
+      "description": "ASML Holding N.V. shares were trading higher in the morning trading in Amsterdam after the Dutch semiconductor equipment maker on Wednesday reported significantly higher profit in its third quarter with strong net sales growth. Further, the firm issued fourth quarter outlook and lifted fiscal 2026 view. The company also said it now expects that supply as currently planned for both 2027 and 2028...",
+      "date": "2026-10-14T10:43:18.792722+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/asml-q3-profit-surges-lifts-fy26-outlook-warns-about-supply-constraints/55277"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/asian-markets-trade-mostly-higher/55252"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Indian Shares Seen Flat On Dovish Fed Comments",
-      "description": "Indian shares are seen opening on a flat note on Wednesday, with dovish Fed comments likely to limit potential losses, if any.",
-      "date": "2026-10-14T02:32:07.209938+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-seen-flat-on-dovish-fed-comments/55251"
     }
   ]
 }
