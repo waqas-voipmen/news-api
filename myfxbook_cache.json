@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-14T10:33:04.600653+00:00",
+  "fetched_at": "2026-10-14T10:48:04.188546+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Indian Shares End Modestly Lower After Strong Rally",
+      "description": "Indian shares ended modestly lower on Wednesday after logging strong gains in the previous session, led by information technology stocks.",
+      "date": "2026-10-14T10:25:04.184793+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-end-modestly-lower-after-strong-rally/55276"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indian-shares-seen-flat-on-dovish-fed-comments/55251"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Thai Shares May Tick Lower On Wednesday",
-      "description": "The Thai stock market has alternated between positive and negative finishes through the last four trading days since the end of the five-day winning streak in which it had gained almost 25 points or 1.6 percent. The Stock Exchange of Thailand now sits just above the 1,570-point plateau and it's likely to see little movement again on Wednesday.",
-      "date": "2026-10-14T02:04:07.210670+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/thai-shares-may-tick-lower-on-wednesday/55250"
     }
   ]
 }
