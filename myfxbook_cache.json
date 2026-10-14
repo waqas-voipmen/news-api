@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-14T23:03:05.978695+00:00",
+  "fetched_at": "2026-10-14T23:18:10.028514+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australia Unemployment Data Due On Thursday",
+      "description": "Australia will on Thursday release September data for unemployment, highlighting a modest day for Asia-Pacific economic activity. The jobless rate is expected to hold steady at 4.6 percent, with the addition of 20.0K jobs following the addition of 39.5K in August.",
+      "date": "2026-10-14T22:04:09.973174+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australia-unemployment-data-due-on-thursday/55293"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/dax-climbs-higher-despite-acceleration-in-german-wpi/55279"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australian Dollar Rises Amid RBA Rate Hike Speculation",
-      "description": "The Australian dollar strengthened against other major currencies in the European session on Wednesday, as the Reserve Bank of Australia (RBA) did not hesitate to raise interest rates further this year, according to minutes from the September meeting.",
-      "date": "2026-10-14T11:05:04.245268+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-dollar-rises-amid-rba-rate-hike-speculation/55278"
     }
   ]
 }
