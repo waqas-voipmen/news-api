@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-14T19:03:04.881325+00:00",
+  "fetched_at": "2026-10-14T19:18:05.335000+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "CHF",
+      "title": "Swiss Market Closes On Strong Note",
+      "description": "After a flat start, Swiss stocks kept edging higher and higher on Wednesday thanks to sustained buying at several counters and eventually ended the session on a buoyant note, extending gains to a fourth straight session.",
+      "date": "2026-10-14T18:09:05.330955+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/swiss-market-closes-on-strong-note/55292"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/australian-dollar-rises-amid-rba-rate-hike-speculation/55278"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "ASML Q3 Profit Surges, Lifts FY26 Outlook; Warns About Supply Constraints",
-      "description": "ASML Holding N.V. shares were trading higher in the morning trading in Amsterdam after the Dutch semiconductor equipment maker on Wednesday reported significantly higher profit in its third quarter with strong net sales growth. Further, the firm issued fourth quarter outlook and lifted fiscal 2026 view. The company also said it now expects that supply as currently planned for both 2027 and 2028...",
-      "date": "2026-10-14T10:43:18.792722+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/asml-q3-profit-surges-lifts-fy26-outlook-warns-about-supply-constraints/55277"
     }
   ]
 }
