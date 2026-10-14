@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-14T12:48:04.470902+00:00",
+  "fetched_at": "2026-10-14T13:03:04.304312+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "Bank Of America Q3 Profit Drops On $1.2 Bln Treasury Fine; Shares Hit",
+      "description": "Shares of Bank of America Corp. were losing around 6 percent in the pre-market activity on the NYSE after the banking major reported lower third-quarter earnings, hurt by a $1.2 billion fine imposed by the U.S. Department of the Treasury on anti-money laundering issues. Revenues, however, increased with higher net interest income and growth in consumer Banking as well as Global Wealth and Invest",
+      "date": "2026-10-14T12:43:04.300275+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/bank-of-america-q3-profit-drops-on-12-bln-treasury-fine-shares-hit/55287"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Consumer Prices Increase In Line With Estimates In September",
+      "description": "Partly reflecting a spike in energy prices, the Labor Department released a closely watched report on Wednesday showing consumer prices in the U.S. increased in line with economist estimates in the month of September.",
+      "date": "2026-10-14T12:39:04.300768+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-consumer-prices-increase-in-line-with-estimates-in-september/55286"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/singapore-unexpectedly-pauses-monetary-policy-tightening/55273"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Oil Pares Gains On Improved Hormuz Flows",
-      "description": "Oil prices were little changed on Wednesday, giving up some early gains after data showed Saudi Arabia ramped up production in September despite continued disruption to oil shipments through the Strait of Hormuz.",
-      "date": "2026-10-14T09:45:03.807247+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/oil-pares-gains-on-improved-hormuz-flows/55271"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "European Shares Rise As ASML Raises 2026 Sales Outlook",
-      "description": "European stocks eked out modest gains on Wednesday as investors cheered strong results from ASML and awaited the release of U.S. CPI data later in the day for additional clues on the Federal Reserve's rate trajectory.",
-      "date": "2026-10-14T09:20:07.976249+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-shares-rise-as-asml-raises-2026-sales-outlook/55269"
     }
   ]
 }
