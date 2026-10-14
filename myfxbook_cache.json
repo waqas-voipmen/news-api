@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-13T23:33:07.770402+00:00",
+  "fetched_at": "2026-10-14T00:16:43.979056+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Singapore Stock Market May Spin Its Wheels On Wednesday",
+      "description": "The Singapore stock market has moved higher in back-to-back sessions, gathering almost 30 points or 0.6 percent along the way. The STI now sits just above the 5,430-point plateau although it may run out of steam on Wednesday.",
+      "date": "2026-10-14T00:03:43.974949+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/singapore-stock-market-may-spin-its-wheels-on-wednesday/55241"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Win Streak May End For Malaysia Stock Market",
+      "description": "The Malaysia stock market has finished higher in three straight sessions, collecting almost 25 points or 1.5 percent along the way. The Kuala Lumpur Composite Index now sits just shy of the 1,625-point plateau although the rally may stall on Wednesday.",
+      "date": "2026-10-13T23:33:43.975372+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/win-streak-may-end-for-malaysia-stock-market/55240"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/bay-street-may-open-higher-tech-stocks-likely-to-decline/55227"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "FTSE 100 Rises 0.65% As Oil Prices Fall On Russia Export Lift",
-      "description": "UK stocks climbed for a third consecutive session Tuesday, with the FTSE 100 gaining 0.65% to 10,725.98. Easing oil prices and bond yields supported sentiment, while Brent crude fell 1.7% to $104.90 a barrel as Russia partially lifted diesel export restrictions.",
-      "date": "2026-10-13T11:42:04.621203+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/ftse-100-rises-065-as-oil-prices-fall-on-russia-export-lift/55224"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Johnson & Johnson Q3 Profit Plunges, Lifts FY26 Outlook; Stock Drops",
-      "description": "Drug major Johnson & Johnson on Tuesday reported sharply lower third-quarter profit on special charges, despite sales growth. Further, the firm raised its fiscal 2026 outlook again and announced a quarterly dividend. In pre-market activity, the shares were losing around 2.6 percent.",
-      "date": "2026-10-13T11:40:04.621485+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/johnson--johnson-q3-profit-plunges-lifts-fy26-outlook-stock-drops/55223"
     }
   ]
 }
