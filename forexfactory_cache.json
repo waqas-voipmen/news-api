@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-14T09:48:07.037515+00:00",
+  "fetched_at": "2026-10-14T10:03:06.289856+00:00",
   "periods": {
     "week": [
       {
@@ -468,7 +468,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "3.8%"
       },
       {
         "title": "FOMC Member Bowman Speaks",

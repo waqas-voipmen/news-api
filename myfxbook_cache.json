@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-14T09:48:03.838974+00:00",
+  "fetched_at": "2026-10-14T10:03:03.811204+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Oil Pares Gains On Improved Hormuz Flows",
+      "description": "Oil prices were little changed on Wednesday, giving up some early gains after data showed Saudi Arabia ramped up production in September despite continued disruption to oil shipments through the Strait of Hormuz.",
+      "date": "2026-10-14T09:45:03.807247+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/oil-pares-gains-on-improved-hormuz-flows/55271"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/japanese-market-modestly-higher/55248"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Rally May Stall For Hong Kong Stock Market",
-      "description": "The Hong Kong stock market has finished higher in three straight sessions, gathering almost 575 points or 2 percent along the way. The Hang Seng now sits just beneath the 24,350-point plateau although it may open in the red on Wednesday.",
-      "date": "2026-10-14T01:19:07.212975+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/rally-may-stall-for-hong-kong-stock-market/55247"
     }
   ]
 }
