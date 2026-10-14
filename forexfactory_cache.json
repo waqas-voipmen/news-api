@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-14T22:48:09.475975+00:00",
+  "fetched_at": "2026-10-14T23:03:10.061495+00:00",
   "periods": {
     "week": [
       {
@@ -624,7 +624,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-11.1"
       },
       {
         "title": "Core Machinery Orders m/m",
