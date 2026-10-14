@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-14T09:18:04.061916+00:00",
+  "fetched_at": "2026-10-14T09:33:07.980066+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "European Shares Rise As ASML Raises 2026 Sales Outlook",
+      "description": "European stocks eked out modest gains on Wednesday as investors cheered strong results from ASML and awaited the release of U.S. CPI data later in the day for additional clues on the Federal Reserve's rate trajectory.",
+      "date": "2026-10-14T09:20:07.976249+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-shares-rise-as-asml-raises-2026-sales-outlook/55269"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/rally-may-stall-for-hong-kong-stock-market/55247"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "XAU",
-      "title": "Australian Market Notably Lower",
-      "description": "Australian stock markets are trading notably lower on Wednesday, snapping a three-session winning streak, with the benchmark S&P/ASX 200 falling well below the 8,750 level, following the broadly negative cues from Wall Street overnight, with weakness in financial and technology stocks partially offset by gains in energy stocks. Meanwhile, iron ore miners and gold miners are mixed.",
-      "date": "2026-10-14T01:06:07.213686+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-market-notably-lower/55246"
     }
   ]
 }
