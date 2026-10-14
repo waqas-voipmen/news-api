@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-14T00:48:08.544652+00:00",
+  "fetched_at": "2026-10-14T01:03:04.644975+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Singapore GDP Gains 1.1% In Q3",
+      "description": "Singapore's gross domestic product expanded a seasonally adjusted 1.1 percent on quarter in the third quarter of 2026, the Singapore Department of Statistics said in Wednesday's advance estimate.",
+      "date": "2026-10-14T00:36:04.639296+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/singapore-gdp-gains-11-in-q3/55244"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/imf-raises-global-growth-outlook-despite-geopolitical-tensions/55230"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Yen Rises After BoJ Ueda Comments",
-      "description": "The Japanese yen strengthened against other major currencies in the late European session on Tuesday, after the Bank of Japan or the BoJ Governor Kazuho Ueda's comments left the door open to further interest rate hikes.",
-      "date": "2026-10-13T13:44:08.580868+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/yen-rises-after-boj-ueda-comments/55229"
     }
   ]
 }
