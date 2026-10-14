@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-14T11:18:03.856558+00:00",
+  "fetched_at": "2026-10-14T11:33:04.248441+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "DAX Climbs Higher Despite Acceleration In German WPI",
+      "description": "Despite rising oil prices and an acceleration in wholesale price inflation, German stocks climbed higher on Wednesday as buoyant earnings update from Dutch semiconductor equipment maker ASML aided sentiment.",
+      "date": "2026-10-14T11:10:04.244997+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/dax-climbs-higher-despite-acceleration-in-german-wpi/55279"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australian Dollar Rises Amid RBA Rate Hike Speculation",
+      "description": "The Australian dollar strengthened against other major currencies in the European session on Wednesday, as the Reserve Bank of Australia (RBA) did not hesitate to raise interest rates further this year, according to minutes from the September meeting.",
+      "date": "2026-10-14T11:05:04.245268+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australian-dollar-rises-amid-rba-rate-hike-speculation/55278"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indian-shares-little-changed-after-strong-rally/55254"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australian Market Extends Early Losses In Mid-market",
-      "description": "The Australian stock market is extending its early losses in mid-market moves on Wednesday, snapping a three-session winning streak, with the benchmark S&P/ASX 200 falling well below the 8,750 level, following the broadly negative cues from Wall Street overnight, with weakness in financial and technology stocks partially offset by gains in energy stocks.",
-      "date": "2026-10-14T03:34:07.208317+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-market-extends-early-losses-in-mid-market/55253"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Asian Markets Trade Mostly Higher",
-      "description": "Asian markets are mostly higher on Wednesday, despite the negative cues from Wall Street overnight, boosted by a rebound in technology and semiconductor stocks in Japan and South Korea after the recent sharp sell-off. Support also came from comments by New York Fed President John Williams that while one more rate hike might happen this year, aggressive further tightening may not be needed in 2027.",
-      "date": "2026-10-14T03:27:07.209184+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/asian-markets-trade-mostly-higher/55252"
     }
   ]
 }
