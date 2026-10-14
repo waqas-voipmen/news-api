@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-14T01:03:08.032992+00:00",
+  "fetched_at": "2026-10-14T07:33:10.822055+00:00",
   "periods": {
     "week": [
       {
@@ -312,7 +312,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.9%"
       },
       {
         "title": "PPI y/y",
@@ -324,31 +324,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
-      },
-      {
-        "title": "Trade Balance",
-        "country": "CNY",
-        "date": "2026-10-13T22:03:00-04:00",
-        "impact": "Low",
-        "forecast": "790B",
-        "previous": "809B",
-        "source": "ForexFactory",
-        "type": "calendar",
-        "link": null,
-        "actual": ""
-      },
-      {
-        "title": "USD-Denominated Trade Balance",
-        "country": "CNY",
-        "date": "2026-10-13T22:04:00-04:00",
-        "impact": "Low",
-        "forecast": "116.8B",
-        "previous": "119.1B",
-        "source": "ForexFactory",
-        "type": "calendar",
-        "link": null,
-        "actual": ""
+        "actual": "5%"
       },
       {
         "title": "ECB President Lagarde Speaks",
@@ -361,6 +337,30 @@
         "type": "calendar",
         "link": null,
         "actual": ""
+      },
+      {
+        "title": "Trade Balance",
+        "country": "CNY",
+        "date": "2026-10-13T22:31:00-04:00",
+        "impact": "Low",
+        "forecast": "790B",
+        "previous": "809B",
+        "source": "ForexFactory",
+        "type": "calendar",
+        "link": null,
+        "actual": ""
+      },
+      {
+        "title": "USD-Denominated Trade Balance",
+        "country": "CNY",
+        "date": "2026-10-13T22:31:00-04:00",
+        "impact": "Low",
+        "forecast": "116.8B",
+        "previous": "119.1B",
+        "source": "ForexFactory",
+        "type": "calendar",
+        "link": null,
+        "actual": "133.53$"
       },
       {
         "title": "MPC Member Breeden Speaks",
@@ -396,7 +396,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "1.9%"
       },
       {
         "title": "MPC Member Pill Speaks",
@@ -1207,7 +1207,7 @@
         "country": "CAD",
         "date": "2026-10-16T08:30:00-04:00",
         "impact": "Low",
-        "forecast": "",
+        "forecast": "23.59B",
         "previous": "20.65B",
         "source": "ForexFactory",
         "type": "calendar",
