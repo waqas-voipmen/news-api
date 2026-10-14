@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-14T08:33:04.171534+00:00",
+  "fetched_at": "2026-10-14T08:48:04.059552+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australian Dollar Rises Against Majors",
+      "description": "The Australian dollar strengthened against other major currencies in the European session on Wednesday.",
+      "date": "2026-10-14T08:25:04.055904+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australian-dollar-rises-against-majors/55265"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/china-bourse-likely-rangebound-again-on-wednesday/55245"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Singapore GDP Gains 1.1% In Q3",
-      "description": "Singapore's gross domestic product expanded a seasonally adjusted 1.1 percent on quarter in the third quarter of 2026, the Singapore Department of Statistics said in Wednesday's advance estimate.",
-      "date": "2026-10-14T00:36:04.639296+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/singapore-gdp-gains-11-in-q3/55244"
     }
   ]
 }
