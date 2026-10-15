@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-15T23:33:08.711295+00:00",
+  "fetched_at": "2026-10-15T23:48:08.225460+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Japan Stock Market May Halt Losing Streak",
+      "description": "The Japan stock market has tracked lower in six straight sessions, slumping more than 6,240 points or 9.1 percent in that span. The Nikkei now sits just above the 64,425-point plateau although it may find traction on Friday.",
+      "date": "2026-10-15T23:19:08.157878+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/japan-stock-market-may-halt-losing-streak/55362"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/us-weekly-jobless-claims-inch-up-slightly-less-than-expected/55349"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Bay Street May Open Higher, But Tech Weakness May Weigh",
-      "description": "The Canadian market may open higher on Thursday, tracking firm precious metals and oil prices. However, a sell-off in global tech stocks amid concerns over returns on AI-related investments could hurt sentiment and limit market's upside.",
-      "date": "2026-10-15T13:01:04.265923+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/bay-street-may-open-higher-but-tech-weakness-may-weigh/55348"
     }
   ]
 }
