@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-15T10:03:21.351024+00:00",
+  "fetched_at": "2026-10-15T10:18:07.021547+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "XAU",
+      "title": "Gold Rebounds As Yields Dip On Dovish Fed Comments",
+      "description": "Gold prices rebounded on Thursday, after having touched a one-week low in the previous session.",
+      "date": "2026-10-15T09:57:06.987376+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/gold-rebounds-as-yields-dip-on-dovish-fed-comments/55328"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/thai-shares-likely-to-remain-rangebound/55306"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Lower Open Called For Indonesia Stock Market",
-      "description": "The Indonesia stock market on Wednesday ended the two-day slide in which it had dropped almost 170 points or 2.9 percent. The Jakarta Composite Index now sits just above the 5,940-point plateau although it's likely to open in the red on Thursday.",
-      "date": "2026-10-15T01:34:04.377182+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/lower-open-called-for-indonesia-stock-market/55305"
     }
   ]
 }
