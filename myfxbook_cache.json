@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-15T09:18:03.717442+00:00",
+  "fetched_at": "2026-10-15T09:33:03.950566+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Asian Shares Retreat On Tech Rout",
+      "description": "Asian stocks retreated on Thursday, with AI and semiconductor stocks coming under heavy selling pressure on concerns about the sustainability of the artificial-intelligence trade.",
+      "date": "2026-10-15T08:44:03.946736+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/asian-shares-retreat-on-tech-rout/55322"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/china-bourse-may-extend-wednesdays-losses/55302"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australian Market Notably Lower",
-      "description": "The Australian market is trading notably lower on Thursday, extending the losses in the previous session, following the broadly negative cues from Wall Street overnight. The benchmark S&P/ASX 200 is falling well below the 8,700 level, with weakness in mining and technology stocks partially offset by gains in energy and financial stocks.",
-      "date": "2026-10-15T01:00:03.716994+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-market-notably-lower/55301"
     }
   ]
 }
