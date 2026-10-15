@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-15T06:03:14.199780+00:00",
+  "fetched_at": "2026-10-15T06:18:13.978419+00:00",
   "periods": {
     "week": [
       {
@@ -768,7 +768,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.9%"
       },
       {
         "title": "Industrial Production m/m",
