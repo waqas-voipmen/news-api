@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-15T07:03:07.424027+00:00",
+  "fetched_at": "2026-10-15T07:18:07.988885+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australian Dollar Falls Against Majors",
+      "description": "The Australian dollar weakened against other major currencies in the Asian session on Thursday.",
+      "date": "2026-10-15T07:01:07.965090+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australian-dollar-falls-against-majors/55317"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/australia-jobless-rate-47-in-september/55300"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Taiwan Stock Market May Hand Back Wednesday's Gains",
-      "description": "The Taiwan stock market on Wednesday ended the four-ay losing streak in which it had dropped almost 1,500 points or 3.1 percent. The Taiwan Stock Exchange now sits just above the 48,625-point plateau although it may head south again on Thursday.",
-      "date": "2026-10-15T00:34:09.836445+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/taiwan-stock-market-may-hand-back-wednesdays-gains/55299"
     }
   ]
 }
