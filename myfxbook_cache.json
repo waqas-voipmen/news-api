@@ -1,18 +1,6 @@
 {
-  "fetched_at": "2026-10-15T18:33:03.820434+00:00",
+  "fetched_at": "2026-10-15T18:48:05.094545+00:00",
   "events": [
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "CHF",
-      "title": "Swiss Market Ends Higher For 5th Straight Session",
-      "description": "Swiss stocks moved higher on Thursday, extending gains to a fifth straight session, thanks to strong buying at several counters. In addition to digesting Swiss producer and import prices data, investors looked ahead to corporate earnings updates.\n\nThe benchmark SMI settled with a gain of 219.58 points or 1.55% at 14,349.51, the day's high.",
-      "date": "2026-10-15T18:15:03.816464+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/swiss-market-ends-higher-for-5th-straight-session/55357"
-    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -156,6 +144,18 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/us-retail-sales-climb-much-more-than-expected-in-september/55344"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Producer Prices Jump Much More Than Expected In September",
+      "description": "Following yesterday's report on consumer price inflation, the Labor Department released a separate report on Thursday showing producer prices in the U.S. shot up by much more than expected in the month of September.",
+      "date": "2026-10-15T12:39:05.067986+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-producer-prices-jump-much-more-than-expected-in-september/55343"
     }
   ]
 }
