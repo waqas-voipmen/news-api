@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-15T05:48:16.173718+00:00",
+  "fetched_at": "2026-10-15T06:03:14.199780+00:00",
   "periods": {
     "week": [
       {
@@ -732,7 +732,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.1%"
       },
       {
         "title": "Construction Output m/m",
@@ -756,7 +756,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-18.01\u00a3"
       },
       {
         "title": "Index of Services 3m/3m",
@@ -780,7 +780,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.8%"
       },
       {
         "title": "Manufacturing Production m/m",
@@ -792,7 +792,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "1.2%"
       },
       {
         "title": "PPI m/m",
