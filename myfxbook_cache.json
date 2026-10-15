@@ -1,6 +1,90 @@
 {
-  "fetched_at": "2026-10-15T01:03:07.226377+00:00",
+  "fetched_at": "2026-10-15T03:33:04.380932+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Thai Shares Likely To Remain Rangebound",
+      "description": "The Thai stock market has alternated between positive and negative finishes through the last four trading days since the end of the five-day winning streak in which it had gained almost 25 points or 1.6 percent. The Stock Exchange of Thailand now sits just above the 1,575-point plateau and it's likely to tick lower again on Thursday.",
+      "date": "2026-10-15T02:04:04.376809+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/thai-shares-likely-to-remain-rangebound/55306"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Lower Open Called For Indonesia Stock Market",
+      "description": "The Indonesia stock market on Wednesday ended the two-day slide in which it had dropped almost 170 points or 2.9 percent. The Jakarta Composite Index now sits just above the 5,940-point plateau although it's likely to open in the red on Thursday.",
+      "date": "2026-10-15T01:34:04.377182+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/lower-open-called-for-indonesia-stock-market/55305"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Japanese Market Sharply Lower",
+      "description": "The Japanese market is trading sharply lower on Thursday, extending the losses in the previous five sessions, following the broadly negative cues from Wall Street overnight. The Nikkei 225 is falling well below the 65,200 level, with weakness across most sectors led by index heavyweights and technology stocks.",
+      "date": "2026-10-15T01:22:04.377464+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/japanese-market-sharply-lower/55304"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Hong Kong Stock Market Tipped To Open Under Pressure On Thursday",
+      "description": "The Hong Kong stock market on Wednesday halted the three-day winning streak in which it had advanced almost 575 points or 2 percent. The Hang Seng now sits just above the 24,310-point plateau and it may see continued consolidation on Thursday.",
+      "date": "2026-10-15T01:19:04.377742+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/hong-kong-stock-market-tipped-to-open-under-pressure-on-thursday/55303"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "China Bourse May Extend Wednesday's Losses",
+      "description": "The China stock market has alternated between positive and negative finishes through the last five trading days since the end of the two-day winning streak in which it had collected almost 20 points or 0.5 percent. The Shanghai Composite Index now sits just beneath the 3,770-point plateau and it may take further damage on Thursday.",
+      "date": "2026-10-15T01:04:04.378018+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/china-bourse-may-extend-wednesdays-losses/55302"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australian Market Notably Lower",
+      "description": "The Australian market is trading notably lower on Thursday, extending the losses in the previous session, following the broadly negative cues from Wall Street overnight. The benchmark S&P/ASX 200 is falling well below the 8,700 level, with weakness in mining and technology stocks partially offset by gains in energy and financial stocks.",
+      "date": "2026-10-15T01:00:04.378321+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australian-market-notably-lower/55301"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australia Jobless Rate 4.7% In September",
+      "description": "Australia posted a seasonally adjusted unemployment rate of 4.7 percent in September, the Australian Bureau of Statistics said on Thursday.",
+      "date": "2026-10-15T00:44:04.378549+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australia-jobless-rate-47-in-september/55300"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -72,90 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/dramatically-oversold-kospi-still-called-lower-on-thursday/55294"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australia Unemployment Data Due On Thursday",
-      "description": "Australia will on Thursday release September data for unemployment, highlighting a modest day for Asia-Pacific economic activity. The jobless rate is expected to hold steady at 4.6 percent, with the addition of 20.0K jobs following the addition of 39.5K in August.",
-      "date": "2026-10-14T22:04:09.973174+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australia-unemployment-data-due-on-thursday/55293"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "CHF",
-      "title": "Swiss Market Closes On Strong Note",
-      "description": "After a flat start, Swiss stocks kept edging higher and higher on Wednesday thanks to sustained buying at several counters and eventually ended the session on a buoyant note, extending gains to a fourth straight session.",
-      "date": "2026-10-14T18:09:05.330955+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/swiss-market-closes-on-strong-note/55292"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Major European Markets Close On Firm Note",
-      "description": "The major European markets closed on the positive side on Wednesday even as several markets in the region failed to hold early gains. The early buoyancy over upbeat earnings update from Dutch semiconductor equipment maker ASML subsided a bit later on in the session.",
-      "date": "2026-10-14T17:48:04.480759+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/major-european-markets-close-on-firm-note/55291"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Core Consumer Prices Rise More Than Expected In September",
-      "description": "While the Labor Department released a report on Wednesday showing consumer prices in the U.S. grew in line with estimates in the month of September, the report also showed a bigger than expected increase in core consumer prices, which exclude food and energy prices. The report said consumer prices climbed by 0.6 percent in September after rising by 0.4 percent in August.",
-      "date": "2026-10-14T13:59:07.496149+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-core-consumer-prices-rise-more-than-expected-in-september/55289"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "CAD",
-      "title": "Bay Street Likely To Open With Slightly Positive Bias",
-      "description": "Canadian stocks may open with a positive bias on Wednesday, but the upside is likely to be limited amid a mixed trend in commodities markets. U.S. inflation data is likely to make an impact.",
-      "date": "2026-10-14T13:01:04.412677+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/bay-street-likely-to-open-with-slightly-positive-bias/55288"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "Bank Of America Q3 Profit Drops On $1.2 Bln Treasury Fine; Shares Hit",
-      "description": "Shares of Bank of America Corp. were losing around 6 percent in the pre-market activity on the NYSE after the banking major reported lower third-quarter earnings, hurt by a $1.2 billion fine imposed by the U.S. Department of the Treasury on anti-money laundering issues. Revenues, however, increased with higher net interest income and growth in consumer Banking as well as Global Wealth and Invest",
-      "date": "2026-10-14T12:43:04.300275+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/bank-of-america-q3-profit-drops-on-12-bln-treasury-fine-shares-hit/55287"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Consumer Prices Increase In Line With Estimates In September",
-      "description": "Partly reflecting a spike in energy prices, the Labor Department released a closely watched report on Wednesday showing consumer prices in the U.S. increased in line with economist estimates in the month of September.",
-      "date": "2026-10-14T12:39:04.300768+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-consumer-prices-increase-in-line-with-estimates-in-september/55286"
     }
   ]
 }
