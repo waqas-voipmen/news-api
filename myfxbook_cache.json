@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-15T15:03:06.605040+00:00",
+  "fetched_at": "2026-10-15T15:33:09.605906+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Business Inventories Increase In Line With Estimates In August",
+      "description": "Business inventories in the U.S. increased in line with economist estimates in the month of August, according to a report released by the Commerce Department on Thursday. The Commerce Department said business inventories rose by 0.4 percent in August after climbing by an upwardly revised 0.9 percent in July.",
+      "date": "2026-10-15T15:22:09.576244+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-business-inventories-increase-in-line-with-estimates-in-august/55355"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "New York Manufacturing Index Surges To Nearly Five-Year High In October",
+      "description": "New York manufacturing activity rose sharply in the month of October, according to a report released by the Federal Reserve Bank of New York on Thursday. The New York Fed said its general business conditions index surged to 25.5 in October from 7.6 in September, with a positive reading indicating growth. Economists had expected the index to rise to 10.3.",
+      "date": "2026-10-15T14:45:09.577845+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/new-york-manufacturing-index-surges-to-nearly-five-year-high-in-october/55354"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/us-weekly-jobless-claims-inch-up-to-199000/55342"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "CAC 40 Outperforms Broader Markets",
-      "description": "The CAC 40 index that tracks the 40 largest French stocks based on the Euronext Paris rallied on Thursday. The outperformance came despite a weak sentiment in global markets attributed to the selloff in tech stocks, high interest rates and worries about inflation.",
-      "date": "2026-10-15T12:02:04.303401+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/cac-40-outperforms-broader-markets/55341"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "GBP",
-      "title": "UK Economy Logs Better-Than-Expected Growth",
-      "description": "The UK economy expanded marginally in August defying expectations of a moderate contraction, as growth in industrial production offset the fall in construction. \nGross domestic product grew 0.1 percent in August from the last month, the Office for National Statistics said Thursday. Although this was weaker than the 0.4 percent growth seen in July, the rate came in contrast to the expected fall o",
-      "date": "2026-10-15T11:03:08.287811+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/uk-economy-logs-better-than-expected-growth/55336"
     }
   ]
 }
