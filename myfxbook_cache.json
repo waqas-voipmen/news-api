@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-15T11:03:08.013164+00:00",
+  "fetched_at": "2026-10-15T11:18:08.298747+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "GBP",
+      "title": "UK Economy Logs Better-Than-Expected Growth",
+      "description": "The UK economy expanded marginally in August defying expectations of a moderate contraction, as growth in industrial production offset the fall in construction. \nGross domestic product grew 0.1 percent in August from the last month, the Office for National Statistics said Thursday. Although this was weaker than the 0.4 percent growth seen in July, the rate came in contrast to the expected fall o",
+      "date": "2026-10-15T11:03:08.287811+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/uk-economy-logs-better-than-expected-growth/55336"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Ericsson Q3 Profit Drops, Sales Rise; Simplifies Operating Structure; Stock Gains",
+      "description": "Swedish telecom major LM Ericsson reported Thursday sharply lower profit in its third quarter, hurt mainly by the absence of prior year's significant divestment gain. Revenues, however, grew from last year, primarily with higher sales in Networks. Following the news, shares of Ericsson were gaining around 11 percent in Sweden, and around 12 percent in the pre-market activity on the Nasdaq.",
+      "date": "2026-10-15T10:58:08.288602+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/ericsson-q3-profit-drops-sales-rise-simplifies-operating-structure-stock-gains/55334"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/australian-dollar-falls-against-majors/55317"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "European Shares Expected To Open On Tepid Note",
-      "description": "European stocks are seen opening on a subdued note on Thursday as investors ponder the outlook for inflation and interest rates amid escalating West Asia conflict.",
-      "date": "2026-10-15T05:34:06.342132+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-shares-expected-to-open-on-tepid-note/55312"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Indian Shares Sharply Higher As Oil Prices Fall",
-      "description": "Indian shares were sharply higher in early trade on Thursday as Brent crude futures fell nearly 2 percent toward $104 a barrel on reports that the Trump administration is considering easing sanctions on so-called shadow fleet vessels in order to reduce record-high global freight rates.",
-      "date": "2026-10-15T04:32:08.249559+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-sharply-higher-as-oil-prices-fall/55311"
     }
   ]
 }
