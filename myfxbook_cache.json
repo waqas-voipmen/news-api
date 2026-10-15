@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-15T14:48:07.216846+00:00",
+  "fetched_at": "2026-10-15T15:03:06.605040+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Philly Fed Index Tumbles In October But Still Indicates Growth",
+      "description": "A report released by the Federal Reserve Bank of Philadelphia on Thursday showed a steep drop by its reading on regional manufacturing activity in the month of October. The Philly Fed said its diffusion index for current general activity plunged to 20.9 in October from 37.8 in September, although a positive reading still indicates growth. Economists had expected the index to drop to 30.0.",
+      "date": "2026-10-15T14:33:06.599701+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/philly-fed-index-tumbles-in-october-but-still-indicates-growth/55353"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/uk-economy-logs-better-than-expected-growth/55336"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Ericsson Q3 Profit Drops, Sales Rise; Simplifies Operating Structure; Stock Gains",
-      "description": "Swedish telecom major LM Ericsson reported Thursday sharply lower profit in its third quarter, hurt mainly by the absence of prior year's significant divestment gain. Revenues, however, grew from last year, primarily with higher sales in Networks. Following the news, shares of Ericsson were gaining around 11 percent in Sweden, and around 12 percent in the pre-market activity on the Nasdaq.",
-      "date": "2026-10-15T10:58:08.288602+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/ericsson-q3-profit-drops-sales-rise-simplifies-operating-structure-stock-gains/55334"
     }
   ]
 }
