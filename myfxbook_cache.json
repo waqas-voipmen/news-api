@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-15T23:03:18.094462+00:00",
+  "fetched_at": "2026-10-15T23:33:08.711295+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "South Korea Shares Overdue For Support On Friday",
+      "description": "The South Korea stock market has finished lower in seven straight sessions, cratering more than 1,450 points or 22.5 percent along the way. The KOSPI now sits just above the 5,550-point plateau although it may stop the bleeding on Friday.",
+      "date": "2026-10-15T23:04:08.659364+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/south-korea-shares-overdue-for-support-on-friday/55361"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Singapore Export Data Due On Friday",
+      "description": "Singapore will on Friday release September figures for non-oil domestic exports, highlighting a modest day for Asia-Pacific economic activity. In August, NODX rose 10.9 percent on month and 46.2 percent on year, for a trade surplus of SGD13.780 billion.",
+      "date": "2026-10-15T22:04:08.660146+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/singapore-export-data-due-on-friday/55360"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/bay-street-may-open-higher-but-tech-weakness-may-weigh/55348"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "New York Manufacturing Index Surges Much More Than Expected In October",
-      "description": "New York manufacturing activity rose sharply in the month of October, according to a report released by the Federal Reserve Bank of New York on Thursday.",
-      "date": "2026-10-15T12:47:04.484257+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/new-york-manufacturing-index-surges-much-more-than-expected-in-october/55347"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Philly Fed Index Tumbles Much More Than Expected In October",
-      "description": "A report released by the Federal Reserve Bank of Philadelphia on Thursday showed a steep drop by its reading on regional manufacturing activity in the month of October.",
-      "date": "2026-10-15T12:45:04.484629+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/philly-fed-index-tumbles-much-more-than-expected-in-october/55346"
     }
   ]
 }
