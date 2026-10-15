@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-15T06:33:07.136003+00:00",
+  "fetched_at": "2026-10-15T06:48:06.361876+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "European Shares Expected To Open On Tepid Note",
+      "description": "European stocks are seen opening on a subdued note on Thursday as investors ponder the outlook for inflation and interest rates amid escalating West Asia conflict.",
+      "date": "2026-10-15T05:34:06.342132+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-shares-expected-to-open-on-tepid-note/55312"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/taiwan-stock-market-may-hand-back-wednesdays-gains/55299"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Singapore Stock Market May Take Further Damage On Thursday",
-      "description": "The Singapore stock market on Wednesday wrote a finish to the two-day winning streak in which it had gathered almost 30 points or 0.6 percent. The STI now sits just above the 5,420-point plateau and the losses may accelerate on Thursday.",
-      "date": "2026-10-15T00:04:09.837330+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/singapore-stock-market-may-take-further-damage-on-thursday/55298"
     }
   ]
 }
