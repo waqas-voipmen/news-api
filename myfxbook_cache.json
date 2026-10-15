@@ -1,18 +1,6 @@
 {
-  "fetched_at": "2026-10-15T04:48:08.913444+00:00",
+  "fetched_at": "2026-10-15T05:03:07.847460+00:00",
   "events": [
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Indian Shares Sharply Higher As Oil Prices Fall",
-      "description": "Indian shares were sharply higher in early trade on Thursday as Brent crude futures fell nearly 2 percent toward $104 a barrel on reports that the Trump administration is considering easing sanctions on so-called shadow fleet vessels in order to reduce record-high global freight rates.",
-      "date": "2026-10-15T04:32:08.883718+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-sharply-higher-as-oil-prices-fall/55311"
-    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -156,6 +144,18 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/singapore-stock-market-may-take-further-damage-on-thursday/55298"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Japan Core Machinery Orders Rise 5.2% In August",
+      "description": "The value of core machinery orders in Japan was up a seasonally adjusted 5.2 percent on month in August, the Cabinet Office said on Thursday - coming in at 1,069.8 billion yen.",
+      "date": "2026-10-14T23:57:07.845744+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/japan-core-machinery-orders-rise-52-in-august/55297"
     }
   ]
 }
