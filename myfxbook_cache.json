@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-15T03:48:04.320921+00:00",
+  "fetched_at": "2026-10-15T04:03:04.229341+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australian Market Trims Early Losses In Mid-market",
+      "description": "The Australian market is trimming its early losses in mid-market moves on Thursday, but extending the losses in the previous session, following the broadly negative cues from Wall Street overnight. The benchmark S&P/ASX 200 is falling well below the 8,750 level, with weakness in mining and technology stocks partially offset by gains in energy and financial stocks.",
+      "date": "2026-10-15T03:35:04.225631+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australian-market-trims-early-losses-in-mid-market/55309"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "Asian Markets A Sea Of Red",
+      "description": "Asian stock markets are a sea of red on Thursday, following the broadly negative cues from Wall Street overnight, after hotter-than-expected U.S. inflation data revived bets on interest rate hikes by the US Fed that prompted a sell-off in technology and semiconductor stocks on concerns of rising borrowing costs amid heightening investments in artificial intelligence.",
+      "date": "2026-10-15T03:30:04.225924+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/asian-markets-a-sea-of-red/55308"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/japan-core-machinery-orders-rise-52-in-august/55297"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Win Streak May End For Malaysia Stock Market",
-      "description": "The Malaysia stock market has finished higher in four straight sessions, collecting almost 30 points or 1.8 percent along the way. The Kuala Lumpur Composite Index now sits just shy of the 1,630-point plateau although the rally may stall on Thursday.",
-      "date": "2026-10-14T23:33:26.047695+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/win-streak-may-end-for-malaysia-stock-market/55296"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Japan Stock Market May Extend Losing Streak On Thursday",
-      "description": "The Japan stock market has tracked lower in five straight sessions, slumping more than 2,930 points or 4.2 percent in that span. The Nikkei now sits just beneath the 67,750-point plateau and it's looking at another soft start again on Thursday.",
-      "date": "2026-10-14T23:18:26.049444+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/japan-stock-market-may-extend-losing-streak-on-thursday/55295"
     }
   ]
 }
