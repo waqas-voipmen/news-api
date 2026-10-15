@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-15T13:33:04.067219+00:00",
+  "fetched_at": "2026-10-15T13:48:04.270782+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Bay Street May Open Higher, But Tech Weakness May Weigh",
+      "description": "The Canadian market may open higher on Thursday, tracking firm precious metals and oil prices. However, a sell-off in global tech stocks amid concerns over returns on AI-related investments could hurt sentiment and limit market's upside.",
+      "date": "2026-10-15T13:01:04.265923+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/bay-street-may-open-higher-but-tech-weakness-may-weigh/55348"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indian-shares-rally-led-by-it-stocks/55331"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "NZD",
-      "title": "NZ Dollar Rises On RBNZ Conway's Hawkish Comments",
-      "description": "The New Zealand dollar strengthened against other major currencies in the late Asian session on Thursday, following the hawkish comments from the Reserve Bank of New Zealand or the RBNZ Chief Economist Paul Conway.",
-      "date": "2026-10-15T10:19:06.831297+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/nz-dollar-rises-on-rbnz-conways-hawkish-comments/55330"
     }
   ]
 }
