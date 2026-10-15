@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-15T17:48:07.658150+00:00",
+  "fetched_at": "2026-10-15T18:03:08.911098+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "GBP",
+      "title": "Major European Markets Close On Firm Note",
+      "description": "The major European markets closed higher on Thursday, supported by gains in retail, luxury, pharmaceuticals and industrials sectors even as tech stocks were under some pressure amid uncertainty about returns on AI-related investments. Softening global bond yields and strong UK GDP data aided sentiment.",
+      "date": "2026-10-15T17:52:08.896001+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/major-european-markets-close-on-firm-note/55356"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/us-producer-prices-jump-much-more-than-expected-in-september/55343"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Weekly Jobless Claims Inch Up To 199,000",
-      "description": "A report released by the Labor Department on Thursday showed first-time claims for U.S. unemployment benefits edged slightly higher in the week ended October 10th.",
-      "date": "2026-10-15T12:37:04.485667+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-weekly-jobless-claims-inch-up-to-199000/55342"
     }
   ]
 }
