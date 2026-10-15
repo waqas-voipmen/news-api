@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-15T03:33:04.380932+00:00",
+  "fetched_at": "2026-10-15T03:48:04.320921+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Indian Shares Seen Flat To Lower At Open",
+      "description": "Indian shares may drift lower at open on Thursday, although information technology stocks may extend recent gains after a gauge of semiconductor stocks extended losses into a sixth day on concerns about the sustainability of the artificial-intelligence trade.",
+      "date": "2026-10-15T02:37:04.317127+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-seen-flat-to-lower-at-open/55307"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/japan-stock-market-may-extend-losing-streak-on-thursday/55295"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Dramatically Oversold KOSPI Still Called Lower On Thursday",
-      "description": "The South Korea stock market has finished lower in six straight sessions, plummeting more than 1,000 points or 15 percent along the way. The KOSPI now sits just above the 6,000-point plateau and it's got another weak lead for Thursday's trade.",
-      "date": "2026-10-14T23:03:26.050973+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/dramatically-oversold-kospi-still-called-lower-on-thursday/55294"
     }
   ]
 }
