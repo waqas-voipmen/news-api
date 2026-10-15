@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-15T13:48:06.811849+00:00",
+  "fetched_at": "2026-10-15T14:03:07.690394+00:00",
   "periods": {
     "week": [
       {
@@ -1008,7 +1008,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.4%"
       },
       {
         "title": "IMF Meetings",
