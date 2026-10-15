@@ -1,6 +1,42 @@
 {
-  "fetched_at": "2026-10-14T23:18:10.028514+00:00",
+  "fetched_at": "2026-10-15T00:31:26.066204+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Win Streak May End For Malaysia Stock Market",
+      "description": "The Malaysia stock market has finished higher in four straight sessions, collecting almost 30 points or 1.8 percent along the way. The Kuala Lumpur Composite Index now sits just shy of the 1,630-point plateau although the rally may stall on Thursday.",
+      "date": "2026-10-14T23:33:26.047695+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/win-streak-may-end-for-malaysia-stock-market/55296"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Japan Stock Market May Extend Losing Streak On Thursday",
+      "description": "The Japan stock market has tracked lower in five straight sessions, slumping more than 2,930 points or 4.2 percent in that span. The Nikkei now sits just beneath the 67,750-point plateau and it's looking at another soft start again on Thursday.",
+      "date": "2026-10-14T23:18:26.049444+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/japan-stock-market-may-extend-losing-streak-on-thursday/55295"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Dramatically Oversold KOSPI Still Called Lower On Thursday",
+      "description": "The South Korea stock market has finished lower in six straight sessions, plummeting more than 1,000 points or 15 percent along the way. The KOSPI now sits just above the 6,000-point plateau and it's got another weak lead for Thursday's trade.",
+      "date": "2026-10-14T23:03:26.050973+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/dramatically-oversold-kospi-still-called-lower-on-thursday/55294"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -120,42 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/ftse-100-modestly-higher-in-cautious-trade/55282"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "GBP",
-      "title": "Pound Rises Against Majors",
-      "description": "The British pound strengthened against other major currencies in the European session on Wednesday.",
-      "date": "2026-10-14T11:29:04.942077+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/pound-rises-against-majors/55281"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "CAC 40 Climbs Higher As Technology, Luxury Stocks Move Up",
-      "description": "The French stock market's benchmark index CAC 40 moved higher on Wednesday, tracking positive cues from other major markets in Europe, after Dutch semiconductor equipment maker ASML's upbeat earnings update.",
-      "date": "2026-10-14T11:23:04.942462+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/cac-40-climbs-higher-as-technology-luxury-stocks-move-up/55280"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "DAX Climbs Higher Despite Acceleration In German WPI",
-      "description": "Despite rising oil prices and an acceleration in wholesale price inflation, German stocks climbed higher on Wednesday as buoyant earnings update from Dutch semiconductor equipment maker ASML aided sentiment.",
-      "date": "2026-10-14T11:10:04.244997+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/dax-climbs-higher-despite-acceleration-in-german-wpi/55279"
     }
   ]
 }
