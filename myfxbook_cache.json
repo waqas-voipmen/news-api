@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-15T09:33:03.950566+00:00",
+  "fetched_at": "2026-10-15T09:48:04.084570+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "European Shares Mixed As Oil Prices, Yields Ease",
+      "description": "European stocks were mixed on Thursday as oil prices fell and Eurozone government bond yields slipped, tracking an overnight decline in U.S. Treasury yields.",
+      "date": "2026-10-15T09:27:04.080577+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-shares-mixed-as-oil-prices-yields-ease/55324"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/hong-kong-stock-market-tipped-to-open-under-pressure-on-thursday/55303"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "China Bourse May Extend Wednesday's Losses",
-      "description": "The China stock market has alternated between positive and negative finishes through the last five trading days since the end of the two-day winning streak in which it had collected almost 20 points or 0.5 percent. The Shanghai Composite Index now sits just beneath the 3,770-point plateau and it may take further damage on Thursday.",
-      "date": "2026-10-15T01:04:04.378018+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/china-bourse-may-extend-wednesdays-losses/55302"
     }
   ]
 }
