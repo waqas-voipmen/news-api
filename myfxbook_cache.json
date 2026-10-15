@@ -1,6 +1,42 @@
 {
-  "fetched_at": "2026-10-15T00:33:05.728689+00:00",
+  "fetched_at": "2026-10-15T00:48:09.847955+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Taiwan Stock Market May Hand Back Wednesday's Gains",
+      "description": "The Taiwan stock market on Wednesday ended the four-ay losing streak in which it had dropped almost 1,500 points or 3.1 percent. The Taiwan Stock Exchange now sits just above the 48,625-point plateau although it may head south again on Thursday.",
+      "date": "2026-10-15T00:34:09.836445+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/taiwan-stock-market-may-hand-back-wednesdays-gains/55299"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Singapore Stock Market May Take Further Damage On Thursday",
+      "description": "The Singapore stock market on Wednesday wrote a finish to the two-day winning streak in which it had gathered almost 30 points or 0.6 percent. The STI now sits just above the 5,420-point plateau and the losses may accelerate on Thursday.",
+      "date": "2026-10-15T00:04:09.837330+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/singapore-stock-market-may-take-further-damage-on-thursday/55298"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Japan Core Machinery Orders Rise 5.2% In August",
+      "description": "The value of core machinery orders in Japan was up a seasonally adjusted 5.2 percent on month in August, the Cabinet Office said on Thursday - coming in at 1,069.8 billion yen.",
+      "date": "2026-10-14T23:57:09.837961+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/japan-core-machinery-orders-rise-52-in-august/55297"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -120,42 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/us-consumer-prices-increase-in-line-with-estimates-in-september/55286"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "GBP",
-      "title": "Pound Rises As UK Chancellor Assures Fiscal Discipline",
-      "description": "The British pound strengthened against other major currencies in the European session on Wednesday, as UK Chancellor of the Exchequer John Healey promises to finance the cost-of-living support package through increased taxes or cuts in public spending rather than further borrowing.",
-      "date": "2026-10-14T12:07:04.385304+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/pound-rises-as-uk-chancellor-assures-fiscal-discipline/55284"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "China Inflation Rises Marginally; PPI Inflation Strongest Since 2022",
-      "description": "China's consumer price inflation rose only slightly in September due to the fall in food prices, and remained sluggish when compared to global peers, while producer price inflation reached its highest level in over four years on rising commodity prices. Consumer prices rose 0.9 percent in September from a year ago, slightly faster than the 0.8 percent increase seen in August.",
-      "date": "2026-10-14T11:47:04.540767+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/china-inflation-rises-marginally-ppi-inflation-strongest-since-2022/55283"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "GBP",
-      "title": "FTSE 100 Modestly Higher In Cautious Trade",
-      "description": "The UK stock market's FTSE 100 moved modestly higher on Wednesday with stocks turning in a mixed performance amid a lack of fresh earnings or economic data from the home front. The mood remained slightly cautious as investors looked ahead to the U.S. crucial consumer price inflation data later in the day.",
-      "date": "2026-10-14T11:47:04.541157+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/ftse-100-modestly-higher-in-cautious-trade/55282"
     }
   ]
 }
