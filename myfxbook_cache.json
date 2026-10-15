@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-15T12:18:03.883084+00:00",
+  "fetched_at": "2026-10-15T12:33:04.307778+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "CAC 40 Outperforms Broader Markets",
+      "description": "The CAC 40 index that tracks the 40 largest French stocks based on the Euronext Paris rallied on Thursday. The outperformance came despite a weak sentiment in global markets attributed to the selloff in tech stocks, high interest rates and worries about inflation.",
+      "date": "2026-10-15T12:02:04.303401+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/cac-40-outperforms-broader-markets/55341"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/australian-dollar-falls-on-weak-jobs-data/55319"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australian Dollar Falls Against Majors",
-      "description": "The Australian dollar weakened against other major currencies in the Asian session on Thursday.",
-      "date": "2026-10-15T07:01:07.965090+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-dollar-falls-against-majors/55317"
     }
   ]
 }

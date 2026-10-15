@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-15T12:18:06.334542+00:00",
+  "fetched_at": "2026-10-15T12:33:07.696262+00:00",
   "periods": {
     "week": [
       {
@@ -900,7 +900,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "1.5%"
       },
       {
         "title": "Wholesale Sales m/m",
@@ -912,7 +912,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-1.6%"
       },
       {
         "title": "Core PPI m/m",
@@ -936,7 +936,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.9%"
       },
       {
         "title": "PPI m/m",
@@ -948,7 +948,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "1.3%"
       },
       {
         "title": "Retail Sales m/m",
@@ -960,7 +960,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.8%"
       },
       {
         "title": "Philly Fed Manufacturing Index",
@@ -996,7 +996,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "25.5"
       },
       {
         "title": "Business Inventories m/m",
