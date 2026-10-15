@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-15T09:48:04.084570+00:00",
+  "fetched_at": "2026-10-15T10:03:21.351024+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "NZD",
+      "title": "NZ Dollar Rises Against Majors",
+      "description": "The New Zealand dollar strengthened against other major currencies in the late Asian session on Thursday.",
+      "date": "2026-10-15T09:45:21.322168+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/nz-dollar-rises-against-majors/55327"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Oil Prices Fall As US Weighs Relief For Sanctioned Shadow Fleet Vessels",
+      "description": "Oil prices were sharply lower on Thursday due to profit taking following a recent rally as reports suggested the Trump administration is considering easing sanctions on so-called shadow fleet vessels in order to reduce record-high global freight rates.",
+      "date": "2026-10-15T09:44:21.323446+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/oil-prices-fall-as-us-weighs-relief-for-sanctioned-shadow-fleet-vessels/55326"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/lower-open-called-for-indonesia-stock-market/55305"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Japanese Market Sharply Lower",
-      "description": "The Japanese market is trading sharply lower on Thursday, extending the losses in the previous five sessions, following the broadly negative cues from Wall Street overnight. The Nikkei 225 is falling well below the 65,200 level, with weakness across most sectors led by index heavyweights and technology stocks.",
-      "date": "2026-10-15T01:22:04.377464+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/japanese-market-sharply-lower/55304"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Hong Kong Stock Market Tipped To Open Under Pressure On Thursday",
-      "description": "The Hong Kong stock market on Wednesday halted the three-day winning streak in which it had advanced almost 575 points or 2 percent. The Hang Seng now sits just above the 24,310-point plateau and it may see continued consolidation on Thursday.",
-      "date": "2026-10-15T01:19:04.377742+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/hong-kong-stock-market-tipped-to-open-under-pressure-on-thursday/55303"
     }
   ]
 }
