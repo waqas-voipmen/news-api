@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-15T10:33:06.153200+00:00",
+  "fetched_at": "2026-10-15T10:48:06.843642+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Indian Shares Rally Led By IT Stocks",
+      "description": "Indian shares ended Thursday's session on a buoyant note as information technology stocks extended recent gains amid an ongoing tech sell-off in global markets on concerns about the sustainability of the artificial-intelligence trade.",
+      "date": "2026-10-15T10:24:06.830555+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-rally-led-by-it-stocks/55331"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "NZD",
+      "title": "NZ Dollar Rises On RBNZ Conway's Hawkish Comments",
+      "description": "The New Zealand dollar strengthened against other major currencies in the late Asian session on Thursday, following the hawkish comments from the Reserve Bank of New Zealand or the RBNZ Chief Economist Paul Conway.",
+      "date": "2026-10-15T10:19:06.831297+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/nz-dollar-rises-on-rbnz-conways-hawkish-comments/55330"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/asian-markets-a-sea-of-red/55308"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Indian Shares Seen Flat To Lower At Open",
-      "description": "Indian shares may drift lower at open on Thursday, although information technology stocks may extend recent gains after a gauge of semiconductor stocks extended losses into a sixth day on concerns about the sustainability of the artificial-intelligence trade.",
-      "date": "2026-10-15T02:37:04.317127+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-seen-flat-to-lower-at-open/55307"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Thai Shares Likely To Remain Rangebound",
-      "description": "The Thai stock market has alternated between positive and negative finishes through the last four trading days since the end of the five-day winning streak in which it had gained almost 25 points or 1.6 percent. The Stock Exchange of Thailand now sits just above the 1,575-point plateau and it's likely to tick lower again on Thursday.",
-      "date": "2026-10-15T02:04:04.376809+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/thai-shares-likely-to-remain-rangebound/55306"
     }
   ]
 }
