@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-15T08:03:07.387774+00:00",
+  "fetched_at": "2026-10-15T08:48:17.093300+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australian Dollar Falls On Weak Jobs Data",
+      "description": "The Australian dollar weakened against other major currencies in the Asian session on Thursday, after the release of Australia's weak jobs data in September.",
+      "date": "2026-10-15T07:35:17.089364+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australian-dollar-falls-on-weak-jobs-data/55319"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/australian-market-notably-lower/55301"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australia Jobless Rate 4.7% In September",
-      "description": "Australia posted a seasonally adjusted unemployment rate of 4.7 percent in September, the Australian Bureau of Statistics said on Thursday.",
-      "date": "2026-10-15T00:44:04.378549+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australia-jobless-rate-47-in-september/55300"
     }
   ]
 }
