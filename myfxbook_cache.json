@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-15T10:48:06.843642+00:00",
+  "fetched_at": "2026-10-15T11:03:08.013164+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "EUR",
+      "title": "Eurozone Industrial Output Drops For Third Month",
+      "description": "The euro area industrial production declined for the third straight month in August, suggesting that harsh weather and rising energy prices weighed on industrial activity. Industrial output dropped 0.5 percent on a monthly basis in August, which was bigger than the 0.3 percent fall posted in July, data from Eurostat showed Thursday.",
+      "date": "2026-10-15T10:51:07.994069+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/eurozone-industrial-output-drops-for-third-month/55333"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "DAX Declines On Thursday As Tech Slide Deepens",
+      "description": "The DAX benchmark that tracks the performance of the 40 largest companies listed on the Frankfurt Stock Exchange declined on Thursday amidst worries over artificial intelligence and fears of rising interest rates.",
+      "date": "2026-10-15T10:34:07.995464+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/dax-declines-on-thursday-as-tech-slide-deepens/55332"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indian-shares-sharply-higher-as-oil-prices-fall/55311"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australian Market Trims Early Losses In Mid-market",
-      "description": "The Australian market is trimming its early losses in mid-market moves on Thursday, but extending the losses in the previous session, following the broadly negative cues from Wall Street overnight. The benchmark S&P/ASX 200 is falling well below the 8,750 level, with weakness in mining and technology stocks partially offset by gains in energy and financial stocks.",
-      "date": "2026-10-15T03:35:04.225631+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-market-trims-early-losses-in-mid-market/55309"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "Asian Markets A Sea Of Red",
-      "description": "Asian stock markets are a sea of red on Thursday, following the broadly negative cues from Wall Street overnight, after hotter-than-expected U.S. inflation data revived bets on interest rate hikes by the US Fed that prompted a sell-off in technology and semiconductor stocks on concerns of rising borrowing costs amid heightening investments in artificial intelligence.",
-      "date": "2026-10-15T03:30:04.225924+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/asian-markets-a-sea-of-red/55308"
     }
   ]
 }
