@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-16T01:18:03.818202+00:00",
+  "fetched_at": "2026-10-16T01:33:03.746842+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Higher Open Called For Hong Kong Stock Market",
+      "description": "The Hong Kong stock market has finished lower in back-to-back sessions, dropping more than 280 points or 1.2 percent along the way. The Hang Seng now sits just above the 24,060-point plateau although it's expected to open to the upside on Friday.",
+      "date": "2026-10-16T01:19:03.742955+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/higher-open-called-for-hong-kong-stock-market/55368"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/major-european-markets-close-on-firm-note/55356"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Business Inventories Increase In Line With Estimates In August",
-      "description": "Business inventories in the U.S. increased in line with economist estimates in the month of August, according to a report released by the Commerce Department on Thursday. The Commerce Department said business inventories rose by 0.4 percent in August after climbing by an upwardly revised 0.9 percent in July.",
-      "date": "2026-10-15T15:22:08.649045+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-business-inventories-increase-in-line-with-estimates-in-august/55355"
     }
   ]
 }
