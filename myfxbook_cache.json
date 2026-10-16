@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-16T01:03:04.125694+00:00",
+  "fetched_at": "2026-10-16T01:18:03.818202+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "China Bourse Tipped To Open In The Green",
+      "description": "The China stock market has moved lower in consecutive trading days, stumbling almost 100 points or 3.2 percent along the way. The Shanghai Composite Index now sits just above the 3,700-point plateau although it may find traction on Friday.",
+      "date": "2026-10-16T01:04:03.813753+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/china-bourse-tipped-to-open-in-the-green/55367"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australian Market Significantly Higher",
+      "description": "The Australian stock market is trading significantly higher on Friday, reversing the losses in the previous two sessions, following the broadly positive cues from Wall Street overnight. The benchmark S&P/ASX 200 is moving a tad above 8,800 level, with gains across most sectors led by mining a technology stocks.",
+      "date": "2026-10-16T01:02:03.814222+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australian-market-significantly-higher/55366"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/us-business-inventories-increase-in-line-with-estimates-in-august/55355"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "New York Manufacturing Index Surges To Nearly Five-Year High In October",
-      "description": "New York manufacturing activity rose sharply in the month of October, according to a report released by the Federal Reserve Bank of New York on Thursday. The New York Fed said its general business conditions index surged to 25.5 in October from 7.6 in September, with a positive reading indicating growth. Economists had expected the index to rise to 10.3.",
-      "date": "2026-10-15T14:45:09.577845+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/new-york-manufacturing-index-surges-to-nearly-five-year-high-in-october/55354"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Philly Fed Index Tumbles In October But Still Indicates Growth",
-      "description": "A report released by the Federal Reserve Bank of Philadelphia on Thursday showed a steep drop by its reading on regional manufacturing activity in the month of October. The Philly Fed said its diffusion index for current general activity plunged to 20.9 in October from 37.8 in September, although a positive reading still indicates growth. Economists had expected the index to drop to 30.0.",
-      "date": "2026-10-15T14:33:06.599701+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/philly-fed-index-tumbles-in-october-but-still-indicates-growth/55353"
     }
   ]
 }
