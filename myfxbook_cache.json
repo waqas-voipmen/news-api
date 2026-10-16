@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-16T04:33:04.102094+00:00",
+  "fetched_at": "2026-10-16T04:48:04.031131+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australian Dollar Advances Against Majors",
+      "description": "The Australian dollar strengthened against other major currencies in the Asian session on Friday.",
+      "date": "2026-10-16T04:22:04.026952+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australian-dollar-advances-against-majors/55378"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "NZD",
+      "title": "NZ Dollar Rises Against Majors",
+      "description": "The New Zealand dollar strengthened against other major currencies in the Asian session on Friday.",
+      "date": "2026-10-16T04:15:04.027224+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/nz-dollar-rises-against-majors/55377"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/malaysia-stock-market-may-reverse-thursdays-losses/55363"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Japan Stock Market May Halt Losing Streak",
-      "description": "The Japan stock market has tracked lower in six straight sessions, slumping more than 6,240 points or 9.1 percent in that span. The Nikkei now sits just above the 64,425-point plateau although it may find traction on Friday.",
-      "date": "2026-10-15T23:19:08.157878+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/japan-stock-market-may-halt-losing-streak/55362"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "South Korea Shares Overdue For Support On Friday",
-      "description": "The South Korea stock market has finished lower in seven straight sessions, cratering more than 1,450 points or 22.5 percent along the way. The KOSPI now sits just above the 5,550-point plateau although it may stop the bleeding on Friday.",
-      "date": "2026-10-15T23:04:08.659364+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/south-korea-shares-overdue-for-support-on-friday/55361"
     }
   ]
 }
