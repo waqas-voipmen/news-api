@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-16T00:55:19.428396+00:00",
+  "fetched_at": "2026-10-16T01:03:04.125694+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Rebound Anticipated For Taiwan Stock Market",
+      "description": "The Taiwan stock market headed south again on Thursday, one day after ending the four-day losing streak in which it had dropped almost 1,500 points or 3.1 percent. The Taiwan Stock Exchange now sits just beneath the 47,000-point plateau although it may bounce higher again on Friday.",
+      "date": "2026-10-16T00:34:04.121715+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/rebound-anticipated-for-taiwan-stock-market/55365"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/philly-fed-index-tumbles-in-october-but-still-indicates-growth/55353"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Retail Sales Climb More Than Expected Amid Higher Gas Prices",
-      "description": "The Commerce Department released a report on Thursday showing retail sales in the U.S. increased by much more than expected in in the month of September. The report said retail sales climbed by 0.8 percent in September after surging by an upwardly revised 1.3 percent in August. Economists had expected retail sales to rise by 0.3 percent.",
-      "date": "2026-10-15T14:09:07.195929+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-retail-sales-climb-more-than-expected-amid-higher-gas-prices/55352"
     }
   ]
 }
