@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-16T10:03:07.255070+00:00",
+  "fetched_at": "2026-10-16T10:18:07.671711+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "XAU",
+      "title": "Oil Edges Higher In Cautious Trade As Dollar Dips",
+      "description": "Gold prices traded firm on Friday after rising over 1 percent in the previous session on a weaker dollar and falling bond yields.",
+      "date": "2026-10-16T09:56:07.662500+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/oil-edges-higher-in-cautious-trade-as-dollar-dips/55396"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/australian-market-maintains-early-gains-in-mid-market/55374"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Asian Markets Track Wall Street Higher",
-      "description": "Asian stock markets are trading mostly higher on Friday, following the broadly positive cues from Wall Street overnight, boosted by strong gains in Japan and South Korea amid a rebound in technology and semiconductor stocks after the recent sell-off on concerns over rising costs of financing AI investments. Asian markets ended mostly lower on Thursday.",
-      "date": "2026-10-16T03:11:04.120126+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/asian-markets-track-wall-street-higher/55373"
     }
   ]
 }

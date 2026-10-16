@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-16T10:03:13.539258+00:00",
+  "fetched_at": "2026-10-16T10:18:14.289578+00:00",
   "periods": {
     "week": [
       {
@@ -1176,7 +1176,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "1.773\u20ac"
       },
       {
         "title": "Gov Council Member Alexopoulos Speaks",
