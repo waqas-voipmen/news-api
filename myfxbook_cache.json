@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-16T10:48:04.173773+00:00",
+  "fetched_at": "2026-10-16T11:03:04.342794+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Indian Shares Close Higher As IT Stocks Extend Surge",
+      "description": "Indian shares eked out modest gains on Friday, adding to sharp gains in the previous session as information technology stocks extended recent gains following encouraging Q2 earnings from Wipro and Tech Mahindra.",
+      "date": "2026-10-16T10:23:04.339320+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-close-higher-as-it-stocks-extend-surge/55401"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/antipodean-currencies-rise-amid-risk-on-mood/55379"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australian Dollar Advances Against Majors",
-      "description": "The Australian dollar strengthened against other major currencies in the Asian session on Friday.",
-      "date": "2026-10-16T04:22:04.026952+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-dollar-advances-against-majors/55378"
     }
   ]
 }
