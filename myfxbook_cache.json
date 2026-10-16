@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-16T10:18:07.671711+00:00",
+  "fetched_at": "2026-10-16T10:33:04.236517+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "DAX Hits 3-Week High Amid Tech Rally, Softer Oil",
+      "description": "German stocks extended gains to a third consecutive session Friday as interest rate and AI spending concerns eased. The DAX benchmark climbed 260.51 points to 25,643.13, with Rheinmetall, Volkswagen, and Scout24 leading advances. Brent crude fell to $104.91 before recovering to $105.47.",
+      "date": "2026-10-16T10:00:04.232966+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/dax-hits-3-week-high-amid-tech-rally-softer-oil/55397"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/nz-dollar-rises-against-majors/55377"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australian Market Maintains Early Gains In Mid-market",
-      "description": "The Australian stock market is maintaining its early gains in mid-market moves on Friday, reversing the losses in the previous two sessions, following the broadly positive cues from Wall Street overnight. The benchmark S&P/ASX 200 is moving up to near the 8,800 level, with gains across most sectors led by mining a technology stocks.",
-      "date": "2026-10-16T03:30:04.119802+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-market-maintains-early-gains-in-mid-market/55374"
     }
   ]
 }
