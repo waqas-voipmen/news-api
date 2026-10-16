@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-16T01:33:03.746842+00:00",
+  "fetched_at": "2026-10-16T01:48:03.744073+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Japanese Market Sharply Higher",
+      "description": "The Japanese market is trading sharply higher on Friday, snapping a six session losing streak, following the broadly positive cues from Wall Street overnight. The Nikkei 225 is moving well above the 65,500 level, with gains across most sectors led by technology and financial stocks.",
+      "date": "2026-10-16T01:24:03.740284+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/japanese-market-sharply-higher/55369"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/swiss-market-ends-higher-for-5th-straight-session/55357"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "GBP",
-      "title": "Major European Markets Close On Firm Note",
-      "description": "The major European markets closed higher on Thursday, supported by gains in retail, luxury, pharmaceuticals and industrials sectors even as tech stocks were under some pressure amid uncertainty about returns on AI-related investments. Softening global bond yields and strong UK GDP data aided sentiment.",
-      "date": "2026-10-15T17:52:08.896001+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/major-european-markets-close-on-firm-note/55356"
     }
   ]
 }
