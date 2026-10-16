@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-16T03:33:03.752298+00:00",
+  "fetched_at": "2026-10-16T03:48:04.123665+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australian Market Maintains Early Gains In Mid-market",
+      "description": "The Australian stock market is maintaining its early gains in mid-market moves on Friday, reversing the losses in the previous two sessions, following the broadly positive cues from Wall Street overnight. The benchmark S&P/ASX 200 is moving up to near the 8,800 level, with gains across most sectors led by mining a technology stocks.",
+      "date": "2026-10-16T03:30:04.119802+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australian-market-maintains-early-gains-in-mid-market/55374"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Asian Markets Track Wall Street Higher",
+      "description": "Asian stock markets are trading mostly higher on Friday, following the broadly positive cues from Wall Street overnight, boosted by strong gains in Japan and South Korea amid a rebound in technology and semiconductor stocks after the recent sell-off on concerns over rising costs of financing AI investments. Asian markets ended mostly lower on Thursday.",
+      "date": "2026-10-16T03:11:04.120126+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/asian-markets-track-wall-street-higher/55373"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/south-korea-shares-overdue-for-support-on-friday/55361"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Singapore Export Data Due On Friday",
-      "description": "Singapore will on Friday release September figures for non-oil domestic exports, highlighting a modest day for Asia-Pacific economic activity. In August, NODX rose 10.9 percent on month and 46.2 percent on year, for a trade surplus of SGD13.780 billion.",
-      "date": "2026-10-15T22:04:08.660146+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/singapore-export-data-due-on-friday/55360"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "South Korea Export Prices Surge 40.9% On Year In September",
-      "description": "Export prices in South Korea spiked 40.9 percent on year in September, the Bank of Korea said on Friday - easing from 42.7 percent in August.",
-      "date": "2026-10-15T21:50:09.225128+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/south-korea-export-prices-surge-409-on-year-in-september/55359"
     }
   ]
 }
