@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-16T18:33:04.319094+00:00",
+  "fetched_at": "2026-10-16T18:48:04.232705+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "CAD",
+      "title": "TSX Pares Early Gains; Energy Stocks Stay Firm",
+      "description": "After opening marginally higher and moving further up fairly swiftly Friday morning, Canadian stocks slid gradually and slipped into negative territory, weighed down by losses in technology sector. Strong buying in energy and consumer staples sectors help limit market's downside.",
+      "date": "2026-10-16T18:35:04.228788+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/tsx-pares-early-gains-energy-stocks-stay-firm/55414"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "CHF",
+      "title": "Swiss Market Ends Higher Again",
+      "description": "The Switzerland market extended its gains to a sixth straight session even as stocks swung between gains and losses for most part of the trading day on Friday. \n\nThe market tracked gains in other markets across Europe amid easing concerns about interest rates and AI-related investments.",
+      "date": "2026-10-16T17:39:04.229079+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/swiss-market-ends-higher-again/55413"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/european-shares-edge-higher-as-tech-stocks-recover/55393"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Asian Shares Surge After Warsh Comments",
-      "description": "Asian stocks advanced on Friday as tech shares bounced back following Federal Reserve Chair Kevin Warsh's comments at the IMF-World Bank meetings in Bangkok that artificial intelligence is a major force in the global economy.",
-      "date": "2026-10-16T08:42:04.764184+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/asian-shares-surge-after-warsh-comments/55390"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Malaysia GDP Growth Moderates To 5.3%",
-      "description": "Malaysia's economic growth moderated to one-year low in the third quarter but the overall pace of expansion remained robust as strong global demand for electronics used in artificial intelligence bolstered the manufacturing sector. Gross domestic product grew 5.3 percent in the third quarter from the last year, advance estimates from the Department of Statistics showed Friday.",
-      "date": "2026-10-16T07:18:04.070703+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/malaysia-gdp-growth-moderates-to-53/55387"
     }
   ]
 }
