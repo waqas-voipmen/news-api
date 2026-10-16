@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-16T12:33:04.407652+00:00",
+  "fetched_at": "2026-10-16T12:48:04.138781+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "CAD",
+      "title": "Bay Street Likely To Open With Positive Bias",
+      "description": "Canadian stocks may open with a positive bias Friday morning with materials stocks likely to move higher on firm precious metals prices.",
+      "date": "2026-10-16T12:13:04.134127+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/bay-street-likely-to-open-with-positive-bias/55406"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indian-shares-modestly-higher-in-choppy-trade-it-stocks-extend-surge/55381"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "GBP",
-      "title": "Pound Rises Against Majors",
-      "description": "The British pound strengthened against other major currencies in the Asian session on Friday.",
-      "date": "2026-10-16T04:50:04.245497+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/pound-rises-against-majors/55380"
     }
   ]
 }
