@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-16T05:18:04.351067+00:00",
+  "fetched_at": "2026-10-16T05:33:03.886785+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "GBP",
+      "title": "Pound Rises Ahead Of Fed Warsh's Speech",
+      "description": "The British pound strengthened against other major currencies in the Asian session on Friday, as traders now look to U.S. Federal Reserve (Fed) Chair Kevin Warsh's speech.",
+      "date": "2026-10-16T05:17:03.883282+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/pound-rises-ahead-of-fed-warshs-speech/55382"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/china-bourse-tipped-to-open-in-the-green/55367"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australian Market Significantly Higher",
-      "description": "The Australian stock market is trading significantly higher on Friday, reversing the losses in the previous two sessions, following the broadly positive cues from Wall Street overnight. The benchmark S&P/ASX 200 is moving a tad above 8,800 level, with gains across most sectors led by mining a technology stocks.",
-      "date": "2026-10-16T01:02:03.814222+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-market-significantly-higher/55366"
     }
   ]
 }
