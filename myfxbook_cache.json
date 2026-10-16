@@ -1,18 +1,6 @@
 {
-  "fetched_at": "2026-10-16T07:33:04.453270+00:00",
+  "fetched_at": "2026-10-16T07:48:04.002806+00:00",
   "events": [
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Malaysia GDP Growth Moderates To 5.3%",
-      "description": "Malaysia's economic growth moderated to one-year low in the third quarter but the overall pace of expansion remained robust as strong global demand for electronics used in artificial intelligence bolstered the manufacturing sector. Gross domestic product grew 5.3 percent in the third quarter from the last year, advance estimates from the Department of Statistics showed Friday.",
-      "date": "2026-10-16T07:18:04.448556+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/malaysia-gdp-growth-moderates-to-53/55387"
-    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -156,6 +144,18 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/japanese-market-sharply-higher/55369"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Higher Open Called For Hong Kong Stock Market",
+      "description": "The Hong Kong stock market has finished lower in back-to-back sessions, dropping more than 280 points or 1.2 percent along the way. The Hang Seng now sits just above the 24,060-point plateau although it's expected to open to the upside on Friday.",
+      "date": "2026-10-16T01:19:04.002192+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/higher-open-called-for-hong-kong-stock-market/55368"
     }
   ]
 }
