@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-16T19:33:05.928839+00:00",
+  "fetched_at": "2026-10-16T19:48:06.835922+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "CAD",
+      "title": "TSX Pares Early Gains; Energy Stocks Stay Firm",
+      "description": "After opening marginally higher and moving further up fairly swiftly Friday morning, Canadian stocks slid gradually and slipped into negative territory, weighed down by losses in technology sector. Strong buying in energy and consumer staples sectors help limit market's downside.",
+      "date": "2026-10-16T18:35:06.817546+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/tsx-pares-early-gains-energy-stocks-stay-firm/55414"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/european-shares-edge-higher-as-tech-stocks-recover/55393"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Asian Shares Surge After Warsh Comments",
-      "description": "Asian stocks advanced on Friday as tech shares bounced back following Federal Reserve Chair Kevin Warsh's comments at the IMF-World Bank meetings in Bangkok that artificial intelligence is a major force in the global economy.",
-      "date": "2026-10-16T08:42:05.927805+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/asian-shares-surge-after-warsh-comments/55390"
     }
   ]
 }
