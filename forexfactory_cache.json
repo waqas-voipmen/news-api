@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-16T12:03:07.215881+00:00",
+  "fetched_at": "2026-10-16T12:18:07.489794+00:00",
   "periods": {
     "week": [
       {
@@ -1200,7 +1200,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "248.89"
       },
       {
         "title": "Foreign Securities Purchases",
