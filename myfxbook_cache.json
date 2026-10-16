@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-16T00:03:08.550119+00:00",
+  "fetched_at": "2026-10-16T00:55:19.428396+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Singapore Stock Market Poised To Open In The Green",
+      "description": "The Singapore stock market has finished lower in back-to-back sessions, slumping almost 30 points or 0.6 percent in that span. The STI now sits just above the 5,400-point plateau although it may halt its slide on Friday.",
+      "date": "2026-10-16T00:03:19.421506+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/singapore-stock-market-poised-to-open-in-the-green/55364"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Malaysia Stock Market May Reverse Thursday's Losses",
+      "description": "The Malaysia stock market on Thursday snapped the four-day winning streak in which it had collected almost 30 points or 1.8 percent. The Kuala Lumpur Composite Index now sits just shy of the 1,625-point plateau although it may bounce higher again on Friday.",
+      "date": "2026-10-15T23:33:19.421882+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/malaysia-stock-market-may-reverse-thursdays-losses/55363"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/us-retail-sales-climb-more-than-expected-amid-higher-gas-prices/55352"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Producer Prices Jump 1.3% In September, Much More Than Expected",
-      "description": "Following yesterday's report on consumer price inflation, the Labor Department released a separate report on Thursday showing producer prices in the U.S. shot up by much more than expected in the month of September. The Labor Department said its producer price index for final demand jumped by 1.3 in September after rising by an upwardly revised 0.5 percent in August.",
-      "date": "2026-10-15T13:52:04.543323+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-producer-prices-jump-13-in-september-much-more-than-expected/55350"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Weekly Jobless Claims Inch Up Slightly Less Than Expected",
-      "description": "A report released by the Labor Department on Thursday showed first-time claims for U.S. unemployment benefits edged slightly higher in the week ended October 10th. The Labor Department said initial jobless claims ticked up to 199,000, an increase of 1,000 from the previous week's revised level of 198,000. Economists had expected jobless claims to rise to 200,000.",
-      "date": "2026-10-15T13:39:04.543704+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-weekly-jobless-claims-inch-up-slightly-less-than-expected/55349"
     }
   ]
 }
