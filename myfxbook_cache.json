@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-16T10:33:04.236517+00:00",
+  "fetched_at": "2026-10-16T10:48:04.173773+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "CAC 40 Recovers After Week Start",
+      "description": "French stocks turned in a mixed performance on Friday with investors making cautious moves due to trade tensions following China's warning that it would retaliate against new EU trade measures that could potentially target Chinese companies and products.",
+      "date": "2026-10-16T10:20:04.170348+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/cac-40-recovers-after-week-start/55400"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/australian-dollar-advances-against-majors/55378"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "NZD",
-      "title": "NZ Dollar Rises Against Majors",
-      "description": "The New Zealand dollar strengthened against other major currencies in the Asian session on Friday.",
-      "date": "2026-10-16T04:15:04.027224+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/nz-dollar-rises-against-majors/55377"
     }
   ]
 }
