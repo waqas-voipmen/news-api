@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-16T08:48:04.344062+00:00",
+  "fetched_at": "2026-10-16T09:03:04.768354+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Asian Shares Surge After Warsh Comments",
+      "description": "Asian stocks advanced on Friday as tech shares bounced back following Federal Reserve Chair Kevin Warsh's comments at the IMF-World Bank meetings in Bangkok that artificial intelligence is a major force in the global economy.",
+      "date": "2026-10-16T08:42:04.764184+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/asian-shares-surge-after-warsh-comments/55390"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indonesia-stock-market-may-find-renewed-support-on-friday/55370"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Japanese Market Sharply Higher",
-      "description": "The Japanese market is trading sharply higher on Friday, snapping a six session losing streak, following the broadly positive cues from Wall Street overnight. The Nikkei 225 is moving well above the 65,500 level, with gains across most sectors led by technology and financial stocks.",
-      "date": "2026-10-16T01:24:03.740284+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/japanese-market-sharply-higher/55369"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-16T08:48:07.284888+00:00",
+  "fetched_at": "2026-10-16T09:03:08.212676+00:00",
   "periods": {
     "week": [
       {
@@ -1152,7 +1152,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "4.2%"
       },
       {
         "title": "Trade Balance",
@@ -1164,7 +1164,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-6.8\u20ac"
       },
       {
         "title": "Italian Trade Balance",
