@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-16T05:03:04.250134+00:00",
+  "fetched_at": "2026-10-16T05:18:04.351067+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Indian Shares Modestly Higher In Choppy Trade; IT Stocks Extend Surge",
+      "description": "Indian shares were modestly higher in choppy trade on Friday after posting strong gains in the previous session, led by banking and information technology stocks.",
+      "date": "2026-10-16T04:54:04.347429+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-modestly-higher-in-choppy-trade-it-stocks-extend-surge/55381"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/australian-market-significantly-higher/55366"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Rebound Anticipated For Taiwan Stock Market",
-      "description": "The Taiwan stock market headed south again on Thursday, one day after ending the four-day losing streak in which it had dropped almost 1,500 points or 3.1 percent. The Taiwan Stock Exchange now sits just beneath the 47,000-point plateau although it may bounce higher again on Friday.",
-      "date": "2026-10-16T00:34:04.121715+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/rebound-anticipated-for-taiwan-stock-market/55365"
     }
   ]
 }
