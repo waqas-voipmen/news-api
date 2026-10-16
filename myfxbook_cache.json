@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-16T11:18:08.140095+00:00",
+  "fetched_at": "2026-10-16T11:33:04.833979+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "FTSE 100 Up Slightly At Noon In Cautious Trade",
+      "description": "The U.K. market's benchmark index FTSE 100 was marginally above the flat line a few minutes past noon on Friday as stocks recovered from a weak start thanks to support at lower levels. Potential tax hike on banks weighed on sentiment at the start.",
+      "date": "2026-10-16T11:09:04.830381+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/ftse-100-up-slightly-at-noon-in-cautious-trade/55403"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/pound-rises-against-majors/55380"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Antipodean Currencies Rise Amid Risk-on Mood",
-      "description": "The Antipodean currencies such as the Australia and the New Zealand dollars strengthened against their major currencies in the Asian session on Friday, as Asian stock markets traded higher, boosted by strong gains in Japan and South Korea amid a rebound in technology and semiconductor stocks after the recent sell-off on concerns over rising costs of financing AI investments.",
-      "date": "2026-10-16T04:37:04.245952+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/antipodean-currencies-rise-amid-risk-on-mood/55379"
     }
   ]
 }
