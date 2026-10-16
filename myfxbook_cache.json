@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-16T06:03:04.047895+00:00",
+  "fetched_at": "2026-10-16T06:18:04.104875+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "European Shares Seen Broadly Higher At Open",
+      "description": "European stocks are seen opening broadly higher on Friday as a selloff in chip stocks eased and bond markets stabilized following a heavy sell-off earlier in the week, triggered by AI debt concerns.",
+      "date": "2026-10-16T05:46:04.101327+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-shares-seen-broadly-higher-at-open/55383"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/higher-open-called-for-hong-kong-stock-market/55368"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "China Bourse Tipped To Open In The Green",
-      "description": "The China stock market has moved lower in consecutive trading days, stumbling almost 100 points or 3.2 percent along the way. The Shanghai Composite Index now sits just above the 3,700-point plateau although it may find traction on Friday.",
-      "date": "2026-10-16T01:04:03.813753+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/china-bourse-tipped-to-open-in-the-green/55367"
     }
   ]
 }
