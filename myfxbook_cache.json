@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-16T04:48:04.031131+00:00",
+  "fetched_at": "2026-10-16T05:03:04.250134+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "GBP",
+      "title": "Pound Rises Against Majors",
+      "description": "The British pound strengthened against other major currencies in the Asian session on Friday.",
+      "date": "2026-10-16T04:50:04.245497+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/pound-rises-against-majors/55380"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Antipodean Currencies Rise Amid Risk-on Mood",
+      "description": "The Antipodean currencies such as the Australia and the New Zealand dollars strengthened against their major currencies in the Asian session on Friday, as Asian stock markets traded higher, boosted by strong gains in Japan and South Korea amid a rebound in technology and semiconductor stocks after the recent sell-off on concerns over rising costs of financing AI investments.",
+      "date": "2026-10-16T04:37:04.245952+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/antipodean-currencies-rise-amid-risk-on-mood/55379"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/rebound-anticipated-for-taiwan-stock-market/55365"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Singapore Stock Market Poised To Open In The Green",
-      "description": "The Singapore stock market has finished lower in back-to-back sessions, slumping almost 30 points or 0.6 percent in that span. The STI now sits just above the 5,400-point plateau although it may halt its slide on Friday.",
-      "date": "2026-10-16T00:03:19.421506+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/singapore-stock-market-poised-to-open-in-the-green/55364"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Malaysia Stock Market May Reverse Thursday's Losses",
-      "description": "The Malaysia stock market on Thursday snapped the four-day winning streak in which it had collected almost 30 points or 1.8 percent. The Kuala Lumpur Composite Index now sits just shy of the 1,625-point plateau although it may bounce higher again on Friday.",
-      "date": "2026-10-15T23:33:19.421882+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/malaysia-stock-market-may-reverse-thursdays-losses/55363"
     }
   ]
 }
