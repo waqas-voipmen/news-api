@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-16T09:48:06.760797+00:00",
+  "fetched_at": "2026-10-16T10:03:07.255070+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Oil Set For Weekly Gain With Focus On Mideast Supply Risks",
+      "description": "Oil prices edged lower on Friday but headed for a weekly gain amid mounting supply concerns in the Middle East.",
+      "date": "2026-10-16T09:35:07.239132+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/oil-set-for-weekly-gain-with-focus-on-mideast-supply-risks/55395"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/asian-markets-track-wall-street-higher/55373"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Indian Shares Set To Follow Global Peers Higher With Lower Yields In Focus",
-      "description": "Indian shares look set to open higher on Friday, tracking firm cues from global markets as a selloff in chip stocks eased and bond markets steadied after recent turbulence.",
-      "date": "2026-10-16T02:36:04.063337+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-set-to-follow-global-peers-higher-with-lower-yields-in-focus/55372"
     }
   ]
 }
