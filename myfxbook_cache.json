@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-16T17:18:04.559936+00:00",
+  "fetched_at": "2026-10-16T17:33:05.057534+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "European Equities Close Higher On AI Optimism",
+      "description": "European equities closed higher Friday as easing rate concerns and AI investments boosted sentiment. Defense stocks rallied amid European leaders' Ukraine support. Stoxx 600 gained 0.72%, with DAX up 0.95% and FTSE 100 up 0.38%.",
+      "date": "2026-10-16T17:21:05.051356+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-equities-close-higher-on-ai-optimism/55412"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/malaysia-gdp-growth-moderates-to-53/55387"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "European Shares Seen Broadly Higher At Open",
-      "description": "European stocks are seen opening broadly higher on Friday as a selloff in chip stocks eased and bond markets stabilized following a heavy sell-off earlier in the week, triggered by AI debt concerns.",
-      "date": "2026-10-16T05:46:04.101327+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-shares-seen-broadly-higher-at-open/55383"
     }
   ]
 }
