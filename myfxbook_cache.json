@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-16T13:18:04.353899+00:00",
+  "fetched_at": "2026-10-16T13:33:04.203977+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Import, Export Prices Jump Much More Than Expected In September",
+      "description": "Import and export prices in the U.S. both increased by far more than anticipated in the month of September, according to a report released by the Labor Department on Friday.",
+      "date": "2026-10-16T12:38:04.200441+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-import-export-prices-jump-much-more-than-expected-in-september/55407"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/pound-rises-ahead-of-fed-warshs-speech/55382"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Indian Shares Modestly Higher In Choppy Trade; IT Stocks Extend Surge",
-      "description": "Indian shares were modestly higher in choppy trade on Friday after posting strong gains in the previous session, led by banking and information technology stocks.",
-      "date": "2026-10-16T04:54:04.347429+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-modestly-higher-in-choppy-trade-it-stocks-extend-surge/55381"
     }
   ]
 }
