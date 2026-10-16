@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-16T09:33:08.142414+00:00",
+  "fetched_at": "2026-10-16T09:48:06.760797+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "European Shares Edge Higher As Tech Stocks Recover",
+      "description": "European stocks traded higher on Friday, after hitting their highest in more than two weeks the previous day on the back of solid earnings and softening global bond yields.",
+      "date": "2026-10-16T09:19:06.744671+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-shares-edge-higher-as-tech-stocks-recover/55393"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indian-shares-set-to-follow-global-peers-higher-with-lower-yields-in-focus/55372"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Indonesia Stock Market May Find Renewed Support On Friday",
-      "description": "The Indonesia stock market turned lower again on Thursday, one day after snapping the two-day slide in which it had dropped almost 170 points or 2.9 percent. The Jakarta Composite Index now sits just above the 5,860-point plateau although it's likely to bounce higher again on Friday.",
-      "date": "2026-10-16T01:34:03.772724+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indonesia-stock-market-may-find-renewed-support-on-friday/55370"
     }
   ]
 }
