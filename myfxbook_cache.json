@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-16T14:33:06.384551+00:00",
+  "fetched_at": "2026-10-16T14:48:06.400566+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Industrial Production Climbs More Than Expected In September",
+      "description": "A report released by the Federal Reserve on Friday showed industrial production in the U.S. increased by more than expected in the month of September. The Fed said industrial production climbed by 0.7 percent in September following a revised 0.1 percent uptick in August.",
+      "date": "2026-10-16T13:33:06.397027+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-industrial-production-climbs-more-than-expected-in-september/55409"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/european-shares-seen-broadly-higher-at-open/55383"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "GBP",
-      "title": "Pound Rises Ahead Of Fed Warsh's Speech",
-      "description": "The British pound strengthened against other major currencies in the Asian session on Friday, as traders now look to U.S. Federal Reserve (Fed) Chair Kevin Warsh's speech.",
-      "date": "2026-10-16T05:17:03.883282+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/pound-rises-ahead-of-fed-warshs-speech/55382"
     }
   ]
 }
