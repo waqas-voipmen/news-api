@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-16T03:03:03.959246+00:00",
+  "fetched_at": "2026-10-16T03:18:04.071476+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Indian Shares Set To Follow Global Peers Higher With Lower Yields In Focus",
+      "description": "Indian shares look set to open higher on Friday, tracking firm cues from global markets as a selloff in chip stocks eased and bond markets steadied after recent turbulence.",
+      "date": "2026-10-16T02:36:04.063337+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-set-to-follow-global-peers-higher-with-lower-yields-in-focus/55372"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/south-korea-export-prices-surge-409-on-year-in-september/55359"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "NZD",
-      "title": "New Zealand Manufacturing Sector Accelerates In September - BusinessNZ",
-      "description": "The manufacturing sector in New Zealand continued to expand in September, and at a faster pace, the latest survey from BusinessNZ revealed on Friday with a manufacturing PMI score of 56.5.",
-      "date": "2026-10-15T21:43:09.225933+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/new-zealand-manufacturing-sector-accelerates-in-september---businessnz/55358"
     }
   ]
 }
