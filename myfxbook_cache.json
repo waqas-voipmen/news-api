@@ -1,6 +1,42 @@
 {
-  "fetched_at": "2026-10-18T22:03:04.934524+00:00",
+  "fetched_at": "2026-10-18T22:18:04.329107+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "NZD",
+      "title": "New Zealand Performance Of Services Index Ebbs In September - BusinessNZ",
+      "description": "The services sector in New Zealand continued to expand in September, albeit at a slightly slower rate, the latest survey from BusinessNZ revealed on Monday with a Performance of Services score of 50.9.",
+      "date": "2026-10-18T22:08:04.325555+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/new-zealand-performance-of-services-index-ebbs-in-september---businessnz/55417"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "China Data Due On Monday",
+      "description": "China is scheduled to release a raft of data on Monday, highlighting a busy day for Asia-Pacific economic activity. On tap are Q3 figures for gross domestic product and September numbers for industrial production, retail sales, fixed asset investment, house prices and unemployment.",
+      "date": "2026-10-18T22:04:04.325852+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/china-data-due-on-monday/55416"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "NZD",
+      "title": "New Zealand Has NZ$1.971 Billion Trade Shortfall",
+      "description": "New Zealand posted a merchandise trade deficit of NZ$1.971 billion in September, the New Zealand Bureau of Statistics said on Monday.",
+      "date": "2026-10-18T22:02:04.326148+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/new-zealand-has-nz1971-billion-trade-shortfall/55415"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -120,42 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/dax-hits-3-week-high-amid-tech-rally-softer-oil/55397"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "XAU",
-      "title": "Oil Edges Higher In Cautious Trade As Dollar Dips",
-      "description": "Gold prices traded firm on Friday after rising over 1 percent in the previous session on a weaker dollar and falling bond yields.",
-      "date": "2026-10-16T09:56:07.662500+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/oil-edges-higher-in-cautious-trade-as-dollar-dips/55396"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Oil Set For Weekly Gain With Focus On Mideast Supply Risks",
-      "description": "Oil prices edged lower on Friday but headed for a weekly gain amid mounting supply concerns in the Middle East.",
-      "date": "2026-10-16T09:35:07.239132+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/oil-set-for-weekly-gain-with-focus-on-mideast-supply-risks/55395"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "European Shares Edge Higher As Tech Stocks Recover",
-      "description": "European stocks traded higher on Friday, after hitting their highest in more than two weeks the previous day on the back of solid earnings and softening global bond yields.",
-      "date": "2026-10-16T09:19:06.744671+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-shares-edge-higher-as-tech-stocks-recover/55393"
     }
   ]
 }

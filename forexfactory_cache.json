@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-18T22:03:08.969415+00:00",
+  "fetched_at": "2026-10-18T22:18:07.673052+00:00",
   "periods": {
     "week": [
       {
@@ -24,7 +24,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "50.9"
       },
       {
         "title": "Trade Balance",
