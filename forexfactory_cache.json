@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-18T22:48:08.180004+00:00",
+  "fetched_at": "2026-10-18T23:03:09.012731+00:00",
   "periods": {
     "week": [
       {
@@ -48,7 +48,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "1%"
       },
       {
         "title": "RBA Assist Gov Kent Speaks",
