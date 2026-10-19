@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-19T11:48:06.772051+00:00",
+  "fetched_at": "2026-10-19T12:03:04.538650+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "FTSE 100 Down 1.05% As Banks, Miners Lead Retreat On Tensions",
+      "description": "U.K. stocks retreated on Monday with the FTSE 100 down 1.05% to 10,767.86 as investors grew wary ahead of jobs reports, inflation data, and retail sales figures this week. European civil unrest and international tensions pressured markets.",
+      "date": "2026-10-19T11:35:04.535159+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/ftse-100-down-105-as-banks-miners-lead-retreat-on-tensions/55454"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indian-shares-modestly-lower-in-cautious-trade/55432"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "XAU",
-      "title": "Australian Market Maintains Early Gains In Mid-market",
-      "description": "The Australian stock market is maintaining its early gains in mid-market trading on Monday, extending the gains in the previous session, despite the broadly negative cues from Wall Street on Friday. The benchmark S&P/ASX 200 index is moving above the 8,800.00 level, with gains in energy and financial stocks partially offset by weakness in gold miners and technology stocks.",
-      "date": "2026-10-19T03:26:09.619191+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-market-maintains-early-gains-in-mid-market/55430"
     }
   ]
 }
