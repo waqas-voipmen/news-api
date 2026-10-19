@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-19T08:18:08.325463+00:00",
+  "fetched_at": "2026-10-19T08:33:09.402358+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "EUR",
+      "title": "Euro Slides Against Majors",
+      "description": "The euro weakened against other major currencies in the early European session on Monday.",
+      "date": "2026-10-19T08:17:09.377217+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/euro-slides-against-majors/55439"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/singapore-stock-market-may-test-support-at-5400-points/55421"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Malaysia Stock Market May Extend Losing Streak",
-      "description": "The Malaysia stock market has finished lower in back-to-back sessions, slumping almost 20 points or 1.2 percent in that span. The Kuala Lumpur Composite Index now sits just shy of the 1,610-point plateau and it may take further damage again on Monday.",
-      "date": "2026-10-18T23:34:05.116643+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/malaysia-stock-market-may-extend-losing-streak/55420"
     }
   ]
 }
