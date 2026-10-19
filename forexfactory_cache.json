@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-19T12:18:10.774977+00:00",
+  "fetched_at": "2026-10-19T12:33:14.849952+00:00",
   "periods": {
     "week": [
       {
@@ -179,7 +179,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.1%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Median CPI y/y",
@@ -191,7 +192,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "1.9%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Trimmed CPI y/y",
@@ -203,7 +205,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "1.8%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Common CPI y/y",
@@ -215,7 +218,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "2.4%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Core CPI m/m",
@@ -227,7 +231,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.0%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "NAHB Housing Market Index",
