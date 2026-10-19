@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-19T12:33:08.229892+00:00",
+  "fetched_at": "2026-10-19T13:03:04.668529+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "CAD",
+      "title": "Canadian Dollar Rises Against Majors",
+      "description": "The Canadian dollar strengthened against other major currencies in the European session on Monday.",
+      "date": "2026-10-19T12:45:04.665115+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/canadian-dollar-rises-against-majors/55458"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "CAD",
+      "title": "Canadian Stocks Set For Mixed Open; Inflation Data Due",
+      "description": "Canadian stocks are seen opening on a mixed note Monday morning, tracking mixed trend in commodity prices and weak European markets. September inflation data due 8:30 AM ET, following August's unchanged 3% rate. Nasdaq futures signal technology strength as geopolitical concerns weigh on global sentiment.",
+      "date": "2026-10-19T12:10:04.665400+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/canadian-stocks-set-for-mixed-open-inflation-data-due/55457"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/euro-slides-against-majors/55439"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "European Shares Seen Lower As Violence Erupts At France Protests",
-      "description": "European stocks are seen opening lower on Monday as mass protests in France spiraled into riots, compounding an already elevated fiscal risk premium.",
-      "date": "2026-10-19T05:42:20.059436+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-shares-seen-lower-as-violence-erupts-at-france-protests/55435"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Indian Shares Modestly Lower In Cautious Trade",
-      "description": "Indian shares were modestly lower in early trade on Monday on concerns over elevated oil prices amid escalating tensions in the Strait of Hormuz.",
-      "date": "2026-10-19T04:41:04.944271+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-modestly-lower-in-cautious-trade/55432"
     }
   ]
 }
