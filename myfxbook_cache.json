@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-19T05:18:08.656584+00:00",
+  "fetched_at": "2026-10-19T05:33:04.948188+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Indian Shares Modestly Lower In Cautious Trade",
+      "description": "Indian shares were modestly lower in early trade on Monday on concerns over elevated oil prices amid escalating tensions in the Strait of Hormuz.",
+      "date": "2026-10-19T04:41:04.944271+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-modestly-lower-in-cautious-trade/55432"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/japan-stock-market-may-see-renewed-consolidation-on-monday/55419"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "KOSPI May Hand Back Friday's Gains",
-      "description": "The South Korea stock market on Friday snapped the brutal seven-day losing streak in which it had crashed more than 1,450 points or 22.5 percent. The KOSPI now sits just beneath the 5,670-point plateau although it may head south again on Monday.",
-      "date": "2026-10-18T23:04:04.396053+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/kospi-may-hand-back-fridays-gains/55418"
     }
   ]
 }
