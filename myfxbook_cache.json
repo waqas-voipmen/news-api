@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-19T08:33:09.402358+00:00",
+  "fetched_at": "2026-10-19T08:48:04.263712+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Asian Shares Mixed In Cautious Trade",
+      "description": "Asian stocks turned in a mixed performance on Monday, with AI spending concerns and elevated oil prices keeping investors on edge.",
+      "date": "2026-10-19T08:37:04.260261+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/asian-shares-mixed-in-cautious-trade/55442"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/taiwan-stock-market-may-open-under-water-on-monday/55422"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Singapore Stock Market May Test Support At 5,400 Points",
-      "description": "The Singapore stock market on Friday ended the two-day slide in which it had fallen almost 30 points or 0.6 percent. The STI now sits just above the 5,415-point plateau although it may see renewed selling pressure on Monday.",
-      "date": "2026-10-19T00:04:04.941516+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/singapore-stock-market-may-test-support-at-5400-points/55421"
     }
   ]
 }
