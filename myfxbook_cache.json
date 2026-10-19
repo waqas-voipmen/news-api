@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-19T02:48:06.643447+00:00",
+  "fetched_at": "2026-10-19T03:03:07.402936+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Thai Shares Tipped To Open In The Red On Monday",
+      "description": "Ahead of Friday's market holiday, the Thai stock market had alternated between positive and negative finishes through the last five trading days since the end of the five-day winning streak in which it had gained almost 25 points or 1.6 percent. The Stock Exchange of Thailand now sits just beneath the 1,575-point plateau and the losses may accelerate on Monday.",
+      "date": "2026-10-19T02:04:07.350695+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/thai-shares-tipped-to-open-in-the-red-on-monday/55427"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/new-zealand-has-nz1971-billion-trade-shortfall/55415"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "CAD",
-      "title": "TSX Pares Early Gains; Energy Stocks Stay Firm",
-      "description": "After opening marginally higher and moving further up fairly swiftly Friday morning, Canadian stocks slid gradually and slipped into negative territory, weighed down by losses in technology sector. Strong buying in energy and consumer staples sectors help limit market's downside.",
-      "date": "2026-10-16T18:35:06.817546+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/tsx-pares-early-gains-energy-stocks-stay-firm/55414"
     }
   ]
 }
