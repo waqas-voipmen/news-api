@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-19T09:18:04.173511+00:00",
+  "fetched_at": "2026-10-19T09:33:04.406021+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "European Shares Slide After French Riots",
+      "description": "European stocks were sharply lower on Monday, with banks coming under selling pressure amid concerns about high energy prices and France's political stability.",
+      "date": "2026-10-19T09:02:04.402609+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-shares-slide-after-french-riots/55445"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "EUR",
+      "title": "Euro Slides Amid France's Political Unrest",
+      "description": "The euro weakened against other major currencies in the early European session on Monday, as a result of widespread protests in France and escalating tensions in Ukraine.",
+      "date": "2026-10-19T08:56:04.402932+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/euro-slides-amid-frances-political-unrest/55444"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/australian-markets-modestly-higher/55424"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Soft Start Anticipated For China Stock Market",
-      "description": "The China stock market on Friday ended the two-day losing streak in which it had stumbled almost 100 points or 3.2 percent. The Shanghai Composite Index now sits just above the 3,715-point plateau although it may hand those gains back on Monday.",
-      "date": "2026-10-19T01:04:04.871395+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/soft-start-anticipated-for-china-stock-market/55423"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Taiwan Stock Market May Open Under Water On Monday",
-      "description": "The Taiwan stock market has finished higher in two of three trading days since the end of the four-day losing streak in which it had dropped almost 1,500 points or 3.1 percent. The Taiwan Stock Exchange now sits just above the 47,110-point plateau although it may recede again on Monday.",
-      "date": "2026-10-19T00:34:04.871746+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/taiwan-stock-market-may-open-under-water-on-monday/55422"
     }
   ]
 }
