@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-19T20:03:07.989949+00:00",
+  "fetched_at": "2026-10-19T20:18:07.281321+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "CAD",
+      "title": "Inflation Surge Weighs On Canadian Markets; Index Falls 0.7%",
+      "description": "Canada's S&P/TSX Composite Index declined 252.27 points to 35,924.32 Monday as headline inflation accelerated to 3.1% in September. Geopolitical tensions and central bank monetary policy expectations pressured sentiment across utilities, industrials, and financials.",
+      "date": "2026-10-19T19:05:07.237560+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/inflation-surge-weighs-on-canadian-markets-index-falls-07/55465"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/oil-prices-edge-lower-after-russia-sanctions-waiver/55446"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "European Shares Slide After French Riots",
-      "description": "European stocks were sharply lower on Monday, with banks coming under selling pressure amid concerns about high energy prices and France's political stability.",
-      "date": "2026-10-19T09:01:07.988782+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-shares-slide-after-french-riots/55445"
     }
   ]
 }
