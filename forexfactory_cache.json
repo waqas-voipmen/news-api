@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-19T09:33:10.796904+00:00",
+  "fetched_at": "2026-10-19T09:48:11.544939+00:00",
   "periods": {
     "week": [
       {
@@ -167,18 +167,6 @@
         "link": null,
         "actual": "-0.1%",
         "actual_src": "forexfactory"
-      },
-      {
-        "title": "Foreign Direct Investment ytd/y",
-        "country": "CNY",
-        "date": "2026-10-19T05:10:00-04:00",
-        "impact": "Low",
-        "forecast": "",
-        "previous": "-5.3%",
-        "source": "ForexFactory",
-        "type": "calendar",
-        "link": null,
-        "actual": ""
       },
       {
         "title": "CPI m/m",
@@ -367,6 +355,18 @@
         "impact": "Low",
         "forecast": "23.6",
         "previous": "25.8",
+        "source": "ForexFactory",
+        "type": "calendar",
+        "link": null,
+        "actual": ""
+      },
+      {
+        "title": "Foreign Direct Investment ytd/y",
+        "country": "CNY",
+        "date": "2026-10-20T05:10:00-04:00",
+        "impact": "Low",
+        "forecast": "",
+        "previous": "-5.3%",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,

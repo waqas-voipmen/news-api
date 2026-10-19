@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-19T09:33:04.406021+00:00",
+  "fetched_at": "2026-10-19T09:48:04.485787+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "China GDP Growth Beats Expectations",
+      "description": "China's economic growth accelerated more than expected in the third quarter despite challenges posed by property market downturn and soft domestic demand, bolstering prospects that the government will achieve its full-year growth target without initiating more stimulus measures.Gross domestic product grew 4.5 percent on a yearly basis in the third quarter, faster than the 4.3 percent expansion s",
+      "date": "2026-10-19T09:26:04.482338+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/china-gdp-growth-beats-expectations/55447"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Oil Prices Edge Lower After Russia Sanctions Waiver",
+      "description": "Oil prices traded lower on Monday after U.S. President Donald Trump waived sanctions and tariffs on Russia in a move that could pave the way for higher Russian fuel exports.",
+      "date": "2026-10-19T09:19:04.482726+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/oil-prices-edge-lower-after-russia-sanctions-waiver/55446"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/japanese-market-sharply-lower/55426"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Savaged Indonesia Stock Market May Open Lower Again On Monday",
-      "description": "The Indonesia stock market has finished lower in two straight sessions, cratering more than 760 points or 13 percent in that span. The Jakarta Composite Index now sits just above the 5,185-point plateau and it's got a negative lead again for Monday's trade.",
-      "date": "2026-10-19T01:34:08.917914+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/savaged-indonesia-stock-market-may-open-lower-again-on-monday/55425"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "XAU",
-      "title": "Australian Markets Modestly Higher",
-      "description": "The Australian stock market is modestly higher on Monday, extending the gains in the previous session, despite the broadly negative cues from Wall Street on Friday. The benchmark S&P/ASX 200 index is moving above the 8,800.00 level, with gains in energy and financial stocks partially offset by weakness in gold miners and technology stocks.",
-      "date": "2026-10-19T01:11:05.660389+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-markets-modestly-higher/55424"
     }
   ]
 }
