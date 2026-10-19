@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-19T17:48:04.292892+00:00",
+  "fetched_at": "2026-10-19T18:03:08.654250+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "European Stocks Fall Amid France Riots, Russia-Ukraine Tensions",
+      "description": "European equities declined Monday as violent unrest in France, escalating Russia-Ukraine tensions, and Middle East concerns weighed on investor sentiment. The pan-European Stoxx 600 fell 0.8%, with major indices across the region posting losses.",
+      "date": "2026-10-19T17:40:08.650706+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-stocks-fall-amid-france-riots-russia-ukraine-tensions/55463"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/euro-slides-amid-frances-political-unrest/55444"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Asian Shares Mixed In Cautious Trade",
-      "description": "Asian stocks turned in a mixed performance on Monday, with AI spending concerns and elevated oil prices keeping investors on edge.",
-      "date": "2026-10-19T08:37:04.260261+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/asian-shares-mixed-in-cautious-trade/55442"
     }
   ]
 }
