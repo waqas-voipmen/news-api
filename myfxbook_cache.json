@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-19T03:33:05.327517+00:00",
+  "fetched_at": "2026-10-19T03:48:09.629457+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "XAU",
+      "title": "Australian Market Maintains Early Gains In Mid-market",
+      "description": "The Australian stock market is maintaining its early gains in mid-market trading on Monday, extending the gains in the previous session, despite the broadly negative cues from Wall Street on Friday. The benchmark S&P/ASX 200 index is moving above the 8,800.00 level, with gains in energy and financial stocks partially offset by weakness in gold miners and technology stocks.",
+      "date": "2026-10-19T03:26:09.619191+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australian-market-maintains-early-gains-in-mid-market/55430"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/kospi-may-hand-back-fridays-gains/55418"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "NZD",
-      "title": "New Zealand Performance Of Services Index Ebbs In September - BusinessNZ",
-      "description": "The services sector in New Zealand continued to expand in September, albeit at a slightly slower rate, the latest survey from BusinessNZ revealed on Monday with a Performance of Services score of 50.9.",
-      "date": "2026-10-18T22:08:04.110830+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/new-zealand-performance-of-services-index-ebbs-in-september---businessnz/55417"
     }
   ]
 }
