@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-19T05:33:09.026713+00:00",
+  "fetched_at": "2026-10-19T05:48:06.562725+00:00",
   "periods": {
     "week": [
       {
@@ -20,7 +20,7 @@
         "date": "2026-10-18T17:30:00-04:00",
         "impact": "Low",
         "forecast": "",
-        "previous": "51.2",
+        "previous": "51.0",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
@@ -32,11 +32,11 @@
         "date": "2026-10-18T17:45:00-04:00",
         "impact": "Low",
         "forecast": "-775M",
-        "previous": "-1349M",
+        "previous": "-1536M",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-1971M"
       },
       {
         "title": "Rightmove HPI m/m",
@@ -48,7 +48,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": "1%"
+        "actual": "1.0%"
       },
       {
         "title": "RBA Assist Gov Kent Speaks",
@@ -72,7 +72,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": "-2.8%"
+        "actual": ""
       },
       {
         "title": "Fixed Asset Investment ytd/y",
@@ -96,7 +96,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "4.5%"
       },
       {
         "title": "Industrial Production y/y",
@@ -152,7 +152,7 @@
         "date": "2026-10-19T00:30:00-04:00",
         "impact": "Low",
         "forecast": "-0.3%",
-        "previous": "0.4%",
+        "previous": "-0.2%",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
@@ -161,7 +161,7 @@
       {
         "title": "Foreign Direct Investment ytd/y",
         "country": "CNY",
-        "date": "2026-10-19T02:02:00-04:00",
+        "date": "2026-10-19T05:10:00-04:00",
         "impact": "Low",
         "forecast": "",
         "previous": "-5.3%",
