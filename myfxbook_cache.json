@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-19T03:18:03.943829+00:00",
+  "fetched_at": "2026-10-19T03:33:05.327517+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Asian Markets Track Wall Street Lower",
+      "description": "Asian stock markets are mostly lower on Monday, following the broadly negative cues from Wall Street on Friday, amid spiking crude oil prices as well as a sell-off in technology and semiconductor stocks on concerns of returns on huge AI infrastructure spending. Escalating Middle East tensions and attacks on commercial vessels in the Strait of Hormuz kept oil-supply disruption risks in focus.",
+      "date": "2026-10-19T03:14:05.323798+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/asian-markets-track-wall-street-lower/55429"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Indian Shares Set For Muted Opening",
+      "description": "Indian shares are seen opening little changed on Monday, tracking mixed cues from global markets.",
+      "date": "2026-10-19T02:59:05.324099+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-set-for-muted-opening/55428"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/new-zealand-performance-of-services-index-ebbs-in-september---businessnz/55417"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "China Data Due On Monday",
-      "description": "China is scheduled to release a raft of data on Monday, highlighting a busy day for Asia-Pacific economic activity. On tap are Q3 figures for gross domestic product and September numbers for industrial production, retail sales, fixed asset investment, house prices and unemployment.",
-      "date": "2026-10-18T22:04:04.111121+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/china-data-due-on-monday/55416"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "NZD",
-      "title": "New Zealand Has NZ$1.971 Billion Trade Shortfall",
-      "description": "New Zealand posted a merchandise trade deficit of NZ$1.971 billion in September, the New Zealand Bureau of Statistics said on Monday.",
-      "date": "2026-10-18T22:02:04.326148+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/new-zealand-has-nz1971-billion-trade-shortfall/55415"
     }
   ]
 }
