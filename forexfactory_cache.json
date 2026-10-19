@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-19T06:18:12.008766+00:00",
+  "fetched_at": "2026-10-19T06:33:38.939794+00:00",
   "periods": {
     "week": [
       {
@@ -24,7 +24,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": "50.9"
+        "actual": "50.9",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Trade Balance",
@@ -36,7 +37,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": "-1971M"
+        "actual": "-1971M",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Rightmove HPI m/m",
@@ -48,7 +50,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": "1.0%"
+        "actual": "1.0%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "RBA Assist Gov Kent Speaks",
@@ -72,7 +75,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-0.14%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Fixed Asset Investment ytd/y",
@@ -84,7 +88,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": "-7.2%"
+        "actual": "-7.2%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "GDP q/y",
@@ -96,7 +101,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": "4.5%"
+        "actual": "4.5%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Industrial Production y/y",
@@ -108,7 +114,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": "5.5%"
+        "actual": "5.5%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "NBS Press Conference",
@@ -132,7 +139,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": "1.1%"
+        "actual": "1.1%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Unemployment Rate",
@@ -144,7 +152,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "5.2%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Tertiary Industry Activity m/m",
@@ -152,11 +161,12 @@
         "date": "2026-10-19T00:30:00-04:00",
         "impact": "Low",
         "forecast": "-0.3%",
-        "previous": "-0.2%",
+        "previous": "0.2%",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": "-0.1%"
+        "actual": "-0.1%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Foreign Direct Investment ytd/y",
@@ -392,7 +402,7 @@
         "date": "2026-10-20T08:30:00-04:00",
         "impact": "Low",
         "forecast": "1.39M",
-        "previous": "1.39M",
+        "previous": "1.40M",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
@@ -752,7 +762,7 @@
         "date": "2026-10-22T18:00:00-04:00",
         "impact": "Low",
         "forecast": "",
-        "previous": "49.3",
+        "previous": "49.6",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
@@ -764,7 +774,7 @@
         "date": "2026-10-22T18:00:00-04:00",
         "impact": "Low",
         "forecast": "",
-        "previous": "51.4",
+        "previous": "51.9",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
@@ -824,7 +834,7 @@
         "date": "2026-10-23T03:15:00-04:00",
         "impact": "Medium",
         "forecast": "50.6",
-        "previous": "50.3",
+        "previous": "50.6",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
@@ -836,7 +846,7 @@
         "date": "2026-10-23T03:15:00-04:00",
         "impact": "Medium",
         "forecast": "50.8",
-        "previous": "51.4",
+        "previous": "51.2",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
@@ -848,7 +858,7 @@
         "date": "2026-10-23T03:30:00-04:00",
         "impact": "Medium",
         "forecast": "53.5",
-        "previous": "53.8",
+        "previous": "53.9",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
@@ -872,7 +882,7 @@
         "date": "2026-10-23T04:00:00-04:00",
         "impact": "Low",
         "forecast": "52.7",
-        "previous": "52.7",
+        "previous": "52.9",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
@@ -896,7 +906,7 @@
         "date": "2026-10-23T04:30:00-04:00",
         "impact": "Medium",
         "forecast": "51.8",
-        "previous": "52.0",
+        "previous": "51.9",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
@@ -908,7 +918,7 @@
         "date": "2026-10-23T04:30:00-04:00",
         "impact": "Medium",
         "forecast": "51.8",
-        "previous": "51.7",
+        "previous": "52.1",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
@@ -956,7 +966,7 @@
         "date": "2026-10-23T09:45:00-04:00",
         "impact": "Medium",
         "forecast": "55.5",
-        "previous": "57.0",
+        "previous": "55.9",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
@@ -968,7 +978,7 @@
         "date": "2026-10-23T09:45:00-04:00",
         "impact": "Medium",
         "forecast": "58.0",
-        "previous": "58.7",
+        "previous": "58.8",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
