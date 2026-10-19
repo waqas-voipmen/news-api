@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-19T01:18:04.887830+00:00",
+  "fetched_at": "2026-10-19T01:33:05.744670+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "XAU",
+      "title": "Australian Markets Modestly Higher",
+      "description": "The Australian stock market is modestly higher on Monday, extending the gains in the previous session, despite the broadly negative cues from Wall Street on Friday. The benchmark S&P/ASX 200 index is moving above the 8,800.00 level, with gains in energy and financial stocks partially offset by weakness in gold miners and technology stocks.",
+      "date": "2026-10-19T01:11:05.660389+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australian-markets-modestly-higher/55424"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/european-equities-close-higher-on-ai-optimism/55412"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Industrial Production Climbs More Than Expected In September",
-      "description": "A report released by the Federal Reserve on Friday showed industrial production in the U.S. increased by more than expected in the month of September. The Fed said industrial production climbed by 0.7 percent in September following a revised 0.1 percent uptick in August.",
-      "date": "2026-10-16T13:33:06.397027+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-industrial-production-climbs-more-than-expected-in-september/55409"
     }
   ]
 }

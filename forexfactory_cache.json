@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-19T01:18:07.713459+00:00",
+  "fetched_at": "2026-10-19T01:33:08.642670+00:00",
   "periods": {
     "week": [
       {
@@ -72,7 +72,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-2.8%"
       },
       {
         "title": "Fixed Asset Investment ytd/y",
