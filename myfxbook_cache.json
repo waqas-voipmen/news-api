@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-19T09:48:04.485787+00:00",
+  "fetched_at": "2026-10-19T10:03:05.378048+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "XAU",
+      "title": "Gold Edges Up As Oil Prices, Yields Dip",
+      "description": "Gold edged up slightly on Monday due to diminishing market expectations for an October Federal Reserve interest rate hike.",
+      "date": "2026-10-19T09:37:05.374748+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/gold-edges-up-as-oil-prices-yields-dip/55448"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/thai-shares-tipped-to-open-in-the-red-on-monday/55427"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Japanese Market Sharply Lower",
-      "description": "The Japanese stock market is sharply lower on Monday, reversing some of the gains in the previous session, following the broadly negative cues from Wall Street on Friday. The Nikkei 225 is falling below the 64,450 level, with weakness across most sectors led by index heavyweights and technology stocks.",
-      "date": "2026-10-19T01:36:08.917154+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/japanese-market-sharply-lower/55426"
     }
   ]
 }
