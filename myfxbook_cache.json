@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-19T10:33:04.714779+00:00",
+  "fetched_at": "2026-10-19T10:48:03.980638+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "German DAX Falls 1.27% Amid France Unrest, Ukraine Conflict",
+      "description": "German stocks declined Monday as geopolitical tensions escalated across Europe. The DAX benchmark dropped 322.30 points to 25,300.31, pressured by civil unrest in France, Ukrainian military operations in Russia, and Middle East conflict concerns.",
+      "date": "2026-10-19T10:36:03.977393+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/german-dax-falls-127-amid-france-unrest-ukraine-conflict/55452"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Indian Shares Tumble; Private Banks And Financials Lead Sell-off",
+      "description": "Indian shares fell sharply on Monday due to concerns over persistent foreign investor outflows and elevated crude oil prices in international markets.",
+      "date": "2026-10-19T10:27:03.977748+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-tumble-private-banks-and-financials-lead-sell-off/55451"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/asian-markets-track-wall-street-lower/55429"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Indian Shares Set For Muted Opening",
-      "description": "Indian shares are seen opening little changed on Monday, tracking mixed cues from global markets.",
-      "date": "2026-10-19T02:59:05.324099+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-set-for-muted-opening/55428"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Thai Shares Tipped To Open In The Red On Monday",
-      "description": "Ahead of Friday's market holiday, the Thai stock market had alternated between positive and negative finishes through the last five trading days since the end of the five-day winning streak in which it had gained almost 25 points or 1.6 percent. The Stock Exchange of Thailand now sits just beneath the 1,575-point plateau and the losses may accelerate on Monday.",
-      "date": "2026-10-19T02:04:07.350695+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/thai-shares-tipped-to-open-in-the-red-on-monday/55427"
     }
   ]
 }
