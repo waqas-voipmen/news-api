@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-19T14:03:04.016537+00:00",
+  "fetched_at": "2026-10-19T15:18:35.670405+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Housing Market Index Drops To Fourteen-Year Low In October",
+      "description": "A report released by the National Association of Home Builders on Monday showed a bigger-than-expected deterioration in U.S. homebuilder sentiment in the month of October. The report said the NAHB/Wells Fargo housing market index fell to 29 in October from 32 in September. Economists had expected the index to edge down to 31.",
+      "date": "2026-10-19T14:30:35.640032+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-housing-market-index-drops-to-fourteen-year-low-in-october/55461"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/asian-shares-mixed-in-cautious-trade/55442"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "EUR",
-      "title": "Euro Slides Against Majors",
-      "description": "The euro weakened against other major currencies in the early European session on Monday.",
-      "date": "2026-10-19T08:17:09.377217+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/euro-slides-against-majors/55439"
     }
   ]
 }
