@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-19T19:03:07.744008+00:00",
+  "fetched_at": "2026-10-19T19:18:07.630613+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "CHF",
+      "title": "Swiss Market Ends Marginally Lower",
+      "description": "The Switzerland market's benchmark SMI ended marginally down on Monday after moving in a tight range, as weakness in other European markets amid growing civil unrest in France and tensions in other parts of Europe, as well as the ongoing Russia-Ukraine tensions and Middle East woes rendered the mood cautious.",
+      "date": "2026-10-19T17:58:07.601629+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/swiss-market-ends-marginally-lower/55464"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/european-shares-slide-after-french-riots/55445"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "EUR",
-      "title": "Euro Slides Amid France's Political Unrest",
-      "description": "The euro weakened against other major currencies in the early European session on Monday, as a result of widespread protests in France and escalating tensions in Ukraine.",
-      "date": "2026-10-19T08:56:07.741183+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/euro-slides-amid-frances-political-unrest/55444"
     }
   ]
 }
