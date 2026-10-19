@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-19T11:33:04.923061+00:00",
+  "fetched_at": "2026-10-19T11:48:06.772051+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "CAC 40 Down Nearly 1.5% As Stocks Tumble Amid Growing Civil Unrest%",
+      "description": "France's benchmark CAC 40 index dropped 1.49% Monday as civil unrest and Middle East tensions drove broad selling across sectors. Major stocks including Stellantis, Accor, and Airbus declined significantly.",
+      "date": "2026-10-19T11:10:06.768723+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/cac-40-down-nearly-15-as-stocks-tumble-amid-growing-civil-unrest/55453"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/australian-market-maintains-early-gains-in-mid-market/55430"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Asian Markets Track Wall Street Lower",
-      "description": "Asian stock markets are mostly lower on Monday, following the broadly negative cues from Wall Street on Friday, amid spiking crude oil prices as well as a sell-off in technology and semiconductor stocks on concerns of returns on huge AI infrastructure spending. Escalating Middle East tensions and attacks on commercial vessels in the Strait of Hormuz kept oil-supply disruption risks in focus.",
-      "date": "2026-10-19T03:14:05.323798+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/asian-markets-track-wall-street-lower/55429"
     }
   ]
 }
