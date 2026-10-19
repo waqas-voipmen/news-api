@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-19T01:48:07.277088+00:00",
+  "fetched_at": "2026-10-19T02:03:15.790476+00:00",
   "periods": {
     "week": [
       {
@@ -84,7 +84,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-7.2%"
       },
       {
         "title": "GDP q/y",
@@ -108,7 +108,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "5.5%"
       },
       {
         "title": "NBS Press Conference",
@@ -132,7 +132,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "1.1%"
       },
       {
         "title": "Unemployment Rate",
