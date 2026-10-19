@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-19T00:33:04.536330+00:00",
+  "fetched_at": "2026-10-19T00:48:04.959155+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Singapore Stock Market May Test Support At 5,400 Points",
+      "description": "The Singapore stock market on Friday ended the two-day slide in which it had fallen almost 30 points or 0.6 percent. The STI now sits just above the 5,415-point plateau although it may see renewed selling pressure on Monday.",
+      "date": "2026-10-19T00:04:04.941516+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/singapore-stock-market-may-test-support-at-5400-points/55421"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/bay-street-likely-to-open-with-positive-bias/55406"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "FTSE 100 Up Slightly At Noon In Cautious Trade",
-      "description": "The U.K. market's benchmark index FTSE 100 was marginally above the flat line a few minutes past noon on Friday as stocks recovered from a weak start thanks to support at lower levels. Potential tax hike on banks weighed on sentiment at the start.",
-      "date": "2026-10-16T11:09:04.830381+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/ftse-100-up-slightly-at-noon-in-cautious-trade/55403"
     }
   ]
 }
