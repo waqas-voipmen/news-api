@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-19T22:33:05.972445+00:00",
+  "fetched_at": "2026-10-19T23:16:56.011745+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Tech Rebound May Boost South Korea Shares",
+      "description": "The South Korea stock market has finished higher in back-to-back sessions, gathering more than 210 points or 3.6 percent along the way. The KOSPI now sits just beneath the 5,770-point plateau and it may extend its gains on Tuesday.",
+      "date": "2026-10-19T23:01:56.005694+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/tech-rebound-may-boost-south-korea-shares/55467"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "PBoC Loan Rate Due On Tuesday",
+      "description": "The People's Bank of China will on Tuesday announce its loan prime rate for October, highlighting a light day for Asia-Pacific economic activity. The rate is expected to hold steady at 3.50 percent.",
+      "date": "2026-10-19T22:01:56.006509+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/pboc-loan-rate-due-on-tuesday/55466"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/gold-edges-up-as-oil-prices-yields-dip/55448"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "China GDP Growth Beats Expectations",
-      "description": "China's economic growth accelerated more than expected in the third quarter despite challenges posed by property market downturn and soft domestic demand, bolstering prospects that the government will achieve its full-year growth target without initiating more stimulus measures.Gross domestic product grew 4.5 percent on a yearly basis in the third quarter, faster than the 4.3 percent expansion s",
-      "date": "2026-10-19T09:26:04.482338+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/china-gdp-growth-beats-expectations/55447"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Oil Prices Edge Lower After Russia Sanctions Waiver",
-      "description": "Oil prices traded lower on Monday after U.S. President Donald Trump waived sanctions and tariffs on Russia in a move that could pave the way for higher Russian fuel exports.",
-      "date": "2026-10-19T09:19:04.482726+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/oil-prices-edge-lower-after-russia-sanctions-waiver/55446"
     }
   ]
 }
