@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-19T01:03:04.633988+00:00",
+  "fetched_at": "2026-10-19T01:18:04.887830+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Soft Start Anticipated For China Stock Market",
+      "description": "The China stock market on Friday ended the two-day losing streak in which it had stumbled almost 100 points or 3.2 percent. The Shanghai Composite Index now sits just above the 3,715-point plateau although it may hand those gains back on Monday.",
+      "date": "2026-10-19T01:04:04.871395+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/soft-start-anticipated-for-china-stock-market/55423"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Taiwan Stock Market May Open Under Water On Monday",
+      "description": "The Taiwan stock market has finished higher in two of three trading days since the end of the four-day losing streak in which it had dropped almost 1,500 points or 3.1 percent. The Taiwan Stock Exchange now sits just above the 47,110-point plateau although it may recede again on Monday.",
+      "date": "2026-10-19T00:34:04.871746+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/taiwan-stock-market-may-open-under-water-on-monday/55422"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/us-industrial-production-climbs-more-than-expected-in-september/55409"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Import, Export Prices Jump Much More Than Expected In September",
-      "description": "Import and export prices in the U.S. both increased by far more than anticipated in the month of September, according to a report released by the Labor Department on Friday.",
-      "date": "2026-10-16T12:38:04.200441+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-import-export-prices-jump-much-more-than-expected-in-september/55407"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "CAD",
-      "title": "Bay Street Likely To Open With Positive Bias",
-      "description": "Canadian stocks may open with a positive bias Friday morning with materials stocks likely to move higher on firm precious metals prices.",
-      "date": "2026-10-16T12:13:04.134127+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/bay-street-likely-to-open-with-positive-bias/55406"
     }
   ]
 }
