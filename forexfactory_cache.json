@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-19T13:48:11.938155+00:00",
+  "fetched_at": "2026-10-19T14:03:10.029313+00:00",
   "periods": {
     "week": [
       {
@@ -244,7 +244,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "29",
+        "actual_src": "forexfactory"
       },
       {
         "title": "BOC Business Outlook Survey",
