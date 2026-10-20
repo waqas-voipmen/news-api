@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-20T00:33:08.446860+00:00",
+  "fetched_at": "2026-10-20T00:48:12.617842+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Taiwan Stock Market May Stop The Bleeding On Tuesday",
+      "description": "The Taiwan stock market has alternated between positive and negative finishes through the last four trading days since the end of the four-day losing streak in which it had dropped almost 1,500 points or 3.1 percent. The Taiwan Stock Exchange now sits just above the 46,820-point plateau although it may find support on Tuesday.",
+      "date": "2026-10-20T00:26:12.596518+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/taiwan-stock-market-may-stop-the-bleeding-on-tuesday/55471"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Singapore Stock Market May Reverse Monday's Losses",
+      "description": "The Singapore stock market ticked lower again on Monday, one session after ending the two-day slide in which it had fallen almost 30 points or 0.6 percent. The STI now sits just above the 5,410-point plateau although it figures to rebound again on Tuesday.",
+      "date": "2026-10-20T00:21:12.598209+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/singapore-stock-market-may-reverse-mondays-losses/55470"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/ftse-100-down-105-as-banks-miners-lead-retreat-on-tensions/55454"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "CAC 40 Down Nearly 1.5% As Stocks Tumble Amid Growing Civil Unrest%",
-      "description": "France's benchmark CAC 40 index dropped 1.49% Monday as civil unrest and Middle East tensions drove broad selling across sectors. Major stocks including Stellantis, Accor, and Airbus declined significantly.",
-      "date": "2026-10-19T11:10:06.768723+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/cac-40-down-nearly-15-as-stocks-tumble-amid-growing-civil-unrest/55453"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "German DAX Falls 1.27% Amid France Unrest, Ukraine Conflict",
-      "description": "German stocks declined Monday as geopolitical tensions escalated across Europe. The DAX benchmark dropped 322.30 points to 25,300.31, pressured by civil unrest in France, Ukrainian military operations in Russia, and Middle East conflict concerns.",
-      "date": "2026-10-19T10:36:03.753854+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/german-dax-falls-127-amid-france-unrest-ukraine-conflict/55452"
     }
   ]
 }
