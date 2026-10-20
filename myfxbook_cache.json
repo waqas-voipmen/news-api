@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-20T10:03:04.695824+00:00",
+  "fetched_at": "2026-10-20T10:18:05.079561+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "XAU",
+      "title": "Gold Edges Lower As Brent Returns To $110",
+      "description": "Gold prices traded lower on Tuesday as rising oil prices rekindled inflation and interest-rate concerns.",
+      "date": "2026-10-20T09:58:05.076051+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/gold-edges-lower-as-brent-returns-to-110/55492"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/higher-open-seen-for-hong-kong-stock-market/55474"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australian Markets Significantly Lower",
-      "description": "The Australian stock market is significantly lower on Tuesday, reversing some of the gains in the previous two sessions, following the mixed cues from Wall Street overnight. The benchmark S&P/ASX 200 index is falling well below the 8,800 level, with weakness across most sectors led by mining and financial stocks.",
-      "date": "2026-10-20T01:02:07.639280+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-markets-significantly-lower/55473"
     }
   ]
 }
