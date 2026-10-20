@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-20T02:03:07.477268+00:00",
+  "fetched_at": "2026-10-20T02:18:04.022304+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Thai Shares May Find Traction On Tuesday",
+      "description": "The Thai stock market has finished lower in back-to-back sessions, sinking almost 5 points or 0.3 percent in that span. The Stock Exchange of Thailand now sits just above the 1,570-point plateau although it may stop the bleeding on Tuesday.",
+      "date": "2026-10-20T02:02:04.017134+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/thai-shares-may-find-traction-on-tuesday/55477"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/inflation-surge-weighs-on-canadian-markets-index-falls-07/55465"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "CHF",
-      "title": "Swiss Market Ends Marginally Lower",
-      "description": "The Switzerland market's benchmark SMI ended marginally down on Monday after moving in a tight range, as weakness in other European markets amid growing civil unrest in France and tensions in other parts of Europe, as well as the ongoing Russia-Ukraine tensions and Middle East woes rendered the mood cautious.",
-      "date": "2026-10-19T17:58:07.601629+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/swiss-market-ends-marginally-lower/55464"
     }
   ]
 }
