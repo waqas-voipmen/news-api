@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-20T10:18:05.079561+00:00",
+  "fetched_at": "2026-10-20T10:33:05.269042+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "German Stocks Fall On Oil Surge, Political Tensions",
+      "description": "German stocks declined Tuesday as rising Brent crude prices, escalating European political tensions, and accelerating producer price inflation weighed on sentiment. The DAX dropped 0.86%, with energy and industrial stocks leading losses.",
+      "date": "2026-10-20T10:08:05.264569+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/german-stocks-fall-on-oil-surge-political-tensions/55493"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/japanese-market-sharply-lower/55475"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Higher Open Seen For Hong Kong Stock Market",
-      "description": "Ahead of Monday's holiday for Chung Yeung Day, the Hong Kong stock market had ended the two-day slide in which it had dropped more than 280 points or 1.2 percent. The Hang Seng now sits just above the 24,180-point plateau and it may open to the upside again on Tuesday.",
-      "date": "2026-10-20T01:16:07.236184+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/higher-open-seen-for-hong-kong-stock-market/55474"
     }
   ]
 }
