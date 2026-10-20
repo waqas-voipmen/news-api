@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-20T11:18:04.762218+00:00",
+  "fetched_at": "2026-10-20T11:33:04.695681+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "GBP",
+      "title": "Pound Rises Against Majors",
+      "description": "The British pound strengthened against other major currencies in the European session on Tuesday.",
+      "date": "2026-10-20T11:04:04.692537+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/pound-rises-against-majors/55498"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Dollar Falls On Fading Fed Rate Hike Hopes",
+      "description": "The U.S. dollar weakened against other major currencies in the European session on Tuesday, due to declining expectations of Federal Reserve (Fed) rate rises and worries over AI overinvestment.",
+      "date": "2026-10-20T11:00:04.692831+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-dollar-falls-on-fading-fed-rate-hike-hopes/55497"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/asian-markets-trade-mostly-lower/55479"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Indian Stock Markets Shut For Dussehra",
-      "description": "Indian stock markets remain closed today on account of Dussehra. Benchmark indexes Sensex and Nifty fell over 1 percent each on Monday due to concerns over persistent foreign investor outflows and elevated crude oil prices in international markets. \nInvestors also assessed September-quarter earnings from prominent private banks.",
-      "date": "2026-10-20T02:28:04.995382+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-stock-markets-shut-for-dussehra/55478"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Thai Shares May Find Traction On Tuesday",
-      "description": "The Thai stock market has finished lower in back-to-back sessions, sinking almost 5 points or 0.3 percent in that span. The Stock Exchange of Thailand now sits just above the 1,570-point plateau although it may stop the bleeding on Tuesday.",
-      "date": "2026-10-20T02:02:04.017134+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/thai-shares-may-find-traction-on-tuesday/55477"
     }
   ]
 }
