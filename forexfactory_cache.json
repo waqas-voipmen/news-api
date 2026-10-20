@@ -412,7 +412,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "1.40M",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Housing Starts",
@@ -424,7 +425,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "1.22M",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Pending Home Sales m/m",
@@ -1065,5 +1067,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-10-20T12:30:29.448868+00:00"
 }
