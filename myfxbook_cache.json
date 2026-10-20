@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-20T18:18:04.236689+00:00",
+  "fetched_at": "2026-10-20T18:33:05.514801+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "CHF",
+      "title": "Swiss Market Ends On Firm Note",
+      "description": "After inching up a bit early on in the session on Tuesday, the Switzerland stock market's SMI moved along the flat line till a little past mid afternoon before edging higher to end the day on a firm note.",
+      "date": "2026-10-20T18:10:05.511210+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/swiss-market-ends-on-firm-note/55515"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/ftse-100-down-06-as-miners-bank-stocks-decline-sharply/55496"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "French Stocks Fall On Political Tensions, Oil Price Surge",
-      "description": "French stocks declined Tuesday amid rising political unrest, elevated oil prices from regional conflicts, and AI valuation concerns. The CAC 40 benchmark fell 0.61%, with notable declines in industrials and financials. Eurozone current account surplus contracted significantly.",
-      "date": "2026-10-20T10:32:05.047587+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/french-stocks-fall-on-political-tensions-oil-price-surge/55495"
     }
   ]
 }
