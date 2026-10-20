@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-20T14:33:03.804708+00:00",
+  "fetched_at": "2026-10-20T14:48:03.441382+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Pending Home Sales Plunge Much More Than Expected In September",
+      "description": "Pending home sales in the U.S. plunged by much more than expected in the month of September, according to a report released by the National Association of Realtors on Tuesday. NAR said its pending home sales plummeted by 7.3 percent to 66.0 in September after rising by 0.3 percent to 71.2 in August. Economists had expected pending home sales to fall by 0.4 percent.",
+      "date": "2026-10-20T14:26:03.436661+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-pending-home-sales-plunge-much-more-than-expected-in-september/55512"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/german-stocks-fall-on-oil-surge-political-tensions/55493"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "XAU",
-      "title": "Gold Edges Lower As Brent Returns To $110",
-      "description": "Gold prices traded lower on Tuesday as rising oil prices rekindled inflation and interest-rate concerns.",
-      "date": "2026-10-20T09:58:05.076051+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/gold-edges-lower-as-brent-returns-to-110/55492"
     }
   ]
 }
