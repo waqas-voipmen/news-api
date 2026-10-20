@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-20T04:18:04.456608+00:00",
+  "fetched_at": "2026-10-20T04:33:04.805826+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australian Market Maintains Early Losses In Mid-market",
+      "description": "The Australian stock market is maintaining its early losses in mid-market trading on Tuesday, reversing some of the gains in the previous two sessions, following the mixed cues from Wall Street overnight. The benchmark S&P/ASX 200 index is falling below the 8,800 level, with weakness across most sectors led by mining and financial stocks.",
+      "date": "2026-10-20T03:26:04.802191+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australian-market-maintains-early-losses-in-mid-market/55480"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/japan-stock-market-may-remain-rangebound-on-monday/55468"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Tech Rebound May Boost South Korea Shares",
-      "description": "The South Korea stock market has finished higher in back-to-back sessions, gathering more than 210 points or 3.6 percent along the way. The KOSPI now sits just beneath the 5,770-point plateau and it may extend its gains on Tuesday.",
-      "date": "2026-10-19T23:01:56.005694+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/tech-rebound-may-boost-south-korea-shares/55467"
     }
   ]
 }
