@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-20T17:48:04.519133+00:00",
+  "fetched_at": "2026-10-20T18:03:04.774990+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "European Markets Close Weak Despite Mid-Session Recovery",
+      "description": "Major European indices ended lower Tuesday amid concerns over civil unrest in France and Italy, elevated oil prices from Middle East tensions, and worries about AI stock valuations. Germany's producer price inflation accelerated sharply.",
+      "date": "2026-10-20T17:49:04.771354+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-markets-close-weak-despite-mid-session-recovery/55514"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/french-stocks-fall-on-political-tensions-oil-price-surge/55495"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "German Stocks Fall On Oil Surge, Political Tensions",
-      "description": "German stocks declined Tuesday as rising Brent crude prices, escalating European political tensions, and accelerating producer price inflation weighed on sentiment. The DAX dropped 0.86%, with energy and industrial stocks leading losses.",
-      "date": "2026-10-20T10:08:05.264569+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/german-stocks-fall-on-oil-surge-political-tensions/55493"
     }
   ]
 }
