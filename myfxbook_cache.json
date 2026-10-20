@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-20T03:18:05.001104+00:00",
+  "fetched_at": "2026-10-20T03:33:04.908821+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Asian Markets Trade Mostly Lower",
+      "description": "Asian stock markets are mostly lower on Tuesday, following the mixed cues from Wall Street overnight, as elevated crude oil prices amid ongoing hostilities in the Middle East and Eastern Europe, heightened global inflation concerns and pushed global yields higher. Iran continues to assert its control over the Strait of Hormuz, with ships being attacked more frequently than at any point in the war.",
+      "date": "2026-10-20T03:10:04.904728+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/asian-markets-trade-mostly-lower/55479"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/tech-rebound-may-boost-south-korea-shares/55467"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "PBoC Loan Rate Due On Tuesday",
-      "description": "The People's Bank of China will on Tuesday announce its loan prime rate for October, highlighting a light day for Asia-Pacific economic activity. The rate is expected to hold steady at 3.50 percent.",
-      "date": "2026-10-19T22:01:56.006509+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/pboc-loan-rate-due-on-tuesday/55466"
     }
   ]
 }
