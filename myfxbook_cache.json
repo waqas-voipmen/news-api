@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-20T01:48:06.805204+00:00",
+  "fetched_at": "2026-10-20T02:03:07.477268+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Indonesia Stock Market Overdue For Support On Tuesday",
+      "description": "The Indonesia stock market has finished lower in three straight sessions, crashing more than 950 points or 16.6 percent in that span. The Jakarta Composite Index now sits just beneath the 5,000-point plateau although it has a positive lead again for Tuesday's trade.",
+      "date": "2026-10-20T01:31:07.436061+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indonesia-stock-market-overdue-for-support-on-tuesday/55476"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/swiss-market-ends-marginally-lower/55464"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "European Stocks Fall Amid France Riots, Russia-Ukraine Tensions",
-      "description": "European equities declined Monday as violent unrest in France, escalating Russia-Ukraine tensions, and Middle East concerns weighed on investor sentiment. The pan-European Stoxx 600 fell 0.8%, with major indices across the region posting losses.",
-      "date": "2026-10-19T17:40:08.650706+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-stocks-fall-amid-france-riots-russia-ukraine-tensions/55463"
     }
   ]
 }
