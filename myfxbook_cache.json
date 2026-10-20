@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-20T06:18:05.590616+00:00",
+  "fetched_at": "2026-10-20T06:33:04.204238+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "European Shares Poised For Lower Open Amid Debt Concerns",
+      "description": "European stocks look set to open lower on Tuesday as investors fret over rising debt levels in Europe and tightening financial conditions.",
+      "date": "2026-10-20T05:28:04.200634+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-shares-poised-for-lower-open-amid-debt-concerns/55481"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/malaysia-stock-market-may-halt-its-slide/55469"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Japan Stock Market May Remain Rangebound On Monday",
-      "description": "The Japan stock market headed south again on Monday, one session after ending the six-day losing streak in which it had tumbled more than 6,240 points or 9.1 percent. The Nikkei now sits just above the 64,910-point plateau although it may tick higher again on Tuesday.",
-      "date": "2026-10-19T23:16:05.077778+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/japan-stock-market-may-remain-rangebound-on-monday/55468"
     }
   ]
 }
