@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-20T09:33:08.286794+00:00",
+  "fetched_at": "2026-10-20T09:48:04.763314+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Dollar Falls Against Majors",
+      "description": "The U.S. dollar weakened against other major currencies in the European session on Tuesday.",
+      "date": "2026-10-20T09:32:04.759400+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-dollar-falls-against-majors/55490"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "European Shares Extend Losses Amid France's Debt Crisis",
+      "description": "European stocks traded lower on Tuesday, extending losses from the previous session as a recovery in artificial intelligence shares faltered and Brent crude prices topped $110 a barrel due to Houthi attacks on Saudi Arabia infrastructure and reports of vessel attacks in the Gulf.",
+      "date": "2026-10-20T09:27:04.759693+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-shares-extend-losses-amid-frances-debt-crisis/55489"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/china-stock-market-may-extend-winning-streak/55472"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Taiwan Stock Market May Stop The Bleeding On Tuesday",
-      "description": "The Taiwan stock market has alternated between positive and negative finishes through the last four trading days since the end of the four-day losing streak in which it had dropped almost 1,500 points or 3.1 percent. The Taiwan Stock Exchange now sits just above the 46,820-point plateau although it may find support on Tuesday.",
-      "date": "2026-10-20T00:26:12.596518+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/taiwan-stock-market-may-stop-the-bleeding-on-tuesday/55471"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Singapore Stock Market May Reverse Monday's Losses",
-      "description": "The Singapore stock market ticked lower again on Monday, one session after ending the two-day slide in which it had fallen almost 30 points or 0.6 percent. The STI now sits just above the 5,410-point plateau although it figures to rebound again on Tuesday.",
-      "date": "2026-10-20T00:21:12.598209+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/singapore-stock-market-may-reverse-mondays-losses/55470"
     }
   ]
 }
