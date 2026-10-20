@@ -269,7 +269,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "3.00%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "5-y Loan Prime Rate",
@@ -281,7 +282,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "3.50%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "German PPI m/m",
@@ -1055,5 +1057,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-10-20T01:01:02.544871+00:00"
 }
