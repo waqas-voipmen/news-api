@@ -295,7 +295,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "1.9%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Average Earnings Index 3m/y",
@@ -307,7 +308,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "3.7%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Claimant Count Change",
@@ -1057,5 +1059,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-10-20T06:01:00.515007+00:00"
 }
