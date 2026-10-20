@@ -321,7 +321,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "30.3K",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Unemployment Rate",
@@ -333,7 +334,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "4.7%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Current Account",
@@ -1060,5 +1062,5 @@
       }
     ]
   },
-  "actuals_at": "2026-10-20T06:01:00.515007+00:00"
+  "actuals_at": "2026-10-20T06:01:44.762559+00:00"
 }
