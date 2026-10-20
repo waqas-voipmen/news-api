@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-20T18:48:04.633938+00:00",
+  "fetched_at": "2026-10-20T19:03:04.660886+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "CAD",
+      "title": "Canadian Stock Market Rallies As Tech Leads Recovery",
+      "description": "Canada's benchmark S&P/TSX Composite Index rose 226.70 points to 36,155.33 on Tuesday, driven by gains in technology, financials, and healthcare sectors. Oil's retreat eased inflation concerns while lower bond yields supported improved risk sentiment.",
+      "date": "2026-10-20T18:38:04.656755+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/canadian-stock-market-rallies-as-tech-leads-recovery/55516"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/us-dollar-falls-on-fading-fed-rate-hike-hopes/55497"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "FTSE 100 Down 0.6% As Miners, Bank Stocks Decline Sharply",
-      "description": "The U.K. stock market's benchmark FTSE 100 drifted lower on Tuesday, weighed down by losses in mining and bank stocks. Rising political unrest in several parts of Europe, particularly in France and Italy, and high oil prices hurt sentiment.",
-      "date": "2026-10-20T10:53:05.047306+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/ftse-100-down-06-as-miners-bank-stocks-decline-sharply/55496"
     }
   ]
 }
