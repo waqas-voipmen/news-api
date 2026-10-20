@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-20T15:33:24.372185+00:00",
+  "fetched_at": "2026-10-20T15:48:20.586157+00:00",
   "periods": {
     "week": [
       {
@@ -444,14 +444,15 @@
       {
         "title": "GDT Price Index",
         "country": "NZD",
-        "date": "2026-10-20T10:50:00-04:00",
+        "date": "2026-10-20T11:19:00-04:00",
         "impact": "Low",
         "forecast": "",
         "previous": "1.2%",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "2.5%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "MPC Member Greene Speaks",
