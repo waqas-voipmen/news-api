@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-20T23:18:07.145958+00:00",
+  "fetched_at": "2026-10-20T23:33:08.386869+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Japan Stock Market May Stop The Bleeding On Wednesday",
+      "description": "The Japan stock market has finished lower in back-to-back sessions, stumbling almost 1,300 points or 2 percent along the way. The Nikkei now sits just above the 64,075-point plateau although it may find support on Wednesday.",
+      "date": "2026-10-20T23:19:08.351901+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/japan-stock-market-may-stop-the-bleeding-on-wednesday/55521"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/us-housing-starts-unexpectedly-plunge-52-september/55507"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "German ZEW Economic Sentiment Deteriorates",
-      "description": "German economic confidence deteriorated more than expected in October as private spending and investment remained weak due to high energy prices, survey results from the Mannheim-based Centre for European Economic Research, or ZEW, showed Tuesday. The economic confidence index fell to a three-month low of 28.1 in October from 34.7 in the previous month. The score was forecast to drop to 30.2.",
-      "date": "2026-10-20T12:39:05.055670+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/german-zew-economic-sentiment-deteriorates/55506"
     }
   ]
 }
