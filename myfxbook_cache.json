@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-20T23:33:08.386869+00:00",
+  "fetched_at": "2026-10-20T23:48:07.227203+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Malaysia Stock Market May Tick Higher Again On Wednesday",
+      "description": "The Malaysia stock market on Tuesday ended the three-day slide in which it had slumped more than 30 points or 2 percent. The Kuala Lumpur Composite Index now sits just shy of the 1,600-point plateau and it may add to its winnings on Wednesday.",
+      "date": "2026-10-20T23:34:07.216069+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/malaysia-stock-market-may-tick-higher-again-on-wednesday/55522"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/canadian-stocks-set-to-open-lower-amid-inflation-geopolitical-concerns/55509"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Housing Starts Unexpectedly Plunge 5.2% September",
-      "description": "A report released by the Commerce Department on Monday unexpectedly showed an extended nosedive in new residential construction in the U.S. in the month of September.",
-      "date": "2026-10-20T12:41:05.055394+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-housing-starts-unexpectedly-plunge-52-september/55507"
     }
   ]
 }
