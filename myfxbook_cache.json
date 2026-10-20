@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-20T02:48:04.414165+00:00",
+  "fetched_at": "2026-10-20T03:18:05.001104+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Indian Stock Markets Shut For Dussehra",
+      "description": "Indian stock markets remain closed today on account of Dussehra. Benchmark indexes Sensex and Nifty fell over 1 percent each on Monday due to concerns over persistent foreign investor outflows and elevated crude oil prices in international markets. \nInvestors also assessed September-quarter earnings from prominent private banks.",
+      "date": "2026-10-20T02:28:04.995382+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-stock-markets-shut-for-dussehra/55478"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/pboc-loan-rate-due-on-tuesday/55466"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "CAD",
-      "title": "Inflation Surge Weighs On Canadian Markets; Index Falls 0.7%",
-      "description": "Canada's S&P/TSX Composite Index declined 252.27 points to 35,924.32 Monday as headline inflation accelerated to 3.1% in September. Geopolitical tensions and central bank monetary policy expectations pressured sentiment across utilities, industrials, and financials.",
-      "date": "2026-10-19T19:05:07.237560+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/inflation-surge-weighs-on-canadian-markets-index-falls-07/55465"
     }
   ]
 }
