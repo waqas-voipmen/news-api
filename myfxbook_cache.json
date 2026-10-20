@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-20T14:03:07.070320+00:00",
+  "fetched_at": "2026-10-20T14:18:05.748899+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "GBP",
+      "title": "UK Unemployment Rate Unexpectedly Drops",
+      "description": "The UK unemployment rate unexpectedly declined in the three months to August amid falling job vacancies and a moderate increase in pay growth, adding prospects for a Bank of England interest rate hike in November. The ILO unemployment rate stood at 4.7 percent in the June to August period compared to 4.9 percent in the preceding period.",
+      "date": "2026-10-20T14:00:05.739082+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/uk-unemployment-rate-unexpectedly-drops/55511"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Housing Starts Unexpectedly Extend Nosedive In September",
+      "description": "A report released by the Commerce Department on Monday unexpectedly showed an extended nosedive in new residential construction in the U.S. in the month of September. The Commerce Department said housing starts plunged by 5.2 percent to an annual rate of 1.221 million in September after plummeting by 5.9 percent to a revised rate of 1.288 million in August.",
+      "date": "2026-10-20T13:59:05.739840+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-housing-starts-unexpectedly-extend-nosedive-in-september/55510"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/gold-edges-lower-as-brent-returns-to-110/55492"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Oil Prices Climb As Investors Weigh Supply Risks",
-      "description": "Oil prices rose on Tuesday to reach their highest levels since May due to Houthi attacks on Saudi Arabia infrastructure and reports of vessel attacks in the Gulf.",
-      "date": "2026-10-20T09:42:04.690118+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/oil-prices-climb-as-investors-weigh-supply-risks/55491"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Dollar Falls Against Majors",
-      "description": "The U.S. dollar weakened against other major currencies in the European session on Tuesday.",
-      "date": "2026-10-20T09:32:04.759400+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-dollar-falls-against-majors/55490"
     }
   ]
 }
