@@ -1,6 +1,42 @@
 {
-  "fetched_at": "2026-10-20T12:48:04.916091+00:00",
+  "fetched_at": "2026-10-20T13:03:05.058493+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Canadian Stocks Set To Open Lower Amid Inflation, Geopolitical Concerns",
+      "description": "Canadian equities face headwinds from elevated inflation, weak precious metals, and Middle East tensions. The S&P/TSX Composite Index fell 0.68% Monday. Oil prices surged 4.15% on Houthi attacks.",
+      "date": "2026-10-20T12:49:05.055097+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/canadian-stocks-set-to-open-lower-amid-inflation-geopolitical-concerns/55509"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Housing Starts Unexpectedly Plunge 5.2% September",
+      "description": "A report released by the Commerce Department on Monday unexpectedly showed an extended nosedive in new residential construction in the U.S. in the month of September.",
+      "date": "2026-10-20T12:41:05.055394+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-housing-starts-unexpectedly-plunge-52-september/55507"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "German ZEW Economic Sentiment Deteriorates",
+      "description": "German economic confidence deteriorated more than expected in October as private spending and investment remained weak due to high energy prices, survey results from the Mannheim-based Centre for European Economic Research, or ZEW, showed Tuesday. The economic confidence index fell to a three-month low of 28.1 in October from 34.7 in the previous month. The score was forecast to drop to 30.2.",
+      "date": "2026-10-20T12:39:05.055670+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/german-zew-economic-sentiment-deteriorates/55506"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -120,42 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/us-dollar-falls-against-majors/55490"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "European Shares Extend Losses Amid France's Debt Crisis",
-      "description": "European stocks traded lower on Tuesday, extending losses from the previous session as a recovery in artificial intelligence shares faltered and Brent crude prices topped $110 a barrel due to Houthi attacks on Saudi Arabia infrastructure and reports of vessel attacks in the Gulf.",
-      "date": "2026-10-20T09:27:04.759693+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-shares-extend-losses-amid-frances-debt-crisis/55489"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Asian Shares Retreat Amid AI Jitters",
-      "description": "Asian stocks retreated on Tuesday amid renewed concerns over AI-related investments and escalating protests in France.",
-      "date": "2026-10-20T08:46:04.859826+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/asian-shares-retreat-amid-ai-jitters/55486"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "European Shares Poised For Lower Open Amid Debt Concerns",
-      "description": "European stocks look set to open lower on Tuesday as investors fret over rising debt levels in Europe and tightening financial conditions.",
-      "date": "2026-10-20T05:28:04.200634+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-shares-poised-for-lower-open-amid-debt-concerns/55481"
     }
   ]
 }
