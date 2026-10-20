@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-20T09:48:04.763314+00:00",
+  "fetched_at": "2026-10-20T10:03:04.695824+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Oil Prices Climb As Investors Weigh Supply Risks",
+      "description": "Oil prices rose on Tuesday to reach their highest levels since May due to Houthi attacks on Saudi Arabia infrastructure and reports of vessel attacks in the Gulf.",
+      "date": "2026-10-20T09:42:04.690118+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/oil-prices-climb-as-investors-weigh-supply-risks/55491"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/australian-markets-significantly-lower/55473"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "China Stock Market May Extend Winning Streak",
-      "description": "The China stock market has finished higher in two straight sessions, gathering almost 25 points or 0.8 percent in that span. The Shanghai Composite Index now sits just above the 3,730-point plateau and it may add to its winnings on Tuesday.",
-      "date": "2026-10-20T01:01:07.641726+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/china-stock-market-may-extend-winning-streak/55472"
     }
   ]
 }
