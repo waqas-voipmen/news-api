@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-20T11:48:04.844178+00:00",
+  "fetched_at": "2026-10-20T12:03:05.364228+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "GBP",
+      "title": "Pound Rises As U.K. Unemployment Rate Falls",
+      "description": "The British pound strengthened against other major currencies in the European session on Tuesday, after the U.K. unemployment rate declined in the three months to August.",
+      "date": "2026-10-20T11:27:05.361000+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/pound-rises-as-uk-unemployment-rate-falls/55500"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "GM Q3 Profit Surges, Revises FY26 Earnings View, Plans $20 Bln Buyback; Stock Drops",
+      "description": "Shares of General Motors Co. were losing around 6 percent in the pre-market activity on the NYSE after the automajor revised its fiscal 2026 earnings view, raising the lower end of range, but trimming the higher end. This was despite reporting strong growth in third-quarter earnings. The firm also announced a new $20 billion multi-year share repurchase program and declared quarterly dividend.",
+      "date": "2026-10-20T11:24:05.361297+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/gm-q3-profit-surges-revises-fy26-earnings-view-plans-20-bln-buyback-stock-drops/55499"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/european-shares-poised-for-lower-open-amid-debt-concerns/55481"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australian Market Maintains Early Losses In Mid-market",
-      "description": "The Australian stock market is maintaining its early losses in mid-market trading on Tuesday, reversing some of the gains in the previous two sessions, following the mixed cues from Wall Street overnight. The benchmark S&P/ASX 200 index is falling below the 8,800 level, with weakness across most sectors led by mining and financial stocks.",
-      "date": "2026-10-20T03:26:04.802191+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-market-maintains-early-losses-in-mid-market/55480"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Asian Markets Trade Mostly Lower",
-      "description": "Asian stock markets are mostly lower on Tuesday, following the mixed cues from Wall Street overnight, as elevated crude oil prices amid ongoing hostilities in the Middle East and Eastern Europe, heightened global inflation concerns and pushed global yields higher. Iran continues to assert its control over the Strait of Hormuz, with ships being attacked more frequently than at any point in the war.",
-      "date": "2026-10-20T03:10:04.904728+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/asian-markets-trade-mostly-lower/55479"
     }
   ]
 }
