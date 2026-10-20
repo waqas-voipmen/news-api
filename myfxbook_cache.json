@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-20T00:18:08.645389+00:00",
+  "fetched_at": "2026-10-20T00:33:08.446860+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Malaysia Stock Market May Halt Its Slide",
+      "description": "The Malaysia stock market has finished lower in three straight sessions, slumping more than 30 points or 2 percent in that span. The Kuala Lumpur Composite Index now sits just shy of the 1,600-point plateau although it may find traction on Tuesday.",
+      "date": "2026-10-20T00:10:08.425259+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/malaysia-stock-market-may-halt-its-slide/55469"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/german-dax-falls-127-amid-france-unrest-ukraine-conflict/55452"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Indian Shares Tumble; Private Banks And Financials Lead Sell-off",
-      "description": "Indian shares fell sharply on Monday due to concerns over persistent foreign investor outflows and elevated crude oil prices in international markets.",
-      "date": "2026-10-19T10:27:03.977748+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-tumble-private-banks-and-financials-lead-sell-off/55451"
     }
   ]
 }
