@@ -501,7 +501,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-0.70T",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Credit Card Spending y/y",
@@ -1069,5 +1070,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-10-20T23:51:47.306466+00:00"
 }
