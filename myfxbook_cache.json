@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-20T01:03:06.699871+00:00",
+  "fetched_at": "2026-10-20T01:18:07.663794+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australian Markets Significantly Lower",
+      "description": "The Australian stock market is significantly lower on Tuesday, reversing some of the gains in the previous two sessions, following the mixed cues from Wall Street overnight. The benchmark S&P/ASX 200 index is falling well below the 8,800 level, with weakness across most sectors led by mining and financial stocks.",
+      "date": "2026-10-20T01:02:07.639280+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australian-markets-significantly-lower/55473"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "China Stock Market May Extend Winning Streak",
+      "description": "The China stock market has finished higher in two straight sessions, gathering almost 25 points or 0.8 percent in that span. The Shanghai Composite Index now sits just above the 3,730-point plateau and it may add to its winnings on Tuesday.",
+      "date": "2026-10-20T01:01:07.641726+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/china-stock-market-may-extend-winning-streak/55472"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/canadian-dollar-rises-against-majors/55458"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "CAD",
-      "title": "Canadian Stocks Set For Mixed Open; Inflation Data Due",
-      "description": "Canadian stocks are seen opening on a mixed note Monday morning, tracking mixed trend in commodity prices and weak European markets. September inflation data due 8:30 AM ET, following August's unchanged 3% rate. Nasdaq futures signal technology strength as geopolitical concerns weigh on global sentiment.",
-      "date": "2026-10-19T12:10:04.665400+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/canadian-stocks-set-for-mixed-open-inflation-data-due/55457"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "FTSE 100 Down 1.05% As Banks, Miners Lead Retreat On Tensions",
-      "description": "U.K. stocks retreated on Monday with the FTSE 100 down 1.05% to 10,767.86 as investors grew wary ahead of jobs reports, inflation data, and retail sales figures this week. European civil unrest and international tensions pressured markets.",
-      "date": "2026-10-19T11:35:04.535159+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/ftse-100-down-105-as-banks-miners-lead-retreat-on-tensions/55454"
     }
   ]
 }
