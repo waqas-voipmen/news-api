@@ -347,7 +347,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "8.7B",
+        "actual_src": "forexfactory"
       },
       {
         "title": "German ZEW Economic Sentiment",
@@ -1061,5 +1062,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-10-20T08:00:46.192657+00:00"
 }
