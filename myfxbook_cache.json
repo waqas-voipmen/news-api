@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-19T23:48:05.324058+00:00",
+  "fetched_at": "2026-10-20T00:03:05.081642+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Japan Stock Market May Remain Rangebound On Monday",
+      "description": "The Japan stock market headed south again on Monday, one session after ending the six-day losing streak in which it had tumbled more than 6,240 points or 9.1 percent. The Nikkei now sits just above the 64,910-point plateau although it may tick higher again on Tuesday.",
+      "date": "2026-10-19T23:16:05.077778+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/japan-stock-market-may-remain-rangebound-on-monday/55468"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indian-shares-tumble-private-banks-and-financials-lead-sell-off/55451"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "XAU",
-      "title": "Gold Edges Up As Oil Prices, Yields Dip",
-      "description": "Gold edged up slightly on Monday due to diminishing market expectations for an October Federal Reserve interest rate hike.",
-      "date": "2026-10-19T09:37:05.374748+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/gold-edges-up-as-oil-prices-yields-dip/55448"
     }
   ]
 }
