@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-20T01:33:07.256975+00:00",
+  "fetched_at": "2026-10-20T01:48:06.805204+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Japanese Market Sharply Lower",
+      "description": "The Japanese stock market is trading sharply lower on Tuesday, extending the losses in the previous session, following the mixed cues from Wall Street overnight, with the Nikkei 225 falling well below the 64,150 level, with weakness in index heavyweights and financial stocks.",
+      "date": "2026-10-20T01:29:06.795720+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/japanese-market-sharply-lower/55475"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/european-stocks-fall-amid-france-riots-russia-ukraine-tensions/55463"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Housing Market Index Drops To Fourteen-Year Low In October",
-      "description": "A report released by the National Association of Home Builders on Monday showed a bigger-than-expected deterioration in U.S. homebuilder sentiment in the month of October. The report said the NAHB/Wells Fargo housing market index fell to 29 in October from 32 in September. Economists had expected the index to edge down to 31.",
-      "date": "2026-10-19T14:30:35.640032+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-housing-market-index-drops-to-fourteen-year-low-in-october/55461"
     }
   ]
 }
