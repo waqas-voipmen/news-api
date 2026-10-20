@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-20T10:48:05.874748+00:00",
+  "fetched_at": "2026-10-20T11:03:05.050435+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "FTSE 100 Down 0.6% As Miners, Bank Stocks Decline Sharply",
+      "description": "The U.K. stock market's benchmark FTSE 100 drifted lower on Tuesday, weighed down by losses in mining and bank stocks. Rising political unrest in several parts of Europe, particularly in France and Italy, and high oil prices hurt sentiment.",
+      "date": "2026-10-20T10:53:05.047306+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/ftse-100-down-06-as-miners-bank-stocks-decline-sharply/55496"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "French Stocks Fall On Political Tensions, Oil Price Surge",
+      "description": "French stocks declined Tuesday amid rising political unrest, elevated oil prices from regional conflicts, and AI valuation concerns. The CAC 40 benchmark fell 0.61%, with notable declines in industrials and financials. Eurozone current account surplus contracted significantly.",
+      "date": "2026-10-20T10:32:05.047587+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/french-stocks-fall-on-political-tensions-oil-price-surge/55495"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/thai-shares-may-find-traction-on-tuesday/55477"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Indonesia Stock Market Overdue For Support On Tuesday",
-      "description": "The Indonesia stock market has finished lower in three straight sessions, crashing more than 950 points or 16.6 percent in that span. The Jakarta Composite Index now sits just beneath the 5,000-point plateau although it has a positive lead again for Tuesday's trade.",
-      "date": "2026-10-20T01:31:07.436061+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indonesia-stock-market-overdue-for-support-on-tuesday/55476"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Japanese Market Sharply Lower",
-      "description": "The Japanese stock market is trading sharply lower on Tuesday, extending the losses in the previous session, following the mixed cues from Wall Street overnight, with the Nikkei 225 falling well below the 64,150 level, with weakness in index heavyweights and financial stocks.",
-      "date": "2026-10-20T01:29:06.795720+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/japanese-market-sharply-lower/55475"
     }
   ]
 }
