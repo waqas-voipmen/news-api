@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-20T23:03:04.794011+00:00",
+  "fetched_at": "2026-10-20T23:18:07.145958+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Oversold KOSPI May Rebound On Wednesday",
+      "description": "The South Korea stock market on Tuesday halted the two-day winning streak in which it had rallied more than 210 points or 3.6 percent. The KOSPI now sits just above the 5,550-point plateau",
+      "date": "2026-10-20T23:04:07.133179+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/oversold-kospi-may-rebound-on-wednesday/55520"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/german-zew-economic-sentiment-deteriorates/55506"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "GBP",
-      "title": "Pound Rises As U.K. Unemployment Rate Falls",
-      "description": "The British pound strengthened against other major currencies in the European session on Tuesday, after the U.K. unemployment rate declined in the three months to August.",
-      "date": "2026-10-20T11:27:05.361000+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/pound-rises-as-uk-unemployment-rate-falls/55500"
     }
   ]
 }
