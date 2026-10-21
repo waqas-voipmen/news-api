@@ -527,7 +527,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "3.5%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Core CPI y/y",
@@ -539,7 +540,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "2.8%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "PPI Input m/m",
@@ -587,7 +589,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "3.9%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "German Buba President Nagel Speaks",
@@ -1071,5 +1074,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-10-21T06:01:00.789256+00:00"
 }
