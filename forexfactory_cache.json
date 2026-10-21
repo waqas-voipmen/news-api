@@ -654,7 +654,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-3.1M",
+        "actual_src": "forexfactory"
       },
       {
         "title": "CPI q/q",
@@ -1078,5 +1079,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-10-21T14:30:29.135234+00:00"
 }
