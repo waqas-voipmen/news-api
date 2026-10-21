@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-21T10:48:04.536030+00:00",
+  "fetched_at": "2026-10-21T11:18:04.319632+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "CAC 40 Gains 0.58% As EssilorLuxottica Soars On Earnings",
+      "description": "The CAC 40 climbed 0.58% Wednesday as quarterly earnings and political developments drove trading. Brent crude gained 1.7% to $110.75 a barrel, limiting broader market gains.",
+      "date": "2026-10-21T10:58:04.316334+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/cac-40-gains-058-as-essilorluxottica-soars-on-earnings/55557"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Indian Shares End Choppy Session Modestly Lower",
+      "description": "Indian shares swung between gains and losses before closing modestly lower on Wednesday.",
+      "date": "2026-10-21T10:40:04.316604+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-end-choppy-session-modestly-lower/55556"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/european-shares-seen-higher-with-earnings-in-focus/55536"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Indian Shares Surge Led By IT Stocks",
-      "description": "Indian shares opened on a buoyant note on Wednesday after reports suggested that a new peace proposal put forward by Qatar and Pakistan has received positive responses from Washington and Tehran, raising hopes that a breakthrough to halt the war could be announced possibly this week.",
-      "date": "2026-10-21T04:22:08.321246+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-surge-led-by-it-stocks/55535"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australian Market Slips To Slight Losses In Mid-market",
-      "description": "The Australian stock market is slipping to slight losses in mid-market moves on Wednesday after opening in the green, extending the losses in the previous session, with the benchmark S&P/ASX 200 falling to near the 8,800 level, following the mixed cues from Wall Street overnight, with a mixed performance across most sectors.",
-      "date": "2026-10-21T03:37:07.531798+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-market-slips-to-slight-losses-in-mid-market/55534"
     }
   ]
 }
