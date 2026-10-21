@@ -553,7 +553,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "1.5%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "PPI Output m/m",
@@ -565,7 +566,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.8%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Public Sector Net Borrowing",
@@ -577,7 +579,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "24.5B",
+        "actual_src": "forexfactory"
       },
       {
         "title": "RPI y/y",
@@ -1075,5 +1078,5 @@
       }
     ]
   },
-  "actuals_at": "2026-10-21T06:01:00.789256+00:00"
+  "actuals_at": "2026-10-21T06:01:45.472067+00:00"
 }
