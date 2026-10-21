@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-21T02:33:04.220785+00:00",
+  "fetched_at": "2026-10-21T02:48:06.654929+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Indian Shares Seen Higher At Open",
+      "description": "Indian shares look set to open higher on Wednesday after reports suggested that a new peace proposal put forward by Qatar and Pakistan has received positive responses from Washington and Tehran, raising hopes that a breakthrough to halt the war could be announced possibly this week.",
+      "date": "2026-10-21T02:31:06.639857+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-seen-higher-at-open/55532"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/oversold-kospi-may-rebound-on-wednesday/55520"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Indonesia Rate Decision Due On Wednesday",
-      "description": "The central bank in Indonesia will wrap up it monetary policy meeting on Wednesday and then announce its decision on interest rates, highlighting a light day for Asia-Pacific economic activity.",
-      "date": "2026-10-20T22:04:04.696838+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indonesia-rate-decision-due-on-wednesday/55519"
     }
   ]
 }
