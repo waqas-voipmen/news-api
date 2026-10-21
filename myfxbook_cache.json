@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-21T09:48:04.333910+00:00",
+  "fetched_at": "2026-10-21T10:03:04.462046+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Oil Prices Climb As Traders Weigh Middle East Supply Risks",
+      "description": "Oil prices were moving higher on Wednesday as investors weighed conflicting signals on efforts to end the U.S.-Iran war.",
+      "date": "2026-10-21T09:43:04.458657+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/oil-prices-climb-as-traders-weigh-middle-east-supply-risks/55553"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indian-shares-seen-higher-at-open/55532"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Thai Shares Due For Support On Wednesday",
-      "description": "The Thai stock market has finished lower in three straight sessions, sinking more than 20 points or 1.4 percent in that span. The Stock Exchange of Thailand now sits just above the 1,550-point plateau although it may stop the bleeding on Wednesday.",
-      "date": "2026-10-21T02:04:04.228493+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/thai-shares-due-for-support-on-wednesday/55531"
     }
   ]
 }
