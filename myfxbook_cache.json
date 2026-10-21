@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-21T23:03:10.611612+00:00",
+  "fetched_at": "2026-10-21T23:18:06.606623+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "NZD",
+      "title": "New Zealand Overall Inflation +0.7% On Quarter In Q3",
+      "description": "Overall consumer prices in New Zealand were up 0.7 percent on quarter in the third quarter of 2026, Statistics New Zealand said on Thursday.",
+      "date": "2026-10-21T23:05:06.596423+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/new-zealand-overall-inflation-07-on-quarter-in-q3/55574"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "South Korea Shares May Extend Wednesday's Gains",
+      "description": "The South Korea stock market bounced higher again on Wednesday, one day after ending the two-day winning streak in which it had rallied more than 210 points or 3.6 percent. The KOSPI now sits just above the 5,810-point plateau and it may see additional upside on Thursday.",
+      "date": "2026-10-21T23:04:06.597120+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/south-korea-shares-may-extend-wednesdays-gains/55573"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indian-shares-end-choppy-session-modestly-lower/55556"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Adidas Profit Outlook Boost Lifts DAX Higher",
-      "description": "Germany's benchmark DAX index advanced 132.51 points or 0.52% Wednesday as investors tracked geopolitical events and corporate earnings. Adidas stock climbed 2.3% after announcing higher FY26 profit expectations following robust quarterly performance.",
-      "date": "2026-10-21T10:30:04.532641+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/adidas-profit-outlook-boost-lifts-dax-higher/55555"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "XAU",
-      "title": "Gold Little Changed In Lackluster Trade",
-      "description": "Gold prices held steady on Wednesday amid reduced expectations of a Federal Reserve rate hike in October and concerns about rising civil unrest in France and Italy.",
-      "date": "2026-10-21T10:10:05.343325+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/gold-little-changed-in-lackluster-trade/55554"
     }
   ]
 }
