@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-20T23:48:07.227203+00:00",
+  "fetched_at": "2026-10-21T00:40:29.252661+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Singapore Stock Market May See Support At 5,400 Points",
+      "description": "The Singapore stock market has finished lower in two straight sessions, dropping more than 10 points or 0.2 percent along the way. The STI now sits just above the 5,400-point plateau although it figures to rebound on Wednesday.",
+      "date": "2026-10-21T00:03:29.247764+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/singapore-stock-market-may-see-support-at-5400-points/55524"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Japan September Trade Shortfall Y536.6 Billion",
+      "description": "Japan posted a merchandise trade deficit of 536.6 billion yen in September, the Ministry of Finance said on Wednesday.",
+      "date": "2026-10-20T23:57:29.248126+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/japan-september-trade-shortfall-y5366-billion/55523"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/uk-unemployment-rate-unexpectedly-drops/55511"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Housing Starts Unexpectedly Extend Nosedive In September",
-      "description": "A report released by the Commerce Department on Monday unexpectedly showed an extended nosedive in new residential construction in the U.S. in the month of September. The Commerce Department said housing starts plunged by 5.2 percent to an annual rate of 1.221 million in September after plummeting by 5.9 percent to a revised rate of 1.288 million in August.",
-      "date": "2026-10-20T13:59:05.739840+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-housing-starts-unexpectedly-extend-nosedive-in-september/55510"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Canadian Stocks Set To Open Lower Amid Inflation, Geopolitical Concerns",
-      "description": "Canadian equities face headwinds from elevated inflation, weak precious metals, and Middle East tensions. The S&P/TSX Composite Index fell 0.68% Monday. Oil prices surged 4.15% on Houthi attacks.",
-      "date": "2026-10-20T12:49:05.055097+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/canadian-stocks-set-to-open-lower-amid-inflation-geopolitical-concerns/55509"
     }
   ]
 }
