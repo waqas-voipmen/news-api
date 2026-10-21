@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-21T11:33:04.678006+00:00",
+  "fetched_at": "2026-10-21T11:48:04.771169+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "FTSE 100 Mixed As UK Inflation Hits One-Year High At 3.5%",
+      "description": "The FTSE 100 traded mixed Wednesday, gaining 0.05% to 10,738.13, digesting crucial economic data. Energy stocks led thanks to higher oil prices. September consumer price inflation reached 3.5%, the highest since October last year, above the 3.4% forecast.",
+      "date": "2026-10-21T11:35:04.767662+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/ftse-100-mixed-as-uk-inflation-hits-one-year-high-at-35/55559"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/australian-dollar-rises-against-majors/55539"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "European Shares Seen Higher With Earnings In Focus",
-      "description": "European stocks may edge higher at open on Wednesday, with technology stocks likely to remain in focus as investors cheer robust earnings from SpaceX and Super Micro Computer.",
-      "date": "2026-10-21T05:40:04.429088+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-shares-seen-higher-with-earnings-in-focus/55536"
     }
   ]
 }
