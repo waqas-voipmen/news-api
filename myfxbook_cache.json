@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-21T21:33:03.826518+00:00",
+  "fetched_at": "2026-10-21T21:48:08.715031+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "South Korea Rate Decision On Tap For Thursday",
+      "description": "The Bank of Korea will wrap up its monetary policy meeting on Thursday and then announce its decision on interest rates, highlighting a light day for Asia-Pacific economic activity. The BoK is expected to keep its benchmark unchanged at 3.00 percent.",
+      "date": "2026-10-21T21:31:08.695783+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/south-korea-rate-decision-on-tap-for-thursday/55572"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/gold-little-changed-in-lackluster-trade/55554"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Oil Prices Climb As Traders Weigh Middle East Supply Risks",
-      "description": "Oil prices were moving higher on Wednesday as investors weighed conflicting signals on efforts to end the U.S.-Iran war.",
-      "date": "2026-10-21T09:43:04.458657+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/oil-prices-climb-as-traders-weigh-middle-east-supply-risks/55553"
     }
   ]
 }
