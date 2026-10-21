@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-21T13:18:05.847456+00:00",
+  "fetched_at": "2026-10-21T13:48:04.334584+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Elon Musk Confirms Talks For Potential SpaceX-Tesla Merger",
+      "description": "Elon Musk, the CEO of both Tesla Inc. and Space Exploration Technologies Corp. or SpaceX, has confirmed the discussion for potential merger of the electric vehicle major and the spaceflight company. During the third-quarter earnings call of SpaceX, a company he founded, Musk called it to be a good idea, adding that the companies have formed special committees to discuss the possible union.",
+      "date": "2026-10-21T13:35:04.331025+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/elon-musk-confirms-talks-for-potential-spacex-tesla-merger/55565"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/pound-rises-as-robust-uk-cpi-data-fuels-boe-rate-hike/55544"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "GBP",
-      "title": "Pound Rises Slightly Against Majors",
-      "description": "The British pound strengthened slightly against other major currencies in the pre-European session on Wednesday.",
-      "date": "2026-10-21T07:54:04.554167+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/pound-rises-slightly-against-majors/55543"
     }
   ]
 }
