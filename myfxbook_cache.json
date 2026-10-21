@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-21T10:33:05.346844+00:00",
+  "fetched_at": "2026-10-21T10:48:04.536030+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Adidas Profit Outlook Boost Lifts DAX Higher",
+      "description": "Germany's benchmark DAX index advanced 132.51 points or 0.52% Wednesday as investors tracked geopolitical events and corporate earnings. Adidas stock climbed 2.3% after announcing higher FY26 profit expectations following robust quarterly performance.",
+      "date": "2026-10-21T10:30:04.532641+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/adidas-profit-outlook-boost-lifts-dax-higher/55555"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/australian-market-slips-to-slight-losses-in-mid-market/55534"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Asian Markets Trade Mixed",
-      "description": "Asian stock markets are trading mixed on Wednesday, following the mixed cues from Wall Street overnight, as crude oil-linked inflation concerns eased following reports of a possible peace deal between the U.S. and Iran, mediated by Pakistan and Qatar that satisfies the needs of both the warring nations. Asian markets closed mostly lower on Tuesday.",
-      "date": "2026-10-21T03:32:08.533293+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/asian-markets-trade-mixed/55533"
     }
   ]
 }
