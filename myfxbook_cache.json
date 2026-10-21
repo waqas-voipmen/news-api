@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-21T07:03:04.529025+00:00",
+  "fetched_at": "2026-10-21T07:18:04.757800+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "SpaceX Shares Climb As Q3 Turns To Profit On Connectivity, SI Strength",
+      "description": "Shares of Space Exploration Technologies Corp. or SpaceX (SPCX) were gaining around 9% in the overnight activity on the Nasdaq after Elon Musk's spaceflight company reported a significant profit in its third quarter, compared to prior year's loss, as revenues were boosted mainly by Connectivity as well as Super Intelligence or SI operations.",
+      "date": "2026-10-21T07:00:04.753580+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/spacex-shares-climb-as-q3-turns-to-profit-on-connectivity-si-strength/55540"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/win-streak-may-continue-for-china-stock-market/55526"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Higher Open Called For Taiwan Stock Market",
-      "description": "The Taiwan stock market has finished lower in consecutive trading days, declining almost 820 points or 1.7 percent along the way. The Taiwan Stock Exchange now sits just above the 46,290-point plateau although it may find support on Wednesday.",
-      "date": "2026-10-21T00:34:04.126996+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/higher-open-called-for-taiwan-stock-market/55525"
     }
   ]
 }
