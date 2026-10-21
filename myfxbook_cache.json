@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-21T03:33:08.636593+00:00",
+  "fetched_at": "2026-10-21T03:48:08.551387+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Asian Markets Trade Mixed",
+      "description": "Asian stock markets are trading mixed on Wednesday, following the mixed cues from Wall Street overnight, as crude oil-linked inflation concerns eased following reports of a possible peace deal between the U.S. and Iran, mediated by Pakistan and Qatar that satisfies the needs of both the warring nations. Asian markets closed mostly lower on Tuesday.",
+      "date": "2026-10-21T03:32:08.533293+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/asian-markets-trade-mixed/55533"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/japan-stock-market-may-stop-the-bleeding-on-wednesday/55521"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Oversold KOSPI May Rebound On Wednesday",
-      "description": "The South Korea stock market on Tuesday halted the two-day winning streak in which it had rallied more than 210 points or 3.6 percent. The KOSPI now sits just above the 5,550-point plateau",
-      "date": "2026-10-20T23:04:07.133179+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/oversold-kospi-may-rebound-on-wednesday/55520"
     }
   ]
 }
