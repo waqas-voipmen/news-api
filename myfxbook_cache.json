@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-21T18:18:08.404400+00:00",
+  "fetched_at": "2026-10-21T18:33:07.782993+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "CHF",
+      "title": "Swiss Market Ends On Firm Note",
+      "description": "After struggling a bit for support early on in the session, Swiss stocks edged higher and eventually ended on a firm note on Wednesday as investors kept their focus firmly on earnings.",
+      "date": "2026-10-21T18:07:07.773313+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/swiss-market-ends-on-firm-note/55570"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/european-shares-mixed-as-uk-inflation-climbs/55551"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "Asian Shares Mixed; China And Hong Kong Underperform",
-      "description": "Asian stocks ended mixed on Wednesday, with Chinese and Hong Kong markets declining on earnings concerns while markets elsewhere rose following reports of progress towards renewed U.S.-Iran negotiations.",
-      "date": "2026-10-21T08:40:04.619498+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/asian-shares-mixed-china-and-hong-kong-underperform/55548"
     }
   ]
 }
