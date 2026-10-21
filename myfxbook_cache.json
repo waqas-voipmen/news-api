@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-21T06:18:04.380278+00:00",
+  "fetched_at": "2026-10-21T06:33:04.842480+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australian Dollar Rises Against Majors",
+      "description": "The Australian dollar strengthened against other major currencies in the Asian session on Wednesday.",
+      "date": "2026-10-21T06:13:04.838414+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australian-dollar-rises-against-majors/55539"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/higher-open-called-for-taiwan-stock-market/55525"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Singapore Stock Market May See Support At 5,400 Points",
-      "description": "The Singapore stock market has finished lower in two straight sessions, dropping more than 10 points or 0.2 percent along the way. The STI now sits just above the 5,400-point plateau although it figures to rebound on Wednesday.",
-      "date": "2026-10-21T00:03:29.247764+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/singapore-stock-market-may-see-support-at-5400-points/55524"
     }
   ]
 }
