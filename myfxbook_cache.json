@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-21T10:18:03.906044+00:00",
+  "fetched_at": "2026-10-21T10:33:05.346844+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "XAU",
+      "title": "Gold Little Changed In Lackluster Trade",
+      "description": "Gold prices held steady on Wednesday amid reduced expectations of a Federal Reserve rate hike in October and concerns about rising civil unrest in France and Italy.",
+      "date": "2026-10-21T10:10:05.343325+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/gold-little-changed-in-lackluster-trade/55554"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/asian-markets-trade-mixed/55533"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Indian Shares Seen Higher At Open",
-      "description": "Indian shares look set to open higher on Wednesday after reports suggested that a new peace proposal put forward by Qatar and Pakistan has received positive responses from Washington and Tehran, raising hopes that a breakthrough to halt the war could be announced possibly this week.",
-      "date": "2026-10-21T02:31:06.639857+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-seen-higher-at-open/55532"
     }
   ]
 }
