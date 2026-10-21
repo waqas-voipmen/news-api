@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-21T23:33:06.690151+00:00",
+  "fetched_at": "2026-10-21T23:48:04.180988+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Malaysia Stock Market May Tick Higher Again On Thursday",
+      "description": "The Malaysia stock market has finished higher in back-to-back sessions, collecting more than 5 points or 0.3 percent in that span. The Kuala Lumpur Composite Index now sits just above the 1,600-point plateau and it may see mild upside again on Thursday.",
+      "date": "2026-10-21T23:34:04.175362+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/malaysia-stock-market-may-tick-higher-again-on-thursday/55576"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Japan Stock Market May See Additional Support",
+      "description": "The Japan stock market on Wednesday halted the two-day slide in which it had tumbled almost 1,300 points or 2 percent. The Nikkei now sits just above the 64,620-point plateau and it may add to its winnings on Thursday.",
+      "date": "2026-10-21T23:19:04.175709+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/japan-stock-market-may-see-additional-support/55575"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/ftse-100-mixed-as-uk-inflation-hits-one-year-high-at-35/55559"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "CAC 40 Gains 0.58% As EssilorLuxottica Soars On Earnings",
-      "description": "The CAC 40 climbed 0.58% Wednesday as quarterly earnings and political developments drove trading. Brent crude gained 1.7% to $110.75 a barrel, limiting broader market gains.",
-      "date": "2026-10-21T10:58:04.316334+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/cac-40-gains-058-as-essilorluxottica-soars-on-earnings/55557"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Indian Shares End Choppy Session Modestly Lower",
-      "description": "Indian shares swung between gains and losses before closing modestly lower on Wednesday.",
-      "date": "2026-10-21T10:40:04.316604+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-end-choppy-session-modestly-lower/55556"
     }
   ]
 }
