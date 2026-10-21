@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-21T12:33:04.857468+00:00",
+  "fetched_at": "2026-10-21T12:48:04.398644+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "AT&T Shares Drop On Weak Q3 Profit, Despite Positive Outlook",
+      "description": "Telecom giant AT&T, Inc. reported Wednesday sharply lower profit in its third quarter, hurt by an impairment charge as well as the absence of prior year's divestment gain. Revenues, however, increased from last year. Looking ahead, the company raised fiscal 2026 outlook and maintained long-term view. In the pre-market activity on the NYSE, the shares were losing around 5.9 percent.",
+      "date": "2026-10-21T12:36:04.394496+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/att-shares-drop-on-weak-q3-profit-despite-positive-outlook/55562"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/australian-dollar-rises-on-rba-hauser-hawkish-remarks/55541"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "SpaceX Shares Climb As Q3 Turns To Profit On Connectivity, SI Strength",
-      "description": "Shares of Space Exploration Technologies Corp. or SpaceX (SPCX) were gaining around 9% in the overnight activity on the Nasdaq after Elon Musk's spaceflight company reported a significant profit in its third quarter, compared to prior year's loss, as revenues were boosted mainly by Connectivity as well as Super Intelligence or SI operations.",
-      "date": "2026-10-21T07:00:04.753580+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/spacex-shares-climb-as-q3-turns-to-profit-on-connectivity-si-strength/55540"
     }
   ]
 }
