@@ -617,7 +617,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.9%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Foreign Direct Investment ytd/y",
@@ -1077,5 +1078,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-10-21T08:30:29.320249+00:00"
 }
