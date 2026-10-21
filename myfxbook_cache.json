@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-21T12:18:05.126947+00:00",
+  "fetched_at": "2026-10-21T12:33:04.857468+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "GBP",
+      "title": "UK Inflation Rises To 3.5% On Energy Costs; Bolsters Rate Hike Case",
+      "description": "UK consumer price inflation strengthened more than expected in September as the Middle East conflict kept motor fuel prices high, reinforcing expectations for Bank of England rate hike next month. Consumer prices registered an annual growth of 3.5 percent after rising 3.1 percent in August, the Office for National Statistics said Wednesday.",
+      "date": "2026-10-21T12:19:04.854144+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/uk-inflation-rises-to-35-on-energy-costs-bolsters-rate-hike-case/55561"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/spacex-shares-climb-as-q3-turns-to-profit-on-connectivity-si-strength/55540"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australian Dollar Rises Against Majors",
-      "description": "The Australian dollar strengthened against other major currencies in the Asian session on Wednesday.",
-      "date": "2026-10-21T06:13:04.838414+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-dollar-rises-against-majors/55539"
     }
   ]
 }
