@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-21T18:03:07.097790+00:00",
+  "fetched_at": "2026-10-21T18:18:08.404400+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "European Stocks Close On Firm Note As Focus Shifts To Earnings",
+      "description": "European stocks snapped recent losses and closed higher on Wednesday as optimism about corporate earnings helped offset worries about oil prices, and concerns about geopolitical tensions to some extent.",
+      "date": "2026-10-21T17:52:08.396263+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-stocks-close-on-firm-note-as-focus-shifts-to-earnings/55569"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/asian-shares-mixed-china-and-hong-kong-underperform/55548"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "GBP",
-      "title": "Pound Rises As Robust U.K. CPI Data Fuels BoE Rate Hike",
-      "description": "The British pound strengthened slightly against other major currencies in the European session on Wednesday, as the U.K. consumer price inflation rose to a one-year high in September on motor fuel prices, fueled expectations on the Bank of England (BoE) rate hike.",
-      "date": "2026-10-21T08:08:04.553851+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/pound-rises-as-robust-uk-cpi-data-fuels-boe-rate-hike/55544"
     }
   ]
 }
