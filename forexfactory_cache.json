@@ -514,7 +514,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "6.9%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "CPI y/y",
@@ -1070,5 +1071,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-10-21T02:01:29.265129+00:00"
 }
