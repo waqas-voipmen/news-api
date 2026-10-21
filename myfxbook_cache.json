@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-21T12:48:04.398644+00:00",
+  "fetched_at": "2026-10-21T13:03:04.470809+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Bay Street Looks Headed For Positive Start",
+      "description": "The Canadian stock market may open on a positive note on Wednesday with the energy sector set to attract investors thanks to higher crude oil prices. Technology stocks are likely to edge higher, tracking the trend in global markets.",
+      "date": "2026-10-21T12:40:04.467256+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/bay-street-looks-headed-for-positive-start/55563"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/pound-rises-slightly-against-majors/55543"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australian Dollar Rises On RBA Hauser Hawkish Remarks",
-      "description": "The Australian dollar strengthened against other major currencies in the Asian session on Wednesday, following warnings from the Reserve Bank of Australia (RBA) Deputy Governor Andrew Hauser that prompted expectations of another interest rate hike.",
-      "date": "2026-10-21T07:34:04.450320+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-dollar-rises-on-rba-hauser-hawkish-remarks/55541"
     }
   ]
 }
