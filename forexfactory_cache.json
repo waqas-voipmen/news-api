@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-21T09:33:12.082415+00:00",
+  "fetched_at": "2026-10-21T09:48:10.143328+00:00",
   "periods": {
     "week": [
       {
@@ -621,18 +621,6 @@
         "actual_src": "forexfactory"
       },
       {
-        "title": "Foreign Direct Investment ytd/y",
-        "country": "CNY",
-        "date": "2026-10-21T05:10:00-04:00",
-        "impact": "Low",
-        "forecast": "",
-        "previous": "-5.3%",
-        "source": "ForexFactory",
-        "type": "calendar",
-        "link": null,
-        "actual": ""
-      },
-      {
         "title": "German Buba Monthly Report",
         "country": "EUR",
         "date": "2026-10-21T06:00:00-04:00",
@@ -690,6 +678,19 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
+        "actual": ""
+      },
+      {
+        "title": "Foreign Direct Investment ytd/y",
+        "country": "CNY",
+        "date": "2026-10-22T05:10:00-04:00",
+        "impact": "Low",
+        "forecast": "",
+        "previous": "-5.3%",
+        "source": "ForexFactory",
+        "type": "calendar",
+        "link": null,
+        "time_label": "Tentative",
         "actual": ""
       },
       {
