@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-21T00:40:29.252661+00:00",
+  "fetched_at": "2026-10-21T00:48:04.131160+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Higher Open Called For Taiwan Stock Market",
+      "description": "The Taiwan stock market has finished lower in consecutive trading days, declining almost 820 points or 1.7 percent along the way. The Taiwan Stock Exchange now sits just above the 46,290-point plateau although it may find support on Wednesday.",
+      "date": "2026-10-21T00:34:04.126996+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/higher-open-called-for-taiwan-stock-market/55525"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/us-pending-home-sales-plunge-much-more-than-expected-in-september/55512"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "GBP",
-      "title": "UK Unemployment Rate Unexpectedly Drops",
-      "description": "The UK unemployment rate unexpectedly declined in the three months to August amid falling job vacancies and a moderate increase in pay growth, adding prospects for a Bank of England interest rate hike in November. The ILO unemployment rate stood at 4.7 percent in the June to August period compared to 4.9 percent in the preceding period.",
-      "date": "2026-10-20T14:00:05.739082+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/uk-unemployment-rate-unexpectedly-drops/55511"
     }
   ]
 }
