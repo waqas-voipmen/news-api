@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-21T08:03:04.454359+00:00",
+  "fetched_at": "2026-10-21T08:18:04.557402+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "GBP",
+      "title": "Pound Rises As Robust U.K. CPI Data Fuels BoE Rate Hike",
+      "description": "The British pound strengthened slightly against other major currencies in the European session on Wednesday, as the U.K. consumer price inflation rose to a one-year high in September on motor fuel prices, fueled expectations on the Bank of England (BoE) rate hike.",
+      "date": "2026-10-21T08:08:04.553851+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/pound-rises-as-robust-uk-cpi-data-fuels-boe-rate-hike/55544"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "GBP",
+      "title": "Pound Rises Slightly Against Majors",
+      "description": "The British pound strengthened slightly against other major currencies in the pre-European session on Wednesday.",
+      "date": "2026-10-21T07:54:04.554167+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/pound-rises-slightly-against-majors/55543"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indonesia-stock-market-may-extend-tuesdays-gains/55529"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Hong Kong Stock Market Poised To Open To The Upside On Wednesday",
-      "description": "The Hong Kong stock market headed south again on Tuesday, one session after ending the two-day slide in which it had dropped more than 280 points or 1.2 percent. The Hang Seng now sits just above the 23,860-point plateau although it may bounce higher again on Wednesday.",
-      "date": "2026-10-21T01:19:04.842147+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/hong-kong-stock-market-poised-to-open-to-the-upside-on-wednesday/55528"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australian Market Slightly Lower",
-      "description": "Australian shares are trading slightly lower on Wednesday after opening in the green, extending the losses in the previous session, with the benchmark S&P/ASX 200 falling to near the 8,800 level, following the mixed cues from Wall Street overnight, with a mixed performance across most sectors.",
-      "date": "2026-10-21T01:14:04.842510+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-market-slightly-lower/55527"
     }
   ]
 }
