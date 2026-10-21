@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-21T05:48:04.285442+00:00",
+  "fetched_at": "2026-10-21T06:03:04.432952+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "European Shares Seen Higher With Earnings In Focus",
+      "description": "European stocks may edge higher at open on Wednesday, with technology stocks likely to remain in focus as investors cheer robust earnings from SpaceX and Super Micro Computer.",
+      "date": "2026-10-21T05:40:04.429088+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-shares-seen-higher-with-earnings-in-focus/55536"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/singapore-stock-market-may-see-support-at-5400-points/55524"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Japan September Trade Shortfall Y536.6 Billion",
-      "description": "Japan posted a merchandise trade deficit of 536.6 billion yen in September, the Ministry of Finance said on Wednesday.",
-      "date": "2026-10-20T23:57:29.248126+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/japan-september-trade-shortfall-y5366-billion/55523"
     }
   ]
 }
