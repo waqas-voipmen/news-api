@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-21T21:03:11.481128+00:00",
+  "fetched_at": "2026-10-21T21:18:03.495332+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Dollar Ends Roughly Flat As Investors Assess Middle East Developments",
+      "description": "The U.S. Dollar value changed a little on Wednesday as traders adopted a wait-and-watch approach amid conflicting reports on a possible U.S.-Iran peace deal while economists speculated that the U.S. Federal Reserve could hold the interest rates steady in its upcoming October 27-28 meeting.",
+      "date": "2026-10-21T21:01:03.491646+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-dollar-ends-roughly-flat-as-investors-assess-middle-east-developments/55571"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/oil-prices-climb-as-traders-weigh-middle-east-supply-risks/55553"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "GBP",
-      "title": "European Shares Mixed As UK Inflation Climbs",
-      "description": "European stocks were mixed on Wednesday as investors digested U.K. inflation data and awaited a raft of earnings for direction.",
-      "date": "2026-10-21T09:25:04.329662+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-shares-mixed-as-uk-inflation-climbs/55551"
     }
   ]
 }
