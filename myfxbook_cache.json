@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-21T01:03:04.111902+00:00",
+  "fetched_at": "2026-10-21T01:18:04.258414+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Win Streak May Continue For China Stock Market",
+      "description": "The China stock market has finished higher in three straight sessions, gathering almost 30 points or 0.8 percent in that span. The Shanghai Composite Index now sits just above the 3,735-point plateau and it's expected to open to the upside again on Wednesday.",
+      "date": "2026-10-21T01:04:04.254171+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/win-streak-may-continue-for-china-stock-market/55526"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/european-markets-close-weak-despite-mid-session-recovery/55514"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Pending Home Sales Plunge Much More Than Expected In September",
-      "description": "Pending home sales in the U.S. plunged by much more than expected in the month of September, according to a report released by the National Association of Realtors on Tuesday. NAR said its pending home sales plummeted by 7.3 percent to 66.0 in September after rising by 0.3 percent to 71.2 in August. Economists had expected pending home sales to fall by 0.4 percent.",
-      "date": "2026-10-20T14:26:03.436661+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-pending-home-sales-plunge-much-more-than-expected-in-september/55512"
     }
   ]
 }
