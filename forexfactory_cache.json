@@ -667,7 +667,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.7%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Summary of Monetary Policy Discussions",
@@ -1079,5 +1080,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-10-21T21:46:47.037914+00:00"
 }
