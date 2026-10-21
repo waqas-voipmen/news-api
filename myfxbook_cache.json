@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-21T02:03:04.824175+00:00",
+  "fetched_at": "2026-10-21T02:18:04.232241+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Thai Shares Due For Support On Wednesday",
+      "description": "The Thai stock market has finished lower in three straight sessions, sinking more than 20 points or 1.4 percent in that span. The Stock Exchange of Thailand now sits just above the 1,550-point plateau although it may stop the bleeding on Wednesday.",
+      "date": "2026-10-21T02:04:04.228493+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/thai-shares-due-for-support-on-wednesday/55531"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indonesia-rate-decision-due-on-wednesday/55519"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "South Korea Producer Prices Rise 0.2% In September",
-      "description": "Producer prices in South Korea were up 0.2 percent on month in September, the Bank of Korea said on Wednesday - up from 0.1 percent in August.",
-      "date": "2026-10-20T21:59:04.697175+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/south-korea-producer-prices-rise-02-in-september/55518"
     }
   ]
 }
