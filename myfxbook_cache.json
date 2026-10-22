@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-22T07:18:04.164392+00:00",
+  "fetched_at": "2026-10-22T07:33:04.168126+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Yen Rises Against Majors",
+      "description": "The Japanese yen strengthened against other major currencies in the Asian session on Thursday.",
+      "date": "2026-10-22T07:09:04.163759+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/yen-rises-against-majors/55593"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/australian-market-notably-lower/55579"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Tech Shares May Extend Taiwan Bourse Rally",
-      "description": "The Taiwan stock market on Wednesday ended the two-day losing streak in which it had given up almost 820 points or 1.7 percent. The Taiwan Stock Exchange now sits just beneath the 46,890-point plateau and it's expected to see continued support on Thursday.",
-      "date": "2026-10-22T00:33:43.784416+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/tech-shares-may-extend-taiwan-bourse-rally/55578"
     }
   ]
 }
