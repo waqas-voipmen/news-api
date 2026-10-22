@@ -809,7 +809,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "49.7",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Flash Services PMI",
@@ -821,7 +822,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "47.8",
+        "actual_src": "forexfactory"
       },
       {
         "title": "GfK Consumer Confidence",
@@ -1088,5 +1090,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-10-22T22:01:45.753140+00:00"
 }
