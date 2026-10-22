@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-22T21:03:04.745173+00:00",
+  "fetched_at": "2026-10-22T21:18:04.598268+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Dollar Slips As Bets On Federal Reserve Rate Hike Decline",
+      "description": "The U.S. Dollar value turned lower on Thursday amid reversal in the U.S. Federal Reserve's rate hike expectations from yesterday's 14% to nearly 7%. The shift overshadowed the safe-haven demand tied to concerns over high inflation that surfaced after New York Times reported possible fresh attacks on Iran by the U.S. in November.",
+      "date": "2026-10-22T21:01:04.594403+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-dollar-slips-as-bets-on-federal-reserve-rate-hike-decline/55629"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/philippine-central-bank-hikes-key-rates-by-50-bps/55612"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Canadian Dollar Rises As Oil Prices Soar",
-      "description": "The Canadian dollar strengthened against other major currencies in the European session on Thursday, as the crude oil prices surged approaching a near four-year high reached in May amid renewed concerns over escalating supply risks in the Middle East.",
-      "date": "2026-10-22T11:14:04.738236+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/canadian-dollar-rises-as-oil-prices-soar/55611"
     }
   ]
 }
