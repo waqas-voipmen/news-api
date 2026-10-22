@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-22T12:48:04.576592+00:00",
+  "fetched_at": "2026-10-22T13:03:04.708762+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "American Airlines Shares Hit On Wider Q3 Loss, Cautious Outlook On Fuel Costs, Despite Strong Demand",
+      "description": "Shares of American Airlines Group Inc. were losing around 4 percent in pre-market activity on the Nasdaq, after the airline reported Thursday wider net loss in its third quarter, issued loss warning for the fourth quarter, and revised fiscal 2026 outlook to expect loss, mainly on surging fuel costs. Quarterly revenues, however, climbed from last year, and the firm sees continuing growth.",
+      "date": "2026-10-22T12:39:04.705402+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/american-airlines-shares-hit-on-wider-q3-loss-cautious-outlook-on-fuel-costs-despite-strong-demand/55615"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/european-shares-decline-amid-earnings-deluge-debt-jitters/55601"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Europe Car Sales Growth Strengthens On EV Momentum: ACEA",
-      "description": "Europe's new car registrations growth accelerated in September, driven by the surge in electric car sales, data from the European Automobile Manufacturers' Association, or ACEA, revealed Thursday. New car sales increased 9.3 percent on a yearly basis in September, which was faster than the 4.5 percent rise posted in August.",
-      "date": "2026-10-22T09:26:04.379610+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/europe-car-sales-growth-strengthens-on-ev-momentum-acea/55600"
     }
   ]
 }
