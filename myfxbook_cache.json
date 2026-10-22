@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-22T22:03:03.964959+00:00",
+  "fetched_at": "2026-10-22T22:18:04.666979+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Japan Inflation Data Due On Friday",
+      "description": "Japan will on Friday release September figures for consumer prices, highlighting a modest day for Asia-Pacific economic activity. In August, overall inflation was up 0.1 percent on month and 1.9 percent on year, while core CPI rose an annual 1.7 percent.",
+      "date": "2026-10-22T22:04:04.663305+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/japan-inflation-data-due-on-friday/55630"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/cac-40-falls-amidst-fiscal-and-political-worries/55613"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Philippine Central Bank Hikes Key Rates By 50 Bps",
-      "description": "The Philippine central bank lifted its key interest rates by a larger-than-expected 50 basis points on Thursday to curb second-round effects and to anchor inflation expectations. The Monetary Board of the Bangko Sentral ng Pilipinas decided to raise the reverse repurchase rate by 50 basis points to 5.50 percent. Markets were expecting a quarter-point hike.",
-      "date": "2026-10-22T11:31:05.307398+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/philippine-central-bank-hikes-key-rates-by-50-bps/55612"
     }
   ]
 }
