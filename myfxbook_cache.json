@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-22T11:03:04.219904+00:00",
+  "fetched_at": "2026-10-22T11:18:05.007055+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "DAX Slips Amidst Oil Price Spike, AI Worries",
+      "description": "The DAX benchmark that tracks the performance of the 40 largest companies listed on the Frankfurt Stock Exchange declined on Thursday amidst escalating tensions in the Middle East as well as concerns about elevated AI valuations. The jump in crude oil prices triggered a broader weakness across European markets. weighing on sentiment.",
+      "date": "2026-10-22T11:05:05.003672+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/dax-slips-amidst-oil-price-spike-ai-worries/55610"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Indian Shares Extend Losses For Third Day",
+      "description": "Indian shares fell notably on Thursday, extending losses for a third consecutive session as Brent crude prices topped $112 a barrel on supply concerns.",
+      "date": "2026-10-22T10:58:05.003960+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-extend-losses-for-third-day/55609"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/european-shares-on-track-for-tepid-open-as-houthi-attacks-escalate/55591"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Indian Shares Open Lower After Attack On Saudi Oilfield",
-      "description": "Indian shares were notably lower in early trade on Thursday as a drone attack on Saudi Aramco's Shaybah oil field as well as another attack on King Fahd International Airport in Dammam, Saudi Arabia, heightened concerns over further disruptions to energy supplies.",
-      "date": "2026-10-22T04:36:03.929823+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-open-lower-after-attack-on-saudi-oilfield/55590"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australian Market Maintains Early Losses In Mid-market",
-      "description": "The Australian market is maintaining its early losses in mid-market moves on Thursday after slipping deeper briefly, reversing the gains in the previous session, despite the broadly positive cues from Wall Street overnight. The benchmark S&P/ASX 200 is falling below the 8,800 level, with weakness across most sectors led by in mining and energy stocks.",
-      "date": "2026-10-22T03:26:08.440924+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-market-maintains-early-losses-in-mid-market/55587"
     }
   ]
 }
