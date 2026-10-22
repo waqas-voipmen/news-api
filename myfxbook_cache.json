@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-22T09:33:04.783396+00:00",
+  "fetched_at": "2026-10-22T09:48:04.383482+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Europe Car Sales Growth Strengthens On EV Momentum: ACEA",
+      "description": "Europe's new car registrations growth accelerated in September, driven by the surge in electric car sales, data from the European Automobile Manufacturers' Association, or ACEA, revealed Thursday. New car sales increased 9.3 percent on a yearly basis in September, which was faster than the 4.5 percent rise posted in August.",
+      "date": "2026-10-22T09:26:04.379610+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/europe-car-sales-growth-strengthens-on-ev-momentum-acea/55600"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/hong-kong-stock-market-due-to-end-losing-streak/55581"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Rebound Expected For China Stock Market",
-      "description": "The China stock market on Wednesday snapped the three-day winning streak in which it had gathered almost 30 points or 0.8 percent. The Shanghai Composite Index now sits just above the 3,710-point plateau although it's likely to bounce higher again on Thursday.",
-      "date": "2026-10-22T01:04:04.291525+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/rebound-expected-for-china-stock-market/55580"
     }
   ]
 }
