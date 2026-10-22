@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-22T18:18:07.217017+00:00",
+  "fetched_at": "2026-10-22T18:33:05.151149+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "European Equities Fall On Multiple Headwinds Including Oil Spike",
+      "description": "European equities fell Thursday as investors worried about AI infrastructure spending, Middle East tensions, and elevated oil prices. The Stoxx 600 declined 1.05%, with mining and bank stocks leading losses. Brent crude surged 3.5% above $112.50 per barrel.",
+      "date": "2026-10-22T18:13:05.147461+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-equities-fall-on-multiple-headwinds-including-oil-spike/55627"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/dax-slips-amidst-oil-price-spike-ai-worries/55610"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Indian Shares Extend Losses For Third Day",
-      "description": "Indian shares fell notably on Thursday, extending losses for a third consecutive session as Brent crude prices topped $112 a barrel on supply concerns.",
-      "date": "2026-10-22T10:58:05.003960+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-extend-losses-for-third-day/55609"
     }
   ]
 }
