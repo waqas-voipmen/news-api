@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-22T13:33:13.115914+00:00",
+  "fetched_at": "2026-10-22T13:48:12.788178+00:00",
   "periods": {
     "week": [
       {
@@ -748,18 +748,6 @@
         "actual_src": "forexfactory"
       },
       {
-        "title": "NHPI m/m",
-        "country": "CAD",
-        "date": "2026-10-22T08:59:00-04:00",
-        "impact": "Low",
-        "forecast": "-0.1%",
-        "previous": "-0.1%",
-        "source": "ForexFactory",
-        "type": "calendar",
-        "link": null,
-        "actual": ""
-      },
-      {
         "title": "Consumer Confidence",
         "country": "EUR",
         "date": "2026-10-22T10:00:00-04:00",
@@ -793,6 +781,19 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
+        "actual": ""
+      },
+      {
+        "title": "NHPI m/m",
+        "country": "CAD",
+        "date": "2026-10-22T10:59:00-04:00",
+        "impact": "Low",
+        "forecast": "-0.1%",
+        "previous": "-0.1%",
+        "source": "ForexFactory",
+        "type": "calendar",
+        "link": null,
+        "time_label": "Tentative",
         "actual": ""
       },
       {

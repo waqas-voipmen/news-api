@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-22T13:33:05.881577+00:00",
+  "fetched_at": "2026-10-22T13:48:06.197616+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Jobless Claims Unexpectedly Drop To Three-Month Low",
+      "description": "First-time claims for U.S. unemployment benefits unexpectedly declined in the week ended October 17th, according to a report released by the Labor Department on Thursday. The report said initial jobless claims fell to 194,000, a decrease of 6,000 from the previous week's revised level of 200,000.",
+      "date": "2026-10-22T13:19:06.194158+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-jobless-claims-unexpectedly-drop-to-three-month-low/55619"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/french-manufacturing-sentiment-highest-since-mid-2022/55606"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Oil Prices Soar After Drone Attack On Saudi Oilfield",
-      "description": "Oil prices surged on Thursday, approaching a near four-year high reached in May amid renewed concerns over escalating supply risks in the Middle East.",
-      "date": "2026-10-22T09:56:04.237471+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/oil-prices-soar-after-drone-attack-on-saudi-oilfield/55605"
     }
   ]
 }
