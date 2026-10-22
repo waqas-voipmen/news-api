@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-22T02:48:08.768835+00:00",
+  "fetched_at": "2026-10-22T03:18:08.560845+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Asian Markets Trade Mostly Lower",
+      "description": "Asian markets are trading mostly lower on Thursday, despite the broadly positive cues from Wall Street overnight, amid a re-escalation in the Middle East conflict after a deadly attack on a Saudi oil field overnight sent crude oil prices spiking and added to concerns over supply disruptions and global inflationary pressures. Asian markets closed mixed on Wednesday.",
+      "date": "2026-10-22T03:03:08.547717+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/asian-markets-trade-mostly-lower/55586"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/new-zealand-overall-inflation-07-on-quarter-in-q3/55574"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "South Korea Shares May Extend Wednesday's Gains",
-      "description": "The South Korea stock market bounced higher again on Wednesday, one day after ending the two-day winning streak in which it had rallied more than 210 points or 3.6 percent. The KOSPI now sits just above the 5,810-point plateau and it may see additional upside on Thursday.",
-      "date": "2026-10-21T23:04:06.597120+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/south-korea-shares-may-extend-wednesdays-gains/55573"
     }
   ]
 }
