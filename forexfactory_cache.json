@@ -757,7 +757,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-18",
+        "actual_src": "forexfactory"
       },
       {
         "title": "CB Leading Index m/m",
@@ -769,7 +770,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.0%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Natural Gas Storage",
@@ -1085,5 +1087,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-10-22T14:00:28.989702+00:00"
 }
