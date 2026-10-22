@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-22T10:33:04.408719+00:00",
+  "fetched_at": "2026-10-22T10:48:06.463174+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "XAU",
+      "title": "Gold Hits Over Two-week Low As Brent Crude Tops $112 On Supply Concerns",
+      "description": "Gold prices fell over 1 percent to reach their lowest level in more than two weeks on Thursday as investors reacted to escalating Middle East tensions and looked ahead to a series of central bank meetings due next week for direction.",
+      "date": "2026-10-22T10:32:06.457556+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/gold-hits-over-two-week-low-as-brent-crude-tops-112-on-supply-concerns/55607"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/asian-markets-trade-mostly-lower/55586"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "Indian Shares Set To Open Lower As Middle East Hostilities Flare Again",
-      "description": "Indian shares look set to open lower on Thursday as investors react to mixed earnings results from U.S. megacap companies and keep a close eye on rising tensions in the Middle East.",
-      "date": "2026-10-22T02:31:08.757313+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-set-to-open-lower-as-middle-east-hostilities-flare-again/55585"
     }
   ]
 }
