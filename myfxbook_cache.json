@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-22T13:18:04.066481+00:00",
+  "fetched_at": "2026-10-22T13:33:05.881577+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Bay Street Headed For Weak Start",
+      "description": "Lower Canadian and U.S. index futures and weak precious metals prices are likely to weigh on Canadian stocks Thursday morning. Additionally, the sharp rise in oil prices has fueled inflation and interest rate concerns.",
+      "date": "2026-10-22T13:10:05.878057+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/bay-street-headed-for-weak-start/55617"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/oil-prices-soar-after-drone-attack-on-saudi-oilfield/55605"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Yen Rises Amid Risk-off Mood",
-      "description": "The Japanese yen strengthened against other major currencies in the Asian session on Thursday, as Asian stock markets traded lower amid a re-escalation in the Middle East conflict after a deadly attack on a Saudi oil field overnight sent crude oil prices spiking and added to concerns over supply disruptions and global inflationary pressures.",
-      "date": "2026-10-22T09:47:04.276753+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/yen-rises-amid-risk-off-mood/55603"
     }
   ]
 }
