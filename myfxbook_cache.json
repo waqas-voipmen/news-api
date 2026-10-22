@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-22T16:33:04.381381+00:00",
+  "fetched_at": "2026-10-22T16:48:04.818825+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "CAD",
+      "title": "Tech, Commodity Stocks Weakness Hurts Canadian Market",
+      "description": "The Canadian market is down sharply in negative territory a little past noon on Thursday, weighed down by sharp losses in energy, materials and technology sectors. \n\nRising concerns about inflation and possible rate hikes by the Federal Reserve and the Bank of Canada this year, and worries about AI spending contributed to market's decline.",
+      "date": "2026-10-22T16:27:04.814818+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/tech-commodity-stocks-weakness-hurts-canadian-market/55625"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indian-shares-extend-losses-for-third-day/55609"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "CAD",
-      "title": "Canadian Dollar Rises Against Majors",
-      "description": "The Canadian dollar strengthened against other major currencies in the European session on Thursday.",
-      "date": "2026-10-22T10:49:04.215002+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/canadian-dollar-rises-against-majors/55608"
     }
   ]
 }
