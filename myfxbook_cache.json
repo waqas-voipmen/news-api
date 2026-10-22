@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-22T06:03:09.123808+00:00",
+  "fetched_at": "2026-10-22T06:18:09.434631+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "European Shares On Track For Tepid Open As Houthi Attacks Escalate",
+      "description": "European stocks are seen opening lower on Thursday as investors react to mixed earnings results from U.S. megacap companies and fret over rising borrowing costs amid signs the conflict in the Middle East will not be resolved quickly.",
+      "date": "2026-10-22T05:51:09.413877+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-shares-on-track-for-tepid-open-as-houthi-attacks-escalate/55591"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/singapore-stock-market-tipped-to-open-to-the-upside/55577"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Malaysia Stock Market May Tick Higher Again On Thursday",
-      "description": "The Malaysia stock market has finished higher in back-to-back sessions, collecting more than 5 points or 0.3 percent in that span. The Kuala Lumpur Composite Index now sits just above the 1,600-point plateau and it may see mild upside again on Thursday.",
-      "date": "2026-10-21T23:34:04.175362+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/malaysia-stock-market-may-tick-higher-again-on-thursday/55576"
     }
   ]
 }
