@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-22T01:03:03.911933+00:00",
+  "fetched_at": "2026-10-22T01:18:04.295394+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Rebound Expected For China Stock Market",
+      "description": "The China stock market on Wednesday snapped the three-day winning streak in which it had gathered almost 30 points or 0.8 percent. The Shanghai Composite Index now sits just above the 3,710-point plateau although it's likely to bounce higher again on Thursday.",
+      "date": "2026-10-22T01:04:04.291525+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/rebound-expected-for-china-stock-market/55580"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australian Market Notably Lower",
+      "description": "The Australian market is trading notably lower on Thursday, reversing the gains in the previous session, despite the broadly positive cues from Wall Street overnight. The benchmark S&P/ASX 200 is falling below the 8,800 level, with weakness across most sectors led by in mining and energy stocks.",
+      "date": "2026-10-22T01:02:04.291887+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australian-market-notably-lower/55579"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/elon-musk-confirms-talks-for-potential-spacex-tesla-merger/55565"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Bay Street Looks Headed For Positive Start",
-      "description": "The Canadian stock market may open on a positive note on Wednesday with the energy sector set to attract investors thanks to higher crude oil prices. Technology stocks are likely to edge higher, tracking the trend in global markets.",
-      "date": "2026-10-21T12:40:04.467256+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/bay-street-looks-headed-for-positive-start/55563"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "AT&T Shares Drop On Weak Q3 Profit, Despite Positive Outlook",
-      "description": "Telecom giant AT&T, Inc. reported Wednesday sharply lower profit in its third quarter, hurt by an impairment charge as well as the absence of prior year's divestment gain. Revenues, however, increased from last year. Looking ahead, the company raised fiscal 2026 outlook and maintained long-term view. In the pre-market activity on the NYSE, the shares were losing around 5.9 percent.",
-      "date": "2026-10-21T12:36:04.394496+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/att-shares-drop-on-weak-q3-profit-despite-positive-outlook/55562"
     }
   ]
 }
