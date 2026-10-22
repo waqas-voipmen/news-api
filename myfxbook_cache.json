@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-22T02:33:04.835469+00:00",
+  "fetched_at": "2026-10-22T02:48:08.768835+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "Indian Shares Set To Open Lower As Middle East Hostilities Flare Again",
+      "description": "Indian shares look set to open lower on Thursday as investors react to mixed earnings results from U.S. megacap companies and keep a close eye on rising tensions in the Middle East.",
+      "date": "2026-10-22T02:31:08.757313+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-set-to-open-lower-as-middle-east-hostilities-flare-again/55585"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/south-korea-shares-may-extend-wednesdays-gains/55573"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "South Korea Rate Decision On Tap For Thursday",
-      "description": "The Bank of Korea will wrap up its monetary policy meeting on Thursday and then announce its decision on interest rates, highlighting a light day for Asia-Pacific economic activity. The BoK is expected to keep its benchmark unchanged at 3.00 percent.",
-      "date": "2026-10-21T21:31:08.695783+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/south-korea-rate-decision-on-tap-for-thursday/55572"
     }
   ]
 }
