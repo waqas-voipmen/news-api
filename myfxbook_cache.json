@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-22T08:48:04.460666+00:00",
+  "fetched_at": "2026-10-22T09:03:04.886684+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Asian Shares Retreat On AI Cost Concerns, Gulf Tensions",
+      "description": "Asian stocks sank to a three-month low on Thursday, with renewed concerns over the financing and profitability of the artificial intelligence boom as well as escalating tensions in West Asia keeping investors on edge.",
+      "date": "2026-10-22T08:45:04.882394+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/asian-shares-retreat-on-ai-cost-concerns-gulf-tensions/55598"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/rebound-expected-for-china-stock-market/55580"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australian Market Notably Lower",
-      "description": "The Australian market is trading notably lower on Thursday, reversing the gains in the previous session, despite the broadly positive cues from Wall Street overnight. The benchmark S&P/ASX 200 is falling below the 8,800 level, with weakness across most sectors led by in mining and energy stocks.",
-      "date": "2026-10-22T01:02:04.291887+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-market-notably-lower/55579"
     }
   ]
 }
