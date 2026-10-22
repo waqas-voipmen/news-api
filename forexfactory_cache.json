@@ -705,7 +705,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-32",
+        "actual_src": "forexfactory"
       },
       {
         "title": "IPPI m/m",
@@ -1080,5 +1081,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-10-22T10:01:29.430084+00:00"
 }
