@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-22T10:03:04.280408+00:00",
+  "fetched_at": "2026-10-22T10:18:04.241221+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "French Manufacturing Sentiment Highest Since Mid-2022",
+      "description": "French manufacturing confidence rose to its highest level since July 2022 with robust improvement in opinion related to global and foreign order books, survey results from the statistical office INSEE showed Thursday. The manufacturing sentiment index climbed to 105 in October from 101 in the previous month. The score was the highest since July 2022.",
+      "date": "2026-10-22T09:56:04.237093+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/french-manufacturing-sentiment-highest-since-mid-2022/55606"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Oil Prices Soar After Drone Attack On Saudi Oilfield",
+      "description": "Oil prices surged on Thursday, approaching a near four-year high reached in May amid renewed concerns over escalating supply risks in the Middle East.",
+      "date": "2026-10-22T09:56:04.237471+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/oil-prices-soar-after-drone-attack-on-saudi-oilfield/55605"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indian-shares-set-to-open-lower-as-middle-east-hostilities-flare-again/55585"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Thai Shares Stock Market Likely To Open In The Green",
-      "description": "The Thai stock market on Wednesday snapped the three-day losing streak in which it had slipped more than 20 points or 1.4 percent. The Stock Exchange of Thailand now sits just above the 1,555-point plateau and it may tick higher again on Thursday.",
-      "date": "2026-10-22T02:04:04.113891+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/thai-shares-stock-market-likely-to-open-in-the-green/55584"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "High Open Expected For Indonesia Stock Market",
-      "description": "The Indonesia stock market has finished higher in consecutive trading days, adding more than 330 points or 6.5 percent in that span. The Jakarta Composite Index now sits just beneath the 5,330-point plateau and it has a positive lead again for Thursday's trade.",
-      "date": "2026-10-22T01:34:04.458554+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/high-open-expected-for-indonesia-stock-market/55583"
     }
   ]
 }
