@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-22T11:33:04.743089+00:00",
+  "fetched_at": "2026-10-22T11:48:05.311182+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Philippine Central Bank Hikes Key Rates By 50 Bps",
+      "description": "The Philippine central bank lifted its key interest rates by a larger-than-expected 50 basis points on Thursday to curb second-round effects and to anchor inflation expectations. The Monetary Board of the Bangko Sentral ng Pilipinas decided to raise the reverse repurchase rate by 50 basis points to 5.50 percent. Markets were expecting a quarter-point hike.",
+      "date": "2026-10-22T11:31:05.307398+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/philippine-central-bank-hikes-key-rates-by-50-bps/55612"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/yen-rises-against-majors/55593"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Bank Of Korea Keeps Rate On Hold",
-      "description": "The Bank of Korea left its benchmark rate unchanged on Thursday, following two consecutive quarter-point rate hikes and maintained a hawkish stance as inflation is expected to remain above the target level. The seven-member monetary policy board unanimously decided to keep the base rate unchanged at 3.00 percent, as widely expected, on Thursday.",
-      "date": "2026-10-22T06:39:07.946845+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/bank-of-korea-keeps-rate-on-hold/55592"
     }
   ]
 }
