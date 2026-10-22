@@ -783,7 +783,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "77B",
+        "actual_src": "forexfactory"
       },
       {
         "title": "NHPI m/m",
@@ -1086,5 +1087,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-10-22T14:30:16.202797+00:00"
 }
