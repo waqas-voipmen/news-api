@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-22T00:03:03.683525+00:00",
+  "fetched_at": "2026-10-22T00:44:43.793945+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Tech Shares May Extend Taiwan Bourse Rally",
+      "description": "The Taiwan stock market on Wednesday ended the two-day losing streak in which it had given up almost 820 points or 1.7 percent. The Taiwan Stock Exchange now sits just beneath the 46,890-point plateau and it's expected to see continued support on Thursday.",
+      "date": "2026-10-22T00:33:43.784416+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/tech-shares-may-extend-taiwan-bourse-rally/55578"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Singapore Stock Market Tipped To Open To The Upside",
+      "description": "The Singapore stock market on Wednesday ended the two-day losing streak in which it had dipped more than 10 points or 0.2 percent. The STI now sits just above the 5,435-point plateau and it's likely to open in the green again on Thursday.",
+      "date": "2026-10-22T00:03:43.785226+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/singapore-stock-market-tipped-to-open-to-the-upside/55577"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/att-shares-drop-on-weak-q3-profit-despite-positive-outlook/55562"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "GBP",
-      "title": "UK Inflation Rises To 3.5% On Energy Costs; Bolsters Rate Hike Case",
-      "description": "UK consumer price inflation strengthened more than expected in September as the Middle East conflict kept motor fuel prices high, reinforcing expectations for Bank of England rate hike next month. Consumer prices registered an annual growth of 3.5 percent after rising 3.1 percent in August, the Office for National Statistics said Wednesday.",
-      "date": "2026-10-21T12:19:04.854144+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/uk-inflation-rises-to-35-on-energy-costs-bolsters-rate-hike-case/55561"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "FTSE 100 Mixed As UK Inflation Hits One-Year High At 3.5%",
-      "description": "The FTSE 100 traded mixed Wednesday, gaining 0.05% to 10,738.13, digesting crucial economic data. Energy stocks led thanks to higher oil prices. September consumer price inflation reached 3.5%, the highest since October last year, above the 3.4% forecast.",
-      "date": "2026-10-21T11:35:04.767662+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/ftse-100-mixed-as-uk-inflation-hits-one-year-high-at-35/55559"
     }
   ]
 }
