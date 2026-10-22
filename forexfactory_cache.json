@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-22T07:33:10.735703+00:00",
+  "fetched_at": "2026-10-22T07:48:11.286597+00:00",
   "periods": {
     "week": [
       {
@@ -685,15 +685,15 @@
       {
         "title": "Foreign Direct Investment ytd/y",
         "country": "CNY",
-        "date": "2026-10-22T05:10:00-04:00",
+        "date": "2026-10-22T03:41:00-04:00",
         "impact": "Low",
         "forecast": "",
         "previous": "-5.3%",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "time_label": "Tentative",
-        "actual": ""
+        "actual": "-4.3%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "CBI Industrial Order Expectations",
