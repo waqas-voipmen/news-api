@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-22T18:48:06.819100+00:00",
+  "fetched_at": "2026-10-22T19:03:09.890062+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "CHF",
+      "title": "Swiss Market Ends Roughly Flat",
+      "description": "The Switzerland stock market's benchmark index SMI ended slightly down on Thursday after languishing in negative territory for almost the entire trading session. Investors mostly made their moves, reacting to corporate earnings updates.",
+      "date": "2026-10-22T18:39:09.876941+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/swiss-market-ends-roughly-flat/55628"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/canadian-dollar-rises-as-oil-prices-soar/55611"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "DAX Slips Amidst Oil Price Spike, AI Worries",
-      "description": "The DAX benchmark that tracks the performance of the 40 largest companies listed on the Frankfurt Stock Exchange declined on Thursday amidst escalating tensions in the Middle East as well as concerns about elevated AI valuations. The jump in crude oil prices triggered a broader weakness across European markets. weighing on sentiment.",
-      "date": "2026-10-22T11:05:05.003672+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/dax-slips-amidst-oil-price-spike-ai-worries/55610"
     }
   ]
 }
