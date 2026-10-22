@@ -1,6 +1,42 @@
 {
-  "fetched_at": "2026-10-22T01:33:05.686727+00:00",
+  "fetched_at": "2026-10-22T01:48:04.462347+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "High Open Expected For Indonesia Stock Market",
+      "description": "The Indonesia stock market has finished higher in consecutive trading days, adding more than 330 points or 6.5 percent in that span. The Jakarta Composite Index now sits just beneath the 5,330-point plateau and it has a positive lead again for Thursday's trade.",
+      "date": "2026-10-22T01:34:04.458554+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/high-open-expected-for-indonesia-stock-market/55583"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Japanese Market Notably Lower",
+      "description": "The Japanese market is trading notably lower on Thursday, reversing the gains in the previous session, despite the broadly positive cues from Wall Street overnight. The Nikkei 225 is falling to near the 64,300 level, with weakness in index heavyweights, financial and technology stocks.",
+      "date": "2026-10-22T01:25:04.458907+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/japanese-market-notably-lower/55582"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Hong Kong Stock Market Due To End Losing Streak",
+      "description": "The Hong Kong stock market has finished lower in two straight sessions, retreating more than 525 points or 2.4 percent along the way. The Hang Seng now sits just above the 23,650-point plateau although it find traction on Thursday.",
+      "date": "2026-10-22T01:19:04.459170+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/hong-kong-stock-market-due-to-end-losing-streak/55581"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -120,42 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/us-dollar-ends-roughly-flat-as-investors-assess-middle-east-developments/55571"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "CHF",
-      "title": "Swiss Market Ends On Firm Note",
-      "description": "After struggling a bit for support early on in the session, Swiss stocks edged higher and eventually ended on a firm note on Wednesday as investors kept their focus firmly on earnings.",
-      "date": "2026-10-21T18:07:07.773313+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/swiss-market-ends-on-firm-note/55570"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "European Stocks Close On Firm Note As Focus Shifts To Earnings",
-      "description": "European stocks snapped recent losses and closed higher on Wednesday as optimism about corporate earnings helped offset worries about oil prices, and concerns about geopolitical tensions to some extent.",
-      "date": "2026-10-21T17:52:08.396263+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-stocks-close-on-firm-note-as-focus-shifts-to-earnings/55569"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Elon Musk Confirms Talks For Potential SpaceX-Tesla Merger",
-      "description": "Elon Musk, the CEO of both Tesla Inc. and Space Exploration Technologies Corp. or SpaceX, has confirmed the discussion for potential merger of the electric vehicle major and the spaceflight company. During the third-quarter earnings call of SpaceX, a company he founded, Musk called it to be a good idea, adding that the companies have formed special committees to discuss the possible union.",
-      "date": "2026-10-21T13:35:04.331025+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/elon-musk-confirms-talks-for-potential-spacex-tesla-merger/55565"
     }
   ]
 }
