@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-22T04:33:04.138197+00:00",
+  "fetched_at": "2026-10-22T04:48:03.934591+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Indian Shares Open Lower After Attack On Saudi Oilfield",
+      "description": "Indian shares were notably lower in early trade on Thursday as a drone attack on Saudi Aramco's Shaybah oil field as well as another attack on King Fahd International Airport in Dammam, Saudi Arabia, heightened concerns over further disruptions to energy supplies.",
+      "date": "2026-10-22T04:36:03.929823+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-open-lower-after-attack-on-saudi-oilfield/55590"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/malaysia-stock-market-may-tick-higher-again-on-thursday/55576"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Japan Stock Market May See Additional Support",
-      "description": "The Japan stock market on Wednesday halted the two-day slide in which it had tumbled almost 1,300 points or 2 percent. The Nikkei now sits just above the 64,620-point plateau and it may add to its winnings on Thursday.",
-      "date": "2026-10-21T23:19:04.175709+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/japan-stock-market-may-see-additional-support/55575"
     }
   ]
 }
