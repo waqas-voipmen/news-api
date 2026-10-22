@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-22T14:03:04.775944+00:00",
+  "fetched_at": "2026-10-22T14:48:06.544418+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Leading Economic Index Unexpectedly Unchanged In September",
+      "description": "The Conference Board released a report on Thursday showing its reading leading U.S. economic indicators unexpectedly came in flat in the month of September. The report said the leading economic index was unchanged in September after edging down by 0.1 percent in August. Economists had expected the index to dip by 0.2 percent.",
+      "date": "2026-10-22T14:10:06.539819+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-leading-economic-index-unexpectedly-unchanged-in-september/55622"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/gold-hits-over-two-week-low-as-brent-crude-tops-112-on-supply-concerns/55607"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "French Manufacturing Sentiment Highest Since Mid-2022",
-      "description": "French manufacturing confidence rose to its highest level since July 2022 with robust improvement in opinion related to global and foreign order books, survey results from the statistical office INSEE showed Thursday. The manufacturing sentiment index climbed to 105 in October from 101 in the previous month. The score was the highest since July 2022.",
-      "date": "2026-10-22T09:56:04.237093+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/french-manufacturing-sentiment-highest-since-mid-2022/55606"
     }
   ]
 }

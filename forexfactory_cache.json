@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-22T14:33:03.662475+00:00",
+  "fetched_at": "2026-10-22T14:48:13.488472+00:00",
   "periods": {
     "week": [
       {
@@ -748,6 +748,19 @@
         "actual_src": "forexfactory"
       },
       {
+        "title": "NHPI m/m",
+        "country": "CAD",
+        "date": "2026-10-22T09:55:00-04:00",
+        "impact": "Low",
+        "forecast": "-0.1%",
+        "previous": "-0.1%",
+        "source": "ForexFactory",
+        "type": "calendar",
+        "link": null,
+        "actual": "-0.2%",
+        "actual_src": "forexfactory"
+      },
+      {
         "title": "Consumer Confidence",
         "country": "EUR",
         "date": "2026-10-22T10:00:00-04:00",
@@ -785,18 +798,6 @@
         "link": null,
         "actual": "77B",
         "actual_src": "forexfactory"
-      },
-      {
-        "title": "NHPI m/m",
-        "country": "CAD",
-        "date": "2026-10-22T10:59:00-04:00",
-        "impact": "Low",
-        "forecast": "-0.1%",
-        "previous": "-0.1%",
-        "source": "ForexFactory",
-        "type": "calendar",
-        "link": null,
-        "actual": ""
       },
       {
         "title": "Flash Manufacturing PMI",
