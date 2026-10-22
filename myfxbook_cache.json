@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-22T12:33:04.730862+00:00",
+  "fetched_at": "2026-10-22T12:48:04.576592+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Weekly Jobless Claims Unexpectedly Dip To 194,000",
+      "description": "First-time claims for U.S. unemployment benefits unexpectedly declined in the week ended October 17th, according to a report released by the Labor Department on Thursday.",
+      "date": "2026-10-22T12:35:04.569176+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-weekly-jobless-claims-unexpectedly-dip-to-194000/55614"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/europe-car-sales-growth-strengthens-on-ev-momentum-acea/55600"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Asian Shares Retreat On AI Cost Concerns, Gulf Tensions",
-      "description": "Asian stocks sank to a three-month low on Thursday, with renewed concerns over the financing and profitability of the artificial intelligence boom as well as escalating tensions in West Asia keeping investors on edge.",
-      "date": "2026-10-22T08:45:04.882394+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/asian-shares-retreat-on-ai-cost-concerns-gulf-tensions/55598"
     }
   ]
 }
