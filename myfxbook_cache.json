@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-22T15:18:19.187365+00:00",
+  "fetched_at": "2026-10-22T15:33:06.261545+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "EUR",
+      "title": "Eurozone Consumer Confidence Sinks To 5-Month Low Amid Widespread Unrest Against Inflation",
+      "description": "Euro area consumer sentiment eroded at a faster-than-expected pace in October to reach its lowest level in five months as several countries witness public unrest against a host of issues from the rising cost of living to poor education infrastructure.",
+      "date": "2026-10-22T15:19:06.249855+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/eurozone-consumer-confidence-sinks-to-5-month-low-amid-widespread-unrest-against-inflation/55624"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/canadian-dollar-rises-against-majors/55608"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "XAU",
-      "title": "Gold Hits Over Two-week Low As Brent Crude Tops $112 On Supply Concerns",
-      "description": "Gold prices fell over 1 percent to reach their lowest level in more than two weeks on Thursday as investors reacted to escalating Middle East tensions and looked ahead to a series of central bank meetings due next week for direction.",
-      "date": "2026-10-22T10:32:06.457556+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/gold-hits-over-two-week-low-as-brent-crude-tops-112-on-supply-concerns/55607"
     }
   ]
 }
