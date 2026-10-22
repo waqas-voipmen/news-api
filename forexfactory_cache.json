@@ -835,7 +835,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-24",
+        "actual_src": "forexfactory"
       },
       {
         "title": "National Core CPI y/y",
@@ -1090,5 +1091,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-10-22T23:01:33.712801+00:00"
 }
