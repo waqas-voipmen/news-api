@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-22T10:48:06.463174+00:00",
+  "fetched_at": "2026-10-22T11:03:04.219904+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "CAD",
+      "title": "Canadian Dollar Rises Against Majors",
+      "description": "The Canadian dollar strengthened against other major currencies in the European session on Thursday.",
+      "date": "2026-10-22T10:49:04.215002+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/canadian-dollar-rises-against-majors/55608"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/australian-market-maintains-early-losses-in-mid-market/55587"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Asian Markets Trade Mostly Lower",
-      "description": "Asian markets are trading mostly lower on Thursday, despite the broadly positive cues from Wall Street overnight, amid a re-escalation in the Middle East conflict after a deadly attack on a Saudi oil field overnight sent crude oil prices spiking and added to concerns over supply disruptions and global inflationary pressures. Asian markets closed mixed on Wednesday.",
-      "date": "2026-10-22T03:03:08.547717+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/asian-markets-trade-mostly-lower/55586"
     }
   ]
 }
