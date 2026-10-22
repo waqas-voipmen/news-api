@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-22T06:48:06.769693+00:00",
+  "fetched_at": "2026-10-22T07:03:07.956473+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Bank Of Korea Keeps Rate On Hold",
+      "description": "The Bank of Korea left its benchmark rate unchanged on Thursday, following two consecutive quarter-point rate hikes and maintained a hawkish stance as inflation is expected to remain above the target level. The seven-member monetary policy board unanimously decided to keep the base rate unchanged at 3.00 percent, as widely expected, on Thursday.",
+      "date": "2026-10-22T06:39:07.946845+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/bank-of-korea-keeps-rate-on-hold/55592"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/tech-shares-may-extend-taiwan-bourse-rally/55578"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Singapore Stock Market Tipped To Open To The Upside",
-      "description": "The Singapore stock market on Wednesday ended the two-day losing streak in which it had dipped more than 10 points or 0.2 percent. The STI now sits just above the 5,435-point plateau and it's likely to open in the green again on Thursday.",
-      "date": "2026-10-22T00:03:43.785226+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/singapore-stock-market-tipped-to-open-to-the-upside/55577"
     }
   ]
 }
