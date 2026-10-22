@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-22T02:03:03.795756+00:00",
+  "fetched_at": "2026-10-22T02:18:04.117610+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Thai Shares Stock Market Likely To Open In The Green",
+      "description": "The Thai stock market on Wednesday snapped the three-day losing streak in which it had slipped more than 20 points or 1.4 percent. The Stock Exchange of Thailand now sits just above the 1,555-point plateau and it may tick higher again on Thursday.",
+      "date": "2026-10-22T02:04:04.113891+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/thai-shares-stock-market-likely-to-open-in-the-green/55584"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/south-korea-rate-decision-on-tap-for-thursday/55572"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Dollar Ends Roughly Flat As Investors Assess Middle East Developments",
-      "description": "The U.S. Dollar value changed a little on Wednesday as traders adopted a wait-and-watch approach amid conflicting reports on a possible U.S.-Iran peace deal while economists speculated that the U.S. Federal Reserve could hold the interest rates steady in its upcoming October 27-28 meeting.",
-      "date": "2026-10-21T21:01:03.491646+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-dollar-ends-roughly-flat-as-investors-assess-middle-east-developments/55571"
     }
   ]
 }
