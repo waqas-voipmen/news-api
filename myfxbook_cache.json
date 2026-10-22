@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-22T09:48:04.383482+00:00",
+  "fetched_at": "2026-10-22T10:03:04.280408+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Yen Rises Amid Risk-off Mood",
+      "description": "The Japanese yen strengthened against other major currencies in the Asian session on Thursday, as Asian stock markets traded lower amid a re-escalation in the Middle East conflict after a deadly attack on a Saudi oil field overnight sent crude oil prices spiking and added to concerns over supply disruptions and global inflationary pressures.",
+      "date": "2026-10-22T09:47:04.276753+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/yen-rises-amid-risk-off-mood/55603"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "European Shares Decline Amid Earnings Deluge, Debt Jitters",
+      "description": "European stocks were sharply lower on Thursday as investors digested a slew of mixed earnings and fretted over escalating supply risks in the Middle East.",
+      "date": "2026-10-22T09:40:04.277034+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-shares-decline-amid-earnings-deluge-debt-jitters/55601"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/high-open-expected-for-indonesia-stock-market/55583"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Japanese Market Notably Lower",
-      "description": "The Japanese market is trading notably lower on Thursday, reversing the gains in the previous session, despite the broadly positive cues from Wall Street overnight. The Nikkei 225 is falling to near the 64,300 level, with weakness in index heavyweights, financial and technology stocks.",
-      "date": "2026-10-22T01:25:04.458907+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/japanese-market-notably-lower/55582"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Hong Kong Stock Market Due To End Losing Streak",
-      "description": "The Hong Kong stock market has finished lower in two straight sessions, retreating more than 525 points or 2.4 percent along the way. The Hang Seng now sits just above the 23,650-point plateau although it find traction on Thursday.",
-      "date": "2026-10-22T01:19:04.459170+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/hong-kong-stock-market-due-to-end-losing-streak/55581"
     }
   ]
 }
