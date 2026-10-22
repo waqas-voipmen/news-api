@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-22T03:33:07.583559+00:00",
+  "fetched_at": "2026-10-22T03:48:08.451085+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australian Market Maintains Early Losses In Mid-market",
+      "description": "The Australian market is maintaining its early losses in mid-market moves on Thursday after slipping deeper briefly, reversing the gains in the previous session, despite the broadly positive cues from Wall Street overnight. The benchmark S&P/ASX 200 is falling below the 8,800 level, with weakness across most sectors led by in mining and energy stocks.",
+      "date": "2026-10-22T03:26:08.440924+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australian-market-maintains-early-losses-in-mid-market/55587"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/japan-stock-market-may-see-additional-support/55575"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "NZD",
-      "title": "New Zealand Overall Inflation +0.7% On Quarter In Q3",
-      "description": "Overall consumer prices in New Zealand were up 0.7 percent on quarter in the third quarter of 2026, Statistics New Zealand said on Thursday.",
-      "date": "2026-10-21T23:05:06.596423+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/new-zealand-overall-inflation-07-on-quarter-in-q3/55574"
     }
   ]
 }
