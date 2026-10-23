@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-23T08:48:04.120184+00:00",
+  "fetched_at": "2026-10-23T09:03:03.997073+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Asian Shares Mixed In Choppy Trade",
+      "description": "Asian stocks ended mixed on Friday due to concerns over technology valuations and escalating Houthi attacks in Saudi Arabia.",
+      "date": "2026-10-23T08:47:03.993562+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/asian-shares-mixed-in-choppy-trade/55658"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/china-stock-market-tipped-to-open-in-the-red-on-friday/55638"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Taiwan Bourse May Take Further Damage On Friday",
-      "description": "The Taiwan stock market headed south again on Thursday, one day after ending the two-day losing streak in which it had given up almost 820 points or 1.7 percent. The Taiwan Stock Exchange now sits just above the 46,040-point plateau and it figures to see continued consolidation on Friday.",
-      "date": "2026-10-23T00:34:04.033108+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/taiwan-bourse-may-take-further-damage-on-friday/55637"
     }
   ]
 }
