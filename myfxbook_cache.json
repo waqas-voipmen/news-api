@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-23T01:03:04.647484+00:00",
+  "fetched_at": "2026-10-23T01:18:04.495019+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australian Market Modestly Lower",
+      "description": "The Australian stock market is trading modestly lower on Friday, extending the losses in the previous session, following the mixed cues from Wall Street overnight. The benchmark S&P/ASX 200 is falling below the 8,800 level, with weakness in across most sectors led by mining and technology stocks. Financial stocks were the only bright spot.",
+      "date": "2026-10-23T01:08:04.490962+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australian-market-modestly-lower/55639"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "China Stock Market Tipped To Open In The Red On Friday",
+      "description": "The China stock market has finished lower in back-to-back sessions, slumping more than 75 points or 2.1 percent along the way. The Shanghai Composite Index now sits just beneath the 3,660-point plateau and it's looking at another soft start again on Friday.",
+      "date": "2026-10-23T01:04:04.491341+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/china-stock-market-tipped-to-open-in-the-red-on-friday/55638"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/european-equities-fall-on-multiple-headwinds-including-oil-spike/55627"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "CAD",
-      "title": "Tech, Commodity Stocks Weakness Hurts Canadian Market",
-      "description": "The Canadian market is down sharply in negative territory a little past noon on Thursday, weighed down by sharp losses in energy, materials and technology sectors. \n\nRising concerns about inflation and possible rate hikes by the Federal Reserve and the Bank of Canada this year, and worries about AI spending contributed to market's decline.",
-      "date": "2026-10-22T16:27:04.814818+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/tech-commodity-stocks-weakness-hurts-canadian-market/55625"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "EUR",
-      "title": "Eurozone Consumer Confidence Sinks To 5-Month Low Amid Widespread Unrest Against Inflation",
-      "description": "Euro area consumer sentiment eroded at a faster-than-expected pace in October to reach its lowest level in five months as several countries witness public unrest against a host of issues from the rising cost of living to poor education infrastructure.",
-      "date": "2026-10-22T15:19:06.249855+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/eurozone-consumer-confidence-sinks-to-5-month-low-amid-widespread-unrest-against-inflation/55624"
     }
   ]
 }
