@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-23T02:48:04.335092+00:00",
+  "fetched_at": "2026-10-23T03:03:04.482115+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Indian Shares Seen Higher At Open After Recent Losses",
+      "description": "Indian shares are seen opening higher on Friday, with information technology stocks likely to be in the spotlight after the Philadelphia Semiconductor Index plummeted 6.7 percent to its lowest closing level in almost three months overnight following disappointing earnings from Meta Platforms and Tesla, and amid lingering concerns over rising AI-related spending.",
+      "date": "2026-10-23T02:45:04.476377+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-seen-higher-at-open-after-recent-losses/55644"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/australia-manufacturing-pmi-improves-to-497---sp-global/55631"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Japan Inflation Data Due On Friday",
-      "description": "Japan will on Friday release September figures for consumer prices, highlighting a modest day for Asia-Pacific economic activity. In August, overall inflation was up 0.1 percent on month and 1.9 percent on year, while core CPI rose an annual 1.7 percent.",
-      "date": "2026-10-22T22:04:04.663305+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/japan-inflation-data-due-on-friday/55630"
     }
   ]
 }
