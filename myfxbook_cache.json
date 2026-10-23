@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-23T07:03:04.609398+00:00",
+  "fetched_at": "2026-10-23T07:18:04.068021+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "NZD",
+      "title": "NZ Dollar Rises Against Majors",
+      "description": "The New Zealand dollar strengthened against other major currencies in the Asian session on Friday.",
+      "date": "2026-10-23T06:58:04.063957+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/nz-dollar-rises-against-majors/55653"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/singapore-stock-market-may-give-up-support-at-5400-points/55636"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Japan Inflation Climbs 2.1% On Year In September",
-      "description": "Overall consumer prices in Japan were up 2.1 percent on year in September, the Ministry of Internal Affairs and Communications said on Friday - in line with expectations and up from 1.9 percent in August.",
-      "date": "2026-10-22T23:37:36.631214+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/japan-inflation-climbs-21-on-year-in-september/55635"
     }
   ]
 }
