@@ -1056,7 +1056,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "48.0",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Revised UoM Inflation Expectations",
@@ -1068,7 +1069,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "4.7%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Daylight Saving Time Shift",
@@ -1107,5 +1109,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-10-23T14:00:29.616835+00:00"
 }
