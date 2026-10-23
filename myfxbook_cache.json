@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-23T11:18:04.320718+00:00",
+  "fetched_at": "2026-10-23T11:33:04.710314+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "French Benchmark Weakens On Earnings, Economic Contraction",
+      "description": "France's CAC 40 equity benchmark declined 0.67% Friday as investors reacted to disappointing corporate earnings and flash data revealing contraction in the nation's services sector during October. Middle East tensions and elevated oil prices weighed on sentiment.",
+      "date": "2026-10-23T11:19:04.707086+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/french-benchmark-weakens-on-earnings-economic-contraction/55668"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/australian-market-trims-early-losses-in-mid-market/55646"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Asian Markets Trade Mostly Lower",
-      "description": "Asian stock markets are trading mostly lower on Friday, following the mixed cues from Wall Street overnight, on a renewed spike in crude oil prices amid the re-escalation of tensions in the Middle East. Technology and semiconductor stocks also took a hit amid renewed concerns about debt-fueled AI infrastructure spending, with concerns about AI seeming to shift on a daily basis.",
-      "date": "2026-10-23T03:12:04.113091+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/asian-markets-trade-mostly-lower/55645"
     }
   ]
 }
