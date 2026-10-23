@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-23T14:48:06.512205+00:00",
+  "fetched_at": "2026-10-23T15:03:04.584361+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Consumer Sentiment Deteriorates Far Less Than Previously Estimated In October",
+      "description": "The University of Michigan released a report on Friday showing consumer sentiment in the U.S. deteriorated by far less than previously estimated in the month of October. The report said the University of Michigan's consumer sentiment index for October was upwardly revised to 48.0 from a preliminary reading of 46.3.",
+      "date": "2026-10-23T14:49:04.580875+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-consumer-sentiment-deteriorates-far-less-than-previously-estimated-in-october/55674"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/uk-retail-sales-fall-more-than-forecast/55656"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "NZD",
-      "title": "NZ Dollar Rises Against Majors",
-      "description": "The New Zealand dollar strengthened against other major currencies in the Asian session on Friday.",
-      "date": "2026-10-23T06:58:04.063957+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/nz-dollar-rises-against-majors/55653"
     }
   ]
 }
