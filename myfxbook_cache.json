@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-23T18:18:05.111281+00:00",
+  "fetched_at": "2026-10-23T18:33:05.109188+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "CHF",
+      "title": "Swiss Market Ends Moderately Lower",
+      "description": "After edging up a bit at the start, the Swiss market retreated and stayed in negative territory throughout the session on Friday. Worries about inflation and possible monetary tightening by several global central banks rendered the mood cautious.",
+      "date": "2026-10-23T18:15:05.105116+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/swiss-market-ends-moderately-lower/55676"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/european-shares-edge-lower-in-cautious-trade/55661"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Asian Shares Mixed In Choppy Trade",
-      "description": "Asian stocks ended mixed on Friday due to concerns over technology valuations and escalating Houthi attacks in Saudi Arabia.",
-      "date": "2026-10-23T08:47:03.993562+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/asian-shares-mixed-in-choppy-trade/55658"
     }
   ]
 }
