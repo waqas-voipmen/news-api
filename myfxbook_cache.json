@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-23T08:18:04.244323+00:00",
+  "fetched_at": "2026-10-23T08:33:03.935212+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "GBP",
+      "title": "UK Retail Sales Fall More Than Forecast",
+      "description": "UK retail sales declined more than expected in September as warm weather weighed on clothing and supermarket sales, data released by the Office for National Statistics showed on Friday. Retail sales decreased 0.4 percent in September, reversing a rise of 0.7 percent in August and exceeded economists' forecast of a 0.1 percent fall.",
+      "date": "2026-10-23T08:10:03.931648+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/uk-retail-sales-fall-more-than-forecast/55656"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/taiwan-bourse-may-take-further-damage-on-friday/55637"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Singapore Stock Market May Give Up Support At 5,400 Points",
-      "description": "The Singapore stock market turned lower again on Thursday, one day after ending the two-day losing streak in which it had dipped more than 10 points or 0.2 percent. The STI now sits just above the 5,415-point plateau and it's likely to open under water again on Friday.",
-      "date": "2026-10-23T00:04:05.501299+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/singapore-stock-market-may-give-up-support-at-5400-points/55636"
     }
   ]
 }
