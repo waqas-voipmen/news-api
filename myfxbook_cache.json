@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-23T05:48:04.468614+00:00",
+  "fetched_at": "2026-10-23T06:03:04.423265+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "European Shares Set To Extend Losses Amid AI Worries, Mideast Tensions",
+      "description": "European stocks are seen opening lower on Friday after U.S. tech shares sold off overnight on concerns over the faltering global AI trade.",
+      "date": "2026-10-23T05:43:04.418470+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-shares-set-to-extend-losses-amid-ai-worries-mideast-tensions/55648"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/japan-inflation-climbs-21-on-year-in-september/55635"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Rally May Stall For Malaysia Stock Market",
-      "description": "The Malaysia stock market has finished higher in three straight sessions, collecting more than 10 points or 0.6 percent in that span. The Kuala Lumpur Composite Index now sits just beneath the 1,610-point plateau although it may run out of steam on Friday.",
-      "date": "2026-10-22T23:33:36.631539+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/rally-may-stall-for-malaysia-stock-market/55634"
     }
   ]
 }
