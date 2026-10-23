@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-23T12:18:04.682697+00:00",
+  "fetched_at": "2026-10-23T12:33:04.639719+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "EUR",
+      "title": "Eurozone Private Sector Growth At 4-Month Low",
+      "description": "The euro area private sector softened to a four-month low in October as activity in France shifted back into contraction amid tightening financial conditions and rising political pressures, flash purchasing managers' survey data from S&P Global revealed Friday. The composite output index fell to 51.9 in October from 53.1 in the previous month, falling below the economist forecast of 52.7.",
+      "date": "2026-10-23T12:12:04.634602+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/eurozone-private-sector-growth-at-4-month-low/55671"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "FTSE 100 Falls 0.5% On Weak Retail Sales, Consumer Confidence Data",
+      "description": "The FTSE 100 declined 52.73 points to 10,672.32 Friday as weak retail sales, declining consumer confidence, and Middle East tensions offset private sector expansion. Retail sales fell 0.4% in September versus forecasts of 0.1%, while consumer sentiment hit its sharpest pandemic-era drop.",
+      "date": "2026-10-23T12:10:04.635525+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/ftse-100-falls-05-on-weak-retail-sales-consumer-confidence-data/55669"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/european-shares-set-to-extend-losses-amid-ai-worries-mideast-tensions/55648"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Indian Shares Give Up Early Gains",
-      "description": "Indian shares were moving lower on Friday, giving up early gains on concerns over rising oil prices following Houthi strikes on Saudi oil infrastructure and Red Sea ports.",
-      "date": "2026-10-23T04:52:04.398705+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-give-up-early-gains/55647"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australian Market Trims Early Losses In Mid-market",
-      "description": "The Australian stock market is trimming its early losses in mid-market moves on Friday, but extending the losses in the previous session, following the mixed cues from Wall Street overnight. The benchmark S&P/ASX 200 is falling well below the 8,800 level, with weakness in across most sectors led by mining and technology stocks. Financial stocks were the only bright spot.",
-      "date": "2026-10-23T03:27:04.500462+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-market-trims-early-losses-in-mid-market/55646"
     }
   ]
 }
