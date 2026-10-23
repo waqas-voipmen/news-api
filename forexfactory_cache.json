@@ -965,7 +965,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "52.8",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Flash Services PMI",
@@ -977,7 +978,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "53.1",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Core Retail Sales m/m",
@@ -1100,5 +1102,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-10-23T08:30:13.314584+00:00"
 }
