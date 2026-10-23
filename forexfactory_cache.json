@@ -887,7 +887,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "49.3",
+        "actual_src": "forexfactory"
       },
       {
         "title": "French Flash Services PMI",
@@ -899,7 +900,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "48.4",
+        "actual_src": "forexfactory"
       },
       {
         "title": "German Flash Manufacturing PMI",
@@ -1094,5 +1096,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-10-23T07:15:29.656003+00:00"
 }
