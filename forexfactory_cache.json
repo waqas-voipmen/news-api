@@ -991,7 +991,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "1.2%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Retail Sales m/m",
@@ -1003,7 +1004,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "1.2%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Belgian NBB Business Climate",
@@ -1102,5 +1104,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-10-23T12:30:13.000975+00:00"
 }
