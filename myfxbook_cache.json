@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-23T03:18:04.783094+00:00",
+  "fetched_at": "2026-10-23T03:33:04.117092+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Asian Markets Trade Mostly Lower",
+      "description": "Asian stock markets are trading mostly lower on Friday, following the mixed cues from Wall Street overnight, on a renewed spike in crude oil prices amid the re-escalation of tensions in the Middle East. Technology and semiconductor stocks also took a hit amid renewed concerns about debt-fueled AI infrastructure spending, with concerns about AI seeming to shift on a daily basis.",
+      "date": "2026-10-23T03:12:04.113091+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/asian-markets-trade-mostly-lower/55645"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/tech-shares-likely-to-weigh-on-south-korea-shares/55632"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australia Manufacturing PMI Improves To 49.7 - S&P Global",
-      "description": "The manufacturing sector in Australia continued to contract in October, albeit at a slightly slower pace, the latest survey from S&P Global revealed on Friday with a manufacturing PMI score of 49.7.",
-      "date": "2026-10-22T22:38:06.798019+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australia-manufacturing-pmi-improves-to-497---sp-global/55631"
     }
   ]
 }
