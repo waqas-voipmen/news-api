@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-23T12:33:04.639719+00:00",
+  "fetched_at": "2026-10-23T12:48:04.086719+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Bay Street Look Headed For Weak Start",
+      "description": "Canadian stocks are likely to open on a weak note on Friday amid concerns about inflation and prospects of interest rate hikes by the Canadian and U.S. central banks. Oil prices are up sharply, while precious metals are notably lower.\n\nCanadian retail sales data, and quarterly earnings updates, as well as U.S. PMI reports are set to make a notable impact on price movements.",
+      "date": "2026-10-23T12:30:04.083320+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/bay-street-look-headed-for-weak-start/55672"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/nz-dollar-rises-against-majors/55653"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "European Shares Set To Extend Losses Amid AI Worries, Mideast Tensions",
-      "description": "European stocks are seen opening lower on Friday after U.S. tech shares sold off overnight on concerns over the faltering global AI trade.",
-      "date": "2026-10-23T05:43:04.418470+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-shares-set-to-extend-losses-amid-ai-worries-mideast-tensions/55648"
     }
   ]
 }
