@@ -1017,7 +1017,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-9.8",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Flash Manufacturing PMI",
@@ -1104,5 +1105,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-10-23T13:00:15.344283+00:00"
 }
