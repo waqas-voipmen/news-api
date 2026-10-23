@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-23T09:48:04.119037+00:00",
+  "fetched_at": "2026-10-23T10:03:04.598330+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "European Shares Edge Lower In Cautious Trade",
+      "description": "European stocks traded lower on Friday and headed for a weekly loss amid renewed concerns about France's finances, continued Houthi attacks in Saudi Arabia, and doubts over whether hyperscalers' massive AI investments will yield adequate returns.",
+      "date": "2026-10-23T09:33:04.594215+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-shares-edge-lower-in-cautious-trade/55661"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/australian-market-modestly-lower/55639"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "China Stock Market Tipped To Open In The Red On Friday",
-      "description": "The China stock market has finished lower in back-to-back sessions, slumping more than 75 points or 2.1 percent along the way. The Shanghai Composite Index now sits just beneath the 3,660-point plateau and it's looking at another soft start again on Friday.",
-      "date": "2026-10-23T01:04:04.491341+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/china-stock-market-tipped-to-open-in-the-red-on-friday/55638"
     }
   ]
 }
