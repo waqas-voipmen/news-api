@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-22T23:18:28.601929+00:00",
+  "fetched_at": "2026-10-23T00:01:43.698305+00:00",
   "periods": {
     "week": [
       {
@@ -848,7 +848,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "2.1%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Flash Manufacturing PMI",
