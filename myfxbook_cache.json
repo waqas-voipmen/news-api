@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-23T10:18:04.902857+00:00",
+  "fetched_at": "2026-10-23T10:33:04.187395+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "NZD",
+      "title": "NZ Dollar Rises Amid RBNZ Rate Hike Prospects",
+      "description": "The New Zealand dollar strengthened against other major currencies in the Asian session on Friday, amid growing expectations of a Reserve Bank of New Zealand (RBNZ) rate hike in the upcoming monetary policy meetings.",
+      "date": "2026-10-23T10:05:04.183928+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/nz-dollar-rises-amid-rbnz-rate-hike-prospects/55663"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indonesia-stock-market-resistance-expected-at-5400-points/55641"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Lower Open Predicted For Hong Kong Stock Market",
-      "description": "The Hong Kong stock market has finished lower in three straight sessions, retreating more than 1,450 points or 4.3 percent along the way. The Hang Seng now sits just above the 22,930-point plateau and it's got another poor lead for Friday's trade.",
-      "date": "2026-10-23T01:19:04.218879+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/lower-open-predicted-for-hong-kong-stock-market/55640"
     }
   ]
 }
