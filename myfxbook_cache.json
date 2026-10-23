@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-23T18:48:04.971056+00:00",
+  "fetched_at": "2026-10-23T19:03:06.076907+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Canadian Market Remains Weak Despite Coming Off Early Lows",
+      "description": "The Canadian stock market's benchmark S&P/TSX Composite Index remains firmly down in negative territory Friday afternoon despite regaining a significant portion of the ground it lost in early trades. \n\nConcerns about inflation and prospects of interest rate hikes amid elevated oil prices following the latest Houthi attacks on Saudi targets weigh on sentiment.",
+      "date": "2026-10-23T18:44:05.995128+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/canadian-market-remains-weak-despite-coming-off-early-lows/55677"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/oil-headed-for-third-weekly-gain/55662"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "European Shares Edge Lower In Cautious Trade",
-      "description": "European stocks traded lower on Friday and headed for a weekly loss amid renewed concerns about France's finances, continued Houthi attacks in Saudi Arabia, and doubts over whether hyperscalers' massive AI investments will yield adequate returns.",
-      "date": "2026-10-23T09:33:04.594215+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-shares-edge-lower-in-cautious-trade/55661"
     }
   ]
 }
