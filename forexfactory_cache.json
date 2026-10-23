@@ -1030,7 +1030,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "56.0",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Flash Services PMI",
@@ -1042,7 +1043,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "57.9",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Revised UoM Consumer Sentiment",
@@ -1105,5 +1107,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-10-23T13:45:29.890036+00:00"
 }
