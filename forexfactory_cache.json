@@ -861,7 +861,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "53.3",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Retail Sales m/m",
@@ -1092,5 +1093,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-10-23T00:31:29.250699+00:00"
 }
