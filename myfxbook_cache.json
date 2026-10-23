@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-23T01:33:04.223543+00:00",
+  "fetched_at": "2026-10-23T01:48:04.455537+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Indonesia Stock Market: Resistance Expected At 5,400 Points",
+      "description": "The Indonesia stock market has finished higher in three straight sessions, adding more than 390 points or 7.6 percent in that span. The Jakarta Composite Index now sits just beneath the 5,390-point plateau although the rally may stall on Friday.",
+      "date": "2026-10-23T01:34:04.451729+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indonesia-stock-market-resistance-expected-at-5400-points/55641"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/us-dollar-slips-as-bets-on-federal-reserve-rate-hike-decline/55629"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "CHF",
-      "title": "Swiss Market Ends Roughly Flat",
-      "description": "The Switzerland stock market's benchmark index SMI ended slightly down on Thursday after languishing in negative territory for almost the entire trading session. Investors mostly made their moves, reacting to corporate earnings updates.",
-      "date": "2026-10-22T18:39:09.876941+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/swiss-market-ends-roughly-flat/55628"
     }
   ]
 }
