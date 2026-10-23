@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-23T01:48:04.455537+00:00",
+  "fetched_at": "2026-10-23T02:03:04.997360+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Japanese Market Sharply Lower",
+      "description": "The Japanese market is trading sharply lower on Friday, extending the losses in the previous session, following the mixed cues from Wall Street overnight. The Nikkei 225 is falling below the 61,950 level, with weakness in across most sectors led by technology and financial stocks.",
+      "date": "2026-10-23T01:39:04.991838+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/japanese-market-sharply-lower/55642"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/japan-inflation-data-due-on-friday/55630"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Dollar Slips As Bets On Federal Reserve Rate Hike Decline",
-      "description": "The U.S. Dollar value turned lower on Thursday amid reversal in the U.S. Federal Reserve's rate hike expectations from yesterday's 14% to nearly 7%. The shift overshadowed the safe-haven demand tied to concerns over high inflation that surfaced after New York Times reported possible fresh attacks on Iran by the U.S. in November.",
-      "date": "2026-10-22T21:01:04.594403+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-dollar-slips-as-bets-on-federal-reserve-rate-hike-decline/55629"
     }
   ]
 }
