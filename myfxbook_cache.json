@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-23T05:03:04.785322+00:00",
+  "fetched_at": "2026-10-23T05:18:04.403534+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Indian Shares Give Up Early Gains",
+      "description": "Indian shares were moving lower on Friday, giving up early gains on concerns over rising oil prices following Houthi strikes on Saudi oil infrastructure and Red Sea ports.",
+      "date": "2026-10-23T04:52:04.398705+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-give-up-early-gains/55647"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/rally-may-stall-for-malaysia-stock-market/55634"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Japan Stock Market May Extend Thursday's Losses",
-      "description": "The Japan stock market headed south again on Thursday, one day after ending the two-day slide in which it had tumbled almost 1,300 points or 2 percent. The Nikkei now sits just above the 62,900-point plateau and it may take further damage again on Friday.",
-      "date": "2026-10-22T23:18:36.631822+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/japan-stock-market-may-extend-thursdays-losses/55633"
     }
   ]
 }
