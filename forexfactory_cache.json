@@ -913,7 +913,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "54.2",
+        "actual_src": "forexfactory"
       },
       {
         "title": "German Flash Services PMI",
@@ -925,7 +926,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "51.7",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Flash Manufacturing PMI",
@@ -1096,5 +1098,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-10-23T07:30:29.803522+00:00"
 }
