@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-23T00:33:03.860775+00:00",
+  "fetched_at": "2026-10-23T00:48:04.037945+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Taiwan Bourse May Take Further Damage On Friday",
+      "description": "The Taiwan stock market headed south again on Thursday, one day after ending the two-day losing streak in which it had given up almost 820 points or 1.7 percent. The Taiwan Stock Exchange now sits just above the 46,040-point plateau and it figures to see continued consolidation on Friday.",
+      "date": "2026-10-23T00:34:04.033108+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/taiwan-bourse-may-take-further-damage-on-friday/55637"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/eurozone-consumer-confidence-sinks-to-5-month-low-amid-widespread-unrest-against-inflation/55624"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Leading Economic Index Unexpectedly Unchanged In September",
-      "description": "The Conference Board released a report on Thursday showing its reading leading U.S. economic indicators unexpectedly came in flat in the month of September. The report said the leading economic index was unchanged in September after edging down by 0.1 percent in August. Economists had expected the index to dip by 0.2 percent.",
-      "date": "2026-10-22T14:10:06.539819+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-leading-economic-index-unexpectedly-unchanged-in-september/55622"
     }
   ]
 }
