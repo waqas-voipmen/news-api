@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-23T10:03:04.598330+00:00",
+  "fetched_at": "2026-10-23T10:18:04.902857+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Oil Headed For Third Weekly Gain",
+      "description": "Oil prices surged to a five-month high on Friday amid concerns over further disruption to energy supplies following Houthi strikes on Saudi oil infrastructure and Red Sea ports.",
+      "date": "2026-10-23T10:01:04.899230+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/oil-headed-for-third-weekly-gain/55662"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/lower-open-predicted-for-hong-kong-stock-market/55640"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australian Market Modestly Lower",
-      "description": "The Australian stock market is trading modestly lower on Friday, extending the losses in the previous session, following the mixed cues from Wall Street overnight. The benchmark S&P/ASX 200 is falling below the 8,800 level, with weakness in across most sectors led by mining and technology stocks. Financial stocks were the only bright spot.",
-      "date": "2026-10-23T01:08:04.490962+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-market-modestly-lower/55639"
     }
   ]
 }
