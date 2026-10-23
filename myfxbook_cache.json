@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-23T21:18:04.554055+00:00",
+  "fetched_at": "2026-10-23T21:33:04.101991+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "U.S. Dollar Advances As Concerns Of Rate Hike Due To Possible Higher Inflation Increase",
+      "description": "The U.S. Dollar value edged higher on Friday as crude oil prices continued to surge for the second day supported by concerns of a potential U.S.-Iran war. Oil-driven inflation worries have led to expectations of an interest rate hike in the U.S.",
+      "date": "2026-10-23T21:01:04.098449+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-dollar-advances-as-concerns-of-rate-hike-due-to-possible-higher-inflation-increase/55678"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/nz-dollar-rises-amid-rbnz-rate-hike-prospects/55663"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Oil Headed For Third Weekly Gain",
-      "description": "Oil prices surged to a five-month high on Friday amid concerns over further disruption to energy supplies following Houthi strikes on Saudi oil infrastructure and Red Sea ports.",
-      "date": "2026-10-23T10:01:04.899230+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/oil-headed-for-third-weekly-gain/55662"
     }
   ]
 }
