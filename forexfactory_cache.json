@@ -874,7 +874,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-0.4%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "French Flash Manufacturing PMI",
@@ -1093,5 +1094,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-10-23T06:00:28.850630+00:00"
 }
