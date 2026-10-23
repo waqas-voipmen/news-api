@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-23T07:18:11.265511+00:00",
+  "fetched_at": "2026-10-23T07:33:11.616688+00:00",
   "periods": {
     "week": [
       {
@@ -939,7 +939,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "54.2",
+        "actual_src": "fxstreet"
       },
       {
         "title": "Flash Services PMI",
@@ -951,7 +952,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "51.7",
+        "actual_src": "fxstreet"
       },
       {
         "title": "Flash Manufacturing PMI",
@@ -1098,6 +1100,5 @@
         "actual": ""
       }
     ]
-  },
-  "actuals_at": "2026-10-23T07:30:29.803522+00:00"
+  }
 }
