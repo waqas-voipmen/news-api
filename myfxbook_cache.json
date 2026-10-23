@@ -1,6 +1,42 @@
 {
-  "fetched_at": "2026-10-23T10:48:04.205621+00:00",
+  "fetched_at": "2026-10-23T11:03:04.688456+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Indian Shares Extend Losses For Fourth Day",
+      "description": "Indian shares gave up early gains to end lower on Friday, extending losses for a fourth consecutive session due to concerns over rising oil prices and expectations of higher-for-longer interest rates.",
+      "date": "2026-10-23T10:48:04.685189+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-extend-losses-for-fourth-day/55667"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "DAX Down Nearly 1% As Middle East Tensions, AI Concerns Weigh On Stocks",
+      "description": "German stocks declined Friday as Houthi attacks in Saudi Arabia and uncertainty surrounding AI investment returns weighed on sentiment. The DAX fell 237.50 points to 25,134.25. Manufacturing PMI rose to 54.2, beating expectations, while services PMI fell to 51.7.",
+      "date": "2026-10-23T10:32:04.685462+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/dax-down-nearly-1-as-middle-east-tensions-ai-concerns-weigh-on-stocks/55666"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "XAU",
+      "title": "Gold Headed For Steep Weekly Loss On Oil-driven Inflation Concerns",
+      "description": "Gold held steady on Friday but headed for its steepest weekly loss in over four months as a result of rising oil prices and higher-for-longer interest rate expectations.",
+      "date": "2026-10-23T10:31:04.685763+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/gold-headed-for-steep-weekly-loss-on-oil-driven-inflation-concerns/55665"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -120,42 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/asian-markets-trade-mostly-lower/55645"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Indian Shares Seen Higher At Open After Recent Losses",
-      "description": "Indian shares are seen opening higher on Friday, with information technology stocks likely to be in the spotlight after the Philadelphia Semiconductor Index plummeted 6.7 percent to its lowest closing level in almost three months overnight following disappointing earnings from Meta Platforms and Tesla, and amid lingering concerns over rising AI-related spending.",
-      "date": "2026-10-23T02:45:04.476377+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-seen-higher-at-open-after-recent-losses/55644"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Japanese Market Sharply Lower",
-      "description": "The Japanese market is trading sharply lower on Friday, extending the losses in the previous session, following the mixed cues from Wall Street overnight. The Nikkei 225 is falling below the 61,950 level, with weakness in across most sectors led by technology and financial stocks.",
-      "date": "2026-10-23T01:39:04.991838+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/japanese-market-sharply-lower/55642"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Indonesia Stock Market: Resistance Expected At 5,400 Points",
-      "description": "The Indonesia stock market has finished higher in three straight sessions, adding more than 390 points or 7.6 percent in that span. The Jakarta Composite Index now sits just beneath the 5,390-point plateau although the rally may stall on Friday.",
-      "date": "2026-10-23T01:34:04.451729+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indonesia-stock-market-resistance-expected-at-5400-points/55641"
     }
   ]
 }
