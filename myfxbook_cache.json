@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-23T18:03:04.560083+00:00",
+  "fetched_at": "2026-10-23T18:18:05.111281+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "European Stocks Close Lower On Earnings, Weak Economic Data",
+      "description": "The major European markets closed lower on Friday as largely weak regional PMI data, and concerns about inflation and monetary tightening amid continued rise in oil prices hurt sentiment. France's debt woes and uncertainty about returns on AI-related investments weighed as well.",
+      "date": "2026-10-23T17:53:05.102183+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-stocks-close-lower-on-earnings-weak-economic-data/55675"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/asian-shares-mixed-in-choppy-trade/55658"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "GBP",
-      "title": "UK Retail Sales Fall More Than Forecast",
-      "description": "UK retail sales declined more than expected in September as warm weather weighed on clothing and supermarket sales, data released by the Office for National Statistics showed on Friday. Retail sales decreased 0.4 percent in September, reversing a rise of 0.7 percent in August and exceeded economists' forecast of a 0.1 percent fall.",
-      "date": "2026-10-23T08:10:03.931648+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/uk-retail-sales-fall-more-than-forecast/55656"
     }
   ]
 }
