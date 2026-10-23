@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-23T03:33:04.117092+00:00",
+  "fetched_at": "2026-10-23T03:48:04.504235+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australian Market Trims Early Losses In Mid-market",
+      "description": "The Australian stock market is trimming its early losses in mid-market moves on Friday, but extending the losses in the previous session, following the mixed cues from Wall Street overnight. The benchmark S&P/ASX 200 is falling well below the 8,800 level, with weakness in across most sectors led by mining and technology stocks. Financial stocks were the only bright spot.",
+      "date": "2026-10-23T03:27:04.500462+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australian-market-trims-early-losses-in-mid-market/55646"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/japan-stock-market-may-extend-thursdays-losses/55633"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Tech Shares Likely To Weigh On South Korea Shares",
-      "description": "The South Korea stock market has finished lower in two of three trading days since the end of the two-day winning streak in which it had rallied more than 210 points or 3.6 percent. The KOSPI now sits just above the 5,740-point plateau and it may extend its losses on Friday.",
-      "date": "2026-10-22T23:03:11.769480+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/tech-shares-likely-to-weigh-on-south-korea-shares/55632"
     }
   ]
 }
