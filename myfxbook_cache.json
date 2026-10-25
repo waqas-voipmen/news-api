@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-25T22:03:04.553382+00:00",
+  "fetched_at": "2026-10-25T22:18:04.814574+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Japan Leading Index Data Due On Monday",
+      "description": "Japan will on Monday see August results for its leading and coincident indexes, highlighting a light day for Asia-Pacific economic activity. The leading index is expected to add 0.4 percent on month, slowing from 1.5 percent in July. The coincident is tipped to fall 1.9 percent after rising 1.7 percent in the previous month.",
+      "date": "2026-10-25T22:03:04.806401+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/japan-leading-index-data-due-on-monday/55680"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/gold-headed-for-steep-weekly-loss-on-oil-driven-inflation-concerns/55665"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "NZD",
-      "title": "NZ Dollar Rises Amid RBNZ Rate Hike Prospects",
-      "description": "The New Zealand dollar strengthened against other major currencies in the Asian session on Friday, amid growing expectations of a Reserve Bank of New Zealand (RBNZ) rate hike in the upcoming monetary policy meetings.",
-      "date": "2026-10-23T10:05:04.183928+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/nz-dollar-rises-amid-rbnz-rate-hike-prospects/55663"
     }
   ]
 }
