@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-25T23:33:04.873611+00:00",
+  "fetched_at": "2026-10-25T23:48:04.403068+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Malaysia Stock Market May Spin Its Wheels On Monday",
+      "description": "The Malaysia stock market has finished higher in four straight sessions, collecting almost 15 points or 0.9 percent in that span. The Kuala Lumpur Composite Index now sits just above the 1,610-point plateau although it may run out of steam on Monday.",
+      "date": "2026-10-25T23:33:04.398072+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/malaysia-stock-market-may-spin-its-wheels-on-monday/55683"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Losing Streak May Continue For Japan Stock Market",
+      "description": "The Japan stock market has moved lower in back-to-back sessions, sinking almost 950 points or 1.4 percent along the way. The Nikkei now sits just above the 62,690-point plateau and it may take further damage again on Friday.",
+      "date": "2026-10-25T23:18:04.398420+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/losing-streak-may-continue-for-japan-stock-market/55682"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/french-benchmark-weakens-on-earnings-economic-contraction/55668"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Indian Shares Extend Losses For Fourth Day",
-      "description": "Indian shares gave up early gains to end lower on Friday, extending losses for a fourth consecutive session due to concerns over rising oil prices and expectations of higher-for-longer interest rates.",
-      "date": "2026-10-23T10:48:04.685189+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-extend-losses-for-fourth-day/55667"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "DAX Down Nearly 1% As Middle East Tensions, AI Concerns Weigh On Stocks",
-      "description": "German stocks declined Friday as Houthi attacks in Saudi Arabia and uncertainty surrounding AI investment returns weighed on sentiment. The DAX fell 237.50 points to 25,134.25. Manufacturing PMI rose to 54.2, beating expectations, while services PMI fell to 51.7.",
-      "date": "2026-10-23T10:32:04.685462+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/dax-down-nearly-1-as-middle-east-tensions-ai-concerns-weigh-on-stocks/55666"
     }
   ]
 }
