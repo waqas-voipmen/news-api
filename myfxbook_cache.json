@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-25T23:03:05.331300+00:00",
+  "fetched_at": "2026-10-25T23:18:04.693274+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "South Korea Shares May Hand Back Friday's Gains",
+      "description": "The South Korea stock market has alternated between positive and negative finishes through the last four trading days since the end of the two-day winning streak in which it had rallied more than 210 points or 3.6 percent. The KOSPI now sits just above the 5,550-point plateau although it may head south again on Monday.",
+      "date": "2026-10-25T23:03:04.689264+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/south-korea-shares-may-hand-back-fridays-gains/55681"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/dax-down-nearly-1-as-middle-east-tensions-ai-concerns-weigh-on-stocks/55666"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "XAU",
-      "title": "Gold Headed For Steep Weekly Loss On Oil-driven Inflation Concerns",
-      "description": "Gold held steady on Friday but headed for its steepest weekly loss in over four months as a result of rising oil prices and higher-for-longer interest rate expectations.",
-      "date": "2026-10-23T10:31:04.685763+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/gold-headed-for-steep-weekly-loss-on-oil-driven-inflation-concerns/55665"
     }
   ]
 }
