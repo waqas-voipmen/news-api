@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-26T18:03:04.564762+00:00",
+  "fetched_at": "2026-10-26T18:18:06.424528+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "CHF",
+      "title": "Swiss Market Ends On Firm Note",
+      "description": "Save for a very brief while at the start, the Switzerland market's benchmark index SMI stayed positive throughout the session on Monday thanks to easing inflation concerns and optimism about corporate earnings.",
+      "date": "2026-10-26T18:01:06.403723+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/swiss-market-ends-on-firm-note/55732"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/gold-edges-higher-as-oil-prices-retreat-after-nearing-six-month-highs/55711"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Oil Prices Retreat From Near Six-month Highs On Hopes For Diplomacy",
-      "description": "Oil prices fell more than 2 percent on Monday after reports of diplomatic efforts to reduce regional tensions in West Asia.",
-      "date": "2026-10-26T09:43:04.137556+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/oil-prices-retreat-from-near-six-month-highs-on-hopes-for-diplomacy/55710"
     }
   ]
 }
