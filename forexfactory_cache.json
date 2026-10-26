@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-26T15:33:23.173234+00:00",
+  "fetched_at": "2026-10-26T15:48:22.849456+00:00",
   "periods": {
     "week": [
       {
@@ -680,6 +680,18 @@
         "actual": ""
       },
       {
+        "title": "Gov Council Member Gravelle Speaks",
+        "country": "CAD",
+        "date": "2026-10-29T08:50:00-04:00",
+        "impact": "Low",
+        "forecast": "",
+        "previous": "",
+        "source": "ForexFactory",
+        "type": "calendar",
+        "link": null,
+        "actual": ""
+      },
+      {
         "title": "Main Refinancing Rate",
         "country": "EUR",
         "date": "2026-10-29T09:15:00-04:00",
@@ -730,7 +742,7 @@
       {
         "title": "Gov Council Member Vincent Speaks",
         "country": "CAD",
-        "date": "2026-10-29T11:59:00-04:00",
+        "date": "2026-10-29T11:30:00-04:00",
         "impact": "Low",
         "forecast": "",
         "previous": "",
