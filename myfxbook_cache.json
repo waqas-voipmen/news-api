@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-26T09:33:03.650601+00:00",
+  "fetched_at": "2026-10-26T09:48:04.068831+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "European Shares Rise As Oil Prices Retreat From Near Six-month Highs",
+      "description": "European stocks were modestly higher on Monday as easing oil prices provided some relief and investors looked forward to a slew of central bank meetings as well key tech earnings for directional cues.",
+      "date": "2026-10-26T09:21:04.064914+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-shares-rise-as-oil-prices-retreat-from-near-six-month-highs/55708"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/soft-start-tipped-for-hong-kong-stock-market/55686"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Renewed Consolidation Predicted For China Stock Market",
-      "description": "The China stock market on Friday snapped the two-day slide in which it had dropped more than 75 points or 2.1 percent. The Shanghai Composite Index now sits just above the 3,690-point plateau although it's looking at a soft start on Monday.",
-      "date": "2026-10-26T00:33:04.471196+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/renewed-consolidation-predicted-for-china-stock-market/55685"
     }
   ]
 }
