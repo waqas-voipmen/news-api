@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-26T12:48:03.683798+00:00",
+  "fetched_at": "2026-10-26T13:03:05.492865+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "Dollar Index Edged Down Last Week",
+      "description": "The U.S. Dollar retreated and the Dollar Index edged down during the week ended October 23 that witnessed renewed AI jitters and geopolitical tensions. Expectations of a monetary policy pause by the Federal Reserve kept the Dollar Index subdued. The debt-market-turmoil in Fance also weighed on currency market sentiment.",
+      "date": "2026-10-26T12:44:05.488567+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/dollar-index-edged-down-last-week/55723"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/european-shares-seen-higher-at-open-as-oil-prices-retreat/55695"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Indian Shares Open Lower In Cautious Trade",
-      "description": "Indian shares were moving lower in early trade on Monday amid renewed concerns over elevated oil prices and caution ahead of the U.S. Federal Reserve's interest-rate decision, due later in the week.",
-      "date": "2026-10-26T04:24:04.404845+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-open-lower-in-cautious-trade/55694"
     }
   ]
 }
