@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-26T00:03:04.715737+00:00",
+  "fetched_at": "2026-10-26T00:18:05.187892+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Singapore Stock Market Expected To Remain Rangebound",
+      "description": "The Singapore stock market has opened higher in two of three trading days since the end of the two-day losing streak in which it had dipped more than 10 points or 0.2 percent. The STI now sits just above the 5,420-point plateau although it's likely to open under water on Monday.",
+      "date": "2026-10-26T00:03:05.184051+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/singapore-stock-market-expected-to-remain-rangebound/55684"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/ftse-100-falls-05-on-weak-retail-sales-consumer-confidence-data/55669"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "French Benchmark Weakens On Earnings, Economic Contraction",
-      "description": "France's CAC 40 equity benchmark declined 0.67% Friday as investors reacted to disappointing corporate earnings and flash data revealing contraction in the nation's services sector during October. Middle East tensions and elevated oil prices weighed on sentiment.",
-      "date": "2026-10-23T11:19:04.707086+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/french-benchmark-weakens-on-earnings-economic-contraction/55668"
     }
   ]
 }
