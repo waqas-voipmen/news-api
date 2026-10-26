@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-26T07:48:06.251246+00:00",
+  "fetched_at": "2026-10-26T09:03:06.544912+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "Asian Shares Mixed Ahead Of Central Bank Meetings, Tech Earnings",
+      "description": "Asian stocks ended mixed on Monday due to renewed tensions in the Middle East and ahead of earnings from major U.S. technology companies due this week.",
+      "date": "2026-10-26T08:42:06.523989+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/asian-shares-mixed-ahead-of-central-bank-meetings-tech-earnings/55705"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/singapore-stock-market-expected-to-remain-rangebound/55684"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Malaysia Stock Market May Spin Its Wheels On Monday",
-      "description": "The Malaysia stock market has finished higher in four straight sessions, collecting almost 15 points or 0.9 percent in that span. The Kuala Lumpur Composite Index now sits just above the 1,610-point plateau although it may run out of steam on Monday.",
-      "date": "2026-10-25T23:33:04.398072+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/malaysia-stock-market-may-spin-its-wheels-on-monday/55683"
     }
   ]
 }
