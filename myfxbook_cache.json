@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-26T04:03:04.328587+00:00",
+  "fetched_at": "2026-10-26T06:18:04.408216+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "European Shares Seen Higher At Open As Oil Prices Retreat",
+      "description": "European stocks are seen opening broadly higher on Monday as oil prices retreated and focus shifted to several key central bank decisions, including the U.S. Federal Reserve's latest monetary policy meeting later in the week.",
+      "date": "2026-10-26T05:32:04.404544+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-shares-seen-higher-at-open-as-oil-prices-retreat/55695"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Indian Shares Open Lower In Cautious Trade",
+      "description": "Indian shares were moving lower in early trade on Monday amid renewed concerns over elevated oil prices and caution ahead of the U.S. Federal Reserve's interest-rate decision, due later in the week.",
+      "date": "2026-10-26T04:24:04.404845+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-open-lower-in-cautious-trade/55694"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/malaysia-stock-market-may-spin-its-wheels-on-monday/55683"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Losing Streak May Continue For Japan Stock Market",
-      "description": "The Japan stock market has moved lower in back-to-back sessions, sinking almost 950 points or 1.4 percent along the way. The Nikkei now sits just above the 62,690-point plateau and it may take further damage again on Friday.",
-      "date": "2026-10-25T23:18:04.398420+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/losing-streak-may-continue-for-japan-stock-market/55682"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "South Korea Shares May Hand Back Friday's Gains",
-      "description": "The South Korea stock market has alternated between positive and negative finishes through the last four trading days since the end of the two-day winning streak in which it had rallied more than 210 points or 3.6 percent. The KOSPI now sits just above the 5,550-point plateau although it may head south again on Monday.",
-      "date": "2026-10-25T23:03:04.689264+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/south-korea-shares-may-hand-back-fridays-gains/55681"
     }
   ]
 }
