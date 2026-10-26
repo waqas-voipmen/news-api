@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-26T03:33:04.605964+00:00",
+  "fetched_at": "2026-10-26T03:48:03.652782+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australian Market Swings To Slight Gains In Mid-market",
+      "description": "The Australian stock market is swinging its slight gains in mid-market trading on Monday after opening in the red, extending the slight gains in the previous session, following the broadly negative cues from Wall Street on Friday. The benchmark S&P/ASX 200 index is moving above the 8,800.00 level, with gains in mining and technology stocks partially offset by weakness in financial stocks.",
+      "date": "2026-10-26T03:27:03.648848+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australian-market-swings-to-slight-gains-in-mid-market/55693"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/south-korea-shares-may-hand-back-fridays-gains/55681"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Japan Leading Index Data Due On Monday",
-      "description": "Japan will on Monday see August results for its leading and coincident indexes, highlighting a light day for Asia-Pacific economic activity. The leading index is expected to add 0.4 percent on month, slowing from 1.5 percent in July. The coincident is tipped to fall 1.9 percent after rising 1.7 percent in the previous month.",
-      "date": "2026-10-25T22:03:04.806401+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/japan-leading-index-data-due-on-monday/55680"
     }
   ]
 }
