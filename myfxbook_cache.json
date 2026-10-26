@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-26T09:48:04.068831+00:00",
+  "fetched_at": "2026-10-26T10:03:04.141617+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Oil Prices Retreat From Near Six-month Highs On Hopes For Diplomacy",
+      "description": "Oil prices fell more than 2 percent on Monday after reports of diplomatic efforts to reduce regional tensions in West Asia.",
+      "date": "2026-10-26T09:43:04.137556+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/oil-prices-retreat-from-near-six-month-highs-on-hopes-for-diplomacy/55710"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/australian-markets-modestly-lower/55687"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Soft Start Tipped For Hong Kong Stock Market",
-      "description": "The Hong Kong stock market on Friday wrote a finish to the three-day losing streak in which it had stumbled more than 1,450 points or 4.3 percent. The Hang Seng now sits just below the 23,100-point plateau although it may open under pressure on Monday.",
-      "date": "2026-10-26T01:03:04.938047+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/soft-start-tipped-for-hong-kong-stock-market/55686"
     }
   ]
 }
