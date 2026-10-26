@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-26T09:03:06.544912+00:00",
+  "fetched_at": "2026-10-26T09:18:04.965084+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "NZD",
+      "title": "NZ Dollar Rises Against Majors",
+      "description": "The New Zealand dollar strengthened against other major currencies in the European session on Monday.",
+      "date": "2026-10-26T08:57:04.960800+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/nz-dollar-rises-against-majors/55706"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/renewed-consolidation-predicted-for-china-stock-market/55685"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Singapore Stock Market Expected To Remain Rangebound",
-      "description": "The Singapore stock market has opened higher in two of three trading days since the end of the two-day losing streak in which it had dipped more than 10 points or 0.2 percent. The STI now sits just above the 5,420-point plateau although it's likely to open under water on Monday.",
-      "date": "2026-10-26T00:03:05.184051+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/singapore-stock-market-expected-to-remain-rangebound/55684"
     }
   ]
 }
