@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-26T17:48:06.047107+00:00",
+  "fetched_at": "2026-10-26T18:03:04.564762+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Easing Inflation Concerns Lift European Market Sentiment",
+      "description": "European markets closed higher Monday as oil prices fell on diplomatic efforts to reduce West Asia tensions. Central bank meetings this week include decisions from the Federal Reserve, European Central Bank, and Bank of Japan.",
+      "date": "2026-10-26T17:39:04.558194+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/easing-inflation-concerns-lift-european-market-sentiment/55731"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/oil-prices-retreat-from-near-six-month-highs-on-hopes-for-diplomacy/55710"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "European Shares Rise As Oil Prices Retreat From Near Six-month Highs",
-      "description": "European stocks were modestly higher on Monday as easing oil prices provided some relief and investors looked forward to a slew of central bank meetings as well key tech earnings for directional cues.",
-      "date": "2026-10-26T09:21:04.064914+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-shares-rise-as-oil-prices-retreat-from-near-six-month-highs/55708"
     }
   ]
 }
