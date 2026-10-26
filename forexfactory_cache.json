@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-26T12:33:10.549307+00:00",
+  "fetched_at": "2026-10-26T12:48:11.200300+00:00",
   "periods": {
     "week": [
       {
@@ -730,13 +730,14 @@
       {
         "title": "Gov Council Member Vincent Speaks",
         "country": "CAD",
-        "date": "2026-10-29T10:50:00-04:00",
+        "date": "2026-10-29T11:59:00-04:00",
         "impact": "Low",
         "forecast": "",
         "previous": "",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
+        "time_label": "Tentative",
         "actual": ""
       },
       {
