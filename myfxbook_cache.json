@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-26T23:35:32.525516+00:00",
+  "fetched_at": "2026-10-26T23:48:07.879330+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Malaysia Stock Market May See Renewed Support",
+      "description": "The Malaysia stock market on Monday ended the four-day winning streak in which it had risen almost 15 points or 0.9 percent. The Kuala Lumpur Composite Index now sits just above the 1,600-point plateau although it's tipped to rebound again on Tuesday.",
+      "date": "2026-10-26T23:35:07.863901+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/malaysia-stock-market-may-see-renewed-support/55737"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/german-business-confidence-rises-for-sixth-month-ifo/55719"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "NZD",
-      "title": "NZ Dollar Rises Amid RBNZ Rate Hike Speculation",
-      "description": "The New Zealand dollar strengthened against other major currencies in the European session on Monday, as traders expect that the Reserve Bank of New Zealand (RBNZ) will deliver a rate hike later this week.",
-      "date": "2026-10-26T11:12:07.558772+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/nz-dollar-rises-amid-rbnz-rate-hike-speculation/55718"
     }
   ]
 }
