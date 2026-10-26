@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-26T11:03:07.134592+00:00",
+  "fetched_at": "2026-10-26T11:33:07.579140+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "NZD",
+      "title": "NZ Dollar Rises Amid RBNZ Rate Hike Speculation",
+      "description": "The New Zealand dollar strengthened against other major currencies in the European session on Monday, as traders expect that the Reserve Bank of New Zealand (RBNZ) will deliver a rate hike later this week.",
+      "date": "2026-10-26T11:12:07.558772+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/nz-dollar-rises-amid-rbnz-rate-hike-speculation/55718"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "French Equities Rise As Crude Slides On Middle East Diplomacy",
+      "description": "French equities gained ground Monday as oil prices fell amid diplomatic efforts to reduce West Asia tensions. The CAC 40 index rose 0.7% while investors awaited monetary policy announcements from major central banks this week.",
+      "date": "2026-10-26T10:59:07.561502+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/french-equities-rise-as-crude-slides-on-middle-east-diplomacy/55716"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/asian-markets-track-wall-street-lower/55692"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Indian Shares Seen Opening On Muted Note",
-      "description": "Indian shares are seen opening on a muted note on Monday as investors closely monitor the situation in the Middle East and await an upcoming Federal Reserve interest-rate decision.",
-      "date": "2026-10-26T02:41:04.001562+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-seen-opening-on-muted-note/55691"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Lower Open Tipped For Thai Stock Market",
-      "description": "Ahead of Friday's holiday for King Chulalongkorn Memorial Day, the Thai stock market has moved higher in back-to-back sessions, climbing more than 7 points or 0.4 percent in that span. The Stock Exchange of Thailand now sits just above the 1,560-point plateau although it may tick lower on Monday.",
-      "date": "2026-10-26T02:03:03.576895+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/lower-open-tipped-for-thai-stock-market/55690"
     }
   ]
 }
