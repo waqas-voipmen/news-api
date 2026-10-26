@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-26T11:33:07.579140+00:00",
+  "fetched_at": "2026-10-26T12:03:04.047074+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "FTSE 100 Advances As Bank, Mining Stocks Climb Higher",
+      "description": "The U.K. stock market gained moderate ground in positive territory on Monday, supported by gains in bank, mining and technology stocks. \n\nSlightly easing concerns about inflation amid a notable drop in oil prices helped underpin sentiment.",
+      "date": "2026-10-26T11:41:04.041464+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/ftse-100-advances-as-bank-mining-stocks-climb-higher/55720"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "German Business Confidence Rises For Sixth Month: Ifo",
+      "description": "German business sentiment improved for the sixth straight month in October, underpinned by more optimistic expectations, monthly survey data from the ifo Institute showed Monday. The business sentiment index rose to 90.2 in October from 89.9 in the previous month, marking the highest score since May 2023.",
+      "date": "2026-10-26T11:40:04.041836+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/german-business-confidence-rises-for-sixth-month-ifo/55719"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indian-shares-open-lower-in-cautious-trade/55694"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australian Market Swings To Slight Gains In Mid-market",
-      "description": "The Australian stock market is swinging its slight gains in mid-market trading on Monday after opening in the red, extending the slight gains in the previous session, following the broadly negative cues from Wall Street on Friday. The benchmark S&P/ASX 200 index is moving above the 8,800.00 level, with gains in mining and technology stocks partially offset by weakness in financial stocks.",
-      "date": "2026-10-26T03:27:03.648848+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-market-swings-to-slight-gains-in-mid-market/55693"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Asian Markets Track Wall Street Lower",
-      "description": "Asian stock markets are trading mostly lower on Monday, following the broadly negative cues from Wall Street on Friday, on rising oil prices and global inflation worries amid uncertainty in the Middle East conflict. Traders also remain cautious ahead of the interest rate decision this week from the central banks in the US, Japan and the Eurozone. Asian markets closed mixed on Friday.",
-      "date": "2026-10-26T03:11:04.598408+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/asian-markets-track-wall-street-lower/55692"
     }
   ]
 }
