@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-26T02:48:03.566244+00:00",
+  "fetched_at": "2026-10-26T03:03:04.005484+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Indian Shares Seen Opening On Muted Note",
+      "description": "Indian shares are seen opening on a muted note on Monday as investors closely monitor the situation in the Middle East and await an upcoming Federal Reserve interest-rate decision.",
+      "date": "2026-10-26T02:41:04.001562+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-seen-opening-on-muted-note/55691"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/us-dollar-advances-as-concerns-of-rate-hike-due-to-possible-higher-inflation-increase/55678"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Canadian Market Remains Weak Despite Coming Off Early Lows",
-      "description": "The Canadian stock market's benchmark S&P/TSX Composite Index remains firmly down in negative territory Friday afternoon despite regaining a significant portion of the ground it lost in early trades. \n\nConcerns about inflation and prospects of interest rate hikes amid elevated oil prices following the latest Houthi attacks on Saudi targets weigh on sentiment.",
-      "date": "2026-10-23T18:44:05.995128+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/canadian-market-remains-weak-despite-coming-off-early-lows/55677"
     }
   ]
 }
