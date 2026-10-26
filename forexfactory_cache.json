@@ -50,7 +50,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-10",
+        "actual_src": "forexfactory"
       },
       {
         "title": "SPPI y/y",
@@ -1165,5 +1166,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-10-26T11:00:32.459193+00:00"
 }
