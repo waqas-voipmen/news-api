@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-26T14:33:05.354582+00:00",
+  "fetched_at": "2026-10-26T14:48:04.137874+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Verizon Lifts FY26 Outlook After Higher Q3; Signs $2 Bln AI Deal With AWS; Stock Drops",
+      "description": "Telecom major Verizon Communications Inc. on Monday reported higher third-quarter results and raised fiscal 2026 forecast. Further, the company announced that it has signed an agreement valued at more than $2.0 billion with Amazon Web Services or AWS to expand its AI Infrastructure. In the early morning trading on the NYSE, VZ shares were losing around 2.34 percent.",
+      "date": "2026-10-26T14:34:04.134707+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/verizon-lifts-fy26-outlook-after-higher-q3-signs-2-bln-ai-deal-with-aws-stock-drops/55726"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/nz-dollar-rises-against-majors/55706"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "Asian Shares Mixed Ahead Of Central Bank Meetings, Tech Earnings",
-      "description": "Asian stocks ended mixed on Monday due to renewed tensions in the Middle East and ahead of earnings from major U.S. technology companies due this week.",
-      "date": "2026-10-26T08:42:06.523989+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/asian-shares-mixed-ahead-of-central-bank-meetings-tech-earnings/55705"
     }
   ]
 }
