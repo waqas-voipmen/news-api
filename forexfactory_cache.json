@@ -63,7 +63,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "3.7%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "BRC Shop Price Index y/y",
@@ -1177,5 +1178,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-10-26T23:50:15.627803+00:00"
 }
