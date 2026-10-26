@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-26T13:03:05.492865+00:00",
+  "fetched_at": "2026-10-26T13:18:03.840905+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Canadian Market Likely To Open On Positive Note",
+      "description": "Higher precious metals prices and easing concerns about inflation thanks to a drop in oil prices suggest a positive start for stocks on Bay Street Monday morning. \n\nWith a slew of corporate earnings updates from Canada and U.S. due this week, the mood in the market is likely to remain a bit cautious.",
+      "date": "2026-10-26T12:59:03.834923+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/canadian-market-likely-to-open-on-positive-note/55724"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/asian-shares-mixed-ahead-of-central-bank-meetings-tech-earnings/55705"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "European Shares Seen Higher At Open As Oil Prices Retreat",
-      "description": "European stocks are seen opening broadly higher on Monday as oil prices retreated and focus shifted to several key central bank decisions, including the U.S. Federal Reserve's latest monetary policy meeting later in the week.",
-      "date": "2026-10-26T05:32:04.404544+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-shares-seen-higher-at-open-as-oil-prices-retreat/55695"
     }
   ]
 }
