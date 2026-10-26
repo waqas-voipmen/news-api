@@ -1,6 +1,54 @@
 {
-  "fetched_at": "2026-10-26T01:33:05.022343+00:00",
+  "fetched_at": "2026-10-26T02:33:03.580665+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Lower Open Tipped For Thai Stock Market",
+      "description": "Ahead of Friday's holiday for King Chulalongkorn Memorial Day, the Thai stock market has moved higher in back-to-back sessions, climbing more than 7 points or 0.4 percent in that span. The Stock Exchange of Thailand now sits just above the 1,560-point plateau although it may tick lower on Monday.",
+      "date": "2026-10-26T02:03:03.576895+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/lower-open-tipped-for-thai-stock-market/55690"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Japanese Market Notably Lower",
+      "description": "The Japanese stock market is notably lower on Monday, extending the losses in the previous two sessions, following the broadly negative cues from Wall Street on Friday. The Nikkei 225 is falling below the 62,450 level, with weakness is index heavyweights and technology stocks partially offset by gains in financial stocks.",
+      "date": "2026-10-26T01:43:03.577267+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/japanese-market-notably-lower/55689"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Indonesia Stock Market May Run Out Of Steam On Monday",
+      "description": "The Indonesia stock market has finished higher in four straight sessions, adding almost 450 points or 8.6 percent in that span. The Jakarta Composite Index now sits just beneath the 5,440-point plateau although the rally may stall on Monday.",
+      "date": "2026-10-26T01:33:03.577538+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indonesia-stock-market-may-run-out-of-steam-on-monday/55688"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australian Markets Modestly Lower",
+      "description": "The Australian stock market is modestly lower on Monday, reversing the slight gains in the previous session, following the broadly negative cues from Wall Street on Friday. The benchmark S&P/ASX 200 index is falling well below the 8,800.00 level, with weakness in financial stocks partially offset by gains in mining and technology stocks.",
+      "date": "2026-10-26T01:22:03.577815+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australian-markets-modestly-lower/55687"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -108,54 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/canadian-market-remains-weak-despite-coming-off-early-lows/55677"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "CHF",
-      "title": "Swiss Market Ends Moderately Lower",
-      "description": "After edging up a bit at the start, the Swiss market retreated and stayed in negative territory throughout the session on Friday. Worries about inflation and possible monetary tightening by several global central banks rendered the mood cautious.",
-      "date": "2026-10-23T18:15:05.105116+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/swiss-market-ends-moderately-lower/55676"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "European Stocks Close Lower On Earnings, Weak Economic Data",
-      "description": "The major European markets closed lower on Friday as largely weak regional PMI data, and concerns about inflation and monetary tightening amid continued rise in oil prices hurt sentiment. France's debt woes and uncertainty about returns on AI-related investments weighed as well.",
-      "date": "2026-10-23T17:53:05.102183+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-stocks-close-lower-on-earnings-weak-economic-data/55675"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Consumer Sentiment Deteriorates Far Less Than Previously Estimated In October",
-      "description": "The University of Michigan released a report on Friday showing consumer sentiment in the U.S. deteriorated by far less than previously estimated in the month of October. The report said the University of Michigan's consumer sentiment index for October was upwardly revised to 48.0 from a preliminary reading of 46.3.",
-      "date": "2026-10-23T14:49:04.580875+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-consumer-sentiment-deteriorates-far-less-than-previously-estimated-in-october/55674"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Bay Street Look Headed For Weak Start",
-      "description": "Canadian stocks are likely to open on a weak note on Friday amid concerns about inflation and prospects of interest rate hikes by the Canadian and U.S. central banks. Oil prices are up sharply, while precious metals are notably lower.\n\nCanadian retail sales data, and quarterly earnings updates, as well as U.S. PMI reports are set to make a notable impact on price movements.",
-      "date": "2026-10-23T12:30:04.083320+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/bay-street-look-headed-for-weak-start/55672"
     }
   ]
 }
