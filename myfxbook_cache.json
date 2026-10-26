@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-26T00:48:04.474825+00:00",
+  "fetched_at": "2026-10-26T01:18:04.942686+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Soft Start Tipped For Hong Kong Stock Market",
+      "description": "The Hong Kong stock market on Friday wrote a finish to the three-day losing streak in which it had stumbled more than 1,450 points or 4.3 percent. The Hang Seng now sits just below the 23,100-point plateau although it may open under pressure on Monday.",
+      "date": "2026-10-26T01:03:04.938047+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/soft-start-tipped-for-hong-kong-stock-market/55686"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/bay-street-look-headed-for-weak-start/55672"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "EUR",
-      "title": "Eurozone Private Sector Growth At 4-Month Low",
-      "description": "The euro area private sector softened to a four-month low in October as activity in France shifted back into contraction amid tightening financial conditions and rising political pressures, flash purchasing managers' survey data from S&P Global revealed Friday. The composite output index fell to 51.9 in October from 53.1 in the previous month, falling below the economist forecast of 52.7.",
-      "date": "2026-10-23T12:12:04.634602+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/eurozone-private-sector-growth-at-4-month-low/55671"
     }
   ]
 }
