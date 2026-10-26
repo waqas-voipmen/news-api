@@ -37,7 +37,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "90.2",
+        "actual_src": "forexfactory"
       },
       {
         "title": "CBI Realized Sales",
@@ -1164,5 +1165,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-10-26T09:00:31.056680+00:00"
 }
