@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-26T10:03:04.141617+00:00",
+  "fetched_at": "2026-10-26T10:33:04.041381+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "XAU",
+      "title": "Gold Edges Higher As Oil Prices Retreat After Nearing Six-month Highs",
+      "description": "Gold edged higher on Monday as investors closely monitored the situation in the Middle East and awaited an upcoming Federal Reserve interest-rate decision.",
+      "date": "2026-10-26T10:12:04.036421+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/gold-edges-higher-as-oil-prices-retreat-after-nearing-six-month-highs/55711"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indonesia-stock-market-may-run-out-of-steam-on-monday/55688"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australian Markets Modestly Lower",
-      "description": "The Australian stock market is modestly lower on Monday, reversing the slight gains in the previous session, following the broadly negative cues from Wall Street on Friday. The benchmark S&P/ASX 200 index is falling well below the 8,800.00 level, with weakness in financial stocks partially offset by gains in mining and technology stocks.",
-      "date": "2026-10-26T01:22:03.577815+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-markets-modestly-lower/55687"
     }
   ]
 }
