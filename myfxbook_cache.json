@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-26T21:03:04.683296+00:00",
+  "fetched_at": "2026-10-26T21:18:04.428203+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Dollar Ticks Higher Amid Concerns Of Potential U.S. Attacks On Iran",
+      "description": "The U.S. Dollar value inched higher on Monday with Middle East tensions rising after CNN reported that U.S. forces are preparing for a major operation against Iran. Traders also analyzed Iran's announcement of a Qatari delegation visiting Iran that kept up expectations for a diplomatic resolution to the crisis.",
+      "date": "2026-10-26T21:01:04.423738+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-dollar-ticks-higher-amid-concerns-of-potential-us-attacks-on-iran/55733"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/german-equities-rally-on-oil-price-decline-economic-optimism/55713"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "XAU",
-      "title": "Gold Edges Higher As Oil Prices Retreat After Nearing Six-month Highs",
-      "description": "Gold edged higher on Monday as investors closely monitored the situation in the Middle East and awaited an upcoming Federal Reserve interest-rate decision.",
-      "date": "2026-10-26T10:12:04.036421+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/gold-edges-higher-as-oil-prices-retreat-after-nearing-six-month-highs/55711"
     }
   ]
 }
