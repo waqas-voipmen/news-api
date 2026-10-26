@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-26T16:33:07.096863+00:00",
+  "fetched_at": "2026-10-26T16:48:07.654142+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Materials, Bank Stocks Lift Canadian Market",
+      "description": "The Canadian market, which moved higher after opening slightly up, remains in positive territory a little past noon on Monday amid slightly easing concerns about inflation thanks to a drop in oil prices.",
+      "date": "2026-10-26T16:34:07.645514+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/materials-bank-stocks-lift-canadian-market/55728"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/european-shares-rise-as-oil-prices-retreat-from-near-six-month-highs/55708"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "NZD",
-      "title": "NZ Dollar Rises Against Majors",
-      "description": "The New Zealand dollar strengthened against other major currencies in the European session on Monday.",
-      "date": "2026-10-26T08:57:04.960800+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/nz-dollar-rises-against-majors/55706"
     }
   ]
 }
