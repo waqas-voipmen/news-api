@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-26T03:18:03.675851+00:00",
+  "fetched_at": "2026-10-26T03:33:04.605964+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Asian Markets Track Wall Street Lower",
+      "description": "Asian stock markets are trading mostly lower on Monday, following the broadly negative cues from Wall Street on Friday, on rising oil prices and global inflation worries amid uncertainty in the Middle East conflict. Traders also remain cautious ahead of the interest rate decision this week from the central banks in the US, Japan and the Eurozone. Asian markets closed mixed on Friday.",
+      "date": "2026-10-26T03:11:04.598408+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/asian-markets-track-wall-street-lower/55692"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/japan-leading-index-data-due-on-monday/55680"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "U.S. Dollar Advances As Concerns Of Rate Hike Due To Possible Higher Inflation Increase",
-      "description": "The U.S. Dollar value edged higher on Friday as crude oil prices continued to surge for the second day supported by concerns of a potential U.S.-Iran war. Oil-driven inflation worries have led to expectations of an interest rate hike in the U.S.",
-      "date": "2026-10-23T21:01:04.098449+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-dollar-advances-as-concerns-of-rate-hike-due-to-possible-higher-inflation-increase/55678"
     }
   ]
 }
