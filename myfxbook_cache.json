@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-27T06:33:04.323206+00:00",
+  "fetched_at": "2026-10-27T06:48:07.032760+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "CHF",
+      "title": "Novartis Q3 Profit Declines; Lifts FY26 Core Income View, Backs Sales Outlook",
+      "description": "Swiss drug major Novartis AG (NVS, NOVN.SW) reported Tuesday sharply lower profit in its third quarter, mainly hurt by an impairment charge and higher expenses, despite growth in net sales. Further, the firm raised fiscal 2026 outlook for core operating income and confirmed sales growth view.",
+      "date": "2026-10-27T06:31:07.028958+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/novartis-q3-profit-declines-lifts-fy26-core-income-view-backs-sales-outlook/55754"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/taiwan-stock-market-due-for-support-on-tuesday/55740"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Singapore Stock Market Expected To Remain Rangebound",
-      "description": "The Singapore stock market has alternated between positive and negative finishes through the last four trading days since the end of the two-day losing streak in which it had dipped more than 10 points or 0.2 percent. The STI now sits just above the 5,415-point plateau although it may tick higher again on Tuesday.",
-      "date": "2026-10-27T00:05:04.295676+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/singapore-stock-market-expected-to-remain-rangebound/55739"
     }
   ]
 }
