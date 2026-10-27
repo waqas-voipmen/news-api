@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-27T04:33:05.001983+00:00",
+  "fetched_at": "2026-10-27T04:48:04.465262+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "Indian Shares Marginally Lower In Early Trade; IT Stocks Underperform",
+      "description": "Indian shares were moving lower in early trade on Tuesday as investors awaited earnings from major U.S. technology companies and the Federal Reserve's interest-rate decision for direction.",
+      "date": "2026-10-27T04:35:04.461598+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-marginally-lower-in-early-trade-it-stocks-underperform/55750"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/south-korea-gdp-grows-10-in-q3/55738"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Malaysia Stock Market May See Renewed Support",
-      "description": "The Malaysia stock market on Monday ended the four-day winning streak in which it had risen almost 15 points or 0.9 percent. The Kuala Lumpur Composite Index now sits just above the 1,600-point plateau although it's tipped to rebound again on Tuesday.",
-      "date": "2026-10-26T23:35:07.863901+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/malaysia-stock-market-may-see-renewed-support/55737"
     }
   ]
 }
