@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-27T10:18:05.729230+00:00",
+  "fetched_at": "2026-10-27T10:33:04.110429+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "XAU",
+      "title": "Gold Dips Below $4,000 Ahead Of Fed Decision",
+      "description": "Gold prices dipped below $4,000 an ounce on Tuesday as elevated oil prices fueled inflation concerns ahead of this week's Federal Reserve interest-rate decision.",
+      "date": "2026-10-27T10:13:04.104738+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/gold-dips-below-4000-ahead-of-fed-decision/55768"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/higher-open-tipped-for-indonesia-stock-market/55744"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Continued Strength Predicted For Hong Kong Stock Market",
-      "description": "The Hong Kong stock market has moved higher in consecutive trading days, gathering more than 275 points or 1.2 percent along the way. The Hang Seng now sits just above the 23,210-point plateau may extend its gains on Tuesday.",
-      "date": "2026-10-27T01:20:03.953303+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/continued-strength-predicted-for-hong-kong-stock-market/55743"
     }
   ]
 }
