@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-27T08:48:07.359247+00:00",
+  "fetched_at": "2026-10-27T09:03:07.874926+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "Asian Shares Mixed Before Tech Earnings, Fed Decision",
+      "description": "Asian stocks turned in a mixed performance on Tuesday as investors awaited earnings from major U.S. technology companies and the outcome of a slew of central bank meetings this week for direction.",
+      "date": "2026-10-27T08:42:07.866084+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/asian-shares-mixed-before-tech-earnings-fed-decision/55760"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/win-streak-may-continue-for-china-stock-market/55741"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Taiwan Stock Market Due For Support On Tuesday",
-      "description": "Ahead of the long break on Friday (Typhoon Champi) and Monday (Restoration Day), the Taiwan stock market headed south again on Thursday, one day after ending the two-day losing streak in which it had given up almost 820 points or 1.7 percent. The Taiwan Stock Exchange now sits just above the 46,040-point plateau although it's expected to open to the upside on Tuesday.",
-      "date": "2026-10-27T00:35:05.200077+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/taiwan-stock-market-due-for-support-on-tuesday/55740"
     }
   ]
 }
