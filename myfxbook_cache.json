@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-27T14:18:04.858108+00:00",
+  "fetched_at": "2026-10-27T14:33:04.101835+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Durable Goods Orders Jump 1.8% In September, More Than Expected",
+      "description": "Largely reflecting a surge in orders for transportation equipment, the Commerce Department released a report on Tuesday showing new orders for U.S. manufactured durable goods shot up by more than expected in the month of September. The Commerce Department said durable goods orders jumped by 1.8 percent in September following a revised 0.1 percent uptick in August.",
+      "date": "2026-10-27T14:13:04.097919+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-durable-goods-orders-jump-18-in-september-more-than-expected/55786"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/european-shares-edge-lower-as-french-students-vow-more-protests/55763"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "Asian Shares Mixed Before Tech Earnings, Fed Decision",
-      "description": "Asian stocks turned in a mixed performance on Tuesday as investors awaited earnings from major U.S. technology companies and the outcome of a slew of central bank meetings this week for direction.",
-      "date": "2026-10-27T08:42:07.866084+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/asian-shares-mixed-before-tech-earnings-fed-decision/55760"
     }
   ]
 }
