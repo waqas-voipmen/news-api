@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-27T01:03:04.400191+00:00",
+  "fetched_at": "2026-10-27T01:18:05.799938+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Win Streak May Continue For China Stock Market",
+      "description": "The China stock market has moved higher in back-to-back sessions, collecting almost 40 points or 1.1 percent in that span. The Shanghai Composite Index now sits just beneath the 3,700-point plateau and it may add to its winnings on Tuesday.",
+      "date": "2026-10-27T01:05:05.794698+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/win-streak-may-continue-for-china-stock-market/55741"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/verizon-lifts-fy26-outlook-after-higher-q3-signs-2-bln-ai-deal-with-aws-stock-drops/55726"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Canadian Market Likely To Open On Positive Note",
-      "description": "Higher precious metals prices and easing concerns about inflation thanks to a drop in oil prices suggest a positive start for stocks on Bay Street Monday morning. \n\nWith a slew of corporate earnings updates from Canada and U.S. due this week, the mood in the market is likely to remain a bit cautious.",
-      "date": "2026-10-26T12:59:03.834923+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/canadian-market-likely-to-open-on-positive-note/55724"
     }
   ]
 }
