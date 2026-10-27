@@ -1,6 +1,42 @@
 {
-  "fetched_at": "2026-10-27T12:33:04.549779+00:00",
+  "fetched_at": "2026-10-27T12:48:04.936711+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Durable Goods Orders Jump More Than Expected In September",
+      "description": "Largely reflecting a surge in orders for transportation equipment, the Commerce Department released a report on Tuesday showing new orders for U.S. manufactured durable goods shot up by more than expected in the month of September.",
+      "date": "2026-10-27T12:37:04.933227+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-durable-goods-orders-jump-more-than-expected-in-september/55780"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "CAD",
+      "title": "Canadian Stocks Set For Mixed Open",
+      "description": "Canadian equities are expected to open mixed on Tuesday as investors digest quarterly earnings and commodity market movements. Celestica reported third-quarter revenue of $5.83 bln and adjusted EPS of $3.30, up 83% and 109% respectively from a year ago.",
+      "date": "2026-10-27T12:29:04.933582+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/canadian-stocks-set-for-mixed-open/55779"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "GBP",
+      "title": "Euro Falls Amid Risk-off Mood, ECB Policy Eyed",
+      "description": "The euro weakened against other major currencies in the European session on Tuesday, amid risk-off mood by the investors as British banking giant HSBC posted disappointing earnings and French student leaders vowed to carry out further protests despite government concessions on education aimed at easing mounting unrest.",
+      "date": "2026-10-27T12:28:04.933817+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/euro-falls-amid-risk-off-mood-ecb-policy-eyed/55778"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -120,42 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/asian-shares-mixed-before-tech-earnings-fed-decision/55760"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "CHF",
-      "title": "Novartis Q3 Profit Declines; Lifts FY26 Core Income View, Backs Sales Outlook",
-      "description": "Swiss drug major Novartis AG (NVS, NOVN.SW) reported Tuesday sharply lower profit in its third quarter, mainly hurt by an impairment charge and higher expenses, despite growth in net sales. Further, the firm raised fiscal 2026 outlook for core operating income and confirmed sales growth view.",
-      "date": "2026-10-27T06:31:07.028958+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/novartis-q3-profit-declines-lifts-fy26-core-income-view-backs-sales-outlook/55754"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "European Shares Seen Tad Lower Ahead Of Tech Earnings, Rate Decisions",
-      "description": "European stocks are seen opening a tad lower on Tuesday as investors await earnings from major U.S. technology companies and the Federal Reserve's interest-rate decision for direction.",
-      "date": "2026-10-27T05:39:05.822515+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-shares-seen-tad-lower-ahead-of-tech-earnings-rate-decisions/55751"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "Indian Shares Marginally Lower In Early Trade; IT Stocks Underperform",
-      "description": "Indian shares were moving lower in early trade on Tuesday as investors awaited earnings from major U.S. technology companies and the Federal Reserve's interest-rate decision for direction.",
-      "date": "2026-10-27T04:35:04.461598+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-marginally-lower-in-early-trade-it-stocks-underperform/55750"
     }
   ]
 }
