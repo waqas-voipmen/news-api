@@ -1,6 +1,54 @@
 {
-  "fetched_at": "2026-10-27T01:33:04.086982+00:00",
+  "fetched_at": "2026-10-27T01:48:03.956523+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Japanese Market Sharply Higher",
+      "description": "The Japanese stock market is trading sharply higher on Tuesday, snapping a three-session losing streak, following the broadly positive cues from Wall Street overnight, with the Nikkei 225 moving above the 63,650 level, with gains in index heavyweights and technology stocks.",
+      "date": "2026-10-27T01:38:03.952702+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/japanese-market-sharply-higher/55745"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Higher Open Tipped For Indonesia Stock Market",
+      "description": "The Indonesia stock market on Monday ended the four-day winning streak in which it had jumped almost 450 points or 8.6 percent. The Jakarta Composite Index now sits just beneath the 5,375-point plateau although it's expected to open in the green on Tuesday.",
+      "date": "2026-10-27T01:35:03.953020+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/higher-open-tipped-for-indonesia-stock-market/55744"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Continued Strength Predicted For Hong Kong Stock Market",
+      "description": "The Hong Kong stock market has moved higher in consecutive trading days, gathering more than 275 points or 1.2 percent along the way. The Hang Seng now sits just above the 23,210-point plateau may extend its gains on Tuesday.",
+      "date": "2026-10-27T01:20:03.953303+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/continued-strength-predicted-for-hong-kong-stock-market/55743"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australian Markets Modestly Lower",
+      "description": "The Australian stock market is modestly lower on Tuesday, reversing the slight gains in the previous two sessions, despite the broadly positive cues from Wall Street overnight. The benchmark S&P/ASX 200 index is falling below the 8,800 level, as traders remain cautious ahead of the release of inflation data tomorrow, which will have an impact on the outlook for interest rates.",
+      "date": "2026-10-27T01:18:03.953579+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australian-markets-modestly-lower/55742"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -108,54 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/us-dollar-ticks-higher-amid-concerns-of-potential-us-attacks-on-iran/55733"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "CHF",
-      "title": "Swiss Market Ends On Firm Note",
-      "description": "Save for a very brief while at the start, the Switzerland market's benchmark index SMI stayed positive throughout the session on Monday thanks to easing inflation concerns and optimism about corporate earnings.",
-      "date": "2026-10-26T18:01:06.403723+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/swiss-market-ends-on-firm-note/55732"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Easing Inflation Concerns Lift European Market Sentiment",
-      "description": "European markets closed higher Monday as oil prices fell on diplomatic efforts to reduce West Asia tensions. Central bank meetings this week include decisions from the Federal Reserve, European Central Bank, and Bank of Japan.",
-      "date": "2026-10-26T17:39:04.558194+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/easing-inflation-concerns-lift-european-market-sentiment/55731"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Materials, Bank Stocks Lift Canadian Market",
-      "description": "The Canadian market, which moved higher after opening slightly up, remains in positive territory a little past noon on Monday amid slightly easing concerns about inflation thanks to a drop in oil prices.",
-      "date": "2026-10-26T16:34:07.645514+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/materials-bank-stocks-lift-canadian-market/55728"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Verizon Lifts FY26 Outlook After Higher Q3; Signs $2 Bln AI Deal With AWS; Stock Drops",
-      "description": "Telecom major Verizon Communications Inc. on Monday reported higher third-quarter results and raised fiscal 2026 forecast. Further, the company announced that it has signed an agreement valued at more than $2.0 billion with Amazon Web Services or AWS to expand its AI Infrastructure. In the early morning trading on the NYSE, VZ shares were losing around 2.34 percent.",
-      "date": "2026-10-26T14:34:04.134707+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/verizon-lifts-fy26-outlook-after-higher-q3-signs-2-bln-ai-deal-with-aws-stock-drops/55726"
     }
   ]
 }
