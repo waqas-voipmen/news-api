@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-27T02:48:11.221604+00:00",
+  "fetched_at": "2026-10-27T03:03:03.997154+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Indian Shares Seen Opening On Flat Note",
+      "description": "Indian shares are seen opening on a flat note on Tuesday as global bond yields stabilized and oil prices pulled back from recent highs amid hopes for regional diplomacy in the Middle East.",
+      "date": "2026-10-27T02:41:03.992384+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-seen-opening-on-flat-note/55747"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/rebound-anticipated-for-south-korea-shares/55735"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "South Korea GDP Data Due On Tuesday",
-      "description": "South Korea will on Tuesday release preliminary Q3 figures for gross domestic product, highlighting a light day for Asia-Pacific economic activity.",
-      "date": "2026-10-26T22:05:06.692412+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/south-korea-gdp-data-due-on-tuesday/55734"
     }
   ]
 }
