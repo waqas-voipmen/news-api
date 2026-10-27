@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-27T05:48:04.769402+00:00",
+  "fetched_at": "2026-10-27T06:03:05.826222+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "European Shares Seen Tad Lower Ahead Of Tech Earnings, Rate Decisions",
+      "description": "European stocks are seen opening a tad lower on Tuesday as investors await earnings from major U.S. technology companies and the Federal Reserve's interest-rate decision for direction.",
+      "date": "2026-10-27T05:39:05.822515+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-shares-seen-tad-lower-ahead-of-tech-earnings-rate-decisions/55751"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/singapore-stock-market-expected-to-remain-rangebound/55739"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "South Korea GDP Grows 1.0% In Q3",
-      "description": "South Korea's gross domestic product expanded a seasonally adjusted 1.0 percent on quarter in the third quarter of 2026, the Bank of Korea said in Tuesday's preliminary report.",
-      "date": "2026-10-26T23:42:04.296047+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/south-korea-gdp-grows-10-in-q3/55738"
     }
   ]
 }
