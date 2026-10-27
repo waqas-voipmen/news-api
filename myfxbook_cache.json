@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-27T17:18:04.939386+00:00",
+  "fetched_at": "2026-10-27T17:33:04.544457+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "European Equities Rally On Tech Strength Amid Policy Watch",
+      "description": "European stocks ended Tuesday higher on technology gains tied to artificial intelligence developments, including Nvidia's partnership with Meta. The Stoxx 600 advanced 0.5% as investors watched for upcoming central bank policy decisions.",
+      "date": "2026-10-27T17:23:04.540209+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-equities-rally-on-tech-strength-amid-policy-watch/55791"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/french-consumer-sentiment-weakest-since-2013/55770"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Indian Shares End Choppy Session Little Changed",
-      "description": "Indian shares fluctuated before ending on a flat note on Tuesday as elevated oil prices fueled inflation and rate hike concerns ahead of this week's Federal Reserve interest-rate decision.",
-      "date": "2026-10-27T10:32:04.263298+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-end-choppy-session-little-changed/55769"
     }
   ]
 }
