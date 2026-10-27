@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-27T22:03:14.118574+00:00",
+  "fetched_at": "2026-10-27T22:18:09.389588+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "NZD",
+      "title": "New Zealand Interest Rate Decision Due On Wednesday",
+      "description": "The Reserve Bank of New Zealand will on Wednesday wrap up its monetary policy meeting and then announce its decision on interest rates, highlighting a modest day for Asia-Pacific economic activity. The RBNZ is expected to hike its Official Cash Rate (OCR) by 25 basis points, to 3.00 percent from 2.75 percent.",
+      "date": "2026-10-27T21:58:09.356129+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/new-zealand-interest-rate-decision-due-on-wednesday/55795"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/ftse-100-retreats-on-earnings-misses-shop-price-inflation-surge/55777"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "EUR",
-      "title": "Euro Falls Against Majors",
-      "description": "The euro weakened against other major currencies in the European session on Tuesday.",
-      "date": "2026-10-27T11:52:04.546645+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/euro-falls-against-majors/55774"
     }
   ]
 }
