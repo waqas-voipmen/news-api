@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-27T12:03:03.967332+00:00",
+  "fetched_at": "2026-10-27T12:33:04.549779+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "GBP",
+      "title": "FTSE 100 Retreats On Earnings Misses, Shop Price Inflation Surge",
+      "description": "The FTSE 100 declined 81.65 points to 10,685.68 following disappointing results from HSBC Holdings and Reckitt Benckiser. UK shop price inflation accelerated to 2.1% year-on-year in October, its highest in 2.5 years.",
+      "date": "2026-10-27T12:10:04.546330+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/ftse-100-retreats-on-earnings-misses-shop-price-inflation-surge/55777"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "EUR",
+      "title": "Euro Falls Against Majors",
+      "description": "The euro weakened against other major currencies in the European session on Tuesday.",
+      "date": "2026-10-27T11:52:04.546645+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/euro-falls-against-majors/55774"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indian-shares-marginally-lower-in-early-trade-it-stocks-underperform/55750"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australian Market Swings To Modest Gains In Mid-market",
-      "description": "The Australian stock market is swinging to modest gains in mid-market trading on Tuesday, extending the slight gains in the previous two sessions, following the broadly positive cues from Wall Street overnight. The benchmark S&P/ASX 200 index is moving above the 8,700 level, with gains across most sectors led by mining and financial stocks.",
-      "date": "2026-10-27T03:34:04.877182+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-market-swings-to-modest-gains-in-mid-market/55749"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Asian Markets Trade Mixed",
-      "description": "Asian stock markets are mixed on Tuesday, following the broadly positive cues from Wall Street overnight, amid easing crude oil prices on optimism over the resolution of the Middle East conflict following reports of a delegation from Qatar has visited Iran to discuss de-escalation of regional conflicts. Some traders also looked to pick up stocks at relatively reduced levels after the recent slump.",
-      "date": "2026-10-27T03:18:04.877477+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/asian-markets-trade-mixed/55748"
     }
   ]
 }
