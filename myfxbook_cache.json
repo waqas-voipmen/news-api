@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-27T14:48:06.733778+00:00",
+  "fetched_at": "2026-10-27T15:03:04.364495+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. New Home Sales Pull Back Much Less Than Expected In September",
+      "description": "A report released by the Commerce Department on Tuesday showed a modest pullback in new home sales in the U.S. in the month of September. The Commerce Department said new home sales fell by 0.6 percent to an annual rate of 676,000 in September after surging by 5.1 percent to a revised rate of 680,000 in August.",
+      "date": "2026-10-27T14:48:04.360641+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-new-home-sales-pull-back-much-less-than-expected-in-september/55789"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/gold-dips-below-4000-ahead-of-fed-decision/55768"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Oil Prices Edge Up In Choppy Trade",
-      "description": "Oil prices edged up slightly on Tuesday after falling in the previous session amid renewed diplomatic efforts to prevent a wider escalation of the U.S.-Iran conflict.",
-      "date": "2026-10-27T09:47:56.802295+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/oil-prices-edge-up-in-choppy-trade/55766"
     }
   ]
 }
