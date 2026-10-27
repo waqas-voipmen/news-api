@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-27T14:33:04.101835+00:00",
+  "fetched_at": "2026-10-27T14:48:06.733778+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Boeing Q3 Loss Narrows, Commercial Airplanes Revenues Drop; Shares Down",
+      "description": "Aerospace and defense major Boeing Co. reported Tuesday that its third-quarter net loss narrowed sharply, while it recorded an operating profit, compared to prior year's loss, amid lower expenses and higher revenues. Commercial Airplanes revenue, meanwhile, dropped from last year, despite higher deliveries. In the morning trading on the NYSE, the shares were losing 3.64 percent.",
+      "date": "2026-10-27T14:31:06.728404+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/boeing-q3-loss-narrows-commercial-airplanes-revenues-drop-shares-down/55788"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/oil-prices-edge-up-in-choppy-trade/55766"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "GBP",
-      "title": "European Shares Edge Lower As French Students Vow More Protests",
-      "description": "European stocks were moving lower on Tuesday as British banking giant HSBC posted disappointing earnings and French student leaders vowed to carry out further protests despite government concessions on education aimed at easing mounting unrest.",
-      "date": "2026-10-27T09:21:56.802556+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-shares-edge-lower-as-french-students-vow-more-protests/55763"
     }
   ]
 }
