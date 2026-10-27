@@ -102,7 +102,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "10.2%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "M3 Money Supply y/y",
@@ -1180,5 +1181,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-10-27T08:00:31.743011+00:00"
 }
