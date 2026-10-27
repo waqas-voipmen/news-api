@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-26T23:48:07.879330+00:00",
+  "fetched_at": "2026-10-27T00:18:04.299337+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Singapore Stock Market Expected To Remain Rangebound",
+      "description": "The Singapore stock market has alternated between positive and negative finishes through the last four trading days since the end of the two-day losing streak in which it had dipped more than 10 points or 0.2 percent. The STI now sits just above the 5,415-point plateau although it may tick higher again on Tuesday.",
+      "date": "2026-10-27T00:05:04.295676+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/singapore-stock-market-expected-to-remain-rangebound/55739"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "South Korea GDP Grows 1.0% In Q3",
+      "description": "South Korea's gross domestic product expanded a seasonally adjusted 1.0 percent on quarter in the third quarter of 2026, the Bank of Korea said in Tuesday's preliminary report.",
+      "date": "2026-10-26T23:42:04.296047+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/south-korea-gdp-grows-10-in-q3/55738"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/dollar-index-edged-down-last-week/55723"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "FTSE 100 Advances As Bank, Mining Stocks Climb Higher",
-      "description": "The U.K. stock market gained moderate ground in positive territory on Monday, supported by gains in bank, mining and technology stocks. \n\nSlightly easing concerns about inflation amid a notable drop in oil prices helped underpin sentiment.",
-      "date": "2026-10-26T11:41:04.041464+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/ftse-100-advances-as-bank-mining-stocks-climb-higher/55720"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "German Business Confidence Rises For Sixth Month: Ifo",
-      "description": "German business sentiment improved for the sixth straight month in October, underpinned by more optimistic expectations, monthly survey data from the ifo Institute showed Monday. The business sentiment index rose to 90.2 in October from 89.9 in the previous month, marking the highest score since May 2023.",
-      "date": "2026-10-26T11:40:04.041836+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/german-business-confidence-rises-for-sixth-month-ifo/55719"
     }
   ]
 }
