@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-27T02:03:04.046607+00:00",
+  "fetched_at": "2026-10-27T02:18:04.135417+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Thai Stock Market May Challenge Resistance At 1,600 Points",
+      "description": "The Thai stock market has moved higher in three straight sessions, climbing almost 25 points or 1.4 percent in that span. The Stock Exchange of Thailand now sits just beneath the 1,580-point plateau and it's expected to open to the upside again on Tuesday.",
+      "date": "2026-10-27T02:05:04.131098+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/thai-stock-market-may-challenge-resistance-at-1600-points/55746"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/south-korea-gdp-data-due-on-tuesday/55734"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Dollar Ticks Higher Amid Concerns Of Potential U.S. Attacks On Iran",
-      "description": "The U.S. Dollar value inched higher on Monday with Middle East tensions rising after CNN reported that U.S. forces are preparing for a major operation against Iran. Traders also analyzed Iran's announcement of a Qatari delegation visiting Iran that kept up expectations for a diplomatic resolution to the crisis.",
-      "date": "2026-10-26T21:01:04.423738+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-dollar-ticks-higher-amid-concerns-of-potential-us-attacks-on-iran/55733"
     }
   ]
 }
