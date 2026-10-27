@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-27T18:48:06.833728+00:00",
+  "fetched_at": "2026-10-27T19:03:13.795343+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "TSX Rises As Materials Stocks Surge; Celestica Soars On Strong Earnings",
+      "description": "Canada's S&P/TSX Composite Index rose 200.20 points to 36,144.36 Tuesday, driven by materials sector strength. Energy stocks declined as oil prices fell, easing inflation concerns. Celestica surged nearly 13% on upbeat earnings.",
+      "date": "2026-10-27T18:42:13.753938+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/tsx-rises-as-materials-stocks-surge-celestica-soars-on-strong-earnings/55793"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/cac-40-modestly-higher-as-stocks-pare-early-losses/55772"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "German Stocks Mixed As Fed, ECB Decisions Approach",
-      "description": "Germany's benchmark DAX declined marginally Tuesday with mixed stock performance as major central banks prepare policy announcements. Beiersdorf shares fell 4.4% after third-quarter sales missed expectations, while Porsche gained 2% on strong profit.",
-      "date": "2026-10-27T10:44:04.246546+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/german-stocks-mixed-as-fed-ecb-decisions-approach/55771"
     }
   ]
 }
