@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-27T17:48:04.941147+00:00",
+  "fetched_at": "2026-10-27T18:03:04.858172+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "CHF",
+      "title": "Swiss SMI Closes 0.4% Higher After Mid-Day Volatility",
+      "description": "Switzerland's benchmark SMI index gained 58.68 points to close at 14,597.63 after fluctuating between gains and losses throughout Tuesday's session. VAT Group led gainers with a 3.5% climb, while Galderma Group declined over 3%.",
+      "date": "2026-10-27T17:46:04.852488+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/swiss-smi-closes-04-higher-after-mid-day-volatility/55792"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/german-stocks-mixed-as-fed-ecb-decisions-approach/55771"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "French Consumer Sentiment Weakest Since 2013",
-      "description": "French consumer confidence declined to its lowest level in more than 13 years in October mid bond selloffs and expanding protests, signalling pressure on spending, survey results published by the statistical office INSEE showed Tuesday. The consumer confidence index fell to 80 in October from 85 in September.",
-      "date": "2026-10-27T10:37:04.262824+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/french-consumer-sentiment-weakest-since-2013/55770"
     }
   ]
 }
