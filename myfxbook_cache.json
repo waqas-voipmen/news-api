@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-27T23:18:08.367466+00:00",
+  "fetched_at": "2026-10-27T23:33:06.015152+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Japan Stock Market May Extend Tuesday's Gains",
+      "description": "The Japan stock market on Tuesday wrote a finish to the three-day losing streak in which it had tumbled almost 1,450 points or 2.2 percent. The Nikkei now sits just beneath the 63,270-point plateau and it figures to see additional support on Wednesday.",
+      "date": "2026-10-27T23:20:06.006245+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/japan-stock-market-may-extend-tuesdays-gains/55797"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Tech Shares Likely To Boost KOSPI On Wednesday",
+      "description": "The South Korea stock market has alternated between positive and negative finishes through the last six trading days since the end of the two-day winning streak in which it had rallied more than 210 points or 3.6 percent. The KOSPI now sits just beneath the 5,640-point plateau and it may add to its winnings on Wednesday.",
+      "date": "2026-10-27T23:05:06.007001+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/tech-shares-likely-to-boost-kospi-on-wednesday/55796"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/canadian-stocks-set-for-mixed-open/55779"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "GBP",
-      "title": "Euro Falls Amid Risk-off Mood, ECB Policy Eyed",
-      "description": "The euro weakened against other major currencies in the European session on Tuesday, amid risk-off mood by the investors as British banking giant HSBC posted disappointing earnings and French student leaders vowed to carry out further protests despite government concessions on education aimed at easing mounting unrest.",
-      "date": "2026-10-27T12:28:04.933817+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/euro-falls-amid-risk-off-mood-ecb-policy-eyed/55778"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "GBP",
-      "title": "FTSE 100 Retreats On Earnings Misses, Shop Price Inflation Surge",
-      "description": "The FTSE 100 declined 81.65 points to 10,685.68 following disappointing results from HSBC Holdings and Reckitt Benckiser. UK shop price inflation accelerated to 2.1% year-on-year in October, its highest in 2.5 years.",
-      "date": "2026-10-27T12:10:04.546330+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/ftse-100-retreats-on-earnings-misses-shop-price-inflation-surge/55777"
     }
   ]
 }
