@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-27T11:33:04.219145+00:00",
+  "fetched_at": "2026-10-27T11:48:04.198260+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "CAC 40 Modestly Higher As Stocks Pare Early Losses",
+      "description": "French stocks recovered after a weak start on Tuesday with investors reacting to some corporate earnings updates and looking ahead to the monetary policy announcements from major central banks, including the Federal Reserve and the European Central Bank this week.",
+      "date": "2026-10-27T11:29:04.194875+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/cac-40-modestly-higher-as-stocks-pare-early-losses/55772"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/asian-markets-trade-mixed/55748"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Indian Shares Seen Opening On Flat Note",
-      "description": "Indian shares are seen opening on a flat note on Tuesday as global bond yields stabilized and oil prices pulled back from recent highs amid hopes for regional diplomacy in the Middle East.",
-      "date": "2026-10-27T02:41:03.992384+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-seen-opening-on-flat-note/55747"
     }
   ]
 }
