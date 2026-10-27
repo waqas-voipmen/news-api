@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-27T10:33:04.110429+00:00",
+  "fetched_at": "2026-10-27T10:48:04.266469+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "French Consumer Sentiment Weakest Since 2013",
+      "description": "French consumer confidence declined to its lowest level in more than 13 years in October mid bond selloffs and expanding protests, signalling pressure on spending, survey results published by the statistical office INSEE showed Tuesday. The consumer confidence index fell to 80 in October from 85 in September.",
+      "date": "2026-10-27T10:37:04.262824+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/french-consumer-sentiment-weakest-since-2013/55770"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Indian Shares End Choppy Session Little Changed",
+      "description": "Indian shares fluctuated before ending on a flat note on Tuesday as elevated oil prices fueled inflation and rate hike concerns ahead of this week's Federal Reserve interest-rate decision.",
+      "date": "2026-10-27T10:32:04.263298+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-end-choppy-session-little-changed/55769"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/thai-stock-market-may-challenge-resistance-at-1600-points/55746"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Japanese Market Sharply Higher",
-      "description": "The Japanese stock market is trading sharply higher on Tuesday, snapping a three-session losing streak, following the broadly positive cues from Wall Street overnight, with the Nikkei 225 moving above the 63,650 level, with gains in index heavyweights and technology stocks.",
-      "date": "2026-10-27T01:38:03.952702+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/japanese-market-sharply-higher/55745"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Higher Open Tipped For Indonesia Stock Market",
-      "description": "The Indonesia stock market on Monday ended the four-day winning streak in which it had jumped almost 450 points or 8.6 percent. The Jakarta Composite Index now sits just beneath the 5,375-point plateau although it's expected to open in the green on Tuesday.",
-      "date": "2026-10-27T01:35:03.953020+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/higher-open-tipped-for-indonesia-stock-market/55744"
     }
   ]
 }
