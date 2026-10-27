@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-27T21:03:05.069241+00:00",
+  "fetched_at": "2026-10-27T21:18:05.717828+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Dollar Advances Ahead Of Fed's Rate Decision While Middle East Tensions Continue",
+      "description": "The U.S. Dollar value edged higher on Tuesday as investors are bracing for the interest rate announcement by the U.S. Federal Reserve tomorrow while Middle East concerns persist with a breakthrough in U.S.-Iran peace efforts remaining elusive.",
+      "date": "2026-10-27T21:01:05.713572+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-dollar-advances-ahead-of-feds-rate-decision-while-middle-east-tensions-continue/55794"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/euro-falls-against-majors/55774"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "CAC 40 Modestly Higher As Stocks Pare Early Losses",
-      "description": "French stocks recovered after a weak start on Tuesday with investors reacting to some corporate earnings updates and looking ahead to the monetary policy announcements from major central banks, including the Federal Reserve and the European Central Bank this week.",
-      "date": "2026-10-27T11:29:04.194875+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/cac-40-modestly-higher-as-stocks-pare-early-losses/55772"
     }
   ]
 }
