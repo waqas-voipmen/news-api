@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-28T10:33:04.341049+00:00",
+  "fetched_at": "2026-10-28T10:48:04.233639+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Deutsche Bank Shares Gain On Higher Q3 Results, Positive Outlook",
+      "description": "Shares of Deutsche Bank AG were gaining around 3 percent in the morning trading in Germany and in pre-market activity on the NYSE, after the German lender reported Wednesday higher third-quarter profit with increased revenues and assets under management. Further, the firm confirmed fiscal 2026 outlook.",
+      "date": "2026-10-28T10:38:04.228211+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/deutsche-bank-shares-gain-on-higher-q3-results-positive-outlook/55832"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "CAC 40 Roughly Flat Amid Mixed Earnings Updates",
+      "description": "France's equity benchmark CAC 40 was roughly flat a little past noon on Wednesday as investors reacted to a mixed batch of corporate earnings and looked ahead to the monetary policy announcements from the Federal Reserve, due later in the day, and the European Central Bank's rate decision on Thursday.",
+      "date": "2026-10-28T10:36:04.228788+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/cac-40-roughly-flat-amid-mixed-earnings-updates/55831"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/asian-markets-mixed-amid-cautious-trades/55808"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Indian Shares Seen Little Changed At Open",
-      "description": "Indian shares are seen opening little changed on Wednesday despite firm cues from global markets. Shares of Reliance Industries would be in focus as Jio Platforms makes its stock market debut.",
-      "date": "2026-10-28T02:42:11.818293+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-seen-little-changed-at-open/55807"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Thai Stock Market May Reverse Tuesday's Losses",
-      "description": "The Thai stock market on Tuesday snapped the three-day winning streak in which it had climbed almost 25 points or 1.4 percent. The Stock Exchange of Thailand now sits just above the 1,575-point plateau although it's likely to see renewed support on Wednesday.",
-      "date": "2026-10-28T02:05:09.269013+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/thai-stock-market-may-reverse-tuesdays-losses/55806"
     }
   ]
 }
