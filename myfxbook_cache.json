@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-28T23:03:07.442297+00:00",
+  "fetched_at": "2026-10-28T23:18:07.589885+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Win Streak May Continue For South Korea Shares",
+      "description": "The South Korea stock market has climbed higher in back-to-back sessions, surging almost 550 points or 10 percent in that span. The KOSPI now sits just above the 6,010-point plateau and it may add to its winnings on Thursday.",
+      "date": "2026-10-28T23:05:07.572994+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/win-streak-may-continue-for-south-korea-shares/55851"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indian-shares-end-lower-as-it-stocks-drag-on-global-ai-chip-rally/55833"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Deutsche Bank Shares Gain On Higher Q3 Results, Positive Outlook",
-      "description": "Shares of Deutsche Bank AG were gaining around 3 percent in the morning trading in Germany and in pre-market activity on the NYSE, after the German lender reported Wednesday higher third-quarter profit with increased revenues and assets under management. Further, the firm confirmed fiscal 2026 outlook.",
-      "date": "2026-10-28T10:38:04.228211+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/deutsche-bank-shares-gain-on-higher-q3-results-positive-outlook/55832"
     }
   ]
 }
