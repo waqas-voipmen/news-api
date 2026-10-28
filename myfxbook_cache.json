@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-28T02:33:09.469633+00:00",
+  "fetched_at": "2026-10-28T03:03:11.842629+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Indian Shares Seen Little Changed At Open",
+      "description": "Indian shares are seen opening little changed on Wednesday despite firm cues from global markets. Shares of Reliance Industries would be in focus as Jio Platforms makes its stock market debut.",
+      "date": "2026-10-28T02:42:11.818293+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-seen-little-changed-at-open/55807"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/new-zealand-interest-rate-decision-due-on-wednesday/55795"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Dollar Advances Ahead Of Fed's Rate Decision While Middle East Tensions Continue",
-      "description": "The U.S. Dollar value edged higher on Tuesday as investors are bracing for the interest rate announcement by the U.S. Federal Reserve tomorrow while Middle East concerns persist with a breakthrough in U.S.-Iran peace efforts remaining elusive.",
-      "date": "2026-10-27T21:01:05.713572+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-dollar-advances-ahead-of-feds-rate-decision-while-middle-east-tensions-continue/55794"
     }
   ]
 }
