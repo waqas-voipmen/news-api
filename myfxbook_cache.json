@@ -1,6 +1,42 @@
 {
-  "fetched_at": "2026-10-27T23:48:04.112311+00:00",
+  "fetched_at": "2026-10-28T00:49:53.118364+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Taiwan Stock Market May See Additional Support On Wednesday",
+      "description": "The Taiwan stock market has finished higher in two of three trading days since the end of the two-day losing streak in which it had given up almost 820 points or 1.7 percent. The Taiwan Stock Exchange now sits just beneath the 46,100-point plateau and it's expected to open in the green again on Wednesday.",
+      "date": "2026-10-28T00:34:53.110252+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/taiwan-stock-market-may-see-additional-support-on-wednesday/55800"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Singapore Stock Market May Find Traction On Wednesday",
+      "description": "The Singapore stock market has finished lower in back-to-back sessions, slipping more than 25 points or 0.4 percent in that span. The STI now sits just beneath the 5,400-point plateau although it may stop the bleeding on Wednesday.",
+      "date": "2026-10-28T00:04:53.110634+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/singapore-stock-market-may-find-traction-on-wednesday/55799"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Malaysia Stock Market May Add To Its Winnings On Wednesday",
+      "description": "The Malaysia stock market bounced higher again on Tuesday, one day after it had ended the four-day winning streak in which it had risen almost 15 points or 0.9 percent. The Kuala Lumpur Composite Index now sits just above the 1,610-point plateau and it's tipped to open to the upside again on Wednesday.",
+      "date": "2026-10-27T23:34:53.111012+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/malaysia-stock-market-may-add-to-its-winnings-on-wednesday/55798"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -120,42 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/boeing-q3-loss-narrows-commercial-airplanes-revenues-drop-shares-down/55788"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Durable Goods Orders Jump 1.8% In September, More Than Expected",
-      "description": "Largely reflecting a surge in orders for transportation equipment, the Commerce Department released a report on Tuesday showing new orders for U.S. manufactured durable goods shot up by more than expected in the month of September. The Commerce Department said durable goods orders jumped by 1.8 percent in September following a revised 0.1 percent uptick in August.",
-      "date": "2026-10-27T14:13:04.097919+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-durable-goods-orders-jump-18-in-september-more-than-expected/55786"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Durable Goods Orders Jump More Than Expected In September",
-      "description": "Largely reflecting a surge in orders for transportation equipment, the Commerce Department released a report on Tuesday showing new orders for U.S. manufactured durable goods shot up by more than expected in the month of September.",
-      "date": "2026-10-27T12:37:04.933227+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-durable-goods-orders-jump-more-than-expected-in-september/55780"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "CAD",
-      "title": "Canadian Stocks Set For Mixed Open",
-      "description": "Canadian equities are expected to open mixed on Tuesday as investors digest quarterly earnings and commodity market movements. Celestica reported third-quarter revenue of $5.83 bln and adjusted EPS of $3.30, up 83% and 109% respectively from a year ago.",
-      "date": "2026-10-27T12:29:04.933582+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/canadian-stocks-set-for-mixed-open/55779"
     }
   ]
 }
