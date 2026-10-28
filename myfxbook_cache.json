@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-28T01:18:04.146156+00:00",
+  "fetched_at": "2026-10-28T01:33:11.242331+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australian Market Notably Higher",
+      "description": "Australian shares are trading notably higher on Wednesday, extending the gains in the previous three sessions, with the benchmark S&P/ASX 200 moving above the 8,900 level, following the broadly positive cues from Wall Street overnight, with gains across most sectors led by mining and technology stocks.",
+      "date": "2026-10-28T01:11:11.220836+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australian-market-notably-higher/55802"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/us-consumer-confidence-unexpectedly-sees-substantial-improvement-in-october/55790"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. New Home Sales Pull Back Much Less Than Expected In September",
-      "description": "A report released by the Commerce Department on Tuesday showed a modest pullback in new home sales in the U.S. in the month of September. The Commerce Department said new home sales fell by 0.6 percent to an annual rate of 676,000 in September after surging by 5.1 percent to a revised rate of 680,000 in August.",
-      "date": "2026-10-27T14:48:04.360641+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-new-home-sales-pull-back-much-less-than-expected-in-september/55789"
     }
   ]
 }
