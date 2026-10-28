@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-28T12:33:04.280733+00:00",
+  "fetched_at": "2026-10-28T12:48:07.740464+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "CAD",
+      "title": "Bay Street May Open With Negative Bias; BoC, Fed Policy Moves In Focus",
+      "description": "Canadian stocks may open with a negative bias on Wednesday amid speculation the Bank of Canada will likely hike interest rate by 25 basis points. The Federal Reserve, which is also scheduled to announce its policy today, is widely expected to hold interest rate.",
+      "date": "2026-10-28T12:30:07.732041+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/bay-street-may-open-with-negative-bias-boc-fed-policy-moves-in-focus/55837"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/european-shares-seen-lower-before-big-tech-earnings-fed-decision/55815"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "Indian Shares Notably Lower As IT Stocks Drag",
-      "description": "Indian shares fell notably in early trade on Wednesday, with Information technology stocks coming under heavy selling pressure after an AI-fueled tech rally sent U.S. stocks to a higher close on Tuesday.",
-      "date": "2026-10-28T04:26:09.197593+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-notably-lower-as-it-stocks-drag/55812"
     }
   ]
 }
