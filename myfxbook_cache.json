@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-28T18:18:08.260770+00:00",
+  "fetched_at": "2026-10-28T18:33:08.313424+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Fed Leaves Interest Rates Unchanged, Pledges To 'Deliver Price Stability'",
+      "description": "After raising interest rates for the first time in three years last month, the Federal Reserve on Wednesday announced its widely expected decision to leave interest rates unchanged following its latest meeting. The Fed said it decided to maintain the target range for the federal funds rate at 3.75 to 4.0 percent in support of its dual goals.",
+      "date": "2026-10-28T18:18:08.301241+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/fed-leaves-interest-rates-unchanged-pledges-to-deliver-price-stability/55848"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "CHF",
+      "title": "Swiss Market Ends Marginally Down; Logitech Tanks On Results",
+      "description": "The Switzerland stock market, which opened on a weak note on Wednesday, languished in negative territory except for a few minutes a little past mid-afternoon, as investors largely made cautious moves, reacting to earnings and other corporate news.",
+      "date": "2026-10-28T18:12:08.303041+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/swiss-market-ends-marginally-down-logitech-tanks-on-results/55847"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/gold-edges-lower-ahead-of-fed-decision/55829"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "DAX Down Slightly At Noon; Symrise Tanks, Deutsche Bank Rises On Results",
-      "description": "German stocks turned in a mixed performance on Wednesday with investors reacting to corporate earnings updates and awaiting the Federal Reserve's monetary policy announcement later in the day, as well the European Central Bank's policy decision on Thursday.",
-      "date": "2026-10-28T10:11:04.336044+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/dax-down-slightly-at-noon-symrise-tanks-deutsche-bank-rises-on-results/55828"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Oil Prices Climb After Attack On Saudi Arabian Refinery",
-      "description": "Oil prices moved back toward four-year highs on Wednesday as investors monitored election results in Israel and assessed the chances of U.S. resuming military strikes on Iran.",
-      "date": "2026-10-28T09:59:04.264627+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/oil-prices-climb-after-attack-on-saudi-arabian-refinery/55827"
     }
   ]
 }
