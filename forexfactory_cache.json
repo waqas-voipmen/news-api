@@ -409,7 +409,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-134.9B",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Prelim Wholesale Inventories m/m",
@@ -421,7 +422,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.6%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "CB Leading Index m/m",
@@ -1198,5 +1200,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-10-28T12:30:29.134773+00:00"
 }
