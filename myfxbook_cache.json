@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-28T21:03:04.444870+00:00",
+  "fetched_at": "2026-10-28T21:18:04.168569+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Dollar Ticks Lower Amid Fed Interest Rate Decision, Middle East Uncertainty",
+      "description": "The U.S. Dollar value inched lower on Wednesday as U.S. keeps military options and diplomatic route to end the conflict with Iran open. Investors also assessed the reasons behind the interest rate decision by the U.S. Federal Reserve today.",
+      "date": "2026-10-28T21:01:04.148562+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-dollar-ticks-lower-amid-fed-interest-rate-decision-middle-east-uncertainty/55849"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/cac-40-roughly-flat-amid-mixed-earnings-updates/55831"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "XAU",
-      "title": "Gold Edges Lower Ahead Of Fed Decision",
-      "description": "Gold prices were subdued on Wednesday as oil prices moved back toward four-year highs and caution prevailed ahead of the Federal Reserve's interest-rate decision later in the day.",
-      "date": "2026-10-28T10:17:04.335790+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/gold-edges-lower-ahead-of-fed-decision/55829"
     }
   ]
 }
