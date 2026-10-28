@@ -435,7 +435,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-0.1%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "BOC Monetary Policy Report",
@@ -1200,5 +1201,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-10-28T13:01:47.521785+00:00"
 }
