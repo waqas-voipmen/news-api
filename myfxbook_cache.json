@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-28T08:48:04.099183+00:00",
+  "fetched_at": "2026-10-28T09:03:04.128272+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "German Consumers Remain Pessimistic On Inflation Fears",
+      "description": "German consumer confidence is set to weaken in November due to rising inflation concerns and subdued income prospects, survey data from the Nuremberg Institute for Market Decisions and the GfK market research institute showed Wednesday. The forward-looking consumer climate index fell slightly to -30.8 in November from -30.6 in October. The reading was expected to improve to -30.1.",
+      "date": "2026-10-28T08:48:04.124676+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/german-consumers-remain-pessimistic-on-inflation-fears/55821"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "Asian Shares Advance On Revived AI Optimism",
+      "description": "Asian stocks rose broadly on Wednesday as technology shares followed their U.S. peers higher amid renewed optimism over artificial intelligence demand.",
+      "date": "2026-10-28T08:41:04.125060+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/asian-shares-advance-on-revived-ai-optimism/55820"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/australian-market-notably-higher/55802"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Rebound Anticipated For China Stock Market",
-      "description": "The China stock market on Tuesday snapped the two-day winning streak in which it had gained almost 40 points or 1.1 percent. The Shanghai Composite Index now sits just beneath the 3,650-point plateau although it's expected to move back to the upside again on Wednesday.",
-      "date": "2026-10-28T01:05:04.141729+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/rebound-anticipated-for-china-stock-market/55801"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Taiwan Stock Market May See Additional Support On Wednesday",
-      "description": "The Taiwan stock market has finished higher in two of three trading days since the end of the two-day losing streak in which it had given up almost 820 points or 1.7 percent. The Taiwan Stock Exchange now sits just beneath the 46,100-point plateau and it's expected to open in the green again on Wednesday.",
-      "date": "2026-10-28T00:34:53.110252+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/taiwan-stock-market-may-see-additional-support-on-wednesday/55800"
     }
   ]
 }
