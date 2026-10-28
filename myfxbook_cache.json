@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-28T01:48:07.810956+00:00",
+  "fetched_at": "2026-10-28T02:03:08.484677+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Indonesia Stock Market Tipped To Open To The Upside",
+      "description": "The Indonesia stock market turned lower again on Tuesday, one day after ending the four-day winning streak in which it had jumped almost 450 points or 8.6 percent. The Jakarta Composite Index now sits just beneath the 5,270-point plateau although it's expected to cut into those losses on Wednesday.",
+      "date": "2026-10-28T01:35:08.474736+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indonesia-stock-market-tipped-to-open-to-the-upside/55805"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Japanese Market Sharply Higher",
+      "description": "The Japanese stock market is trading sharply higher on Wednesday, extending the gains in the previous session, following the broadly positive cues from Wall Street overnight. The Nikkei 225 is moving up to near the 64,000 level, with gains in index heavyweights and technology stocks.",
+      "date": "2026-10-28T01:33:08.476042+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/japanese-market-sharply-higher/55804"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/tsx-rises-as-materials-stocks-surge-celestica-soars-on-strong-earnings/55793"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "CHF",
-      "title": "Swiss SMI Closes 0.4% Higher After Mid-Day Volatility",
-      "description": "Switzerland's benchmark SMI index gained 58.68 points to close at 14,597.63 after fluctuating between gains and losses throughout Tuesday's session. VAT Group led gainers with a 3.5% climb, while Galderma Group declined over 3%.",
-      "date": "2026-10-27T17:46:04.852488+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/swiss-smi-closes-04-higher-after-mid-day-volatility/55792"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "European Equities Rally On Tech Strength Amid Policy Watch",
-      "description": "European stocks ended Tuesday higher on technology gains tied to artificial intelligence developments, including Nvidia's partnership with Meta. The Stoxx 600 advanced 0.5% as investors watched for upcoming central bank policy decisions.",
-      "date": "2026-10-27T17:23:04.540209+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-equities-rally-on-tech-strength-amid-policy-watch/55791"
     }
   ]
 }
