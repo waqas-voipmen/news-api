@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-28T10:03:03.749139+00:00",
+  "fetched_at": "2026-10-28T10:18:04.268262+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Oil Prices Climb After Attack On Saudi Arabian Refinery",
+      "description": "Oil prices moved back toward four-year highs on Wednesday as investors monitored election results in Israel and assessed the chances of U.S. resuming military strikes on Iran.",
+      "date": "2026-10-28T09:59:04.264627+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/oil-prices-climb-after-attack-on-saudi-arabian-refinery/55827"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/japanese-market-sharply-higher/55804"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Higher Open Called For Hong Kong Stock Market",
-      "description": "The Hong Kong stock market on Tuesday ended the two-day winning streak in which it had picked up more than 275 points or 1.2 percent. The Hang Seng now sits just beneath the 23,050-point plateau although it's expected to rebound again on Wednesday.",
-      "date": "2026-10-28T01:20:07.802551+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/higher-open-called-for-hong-kong-stock-market/55803"
     }
   ]
 }
