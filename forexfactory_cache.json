@@ -309,7 +309,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "2.75%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "RBNZ Rate Statement",
@@ -1195,5 +1196,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-10-28T01:01:04.840152+00:00"
 }
