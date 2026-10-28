@@ -510,7 +510,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "4.00%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "FOMC Statement",
@@ -1203,5 +1204,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-10-28T18:00:15.861853+00:00"
 }
