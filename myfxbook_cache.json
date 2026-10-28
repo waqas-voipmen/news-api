@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-28T03:33:10.005749+00:00",
+  "fetched_at": "2026-10-28T03:48:09.238896+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australian Market Pares Early Gains In Mid-market",
+      "description": "The Australian stock market is paring its early gains in mid-market moves on Wednesday, but extending the gains in the previous three sessions, with the benchmark S&P/ASX 200 moving above the 8,850 level, following the broadly positive cues from Wall Street overnight, with gains across most sectors led by mining and technology stocks.",
+      "date": "2026-10-28T03:21:09.217816+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australian-market-pares-early-gains-in-mid-market/55809"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/japan-stock-market-may-extend-tuesdays-gains/55797"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Tech Shares Likely To Boost KOSPI On Wednesday",
-      "description": "The South Korea stock market has alternated between positive and negative finishes through the last six trading days since the end of the two-day winning streak in which it had rallied more than 210 points or 3.6 percent. The KOSPI now sits just beneath the 5,640-point plateau and it may add to its winnings on Wednesday.",
-      "date": "2026-10-27T23:05:06.007001+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/tech-shares-likely-to-boost-kospi-on-wednesday/55796"
     }
   ]
 }
