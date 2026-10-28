@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-28T22:03:07.072916+00:00",
+  "fetched_at": "2026-10-28T22:18:06.296386+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australia Export Price Data Due On Thursday",
+      "description": "Australia will on Thursday release Q3 data for import and export prices, highlighting a light day for Asia-Pacific economic activity.",
+      "date": "2026-10-28T22:05:06.279224+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australia-export-price-data-due-on-thursday/55850"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/deutsche-bank-shares-gain-on-higher-q3-results-positive-outlook/55832"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "CAC 40 Roughly Flat Amid Mixed Earnings Updates",
-      "description": "France's equity benchmark CAC 40 was roughly flat a little past noon on Wednesday as investors reacted to a mixed batch of corporate earnings and looked ahead to the monetary policy announcements from the Federal Reserve, due later in the day, and the European Central Bank's rate decision on Thursday.",
-      "date": "2026-10-28T10:36:04.228788+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/cac-40-roughly-flat-amid-mixed-earnings-updates/55831"
     }
   ]
 }
