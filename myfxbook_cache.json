@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-28T01:03:04.889773+00:00",
+  "fetched_at": "2026-10-28T01:18:04.146156+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Rebound Anticipated For China Stock Market",
+      "description": "The China stock market on Tuesday snapped the two-day winning streak in which it had gained almost 40 points or 1.1 percent. The Shanghai Composite Index now sits just beneath the 3,650-point plateau although it's expected to move back to the upside again on Wednesday.",
+      "date": "2026-10-28T01:05:04.141729+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/rebound-anticipated-for-china-stock-market/55801"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/us-new-home-sales-pull-back-much-less-than-expected-in-september/55789"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Boeing Q3 Loss Narrows, Commercial Airplanes Revenues Drop; Shares Down",
-      "description": "Aerospace and defense major Boeing Co. reported Tuesday that its third-quarter net loss narrowed sharply, while it recorded an operating profit, compared to prior year's loss, amid lower expenses and higher revenues. Commercial Airplanes revenue, meanwhile, dropped from last year, despite higher deliveries. In the morning trading on the NYSE, the shares were losing 3.64 percent.",
-      "date": "2026-10-27T14:31:06.728404+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/boeing-q3-loss-narrows-commercial-airplanes-revenues-drop-shares-down/55788"
     }
   ]
 }
