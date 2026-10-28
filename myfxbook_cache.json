@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-28T14:33:08.110682+00:00",
+  "fetched_at": "2026-10-28T14:48:05.376231+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "NZD",
+      "title": "NZ Dollar Falls As RBNZ Holds Key Rate Defying Market Expectation",
+      "description": "The New Zealand dollar weakened against other major currencies in the Asian session on Wednesday, as the Reserve Bank of New Zealand or the RBNZ unexpected interest rate weighed on the currency.",
+      "date": "2026-10-28T14:33:05.372193+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/nz-dollar-falls-as-rbnz-holds-key-rate-defying-market-expectation/55840"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/german-consumers-remain-pessimistic-on-inflation-fears/55821"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "Asian Shares Advance On Revived AI Optimism",
-      "description": "Asian stocks rose broadly on Wednesday as technology shares followed their U.S. peers higher amid renewed optimism over artificial intelligence demand.",
-      "date": "2026-10-28T08:41:04.125060+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/asian-shares-advance-on-revived-ai-optimism/55820"
     }
   ]
 }
