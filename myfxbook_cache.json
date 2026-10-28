@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-28T04:48:09.210463+00:00",
+  "fetched_at": "2026-10-28T07:17:44.205241+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "European Shares Seen Lower Before Big Tech Earnings, Fed Decision",
+      "description": "European stocks are seen opening lower on Wednesday as investors await cues from tech earnings and the upcoming Federal Reserve's interest-rate decision.",
+      "date": "2026-10-28T05:38:44.199127+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-shares-seen-lower-before-big-tech-earnings-fed-decision/55815"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/singapore-stock-market-may-find-traction-on-wednesday/55799"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Malaysia Stock Market May Add To Its Winnings On Wednesday",
-      "description": "The Malaysia stock market bounced higher again on Tuesday, one day after it had ended the four-day winning streak in which it had risen almost 15 points or 0.9 percent. The Kuala Lumpur Composite Index now sits just above the 1,610-point plateau and it's tipped to open to the upside again on Wednesday.",
-      "date": "2026-10-27T23:34:53.111012+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/malaysia-stock-market-may-add-to-its-winnings-on-wednesday/55798"
     }
   ]
 }
