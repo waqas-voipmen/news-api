@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-28T10:18:04.268262+00:00",
+  "fetched_at": "2026-10-28T10:33:04.341049+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "XAU",
+      "title": "Gold Edges Lower Ahead Of Fed Decision",
+      "description": "Gold prices were subdued on Wednesday as oil prices moved back toward four-year highs and caution prevailed ahead of the Federal Reserve's interest-rate decision later in the day.",
+      "date": "2026-10-28T10:17:04.335790+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/gold-edges-lower-ahead-of-fed-decision/55829"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "DAX Down Slightly At Noon; Symrise Tanks, Deutsche Bank Rises On Results",
+      "description": "German stocks turned in a mixed performance on Wednesday with investors reacting to corporate earnings updates and awaiting the Federal Reserve's monetary policy announcement later in the day, as well the European Central Bank's policy decision on Thursday.",
+      "date": "2026-10-28T10:11:04.336044+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/dax-down-slightly-at-noon-symrise-tanks-deutsche-bank-rises-on-results/55828"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/thai-stock-market-may-reverse-tuesdays-losses/55806"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Indonesia Stock Market Tipped To Open To The Upside",
-      "description": "The Indonesia stock market turned lower again on Tuesday, one day after ending the four-day winning streak in which it had jumped almost 450 points or 8.6 percent. The Jakarta Composite Index now sits just beneath the 5,270-point plateau although it's expected to cut into those losses on Wednesday.",
-      "date": "2026-10-28T01:35:08.474736+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indonesia-stock-market-tipped-to-open-to-the-upside/55805"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Japanese Market Sharply Higher",
-      "description": "The Japanese stock market is trading sharply higher on Wednesday, extending the gains in the previous session, following the broadly positive cues from Wall Street overnight. The Nikkei 225 is moving up to near the 64,000 level, with gains in index heavyweights and technology stocks.",
-      "date": "2026-10-28T01:33:08.476042+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/japanese-market-sharply-higher/55804"
     }
   ]
 }
