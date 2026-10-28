@@ -497,7 +497,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-1.9M",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Federal Funds Rate",
@@ -1202,5 +1203,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-10-28T14:30:32.629564+00:00"
 }
