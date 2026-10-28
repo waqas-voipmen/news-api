@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-28T14:18:08.900921+00:00",
+  "fetched_at": "2026-10-28T14:33:08.110682+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "GE HealthCare Shares Rise 7% On Higher Q3 Results, FY26 Outlook Upgrade",
+      "description": "Shares of GE HealthCare Technologies Inc. were gaining around 7 percent in the morning trading on Nasdaq after the company on Wednesday reported higher third-quarter results and lifted fiscal 2026 outlook. The Company also announced that Jeannette Bankes, President and CEO, Patient Care Solutions, will be leaving for a CEO role at another firm.",
+      "date": "2026-10-28T14:18:08.089285+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/ge-healthcare-shares-rise-7-on-higher-q3-results-fy26-outlook-upgrade/55839"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "CAD",
+      "title": "Bank Of Canada Raises Rates By Quarter Point Amid Rising Cost Pressures",
+      "description": "After leaving interest rates unchanged for seven consecutive meetings, the Bank of Canada on Wednesday announced its widely expected decision to raise rates by a quarter point. The Bank of Canada said it decided to increase its target for the overnight rate by 25 basis points to 2.5 percent, with the Bank Rate at 2.75 percent and the deposit rate at 2.45 percent.",
+      "date": "2026-10-28T14:15:08.091045+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/bank-of-canada-raises-rates-by-quarter-point-amid-rising-cost-pressures/55838"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/asian-shares-advance-on-revived-ai-optimism/55820"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "NZD",
-      "title": "New Zealand Holds Key Rate; Eyes Future Policy Tightening",
-      "description": "The Reserve Bank of New Zealand unexpectedly retained its key interest rate on Wednesday after two consecutive rate hikes and signaled tighter policy ahead. The Monetary Policy Committee, governed by Anna Breman voted 4-3 to hold the Official Cash Rate at 2.75 percent, defying market expectations for a 25 basis point hike.",
-      "date": "2026-10-28T07:13:05.275500+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/new-zealand-holds-key-rate-eyes-future-policy-tightening/55818"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "European Shares Seen Lower Before Big Tech Earnings, Fed Decision",
-      "description": "European stocks are seen opening lower on Wednesday as investors await cues from tech earnings and the upcoming Federal Reserve's interest-rate decision.",
-      "date": "2026-10-28T05:38:44.199127+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-shares-seen-lower-before-big-tech-earnings-fed-decision/55815"
     }
   ]
 }
