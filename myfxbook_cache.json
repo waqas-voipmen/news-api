@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-28T10:48:04.233639+00:00",
+  "fetched_at": "2026-10-28T11:03:04.306885+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Indian Shares End Lower As IT Stocks Drag On Global AI Chip Rally",
+      "description": "Indian shares closed lower on Wednesday as information technology stocks slumped amid renewed optimism surrounding artificial intelligence in global markets.",
+      "date": "2026-10-28T10:41:04.303273+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-end-lower-as-it-stocks-drag-on-global-ai-chip-rally/55833"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/australian-market-pares-early-gains-in-mid-market/55809"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Asian Markets Mixed Amid Cautious Trades",
-      "description": "Asian markets are mixed on Wednesday, following the positive cues from Wall Street overnight, amid easing crude oil prices and a spike in semiconductor stocks on renewed optimism about the AI trade after AI giant Anthropic publicly filed for an IPO on Monday. The uncertainty in the Middle East weighed on market sentiment as efforts by regional intermediaries to defuse Middle East tensions continue",
-      "date": "2026-10-28T03:14:09.972523+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/asian-markets-mixed-amid-cautious-trades/55808"
     }
   ]
 }
