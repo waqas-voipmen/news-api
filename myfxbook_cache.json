@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-28T07:18:03.800217+00:00",
+  "fetched_at": "2026-10-28T07:33:05.279578+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "NZD",
+      "title": "New Zealand Holds Key Rate; Eyes Future Policy Tightening",
+      "description": "The Reserve Bank of New Zealand unexpectedly retained its key interest rate on Wednesday after two consecutive rate hikes and signaled tighter policy ahead. The Monetary Policy Committee, governed by Anna Breman voted 4-3 to hold the Official Cash Rate at 2.75 percent, defying market expectations for a 25 basis point hike.",
+      "date": "2026-10-28T07:13:05.275500+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/new-zealand-holds-key-rate-eyes-future-policy-tightening/55818"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/taiwan-stock-market-may-see-additional-support-on-wednesday/55800"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Singapore Stock Market May Find Traction On Wednesday",
-      "description": "The Singapore stock market has finished lower in back-to-back sessions, slipping more than 25 points or 0.4 percent in that span. The STI now sits just beneath the 5,400-point plateau although it may stop the bleeding on Wednesday.",
-      "date": "2026-10-28T00:04:53.110634+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/singapore-stock-market-may-find-traction-on-wednesday/55799"
     }
   ]
 }
