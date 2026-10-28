@@ -359,7 +359,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-15.3",
+        "actual_src": "forexfactory"
       },
       {
         "title": "German 10-y Bond Auction",
@@ -1197,5 +1198,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-10-28T09:00:28.712411+00:00"
 }
