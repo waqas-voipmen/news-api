@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-28T17:33:05.812560+00:00",
+  "fetched_at": "2026-10-28T17:48:05.818659+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Major European Markets Close Flat As Investors React To Earnings Ahead Of Fed Policy",
+      "description": "European stocks turned in a mixed performance on Wednesday as investors reacted to a slew of corporate earnings announcements and looked ahead to the monetary policy announcement from the Federal Reserve later in the day. \n\nA sharp rise in oil prices rendered the mood a bit cautious.",
+      "date": "2026-10-28T17:29:05.813574+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/major-european-markets-close-flat-as-investors-react-to-earnings-ahead-of-fed-policy/55846"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/oil-prices-climb-after-attack-on-saudi-arabian-refinery/55827"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "GBP",
-      "title": "European Shares Subdued Ahead Of UK Budget, Fed Verdict",
-      "description": "European stocks were subdued on Wednesday as traders awaited the 2026 U.K. autumn budget, earnings from big tech companies and the U.S. Federal Reserve's interest-rate decision.",
-      "date": "2026-10-28T09:29:04.319273+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-shares-subdued-ahead-of-uk-budget-fed-verdict/55826"
     }
   ]
 }
