@@ -472,7 +472,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "2.50%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "BOC Press Conference",
@@ -1201,5 +1202,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-10-28T13:45:19.824458+00:00"
 }
