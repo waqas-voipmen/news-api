@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-28T04:33:08.478973+00:00",
+  "fetched_at": "2026-10-28T04:48:09.210463+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "Indian Shares Notably Lower As IT Stocks Drag",
+      "description": "Indian shares fell notably in early trade on Wednesday, with Information technology stocks coming under heavy selling pressure after an AI-fueled tech rally sent U.S. stocks to a higher close on Tuesday.",
+      "date": "2026-10-28T04:26:09.197593+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-notably-lower-as-it-stocks-drag/55812"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/malaysia-stock-market-may-add-to-its-winnings-on-wednesday/55798"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Japan Stock Market May Extend Tuesday's Gains",
-      "description": "The Japan stock market on Tuesday wrote a finish to the three-day losing streak in which it had tumbled almost 1,450 points or 2.2 percent. The Nikkei now sits just beneath the 63,270-point plateau and it figures to see additional support on Wednesday.",
-      "date": "2026-10-27T23:20:06.006245+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/japan-stock-market-may-extend-tuesdays-gains/55797"
     }
   ]
 }
