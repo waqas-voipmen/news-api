@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-29T23:18:04.943496+00:00",
+  "fetched_at": "2026-10-29T23:33:05.687258+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Profit Taking Expected For Japan Stock Market",
+      "description": "The Japan stock market has tracked higher in three straight sessions, rallying more than 2,450 points or 4 percent along the way. The Nikkei now sits just above the 64,650-point plateau although the rally may stall on Friday.",
+      "date": "2026-10-29T23:20:05.672124+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/profit-taking-expected-for-japan-stock-market/55909"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/us-weekly-jobless-claims-unexpectedly-edge-slightly-lower/55895"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "CAD",
-      "title": "Bay Street Looks Headed For Weak Start",
-      "description": "Lower Canadian and U.S. futures and weak commodity prices point to a weak open on Bay Street Thursday morning. The U.S. PCE data, and a slew of earnings announcements from U.S. and Canadian companies are likely to make a notable impact on price movements in the market.",
-      "date": "2026-10-29T13:06:07.782180+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/bay-street-looks-headed-for-weak-start/55893"
     }
   ]
 }
