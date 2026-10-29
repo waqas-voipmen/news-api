@@ -651,7 +651,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "3.4%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Core PCE Price Index m/m",
@@ -663,7 +664,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.3%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Advance GDP Price Index q/q",
@@ -687,7 +689,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "194K",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Personal Income m/m",
@@ -699,7 +702,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.2%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Personal Spending m/m",
@@ -711,7 +715,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.5%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Gov Council Member Gravelle Speaks",
@@ -1211,5 +1216,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-10-29T12:31:02.945465+00:00"
 }
