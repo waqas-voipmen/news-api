@@ -677,7 +677,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "2.3%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Unemployment Claims",
@@ -1217,5 +1218,5 @@
       }
     ]
   },
-  "actuals_at": "2026-10-29T12:31:02.945465+00:00"
+  "actuals_at": "2026-10-29T12:31:15.021851+00:00"
 }
