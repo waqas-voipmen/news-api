@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-29T11:03:04.180086+00:00",
+  "fetched_at": "2026-10-29T11:18:04.506722+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "FTSE 100 Modestly Higher As Investors Focus On Earnings",
+      "description": "The U.K. stock market's benchmark index FTSE 100 gained modest ground in positive territory Thursday morning, with investors largely reacting to corporate earnings announcements, while continuing to closely track geopolitical developments.",
+      "date": "2026-10-29T11:00:04.503191+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/ftse-100-modestly-higher-as-investors-focus-on-earnings/55887"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indian-shares-modestly-higher-as-fed-holds-rates-steady/55867"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australian Market Maintains Early Gains In Mid-market",
-      "description": "The Australian market is maintaining its early gains in mid-market moves on Thursday, reversing the slight losses in the previous session, following the broadly positive cues from Wall Street overnight. The benchmark S&P/ASX 200 is moving well below the 8,850 level, with gains across most sectors led by mining, energy and technology stocks.",
-      "date": "2026-10-29T03:18:04.045134+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-market-maintains-early-gains-in-mid-market/55864"
     }
   ]
 }
