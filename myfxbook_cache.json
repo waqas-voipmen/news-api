@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-29T22:03:08.358004+00:00",
+  "fetched_at": "2026-10-29T22:18:06.415839+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Japan Data, Rate Decision Due On Friday",
+      "description": "The Bank of Japan will wrap up its monetary policy meeting on Friday and then announce its decision on interest rates, highlighting a busy for Asia-Pacific economic activity. The BoJ is expected to keep its benchmark lending rate unchanged at 1.25 percent.",
+      "date": "2026-10-29T22:05:06.406444+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/japan-data-rate-decision-due-on-friday/55906"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/us-gdp-surges-more-than-expected-in-q3/55891"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Weekly Jobless Claims Unexpectedly Edge Down To 194,000",
-      "description": "The Labor Department released a report on Thursday unexpectedly showing a slight dip in first-time claims for U.S. unemployment benefits in the week ended October 24th.",
-      "date": "2026-10-29T12:38:06.945768+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-weekly-jobless-claims-unexpectedly-edge-down-to-194000/55890"
     }
   ]
 }
