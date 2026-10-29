@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-29T11:18:04.506722+00:00",
+  "fetched_at": "2026-10-29T11:48:04.519373+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "EUR",
+      "title": "Eurozone Economic Sentiment Weakens To 4-Month Low",
+      "description": "Eurozone economic sentiment deteriorated to a four-month low in October as sentiment weakened across most sectors, monthly survey data from the European Commission revealed Thursday. The economic confidence index dropped to 96.9 in October from revised 97.5 in the previous month.",
+      "date": "2026-10-29T11:13:04.515496+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/eurozone-economic-sentiment-weakens-to-4-month-low/55889"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/european-shares-seen-flat-to-higher-ecb-meeting-eyed/55870"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Indian Shares Modestly Higher As Fed Holds Rates Steady",
-      "description": "Indian shares were modestly higher in early trade on Thursday as the U.S. Federal Reserve left interest rates unchanged, as widely expected, and oil prices eased following fresh diplomatic efforts to end the war in the Middle East.",
-      "date": "2026-10-29T04:33:04.381167+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-modestly-higher-as-fed-holds-rates-steady/55867"
     }
   ]
 }

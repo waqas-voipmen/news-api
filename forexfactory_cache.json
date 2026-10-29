@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-29T11:18:12.087007+00:00",
+  "fetched_at": "2026-10-29T11:48:11.662646+00:00",
   "periods": {
     "week": [
       {
@@ -631,15 +631,15 @@
       {
         "title": "Italian 10-y Bond Auction",
         "country": "EUR",
-        "date": "2026-10-29T06:45:00-04:00",
+        "date": "2026-10-29T06:08:00-04:00",
         "impact": "Low",
         "forecast": "",
         "previous": "4.58|1.6",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": "4.49%",
-        "actual_src": "fxstreet"
+        "actual": "4.49|1.6",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Advance GDP q/q",
