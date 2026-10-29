@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-29T00:33:04.274875+00:00",
+  "fetched_at": "2026-10-29T01:03:04.092820+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Taiwan Stock Market May See Continued Strength On Thursday",
+      "description": "The Taiwan stock market has finished higher in two straight sessions, jumping almost 1,000 points or 2.1 percent along the way. The Taiwan Stock Exchange now sits just above the 47,030-point plateau and it's expected to open in the green again on Thursday.",
+      "date": "2026-10-29T00:35:04.088781+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/taiwan-stock-market-may-see-continued-strength-on-thursday/55855"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/ge-healthcare-shares-rise-7-on-higher-q3-results-fy26-outlook-upgrade/55839"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "CAD",
-      "title": "Bank Of Canada Raises Rates By Quarter Point Amid Rising Cost Pressures",
-      "description": "After leaving interest rates unchanged for seven consecutive meetings, the Bank of Canada on Wednesday announced its widely expected decision to raise rates by a quarter point. The Bank of Canada said it decided to increase its target for the overnight rate by 25 basis points to 2.5 percent, with the Bank Rate at 2.75 percent and the deposit rate at 2.45 percent.",
-      "date": "2026-10-28T14:15:08.091045+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/bank-of-canada-raises-rates-by-quarter-point-amid-rising-cost-pressures/55838"
     }
   ]
 }
