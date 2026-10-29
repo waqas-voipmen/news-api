@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-29T02:48:04.083013+00:00",
+  "fetched_at": "2026-10-29T03:03:03.849303+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Indian Shares Seen Tad Higher At Open",
+      "description": "Indian shares are seen opening a tad higher on Thursday, with firm cues from global markets and easing oil prices likely to underpin sentiment at open.",
+      "date": "2026-10-29T02:43:03.845558+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-seen-tad-higher-at-open/55862"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/australia-export-price-data-due-on-thursday/55850"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Dollar Ticks Lower Amid Fed Interest Rate Decision, Middle East Uncertainty",
-      "description": "The U.S. Dollar value inched lower on Wednesday as U.S. keeps military options and diplomatic route to end the conflict with Iran open. Investors also assessed the reasons behind the interest rate decision by the U.S. Federal Reserve today.",
-      "date": "2026-10-28T21:01:04.148562+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-dollar-ticks-lower-amid-fed-interest-rate-decision-middle-east-uncertainty/55849"
     }
   ]
 }
