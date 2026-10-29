@@ -815,7 +815,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "2.6%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Unemployment Rate",
@@ -827,7 +828,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "2.4%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Prelim Industrial Production m/m",
@@ -1219,5 +1221,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-10-29T23:30:47.015184+00:00"
 }
