@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-29T08:48:04.811302+00:00",
+  "fetched_at": "2026-10-29T09:03:04.169911+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "Asian Shares Mixed As Investors Digest Fed Decision, Tech Earnings",
+      "description": "Asian stocks ended mixed on Thursday as investors reacted to the U.S. Federal Reserve's rate decision as well as earnings from tech heavyweights, including Alphabet, Microsoft and Samsung Electronics.\n \nOngoing diplomatic efforts between regional Middle Eastern powers to avoid an escalation between the U.S. and Iran helped limit regional losses, if any.",
+      "date": "2026-10-29T08:41:04.166447+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/asian-shares-mixed-as-investors-digest-fed-decision-tech-earnings/55878"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/higher-open-expected-for-the-hong-kong-stock-market/55857"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Mild Upside Expected For China Stock Market",
-      "description": "The China stock market bounced higher again on Wednesday, one day after ending the two-day winning streak in which it had gained almost 40 points or 1.1 percent. The Shanghai Composite Index now sits just above the 3,680-point plateau and it may extend those gains on Thursday.",
-      "date": "2026-10-29T01:05:03.960932+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/mild-upside-expected-for-china-stock-market/55856"
     }
   ]
 }
