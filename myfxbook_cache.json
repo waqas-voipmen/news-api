@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-29T17:48:03.767623+00:00",
+  "fetched_at": "2026-10-29T18:03:04.325487+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "European Markets Close Higher As Investors React To Results",
+      "description": "European stocks closed higher on Thursday as investors reacted to a slew of corporate earnings announcements and digested the monetary policy moves of the European Central Bank and the Federal Reserve.",
+      "date": "2026-10-29T17:42:04.321650+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-markets-close-higher-as-investors-react-to-results/55901"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/ftse-100-modestly-higher-as-investors-focus-on-earnings/55887"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Indian Shares Rally On US-Iran Diplomacy Hopes",
-      "description": "Indian shares rallied on Thursday after the U.S. Federal Reserve held interest rates steady, as widely expected, and oil prices eased following fresh diplomatic efforts to end the war in the Middle East.",
-      "date": "2026-10-29T10:34:04.244221+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-rally-on-us-iran-diplomacy-hopes/55886"
     }
   ]
 }
