@@ -586,7 +586,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "6.3%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "M4 Money Supply m/m",
@@ -1207,5 +1208,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-10-29T09:02:12.846595+00:00"
 }
