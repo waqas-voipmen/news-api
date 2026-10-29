@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-29T00:09:28.687686+00:00",
+  "fetched_at": "2026-10-29T00:18:03.931441+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Singapore Stock Market May Extend Wednesday's Gains",
+      "description": "The Singapore stock market on Wednesday snapped the two-day slide in which it had slipped more than 25 points or 0.4 percent. The STI now sits just beneath the 5,400-point plateau and it may pick up steam on Thursday.",
+      "date": "2026-10-29T00:05:03.926151+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/singapore-stock-market-may-extend-wednesdays-gains/55854"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/bank-of-canada-raises-rates-by-quarter-point-amid-rising-cost-pressures/55838"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "CAD",
-      "title": "Bay Street May Open With Negative Bias; BoC, Fed Policy Moves In Focus",
-      "description": "Canadian stocks may open with a negative bias on Wednesday amid speculation the Bank of Canada will likely hike interest rate by 25 basis points. The Federal Reserve, which is also scheduled to announce its policy today, is widely expected to hold interest rate.",
-      "date": "2026-10-28T12:30:07.732041+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/bay-street-may-open-with-negative-bias-boc-fed-policy-moves-in-focus/55837"
     }
   ]
 }
