@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-29T21:03:07.109447+00:00",
+  "fetched_at": "2026-10-29T21:18:09.163109+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Dollar Slides As Investors Parse Fed Rate Decision Amid Economic Data Releases",
+      "description": "The U.S. Dollar value inched lower on Thursday as market participants continued to analyze yesterday's U.S. Federal Reserve's interest rate decision along with today's economic data releases amid U.S. outreach to Iran for discussing a framework for negotiations.",
+      "date": "2026-10-29T21:01:09.150974+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-dollar-slides-as-investors-parse-fed-rate-decision-amid-economic-data-releases/55905"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/us-weekly-jobless-claims-unexpectedly-edge-down-to-194000/55890"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "EUR",
-      "title": "Eurozone Economic Sentiment Weakens To 4-Month Low",
-      "description": "Eurozone economic sentiment deteriorated to a four-month low in October as sentiment weakened across most sectors, monthly survey data from the European Commission revealed Thursday. The economic confidence index dropped to 96.9 in October from revised 97.5 in the previous month.",
-      "date": "2026-10-29T11:13:04.515496+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/eurozone-economic-sentiment-weakens-to-4-month-low/55889"
     }
   ]
 }
