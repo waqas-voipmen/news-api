@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-29T14:18:04.720325+00:00",
+  "fetched_at": "2026-10-29T14:33:04.666810+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Consumer Prices Increase In Line With Estimates In September",
+      "description": "A closely watched report released by the Commerce Department on Thursday showed consumer prices in the U.S. increased in line with economist estimates in the month of September. The Commerce Department said its personal consumption expenditures (PCE) price index climbed by 0.5 percent in September after rising by 0.3 in August. The increase matched expectations.",
+      "date": "2026-10-29T14:10:04.663067+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-consumer-prices-increase-in-line-with-estimates-in-september/55896"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/german-dax-climbs-113-ahead-of-ecb-decision/55882"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Oil Edges Lower On US-Iran Diplomacy Hopes",
-      "description": "Oil prices traded lower on Thursday after surging to a six-month high in the previous session following reports of Houthi attacks on Saudi Arabi's biggest oil refinery and a decline in U.S. crude inventories.",
-      "date": "2026-10-29T09:48:04.527314+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/oil-edges-lower-on-us-iran-diplomacy-hopes/55880"
     }
   ]
 }
