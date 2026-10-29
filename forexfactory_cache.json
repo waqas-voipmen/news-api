@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-29T12:18:11.010137+00:00",
+  "fetched_at": "2026-10-29T12:33:18.369175+00:00",
   "periods": {
     "week": [
       {
@@ -660,7 +660,7 @@
         "date": "2026-10-29T08:30:00-04:00",
         "impact": "High",
         "forecast": "0.3%",
-        "previous": "0.2%",
+        "previous": "0.3%",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
@@ -686,7 +686,7 @@
         "date": "2026-10-29T08:30:00-04:00",
         "impact": "Medium",
         "forecast": "198K",
-        "previous": "194K",
+        "previous": "195K",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
@@ -699,7 +699,7 @@
         "date": "2026-10-29T08:30:00-04:00",
         "impact": "Low",
         "forecast": "0.3%",
-        "previous": "0.2%",
+        "previous": "0.3%",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
@@ -1217,6 +1217,5 @@
         "actual": ""
       }
     ]
-  },
-  "actuals_at": "2026-10-29T12:31:15.021851+00:00"
+  }
 }
