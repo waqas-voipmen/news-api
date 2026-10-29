@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-29T03:18:04.294271+00:00",
+  "fetched_at": "2026-10-29T03:33:04.049001+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australian Market Maintains Early Gains In Mid-market",
+      "description": "The Australian market is maintaining its early gains in mid-market moves on Thursday, reversing the slight losses in the previous session, following the broadly positive cues from Wall Street overnight. The benchmark S&P/ASX 200 is moving well below the 8,850 level, with gains across most sectors led by mining, energy and technology stocks.",
+      "date": "2026-10-29T03:18:04.045134+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australian-market-maintains-early-gains-in-mid-market/55864"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Asian Markets Trade Mixed",
+      "description": "Asian markets are trading mixed on Thursday, following the positive cues from Wall Street overnight, as traders are cautiously optimistic after the US Fed left interest rates unchanged despite inflationary pressures amid spiking crude oil prices. However, reports of the possibility of U.S. attacks on Iran by next week are fueling crude oil supply disruption concerns for an indefinite period.",
+      "date": "2026-10-29T03:12:04.045440+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/asian-markets-trade-mixed/55863"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/japan-stock-market-may-break-resistance-at-64000-points/55852"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Win Streak May Continue For South Korea Shares",
-      "description": "The South Korea stock market has climbed higher in back-to-back sessions, surging almost 550 points or 10 percent in that span. The KOSPI now sits just above the 6,010-point plateau and it may add to its winnings on Thursday.",
-      "date": "2026-10-28T23:05:07.572994+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/win-streak-may-continue-for-south-korea-shares/55851"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australia Export Price Data Due On Thursday",
-      "description": "Australia will on Thursday release Q3 data for import and export prices, highlighting a light day for Asia-Pacific economic activity.",
-      "date": "2026-10-28T22:05:06.279224+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australia-export-price-data-due-on-thursday/55850"
     }
   ]
 }
