@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-29T01:18:03.964788+00:00",
+  "fetched_at": "2026-10-29T01:33:03.760824+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Higher Open Expected For The Hong Kong Stock Market",
+      "description": "The Hong Kong stock market ticked higher again on Wednesday, one day after ending the two-day winning streak in which it had picked up more than 275 points or 1.2 percent. The Hang Seng now sits just beneath the 23,100-point plateau and it figures to open in the upside again on Thursday.",
+      "date": "2026-10-29T01:20:03.757059+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/higher-open-expected-for-the-hong-kong-stock-market/55857"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/energy-stocks-shine-in-canadian-market-boc-raises-interest-rate/55843"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "NZD",
-      "title": "NZ Dollar Falls As RBNZ Holds Key Rate Defying Market Expectation",
-      "description": "The New Zealand dollar weakened against other major currencies in the Asian session on Wednesday, as the Reserve Bank of New Zealand or the RBNZ unexpected interest rate weighed on the currency.",
-      "date": "2026-10-28T14:33:05.372193+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/nz-dollar-falls-as-rbnz-holds-key-rate-defying-market-expectation/55840"
     }
   ]
 }
