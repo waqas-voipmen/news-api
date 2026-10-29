@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-29T08:03:04.321501+00:00",
+  "fetched_at": "2026-10-29T08:18:04.136440+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Canadian Dollar Rises As Crude Oil Prices Advance",
+      "description": "The Canadian dollar strengthened against other major currencies in the Asian session on Thursday, as the crude oil prices surged after reports suggest possible U.S. attacks on Iran by next week, fueling supply disruption concerns for an indefinite period.",
+      "date": "2026-10-29T07:54:04.132936+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/canadian-dollar-rises-as-crude-oil-prices-advance/55875"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/mild-upside-expected-for-china-stock-market/55856"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Taiwan Stock Market May See Continued Strength On Thursday",
-      "description": "The Taiwan stock market has finished higher in two straight sessions, jumping almost 1,000 points or 2.1 percent along the way. The Taiwan Stock Exchange now sits just above the 47,030-point plateau and it's expected to open in the green again on Thursday.",
-      "date": "2026-10-29T00:35:04.088781+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/taiwan-stock-market-may-see-continued-strength-on-thursday/55855"
     }
   ]
 }
