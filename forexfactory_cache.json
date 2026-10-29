@@ -741,7 +741,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "2.65%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Monetary Policy Statement",
@@ -1217,5 +1218,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-10-29T13:15:16.658470+00:00"
 }
