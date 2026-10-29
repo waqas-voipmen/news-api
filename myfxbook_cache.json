@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-29T16:48:06.902173+00:00",
+  "fetched_at": "2026-10-29T17:03:07.052787+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "CAD",
+      "title": "Canadian Stocks Mixed As Investors React To Earnings",
+      "description": "Canadian stocks are turning in a mixed performance on Thursday as investors react to a slew of corporate earnings announcements in addition to digesting the crucial U.S. PCE data.",
+      "date": "2026-10-29T16:44:07.039378+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/canadian-stocks-mixed-as-investors-react-to-earnings/55900"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indian-shares-rally-on-us-iran-diplomacy-hopes/55886"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "CAC 40 Hits 2-week High; Renault Rallies On Strong Earnings",
-      "description": "France's CAC 40 equity benchmark climbed to a two-week high Thursday as investors digested corporate earnings and awaited the European Central Bank's monetary policy announcement. The index advanced 76.14 points or 0.97% to 7,963.10.",
-      "date": "2026-10-29T10:29:04.244510+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/cac-40-hits-2-week-high-renault-rallies-on-strong-earnings/55885"
     }
   ]
 }
