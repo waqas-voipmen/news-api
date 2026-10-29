@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-29T10:03:04.530859+00:00",
+  "fetched_at": "2026-10-29T10:18:04.235477+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "German DAX Climbs 1.13% Ahead Of ECB Decision",
+      "description": "German stocks extended gains to a fourth consecutive session Thursday, with the DAX rising 289.72 points to 25,993.74 as investors tracked earnings and awaited the European Central Bank's monetary policy announcement and U.S. PCE inflation data.",
+      "date": "2026-10-29T10:03:04.232007+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/german-dax-climbs-113-ahead-of-ecb-decision/55882"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/japanese-market-significantly-higher/55860"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Indonesia Stock Market May Tick Higher Again On Thursday",
-      "description": "The Indonesia stock market bounced higher again on Wednesday, one day after ending the four-day winning streak in which it had jumped almost 450 points or 8.6 percent. The Jakarta Composite Index now sits just above the 5,280-point plateau and it may open higher again on Thursday.",
-      "date": "2026-10-29T01:35:03.794014+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indonesia-stock-market-may-tick-higher-again-on-thursday/55859"
     }
   ]
 }
