@@ -599,7 +599,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.1%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Mortgage Approvals",
@@ -611,7 +612,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "53K",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Net Lending to Individuals m/m",
@@ -1208,5 +1210,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-10-29T09:31:02.174764+00:00"
 }
