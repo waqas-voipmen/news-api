@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-29T12:48:06.953269+00:00",
+  "fetched_at": "2026-10-29T13:03:08.282041+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. PCE Price Index Increases In Line With Estimates In September",
+      "description": "A closely watched report released by the Commerce Department on Thursday showed consumer prices in the U.S. increased in line with economist estimates in the month of September.",
+      "date": "2026-10-29T12:46:08.268587+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-pce-price-index-increases-in-line-with-estimates-in-september/55892"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. GDP Surges More Than Expected In Q3",
+      "description": "Economic growth in the U.S. exceeded economist estimates in the third quarter of 2026, according to a report released by the Commerce Department on Thursday.",
+      "date": "2026-10-29T12:40:08.270128+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-gdp-surges-more-than-expected-in-q3/55891"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/asian-shares-mixed-as-investors-digest-fed-decision-tech-earnings/55878"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Canadian Dollar Rises As Crude Oil Prices Advance",
-      "description": "The Canadian dollar strengthened against other major currencies in the Asian session on Thursday, as the crude oil prices surged after reports suggest possible U.S. attacks on Iran by next week, fueling supply disruption concerns for an indefinite period.",
-      "date": "2026-10-29T07:54:04.132936+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/canadian-dollar-rises-as-crude-oil-prices-advance/55875"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "CAD",
-      "title": "Canadian Dollar Rises Against Majors",
-      "description": "The Canadian dollar strengthened against other major currencies in the Asian session on Thursday.",
-      "date": "2026-10-29T07:21:04.509262+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/canadian-dollar-rises-against-majors/55872"
     }
   ]
 }
