@@ -547,7 +547,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "52.5",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Import Prices q/q",
@@ -1204,5 +1205,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-10-29T00:09:21.875365+00:00"
 }
