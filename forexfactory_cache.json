@@ -573,7 +573,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "35.0",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Italian Monthly Unemployment Rate",
@@ -1206,5 +1207,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-10-29T05:00:29.160340+00:00"
 }
