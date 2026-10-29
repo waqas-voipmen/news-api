@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-29T23:33:05.687258+00:00",
+  "fetched_at": "2026-10-29T23:48:07.710626+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Malaysia Stock Market May Test Support At 1,600 Points",
+      "description": "The Malaysia stock market on Thursday snapped the two-day winning streak in which it had collected almost 10 points or 0.6 percent. The Kuala Lumpur Composite Index now sits just above the 1,610-point plateau and the losses may accelerate on Friday.",
+      "date": "2026-10-29T23:35:07.689137+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/malaysia-stock-market-may-test-support-at-1600-points/55910"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/us-consumer-prices-increase-in-line-with-estimates-in-september/55896"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Weekly Jobless Claims Unexpectedly Edge Slightly Lower",
-      "description": "The Labor Department released a report on Thursday unexpectedly showing a slight dip in first-time claims for U.S. unemployment benefits in the week ended October 24th. The report said initial jobless claims edged down to 194,000, a decrease of 1,000 from the previous week's revised level of 195,000. Economists had expected jobless claims to rise to rise to 199,000.",
-      "date": "2026-10-29T14:01:04.716796+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-weekly-jobless-claims-unexpectedly-edge-slightly-lower/55895"
     }
   ]
 }
