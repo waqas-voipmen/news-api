@@ -778,7 +778,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "80B",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Gov Council Member Vincent Speaks",
@@ -1218,5 +1219,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-10-29T14:30:14.035921+00:00"
 }
