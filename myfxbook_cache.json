@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-29T12:33:06.535665+00:00",
+  "fetched_at": "2026-10-29T12:48:06.953269+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Weekly Jobless Claims Unexpectedly Edge Down To 194,000",
+      "description": "The Labor Department released a report on Thursday unexpectedly showing a slight dip in first-time claims for U.S. unemployment benefits in the week ended October 24th.",
+      "date": "2026-10-29T12:38:06.945768+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-weekly-jobless-claims-unexpectedly-edge-down-to-194000/55890"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/canadian-dollar-rises-against-majors/55872"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "European Shares Seen Flat To Higher; ECB Meeting Eyed",
-      "description": "European stocks are seen opening flat to slightly higher on Thursday as investors react to the U.S. Federal Reserve's widely expected decision to hold rates unchanged and await the outcome of an ECB policy meeting later in the day amid France's deepening fiscal woes and political gridlock.",
-      "date": "2026-10-29T05:39:04.312788+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-shares-seen-flat-to-higher-ecb-meeting-eyed/55870"
     }
   ]
 }
