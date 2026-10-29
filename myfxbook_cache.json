@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-29T04:33:04.349877+00:00",
+  "fetched_at": "2026-10-29T04:48:04.385899+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Indian Shares Modestly Higher As Fed Holds Rates Steady",
+      "description": "Indian shares were modestly higher in early trade on Thursday as the U.S. Federal Reserve left interest rates unchanged, as widely expected, and oil prices eased following fresh diplomatic efforts to end the war in the Middle East.",
+      "date": "2026-10-29T04:33:04.381167+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-modestly-higher-as-fed-holds-rates-steady/55867"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/malaysia-stock-market-may-add-to-its-winnings-on-thursday/55853"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Japan Stock Market May Break Resistance At 64,000 Points",
-      "description": "The Japan stock market has tracked higher in two straight sessions, rallying more than 1,750 points or 2.9 percent along the way. The Nikkei now sits just above the 63,950-point plateau and it figures to see additional support on Thursday.",
-      "date": "2026-10-28T23:19:28.683488+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/japan-stock-market-may-break-resistance-at-64000-points/55852"
     }
   ]
 }
