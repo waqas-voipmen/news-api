@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-29T01:03:04.092820+00:00",
+  "fetched_at": "2026-10-29T01:18:03.964788+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Mild Upside Expected For China Stock Market",
+      "description": "The China stock market bounced higher again on Wednesday, one day after ending the two-day winning streak in which it had gained almost 40 points or 1.1 percent. The Shanghai Composite Index now sits just above the 3,680-point plateau and it may extend those gains on Thursday.",
+      "date": "2026-10-29T01:05:03.960932+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/mild-upside-expected-for-china-stock-market/55856"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/nz-dollar-falls-as-rbnz-holds-key-rate-defying-market-expectation/55840"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "GE HealthCare Shares Rise 7% On Higher Q3 Results, FY26 Outlook Upgrade",
-      "description": "Shares of GE HealthCare Technologies Inc. were gaining around 7 percent in the morning trading on Nasdaq after the company on Wednesday reported higher third-quarter results and lifted fiscal 2026 outlook. The Company also announced that Jeannette Bankes, President and CEO, Patient Care Solutions, will be leaving for a CEO role at another firm.",
-      "date": "2026-10-28T14:18:08.089285+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/ge-healthcare-shares-rise-7-on-higher-q3-results-fy26-outlook-upgrade/55839"
     }
   ]
 }
