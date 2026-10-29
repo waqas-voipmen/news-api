@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-29T23:03:03.996227+00:00",
+  "fetched_at": "2026-10-29T23:18:04.943496+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "South Korea Industrial Output Jumps 9.0% In September",
+      "description": "Industrial production in South Korea was up a seasonally adjusted 9.0 percent on month in September, Statistics Korea said on Friday - following the 4.6 percent decline in August.",
+      "date": "2026-10-29T23:08:04.939519+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/south-korea-industrial-output-jumps-90-in-september/55908"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "South Korea Shares May Extend Thursday's Losses",
+      "description": "The South Korea stock market on Thursday ended the two-day winning streak in which it had surged almost 550 points or 10 percent. The KOSPI now sits just beneath the 5,940-point plateau and it may take further damage on Friday.",
+      "date": "2026-10-29T23:05:04.939872+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/south-korea-shares-may-extend-thursdays-losses/55907"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/bay-street-looks-headed-for-weak-start/55893"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. PCE Price Index Increases In Line With Estimates In September",
-      "description": "A closely watched report released by the Commerce Department on Thursday showed consumer prices in the U.S. increased in line with economist estimates in the month of September.",
-      "date": "2026-10-29T12:46:08.268587+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-pce-price-index-increases-in-line-with-estimates-in-september/55892"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. GDP Surges More Than Expected In Q3",
-      "description": "Economic growth in the U.S. exceeded economist estimates in the third quarter of 2026, according to a report released by the Commerce Department on Thursday.",
-      "date": "2026-10-29T12:40:08.270128+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-gdp-surges-more-than-expected-in-q3/55891"
     }
   ]
 }
