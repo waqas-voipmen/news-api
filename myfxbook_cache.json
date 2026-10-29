@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-29T02:03:04.001500+00:00",
+  "fetched_at": "2026-10-29T02:18:03.844679+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Thai Stock Market May Halt Losing Streak On Thursday",
+      "description": "The Thai stock market has finished lower in two straight sessions, sliding more than a dozen points or 0.8 percent in that span. The Stock Exchange of Thailand now sits just above the 1,565-point plateau although it may stop the bleeding on Thursday.",
+      "date": "2026-10-29T02:05:03.840915+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/thai-stock-market-may-halt-losing-streak-on-thursday/55861"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Japanese Market Significantly Higher",
+      "description": "The Japanese market is trading significantly higher on Thursday, extending the gains in the previous two sessions, following the broadly positive cues from Wall Street overnight. The Nikkei 225 is moving well above the 64,550 level, with gains is index heavyweights, financial and technology stocks.",
+      "date": "2026-10-29T01:55:03.841265+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/japanese-market-significantly-higher/55860"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/us-dollar-ticks-lower-amid-fed-interest-rate-decision-middle-east-uncertainty/55849"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Fed Leaves Interest Rates Unchanged, Pledges To 'Deliver Price Stability'",
-      "description": "After raising interest rates for the first time in three years last month, the Federal Reserve on Wednesday announced its widely expected decision to leave interest rates unchanged following its latest meeting. The Fed said it decided to maintain the target range for the federal funds rate at 3.75 to 4.0 percent in support of its dual goals.",
-      "date": "2026-10-28T18:18:08.301241+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/fed-leaves-interest-rates-unchanged-pledges-to-deliver-price-stability/55848"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "CHF",
-      "title": "Swiss Market Ends Marginally Down; Logitech Tanks On Results",
-      "description": "The Switzerland stock market, which opened on a weak note on Wednesday, languished in negative territory except for a few minutes a little past mid-afternoon, as investors largely made cautious moves, reacting to earnings and other corporate news.",
-      "date": "2026-10-28T18:12:08.303041+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/swiss-market-ends-marginally-down-logitech-tanks-on-results/55847"
     }
   ]
 }
