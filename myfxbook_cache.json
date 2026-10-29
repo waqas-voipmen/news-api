@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-29T10:18:04.235477+00:00",
+  "fetched_at": "2026-10-29T10:33:04.024156+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "XAU",
+      "title": "Gold Slips As Investors Seek Clarity On US Rate Outlook",
+      "description": "Gold prices fell toward $4,000 an ounce on Thursday after the U.S. Federal Reserve held interest rates steady, as widely expected, but offered little clarity on its next move.",
+      "date": "2026-10-29T10:10:04.020722+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/gold-slips-as-investors-seek-clarity-on-us-rate-outlook/55884"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Volkswagen Q3 Loss Widens Sharply On Charge, Weak Volume; Confirms FY26 View",
+      "description": "German automotive major Volkswagen AG reported Thursday sharply wider net loss in its third quarter on an impairment charge related to Porsche AG and weak revenues amid lower production and sales volume. Further, the firm maintained its recently lowered fiscal 2026 outlook. On the XETRA in Germany, Volkswagen shares were losing around 1.08 percent",
+      "date": "2026-10-29T10:10:04.020969+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/volkswagen-q3-loss-widens-sharply-on-charge-weak-volume-confirms-fy26-view/55883"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indian-shares-seen-tad-higher-at-open/55862"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Thai Stock Market May Halt Losing Streak On Thursday",
-      "description": "The Thai stock market has finished lower in two straight sessions, sliding more than a dozen points or 0.8 percent in that span. The Stock Exchange of Thailand now sits just above the 1,565-point plateau although it may stop the bleeding on Thursday.",
-      "date": "2026-10-29T02:05:03.840915+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/thai-stock-market-may-halt-losing-streak-on-thursday/55861"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Japanese Market Significantly Higher",
-      "description": "The Japanese market is trading significantly higher on Thursday, extending the gains in the previous two sessions, following the broadly positive cues from Wall Street overnight. The Nikkei 225 is moving well above the 64,550 level, with gains is index heavyweights, financial and technology stocks.",
-      "date": "2026-10-29T01:55:03.841265+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/japanese-market-significantly-higher/55860"
     }
   ]
 }
