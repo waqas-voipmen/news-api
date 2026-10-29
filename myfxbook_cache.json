@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-29T13:03:08.282041+00:00",
+  "fetched_at": "2026-10-29T13:18:07.796939+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "CAD",
+      "title": "Bay Street Looks Headed For Weak Start",
+      "description": "Lower Canadian and U.S. futures and weak commodity prices point to a weak open on Bay Street Thursday morning. The U.S. PCE data, and a slew of earnings announcements from U.S. and Canadian companies are likely to make a notable impact on price movements in the market.",
+      "date": "2026-10-29T13:06:07.782180+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/bay-street-looks-headed-for-weak-start/55893"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/european-shares-edge-higher-ahead-of-ecb-rate-decision-us-pce-data/55879"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "Asian Shares Mixed As Investors Digest Fed Decision, Tech Earnings",
-      "description": "Asian stocks ended mixed on Thursday as investors reacted to the U.S. Federal Reserve's rate decision as well as earnings from tech heavyweights, including Alphabet, Microsoft and Samsung Electronics.\n \nOngoing diplomatic efforts between regional Middle Eastern powers to avoid an escalation between the U.S. and Iran helped limit regional losses, if any.",
-      "date": "2026-10-29T08:41:04.166447+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/asian-shares-mixed-as-investors-digest-fed-decision-tech-earnings/55878"
     }
   ]
 }
