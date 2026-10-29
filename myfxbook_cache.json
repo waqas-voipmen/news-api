@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-29T01:33:03.760824+00:00",
+  "fetched_at": "2026-10-29T01:48:03.798707+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Indonesia Stock Market May Tick Higher Again On Thursday",
+      "description": "The Indonesia stock market bounced higher again on Wednesday, one day after ending the four-day winning streak in which it had jumped almost 450 points or 8.6 percent. The Jakarta Composite Index now sits just above the 5,280-point plateau and it may open higher again on Thursday.",
+      "date": "2026-10-29T01:35:03.794014+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indonesia-stock-market-may-tick-higher-again-on-thursday/55859"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australian Market Modestly Higher",
+      "description": "The Australian market is trading modestly higher on Thursday, reversing the slight losses in the previous session, following the broadly positive cues from Wall Street overnight. The benchmark S&P/ASX 200 is moving well below the 8,850 level, with gains across most sectors led by mining, energy and technology stocks.",
+      "date": "2026-10-29T01:27:03.794833+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australian-market-modestly-higher/55858"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/swiss-market-ends-marginally-down-logitech-tanks-on-results/55847"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Major European Markets Close Flat As Investors React To Earnings Ahead Of Fed Policy",
-      "description": "European stocks turned in a mixed performance on Wednesday as investors reacted to a slew of corporate earnings announcements and looked ahead to the monetary policy announcement from the Federal Reserve later in the day. \n\nA sharp rise in oil prices rendered the mood a bit cautious.",
-      "date": "2026-10-28T17:29:05.813574+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/major-european-markets-close-flat-as-investors-react-to-earnings-ahead-of-fed-policy/55846"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "CAD",
-      "title": "Energy Stocks Shine In Canadian Market; BoC Raises Interest Rate",
-      "description": "Canadian stocks are turning in a mixed performance on Wednesday with investors digesting the Bank of Canada's announcement of a 25-basis point rate hike, in addition to tracking corporate earnings news and the trend in commodities markets.",
-      "date": "2026-10-28T15:03:04.661857+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/energy-stocks-shine-in-canadian-market-boc-raises-interest-rate/55843"
     }
   ]
 }
