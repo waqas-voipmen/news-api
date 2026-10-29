@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-28T23:18:07.589885+00:00",
+  "fetched_at": "2026-10-29T00:09:28.687686+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Malaysia Stock Market May Add To Its Winnings On Thursday",
+      "description": "The Malaysia stock market has moved higher in consecutive trading days, collecting almost 10 points or 0.6 percent along the way. The Kuala Lumpur Composite Index now sits just below the 1,615-point plateau and it's tipped to open to the upside again on Thursday.",
+      "date": "2026-10-28T23:34:28.683133+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/malaysia-stock-market-may-add-to-its-winnings-on-thursday/55853"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Japan Stock Market May Break Resistance At 64,000 Points",
+      "description": "The Japan stock market has tracked higher in two straight sessions, rallying more than 1,750 points or 2.9 percent along the way. The Nikkei now sits just above the 63,950-point plateau and it figures to see additional support on Thursday.",
+      "date": "2026-10-28T23:19:28.683488+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/japan-stock-market-may-break-resistance-at-64000-points/55852"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/bay-street-may-open-with-negative-bias-boc-fed-policy-moves-in-focus/55837"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "FTSE 100 Modestly Lower As Investors React To Earnings",
-      "description": "The U.K. stock market's benchmark index FTSE 100 was down in negative territory around noon on Wednesday as investors digested quarterly earnings announcements from some big-name companies and looked ahead to the Federal Reserve's monetary policy announcement later in the day.",
-      "date": "2026-10-28T11:12:04.137515+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/ftse-100-modestly-lower-as-investors-react-to-earnings/55835"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Indian Shares End Lower As IT Stocks Drag On Global AI Chip Rally",
-      "description": "Indian shares closed lower on Wednesday as information technology stocks slumped amid renewed optimism surrounding artificial intelligence in global markets.",
-      "date": "2026-10-28T10:41:04.303273+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-end-lower-as-it-stocks-drag-on-global-ai-chip-rally/55833"
     }
   ]
 }
