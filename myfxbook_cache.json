@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-29T05:48:04.096981+00:00",
+  "fetched_at": "2026-10-29T06:03:04.317729+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "European Shares Seen Flat To Higher; ECB Meeting Eyed",
+      "description": "European stocks are seen opening flat to slightly higher on Thursday as investors react to the U.S. Federal Reserve's widely expected decision to hold rates unchanged and await the outcome of an ECB policy meeting later in the day amid France's deepening fiscal woes and political gridlock.",
+      "date": "2026-10-29T05:39:04.312788+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-shares-seen-flat-to-higher-ecb-meeting-eyed/55870"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/singapore-stock-market-may-extend-wednesdays-gains/55854"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Malaysia Stock Market May Add To Its Winnings On Thursday",
-      "description": "The Malaysia stock market has moved higher in consecutive trading days, collecting almost 10 points or 0.6 percent along the way. The Kuala Lumpur Composite Index now sits just below the 1,615-point plateau and it's tipped to open to the upside again on Thursday.",
-      "date": "2026-10-28T23:34:28.683133+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/malaysia-stock-market-may-add-to-its-winnings-on-thursday/55853"
     }
   ]
 }
