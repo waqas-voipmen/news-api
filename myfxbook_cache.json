@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-29T15:33:06.325400+00:00",
+  "fetched_at": "2026-10-29T15:48:06.930390+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "ECB Holds Interest Rates Steady As Lagarde Decides To Leave",
+      "description": "The European Central Bank left its key interest rates unchanged on Thursday, as expected, after raising them in September, and the chief Christine Lagarde revealed her decision to step down next year, as policymakers wait for the effect of the past moves amid surging inflationary pressures and study the impact of the turmoil in French bond yields.",
+      "date": "2026-10-29T15:34:06.915477+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/ecb-holds-interest-rates-steady-as-lagarde-decides-to-leave/55899"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/cac-40-hits-2-week-high-renault-rallies-on-strong-earnings/55885"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "XAU",
-      "title": "Gold Slips As Investors Seek Clarity On US Rate Outlook",
-      "description": "Gold prices fell toward $4,000 an ounce on Thursday after the U.S. Federal Reserve held interest rates steady, as widely expected, but offered little clarity on its next move.",
-      "date": "2026-10-29T10:10:04.020722+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/gold-slips-as-investors-seek-clarity-on-us-rate-outlook/55884"
     }
   ]
 }
