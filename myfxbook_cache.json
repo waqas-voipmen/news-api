@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-29T14:33:04.666810+00:00",
+  "fetched_at": "2026-10-29T14:48:07.798062+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Economic Growth Exceeds Estimates In Q3",
+      "description": "Economic growth in the U.S. exceeded economist estimates in the third quarter of 2026, according to a report released by the Commerce Department on Thursday. The Commerce Department said real gross domestic product shot up by 3.4 percent in the third quarter after jumping by 2.2 percent in the second quarter. Economists had expected GDP to surge by 3.1 percent.",
+      "date": "2026-10-29T14:21:07.793390+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-economic-growth-exceeds-estimates-in-q3/55898"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Xerox Q3 Loss Widens, Cuts Adj. Operating Profit View; Backs Revenue Outlook; Stock Down 39%",
+      "description": "Shares of Xerox Holdings Corp. were losing around 39 percent in the morning trading on the NYSE after the company on Thursday announced a downward revision in fiscal 2026 adjusted operating income view, after reporting wider third-quarter loss. Further, the firm maintained annual revenue view, despite lower quarterly revenues. The company attributed that the headwinds affecting outlook...",
+      "date": "2026-10-29T14:19:07.793760+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/xerox-q3-loss-widens-cuts-adj-operating-profit-view-backs-revenue-outlook-stock-down-39/55897"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/gold-slips-as-investors-seek-clarity-on-us-rate-outlook/55884"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Volkswagen Q3 Loss Widens Sharply On Charge, Weak Volume; Confirms FY26 View",
-      "description": "German automotive major Volkswagen AG reported Thursday sharply wider net loss in its third quarter on an impairment charge related to Porsche AG and weak revenues amid lower production and sales volume. Further, the firm maintained its recently lowered fiscal 2026 outlook. On the XETRA in Germany, Volkswagen shares were losing around 1.08 percent",
-      "date": "2026-10-29T10:10:04.020969+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/volkswagen-q3-loss-widens-sharply-on-charge-weak-volume-confirms-fy26-view/55883"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "German DAX Climbs 1.13% Ahead Of ECB Decision",
-      "description": "German stocks extended gains to a fourth consecutive session Thursday, with the DAX rising 289.72 points to 25,993.74 as investors tracked earnings and awaited the European Central Bank's monetary policy announcement and U.S. PCE inflation data.",
-      "date": "2026-10-29T10:03:04.232007+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/german-dax-climbs-113-ahead-of-ecb-decision/55882"
     }
   ]
 }
