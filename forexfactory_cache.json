@@ -560,7 +560,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-1.1%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Consumer Confidence",
@@ -1205,5 +1206,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-10-29T00:30:29.860413+00:00"
 }
