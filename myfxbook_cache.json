@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-29T10:33:04.024156+00:00",
+  "fetched_at": "2026-10-29T10:48:04.247705+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Indian Shares Rally On US-Iran Diplomacy Hopes",
+      "description": "Indian shares rallied on Thursday after the U.S. Federal Reserve held interest rates steady, as widely expected, and oil prices eased following fresh diplomatic efforts to end the war in the Middle East.",
+      "date": "2026-10-29T10:34:04.244221+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-rally-on-us-iran-diplomacy-hopes/55886"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "CAC 40 Hits 2-week High; Renault Rallies On Strong Earnings",
+      "description": "France's CAC 40 equity benchmark climbed to a two-week high Thursday as investors digested corporate earnings and awaited the European Central Bank's monetary policy announcement. The index advanced 76.14 points or 0.97% to 7,963.10.",
+      "date": "2026-10-29T10:29:04.244510+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/cac-40-hits-2-week-high-renault-rallies-on-strong-earnings/55885"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/australian-market-maintains-early-gains-in-mid-market/55864"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Asian Markets Trade Mixed",
-      "description": "Asian markets are trading mixed on Thursday, following the positive cues from Wall Street overnight, as traders are cautiously optimistic after the US Fed left interest rates unchanged despite inflationary pressures amid spiking crude oil prices. However, reports of the possibility of U.S. attacks on Iran by next week are fueling crude oil supply disruption concerns for an indefinite period.",
-      "date": "2026-10-29T03:12:04.045440+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/asian-markets-trade-mixed/55863"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Indian Shares Seen Tad Higher At Open",
-      "description": "Indian shares are seen opening a tad higher on Thursday, with firm cues from global markets and easing oil prices likely to underpin sentiment at open.",
-      "date": "2026-10-29T02:43:03.845558+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-seen-tad-higher-at-open/55862"
     }
   ]
 }
