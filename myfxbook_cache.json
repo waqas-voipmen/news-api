@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-29T07:18:04.266090+00:00",
+  "fetched_at": "2026-10-29T07:33:04.512841+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "CAD",
+      "title": "Canadian Dollar Rises Against Majors",
+      "description": "The Canadian dollar strengthened against other major currencies in the Asian session on Thursday.",
+      "date": "2026-10-29T07:21:04.509262+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/canadian-dollar-rises-against-majors/55872"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/taiwan-stock-market-may-see-continued-strength-on-thursday/55855"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Singapore Stock Market May Extend Wednesday's Gains",
-      "description": "The Singapore stock market on Wednesday snapped the two-day slide in which it had slipped more than 25 points or 0.4 percent. The STI now sits just beneath the 5,400-point plateau and it may pick up steam on Thursday.",
-      "date": "2026-10-29T00:05:03.926151+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/singapore-stock-market-may-extend-wednesdays-gains/55854"
     }
   ]
 }
