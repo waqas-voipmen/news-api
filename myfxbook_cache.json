@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-29T18:03:04.325487+00:00",
+  "fetched_at": "2026-10-29T18:18:04.434937+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "CHF",
+      "title": "Swiss Market Ends On Strong Note",
+      "description": "The Switzerland market ended on a strong note on Thursday after staying firm throughout the day's session, amid optimism about earnings and positive cues from other markets in Europe.",
+      "date": "2026-10-29T18:04:04.430242+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/swiss-market-ends-on-strong-note/55902"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/eurozone-economic-sentiment-weakens-to-4-month-low/55889"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "FTSE 100 Modestly Higher As Investors Focus On Earnings",
-      "description": "The U.K. stock market's benchmark index FTSE 100 gained modest ground in positive territory Thursday morning, with investors largely reacting to corporate earnings announcements, while continuing to closely track geopolitical developments.",
-      "date": "2026-10-29T11:00:04.503191+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/ftse-100-modestly-higher-as-investors-focus-on-earnings/55887"
     }
   ]
 }
