@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-30T14:33:05.270141+00:00",
+  "fetched_at": "2026-10-30T14:48:04.947915+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Chicago Business Barometer Pulls Back But Still Indicates Growth In October",
+      "description": "Growth in Chicago-area business activity slowed moderately in the month of October, according to a report released by MNI Indicators on Friday. The report said the Chicago business barometer fell to 55.3 in October after spiking to 58.8 in September, although a reading above 50 still indicates growth. Economists had expected the business barometer to pull back to 56.0.",
+      "date": "2026-10-30T14:31:04.944370+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/chicago-business-barometer-pulls-back-but-still-indicates-growth-in-october/55955"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/yen-rises-on-bojs-hawkish-pause/55939"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "European Shares Mixed In Cautious Trade Amid AI Investment Concerns",
-      "description": "European stocks were mixed on Friday, after having closed at a seven-week high the previous day on the back of strong earnings and status quo interest-rate decisions by the Federal Reserve and the European Central Bank.",
-      "date": "2026-10-30T09:18:12.842907+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-shares-mixed-in-cautious-trade-amid-ai-investment-concerns/55938"
     }
   ]
 }
