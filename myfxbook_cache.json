@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-30T10:18:12.858897+00:00",
+  "fetched_at": "2026-10-30T10:33:06.061254+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "XAU",
+      "title": "Gold Edges Lower On Interest-rate Concerns",
+      "description": "Gold traded lower on Friday and was on course for a second consecutive monthly loss on concerns over rising crude oil prices and expectations of a Federal Reserve interest-rate rise in December.",
+      "date": "2026-10-30T10:16:06.044380+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/gold-edges-lower-on-interest-rate-concerns/55946"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indian-shares-modestly-higher-as-it-stocks-surge/55925"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australian Market Maintains Early Gains In Mid-market",
-      "description": "The Australian stock market is maintaining its early gains in mid-market moves on Friday, extending the gains in the previous session, despite the broadly negative cues from Wall Street overnight. The benchmark S&P/ASX 200 is moving well above the 8,900 level, with gains in energy and financial stocks partially offset by weakness in mining and technology stocks.",
-      "date": "2026-10-30T03:27:12.844944+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-market-maintains-early-gains-in-mid-market/55924"
     }
   ]
 }
