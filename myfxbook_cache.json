@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-30T21:03:04.482806+00:00",
+  "fetched_at": "2026-10-30T21:18:04.214543+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Dollar Ticks Lower As Investors Monitor Developments In Middle East",
+      "description": "The U.S. Dollar value posted incremental losses on Friday as markets focused on the U.S. call to Iran for discussions to avert a planned intense attack by the U.S. on Iran after November mid-term elections. Iran has not responded until now.",
+      "date": "2026-10-30T21:01:04.210769+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-dollar-ticks-lower-as-investors-monitor-developments-in-middle-east/55959"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/pound-rises-amid-boe-rate-hike-speculation/55943"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Oil Prices Surge As Trump Weighs Fresh Military Action Against Iran",
-      "description": "Oil prices were sharply higher on Friday on signs the U.S. may resume military strikes against Iran.",
-      "date": "2026-10-30T09:52:12.841976+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/oil-prices-surge-as-trump-weighs-fresh-military-action-against-iran/55942"
     }
   ]
 }
