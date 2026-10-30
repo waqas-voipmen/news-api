@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-30T18:03:05.301286+00:00",
+  "fetched_at": "2026-10-30T18:18:03.899009+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Major European Markets End Mixed As Investors React To Earnings, Economic Data",
+      "description": "The major European markets closed mixed on Friday even as most of the other markets across the continent ended notably lower, as investors reacted to a slew of corporate earnings announcements and the latest batch of regional economic data.\n\nHigher oil prices and weakness in the tech sector due to renewed uncertainty about returns on AI-related investments hurt sentiment.",
+      "date": "2026-10-30T17:55:03.895532+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/major-european-markets-end-mixed-as-investors-react-to-earnings-economic-data/55956"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/pound-rises-against-majors/55940"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Yen Rises On BoJ's Hawkish Pause",
-      "description": "The Japanese yen strengthened against other major currencies in the Asian session on Friday, after the Bank of Japan left its key interest rate unchanged after a hike last month as underlying inflation is assessed to be consistent with the 2 percent inflation target.",
-      "date": "2026-10-30T09:28:12.842658+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/yen-rises-on-bojs-hawkish-pause/55939"
     }
   ]
 }
