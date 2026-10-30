@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-30T18:18:03.899009+00:00",
+  "fetched_at": "2026-10-30T18:33:07.295704+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "CHF",
+      "title": "Swiss Market Ends Modestly Higher",
+      "description": "The Switzerland market's benchmark SMI ended modestly higher on Friday after holding firm throughout the trading session, outperforming most of its peers in Europe.",
+      "date": "2026-10-30T18:15:07.287422+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/swiss-market-ends-modestly-higher/55957"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/german-stocks-fall-041-as-energy-tech-drag-despite-gdp-surprise/55941"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "GBP",
-      "title": "Pound Rises Against Majors",
-      "description": "The British pound strengthened against other major currencies in the European session on Friday.",
-      "date": "2026-10-30T09:39:12.842456+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/pound-rises-against-majors/55940"
     }
   ]
 }
