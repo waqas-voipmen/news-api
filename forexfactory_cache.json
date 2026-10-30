@@ -1190,7 +1190,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "55.3",
+        "actual_src": "forexfactory"
       },
       {
         "title": "FOMC Member Daly Speaks",
@@ -1241,5 +1242,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-10-30T13:45:12.617367+00:00"
 }
