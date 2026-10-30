@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-29T23:48:23.469742+00:00",
+  "fetched_at": "2026-10-30T10:18:20.490739+00:00",
   "periods": {
     "week": [
       {
@@ -841,7 +841,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "2.2%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Retail Sales y/y",
@@ -853,7 +854,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "2.3%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "PPI q/q",
@@ -865,7 +867,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "1.1%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Private Sector Credit m/m",
@@ -877,45 +880,44 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
+        "actual": "0.6%",
+        "actual_src": "forexfactory"
+      },
+      {
+        "title": "BOJ Outlook Report",
+        "country": "JPY",
+        "date": "2026-10-29T23:02:00-04:00",
+        "impact": "High",
+        "forecast": "",
+        "previous": "",
+        "source": "ForexFactory",
+        "type": "calendar",
+        "link": null,
         "actual": ""
       },
       {
         "title": "BOJ Policy Rate",
         "country": "JPY",
-        "date": "2026-10-29T22:30:00-04:00",
+        "date": "2026-10-29T23:02:00-04:00",
         "impact": "High",
         "forecast": "<1.25%",
         "previous": "<1.25%",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "time_label": "Tentative",
-        "actual": ""
+        "actual": "<1.25%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Monetary Policy Statement",
         "country": "JPY",
-        "date": "2026-10-29T22:30:00-04:00",
+        "date": "2026-10-29T23:02:00-04:00",
         "impact": "High",
         "forecast": "",
         "previous": "",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "time_label": "Tentative",
-        "actual": ""
-      },
-      {
-        "title": "BOJ Outlook Report",
-        "country": "JPY",
-        "date": "2026-10-29T22:31:00-04:00",
-        "impact": "High",
-        "forecast": "",
-        "previous": "",
-        "source": "ForexFactory",
-        "type": "calendar",
-        "link": null,
-        "time_label": "Tentative",
         "actual": ""
       },
       {
@@ -928,20 +930,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
-      },
-      {
-        "title": "BOJ Press Conference",
-        "country": "JPY",
-        "date": "2026-10-30T01:30:00-04:00",
-        "impact": "High",
-        "forecast": "",
-        "previous": "",
-        "source": "ForexFactory",
-        "type": "calendar",
-        "link": null,
-        "time_label": "Tentative",
-        "actual": ""
+        "actual": "-2.7%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "French Consumer Spending m/m",
@@ -953,7 +943,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-0.5%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "French Flash GDP q/q",
@@ -962,6 +953,19 @@
         "impact": "Low",
         "forecast": "0.1%",
         "previous": "0.0%",
+        "source": "ForexFactory",
+        "type": "calendar",
+        "link": null,
+        "actual": "-0.1%",
+        "actual_src": "forexfactory"
+      },
+      {
+        "title": "BOJ Press Conference",
+        "country": "JPY",
+        "date": "2026-10-30T02:30:00-04:00",
+        "impact": "High",
+        "forecast": "",
+        "previous": "",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
@@ -977,7 +981,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "2.1%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Nationwide HPI m/m",
@@ -985,11 +990,12 @@
         "date": "2026-10-30T03:00:00-04:00",
         "impact": "Low",
         "forecast": "-0.2%",
-        "previous": "-0.2%",
+        "previous": "-0.3%",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.0%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "German Prelim CPI m/m",
@@ -1014,7 +1020,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.4%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "French Prelim Private Payrolls q/q",
@@ -1026,7 +1033,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-0.1%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "KOF Economic Barometer",
@@ -1038,7 +1046,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "107.6",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Spanish Flash CPI y/y",
@@ -1050,7 +1059,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "4.9%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Spanish Flash GDP q/q",
@@ -1062,7 +1072,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.6%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "German Unemployment Change",
@@ -1074,7 +1085,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "4K",
+        "actual_src": "forexfactory"
       },
       {
         "title": "German Prelim GDP q/q",
@@ -1086,7 +1098,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.2%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Italian Prelim GDP q/q",
@@ -1098,7 +1111,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.0%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Italian Prelim CPI m/m",
@@ -1110,7 +1124,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.9%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Prelim Flash GDP q/q",
@@ -1122,7 +1137,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.4%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Unemployment Rate",
@@ -1130,11 +1146,12 @@
         "date": "2026-10-30T06:00:00-04:00",
         "impact": "Low",
         "forecast": "6.4%",
-        "previous": "6.4%",
+        "previous": "6.5%",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "6.5%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "GDP m/m",
