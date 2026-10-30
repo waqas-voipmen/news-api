@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-30T12:48:10.764729+00:00",
+  "fetched_at": "2026-10-30T13:03:10.492362+00:00",
   "periods": {
     "week": [
       {
@@ -1008,7 +1008,8 @@
         "type": "calendar",
         "link": null,
         "time_label": "All Day",
-        "actual": ""
+        "actual": "-0.2%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "French Prelim CPI m/m",
