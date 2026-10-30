@@ -1163,7 +1163,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.0%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Employment Cost Index q/q",
@@ -1175,7 +1176,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.8%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Chicago PMI",
@@ -1238,5 +1240,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-10-30T12:30:28.881665+00:00"
 }
