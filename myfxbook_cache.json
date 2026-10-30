@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-30T10:33:06.061254+00:00",
+  "fetched_at": "2026-10-30T10:48:04.619190+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "French Stocks Mixed As Investors React To Earnings, Economic Data",
+      "description": "French stocks turned in a mixed performance Friday morning with investors reacting to corporate earnings announcements and the latest batch of economic data. \n\nData showing an unexpected contraction and higher crude oil prices weighed on sentiment.",
+      "date": "2026-10-30T10:25:04.592946+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/french-stocks-mixed-as-investors-react-to-earnings-economic-data/55947"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/european-shares-seen-broadly-lower-at-open/55927"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Indian Shares Modestly Higher As IT Stocks Surge",
-      "description": "Indian shares were modestly higher on Friday, with information technology stocks outperforming as disappointing tech earnings fueled a rotation out of the artificial intelligence trade globally.",
-      "date": "2026-10-30T04:38:12.844689+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-modestly-higher-as-it-stocks-surge/55925"
     }
   ]
 }
