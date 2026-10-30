@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-30T12:33:04.108739+00:00",
+  "fetched_at": "2026-10-30T12:48:04.153354+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Colgate-Palmolive Q3 Results Rise, Lifts FY26 Base Business EPS View; Stock Gains",
+      "description": "Consumer products major Colgate-Palmolive Co., while reporting higher third-quarter results, on Friday confirmed fiscal 2026 outlook for earnings per share. Further, the firm raised guidance for Base Business earnings per share and gross profit margin, while narrowing sales growth view. In pre-market activity on the NYSE, the shares were gaining around 3.34 percent",
+      "date": "2026-10-30T12:36:04.149641+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/colgate-palmolive-q3-results-rise-lifts-fy26-base-business-eps-view-stock-gains/55954"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "CAD",
+      "title": "Bay Street Likely To Open Notably Lower",
+      "description": "https://tradingeconomics.com/commodities\nhttps://www.rttnews.com/3706244/asian-shares-mixed-as-ai-concerns-pressure-chip-stocks.aspx?type=acom\nhttps://www.rttnews.com/3706421/magna-international-reaffirms-midpoint-of-full-year-outlook-for-adj-eps.aspx?type=cn\nhttps://www.rttnews.com/3705776/canadian-stocks-little-changed-as-investors-parse-boc-rate-decision-u-s-outreach-to-iran.aspx?type=cacom",
+      "date": "2026-10-30T12:28:04.150127+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/bay-street-likely-to-open-notably-lower/55952"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/european-shares-mixed-in-cautious-trade-amid-ai-investment-concerns/55938"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Asian Shares Mixed As AI Concerns Pressure Chip Stocks",
-      "description": "Asian stocks ended mixed on Friday, with tech and semiconductor shares falling amid ongoing AI-related concerns.",
-      "date": "2026-10-30T08:38:12.843173+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/asian-shares-mixed-as-ai-concerns-pressure-chip-stocks/55936"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Yen Rises Against Majors",
-      "description": "The Japanese yen strengthened against other major currencies in the Asian session on Friday.",
-      "date": "2026-10-30T08:12:12.843512+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/yen-rises-against-majors/55935"
     }
   ]
 }
