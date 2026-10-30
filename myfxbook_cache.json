@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-30T10:48:04.619190+00:00",
+  "fetched_at": "2026-10-30T11:03:04.295554+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Indian Shares Extend Gains For Second Day",
+      "description": "Indian shares rose for a second consecutive session on Friday, with information technology stocks leading the surge as disappointing tech earnings fueled a rotation out of the artificial intelligence trade globally.",
+      "date": "2026-10-30T10:35:04.292132+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-extend-gains-for-second-day/55949"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/bank-of-japan-holds-key-rate-as-expected/55929"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "European Shares Seen Broadly Lower At Open",
-      "description": "European stocks are seen opening broadly lower on Friday as a global tech rout deepened. Commodity-heavy FTSE 100 may rise at open as oil prices rose on reports surrounding possible U.S. action on Iran.",
-      "date": "2026-10-30T05:36:12.844408+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-shares-seen-broadly-lower-at-open/55927"
     }
   ]
 }
