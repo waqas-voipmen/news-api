@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-10-30T11:03:04.295554+00:00",
+  "fetched_at": "2026-10-30T11:18:04.443436+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "GBP",
+      "title": "UK Nationwide House Price Growth Softest Since 2024",
+      "description": "UK house prices grew at the slowest pace since the start of 2024 as rising interest rate expectations weighed on the property market in October, data published by Nationwide Building Society showed Friday. House prices grew only 0.5 percent in October from the previous year. This was weaker than the 0.8 percent rise in September and economists' forecast of 0.6 percent.",
+      "date": "2026-10-30T11:00:04.440129+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/uk-nationwide-house-price-growth-softest-since-2024/55951"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "FTSE 100 Modestly Higher; AstraZeneca Rises On Strong Earnings",
+      "description": "U.K. stock market's benchmark FTSE 100 moved higher Friday morning, supported by strong results from pharma major AstraZeneca and energy giant BP. Weakness in bank and mining stocks limited market's upside.",
+      "date": "2026-10-30T10:59:04.440482+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/ftse-100-modestly-higher-astrazeneca-rises-on-strong-earnings/55950"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/yen-rises-against-majors/55935"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "French Economy Shrinks Unexpectedly On Weak Investment, Exports",
-      "description": "The French economy contracted unexpectedly in the third quarter on weak investment and exports, amid high borrowing costs and social unrest clouding the outlook. Gross domestic product fell 0.1 percent sequentially after stagnating in the second quarter, preliminary data from the statistical office INSEE revealed Friday. Economists had forecast the economy to expand 0.1 percent.",
-      "date": "2026-10-30T07:29:12.843832+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/french-economy-shrinks-unexpectedly-on-weak-investment-exports/55933"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Bank Of Japan Holds Key Rate As Expected",
-      "description": "The Bank of Japan left its key interest rate unchanged on Friday after a hike last month as underlying inflation is assessed to be consistent with the 2 percent inflation target. The policy board, governed by Ueda Kazu, voted 8-1 in favor of holding the interest rate at 1.25 percent, the highest since 1995.",
-      "date": "2026-10-30T06:29:12.844147+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/bank-of-japan-holds-key-rate-as-expected/55929"
     }
   ]
 }
