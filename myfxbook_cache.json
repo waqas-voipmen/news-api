@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-10-30T18:48:06.454958+00:00",
+  "fetched_at": "2026-10-30T19:46:42.215621+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "TSX Drops Nearly 2.5%; Materials, Tech Stocks Down Sharply",
+      "description": "Canadian stocks are down sharply on Friday amid renewed fears about inflation and interest rates following oil prices climbing higher amid supply concerns after a tanker attack in the Strait of Hormuz.",
+      "date": "2026-10-30T19:00:42.212107+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/tsx-drops-nearly-25-materials-tech-stocks-down-sharply/55958"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/oil-prices-surge-as-trump-weighs-fresh-military-action-against-iran/55942"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "German Stocks Fall 0.41% As Energy, Tech Drag Despite GDP Surprise",
-      "description": "Germany's DAX index declined 108.05 points to 25,931.63 following four consecutive days of gains. Rising oil prices and tech sector weakness from Amazon and Intel earnings weighed on the benchmark, while economic data showed stronger-than-expected Q3 GDP growth.",
-      "date": "2026-10-30T09:47:12.842236+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/german-stocks-fall-041-as-energy-tech-drag-despite-gdp-surprise/55941"
     }
   ]
 }
