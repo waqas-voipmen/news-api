@@ -1239,7 +1239,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "49.3",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Non-Manufacturing PMI",
@@ -1251,8 +1252,10 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "49.7",
+        "actual_src": "forexfactory"
       }
     ]
-  }
+  },
+  "actuals_at": "2026-10-31T01:30:59.532061+00:00"
 }
