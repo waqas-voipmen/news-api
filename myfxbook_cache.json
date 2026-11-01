@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-01T23:33:06.579545+00:00",
+  "fetched_at": "2026-11-01T23:48:04.258384+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Malaysia Stock Market May Hand Back Friday's Gains",
+      "description": "The Malaysia stock market bounced higher again on Friday, one day after ending the two-day winning streak in which it had collected almost 10 points or 0.6 percent. The Kuala Lumpur Composite Index now sits just above the 1,615-point plateau although it may head south again on Monday.",
+      "date": "2026-11-01T22:34:04.254730+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/malaysia-stock-market-may-hand-back-fridays-gains/55965"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/uk-nationwide-house-price-growth-softest-since-2024/55951"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "FTSE 100 Modestly Higher; AstraZeneca Rises On Strong Earnings",
-      "description": "U.K. stock market's benchmark FTSE 100 moved higher Friday morning, supported by strong results from pharma major AstraZeneca and energy giant BP. Weakness in bank and mining stocks limited market's upside.",
-      "date": "2026-10-30T10:59:04.440482+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/ftse-100-modestly-higher-astrazeneca-rises-on-strong-earnings/55950"
     }
   ]
 }
