@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-11-01T23:18:04.492574+00:00",
+  "fetched_at": "2026-11-01T23:33:06.579545+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australia Manufacturing PMI Steady At 49.6 In October - S&P Global",
+      "description": "The manufacturing sector in Australia continued to contract in October, and at a steady pace, the latest survey from S&P Global revealed on Monday with a Performance of Manufacturing Index score of 49.6.",
+      "date": "2026-11-01T22:27:06.569318+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australia-manufacturing-pmi-steady-at-496-in-october---sp-global/55964"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Tech Shares May Continue To Weigh On Japan Stock Market",
+      "description": "The Japan stock market on Friday ended the three-day winning streak in which it had rallied more than 2,450 points or 4 percent. The Nikkei now sits just above the 63,290-point plateau and it's likely to open under pressure again on Monday.",
+      "date": "2026-11-01T22:19:06.569622+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/tech-shares-may-continue-to-weigh-on-japan-stock-market/55963"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/ftse-100-modestly-higher-astrazeneca-rises-on-strong-earnings/55950"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Indian Shares Extend Gains For Second Day",
-      "description": "Indian shares rose for a second consecutive session on Friday, with information technology stocks leading the surge as disappointing tech earnings fueled a rotation out of the artificial intelligence trade globally.",
-      "date": "2026-10-30T10:35:04.292132+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-extend-gains-for-second-day/55949"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "French Stocks Mixed As Investors React To Earnings, Economic Data",
-      "description": "French stocks turned in a mixed performance Friday morning with investors reacting to corporate earnings announcements and the latest batch of economic data. \n\nData showing an unexpected contraction and higher crude oil prices weighed on sentiment.",
-      "date": "2026-10-30T10:25:04.592946+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/french-stocks-mixed-as-investors-react-to-earnings-economic-data/55947"
     }
   ]
 }
