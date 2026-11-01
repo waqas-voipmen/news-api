@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-01T22:33:04.694513+00:00",
+  "fetched_at": "2026-11-01T22:48:03.842246+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Indonesia Data On Tap For Monday",
+      "description": "Indonesia will release a batch of data on Monday, headlining a busy day for Asia-Pacific economic activity. On tap are September figures for imports, exports and trade balance, plus October data on consumer prices.",
+      "date": "2026-11-01T21:34:03.838732+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indonesia-data-on-tap-for-monday/55961"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/gold-edges-lower-on-interest-rate-concerns/55946"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "GBP",
-      "title": "Pound Rises Amid BoE Rate Hike Speculation",
-      "description": "The British pound strengthened against other major currencies in the European session on Friday, as traders await the widely anticipated interest rate increase by the Bank of England next week.",
-      "date": "2026-10-30T09:53:12.841390+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/pound-rises-amid-boe-rate-hike-speculation/55943"
     }
   ]
 }
