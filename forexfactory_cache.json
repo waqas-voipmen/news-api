@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-01T03:18:04.505785+00:00",
+  "fetched_at": "2026-11-01T03:33:13.376616+00:00",
   "periods": {
     "week": [
       {
@@ -12,6 +12,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
+        "time_label": "All Day",
         "actual": ""
       },
       {
@@ -1006,6 +1007,7 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
+        "time_label": "All Day",
         "actual": "-0.2%",
         "actual_src": "forexfactory"
       },
