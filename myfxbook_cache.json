@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-01T23:03:04.554035+00:00",
+  "fetched_at": "2026-11-01T23:18:04.492574+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "South Korea Shares May Extend Losing Streak",
+      "description": "The South Korea stock market has finished lower in two straight sessions, slumping more than 280 points or 4.6 percent along the way. The KOSPI now sits just above the 5,730-point plateau and it may take further damage on Monday.",
+      "date": "2026-11-01T22:04:04.480238+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/south-korea-shares-may-extend-losing-streak/55962"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/french-stocks-mixed-as-investors-react-to-earnings-economic-data/55947"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "XAU",
-      "title": "Gold Edges Lower On Interest-rate Concerns",
-      "description": "Gold traded lower on Friday and was on course for a second consecutive monthly loss on concerns over rising crude oil prices and expectations of a Federal Reserve interest-rate rise in December.",
-      "date": "2026-10-30T10:16:06.044380+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/gold-edges-lower-on-interest-rate-concerns/55946"
     }
   ]
 }
