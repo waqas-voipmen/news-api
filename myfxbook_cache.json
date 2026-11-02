@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-02T01:48:03.822158+00:00",
+  "fetched_at": "2026-11-02T02:03:04.032463+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "China Manufacturing PMI Eases In September - S&P Global",
+      "description": "The manufacturing sector in China continued to expand in October, albeit at a slower pace, the latest survey from S&P Global revealed on Monday with a Performance of Manufacturing Index score of 52.0.",
+      "date": "2026-11-02T00:53:04.028267+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/china-manufacturing-pmi-eases-in-september---sp-global/55981"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indonesia-manufacturing-sector-accelerates-in-october---sp-global/55969"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australia Building Consents Climb 5.1% In September",
-      "description": "The total number of building permits issued in Australia was up a seasonally adjusted 5.1 percent on month in September, the Australian Bureau of Statistics said on Monday - coming in at 17,948.",
-      "date": "2026-11-01T23:46:04.070222+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australia-building-consents-climb-51-in-september/55968"
     }
   ]
 }
