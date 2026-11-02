@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-02T07:33:03.830503+00:00",
+  "fetched_at": "2026-11-02T07:48:03.684444+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Yen Falls Against Majors",
+      "description": "The Japanese yen weakened against other major currencies in the Asian session on Monday.",
+      "date": "2026-11-02T06:39:03.679940+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/yen-falls-against-majors/55994"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/china-stock-market-may-see-continued-consolidation/55976"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Malaysia Manufacturing PMI Climbs Into Expansion Territory - S&P Global",
-      "description": "The manufacturing sector in Malaysia moved to expansion in October, the latest survey from S&P Global revealed on Monday with a Performance of Manufacturing Index score of 51.0.",
-      "date": "2026-11-02T00:01:04.416107+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/malaysia-manufacturing-pmi-climbs-into-expansion-territory---sp-global/55975"
     }
   ]
 }
