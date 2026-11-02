@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-11-02T12:03:04.142813+00:00",
+  "fetched_at": "2026-11-02T12:18:04.475212+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "FTSE 100 Edges Down 0.06% As Energy Stocks Weigh",
+      "description": "U.K. stocks showed mixed performance Monday amid cautious trading ahead of the Bank of England's monetary policy announcement. Mining and real estate stocks gained while energy stocks fell as crude oil prices declined sharply on diplomatic hopes regarding Iran.",
+      "date": "2026-11-02T11:12:04.471965+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/ftse-100-edges-down-006-as-energy-stocks-weigh/56013"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "Dollar Rallied Last Week Amidst Rate Hike Bets",
+      "description": "The U.S. Dollar firmed up during the week ended October 30 amidst hawkish monetary policy signals from the Fed, a rise in PCE-based inflation readings, solid U.S. economic growth update as well as persisting safe haven demand.",
+      "date": "2026-11-02T11:05:04.472247+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/dollar-rallied-last-week-amidst-rate-hike-bets/56012"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/european-shares-seen-higher-as-lower-oil-prices-ease-inflation-fears/55991"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Indian Shares Rally As Crude Oil Eases",
-      "description": "Indian shares opened on a buoyant note on Monday, with easing oil prices and renewed buying from foreign institutional investors amid concerns over the outlook for AI trade elsewhere globally helping underpin investor sentiment.",
-      "date": "2026-11-02T03:29:04.261922+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-rally-as-crude-oil-eases/55987"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "XAU",
-      "title": "Australian Market Extends Early Losses In Mid-market",
-      "description": "The Australian stock market is extending its early losses in mid-market trading on Monday, reversing some of the gains in the previous two sessions, following the broadly negative cues from Wall Street on Friday. The benchmark S&P/ASX 200 index is falling below the 8,850.00 level, with weakness in gold mining and financial stocks partially offset by gains in energy stocks.",
-      "date": "2026-11-02T02:26:04.263802+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-market-extends-early-losses-in-mid-market/55985"
     }
   ]
 }
