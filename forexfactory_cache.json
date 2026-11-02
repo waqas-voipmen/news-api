@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-02T19:33:12.605379+00:00",
+  "fetched_at": "2026-11-02T19:48:12.199348+00:00",
   "periods": {
     "week": [
       {
@@ -288,7 +288,7 @@
       {
         "title": "Loan Officer Survey",
         "country": "USD",
-        "date": "2026-11-02T14:03:00-05:00",
+        "date": "2026-11-02T14:00:00-05:00",
         "impact": "Low",
         "forecast": "",
         "previous": "",
