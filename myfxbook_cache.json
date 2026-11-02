@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-02T23:03:04.020545+00:00",
+  "fetched_at": "2026-11-02T23:18:08.065708+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "KOSPI May Spin Its Wheels On Tuesday",
+      "description": "The South Korea stock market on Monday snapped the two-day slide in which it had given up more than 280 points or 4.6 percent. The KOSPI now sits just beneath the 5,860-point plateau although it may be stuck in neutral on Tuesday.",
+      "date": "2026-11-02T22:04:08.050403+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/kospi-may-spin-its-wheels-on-tuesday/56028"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/dollar-rallied-last-week-amidst-rate-hike-bets/56012"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "French Stocks Rise Despite Fitch Downgrade; Oil's Tumble Aids Sentiment",
-      "description": "Oil prices fell sharply to $108.75 per barrel Monday as discussions between Iranian officials and Qatari mediators offered hope for resolving supply concerns. French stocks advanced with the CAC 40 gaining 0.36%, though Fitch downgraded the nation's credit outlook citing public finance sustainability risks.",
-      "date": "2026-11-02T10:34:03.968990+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/french-stocks-rise-despite-fitch-downgrade-oils-tumble-aids-sentiment/56010"
     }
   ]
 }
