@@ -166,7 +166,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "49.5",
+        "actual_src": "forexfactory"
       },
       {
         "title": "German Final Manufacturing PMI",
@@ -1403,5 +1404,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-02T08:50:29.619218+00:00"
 }
