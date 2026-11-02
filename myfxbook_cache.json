@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-11-02T01:33:04.161832+00:00",
+  "fetched_at": "2026-11-02T01:48:03.822158+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Japanese Market Slightly Lower",
+      "description": "The Japanese stock market is slightly lower on Monday, extending the losses in the previous session, following the broadly negative cues from Wall Street on Friday. The Nikkei 225 is falling below the 63,250 level, with weakness in automakers and financial stocks partially offset by gains in exporter stocks.",
+      "date": "2026-11-02T00:38:03.818450+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/japanese-market-slightly-lower/55980"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Losses May Accelerate For Indonesia Stock Market",
+      "description": "The Indonesia stock market has finished lower in two straight sessions, slumping more than 225 points or 4 percent along the way. The Jakarta Composite Index now sits just above the 5,050-point plateau and it may see continued consolidation on Monday.",
+      "date": "2026-11-02T00:34:03.818779+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/losses-may-accelerate-for-indonesia-stock-market/55979"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/australia-building-consents-climb-51-in-september/55968"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "No Help Yet For Taiwan Stock Market",
-      "description": "The Taiwan stock market has finished lower in two straight sessions, tumbling more than 1,800 points or 4 percent along the way. The Taiwan Stock Exchange now sits just above the 45,200-point plateau and it's expected to open in the red again on Monday.",
-      "date": "2026-11-01T23:34:04.070562+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/no-help-yet-for-taiwan-stock-market/55967"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Losing Streak May Continue For Singapore Stock Market",
-      "description": "The Singapore stock market has moved lower in back-to-back sessions, slumping more than 20 points or 0.4 percent along the way. The Straits Times Index now sits just above the 5,375-point plateau and it may extend its losses on Monday.",
-      "date": "2026-11-01T23:04:04.152212+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/losing-streak-may-continue-for-singapore-stock-market/55966"
     }
   ]
 }
