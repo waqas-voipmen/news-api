@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-02T13:18:06.361457+00:00",
+  "fetched_at": "2026-11-02T13:33:05.046604+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Bay Street Set For Positive Open As Oil Prices Plunge",
+      "description": "Canadian equities poised for gains Monday as crude oil prices drop sharply on Iran-Qatar diplomatic discussions. Imperial Oil reports Q3 earnings of $5.11 per share versus $2.17 a year ago. Multiple companies scheduled to report quarterly results today.",
+      "date": "2026-11-02T12:18:05.043124+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/bay-street-set-for-positive-open-as-oil-prices-plunge/56016"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/asian-shares-mixed-as-oil-prices-ease/55997"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Yen Falls Against Majors",
-      "description": "The Japanese yen weakened against other major currencies in the Asian session on Monday.",
-      "date": "2026-11-02T06:39:03.679940+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/yen-falls-against-majors/55994"
     }
   ]
 }
