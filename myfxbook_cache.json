@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-02T02:03:04.032463+00:00",
+  "fetched_at": "2026-11-02T02:18:04.019477+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Thai Stock Market May Test Support At 1,500 Points",
+      "description": "The Thai stock market has finished lower in four straight sessions, sliding more than 60 points or 3.7 percent in that span. The Stock Exchange of Thailand now sits just beneath the 1,520-point plateau and it's looking at another soft start again on Monday.",
+      "date": "2026-11-02T01:04:04.014941+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/thai-stock-market-may-test-support-at-1500-points/55982"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/thai-manufacturing-pmi-improves-to-548-in-september---sp-global/55970"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Indonesia Manufacturing Sector Accelerates In October - S&P Global",
-      "description": "The manufacturing sector in Indonesia continued to expand in October, and at a faster pace, the latest survey from S&P Global revealed on Monday with a Performance of Manufacturing Index score of 54.0.",
-      "date": "2026-11-01T23:49:04.265656+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indonesia-manufacturing-sector-accelerates-in-october---sp-global/55969"
     }
   ]
 }
