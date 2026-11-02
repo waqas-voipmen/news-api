@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-02T22:33:07.460229+00:00",
+  "fetched_at": "2026-11-02T22:48:05.021194+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australia Rate Decision On Tap For Tuesday",
+      "description": "The Reserve Bank of Australia will wrap up its monetary policy meeting and then announce its decision on interest rates, highlighting a light day for Asia-Pacific economic activity. The RBA is widely expected to hike its benchmark lending rate by 25 basis points, to 4.85 percent from 4.60 percent.",
+      "date": "2026-11-02T21:34:05.012829+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australia-rate-decision-on-tap-for-tuesday/56027"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/french-stocks-rise-despite-fitch-downgrade-oils-tumble-aids-sentiment/56010"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "DAX Gains 0.4% As Lower Oil Prices Boost Sentiment",
-      "description": "German stocks climbed Monday as oil prices fell on diplomatic hopes between Iran and Qatar, though a 2% monthly drop in September retail sales limited gains. The DAX gained 0.4%. Fresenius rose 2.5% after signing a biosimilars agreement with WuXi Biologics.",
-      "date": "2026-11-02T10:01:04.094755+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/dax-gains-04-as-lower-oil-prices-boost-sentiment/56007"
     }
   ]
 }
