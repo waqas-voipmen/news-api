@@ -243,7 +243,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "54.9",
+        "actual_src": "forexfactory"
       },
       {
         "title": "ISM Manufacturing PMI",
@@ -1408,5 +1409,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-02T14:45:29.332897+00:00"
 }
