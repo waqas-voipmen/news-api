@@ -307,7 +307,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-7.9%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Bank Holiday",
@@ -1411,5 +1412,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-02T21:46:13.690253+00:00"
 }
