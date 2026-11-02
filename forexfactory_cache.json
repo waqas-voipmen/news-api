@@ -101,7 +101,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-2.0%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Retail Sales y/y",
@@ -1398,5 +1399,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-02T07:00:29.666649+00:00"
 }
