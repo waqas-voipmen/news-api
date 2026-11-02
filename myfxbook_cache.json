@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-11-02T09:18:03.892429+00:00",
+  "fetched_at": "2026-11-02T09:33:04.067572+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Oil Prices Slump As Iran-Qatar Talks Continue",
+      "description": "Oil prices tumbled on Monday as investors weighed reports of continued talks between Iranian and Qatari officials aimed at ending the U.S.-Israeli war on Iran against fears of renewed U.S. military action against Iran.",
+      "date": "2026-11-02T08:27:04.064175+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/oil-prices-slump-as-iran-qatar-talks-continue/56000"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "European Shares Struggle For Direction In Lackluster Trade",
+      "description": "European stocks struggled for direction on Monday after Fitch warned that France's debt outlook is worsening, expressing doubts about the country's ability to sustainably restore its public finances after the 2027 presidential election.",
+      "date": "2026-11-02T08:14:04.064452+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-shares-struggle-for-direction-in-lackluster-trade/55999"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/japanese-market-slightly-lower/55980"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Losses May Accelerate For Indonesia Stock Market",
-      "description": "The Indonesia stock market has finished lower in two straight sessions, slumping more than 225 points or 4 percent along the way. The Jakarta Composite Index now sits just above the 5,050-point plateau and it may see continued consolidation on Monday.",
-      "date": "2026-11-02T00:34:03.818779+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/losses-may-accelerate-for-indonesia-stock-market/55979"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Hong Kong Stock Market May Head South Again On Monday",
-      "description": "The Hong Kong stock market has alternated between positive and negative finishes through the last four trading days since the end of the two-day winning streak in which it had picked up more than 275 points or 1.2 percent. The Hang Seng now sits just beneath the 23,300-point plateau although it's likely to hand those gains back on Monday.",
-      "date": "2026-11-02T00:19:04.156963+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/hong-kong-stock-market-may-head-south-again-on-monday/55978"
     }
   ]
 }
