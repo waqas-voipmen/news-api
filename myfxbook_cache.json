@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-02T00:03:03.894599+00:00",
+  "fetched_at": "2026-11-02T00:18:04.156328+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Losing Streak May Continue For Singapore Stock Market",
+      "description": "The Singapore stock market has moved lower in back-to-back sessions, slumping more than 20 points or 0.4 percent along the way. The Straits Times Index now sits just above the 5,375-point plateau and it may extend its losses on Monday.",
+      "date": "2026-11-01T23:04:04.152212+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/losing-streak-may-continue-for-singapore-stock-market/55966"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/bay-street-likely-to-open-notably-lower/55952"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "GBP",
-      "title": "UK Nationwide House Price Growth Softest Since 2024",
-      "description": "UK house prices grew at the slowest pace since the start of 2024 as rising interest rate expectations weighed on the property market in October, data published by Nationwide Building Society showed Friday. House prices grew only 0.5 percent in October from the previous year. This was weaker than the 0.8 percent rise in September and economists' forecast of 0.6 percent.",
-      "date": "2026-10-30T11:00:04.440129+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/uk-nationwide-house-price-growth-softest-since-2024/55951"
     }
   ]
 }
