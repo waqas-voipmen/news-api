@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-02T10:48:03.980092+00:00",
+  "fetched_at": "2026-11-02T11:03:04.097948+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "DAX Gains 0.4% As Lower Oil Prices Boost Sentiment",
+      "description": "German stocks climbed Monday as oil prices fell on diplomatic hopes between Iran and Qatar, though a 2% monthly drop in September retail sales limited gains. The DAX gained 0.4%. Fresenius rose 2.5% after signing a biosimilars agreement with WuXi Biologics.",
+      "date": "2026-11-02T10:01:04.094755+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/dax-gains-04-as-lower-oil-prices-boost-sentiment/56007"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/asian-markets-trade-mixed/55984"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Indian Shares Seen Higher As AI Selloff Deepens, Oil Prices Ease",
-      "description": "Indian shares look set to open higher on Monday, with information technology stocks in the spotlight after the tech-heavy Nasdaq plunged to its lowest closing level in three months on Friday amid renewed concerns about the artificial intelligence trade.\n \nAdditionally, ongoing discussions involving Iranian officials and Qatari mediators have raised hopes of possible breakthrough that could ease supply concerns and improve the outlook for global energy markets.",
-      "date": "2026-11-02T01:34:04.056293+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-seen-higher-as-ai-selloff-deepens-oil-prices-ease/55983"
     }
   ]
 }
