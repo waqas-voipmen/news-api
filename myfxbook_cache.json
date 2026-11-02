@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-02T23:33:07.606203+00:00",
+  "fetched_at": "2026-11-02T23:48:27.969619+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Little Movement Expected For Malaysia Stock Market",
+      "description": "The Malaysia stock market has finished higher in back-to-back sessions, gathering more than 8 points or 0.5 percent along the way. The Kuala Lumpur Composite Index now sits just beneath the 1,620-point plateau and it figures to remain in that neighborhood again on Tuesday.",
+      "date": "2026-11-02T22:34:27.959204+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/little-movement-expected-for-malaysia-stock-market/56029"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/ftse-100-edges-down-006-as-energy-stocks-weigh/56013"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "Dollar Rallied Last Week Amidst Rate Hike Bets",
-      "description": "The U.S. Dollar firmed up during the week ended October 30 amidst hawkish monetary policy signals from the Fed, a rise in PCE-based inflation readings, solid U.S. economic growth update as well as persisting safe haven demand.",
-      "date": "2026-11-02T11:05:04.472247+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/dollar-rallied-last-week-amidst-rate-hike-bets/56012"
     }
   ]
 }
