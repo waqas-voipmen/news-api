@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-11-02T15:48:08.619185+00:00",
+  "fetched_at": "2026-11-02T16:03:06.442727+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Construction Spending Unexpectedly Pulls Back Sharply In September",
+      "description": "Construction spending in the U.S. unexpectedly pulled back sharply in the month of September, according to a report released by the Commerce Department on Monday. The report said construction spending tumbled by 1.9 percent to an annual rate of $2.186 trillion in September after surging by 2.0 percent to a revised rate of $2.227 trillion in August.",
+      "date": "2026-11-02T14:53:06.428049+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-construction-spending-unexpectedly-pulls-back-sharply-in-september/56020"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Manufacturing Index Increases More Than Expected In October",
+      "description": "The Institute for Supply Management released a report on Monday showing its reading on U.S. manufacturing activity increased by more than expected in the month of October. The ISM said its manufacturing PMI rose to 55.5 in October after edging down to 54.5 in September, with a reading above 50 indicating growth. Economists had expected the index to inch up to 54.6.",
+      "date": "2026-11-02T14:48:06.431068+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-manufacturing-index-increases-more-than-expected-in-october/56019"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/european-shares-struggle-for-direction-in-lackluster-trade/55999"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Yen Falls After Japan Katayama's Intervention Warning",
-      "description": "The Japanese yen weakened against other major currencies in the Asian session on Monday, after Japan's Finance Minister Satsuki Katayama remarks due to uncertainty over when the BoJ is expected to raise rates next.",
-      "date": "2026-11-02T07:52:03.841848+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/yen-falls-after-japan-katayamas-intervention-warning/55998"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Asian Shares Mixed As Oil Prices Ease",
-      "description": "Asian stocks ended mixed on Monday amid growing concerns about massive AI spending. Asia's factory growth continued to expand in October, but growth slowed in major chip exporters, private surveys showed earlier today.",
-      "date": "2026-11-02T07:41:04.087141+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/asian-shares-mixed-as-oil-prices-ease/55997"
     }
   ]
 }
