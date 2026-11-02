@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-02T08:48:04.090680+00:00",
+  "fetched_at": "2026-11-02T09:03:03.846136+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Yen Falls After Japan Katayama's Intervention Warning",
+      "description": "The Japanese yen weakened against other major currencies in the Asian session on Monday, after Japan's Finance Minister Satsuki Katayama remarks due to uncertainty over when the BoJ is expected to raise rates next.",
+      "date": "2026-11-02T07:52:03.841848+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/yen-falls-after-japan-katayamas-intervention-warning/55998"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/hong-kong-stock-market-may-head-south-again-on-monday/55978"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australian Markets Modestly Lower",
-      "description": "The Australian stock market is modestly lower on Monday, reversing some of the gains in the previous two sessions, following the broadly negative cues from Wall Street on Friday. The benchmark S&P/ASX 200 index is falling below the 8,900.00 level, with weakness in mining and technology stocks partially offset by gains in financial stocks.",
-      "date": "2026-11-02T00:11:04.415520+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-markets-modestly-lower/55977"
     }
   ]
 }
