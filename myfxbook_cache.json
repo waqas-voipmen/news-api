@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-02T13:03:04.215020+00:00",
+  "fetched_at": "2026-11-02T13:18:06.361457+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Marriott Lifts FY26 Outlook After Higher Q3; Shares Rise",
+      "description": "Marriott International, Inc., while reporting higher third-quarter profit, revenues and global RevPAR, on Monday issued outlook for its fourth quarter, and raised fiscal 2026 view citing expectations for continued healthy demand. In pre-market activity on Nasdaq, the shares were gaining around 3.18 percent.",
+      "date": "2026-11-02T12:03:06.357729+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/marriott-lifts-fy26-outlook-after-higher-q3-shares-rise/56014"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/yen-falls-against-majors/55994"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "European Shares Seen Higher As Lower Oil Prices Ease Inflation Fears",
-      "description": "European stocks are seen opening broadly higher on Monday as inflation concerns eased ahead of U.S. midterm elections.",
-      "date": "2026-11-02T04:44:06.866621+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-shares-seen-higher-as-lower-oil-prices-ease-inflation-fears/55991"
     }
   ]
 }
