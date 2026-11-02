@@ -205,7 +205,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "52.8",
+        "actual_src": "forexfactory"
       },
       {
         "title": "German Buba President Nagel Speaks",
@@ -1406,5 +1407,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-02T09:30:13.012461+00:00"
 }
