@@ -88,7 +88,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "12.5%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "German Retail Sales m/m",
@@ -1397,5 +1398,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-02T05:32:00.775397+00:00"
 }
