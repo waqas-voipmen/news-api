@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-02T09:33:04.067572+00:00",
+  "fetched_at": "2026-11-02T09:48:04.149516+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "XAU",
+      "title": "Gold Edges Higher As Inflation Concerns Ease",
+      "description": "Gold prices traded higher on Monday as inflation concerns eased ahead of U.S. midterm elections.",
+      "date": "2026-11-02T08:42:04.145279+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/gold-edges-higher-as-inflation-concerns-ease/56001"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/china-manufacturing-pmi-eases-in-september---sp-global/55981"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Japanese Market Slightly Lower",
-      "description": "The Japanese stock market is slightly lower on Monday, extending the losses in the previous session, following the broadly negative cues from Wall Street on Friday. The Nikkei 225 is falling below the 63,250 level, with weakness in automakers and financial stocks partially offset by gains in exporter stocks.",
-      "date": "2026-11-02T00:38:03.818450+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/japanese-market-slightly-lower/55980"
     }
   ]
 }
