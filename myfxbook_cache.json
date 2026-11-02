@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-11-02T00:33:04.896735+00:00",
+  "fetched_at": "2026-11-02T00:48:04.073955+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australia Building Consents Climb 5.1% In September",
+      "description": "The total number of building permits issued in Australia was up a seasonally adjusted 5.1 percent on month in September, the Australian Bureau of Statistics said on Monday - coming in at 17,948.",
+      "date": "2026-11-01T23:46:04.070222+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australia-building-consents-climb-51-in-september/55968"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "No Help Yet For Taiwan Stock Market",
+      "description": "The Taiwan stock market has finished lower in two straight sessions, tumbling more than 1,800 points or 4 percent along the way. The Taiwan Stock Exchange now sits just above the 45,200-point plateau and it's expected to open in the red again on Monday.",
+      "date": "2026-11-01T23:34:04.070562+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/no-help-yet-for-taiwan-stock-market/55967"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/chicago-business-barometer-pulls-back-but-still-indicates-growth-in-october/55955"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Colgate-Palmolive Q3 Results Rise, Lifts FY26 Base Business EPS View; Stock Gains",
-      "description": "Consumer products major Colgate-Palmolive Co., while reporting higher third-quarter results, on Friday confirmed fiscal 2026 outlook for earnings per share. Further, the firm raised guidance for Base Business earnings per share and gross profit margin, while narrowing sales growth view. In pre-market activity on the NYSE, the shares were gaining around 3.34 percent",
-      "date": "2026-10-30T12:36:04.149641+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/colgate-palmolive-q3-results-rise-lifts-fy26-base-business-eps-view-stock-gains/55954"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "CAD",
-      "title": "Bay Street Likely To Open Notably Lower",
-      "description": "https://tradingeconomics.com/commodities\nhttps://www.rttnews.com/3706244/asian-shares-mixed-as-ai-concerns-pressure-chip-stocks.aspx?type=acom\nhttps://www.rttnews.com/3706421/magna-international-reaffirms-midpoint-of-full-year-outlook-for-adj-eps.aspx?type=cn\nhttps://www.rttnews.com/3705776/canadian-stocks-little-changed-as-investors-parse-boc-rate-decision-u-s-outreach-to-iran.aspx?type=cacom",
-      "date": "2026-10-30T12:28:04.150127+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/bay-street-likely-to-open-notably-lower/55952"
     }
   ]
 }

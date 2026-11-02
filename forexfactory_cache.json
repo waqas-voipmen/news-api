@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-02T00:33:13.693594+00:00",
+  "fetched_at": "2026-11-02T00:48:12.221279+00:00",
   "periods": {
     "week": [
       {
@@ -64,19 +64,6 @@
         "link": null,
         "actual": "53.3",
         "actual_src": "forexfactory"
-      },
-      {
-        "title": "ANZ Job Advertisements m/m",
-        "country": "AUD",
-        "date": "2026-11-01T19:45:00-05:00",
-        "impact": "Low",
-        "forecast": "",
-        "previous": "2.2%",
-        "source": "ForexFactory",
-        "type": "calendar",
-        "link": null,
-        "time_label": "Tentative",
-        "actual": ""
       },
       {
         "title": "RatingDog Manufacturing PMI",
