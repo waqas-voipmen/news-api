@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-02T11:33:05.175583+00:00",
+  "fetched_at": "2026-11-02T11:48:03.972096+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "French Stocks Rise Despite Fitch Downgrade; Oil's Tumble Aids Sentiment",
+      "description": "Oil prices fell sharply to $108.75 per barrel Monday as discussions between Iranian officials and Qatari mediators offered hope for resolving supply concerns. French stocks advanced with the CAC 40 gaining 0.36%, though Fitch downgraded the nation's credit outlook citing public finance sustainability risks.",
+      "date": "2026-11-02T10:34:03.968990+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/french-stocks-rise-despite-fitch-downgrade-oils-tumble-aids-sentiment/56010"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/australian-market-extends-early-losses-in-mid-market/55985"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Asian Markets Trade Mixed",
-      "description": "Asian markets are trading mixed on Monday, following the broadly negative cues from Wall Street on Friday, amid weakness in technology stock which mirrored their peers on tech-heavy Nasdaq on renewed concerns about the AI trade. Markets also keep an eye on the ongoing discussions between Qatari mediators and Iranian officials to end hostilities in the Middle East which could ease supply concerns.",
-      "date": "2026-11-02T02:12:03.525581+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/asian-markets-trade-mixed/55984"
     }
   ]
 }
