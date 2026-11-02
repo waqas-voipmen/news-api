@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-02T08:33:10.883938+00:00",
+  "fetched_at": "2026-11-02T08:48:10.310804+00:00",
   "periods": {
     "week": [
       {
@@ -153,8 +153,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": "52.2",
-        "actual_src": "fxstreet"
+        "actual": "49.4",
+        "actual_src": "forexfactory"
       },
       {
         "title": "French Final Manufacturing PMI",
