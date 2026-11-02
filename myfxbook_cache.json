@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-02T04:18:03.551779+00:00",
+  "fetched_at": "2026-11-02T04:33:04.265536+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Indian Shares Rally As Crude Oil Eases",
+      "description": "Indian shares opened on a buoyant note on Monday, with easing oil prices and renewed buying from foreign institutional investors amid concerns over the outlook for AI trade elsewhere globally helping underpin investor sentiment.",
+      "date": "2026-11-02T03:29:04.261922+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-rally-as-crude-oil-eases/55987"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/japan-manufacturing-pmi-slips-to-533-in-october---sp-global/55974"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "South Korea Manufacturing Sector Ebbs In October - S&P Global",
-      "description": "The manufacturing sector in South Korea continued to expand in October, albeit at a slower pace, the latest survey from S&P Global revealed on Monday with a Performance of Manufacturing Index score of 51.3.",
-      "date": "2026-11-01T23:57:04.263273+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/south-korea-manufacturing-sector-ebbs-in-october---sp-global/55973"
     }
   ]
 }
