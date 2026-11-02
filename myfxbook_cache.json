@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-02T22:03:07.615170+00:00",
+  "fetched_at": "2026-11-02T22:18:07.190130+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "U.S. Dollar Ticks Lower As Crude Oil Nosedives Amid Qatar's Push For U.S.-Iran Diplomacy",
+      "description": "The U.S. Dollar value inched lower on Monday as oil-linked inflation concerns lowered after expectations on reopening of the Strait of Hormuz increased due to hopes that the ongoing U.S.-Iran conflict could settle through the diplomatic route.",
+      "date": "2026-11-02T21:01:07.166818+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-dollar-ticks-lower-as-crude-oil-nosedives-amid-qatars-push-for-us-iran-diplomacy/56026"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/dax-gains-04-as-lower-oil-prices-boost-sentiment/56007"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "EUR",
-      "title": "Eurozone Manufacturing Sector Logs Robust Growth",
-      "description": "The euro area manufacturing activity expanded at a solid pace in October despite slowdown in factory order growth and intensifying supply-chain pressures, final purchasing managers' survey data from S&P Global showed Monday. The final manufacturing Purchasing Managers' Index fell to 52.7 in October from 52.9 in the previous month, which was the highest score since May 2022.",
-      "date": "2026-11-02T09:39:03.976841+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/eurozone-manufacturing-sector-logs-robust-growth/56005"
     }
   ]
 }
