@@ -256,7 +256,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "55.5",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Construction Spending m/m",
@@ -268,7 +269,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-1.9%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "ISM Manufacturing Prices",
@@ -280,7 +282,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "75.2",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Loan Officer Survey",
@@ -1409,5 +1412,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-02T15:00:29.279704+00:00"
 }
