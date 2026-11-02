@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-02T21:48:04.601472+00:00",
+  "fetched_at": "2026-11-02T22:03:07.615170+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "NZD",
+      "title": "New Zealand Building Consents Sink 7.9% In September",
+      "description": "The total number of building permits issued in New Zealand was down a seasonally adjusted 7.9 percent on month in September, Statistics New Zealand said on Tuesday - following the 5.3 percent increase in August.",
+      "date": "2026-11-02T20:53:07.598914+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/new-zealand-building-consents-sink-79-in-september/56025"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/eurozone-manufacturing-sector-logs-robust-growth/56005"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Indian Shares Rise For Third Day, Reliance And Tata Steel Lead Rally",
-      "description": "Indian shares rose sharply on Monday, extending gains for a third consecutive session as heavyweight Reliance posted stronger-than-expected quarterly earnings and oil prices slumped amid diplomatic efforts to end the war in Iran.",
-      "date": "2026-11-02T09:38:03.977206+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-rise-for-third-day-reliance-and-tata-steel-lead-rally/56004"
     }
   ]
 }
