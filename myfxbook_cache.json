@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-02T05:33:03.812402+00:00",
+  "fetched_at": "2026-11-02T05:48:06.873545+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "European Shares Seen Higher As Lower Oil Prices Ease Inflation Fears",
+      "description": "European stocks are seen opening broadly higher on Monday as inflation concerns eased ahead of U.S. midterm elections.",
+      "date": "2026-11-02T04:44:06.866621+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-shares-seen-higher-as-lower-oil-prices-ease-inflation-fears/55991"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/malaysia-manufacturing-pmi-climbs-into-expansion-territory---sp-global/55975"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Japan Manufacturing PMI Slips To 53.3 In October - S&P Global",
-      "description": "The manufacturing sector in Japan continued to expand in October, albeit at a slower pace, the latest survey from S&P Global revealed on Monday with a Performance of Manufacturing Index score of 53.3.",
-      "date": "2026-11-01T23:59:04.262602+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/japan-manufacturing-pmi-slips-to-533-in-october---sp-global/55974"
     }
   ]
 }
