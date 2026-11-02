@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-02T17:03:06.782224+00:00",
+  "fetched_at": "2026-11-02T17:18:04.652635+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "TSX Up Over 1% As Oil's Slide Lifts Sentiment",
+      "description": "The Canadian market is up firmly in positive territory around noon on Monday with stocks from various sectors moving up sharply amid easing concerns about inflation following a sharp drop in oil prices.",
+      "date": "2026-11-02T16:06:04.648403+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/tsx-up-over-1-as-oils-slide-lifts-sentiment/56021"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/oil-prices-slump-as-iran-qatar-talks-continue/56000"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "European Shares Struggle For Direction In Lackluster Trade",
-      "description": "European stocks struggled for direction on Monday after Fitch warned that France's debt outlook is worsening, expressing doubts about the country's ability to sustainably restore its public finances after the 2027 presidential election.",
-      "date": "2026-11-02T08:14:04.064452+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-shares-struggle-for-direction-in-lackluster-trade/55999"
     }
   ]
 }
