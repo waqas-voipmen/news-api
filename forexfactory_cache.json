@@ -192,7 +192,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "52.7",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Final Manufacturing PMI",
@@ -1406,5 +1407,5 @@
       }
     ]
   },
-  "actuals_at": "2026-11-02T08:55:48.118753+00:00"
+  "actuals_at": "2026-11-02T09:00:13.440443+00:00"
 }
