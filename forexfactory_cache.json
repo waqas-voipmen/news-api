@@ -140,7 +140,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "56.7",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Italian Manufacturing PMI",
@@ -1402,5 +1403,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-02T08:30:13.290969+00:00"
 }
