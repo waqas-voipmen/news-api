@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-02T18:03:08.766645+00:00",
+  "fetched_at": "2026-11-02T18:18:07.451749+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "European Markets Rise As Oil Falls On Iran Peace Hopes",
+      "description": "Major European indices climbed Monday as oil prices dropped sharply on expectations that Iranian and Qatari diplomatic discussions could ease Middle East tensions. The pan-European Stoxx 600 gained 0.42%, while UK, German, and French markets advanced. Investors also digested October PMI data ahead of the Bank of England's monetary policy announcement.",
+      "date": "2026-11-02T17:09:07.410432+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-markets-rise-as-oil-falls-on-iran-peace-hopes/56022"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/gold-edges-higher-as-inflation-concerns-ease/56001"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Oil Prices Slump As Iran-Qatar Talks Continue",
-      "description": "Oil prices tumbled on Monday as investors weighed reports of continued talks between Iranian and Qatari officials aimed at ending the U.S.-Israeli war on Iran against fears of renewed U.S. military action against Iran.",
-      "date": "2026-11-02T08:27:04.064175+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/oil-prices-slump-as-iran-qatar-talks-continue/56000"
     }
   ]
 }
