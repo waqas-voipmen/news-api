@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-02T03:03:04.061197+00:00",
+  "fetched_at": "2026-11-02T03:18:03.529352+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Asian Markets Trade Mixed",
+      "description": "Asian markets are trading mixed on Monday, following the broadly negative cues from Wall Street on Friday, amid weakness in technology stock which mirrored their peers on tech-heavy Nasdaq on renewed concerns about the AI trade. Markets also keep an eye on the ongoing discussions between Qatari mediators and Iranian officials to end hostilities in the Middle East which could ease supply concerns.",
+      "date": "2026-11-02T02:12:03.525581+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/asian-markets-trade-mixed/55984"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/taiwan-manufacturing-sector-slows-in-october---sp-global/55972"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Vietnam Manufacturing Sector Picks Up Steam In October - S&P Global",
-      "description": "The manufacturing sector in Vietnam continued to expand in October, and at a faster pace, the latest survey from S&P Global revealed on Monday with a Performance of Manufacturing Index score of 52.3.",
-      "date": "2026-11-01T23:53:04.264125+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/vietnam-manufacturing-sector-picks-up-steam-in-october---sp-global/55971"
     }
   ]
 }
