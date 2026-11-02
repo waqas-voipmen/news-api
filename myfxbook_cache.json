@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-02T02:33:04.185087+00:00",
+  "fetched_at": "2026-11-02T02:48:04.060646+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Indian Shares Seen Higher As AI Selloff Deepens, Oil Prices Ease",
+      "description": "Indian shares look set to open higher on Monday, with information technology stocks in the spotlight after the tech-heavy Nasdaq plunged to its lowest closing level in three months on Friday amid renewed concerns about the artificial intelligence trade.\n \nAdditionally, ongoing discussions involving Iranian officials and Qatari mediators have raised hopes of possible breakthrough that could ease supply concerns and improve the outlook for global energy markets.",
+      "date": "2026-11-02T01:34:04.056293+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-seen-higher-as-ai-selloff-deepens-oil-prices-ease/55983"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/vietnam-manufacturing-sector-picks-up-steam-in-october---sp-global/55971"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Thai Manufacturing PMI Improves To 54.8 In September - S&P Global",
-      "description": "The manufacturing sector in Thailand continued to expand in October, and at a faster pace, the latest survey from S&P Global revealed on Monday with a Performance of Manufacturing Index score of 54.8.",
-      "date": "2026-11-01T23:51:04.265335+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/thai-manufacturing-pmi-improves-to-548-in-september---sp-global/55970"
     }
   ]
 }
