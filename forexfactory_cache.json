@@ -75,7 +75,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "52.0",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Commodity Prices y/y",
@@ -1396,5 +1397,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-02T01:45:13.441911+00:00"
 }
