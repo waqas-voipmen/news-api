@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-11-02T10:33:04.558787+00:00",
+  "fetched_at": "2026-11-02T10:48:03.980092+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "EUR",
+      "title": "Eurozone Manufacturing Sector Logs Robust Growth",
+      "description": "The euro area manufacturing activity expanded at a solid pace in October despite slowdown in factory order growth and intensifying supply-chain pressures, final purchasing managers' survey data from S&P Global showed Monday. The final manufacturing Purchasing Managers' Index fell to 52.7 in October from 52.9 in the previous month, which was the highest score since May 2022.",
+      "date": "2026-11-02T09:39:03.976841+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/eurozone-manufacturing-sector-logs-robust-growth/56005"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Indian Shares Rise For Third Day, Reliance And Tata Steel Lead Rally",
+      "description": "Indian shares rose sharply on Monday, extending gains for a third consecutive session as heavyweight Reliance posted stronger-than-expected quarterly earnings and oil prices slumped amid diplomatic efforts to end the war in Iran.",
+      "date": "2026-11-02T09:38:03.977206+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-rise-for-third-day-reliance-and-tata-steel-lead-rally/56004"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indian-shares-seen-higher-as-ai-selloff-deepens-oil-prices-ease/55983"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Thai Stock Market May Test Support At 1,500 Points",
-      "description": "The Thai stock market has finished lower in four straight sessions, sliding more than 60 points or 3.7 percent in that span. The Stock Exchange of Thailand now sits just beneath the 1,520-point plateau and it's looking at another soft start again on Monday.",
-      "date": "2026-11-02T01:04:04.014941+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/thai-stock-market-may-test-support-at-1500-points/55982"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "China Manufacturing PMI Eases In September - S&P Global",
-      "description": "The manufacturing sector in China continued to expand in October, albeit at a slower pace, the latest survey from S&P Global revealed on Monday with a Performance of Manufacturing Index score of 52.0.",
-      "date": "2026-11-02T00:53:04.028267+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/china-manufacturing-pmi-eases-in-september---sp-global/55981"
     }
   ]
 }
