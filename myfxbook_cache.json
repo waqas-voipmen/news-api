@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-02T03:18:03.529352+00:00",
+  "fetched_at": "2026-11-02T03:33:04.267521+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "XAU",
+      "title": "Australian Market Extends Early Losses In Mid-market",
+      "description": "The Australian stock market is extending its early losses in mid-market trading on Monday, reversing some of the gains in the previous two sessions, following the broadly negative cues from Wall Street on Friday. The benchmark S&P/ASX 200 index is falling below the 8,850.00 level, with weakness in gold mining and financial stocks partially offset by gains in energy stocks.",
+      "date": "2026-11-02T02:26:04.263802+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australian-market-extends-early-losses-in-mid-market/55985"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/south-korea-manufacturing-sector-ebbs-in-october---sp-global/55973"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Taiwan Manufacturing Sector Slows In October - S&P Global",
-      "description": "The manufacturing sector in Taiwan continued to expand in October, albeit at a slower pace, the latest survey from S&P Global revealed on Monday with a Performance of Manufacturing Index score of 54.9.",
-      "date": "2026-11-01T23:55:04.263631+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/taiwan-manufacturing-sector-slows-in-october---sp-global/55972"
     }
   ]
 }
