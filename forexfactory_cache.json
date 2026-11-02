@@ -36,7 +36,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.5%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Building Approvals m/m",
@@ -1406,5 +1407,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-02T00:01:43.747222+00:00"
 }
