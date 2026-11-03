@@ -434,7 +434,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "7.52M",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Factory Orders m/m",
@@ -446,7 +447,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "1.8%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Omdia Total Vehicle Sales",
@@ -1415,5 +1417,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-03T15:00:17.004043+00:00"
 }
