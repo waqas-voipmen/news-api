@@ -333,7 +333,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "4.85%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "RBA Monetary Policy Statement",
@@ -1412,5 +1413,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-03T03:30:13.201549+00:00"
 }
