@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-03T03:33:04.577584+00:00",
+  "fetched_at": "2026-11-03T03:48:03.994760+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "XAU",
+      "title": "Australian Market Trims Early Gains In Mid-market",
+      "description": "The Australian stock market is trimming its early gains in mid-market trading on Tuesday, reversing some of the losses in the previous session, following the mixed cues from Wall Street overnight. The benchmark S&P/ASX 200 index is staying above the 8,850 level, with gains in gold mining and technology stocks partially offset by weakness in energy and financial stocks.",
+      "date": "2026-11-03T02:31:03.991169+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australian-market-trims-early-gains-in-mid-market/56041"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/australia-rate-decision-on-tap-for-tuesday/56027"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "U.S. Dollar Ticks Lower As Crude Oil Nosedives Amid Qatar's Push For U.S.-Iran Diplomacy",
-      "description": "The U.S. Dollar value inched lower on Monday as oil-linked inflation concerns lowered after expectations on reopening of the Strait of Hormuz increased due to hopes that the ongoing U.S.-Iran conflict could settle through the diplomatic route.",
-      "date": "2026-11-02T21:01:07.166818+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-dollar-ticks-lower-as-crude-oil-nosedives-amid-qatars-push-for-us-iran-diplomacy/56026"
     }
   ]
 }
