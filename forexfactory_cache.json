@@ -575,7 +575,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-13.6%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "ANZ Commodity Prices m/m",
@@ -1421,5 +1422,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-03T23:50:29.037464+00:00"
 }
