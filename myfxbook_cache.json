@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-11-03T07:33:04.882766+00:00",
+  "fetched_at": "2026-11-03T07:48:04.593108+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "NZD",
+      "title": "NZ Dollar Slides Against Most Majors",
+      "description": "The New Zealand dollar weakened against other major currencies in the Asian session on Tuesday.",
+      "date": "2026-11-03T06:41:04.589667+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/nz-dollar-slides-against-most-majors/56049"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australian Dollar Falls Against Majors",
+      "description": "The Australian dollar weakened against other major currencies in the Asian session on Tuesday.",
+      "date": "2026-11-03T06:34:04.589957+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australian-dollar-falls-against-majors/56048"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/tech-shares-may-weigh-on-taiwan-stock-market/56031"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Singapore Stock Market Due For Support On Tuesday",
-      "description": "The Singapore stock market has moved lower in three straight sessions, slumping almost 100 points or 1.9 percent along the way. The Straits Times Index now sits just above the 5,300-point plateau although it may stop the bleeding on Tuesday.",
-      "date": "2026-11-02T23:04:04.723099+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/singapore-stock-market-due-for-support-on-tuesday/56030"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Little Movement Expected For Malaysia Stock Market",
-      "description": "The Malaysia stock market has finished higher in back-to-back sessions, gathering more than 8 points or 0.5 percent along the way. The Kuala Lumpur Composite Index now sits just beneath the 1,620-point plateau and it figures to remain in that neighborhood again on Tuesday.",
-      "date": "2026-11-02T22:34:27.959204+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/little-movement-expected-for-malaysia-stock-market/56029"
     }
   ]
 }
