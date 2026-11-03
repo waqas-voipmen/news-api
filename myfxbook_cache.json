@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-03T04:48:03.809523+00:00",
+  "fetched_at": "2026-11-03T05:03:03.899408+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Indian Shares Climb For Fourth Day",
+      "description": "Indian shares opened on a buoyant note on Tuesday, extending gains for a fourth consecutive session as Brent oil prices slumped to $105 a barrel amid hopes of a de-escalation in the Middle East conflict.",
+      "date": "2026-11-03T03:50:03.895194+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-climb-for-fourth-day/56042"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/kospi-may-spin-its-wheels-on-tuesday/56028"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australia Rate Decision On Tap For Tuesday",
-      "description": "The Reserve Bank of Australia will wrap up its monetary policy meeting and then announce its decision on interest rates, highlighting a light day for Asia-Pacific economic activity. The RBA is widely expected to hike its benchmark lending rate by 25 basis points, to 4.85 percent from 4.60 percent.",
-      "date": "2026-11-02T21:34:05.012829+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australia-rate-decision-on-tap-for-tuesday/56027"
     }
   ]
 }
