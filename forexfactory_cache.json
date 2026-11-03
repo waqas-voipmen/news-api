@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-03T15:29:32.435881+00:00",
+  "fetched_at": "2026-11-03T15:33:24.896666+00:00",
   "periods": {
     "week": [
       {
@@ -486,7 +486,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "3.0%",
+        "actual_src": "fxstreet"
       },
       {
         "title": "BOC Gov Macklem Speaks",
