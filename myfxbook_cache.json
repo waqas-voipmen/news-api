@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-03T01:33:07.623106+00:00",
+  "fetched_at": "2026-11-03T01:48:03.967971+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Indonesia Stock Market May Remain Rangebound On Tuesday",
+      "description": "The Indonesia stock market on Monday ended the two-day losing streak in which it had dropped more than 225 points or 4 percent. The Jakarta Composite Index now sits just beneath the 5,100-point plateau and it's expected to see little movement on Tuesday.",
+      "date": "2026-11-03T00:34:03.964393+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indonesia-stock-market-may-remain-rangebound-on-tuesday/56035"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/european-markets-rise-as-oil-falls-on-iran-peace-hopes/56022"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "TSX Up Over 1% As Oil's Slide Lifts Sentiment",
-      "description": "The Canadian market is up firmly in positive territory around noon on Monday with stocks from various sectors moving up sharply amid easing concerns about inflation following a sharp drop in oil prices.",
-      "date": "2026-11-02T16:06:04.648403+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/tsx-up-over-1-as-oils-slide-lifts-sentiment/56021"
     }
   ]
 }
