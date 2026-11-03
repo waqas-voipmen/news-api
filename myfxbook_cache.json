@@ -1,6 +1,42 @@
 {
-  "fetched_at": "2026-11-03T22:03:07.759739+00:00",
+  "fetched_at": "2026-11-03T22:18:07.804755+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "NZD",
+      "title": "New Zealand Unemployment Data Due On Wednesday",
+      "description": "New Zealand will on Wednesday release unemployment data for the third quarter of 2026, highlighting a light day for Asia-Pacific economic activity.",
+      "date": "2026-11-03T21:02:07.781592+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/new-zealand-unemployment-data-due-on-wednesday/56077"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "U.S. Dollar Inches Higher Amid Gulf Uncertainty, Mid-term Elections",
+      "description": "The U.S. Dollar value moves higher on Tuesday as crude oil dips amid rising expectations on U.S.-Iran peace process. Focus also shifted to the mid-term elections that began today in the U.S.",
+      "date": "2026-11-03T21:02:07.783265+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-dollar-inches-higher-amid-gulf-uncertainty-mid-term-elections/56076"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "NZD",
+      "title": "New Zealand Jobless Rate Climbs To 5.7% In Q3",
+      "description": "The unemployment rate in New Zealand came in at a seasonally adjusted 5.7 percent in the third quarter of 2026, Statistics New Zealand said on Wednesday.",
+      "date": "2026-11-03T21:00:07.784349+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/new-zealand-jobless-rate-climbs-to-57-in-q3/56075"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -120,42 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/australia-hikes-key-rate-to-485-highest-since-2008/56055"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Oil Prices Rebound As US Strikes Iran's Qeshm Island",
-      "description": "Oil prices rebounded on Tuesday after a reported U.S. attack on Qeshm Island on the eve of crucial midterm elections.",
-      "date": "2026-11-03T08:37:05.013163+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/oil-prices-rebound-as-us-strikes-irans-qeshm-island/56054"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "European Shares Retreat Amid Tech Selloff",
-      "description": "European stocks edged lower on Tuesday as Apple delivered a mixed earnings report and oil prices rebounded to around $107 a barrel after a reported U.S. attack on Qeshm Island on the eve of crucial midterm elections.",
-      "date": "2026-11-03T08:17:05.013346+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-shares-retreat-amid-tech-selloff/56052"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Antipodean Currencies Fall Amid Risk-Off Mood",
-      "description": "The antipodean currencies such as the Australia and the New Zealand dollars weakened against their major currencies in the Asian session on Tuesday, as Asian stock markets traded lower as South Korean markets tumbled amid weakness in semiconductor stocks on concerns over returns on huge AI spending and mixed earnings and cautious forecasts from major US technology firms.",
-      "date": "2026-11-03T07:59:04.956536+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/antipodean-currencies-fall-amid-risk-off-mood/56051"
     }
   ]
 }
