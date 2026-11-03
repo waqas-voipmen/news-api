@@ -1,6 +1,54 @@
 {
-  "fetched_at": "2026-11-02T23:48:27.969619+00:00",
+  "fetched_at": "2026-11-03T01:14:04.729117+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "China Stock Market May Hand Back Monday's Gains",
+      "description": "The China stock market on Monday snapped the two-day losing streak in which it had dropped more than 80 points or 2.2 percent. The Shanghai Composite Index now sits just beneath the 3,640-point plateau although it may remain stuck in neutral on Tuesday.",
+      "date": "2026-11-03T00:04:04.721074+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/china-stock-market-may-hand-back-mondays-gains/56033"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Australian Markets Modestly Higher",
+      "description": "The Australian stock market is modestly higher on Tuesday, reversing the losses in the previous session, following the mixed cues from Wall Street overnight. The benchmark S&P/ASX 200 index is moving well above the 8,850 level, with gains across most sectors led by mining and technology stocks. Energy stocks were the only weak spot on tumbling crude oil prices.",
+      "date": "2026-11-03T00:01:04.721935+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australian-markets-modestly-higher/56032"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Tech Shares May Weigh On Taiwan Stock Market",
+      "description": "The Taiwan stock market has finished lower in three straight sessions, tumbling more than 2,100 points or 4.6 percent along the way. The Taiwan Stock Exchange now sits just above the 45,200-point plateau and it may take further damage on Tuesday.",
+      "date": "2026-11-02T23:34:04.722464+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/tech-shares-may-weigh-on-taiwan-stock-market/56031"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Singapore Stock Market Due For Support On Tuesday",
+      "description": "The Singapore stock market has moved lower in three straight sessions, slumping almost 100 points or 1.9 percent along the way. The Straits Times Index now sits just above the 5,300-point plateau although it may stop the bleeding on Tuesday.",
+      "date": "2026-11-02T23:04:04.723099+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/singapore-stock-market-due-for-support-on-tuesday/56030"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -108,54 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/us-construction-spending-unexpectedly-pulls-back-sharply-in-september/56020"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Manufacturing Index Increases More Than Expected In October",
-      "description": "The Institute for Supply Management released a report on Monday showing its reading on U.S. manufacturing activity increased by more than expected in the month of October. The ISM said its manufacturing PMI rose to 55.5 in October after edging down to 54.5 in September, with a reading above 50 indicating growth. Economists had expected the index to inch up to 54.6.",
-      "date": "2026-11-02T14:48:06.431068+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-manufacturing-index-increases-more-than-expected-in-october/56019"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Bay Street Set For Positive Open As Oil Prices Plunge",
-      "description": "Canadian equities poised for gains Monday as crude oil prices drop sharply on Iran-Qatar diplomatic discussions. Imperial Oil reports Q3 earnings of $5.11 per share versus $2.17 a year ago. Multiple companies scheduled to report quarterly results today.",
-      "date": "2026-11-02T12:18:05.043124+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/bay-street-set-for-positive-open-as-oil-prices-plunge/56016"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Marriott Lifts FY26 Outlook After Higher Q3; Shares Rise",
-      "description": "Marriott International, Inc., while reporting higher third-quarter profit, revenues and global RevPAR, on Monday issued outlook for its fourth quarter, and raised fiscal 2026 view citing expectations for continued healthy demand. In pre-market activity on Nasdaq, the shares were gaining around 3.18 percent.",
-      "date": "2026-11-02T12:03:06.357729+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/marriott-lifts-fy26-outlook-after-higher-q3-shares-rise/56014"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "FTSE 100 Edges Down 0.06% As Energy Stocks Weigh",
-      "description": "U.K. stocks showed mixed performance Monday amid cautious trading ahead of the Bank of England's monetary policy announcement. Mining and real estate stocks gained while energy stocks fell as crude oil prices declined sharply on diplomatic hopes regarding Iran.",
-      "date": "2026-11-02T11:12:04.471965+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/ftse-100-edges-down-006-as-energy-stocks-weigh/56013"
     }
   ]
 }
