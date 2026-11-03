@@ -395,7 +395,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-159.2B",
+        "actual_src": "forexfactory"
       },
       {
         "title": "10-y Bond Auction",
@@ -1414,5 +1415,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-03T07:45:13.141381+00:00"
 }
