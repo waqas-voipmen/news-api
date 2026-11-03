@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-03T02:03:04.372041+00:00",
+  "fetched_at": "2026-11-03T02:18:04.559127+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Thai Stock Market Due For Support On Tuesday",
+      "description": "The Thai stock market has finished lower in five straight sessions, sliding more than 70 points or 4.4 percent in that span. The Stock Exchange of Thailand now sits just beneath the 1,510-point plateau although it may stop the bleeding on Tuesday.",
+      "date": "2026-11-03T01:04:04.553014+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/thai-stock-market-due-for-support-on-tuesday/56036"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/swiss-market-ends-slightly-down/56023"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "European Markets Rise As Oil Falls On Iran Peace Hopes",
-      "description": "Major European indices climbed Monday as oil prices dropped sharply on expectations that Iranian and Qatari diplomatic discussions could ease Middle East tensions. The pan-European Stoxx 600 gained 0.42%, while UK, German, and French markets advanced. Investors also digested October PMI data ahead of the Bank of England's monetary policy announcement.",
-      "date": "2026-11-02T17:09:07.410432+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-markets-rise-as-oil-falls-on-iran-peace-hopes/56022"
     }
   ]
 }
