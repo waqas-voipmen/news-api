@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-03T02:48:03.907911+00:00",
+  "fetched_at": "2026-11-03T03:18:04.512695+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Asian Markets Trade Mostly Lower",
+      "description": "Asian markets are mostly lower on Tuesday, following the mixed cues from Wall Street overnight, as South Korean markets tumbled amid weakness in semiconductor stocks on concerns over returns on huge AI spending and mixed earnings and cautious forecasts from major US technology firms. Meanwhile, reports suggesting a possible de-escalation in the Middle East sent crude oil price tumbling.",
+      "date": "2026-11-03T02:03:04.508902+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/asian-markets-trade-mostly-lower/56038"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/us-dollar-ticks-lower-as-crude-oil-nosedives-amid-qatars-push-for-us-iran-diplomacy/56026"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "NZD",
-      "title": "New Zealand Building Consents Sink 7.9% In September",
-      "description": "The total number of building permits issued in New Zealand was down a seasonally adjusted 7.9 percent on month in September, Statistics New Zealand said on Tuesday - following the 5.3 percent increase in August.",
-      "date": "2026-11-02T20:53:07.598914+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/new-zealand-building-consents-sink-79-in-september/56025"
     }
   ]
 }
