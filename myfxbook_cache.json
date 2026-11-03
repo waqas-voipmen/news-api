@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-03T23:18:07.432056+00:00",
+  "fetched_at": "2026-11-03T23:33:07.715165+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Japan Shares May Find Traction On Wednesday",
+      "description": "Ahead of Tuesday's holiday for Culture Day, the Japan stock market has tracked lower in consecutive trading days, sinking almost 1,600 points or 2.4 percent in that span. The Nikkei now sits just above the 63,080-point plateau although it may stop the bleeding on Wednesday.",
+      "date": "2026-11-03T22:17:07.686472+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/japan-shares-may-find-traction-on-wednesday/56080"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/canadian-dollar-rises-against-majors/56063"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Indian Shares Extend Gains For Fourth Day",
-      "description": "Indian shares closed Tuesday's session on a buoyant note, extending gains for a fourth consecutive session after Brent crude futures slumped nearly 8 percent on Monday amid signs of diplomatic progress between the U.S. and Iran.",
-      "date": "2026-11-03T09:20:05.012479+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-extend-gains-for-fourth-day/56058"
     }
   ]
 }
