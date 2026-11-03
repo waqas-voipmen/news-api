@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-03T14:33:12.632879+00:00",
+  "fetched_at": "2026-11-03T14:48:34.153549+00:00",
   "periods": {
     "week": [
       {
@@ -399,6 +399,19 @@
         "actual_src": "forexfactory"
       },
       {
+        "title": "RCM/TIPP Economic Optimism",
+        "country": "USD",
+        "date": "2026-11-03T04:00:00-05:00",
+        "impact": "Low",
+        "forecast": "46.2",
+        "previous": "46.8",
+        "source": "ForexFactory",
+        "type": "calendar",
+        "link": null,
+        "actual": "48.5",
+        "actual_src": "forexfactory"
+      },
+      {
         "title": "10-y Bond Auction",
         "country": "GBP",
         "date": "2026-11-03T05:02:00-05:00",
@@ -436,18 +449,6 @@
         "actual": ""
       },
       {
-        "title": "RCM/TIPP Economic Optimism",
-        "country": "USD",
-        "date": "2026-11-03T10:10:00-05:00",
-        "impact": "Low",
-        "forecast": "46.2",
-        "previous": "46.8",
-        "source": "ForexFactory",
-        "type": "calendar",
-        "link": null,
-        "actual": ""
-      },
-      {
         "title": "Omdia Total Vehicle Sales",
         "country": "USD",
         "date": "2026-11-03T10:15:00-05:00",
@@ -476,7 +477,7 @@
       {
         "title": "GDT Price Index",
         "country": "NZD",
-        "date": "2026-11-03T10:50:00-05:00",
+        "date": "2026-11-03T10:51:00-05:00",
         "impact": "Low",
         "forecast": "",
         "previous": "2.5%",
