@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-03T01:18:06.604362+00:00",
+  "fetched_at": "2026-11-03T01:33:07.623106+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Rally May Stall For Hong Kong Stock Market",
+      "description": "The Hong Kong stock market has moved higher in two straight sessions, collecting more than 430 points or 1.9 percent along the way. The Hang Seng now sits just beneath the 23,400-point plateau although it may run out of steam on Tuesday.",
+      "date": "2026-11-03T00:19:07.607911+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/rally-may-stall-for-hong-kong-stock-market/56034"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/tsx-up-over-1-as-oils-slide-lifts-sentiment/56021"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Construction Spending Unexpectedly Pulls Back Sharply In September",
-      "description": "Construction spending in the U.S. unexpectedly pulled back sharply in the month of September, according to a report released by the Commerce Department on Monday. The report said construction spending tumbled by 1.9 percent to an annual rate of $2.186 trillion in September after surging by 2.0 percent to a revised rate of $2.227 trillion in August.",
-      "date": "2026-11-02T14:53:06.428049+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-construction-spending-unexpectedly-pulls-back-sharply-in-september/56020"
     }
   ]
 }
