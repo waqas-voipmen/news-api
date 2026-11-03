@@ -535,7 +535,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-0.1%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Unemployment Rate",
@@ -547,7 +548,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "5.7%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Labor Cost Index q/q",
@@ -559,7 +561,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.4%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Monetary Base y/y",
@@ -1417,5 +1420,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-03T21:47:30.945584+00:00"
 }
