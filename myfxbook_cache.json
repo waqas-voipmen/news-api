@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-11-03T23:03:09.045004+00:00",
+  "fetched_at": "2026-11-03T23:18:07.432056+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australia Services PMI Sinks Into Contraction - S&P Global",
+      "description": "The services sector in Australia fell into contraction territory in October, the latest survey from S&P Global revealed on Wednesday with a services PMI score of 48.5.",
+      "date": "2026-11-03T22:03:07.419424+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australia-services-pmi-sinks-into-contraction---sp-global/56079"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "South Korea Shares May Cut Into Tuesday's Losses",
+      "description": "The South Korea stock market turned lower again on Tuesday, one day after snapping the two-day slide in which it had given up more than 280 points or 4.6 percent. The KOSPI now sits just beneath the 5,650-point plateau although it may bounce higher again on Wednesday.",
+      "date": "2026-11-03T22:02:07.420697+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/south-korea-shares-may-cut-into-tuesdays-losses/56078"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indian-shares-extend-gains-for-fourth-day/56058"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "XAU",
-      "title": "Gold Edges Lower As Americans Vote In Midterms",
-      "description": "Gold prices fell toward $3,900 an ounce on Tuesday after the United States reportedly struck Iran's strategic Qeshm Island in the Strait of Hormuz, the latest in a series of limited strikes on the country in recent weeks.",
-      "date": "2026-11-03T08:57:05.012759+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/gold-edges-lower-as-americans-vote-in-midterms/56057"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australia Hikes Key Rate To 4.85%; Highest Since 2008",
-      "description": "The Reserve Bank of Australia raised its benchmark interest rate for the fifth time this year to the highest level in 18 years in order to bring inflation sustainably back to the target. The board, governed by Michele Bullock, voted 6-3 to lift the cash rate target by 25 basis points to 4.85 percent, marking the highest rate since 2008.",
-      "date": "2026-11-03T08:47:05.012945+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australia-hikes-key-rate-to-485-highest-since-2008/56055"
     }
   ]
 }
