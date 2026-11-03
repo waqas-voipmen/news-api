@@ -1,6 +1,66 @@
 {
-  "fetched_at": "2026-11-03T09:18:04.212881+00:00",
+  "fetched_at": "2026-11-03T11:48:05.016303+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Indian Shares Extend Gains For Fourth Day",
+      "description": "Indian shares closed Tuesday's session on a buoyant note, extending gains for a fourth consecutive session after Brent crude futures slumped nearly 8 percent on Monday amid signs of diplomatic progress between the U.S. and Iran.",
+      "date": "2026-11-03T09:20:05.012479+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-extend-gains-for-fourth-day/56058"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "XAU",
+      "title": "Gold Edges Lower As Americans Vote In Midterms",
+      "description": "Gold prices fell toward $3,900 an ounce on Tuesday after the United States reportedly struck Iran's strategic Qeshm Island in the Strait of Hormuz, the latest in a series of limited strikes on the country in recent weeks.",
+      "date": "2026-11-03T08:57:05.012759+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/gold-edges-lower-as-americans-vote-in-midterms/56057"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australia Hikes Key Rate To 4.85%; Highest Since 2008",
+      "description": "The Reserve Bank of Australia raised its benchmark interest rate for the fifth time this year to the highest level in 18 years in order to bring inflation sustainably back to the target. The board, governed by Michele Bullock, voted 6-3 to lift the cash rate target by 25 basis points to 4.85 percent, marking the highest rate since 2008.",
+      "date": "2026-11-03T08:47:05.012945+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australia-hikes-key-rate-to-485-highest-since-2008/56055"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Oil Prices Rebound As US Strikes Iran's Qeshm Island",
+      "description": "Oil prices rebounded on Tuesday after a reported U.S. attack on Qeshm Island on the eve of crucial midterm elections.",
+      "date": "2026-11-03T08:37:05.013163+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/oil-prices-rebound-as-us-strikes-irans-qeshm-island/56054"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "European Shares Retreat Amid Tech Selloff",
+      "description": "European stocks edged lower on Tuesday as Apple delivered a mixed earnings report and oil prices rebounded to around $107 a barrel after a reported U.S. attack on Qeshm Island on the eve of crucial midterm elections.",
+      "date": "2026-11-03T08:17:05.013346+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-shares-retreat-amid-tech-selloff/56052"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -96,66 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/asian-markets-trade-mostly-lower/56038"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Indian Shares Set To Extend Gains As Oil Prices Slump On US-Iran Peace Hopes",
-      "description": "Indian shares look set to open higher on Tuesday, adding to recent gains as crude oil prices continued to ease amid hopes of a de-escalation in the Middle East conflict.",
-      "date": "2026-11-03T01:39:03.902724+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-set-to-extend-gains-as-oil-prices-slump-on-us-iran-peace-hopes/56037"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Thai Stock Market Due For Support On Tuesday",
-      "description": "The Thai stock market has finished lower in five straight sessions, sliding more than 70 points or 4.4 percent in that span. The Stock Exchange of Thailand now sits just beneath the 1,510-point plateau although it may stop the bleeding on Tuesday.",
-      "date": "2026-11-03T01:04:04.553014+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/thai-stock-market-due-for-support-on-tuesday/56036"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Indonesia Stock Market May Remain Rangebound On Tuesday",
-      "description": "The Indonesia stock market on Monday ended the two-day losing streak in which it had dropped more than 225 points or 4 percent. The Jakarta Composite Index now sits just beneath the 5,100-point plateau and it's expected to see little movement on Tuesday.",
-      "date": "2026-11-03T00:34:03.964393+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indonesia-stock-market-may-remain-rangebound-on-tuesday/56035"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Rally May Stall For Hong Kong Stock Market",
-      "description": "The Hong Kong stock market has moved higher in two straight sessions, collecting more than 430 points or 1.9 percent along the way. The Hang Seng now sits just beneath the 23,400-point plateau although it may run out of steam on Tuesday.",
-      "date": "2026-11-03T00:19:07.607911+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/rally-may-stall-for-hong-kong-stock-market/56034"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "China Stock Market May Hand Back Monday's Gains",
-      "description": "The China stock market on Monday snapped the two-day losing streak in which it had dropped more than 80 points or 2.2 percent. The Shanghai Composite Index now sits just beneath the 3,640-point plateau although it may remain stuck in neutral on Tuesday.",
-      "date": "2026-11-03T00:04:04.721074+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/china-stock-market-may-hand-back-mondays-gains/56033"
     }
   ]
 }
