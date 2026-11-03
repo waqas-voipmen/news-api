@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-11-03T11:48:05.016303+00:00",
+  "fetched_at": "2026-11-03T12:48:06.213384+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Canadian Dollar Rises As Oil Prices Rebound",
+      "description": "The Canadian dollar strengthened against other major currencies in the European session on Tuesday, as the crude oil prices rebounded after a reported U.S. attack on Qeshm Island on the eve of crucial midterm elections.",
+      "date": "2026-11-03T11:24:06.210258+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/canadian-dollar-rises-as-oil-prices-rebound/56064"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "CAD",
+      "title": "Canadian Dollar Rises Against Majors",
+      "description": "The Canadian dollar strengthened against other major currencies in the European session on Tuesday.",
+      "date": "2026-11-03T11:18:06.210537+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/canadian-dollar-rises-against-majors/56063"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indian-shares-climb-for-fourth-day/56042"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "XAU",
-      "title": "Australian Market Trims Early Gains In Mid-market",
-      "description": "The Australian stock market is trimming its early gains in mid-market trading on Tuesday, reversing some of the losses in the previous session, following the mixed cues from Wall Street overnight. The benchmark S&P/ASX 200 index is staying above the 8,850 level, with gains in gold mining and technology stocks partially offset by weakness in energy and financial stocks.",
-      "date": "2026-11-03T02:31:03.991169+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-market-trims-early-gains-in-mid-market/56041"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Asian Markets Trade Mostly Lower",
-      "description": "Asian markets are mostly lower on Tuesday, following the mixed cues from Wall Street overnight, as South Korean markets tumbled amid weakness in semiconductor stocks on concerns over returns on huge AI spending and mixed earnings and cautious forecasts from major US technology firms. Meanwhile, reports suggesting a possible de-escalation in the Middle East sent crude oil price tumbling.",
-      "date": "2026-11-03T02:03:04.508902+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/asian-markets-trade-mostly-lower/56038"
     }
   ]
 }
