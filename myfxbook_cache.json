@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-03T05:48:04.468219+00:00",
+  "fetched_at": "2026-11-03T06:03:04.300938+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "European Shares Set To Open Lower As Trump's Second Term Faces Crucial Test",
+      "description": "European stocks may open on a sluggish note on Tuesday after the S&P 500 and Nasdaq reversed early gains to end lower overnight on growing pessimism about big tech and the artificial intelligence trade.",
+      "date": "2026-11-03T04:49:04.296863+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-shares-set-to-open-lower-as-trumps-second-term-faces-crucial-test/56044"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/little-movement-expected-for-malaysia-stock-market/56029"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "KOSPI May Spin Its Wheels On Tuesday",
-      "description": "The South Korea stock market on Monday snapped the two-day slide in which it had given up more than 280 points or 4.6 percent. The KOSPI now sits just beneath the 5,860-point plateau although it may be stuck in neutral on Tuesday.",
-      "date": "2026-11-02T22:04:08.050403+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/kospi-may-spin-its-wheels-on-tuesday/56028"
     }
   ]
 }
