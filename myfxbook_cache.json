@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-03T15:03:13.090721+00:00",
+  "fetched_at": "2026-11-03T15:29:14.618221+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Job Openings Increase More Than Expected In September",
+      "description": "A report released by the Labor Department on Tuesday showed a bigger-than-expected increase in job openings in the U.S. in the month of September. The Labor Department said job openings climbed to 7.523 million in September from an upwardly revised 7.190 million in August.",
+      "date": "2026-11-03T14:18:14.569223+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-job-openings-increase-more-than-expected-in-september/56072"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/asian-shares-mixed-as-ai-profit-concerns-weigh/56050"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "NZD",
-      "title": "NZ Dollar Slides Against Most Majors",
-      "description": "The New Zealand dollar weakened against other major currencies in the Asian session on Tuesday.",
-      "date": "2026-11-03T06:41:04.589667+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/nz-dollar-slides-against-most-majors/56049"
     }
   ]
 }
