@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-03T15:33:24.896666+00:00",
+  "fetched_at": "2026-11-03T15:48:24.394663+00:00",
   "periods": {
     "week": [
       {
@@ -479,7 +479,7 @@
       {
         "title": "GDT Price Index",
         "country": "NZD",
-        "date": "2026-11-03T10:51:00-05:00",
+        "date": "2026-11-03T10:27:00-05:00",
         "impact": "Low",
         "forecast": "",
         "previous": "2.5%",
@@ -487,7 +487,7 @@
         "type": "calendar",
         "link": null,
         "actual": "3.0%",
-        "actual_src": "fxstreet"
+        "actual_src": "forexfactory"
       },
       {
         "title": "BOC Gov Macklem Speaks",

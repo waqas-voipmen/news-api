@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-03T15:33:10.726424+00:00",
+  "fetched_at": "2026-11-03T15:48:07.972187+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Factory Orders Jump More Than Expected In September",
+      "description": "The Commerce Department released a report on Tuesday showing new orders for U.S. manufactured goods surged by more than expected in the month of September. The report said factory orders shot up by 1.8 percent in September after rising by an upwardly revised 0.3 percent in August. Economists had expected factory orders to jump by 1.2 percent.",
+      "date": "2026-11-03T14:38:07.962113+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-factory-orders-jump-more-than-expected-in-september/56073"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/antipodean-currencies-fall-amid-risk-off-mood/56051"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Asian Shares Mixed As AI Profit Concerns Weigh",
-      "description": "Asian shares ended mixed on Tuesday as tech and AI-related shares remained shacky and oil prices rebounded on heightened fears of Middle East escalation.",
-      "date": "2026-11-03T07:40:04.758350+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/asian-shares-mixed-as-ai-profit-concerns-weigh/56050"
     }
   ]
 }
