@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-03T12:48:06.213384+00:00",
+  "fetched_at": "2026-11-03T13:03:05.307137+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "DAX Slips On Tuesday",
+      "description": "The DAX benchmark that tracks the performance of the 40 largest companies listed on the Frankfurt Stock Exchange declined on Tuesday as worries about the outcome of U.S. elections, lingering fears about elevated AI valuations, and geopolitical tensions in the Middle East dampened sentiment.",
+      "date": "2026-11-03T11:48:05.303182+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/dax-slips-on-tuesday/56065"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/european-shares-set-to-open-lower-as-trumps-second-term-faces-crucial-test/56044"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Indian Shares Climb For Fourth Day",
-      "description": "Indian shares opened on a buoyant note on Tuesday, extending gains for a fourth consecutive session as Brent oil prices slumped to $105 a barrel amid hopes of a de-escalation in the Middle East conflict.",
-      "date": "2026-11-03T03:50:03.895194+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-climb-for-fourth-day/56042"
     }
   ]
 }
