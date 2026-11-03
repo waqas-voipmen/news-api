@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-03T14:18:05.209722+00:00",
+  "fetched_at": "2026-11-03T14:33:04.717294+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "FTSE 100 Trades Lower",
+      "description": "The FTSE 100 benchmark of the London Stock Exchange declined on Tuesday as global markets geared for the outcome of the U.S. midterm election results. The decline in crude oil prices that followed comments by U.S. President Donald Trump about ending financial support for Israel was also reflected in stock prices.",
+      "date": "2026-11-03T13:22:04.714060+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/ftse-100-trades-lower/56069"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/nz-dollar-slides-against-most-majors/56049"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australian Dollar Falls Against Majors",
-      "description": "The Australian dollar weakened against other major currencies in the Asian session on Tuesday.",
-      "date": "2026-11-03T06:34:04.589957+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-dollar-falls-against-majors/56048"
     }
   ]
 }
