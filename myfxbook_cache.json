@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-03T13:18:04.579933+00:00",
+  "fetched_at": "2026-11-03T14:03:05.515076+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "CAC 40 Weak Amidst Tech Fears",
+      "description": "The CAC 40 index that tracks the 40 largest French stocks based on the Euronext Paris slipped on Tuesday as markets focused on the U.S. midterm elections as well as the latest margin warning by tech giant Apple.",
+      "date": "2026-11-03T12:39:05.509454+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/cac-40-weak-amidst-tech-fears/56068"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/australian-dollar-falls-against-majors/56048"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "European Shares Set To Open Lower As Trump's Second Term Faces Crucial Test",
-      "description": "European stocks may open on a sluggish note on Tuesday after the S&P 500 and Nasdaq reversed early gains to end lower overnight on growing pessimism about big tech and the artificial intelligence trade.",
-      "date": "2026-11-03T04:49:04.296863+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-shares-set-to-open-lower-as-trumps-second-term-faces-crucial-test/56044"
     }
   ]
 }
