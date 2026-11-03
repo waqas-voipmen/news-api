@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-03T02:33:04.368154+00:00",
+  "fetched_at": "2026-11-03T02:48:03.907911+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Indian Shares Set To Extend Gains As Oil Prices Slump On US-Iran Peace Hopes",
+      "description": "Indian shares look set to open higher on Tuesday, adding to recent gains as crude oil prices continued to ease amid hopes of a de-escalation in the Middle East conflict.",
+      "date": "2026-11-03T01:39:03.902724+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-set-to-extend-gains-as-oil-prices-slump-on-us-iran-peace-hopes/56037"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/new-zealand-building-consents-sink-79-in-september/56025"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Swiss Market Ends Slightly Down",
-      "description": "Save for a very brief while a few minutes before the closing bell, the Swiss stock market stayed in negative territory on Monday. \n\nThe market's loss was just marginal as the sharp slide in oil prices helped ease concerns about inflation.",
-      "date": "2026-11-02T17:43:08.574119+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/swiss-market-ends-slightly-down/56023"
     }
   ]
 }
