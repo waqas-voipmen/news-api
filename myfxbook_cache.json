@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-04T09:18:04.916362+00:00",
+  "fetched_at": "2026-11-04T09:33:04.816040+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "European Shares Rise On Solid Earnings",
+      "description": "European stocks traded higher on Wednesday, with a slew of strong corporate earnings, steadier oil prices and lower bond yields helping underpin investor sentiment.",
+      "date": "2026-11-04T08:21:04.812321+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-shares-rise-on-solid-earnings/56110"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/japanese-market-sharply-lower/56090"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Hong Kong Stock Market May Spin Its Wheels On Wednesday",
-      "description": "The Hong Kong stock market has moved higher in three straight sessions, collecting more than 560 points or 2.5 percent along the way. The Hang Seng now sits just above the 23,525-point plateau although it may run out of steam on Wednesday.",
-      "date": "2026-11-04T00:17:23.137662+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/hong-kong-stock-market-may-spin-its-wheels-on-wednesday/56089"
     }
   ]
 }
