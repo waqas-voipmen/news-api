@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-04T02:03:05.279406+00:00",
+  "fetched_at": "2026-11-04T02:18:04.783248+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Higher Open Called For Thai Stock Market",
+      "description": "The Thai stock market has finished lower in six straight sessions, sliding more than 85 points or 5.5 percent in that span. The Stock Exchange of Thailand now sits just above the 1,490-point plateau although it may halt its slide on Wednesday.",
+      "date": "2026-11-04T01:02:04.779170+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/higher-open-called-for-thai-stock-market/56093"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/malaysia-stock-market-may-be-stuck-in-neutral/56081"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Japan Shares May Find Traction On Wednesday",
-      "description": "Ahead of Tuesday's holiday for Culture Day, the Japan stock market has tracked lower in consecutive trading days, sinking almost 1,600 points or 2.4 percent in that span. The Nikkei now sits just above the 63,080-point plateau although it may stop the bleeding on Wednesday.",
-      "date": "2026-11-03T22:17:07.686472+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/japan-shares-may-find-traction-on-wednesday/56080"
     }
   ]
 }
