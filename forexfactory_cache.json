@@ -628,7 +628,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "43.1K",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Spanish Services PMI",
@@ -1426,5 +1427,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-04T08:00:28.899081+00:00"
 }
