@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-04T08:33:04.673610+00:00",
+  "fetched_at": "2026-11-04T08:48:04.117322+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "Asian Shares Mixed As Democrats Retake US Congress",
+      "description": "Asian stocks ended mixed on Wednesday after Democrats took control of both houses of Congress in a dramatic win in the U.S. midterm elections, raising uncertainty over tech regulation, trade policy and the U.S. budget deficit.",
+      "date": "2026-11-04T07:42:04.113679+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/asian-shares-mixed-as-democrats-retake-us-congress/56106"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/hong-kong-stock-market-may-spin-its-wheels-on-wednesday/56089"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australian Market Modestly Lower",
-      "description": "Australian shares are trading modestly lower on Wednesday, reversing the gains in the previous session, with the benchmark S&P/ASX 200 falling to near the 8,850 level, following the mixed cues from Wall Street overnight, with weakness in mining and financial stocks partially offset by gains in energy and technology stocks.",
-      "date": "2026-11-04T00:04:23.138411+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-market-modestly-lower/56088"
     }
   ]
 }
