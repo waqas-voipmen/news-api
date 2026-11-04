@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-04T06:33:04.222625+00:00",
+  "fetched_at": "2026-11-04T06:48:04.271274+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Dollar Falls Against Majors",
+      "description": "The U.S. dollar weakened against other major currencies in the Asian session on Wednesday.",
+      "date": "2026-11-04T05:35:04.267655+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-dollar-falls-against-majors/56102"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/rebound-predicted-for-china-stock-market/56087"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Japan Monetary Base Sinks 13.6% On Year In October",
-      "description": "The monetary base in Japan was down 13.6 percent on year in October, the Bank of Japan said on Wednesday - coming in at 532.571 trillion yen.",
-      "date": "2026-11-03T23:52:23.139392+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/japan-monetary-base-sinks-136-on-year-in-october/56086"
     }
   ]
 }
