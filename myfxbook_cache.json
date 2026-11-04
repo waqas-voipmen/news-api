@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-04T12:18:05.027875+00:00",
+  "fetched_at": "2026-11-04T12:48:14.577449+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Bank, Mining Stocks Lift FTSE 100",
+      "description": "U.K. stocks moved higher on Wednesday as lower oil prices and softening bond yields aided sentiment. Investors also digested the latest batch of earnings updates and economic data, in addition to following the political news from the U.S. Mining and bank stocks led the move up north",
+      "date": "2026-11-04T11:19:14.574129+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/bank-mining-stocks-lift-ftse-100/56126"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/us-dollar-falls-following-us-midterms-elections/56104"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Dollar Falls Against Majors",
-      "description": "The U.S. dollar weakened against other major currencies in the Asian session on Wednesday.",
-      "date": "2026-11-04T05:35:04.267655+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-dollar-falls-against-majors/56102"
     }
   ]
 }
