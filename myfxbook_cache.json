@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-04T10:18:05.768751+00:00",
+  "fetched_at": "2026-11-04T10:33:04.675324+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Indian Shares Extend Gains For Fifth Day",
+      "description": "Indian shares closed higher on Wednesday, extending gains for a fifth consecutive session as softer oil prices eased inflation concerns and Democrats won full control of the U.S. Congress in a sweeping midterm rout, weighing on the U.S. dollar and Treasury yields.",
+      "date": "2026-11-04T09:24:04.671996+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-extend-gains-for-fifth-day/56116"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/asian-markets-trade-mostly-lower/56095"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Indian Shares Seen Little Changed As US Midterm Election Results Trickle In",
-      "description": "Indian shares are seen opening flat to lower on Wednesday after a strong four-session rally. That said, a weakening dollar in overseas markets, falling U.S. Treasury yields and steadier oil prices may help limit losses, if any.",
-      "date": "2026-11-04T01:33:04.643759+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-seen-little-changed-as-us-midterm-election-results-trickle-in/56094"
     }
   ]
 }
