@@ -641,7 +641,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "57.2",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Italian Services PMI",
@@ -1427,5 +1428,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-04T08:15:14.096144+00:00"
 }
