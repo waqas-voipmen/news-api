@@ -1,6 +1,90 @@
 {
-  "fetched_at": "2026-11-04T12:48:14.577449+00:00",
+  "fetched_at": "2026-11-04T15:27:33.554842+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Services Index Edges Slightly Lower In October",
+      "description": "Service sector growth in the U.S. saw a modest slowdown in the month of October, according to a report released by the Institute for Supply Management on Wednesday. The ISM said its services PMI edged down to 54.5 in October after dipping to 54.9 in September, although a reading above 50 still indicates growth. Economists had expected the index to slip to 54.7.",
+      "date": "2026-11-04T14:17:33.509320+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-services-index-edges-slightly-lower-in-october/56138"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Private Sector Adds 86,000 Jobs In October, More Than Expected",
+      "description": "Payroll processor ADP released a report on Wednesday showing private sector employment in the U.S. grew by more than expected in the month of October. The report said private sector employment climbed by 86,000 jobs in October, matching a downwardly revised increase in September.",
+      "date": "2026-11-04T13:43:33.510966+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-private-sector-adds-86000-jobs-in-october-more-than-expected/56135"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Trade Deficit Unexpectedly Narrows To $105.0 Billion In September",
+      "description": "With exports increasing by more than imports, the Commerce Department released a report on Wednesday showing the U.S. trade deficit unexpectedly shrank in the month of September.",
+      "date": "2026-11-04T12:36:33.512335+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-trade-deficit-unexpectedly-narrows-to-1050-billion-in-september/56133"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "CVS Health Swings To Q3 Profit, Lifts FY26 Outlook; To Split Into Two; Shares Drop",
+      "description": "CVS Health Corp. reported Wednesday a profit in its third quarter, compared to prior year's loss, mainly on the absence of prior year's $5.7 billion goodwill impairment charge, and higher revenues. Further, the firm raised fiscal 2026 outlook to reflect increases in the Health Care Benefits and Pharmacy & Consumer Wellness segments. Separately, CVS Health announced its plan to separate into two.",
+      "date": "2026-11-04T12:36:33.513587+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/cvs-health-swings-to-q3-profit-lifts-fy26-outlook-to-split-into-two-shares-drop/56132"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "EUR",
+      "title": "Eurozone Private Sector Growth Moderates",
+      "description": "The euro area private sector growth moderated to a four-month low in October as new order receipts came close to stalling and output price inflation remained historically high, final purchasing managers' survey data from S&P Global showed Wednesday. The final composite output index fell to 51.7 in October from 53.1 in the previous month. The flash reading was 51.9.",
+      "date": "2026-11-04T12:28:33.515240+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/eurozone-private-sector-growth-moderates/56131"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Private Sector Employment Increases More Than Expected In October",
+      "description": "Payroll processor ADP released a report on Wednesday showing private sector employment in the U.S. grew by more than expected in the month of October.",
+      "date": "2026-11-04T12:24:33.516680+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-private-sector-employment-increases-more-than-expected-in-october/56130"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "CAD",
+      "title": "Canadian Stocks Set To Open Firm On Global Gains, Metal Surge",
+      "description": "Canadian equities expected to open higher Wednesday, supported by positive global markets, rising precious metals prices, and lower oil easing inflation concerns. Intact Financial reports 35% profit decline; Shopify earnings beat expectations.",
+      "date": "2026-11-04T11:59:33.517875+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/canadian-stocks-set-to-open-firm-on-global-gains-metal-surge/56127"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -72,90 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indian-shares-extend-gains-for-fifth-day/56116"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Sweden Central Bank Hikes Key Rate By 25 Bps",
-      "description": "Sweden's central bank raised its benchmark interest rate by a quarter-point as inflation is expected to continue rising going forward and hinted at further tightening in the coming year. The Executive Board of Riksbank decided to raise the key policy rate to 2.00 percent from 1.75 percent.",
-      "date": "2026-11-04T09:12:05.765479+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/sweden-central-bank-hikes-key-rate-by-25-bps/56115"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australian Dollar Rises Against Majors",
-      "description": "The Australian dollar strengthened against other major currencies in the European session on Wednesday.",
-      "date": "2026-11-04T09:12:05.765833+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-dollar-rises-against-majors/56114"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "XAU",
-      "title": "Gold Climbs As Dollar And Bond Yields Dip On The Democrat Midterms Victory",
-      "description": "Gold prices jumped nearly 3 percent on Wednesday, driven by a softer dollar and lower Treasury yields after Democrats took control of both houses of Congress in a dramatic win in the U.S. midterm elections. Softer oil prices also helped ease inflation concerns.",
-      "date": "2026-11-04T08:52:14.526368+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/gold-climbs-as-dollar-and-bond-yields-dip-on-the-democrat-midterms-victory/56113"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Oil Prices Edge Lower In Choppy Trade",
-      "description": "Oil prices traded lower on Wednesday after seeing sharp swings in the previous session amid uncertainty over the U.S.-Iran peace talks.",
-      "date": "2026-11-04T08:36:06.355855+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/oil-prices-edge-lower-in-choppy-trade/56112"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "European Shares Rise On Solid Earnings",
-      "description": "European stocks traded higher on Wednesday, with a slew of strong corporate earnings, steadier oil prices and lower bond yields helping underpin investor sentiment.",
-      "date": "2026-11-04T08:21:04.812321+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-shares-rise-on-solid-earnings/56110"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "Asian Shares Mixed As Democrats Retake US Congress",
-      "description": "Asian stocks ended mixed on Wednesday after Democrats took control of both houses of Congress in a dramatic win in the U.S. midterm elections, raising uncertainty over tech regulation, trade policy and the U.S. budget deficit.",
-      "date": "2026-11-04T07:42:04.113679+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/asian-shares-mixed-as-democrats-retake-us-congress/56106"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Dollar Falls Following U.S. Midterms Elections",
-      "description": "The U.S. dollar weakened against other major currencies in the Asian session on Wednesday, as early U.S. midterm election results increased political unpredictability.",
-      "date": "2026-11-04T06:43:04.731368+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-dollar-falls-following-us-midterms-elections/56104"
     }
   ]
 }

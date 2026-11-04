@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-04T13:04:56.137204+00:00",
+  "fetched_at": "2026-11-04T15:27:48.981573+00:00",
   "periods": {
     "week": [
       {
@@ -741,11 +741,12 @@
         "date": "2026-11-04T08:15:00-05:00",
         "impact": "Low",
         "forecast": "67K",
-        "previous": "90K",
+        "previous": "86K",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "86K",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Trade Balance",
@@ -753,11 +754,12 @@
         "date": "2026-11-04T08:30:00-05:00",
         "impact": "Low",
         "forecast": "4.8B",
-        "previous": "4.2B",
+        "previous": "5.0B",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "5.4B",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Trade Balance",
@@ -765,11 +767,12 @@
         "date": "2026-11-04T08:30:00-05:00",
         "impact": "Low",
         "forecast": "-107.9B",
-        "previous": "-105.6B",
+        "previous": "-105.7B",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-105.0B",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Final Services PMI",
@@ -781,7 +784,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "56.1",
+        "actual_src": "forexfactory"
       },
       {
         "title": "ISM Services PMI",
@@ -1436,6 +1440,5 @@
         "actual": ""
       }
     ]
-  },
-  "actuals_at": "2026-11-04T15:14:27.510855+00:00"
+  }
 }
