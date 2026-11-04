@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-04T05:33:04.618427+00:00",
+  "fetched_at": "2026-11-04T05:48:04.487497+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "European Shares Seen Lower As Investors Weigh US Policy Risks After Midterms",
+      "description": "European stocks are seen opening notably lower on Wednesday after early results showcased significant gains for Democrats in the 2026 U.S. midterm elections, threatening President Donald Trump's legislative agenda and paving the way for new investigations into his administration's policies.",
+      "date": "2026-11-04T04:42:04.483885+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-shares-seen-lower-as-investors-weigh-us-policy-risks-after-midterms/56100"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/japan-monetary-base-sinks-136-on-year-in-october/56086"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Singapore Private Sector PMI Slows In October - S&P Global",
-      "description": "The private sector in Singapore continued to expand in October, albeit at a slower pace, the latest survey from S&P Global revealed on Wednesday with a business PMI score of 56.7.",
-      "date": "2026-11-03T23:48:23.139635+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/singapore-private-sector-pmi-slows-in-october---sp-global/56085"
     }
   ]
 }
