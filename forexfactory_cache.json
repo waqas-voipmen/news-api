@@ -706,7 +706,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "52.8",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Core CPI Flash Estimate y/y",
@@ -1432,5 +1433,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-04T09:30:44.965326+00:00"
 }
