@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-11-04T10:03:14.529804+00:00",
+  "fetched_at": "2026-11-04T10:18:05.768751+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Sweden Central Bank Hikes Key Rate By 25 Bps",
+      "description": "Sweden's central bank raised its benchmark interest rate by a quarter-point as inflation is expected to continue rising going forward and hinted at further tightening in the coming year. The Executive Board of Riksbank decided to raise the key policy rate to 2.00 percent from 1.75 percent.",
+      "date": "2026-11-04T09:12:05.765479+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/sweden-central-bank-hikes-key-rate-by-25-bps/56115"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australian Dollar Rises Against Majors",
+      "description": "The Australian dollar strengthened against other major currencies in the European session on Wednesday.",
+      "date": "2026-11-04T09:12:05.765833+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australian-dollar-rises-against-majors/56114"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indian-shares-seen-little-changed-as-us-midterm-election-results-trickle-in/56094"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Higher Open Called For Thai Stock Market",
-      "description": "The Thai stock market has finished lower in six straight sessions, sliding more than 85 points or 5.5 percent in that span. The Stock Exchange of Thailand now sits just above the 1,490-point plateau although it may halt its slide on Wednesday.",
-      "date": "2026-11-04T01:02:04.779170+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/higher-open-called-for-thai-stock-market/56093"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "China Services PMI Ebbs In October - Caixin",
-      "description": "The services sector in China continued to expand in October, albeit at a slower pace, the latest survey from S&P Global revealed on Wednesday with a business PMI score of 50.8.",
-      "date": "2026-11-04T00:54:05.259193+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/china-services-pmi-ebbs-in-october---caixin/56092"
     }
   ]
 }
