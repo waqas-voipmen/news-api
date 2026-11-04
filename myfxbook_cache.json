@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-04T11:03:04.360624+00:00",
+  "fetched_at": "2026-11-04T11:18:04.282463+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Heidelberg Materials Q3 Result, Revenue Rise; Backs FY26 View; Plans Addl. Cost Savings; Shares Up",
+      "description": "Heidelberg Materials AG, a German building materials company, reported Wednesday higher result from current operations or RCO in its third quarter, driven by strong revenue growth, while RCO margin declined from last year. Citing the positive development over the past two quarters, the company confirmed its positive fiscal 2026 outlook.",
+      "date": "2026-11-04T10:05:04.278018+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/heidelberg-materials-q3-result-revenue-rise-backs-fy26-view-plans-addl-cost-savings-shares-up/56122"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indian-shares-edge-higher-in-cautious-trade-us-election-results-in-focus/56097"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australian Market Extends Early Losses In Mid-market",
-      "description": "The Australian stock market is extending its early losses in mid-market moves on Wednesday, but reversing the gains in the previous session, with the benchmark S&P/ASX 200 falling well below the 8,850 level, following the mixed cues from Wall Street overnight, with weakness in mining and financial stocks partially offset by gains in energy and technology stocks.",
-      "date": "2026-11-04T02:29:05.852585+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-market-extends-early-losses-in-mid-market/56096"
     }
   ]
 }
