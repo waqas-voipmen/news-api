@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-04T18:03:04.628969+00:00",
+  "fetched_at": "2026-11-04T18:18:04.516427+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "European Stocks Jump On Earnings, Oil's Plunge, U.S. Midterm Election Results",
+      "description": "European stocks climbed sharply Wednesday as Democratic election victories, better-than-expected corporate earnings, and falling oil prices boosted investor sentiment across major exchanges.",
+      "date": "2026-11-04T17:09:04.512730+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-stocks-jump-on-earnings-oils-plunge-us-midterm-election-results/56140"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/heidelberg-materials-q3-result-revenue-rise-backs-fy26-view-plans-addl-cost-savings-shares-up/56122"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "German DAX Rises 1.29% On Lower Oil, Strong Earnings",
-      "description": "German stocks climbed Wednesday morning, with the DAX benchmark gaining 335.08 points to 26,235.99, driven by lower oil prices, softening bond yields, and strong corporate earnings. Heidelberg Materials soared nearly 9% after raising its full-year outlook.",
-      "date": "2026-11-04T09:58:04.357387+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/german-dax-rises-129-on-lower-oil-strong-earnings/56121"
     }
   ]
 }
