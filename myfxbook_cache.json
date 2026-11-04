@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-04T23:18:11.479727+00:00",
+  "fetched_at": "2026-11-04T23:33:07.581383+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Japan Stock Market Due For Support On Thursday",
+      "description": "The Japan stock market has tracked lower in three straight sessions, sinking almost 2,500 points or 3.8 percent in that span. The Nikkei now sits just beneath the 62,190-point plateau although it may stop the bleeding on Thursday.",
+      "date": "2026-11-04T22:19:07.549311+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/japan-stock-market-due-for-support-on-thursday/56146"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/eurozone-private-sector-growth-moderates/56131"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Private Sector Employment Increases More Than Expected In October",
-      "description": "Payroll processor ADP released a report on Wednesday showing private sector employment in the U.S. grew by more than expected in the month of October.",
-      "date": "2026-11-04T12:24:33.516680+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-private-sector-employment-increases-more-than-expected-in-october/56130"
     }
   ]
 }
