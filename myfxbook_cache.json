@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-11-04T03:18:04.378862+00:00",
+  "fetched_at": "2026-11-04T03:33:05.857971+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australian Market Extends Early Losses In Mid-market",
+      "description": "The Australian stock market is extending its early losses in mid-market moves on Wednesday, but reversing the gains in the previous session, with the benchmark S&P/ASX 200 falling well below the 8,850 level, following the mixed cues from Wall Street overnight, with weakness in mining and financial stocks partially offset by gains in energy and technology stocks.",
+      "date": "2026-11-04T02:29:05.852585+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australian-market-extends-early-losses-in-mid-market/56096"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Asian Markets Trade Mostly Lower",
+      "description": "Asian markets are mostly lower on Wednesday, following the mixed cues from Wall Street, with markets in Japan on return after a holiday and South Korea tumbling amid anxiety over AI industry and unresolved geopolitical risks. Traders remain cautious ahead to the U.S. midterm election results. Rising expectations on a possible settlement between the U.S. and Iran is aiding market sentiment.",
+      "date": "2026-11-04T02:27:05.852916+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/asian-markets-trade-mostly-lower/56095"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/hong-kong-private-sector-expands-in-october---sp-global/56084"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Bargain Hunting May Boost Taiwan Stock Market",
-      "description": "The Taiwan stock market has finished lower in four straight sessions, tumbling more than 3,700 points or 8.2 percent along the way. The Taiwan Stock Exchange now sits just above the 43,300-point plateau although it's overdue for support on Wednesday.",
-      "date": "2026-11-03T23:32:23.140161+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/bargain-hunting-may-boost-taiwan-stock-market/56083"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Singapore Stock Market May Halt Losing Streak",
-      "description": "The Singapore stock market has moved lower in four straight sessions, slumping almost 130 points or 2.5 percent along the way. The Straits Times Index now sits just beneath the 5,270-point plateau although it may stop the bleeding on Wednesday.",
-      "date": "2026-11-03T23:02:23.140460+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/singapore-stock-market-may-halt-losing-streak/56082"
     }
   ]
 }
