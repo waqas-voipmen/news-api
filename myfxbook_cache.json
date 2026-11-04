@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-04T22:03:04.758283+00:00",
+  "fetched_at": "2026-11-04T22:18:06.584031+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "U.S. Dollar Slides As Crude Oil Nosedives Following Democrats' Win In Mid-term Elections",
+      "description": "The U.S. Dollar value moved lower on Wednesday as concerns of escalation in the U.S.-Iran conflict diminished after the mid-term election results showed a huge win for Democrats who seized control of both the houses in the U.S. Congress. As markets are betting on an end to the war, inflation worries faded and crude oil prices nosedived by nearly 8.00%.",
+      "date": "2026-11-04T21:01:06.573210+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-dollar-slides-as-crude-oil-nosedives-following-democrats-win-in-mid-term-elections/56142"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/eurozone-inflation-accelerates-to-3-year-high-on-energy-prices/56125"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "CAC 40 Climbs 1.5% Amid Oil Weakness, U.S. Political Shifts",
-      "description": "French equities gained ground Wednesday as lower oil prices and bond yields supported sentiment. The CAC 40 index climbed 1.5% to 8,139.50, with banking and industrial stocks leading gains. U.S. midterm election results shifted political dynamics affecting tech regulation and trade policy.",
-      "date": "2026-11-04T10:49:05.384331+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/cac-40-climbs-15-amid-oil-weakness-us-political-shifts/56124"
     }
   ]
 }
