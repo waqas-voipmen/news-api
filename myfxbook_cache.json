@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-04T18:33:05.151983+00:00",
+  "fetched_at": "2026-11-04T18:48:05.549291+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "CHF",
+      "title": "Swiss Market Ends On Upbeat Note",
+      "description": "After opening on a somewhat cautious note Wednesday morning, the Switzerland stock market recovered and then kept climbing higher and higher as the day progressed to eventually settle on an upbeat note.\n\nPositive global markets amid easing trade and inflation concerns rendered the mood in the Swiss market quite bullish.",
+      "date": "2026-11-04T17:39:05.545691+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/swiss-market-ends-on-upbeat-note/56141"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/cac-40-climbs-15-amid-oil-weakness-us-political-shifts/56124"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Heidelberg Materials Q3 Result, Revenue Rise; Backs FY26 View; Plans Addl. Cost Savings; Shares Up",
-      "description": "Heidelberg Materials AG, a German building materials company, reported Wednesday higher result from current operations or RCO in its third quarter, driven by strong revenue growth, while RCO margin declined from last year. Citing the positive development over the past two quarters, the company confirmed its positive fiscal 2026 outlook.",
-      "date": "2026-11-04T10:05:04.278018+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/heidelberg-materials-q3-result-revenue-rise-backs-fy26-view-plans-addl-cost-savings-shares-up/56122"
     }
   ]
 }
