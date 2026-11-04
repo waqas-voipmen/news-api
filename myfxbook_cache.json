@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-11-04T23:03:14.244053+00:00",
+  "fetched_at": "2026-11-04T23:18:11.479727+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "South Korea September Current Account Surplus $61.46 Billion",
+      "description": "South Korea posted a seasonally adjusted current account surplus of $61.46 billion in September, the Bank of Korea said on Thursday - up from $46.11 billion in August.",
+      "date": "2026-11-04T22:06:11.441184+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/south-korea-september-current-account-surplus-6146-billion/56145"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "KOSPI May Break Through Resistance At 5,700 Points",
+      "description": "The South Korea stock market has finished higher in two of three trading days since the end of the two-day slide in which it had given up more than 280 points or 4.6 percent. The KOSPI now sits just above the 5,680-point plateau and it may extend its gains on Thursday.",
+      "date": "2026-11-04T22:04:11.448269+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/kospi-may-break-through-resistance-at-5700-points/56144"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/us-private-sector-employment-increases-more-than-expected-in-october/56130"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "CAD",
-      "title": "Canadian Stocks Set To Open Firm On Global Gains, Metal Surge",
-      "description": "Canadian equities expected to open higher Wednesday, supported by positive global markets, rising precious metals prices, and lower oil easing inflation concerns. Intact Financial reports 35% profit decline; Shopify earnings beat expectations.",
-      "date": "2026-11-04T11:59:33.517875+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/canadian-stocks-set-to-open-firm-on-global-gains-metal-surge/56127"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Bank, Mining Stocks Lift FTSE 100",
-      "description": "U.K. stocks moved higher on Wednesday as lower oil prices and softening bond yields aided sentiment. Investors also digested the latest batch of earnings updates and economic data, in addition to following the political news from the U.S. Mining and bank stocks led the move up north",
-      "date": "2026-11-04T11:19:14.574129+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/bank-mining-stocks-lift-ftse-100/56126"
     }
   ]
 }
