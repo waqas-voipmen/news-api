@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-11-04T01:33:04.648621+00:00",
+  "fetched_at": "2026-11-04T02:03:05.279406+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "China Services PMI Ebbs In October - Caixin",
+      "description": "The services sector in China continued to expand in October, albeit at a slower pace, the latest survey from S&P Global revealed on Wednesday with a business PMI score of 50.8.",
+      "date": "2026-11-04T00:54:05.259193+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/china-services-pmi-ebbs-in-october---caixin/56092"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Renewed Support Likely For Indonesia Stock Market",
+      "description": "The Indonesia stock market turned emphatically lower again on Tuesday, one day after ending the two-day losing streak in which it had dropped more than 225 points or 4 percent. The Jakarta Composite Index now sits just above the 4,900-point plateau although it's likely to rebound on Wednesday.",
+      "date": "2026-11-04T00:32:05.261937+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/renewed-support-likely-for-indonesia-stock-market/56091"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/japan-shares-may-find-traction-on-wednesday/56080"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australia Services PMI Sinks Into Contraction - S&P Global",
-      "description": "The services sector in Australia fell into contraction territory in October, the latest survey from S&P Global revealed on Wednesday with a services PMI score of 48.5.",
-      "date": "2026-11-03T22:03:07.419424+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australia-services-pmi-sinks-into-contraction---sp-global/56079"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "South Korea Shares May Cut Into Tuesday's Losses",
-      "description": "The South Korea stock market turned lower again on Tuesday, one day after snapping the two-day slide in which it had given up more than 280 points or 4.6 percent. The KOSPI now sits just beneath the 5,650-point plateau although it may bounce higher again on Wednesday.",
-      "date": "2026-11-03T22:02:07.420697+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/south-korea-shares-may-cut-into-tuesdays-losses/56078"
     }
   ]
 }
