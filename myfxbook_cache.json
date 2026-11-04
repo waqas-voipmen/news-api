@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-04T10:48:04.194458+00:00",
+  "fetched_at": "2026-11-04T11:03:04.360624+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "German DAX Rises 1.29% On Lower Oil, Strong Earnings",
+      "description": "German stocks climbed Wednesday morning, with the DAX benchmark gaining 335.08 points to 26,235.99, driven by lower oil prices, softening bond yields, and strong corporate earnings. Heidelberg Materials soared nearly 9% after raising its full-year outlook.",
+      "date": "2026-11-04T09:58:04.357387+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/german-dax-rises-129-on-lower-oil-strong-earnings/56121"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/australian-market-extends-early-losses-in-mid-market/56096"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Asian Markets Trade Mostly Lower",
-      "description": "Asian markets are mostly lower on Wednesday, following the mixed cues from Wall Street, with markets in Japan on return after a holiday and South Korea tumbling amid anxiety over AI industry and unresolved geopolitical risks. Traders remain cautious ahead to the U.S. midterm election results. Rising expectations on a possible settlement between the U.S. and Iran is aiding market sentiment.",
-      "date": "2026-11-04T02:27:05.852916+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/asian-markets-trade-mostly-lower/56095"
     }
   ]
 }
