@@ -588,7 +588,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.6%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Household Spending m/m",
@@ -1423,5 +1424,5 @@
       }
     ]
   },
-  "actuals_at": "2026-11-03T23:50:29.037464+00:00"
+  "actuals_at": "2026-11-04T00:00:15.572710+00:00"
 }
