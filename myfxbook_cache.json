@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-04T09:33:04.816040+00:00",
+  "fetched_at": "2026-11-04T09:48:06.359414+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Oil Prices Edge Lower In Choppy Trade",
+      "description": "Oil prices traded lower on Wednesday after seeing sharp swings in the previous session amid uncertainty over the U.S.-Iran peace talks.",
+      "date": "2026-11-04T08:36:06.355855+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/oil-prices-edge-lower-in-choppy-trade/56112"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/renewed-support-likely-for-indonesia-stock-market/56091"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Japanese Market Sharply Lower",
-      "description": "The Japanese stock market is trading sharply lower on Wednesday, extending the losses in the previous session, following the mixed cues from Wall Street overnight. The Nikkei 225 is falling well below the 61,850 level, with weakness in financial and technology stocks partially offset by gains in exporter stocks.",
-      "date": "2026-11-04T00:30:04.644903+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/japanese-market-sharply-lower/56090"
     }
   ]
 }
