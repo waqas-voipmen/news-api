@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-04T03:48:04.166562+00:00",
+  "fetched_at": "2026-11-04T05:18:22.468533+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Indian Shares Edge Higher In Cautious Trade; US Election Results In Focus",
+      "description": "Indian shares were modestly higher on Wednesday, extending gains for a fifth straight session as softer oil prices eased inflation concerns and early results showcased significant gains for Democrats in the 2026 U.S. midterm elections, weighing on the U.S. dollar and Treasury yields.",
+      "date": "2026-11-04T03:17:22.464143+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-edge-higher-in-cautious-trade-us-election-results-in-focus/56097"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/singapore-private-sector-pmi-slows-in-october---sp-global/56085"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Hong Kong Private Sector Expands In October - S&P Global",
-      "description": "The private sector in Hong Kong moved back into expansion territory in October, the latest survey from S&P Global revealed on Wednesday with a business PMI score of 50.2.",
-      "date": "2026-11-03T23:45:23.139896+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/hong-kong-private-sector-expands-in-october---sp-global/56084"
     }
   ]
 }
