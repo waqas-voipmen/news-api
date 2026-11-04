@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-04T07:33:04.435542+00:00",
+  "fetched_at": "2026-11-04T07:48:04.734945+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Dollar Falls Following U.S. Midterms Elections",
+      "description": "The U.S. dollar weakened against other major currencies in the Asian session on Wednesday, as early U.S. midterm election results increased political unpredictability.",
+      "date": "2026-11-04T06:43:04.731368+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-dollar-falls-following-us-midterms-elections/56104"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/australian-market-modestly-lower/56088"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Rebound Predicted For China Stock Market",
-      "description": "The China stock market turned lower again on Tuesday, one day after ending the two-day losing streak in which it had dropped more than 80 points or 2.2 percent. The Shanghai Composite Index now sits just beneath the 3,610-point plateau although it may find renewed support on Wednesday.",
-      "date": "2026-11-04T00:02:23.138980+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/rebound-predicted-for-china-stock-market/56087"
     }
   ]
 }
