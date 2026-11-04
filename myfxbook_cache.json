@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-04T16:33:06.269377+00:00",
+  "fetched_at": "2026-11-04T16:48:06.578828+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "CAD",
+      "title": "TSX Up Sharply As Investors React To Earnings, U.S. Midterm Election Outcome",
+      "description": "The Canadian market is up firmly in positive territory Wednesday morning with the benchmark S&P/TSX Composite surging 1.7%. The mood in the market is quite positive amid hopes of easing trade tensions between Canada and the U.S., following the Democrats regaining control of both chambers of Congress in the US, defeating the Republicans in the midterm polls.",
+      "date": "2026-11-04T15:35:06.564894+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/tsx-up-sharply-as-investors-react-to-earnings-us-midterm-election-outcome/56139"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/german-dax-rises-129-on-lower-oil-strong-earnings/56121"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Indian Shares Extend Gains For Fifth Day",
-      "description": "Indian shares closed higher on Wednesday, extending gains for a fifth consecutive session as softer oil prices eased inflation concerns and Democrats won full control of the U.S. Congress in a sweeping midterm rout, weighing on the U.S. dollar and Treasury yields.",
-      "date": "2026-11-04T09:24:04.671996+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-extend-gains-for-fifth-day/56116"
     }
   ]
 }
