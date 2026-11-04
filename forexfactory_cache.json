@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-04T08:48:11.379934+00:00",
+  "fetched_at": "2026-11-04T09:03:18.390508+00:00",
   "periods": {
     "week": [
       {
@@ -680,8 +680,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": "52.0",
-        "actual_src": "fxstreet"
+        "actual": "52.5",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Final Services PMI",
@@ -693,8 +693,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": "52.0",
-        "actual_src": "fxstreet"
+        "actual": "51.4",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Final Services PMI",
@@ -1432,6 +1432,5 @@
         "actual": ""
       }
     ]
-  },
-  "actuals_at": "2026-11-04T08:50:14.054563+00:00"
+  }
 }
