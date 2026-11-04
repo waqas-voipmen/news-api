@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-04T12:03:05.387688+00:00",
+  "fetched_at": "2026-11-04T12:18:05.027875+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "EUR",
+      "title": "Eurozone Inflation Accelerates To 3-Year High On Energy Prices",
+      "description": "Eurozone inflation accelerated to a three-year high in October on energy prices, reinforcing expectations for another interest rate hike. Inflation increased to 4.0 percent in October from 3.8 percent in September, flash data from Eurostat showed Wednesday.",
+      "date": "2026-11-04T11:11:05.024522+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/eurozone-inflation-accelerates-to-3-year-high-on-energy-prices/56125"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/us-dollar-falls-against-majors/56102"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "European Shares Seen Lower As Investors Weigh US Policy Risks After Midterms",
-      "description": "European stocks are seen opening notably lower on Wednesday after early results showcased significant gains for Democrats in the 2026 U.S. midterm elections, threatening President Donald Trump's legislative agenda and paving the way for new investigations into his administration's policies.",
-      "date": "2026-11-04T04:42:04.483885+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-shares-seen-lower-as-investors-weigh-us-policy-risks-after-midterms/56100"
     }
   ]
 }
