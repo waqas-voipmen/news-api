@@ -810,7 +810,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-0.9M",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Monetary Policy Meeting Minutes",
@@ -1440,5 +1441,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-04T15:30:30.795968+00:00"
 }
