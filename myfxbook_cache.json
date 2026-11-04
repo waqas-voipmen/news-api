@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-04T22:18:06.584031+00:00",
+  "fetched_at": "2026-11-04T22:48:10.143645+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australia Trade Data On Tap For Thursday",
+      "description": "Australia will on Thursday release September figures for imports, exports and trade balance, highlighting a modest day for Asia-Pacific economic activity. In August, imports were up 5.8 percent on month and exports rose 3.7 percent for a trade surplus of A$495 million.",
+      "date": "2026-11-04T21:34:10.131550+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australia-trade-data-on-tap-for-thursday/56143"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/bank-mining-stocks-lift-ftse-100/56126"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "EUR",
-      "title": "Eurozone Inflation Accelerates To 3-Year High On Energy Prices",
-      "description": "Eurozone inflation accelerated to a three-year high in October on energy prices, reinforcing expectations for another interest rate hike. Inflation increased to 4.0 percent in October from 3.8 percent in September, flash data from Eurostat showed Wednesday.",
-      "date": "2026-11-04T11:11:05.024522+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/eurozone-inflation-accelerates-to-3-year-high-on-energy-prices/56125"
     }
   ]
 }
