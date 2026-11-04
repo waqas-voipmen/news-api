@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-04T02:33:04.366728+00:00",
+  "fetched_at": "2026-11-04T02:48:04.648076+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Indian Shares Seen Little Changed As US Midterm Election Results Trickle In",
+      "description": "Indian shares are seen opening flat to lower on Wednesday after a strong four-session rally. That said, a weakening dollar in overseas markets, falling U.S. Treasury yields and steadier oil prices may help limit losses, if any.",
+      "date": "2026-11-04T01:33:04.643759+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-seen-little-changed-as-us-midterm-election-results-trickle-in/56094"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/singapore-stock-market-may-halt-losing-streak/56082"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Malaysia Stock Market May Be Stuck In Neutral",
-      "description": "The Malaysia stock market has finished higher in three straight sessions, gathering almost a dozen points or 0.7 percent along the way. The Kuala Lumpur Composite Index now sits just above the 1,620-point plateau and it figures to remain in that neighborhood again on Wednesday.",
-      "date": "2026-11-03T22:32:04.214529+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/malaysia-stock-market-may-be-stuck-in-neutral/56081"
     }
   ]
 }
