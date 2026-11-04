@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-04T07:18:12.074526+00:00",
+  "fetched_at": "2026-11-04T07:33:11.835492+00:00",
   "periods": {
     "week": [
       {
@@ -524,7 +524,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-5.267",
+        "actual_src": "fxstreet"
       },
       {
         "title": "Employment Change q/q",
