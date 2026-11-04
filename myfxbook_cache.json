@@ -1,6 +1,102 @@
 {
-  "fetched_at": "2026-11-03T23:48:04.218033+00:00",
+  "fetched_at": "2026-11-04T01:19:23.142327+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Hong Kong Stock Market May Spin Its Wheels On Wednesday",
+      "description": "The Hong Kong stock market has moved higher in three straight sessions, collecting more than 560 points or 2.5 percent along the way. The Hang Seng now sits just above the 23,525-point plateau although it may run out of steam on Wednesday.",
+      "date": "2026-11-04T00:17:23.137662+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/hong-kong-stock-market-may-spin-its-wheels-on-wednesday/56089"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australian Market Modestly Lower",
+      "description": "Australian shares are trading modestly lower on Wednesday, reversing the gains in the previous session, with the benchmark S&P/ASX 200 falling to near the 8,850 level, following the mixed cues from Wall Street overnight, with weakness in mining and financial stocks partially offset by gains in energy and technology stocks.",
+      "date": "2026-11-04T00:04:23.138411+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australian-market-modestly-lower/56088"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Rebound Predicted For China Stock Market",
+      "description": "The China stock market turned lower again on Tuesday, one day after ending the two-day losing streak in which it had dropped more than 80 points or 2.2 percent. The Shanghai Composite Index now sits just beneath the 3,610-point plateau although it may find renewed support on Wednesday.",
+      "date": "2026-11-04T00:02:23.138980+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/rebound-predicted-for-china-stock-market/56087"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Japan Monetary Base Sinks 13.6% On Year In October",
+      "description": "The monetary base in Japan was down 13.6 percent on year in October, the Bank of Japan said on Wednesday - coming in at 532.571 trillion yen.",
+      "date": "2026-11-03T23:52:23.139392+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/japan-monetary-base-sinks-136-on-year-in-october/56086"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Singapore Private Sector PMI Slows In October - S&P Global",
+      "description": "The private sector in Singapore continued to expand in October, albeit at a slower pace, the latest survey from S&P Global revealed on Wednesday with a business PMI score of 56.7.",
+      "date": "2026-11-03T23:48:23.139635+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/singapore-private-sector-pmi-slows-in-october---sp-global/56085"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Hong Kong Private Sector Expands In October - S&P Global",
+      "description": "The private sector in Hong Kong moved back into expansion territory in October, the latest survey from S&P Global revealed on Wednesday with a business PMI score of 50.2.",
+      "date": "2026-11-03T23:45:23.139896+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/hong-kong-private-sector-expands-in-october---sp-global/56084"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Bargain Hunting May Boost Taiwan Stock Market",
+      "description": "The Taiwan stock market has finished lower in four straight sessions, tumbling more than 3,700 points or 8.2 percent along the way. The Taiwan Stock Exchange now sits just above the 43,300-point plateau although it's overdue for support on Wednesday.",
+      "date": "2026-11-03T23:32:23.140161+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/bargain-hunting-may-boost-taiwan-stock-market/56083"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Singapore Stock Market May Halt Losing Streak",
+      "description": "The Singapore stock market has moved lower in four straight sessions, slumping almost 130 points or 2.5 percent along the way. The Straits Times Index now sits just beneath the 5,270-point plateau although it may stop the bleeding on Wednesday.",
+      "date": "2026-11-03T23:02:23.140460+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/singapore-stock-market-may-halt-losing-streak/56082"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -60,102 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/new-zealand-unemployment-data-due-on-wednesday/56077"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "U.S. Dollar Inches Higher Amid Gulf Uncertainty, Mid-term Elections",
-      "description": "The U.S. Dollar value moves higher on Tuesday as crude oil dips amid rising expectations on U.S.-Iran peace process. Focus also shifted to the mid-term elections that began today in the U.S.",
-      "date": "2026-11-03T21:02:07.783265+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-dollar-inches-higher-amid-gulf-uncertainty-mid-term-elections/56076"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "NZD",
-      "title": "New Zealand Jobless Rate Climbs To 5.7% In Q3",
-      "description": "The unemployment rate in New Zealand came in at a seasonally adjusted 5.7 percent in the third quarter of 2026, Statistics New Zealand said on Wednesday.",
-      "date": "2026-11-03T21:00:07.784349+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/new-zealand-jobless-rate-climbs-to-57-in-q3/56075"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Factory Orders Jump More Than Expected In September",
-      "description": "The Commerce Department released a report on Tuesday showing new orders for U.S. manufactured goods surged by more than expected in the month of September. The report said factory orders shot up by 1.8 percent in September after rising by an upwardly revised 0.3 percent in August. Economists had expected factory orders to jump by 1.2 percent.",
-      "date": "2026-11-03T14:38:07.962113+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-factory-orders-jump-more-than-expected-in-september/56073"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Job Openings Increase More Than Expected In September",
-      "description": "A report released by the Labor Department on Tuesday showed a bigger-than-expected increase in job openings in the U.S. in the month of September. The Labor Department said job openings climbed to 7.523 million in September from an upwardly revised 7.190 million in August.",
-      "date": "2026-11-03T14:18:14.569223+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-job-openings-increase-more-than-expected-in-september/56072"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "FTSE 100 Trades Lower",
-      "description": "The FTSE 100 benchmark of the London Stock Exchange declined on Tuesday as global markets geared for the outcome of the U.S. midterm election results. The decline in crude oil prices that followed comments by U.S. President Donald Trump about ending financial support for Israel was also reflected in stock prices.",
-      "date": "2026-11-03T13:22:04.714060+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/ftse-100-trades-lower/56069"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "CAC 40 Weak Amidst Tech Fears",
-      "description": "The CAC 40 index that tracks the 40 largest French stocks based on the Euronext Paris slipped on Tuesday as markets focused on the U.S. midterm elections as well as the latest margin warning by tech giant Apple.",
-      "date": "2026-11-03T12:39:05.509454+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/cac-40-weak-amidst-tech-fears/56068"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "DAX Slips On Tuesday",
-      "description": "The DAX benchmark that tracks the performance of the 40 largest companies listed on the Frankfurt Stock Exchange declined on Tuesday as worries about the outcome of U.S. elections, lingering fears about elevated AI valuations, and geopolitical tensions in the Middle East dampened sentiment.",
-      "date": "2026-11-03T11:48:05.303182+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/dax-slips-on-tuesday/56065"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Canadian Dollar Rises As Oil Prices Rebound",
-      "description": "The Canadian dollar strengthened against other major currencies in the European session on Tuesday, as the crude oil prices rebounded after a reported U.S. attack on Qeshm Island on the eve of crucial midterm elections.",
-      "date": "2026-11-03T11:24:06.210258+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/canadian-dollar-rises-as-oil-prices-rebound/56064"
     }
   ]
 }

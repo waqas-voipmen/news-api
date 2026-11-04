@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-03T23:48:12.318569+00:00",
+  "fetched_at": "2026-11-04T01:19:31.392231+00:00",
   "periods": {
     "week": [
       {
@@ -597,11 +597,12 @@
         "date": "2026-11-03T19:30:00-05:00",
         "impact": "Low",
         "forecast": "0.2%",
-        "previous": "0.0%",
+        "previous": "-0.1%",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.6%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "RatingDog Services PMI",
@@ -1423,6 +1424,5 @@
         "actual": ""
       }
     ]
-  },
-  "actuals_at": "2026-11-04T00:00:15.572710+00:00"
+  }
 }
