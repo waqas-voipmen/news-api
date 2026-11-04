@@ -719,7 +719,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "2.5%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "CPI Flash Estimate y/y",
@@ -731,7 +732,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "4.0%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "ADP Non-Farm Employment Change",
@@ -1433,5 +1435,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-04T10:00:29.040936+00:00"
 }
