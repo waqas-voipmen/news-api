@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-04T11:48:09.671084+00:00",
+  "fetched_at": "2026-11-04T12:03:05.387688+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "CAC 40 Climbs 1.5% Amid Oil Weakness, U.S. Political Shifts",
+      "description": "French equities gained ground Wednesday as lower oil prices and bond yields supported sentiment. The CAC 40 index climbed 1.5% to 8,139.50, with banking and industrial stocks leading gains. U.S. midterm election results shifted political dynamics affecting tech regulation and trade policy.",
+      "date": "2026-11-04T10:49:05.384331+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/cac-40-climbs-15-amid-oil-weakness-us-political-shifts/56124"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/european-shares-seen-lower-as-investors-weigh-us-policy-risks-after-midterms/56100"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Indian Shares Edge Higher In Cautious Trade; US Election Results In Focus",
-      "description": "Indian shares were modestly higher on Wednesday, extending gains for a fifth straight session as softer oil prices eased inflation concerns and early results showcased significant gains for Democrats in the 2026 U.S. midterm elections, weighing on the U.S. dollar and Treasury yields.",
-      "date": "2026-11-04T03:17:22.464143+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-edge-higher-in-cautious-trade-us-election-results-in-focus/56097"
     }
   ]
 }
