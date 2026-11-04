@@ -793,7 +793,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "54.5",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Crude Oil Inventories",
@@ -1435,5 +1436,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-04T15:14:27.510855+00:00"
 }
