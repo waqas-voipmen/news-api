@@ -614,7 +614,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "50.8",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Spanish Unemployment Change",
@@ -1424,5 +1425,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-04T01:49:14.372203+00:00"
 }
