@@ -899,7 +899,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "3.1%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Italian Retail Sales m/m",
@@ -1445,5 +1446,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-05T08:00:28.644044+00:00"
 }
