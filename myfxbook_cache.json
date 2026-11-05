@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-05T13:03:05.551072+00:00",
+  "fetched_at": "2026-11-05T13:18:04.613791+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "Wall Street Likely To Open On Mixed Note",
+      "description": "U.S. stocks are seen opening on a mixed note Thursday morning. Tech stocks are likely to be under pressure amid speculation the Democrats controlled Congress will possibly try to enforce greater regulation of the AI systems.",
+      "date": "2026-11-05T12:03:04.610140+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/wall-street-likely-to-open-on-mixed-note/56190"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/asian-shares-mixed-as-ai-data-center-stocks-slide-on-regulation-worries/56172"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Indonesia GDP Growth Tops Expectations",
-      "description": "Indonesia's economic growth accelerated in the third quarter driven by strong increases in government spending and investment, official data showed Thursday. Gross domestic product grew 5.47 percent year-on-year in the third quarter, Statistics Indonesia said.",
-      "date": "2026-11-05T07:03:06.707312+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indonesia-gdp-growth-tops-expectations/56168"
     }
   ]
 }
