@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-05T13:18:04.613791+00:00",
+  "fetched_at": "2026-11-05T13:33:04.757696+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "CAD",
+      "title": "Canadian Stocks Poised To Rise On Commodity Strength",
+      "description": "Canadian stocks are expected to move higher Thursday morning, supported by firm commodity prices and positive European market signals. Multiple companies report earnings, including Canadian Natural Resources, Bombardier, and Gildan Activewear, while investors await Friday's jobs data from Canada and the U.S.",
+      "date": "2026-11-05T12:29:04.752414+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/canadian-stocks-poised-to-rise-on-commodity-strength/56192"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/canadian-dollar-rises-amid-risk-on-mood/56173"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Asian Shares Mixed As AI-data Center Stocks Slide On Regulation Worries",
-      "description": "Asian stocks ended mixed on Thursday as regional chipmaking shares slumped on expectations of tighter tech oversight.",
-      "date": "2026-11-05T07:38:04.372691+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/asian-shares-mixed-as-ai-data-center-stocks-slide-on-regulation-worries/56172"
     }
   ]
 }
