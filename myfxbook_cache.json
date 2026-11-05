@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-05T01:52:12.662810+00:00",
+  "fetched_at": "2026-11-05T02:03:05.441323+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Thai Stock Market Tipped To Open In The Green",
+      "description": "The Thai stock market on Wednesday ended the six-day losing streak in which it had tumbled more than 85 points or 5.5 percent. The Stock Exchange of Thailand now sits just above the 1,500-point plateau and it's expected to open to the upside again on Thursday.",
+      "date": "2026-11-05T01:01:05.427516+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/thai-stock-market-tipped-to-open-in-the-green/56157"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/south-korea-september-current-account-surplus-6146-billion/56145"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "KOSPI May Break Through Resistance At 5,700 Points",
-      "description": "The South Korea stock market has finished higher in two of three trading days since the end of the two-day slide in which it had given up more than 280 points or 4.6 percent. The KOSPI now sits just above the 5,680-point plateau and it may extend its gains on Thursday.",
-      "date": "2026-11-04T22:04:11.448269+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/kospi-may-break-through-resistance-at-5700-points/56144"
     }
   ]
 }
