@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-11-05T08:33:04.465441+00:00",
+  "fetched_at": "2026-11-05T08:48:04.375909+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Canadian Dollar Rises Amid Risk-On Mood",
+      "description": "The Canadian dollar strengthened against other major currencies in the Asian session on Thursday, as Asian stock markets traded higher, as traders react positively to the Democrats' decisive victory in the midterm elections after they won control of both the House and Senate, with crude oil prices plummeting on hopes of a potential end to the Middle East conflict.",
+      "date": "2026-11-05T07:41:04.372404+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/canadian-dollar-rises-amid-risk-on-mood/56173"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Asian Shares Mixed As AI-data Center Stocks Slide On Regulation Worries",
+      "description": "Asian stocks ended mixed on Thursday as regional chipmaking shares slumped on expectations of tighter tech oversight.",
+      "date": "2026-11-05T07:38:04.372691+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/asian-shares-mixed-as-ai-data-center-stocks-slide-on-regulation-worries/56172"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/win-streak-may-continue-for-hong-kong-stock-market/56154"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australian Market Sharply Higher",
-      "description": "The Australian market is trading sharply higher on Thursday, reversing the losses in the previous session, following the broadly positive cues from Wall Street overnight. The benchmark S&P/ASX 200 is moving above the 8,950 level, with strong gains in mining and technology stocks partially offset by weakness in energy and financial stocks.",
-      "date": "2026-11-05T00:16:12.648532+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-market-sharply-higher/56153"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "China Stock Market May Extend Wednesday's Gains",
-      "description": "The China stock market has moved higher in two of three trading days since the end of the two-day losing streak in which it had dropped more than 80 points or 2.2 percent. The Shanghai Composite Index now sits just beneath the 3,690-point plateau and it may see additional support on Thursday.",
-      "date": "2026-11-05T00:04:12.649023+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/china-stock-market-may-extend-wednesdays-gains/56152"
     }
   ]
 }
