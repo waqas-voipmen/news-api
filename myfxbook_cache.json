@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-05T09:18:04.385923+00:00",
+  "fetched_at": "2026-11-05T09:33:04.676997+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "European Shares Extend Gains As Inflation Concerns Ease",
+      "description": "European stocks traded higher on Thursday, extending gains from the previous session as retreating energy costs helped ease inflation and rate hike concerns.",
+      "date": "2026-11-05T08:28:04.673491+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-shares-extend-gains-as-inflation-concerns-ease/56176"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/higher-open-called-for-indonesia-stock-market/56155"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Win Streak May Continue For Hong Kong Stock Market",
-      "description": "The Hong Kong stock market has moved higher in four straight sessions, collecting more than 950 points or 4.2 percent along the way. The Hang Seng now sits just beneath the 23,920-point plateau and it may add to its winnings again on Thursday.",
-      "date": "2026-11-05T00:19:12.647821+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/win-streak-may-continue-for-hong-kong-stock-market/56154"
     }
   ]
 }
