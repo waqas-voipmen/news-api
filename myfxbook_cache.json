@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-11-05T23:03:08.281565+00:00",
+  "fetched_at": "2026-11-05T23:18:04.519672+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Losing Streak May Continue For Japan Stock Market",
+      "description": "The Japan stock market has tracked lower in four straight sessions, sinking almost 3,600 points or 5.6 percent in that span. The Nikkei now sits just beneath the 61,080-point plateau and it's got another awful lead for Friday's trade.",
+      "date": "2026-11-05T22:16:04.515745+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/losing-streak-may-continue-for-japan-stock-market/56205"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "AI Concerns May Continue To Drag KOSPI Lower",
+      "description": "The South Korea stock market has alternated between positive and negative finishes through the last four trading days since the end of the two-day slide in which it had given up more than 280 points or 4.6 percent. The KOSPI now sits just above the 5,380-point plateau and it may extend its losses on Friday.",
+      "date": "2026-11-05T22:11:04.516076+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/ai-concerns-may-continue-to-drag-kospi-lower/56204"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/ftse-100-up-073-boe-raises-interest-rate-by-25-bps/56187"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "CAC 40 Advances On Strong Earnings",
-      "description": "French stocks gained some ground in positive territory Thursday morning, extending gains from the previous session, as worries about inflation and trade eased a bit, prompting investors to pick up shares. Some strong earnings updates contribute as well to the positive sentiment in the market.",
-      "date": "2026-11-05T10:02:05.379034+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/cac-40-advances-on-strong-earnings/56185"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Toyota Stock Climbs On Higher H1 Results, Profit Outlook Upgrade",
-      "description": "Shares of Toyota Motor Corp. climbed around 17 percent in Japan trading and are currently trading around 9 percent higher in the pre-market activity on the NYSE, after the Japanese auto major on Thursday revised upward its fiscal 2027 outlook for net income and operating income, after reporting strong growth in first-half results. The firm, meanwhile, trimmed annual sales revenue view, and confirm",
-      "date": "2026-11-05T09:51:05.379566+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/toyota-stock-climbs-on-higher-h1-results-profit-outlook-upgrade/56184"
     }
   ]
 }
