@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-04T23:33:22.144690+00:00",
+  "fetched_at": "2026-11-05T01:52:55.877029+00:00",
   "periods": {
     "week": [
       {
@@ -831,11 +831,12 @@
         "date": "2026-11-04T19:30:00-05:00",
         "impact": "Low",
         "forecast": "0.94B",
-        "previous": "0.50B",
+        "previous": "0.18B",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "2.83B",
+        "actual_src": "forexfactory"
       },
       {
         "title": "10-y Bond Auction",
