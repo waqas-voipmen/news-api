@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-05T09:48:18.809933+00:00",
+  "fetched_at": "2026-11-05T10:03:04.827387+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Oil Rebounds From Two-month Lows",
+      "description": "Oil prices traded higher on Thursday, after having fallen more than 8 percent in the previous session on hopes that the U.S.-Iran war could end soon.",
+      "date": "2026-11-05T08:56:04.823929+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/oil-rebounds-from-two-month-lows/56178"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/japanese-market-notably-higher/56156"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Higher Open Called For Indonesia Stock Market",
-      "description": "The Indonesia stock market has moved higher in two of three trading days since the end of the two-day losing streak in which it had dropped more than 225 points or 4 percent. The Jakarta Composite Index now sits just beneath the 4,920-point plateau and it's expected to open to the upside again on Thursday.",
-      "date": "2026-11-05T00:31:12.647091+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/higher-open-called-for-indonesia-stock-market/56155"
     }
   ]
 }
