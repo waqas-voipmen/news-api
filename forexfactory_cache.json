@@ -976,7 +976,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-71.3%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "BOE Monetary Policy Report",
@@ -1448,5 +1449,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-05T10:30:33.928053+00:00"
 }
