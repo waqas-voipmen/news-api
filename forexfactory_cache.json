@@ -938,7 +938,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "2.5%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Spanish 10-y Bond Auction",
@@ -1448,5 +1449,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-05T10:00:29.100714+00:00"
 }
