@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-05T02:33:04.026487+00:00",
+  "fetched_at": "2026-11-05T02:48:05.478635+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Indian Shares Set To Extend Gains On Firm Global Cues",
+      "description": "Indian shares look set to extend recent gains on Thursday, with underlying sentiment likely to be underpinned by renewed foreign fund inflows and a sharp retreat in international crude oil prices.",
+      "date": "2026-11-05T01:39:05.472224+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-set-to-extend-gains-on-firm-global-cues/56158"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/japan-stock-market-due-for-support-on-thursday/56146"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "South Korea September Current Account Surplus $61.46 Billion",
-      "description": "South Korea posted a seasonally adjusted current account surplus of $61.46 billion in September, the Bank of Korea said on Thursday - up from $46.11 billion in August.",
-      "date": "2026-11-04T22:06:11.441184+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/south-korea-september-current-account-surplus-6146-billion/56145"
     }
   ]
 }
