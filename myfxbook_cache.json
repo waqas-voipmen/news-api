@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-05T05:33:12.558210+00:00",
+  "fetched_at": "2026-11-05T05:48:04.471668+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "European Shares Seen Mostly Higher In Cautious Trade",
+      "description": "European stocks are seen opening higher on Thursday, even as technology stocks may come under selling pressure on concerns that a Democratic-led U.S. Congress could push for tighter regulation of AI development and data center construction, which could lead to a slowdown in capex.",
+      "date": "2026-11-05T04:37:04.468171+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-shares-seen-mostly-higher-in-cautious-trade/56163"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/japan-services-pmi-improves-to-517-in-october---sp-global/56150"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Rebound Expected For Taiwan Stock Market",
-      "description": "The Taiwan stock market has finished lower in five straight sessions, tumbling more than 4,050 points or 9 percent along the way. The Taiwan Stock Exchange now sits just beneath the 42,950-point plateau although it's overdue for support on Thursday.",
-      "date": "2026-11-04T23:34:12.651187+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/rebound-expected-for-taiwan-stock-market/56149"
     }
   ]
 }
