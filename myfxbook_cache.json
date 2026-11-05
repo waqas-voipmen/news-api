@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-05T22:33:06.947884+00:00",
+  "fetched_at": "2026-11-05T22:48:08.429462+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Japan Earnings Data On Tap For Friday",
+      "description": "Japan will on Friday release September figures for average cash earnings, highlighting a light day for Asia-Pacific economic activity.",
+      "date": "2026-11-05T21:34:08.405946+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/japan-earnings-data-on-tap-for-friday/56203"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/toyota-stock-climbs-on-higher-h1-results-profit-outlook-upgrade/56184"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Indian Shares Extend Rally For Sixth Day",
-      "description": "Indian shares rose sharply on Thursday, extending gains for a sixth consecutive session as global bond yields eased and Brent crude prices plummeted to $94 a barrel on hopes that the U.S.-Iran war could end soon.",
-      "date": "2026-11-05T09:33:04.782310+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-extend-rally-for-sixth-day/56183"
     }
   ]
 }
