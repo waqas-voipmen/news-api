@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-05T02:48:05.478635+00:00",
+  "fetched_at": "2026-11-05T03:03:04.013364+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Asian Markets Track Wall Street Higher",
+      "description": "Asian stock markets are trading mostly higher on Thursday, following the broadly positive cues from Wall Street overnight, as traders react positively to the Democrats' decisive victory in the midterm elections after they won control of both the House and Senate, with crude oil prices plummeting on hopes of a potential end to the Middle East conflict. Asian markets closed mixed on Wednesday.",
+      "date": "2026-11-05T02:00:04.009696+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/asian-markets-track-wall-street-higher/56159"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/mild-upside-seen-for-malaysia-stock-market/56147"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Japan Stock Market Due For Support On Thursday",
-      "description": "The Japan stock market has tracked lower in three straight sessions, sinking almost 2,500 points or 3.8 percent in that span. The Nikkei now sits just beneath the 62,190-point plateau although it may stop the bleeding on Thursday.",
-      "date": "2026-11-04T22:19:07.549311+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/japan-stock-market-due-for-support-on-thursday/56146"
     }
   ]
 }
