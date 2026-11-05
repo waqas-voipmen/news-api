@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-05T14:48:04.985448+00:00",
+  "fetched_at": "2026-11-05T15:03:05.720385+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Weekly Jobless Claims Unexpectedly Dip, Match Multi-Decade Low",
+      "description": "With the release of the more closely watched monthly jobs report looming on Friday, the Labor Department released a report on Thursday showing an unexpected decline in first-time claims for U.S. unemployment benefits in the week ended October 31st. The Labor Department said initial jobless claims fell to 189,000, a decrease of 6,000 from the previous week's revised level of 195,000.",
+      "date": "2026-11-05T13:55:05.715641+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-weekly-jobless-claims-unexpectedly-dip-match-multi-decade-low/56195"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/german-factory-orders-rebound/56180"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Oil Rebounds From Two-month Lows",
-      "description": "Oil prices traded higher on Thursday, after having fallen more than 8 percent in the previous session on hopes that the U.S.-Iran war could end soon.",
-      "date": "2026-11-05T08:56:04.823929+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/oil-rebounds-from-two-month-lows/56178"
     }
   ]
 }
