@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-05T12:48:04.832590+00:00",
+  "fetched_at": "2026-11-05T13:03:05.551072+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Bank Of England Lifts Interest Rate To 4%, First Hike In Over 3 Years",
+      "description": "The U.K. central bank raised its key interest rate on Thursday, as expected, for the first time since 2023 in an attempt to cushion the future impact of the second-round effects of high energy prices and warned that more hikes would be necessary if the Middle East conflict does not resolve fast.",
+      "date": "2026-11-05T11:56:05.547384+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/bank-of-england-lifts-interest-rate-to-4-first-hike-in-over-3-years/56188"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indonesia-gdp-growth-tops-expectations/56168"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "CAD",
-      "title": "Canadian Dollar Rises Against Majors",
-      "description": "The Canadian dollar strengthened against other major currencies in the Asian session on Thursday.",
-      "date": "2026-11-05T06:03:04.054993+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/canadian-dollar-rises-against-majors/56166"
     }
   ]
 }
