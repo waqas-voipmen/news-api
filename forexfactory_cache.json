@@ -1064,7 +1064,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "189K",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Prelim Nonfarm Productivity q/q",
@@ -1076,7 +1077,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "3.6%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Prelim Unit Labor Costs q/q",
@@ -1088,7 +1090,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-0.7%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "FOMC Member Hammack Speaks",
@@ -1452,5 +1455,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-05T13:30:46.189832+00:00"
 }
