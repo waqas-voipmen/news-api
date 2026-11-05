@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-05T03:18:03.989246+00:00",
+  "fetched_at": "2026-11-05T03:33:04.249237+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australian Market Extends Early Gains In Mid-market",
+      "description": "The Australian market is extending its early gains in mid-market moves on Thursday, reversing the losses in the previous session, following the broadly positive cues from Wall Street overnight. The benchmark S&P/ASX 200 is surging 2 percent to above the 9,000 mark, with strong gains in mining and technology stocks partially offset by weakness in energy and financial stocks.",
+      "date": "2026-11-05T02:26:04.245254+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australian-market-extends-early-gains-in-mid-market/56160"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/singapore-stock-market-may-stop-the-bleeding-on-thursday/56148"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Mild Upside Seen For Malaysia Stock Market",
-      "description": "The Malaysia stock market on Wednesday snapped the three-day winning streak in which it had gathered almost a dozen points or 0.7 percent. The Kuala Lumpur Composite Index now sits just above the 1,615-point plateau although it's likely to rebound higher again on Thursday.",
-      "date": "2026-11-04T22:34:12.653829+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/mild-upside-seen-for-malaysia-stock-market/56147"
     }
   ]
 }
