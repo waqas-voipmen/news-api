@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-05T04:18:03.973537+00:00",
+  "fetched_at": "2026-11-05T04:33:09.739481+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Indian Shares Surge As Oil Prices Slump",
+      "description": "Indian shares opened on a buoyant note on Thursday, extending gains for a sixth consecutive session as global bond yields eased and Brent crude prices plummeted to $94 a barrel on hopes that the U.S.-Iran war could end soon.",
+      "date": "2026-11-05T03:30:09.735334+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-surge-as-oil-prices-slump/56162"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/rebound-expected-for-taiwan-stock-market/56149"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Singapore Stock Market May Stop The Bleeding On Thursday",
-      "description": "The Singapore stock market has moved lower in five straight sessions, slumping almost 130 points or 2.5 percent along the way. The Straits Times Index now sits just beneath the 5,270-point plateau although it may find traction on Thursday.",
-      "date": "2026-11-04T23:04:12.652641+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/singapore-stock-market-may-stop-the-bleeding-on-thursday/56148"
     }
   ]
 }
