@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-05T10:03:17.578491+00:00",
+  "fetched_at": "2026-11-05T10:18:11.389970+00:00",
   "periods": {
     "week": [
       {
@@ -951,7 +951,6 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "time_label": "Tentative",
         "actual": ""
       },
       {
@@ -964,8 +963,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "time_label": "Tentative",
-        "actual": ""
+        "actual": "4.74%",
+        "actual_src": "fxstreet"
       },
       {
         "title": "Challenger Job Cuts y/y",
