@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-11-05T10:48:04.786583+00:00",
+  "fetched_at": "2026-11-05T11:03:05.383053+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "CAC 40 Advances On Strong Earnings",
+      "description": "French stocks gained some ground in positive territory Thursday morning, extending gains from the previous session, as worries about inflation and trade eased a bit, prompting investors to pick up shares. Some strong earnings updates contribute as well to the positive sentiment in the market.",
+      "date": "2026-11-05T10:02:05.379034+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/cac-40-advances-on-strong-earnings/56185"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Toyota Stock Climbs On Higher H1 Results, Profit Outlook Upgrade",
+      "description": "Shares of Toyota Motor Corp. climbed around 17 percent in Japan trading and are currently trading around 9 percent higher in the pre-market activity on the NYSE, after the Japanese auto major on Thursday revised upward its fiscal 2027 outlook for net income and operating income, after reporting strong growth in first-half results. The firm, meanwhile, trimmed annual sales revenue view, and confirm",
+      "date": "2026-11-05T09:51:05.379566+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/toyota-stock-climbs-on-higher-h1-results-profit-outlook-upgrade/56184"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/european-shares-seen-mostly-higher-in-cautious-trade/56163"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Indian Shares Surge As Oil Prices Slump",
-      "description": "Indian shares opened on a buoyant note on Thursday, extending gains for a sixth consecutive session as global bond yields eased and Brent crude prices plummeted to $94 a barrel on hopes that the U.S.-Iran war could end soon.",
-      "date": "2026-11-05T03:30:09.735334+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-surge-as-oil-prices-slump/56162"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australian Market Extends Early Gains In Mid-market",
-      "description": "The Australian market is extending its early gains in mid-market moves on Thursday, reversing the losses in the previous session, following the broadly positive cues from Wall Street overnight. The benchmark S&P/ASX 200 is surging 2 percent to above the 9,000 mark, with strong gains in mining and technology stocks partially offset by weakness in energy and financial stocks.",
-      "date": "2026-11-05T02:26:04.245254+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-market-extends-early-gains-in-mid-market/56160"
     }
   ]
 }
