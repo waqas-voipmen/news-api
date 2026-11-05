@@ -1026,7 +1026,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "4.00%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "BOE Gov Bailey Speaks",
@@ -1450,5 +1451,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-05T12:00:46.470890+00:00"
 }
