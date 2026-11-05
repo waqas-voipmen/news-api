@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-05T23:33:04.074950+00:00",
+  "fetched_at": "2026-11-05T23:48:09.522778+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Renewed Consolidation Tipped For Malaysia Stock Market",
+      "description": "The Malaysia stock market bounced higher again on Thursday, one day after ending the three-day winning streak in which it had gathered almost a dozen points or 0.7 percent. The Kuala Lumpur Composite Index now sits just above the 1,635-point plateau although it's likely to turn lower again on Friday.",
+      "date": "2026-11-05T22:34:09.487816+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/renewed-consolidation-tipped-for-malaysia-stock-market/56206"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/bank-of-england-lifts-interest-rate-to-4-first-hike-in-over-3-years/56188"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "FTSE 100 Up 0.73%; BoE Raises Interest Rate By 25 Bps",
-      "description": "U.K. stocks were up in positive territory a little past noon on Thursday with investors reacting to a slew of earnings announcements and digesting the Bank of England's decision to raise interest rate by 25 basis points.",
-      "date": "2026-11-05T11:26:05.051999+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/ftse-100-up-073-boe-raises-interest-rate-by-25-bps/56187"
     }
   ]
 }
