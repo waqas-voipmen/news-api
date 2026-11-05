@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-05T08:03:10.244567+00:00",
+  "fetched_at": "2026-11-05T08:18:06.711073+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Indonesia GDP Growth Tops Expectations",
+      "description": "Indonesia's economic growth accelerated in the third quarter driven by strong increases in government spending and investment, official data showed Thursday. Gross domestic product grew 5.47 percent year-on-year in the third quarter, Statistics Indonesia said.",
+      "date": "2026-11-05T07:03:06.707312+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indonesia-gdp-growth-tops-expectations/56168"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/china-stock-market-may-extend-wednesdays-gains/56152"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australia September Trade Surplus A$2.826 Billion",
-      "description": "Australia posted a merchandise trade surplus of A$2.826 billion in September, the Australian Bureau of Statistics said on Thursday.",
-      "date": "2026-11-05T00:00:12.649708+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australia-september-trade-surplus-a2826-billion/56151"
     }
   ]
 }
