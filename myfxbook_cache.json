@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-05T22:03:08.646009+00:00",
+  "fetched_at": "2026-11-05T22:18:09.464797+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Dollar Ended Nearly Flat Amid Uncertainty Surrounding U.S. Moves To Resolve Iran Conflict",
+      "description": "The U.S. Dollar value changed a little on Thursday, as investors assessed the possible measures the U.S. administration could adopt to end the Iran crisis as oil-linked inflation is attributed to be the prime reason for setback to Republican party in the just concluded mid-term elections.",
+      "date": "2026-11-05T21:00:09.444951+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-dollar-ended-nearly-flat-amid-uncertainty-surrounding-us-moves-to-resolve-iran-conflict/56202"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indian-shares-extend-rally-for-sixth-day/56183"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "DAX Hits Fresh Record High; Rheinmetall Tanks After Lowering 2026 Outlook",
-      "description": "German stocks climbed higher Thursday morning, lifting the benchmark DAX to a fresh record high in the process, as risk sentiment improved following the victory of the Democrats in the midterm elections easing trade concerns a bit. \n\nOil's rebound from recent losses, and political tensions in France limited market's upside.",
-      "date": "2026-11-05T09:30:04.782587+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/dax-hits-fresh-record-high-rheinmetall-tanks-after-lowering-2026-outlook/56182"
     }
   ]
 }
