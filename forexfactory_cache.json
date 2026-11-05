@@ -882,11 +882,12 @@
         "date": "2026-11-05T02:45:00-05:00",
         "impact": "Low",
         "forecast": "0.3%",
-        "previous": "-0.3%",
+        "previous": "-0.4%",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-0.5%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Unemployment Rate",
@@ -1444,5 +1445,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-05T07:45:29.098082+00:00"
 }
