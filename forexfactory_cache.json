@@ -1014,7 +1014,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "9-0-0",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Official Bank Rate",
@@ -1452,5 +1453,5 @@
       }
     ]
   },
-  "actuals_at": "2026-11-05T12:00:46.470890+00:00"
+  "actuals_at": "2026-11-05T12:01:44.892258+00:00"
 }
