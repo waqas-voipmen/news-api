@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-05T12:18:05.269268+00:00",
+  "fetched_at": "2026-11-05T12:33:05.055576+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "FTSE 100 Up 0.73%; BoE Raises Interest Rate By 25 Bps",
+      "description": "U.K. stocks were up in positive territory a little past noon on Thursday with investors reacting to a slew of earnings announcements and digesting the Bank of England's decision to raise interest rate by 25 basis points.",
+      "date": "2026-11-05T11:26:05.051999+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/ftse-100-up-073-boe-raises-interest-rate-by-25-bps/56187"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/canadian-dollar-rises-against-majors/56166"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "European Shares Seen Mostly Higher In Cautious Trade",
-      "description": "European stocks are seen opening higher on Thursday, even as technology stocks may come under selling pressure on concerns that a Democratic-led U.S. Congress could push for tighter regulation of AI development and data center construction, which could lead to a slowdown in capex.",
-      "date": "2026-11-05T04:37:04.468171+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-shares-seen-mostly-higher-in-cautious-trade/56163"
     }
   ]
 }
