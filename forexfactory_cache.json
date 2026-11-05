@@ -848,7 +848,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "2.77|3.2",
+        "actual_src": "forexfactory"
       },
       {
         "title": "RBA Deputy Gov Hauser Speaks",
@@ -1442,5 +1443,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-05T03:36:20.202113+00:00"
 }
