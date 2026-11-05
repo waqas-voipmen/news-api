@@ -912,7 +912,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.1%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Construction PMI",
@@ -1446,5 +1447,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-05T09:01:45.484730+00:00"
 }
