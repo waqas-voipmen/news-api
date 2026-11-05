@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-05T18:33:04.531659+00:00",
+  "fetched_at": "2026-11-05T18:48:04.454802+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "CHF",
+      "title": "Swiss Market Ends Modestly Lower After Choppy Session",
+      "description": "The Switzerland stock market's benchmark index SMI ended modestly lower on Thursday after a choppy session, as investors stayed a bit wary of building up positions.\n\nWeakness in U.S. and European markets amid a sell-off in the technology sector due to concerns about AI-related investments weighed on Swiss stocks.",
+      "date": "2026-11-05T17:30:04.450788+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/swiss-market-ends-modestly-lower-after-choppy-session/56201"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/dax-hits-fresh-record-high-rheinmetall-tanks-after-lowering-2026-outlook/56182"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "XAU",
-      "title": "Gold Extends Gains To Two-week High",
-      "description": "Gold prices extended gains to hit a more than two-week high on Thursday as the U.S. dollar and Treasury yields slipped following the U.S. midterm elections. A sharp retreat in oil prices also helped ease inflation and rate hike concerns.",
-      "date": "2026-11-05T09:16:04.782899+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/gold-extends-gains-to-two-week-high/56181"
     }
   ]
 }
