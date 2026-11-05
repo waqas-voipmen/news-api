@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-05T18:03:04.093374+00:00",
+  "fetched_at": "2026-11-05T18:18:04.484498+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "European Markets Pare Early Gains, Close On Weak Note; Tech Stocks Tumble",
+      "description": "European stocks pared early gains and settled mostly lower on Thursday, as stocks from technology and financials sector tumbled on selling pressure. \n\nTech stocks tumbled on concerns that a Democratic-led U.S. Congress could push for tighter regulation of AI development and data center construction, which could lead to a slowdown in capex.",
+      "date": "2026-11-05T17:07:04.479868+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-markets-pare-early-gains-close-on-weak-note-tech-stocks-tumble/56200"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/gold-extends-gains-to-two-week-high/56181"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "German Factory Orders Rebound",
-      "description": "Germany's factory orders rebounded in September largely driven by strong expansion in the automotive sector, official data revealed Thursday. Factory orders increased 4.4 percent on a monthly basis, in contrast to the revised 10.1 percent decline logged in August. However, the pace of growth was weaker than forecast of 4.6 percent.",
-      "date": "2026-11-05T09:15:04.783078+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/german-factory-orders-rebound/56180"
     }
   ]
 }
