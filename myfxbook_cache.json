@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-05T07:03:04.265147+00:00",
+  "fetched_at": "2026-11-05T07:48:04.059307+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "CAD",
+      "title": "Canadian Dollar Rises Against Majors",
+      "description": "The Canadian dollar strengthened against other major currencies in the Asian session on Thursday.",
+      "date": "2026-11-05T06:03:04.054993+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/canadian-dollar-rises-against-majors/56166"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/australia-september-trade-surplus-a2826-billion/56151"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Japan Services PMI Improves To 51.7 In October - S&P Global",
-      "description": "The services sector in Japan continued to expand in October, and at a faster rate, the latest survey from S&P Global revealed on Thursday with a services PMI score of 51.7.",
-      "date": "2026-11-04T23:55:12.650156+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/japan-services-pmi-improves-to-517-in-october---sp-global/56150"
     }
   ]
 }
