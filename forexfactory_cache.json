@@ -1188,7 +1188,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "4.6%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "German Industrial Production m/m",
@@ -1456,5 +1457,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-05T23:30:14.288075+00:00"
 }
