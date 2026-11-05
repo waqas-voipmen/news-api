@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-11-05T13:33:04.757696+00:00",
+  "fetched_at": "2026-11-05T13:48:04.482073+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Labor Productivity Surges More Than Expected In Q3",
+      "description": "Labor productivity in the U.S. surged by more than expected in the third quarter of 2026, according to a report released by the Labor Department on Thursday.",
+      "date": "2026-11-05T12:41:04.477411+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-labor-productivity-surges-more-than-expected-in-q3/56194"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Weekly Jobless Claims Unexpectedly Fall To 189,000",
+      "description": "With release of the more closely watched monthly jobs report looming on Friday, the Labor Department released a report on Thursday showing an unexpected decline in first-time claims for U.S. unemployment benefits in the week ended October 31st.",
+      "date": "2026-11-05T12:36:04.477895+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-weekly-jobless-claims-unexpectedly-fall-to-189000/56193"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/oil-rebounds-from-two-month-lows/56178"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "European Shares Extend Gains As Inflation Concerns Ease",
-      "description": "European stocks traded higher on Thursday, extending gains from the previous session as retreating energy costs helped ease inflation and rate hike concerns.",
-      "date": "2026-11-05T08:28:04.673491+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-shares-extend-gains-as-inflation-concerns-ease/56176"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Canadian Dollar Rises Amid Risk-On Mood",
-      "description": "The Canadian dollar strengthened against other major currencies in the Asian session on Thursday, as Asian stock markets traded higher, as traders react positively to the Democrats' decisive victory in the midterm elections after they won control of both the House and Senate, with crude oil prices plummeting on hopes of a potential end to the Middle East conflict.",
-      "date": "2026-11-05T07:41:04.372404+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/canadian-dollar-rises-amid-risk-on-mood/56173"
     }
   ]
 }
