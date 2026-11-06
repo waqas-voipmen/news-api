@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-06T05:33:05.569371+00:00",
+  "fetched_at": "2026-11-06T05:48:03.997290+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "European Shares Seen Lower After Tech Rout On Wall Street",
+      "description": "European stocks look set to open on a sluggish note on Friday after a Wall Street rout wiped out roughly $2.5 billion in market value and sent the Nasdaq into correction territory overnight.",
+      "date": "2026-11-06T04:33:03.993237+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-shares-seen-lower-after-tech-rout-on-wall-street/56220"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/renewed-consolidation-called-for-singapore-stock-market/56207"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Renewed Consolidation Tipped For Malaysia Stock Market",
-      "description": "The Malaysia stock market bounced higher again on Thursday, one day after ending the three-day winning streak in which it had gathered almost a dozen points or 0.7 percent. The Kuala Lumpur Composite Index now sits just above the 1,635-point plateau although it's likely to turn lower again on Friday.",
-      "date": "2026-11-05T22:34:09.487816+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/renewed-consolidation-tipped-for-malaysia-stock-market/56206"
     }
   ]
 }
