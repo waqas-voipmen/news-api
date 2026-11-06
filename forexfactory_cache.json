@@ -1201,7 +1201,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.7%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Lloyds HPI m/m",
@@ -1457,5 +1458,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-06T07:01:02.577499+00:00"
 }
