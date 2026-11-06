@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-11-06T01:33:03.986802+00:00",
+  "fetched_at": "2026-11-06T01:48:04.649607+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Japanese Market Plunges 6.6%",
+      "description": "The Japanese market is trading sharply lower on Friday, extending the losses in the previous three sessions, following the broadly negative cues from Wall Street overnight. The Nikkei 225 is plunging 6.6 percent to below the 57,050 level, with a sell-off across most sectors led by index heavyweights, financial and technology stocks.",
+      "date": "2026-11-06T00:44:04.645819+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/japanese-market-plunges-66/56213"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Indonesia Stock Market May Spin Its Wheels On Friday",
+      "description": "The Indonesia stock market has moved higher in two straight sessions, advancing more than 125 points or 2.5 percent along the way. The Jakarta Composite Index now sits just above the 5,030-point plateau although it may be stuck in neutral on Friday.",
+      "date": "2026-11-06T00:34:04.646154+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indonesia-stock-market-may-spin-its-wheels-on-friday/56212"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/swiss-market-ends-modestly-lower-after-choppy-session/56201"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "European Markets Pare Early Gains, Close On Weak Note; Tech Stocks Tumble",
-      "description": "European stocks pared early gains and settled mostly lower on Thursday, as stocks from technology and financials sector tumbled on selling pressure. \n\nTech stocks tumbled on concerns that a Democratic-led U.S. Congress could push for tighter regulation of AI development and data center construction, which could lead to a slowdown in capex.",
-      "date": "2026-11-05T17:07:04.479868+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-markets-pare-early-gains-close-on-weak-note-tech-stocks-tumble/56200"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Weekly Jobless Claims Unexpectedly Dip, Match Multi-Decade Low",
-      "description": "With the release of the more closely watched monthly jobs report looming on Friday, the Labor Department released a report on Thursday showing an unexpected decline in first-time claims for U.S. unemployment benefits in the week ended October 31st. The Labor Department said initial jobless claims fell to 189,000, a decrease of 6,000 from the previous week's revised level of 195,000.",
-      "date": "2026-11-05T13:55:05.715641+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-weekly-jobless-claims-unexpectedly-dip-match-multi-decade-low/56195"
     }
   ]
 }
