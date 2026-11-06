@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-06T04:33:05.435489+00:00",
+  "fetched_at": "2026-11-06T04:48:03.883020+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Indian Shares Rebound After Early Slide",
+      "description": "Indian shares were moving higher on Friday, shrugging off early losses as traders locked in profits at higher levels following recent strong gains amid an ongoing tech sell-off in global markets.",
+      "date": "2026-11-06T03:34:03.877886+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-rebound-after-early-slide/56218"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/renewed-consolidation-tipped-for-malaysia-stock-market/56206"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Losing Streak May Continue For Japan Stock Market",
-      "description": "The Japan stock market has tracked lower in four straight sessions, sinking almost 3,600 points or 5.6 percent in that span. The Nikkei now sits just beneath the 61,080-point plateau and it's got another awful lead for Friday's trade.",
-      "date": "2026-11-05T22:16:04.515745+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/losing-streak-may-continue-for-japan-stock-market/56205"
     }
   ]
 }
