@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-06T02:50:16.223446+00:00",
+  "fetched_at": "2026-11-06T03:03:04.367548+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Asian Markets A Sea Of Red Amid Wall Street Sell-off",
+      "description": "Asian stock markets a sea on Friday, following the broad sell-off on Wall Street overnight, amid a renewed sell-off in the tech sector, with the tech-heavy NASDAQ plummeting on concerns about the sustainability of the AI trade amid expected tighter AI regulation after Democrats' takeover of both houses of Congress. Concerns of global inflation returns as crude oil prices spike again.",
+      "date": "2026-11-06T01:59:04.363013+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/asian-markets-a-sea-of-red-amid-wall-street-sell-off/56216"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/ai-concerns-may-continue-to-drag-kospi-lower/56204"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Japan Earnings Data On Tap For Friday",
-      "description": "Japan will on Friday release September figures for average cash earnings, highlighting a light day for Asia-Pacific economic activity.",
-      "date": "2026-11-05T21:34:08.405946+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/japan-earnings-data-on-tap-for-friday/56203"
     }
   ]
 }
