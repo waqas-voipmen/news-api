@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-06T22:03:04.161571+00:00",
+  "fetched_at": "2026-11-06T22:18:04.037653+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Dollar Advances As Investors Analyze NFP Data Amid U.S.-Iran Stalemate",
+      "description": "The U.S. Dollar value moved higher on Friday as the October nonfarm payrolls came in strongly above market forecasts while the unemployment rate slumped from September numbers. In addition, the U.S.-Iran conflict continues without an end in sight triggering inflation concerns.",
+      "date": "2026-11-06T21:01:04.033095+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-dollar-advances-as-investors-analyze-nfp-data-amid-us-iran-stalemate/56258"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/cac-40-down-sharply-on-weak-global-cues/56243"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Indian Shares Extend Rally For Seventh Day",
-      "description": "Indian shares closed higher for a seventh consecutive session on Friday despite weak cues from global markets.",
-      "date": "2026-11-06T09:33:13.000983+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-extend-rally-for-seventh-day/56242"
     }
   ]
 }
