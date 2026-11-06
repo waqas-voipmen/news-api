@@ -1214,7 +1214,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-0.6%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "French Trade Balance",
@@ -1459,5 +1460,5 @@
       }
     ]
   },
-  "actuals_at": "2026-11-06T07:01:02.577499+00:00"
+  "actuals_at": "2026-11-06T07:02:15.459938+00:00"
 }
