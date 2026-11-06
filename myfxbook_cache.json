@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-06T18:33:12.049514+00:00",
+  "fetched_at": "2026-11-06T19:03:04.920014+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "European Stocks Tumble On AI Regulation Fears",
+      "description": "European equities fell Friday as investors worried about potential AI regulation tightening under the Trump administration and reacted to corporate earnings and economic data releases across the region.",
+      "date": "2026-11-06T17:57:04.913056+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-stocks-tumble-on-ai-regulation-fears/56256"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/german-stocks-tumble-dax-down-173/56240"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "XAU",
-      "title": "Gold Set For Biggest Weekly Gain Since August On Oil Slide",
-      "description": "Gold prices traded lower on Friday but were on course for their strongest weekly advance since August as softening crude oil prices helped ease inflation concerns.",
-      "date": "2026-11-06T09:10:13.004439+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/gold-set-for-biggest-weekly-gain-since-august-on-oil-slide/56239"
     }
   ]
 }
