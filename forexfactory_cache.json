@@ -1467,7 +1467,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "27.8B",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Parliamentary Elections",
@@ -1483,5 +1484,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-06T20:01:44.252431+00:00"
 }
