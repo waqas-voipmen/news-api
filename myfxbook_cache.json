@@ -1,161 +1,161 @@
 {
-  "fetched_at": "2026-11-06T07:03:07.375790+00:00",
+  "fetched_at": "2026-11-06T17:33:13.006299+00:00",
   "events": [
     {
       "source": "Myfxbook",
       "type": "news",
       "country": "CAD",
-      "title": "Canadian Dollar Slides Against Most Majors",
-      "description": "The Canadian dollar weakened against most major currencies in the Asian session on Friday.",
-      "date": "2026-11-06T05:52:07.350468+00:00",
+      "title": "Canadian Market Up Firmly As Traders React To Jobs Data, Earnings",
+      "description": "The Canadian market gained modest ground in positive territory Friday morning, supported by gains in healthcare, technology, energy and materials sectors. Shares from other sectors turned in a mixed performance.\n\nStronger-than-expected U.S. non-farm payroll data aided sentiment.",
+      "date": "2026-11-06T15:51:12.994648+00:00",
       "impact": "News",
       "forecast": "",
       "previous": "",
-      "link": "https://www.myfxbook.com/news/canadian-dollar-slides-against-most-majors/56227"
+      "link": "https://www.myfxbook.com/news/canadian-market-up-firmly-as-traders-react-to-jobs-data-earnings/56255"
     },
     {
       "source": "Myfxbook",
       "type": "news",
-      "country": "NZD",
-      "title": "NZ Dollar Slides Against Most Major",
-      "description": "The New Zealand dollar weakened against most major currencies in the Asian session on Friday.",
-      "date": "2026-11-06T05:46:07.351606+00:00",
+      "country": "USD",
+      "title": "U.S. Consumer Sentiment Unexpectedly Improves In November",
+      "description": "Preliminary data released by the University of Michigan on Friday showed an unexpected improvement in U.S. consumer sentiment in the month of November. The University of Michigan said its consumer sentiment index rose to 51.0 in November from 48.0 in October. Economists had expected the index to remain unchanged.",
+      "date": "2026-11-06T14:19:12.995316+00:00",
       "impact": "News",
       "forecast": "",
       "previous": "",
-      "link": "https://www.myfxbook.com/news/nz-dollar-slides-against-most-major/56225"
+      "link": "https://www.myfxbook.com/news/us-consumer-sentiment-unexpectedly-improves-in-november/56254"
     },
     {
       "source": "Myfxbook",
       "type": "news",
-      "country": "AUD",
-      "title": "Australian Dollar Falls Against Majors",
-      "description": "The Australian dollar weakened against other major currencies in the Asian session on Friday.",
-      "date": "2026-11-06T05:41:04.059436+00:00",
+      "country": "USD",
+      "title": "U.S. Employment Jumps Much More Than Expected In October",
+      "description": "A closely watched report released by the Labor Department on Friday showed employment in the U.S. increased by far more than anticipated in the month of October. The Labor Department said non-farm payroll employment jumped by 165,000 jobs in October compared to economist estimates for the addition of 62,000 jobs.",
+      "date": "2026-11-06T14:06:12.995985+00:00",
       "impact": "News",
       "forecast": "",
       "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-dollar-falls-against-majors/56224"
+      "link": "https://www.myfxbook.com/news/us-employment-jumps-much-more-than-expected-in-october/56253"
     },
     {
       "source": "Myfxbook",
       "type": "news",
-      "country": "General",
-      "title": "European Shares Seen Lower After Tech Rout On Wall Street",
-      "description": "European stocks look set to open on a sluggish note on Friday after a Wall Street rout wiped out roughly $2.5 billion in market value and sent the Nasdaq into correction territory overnight.",
-      "date": "2026-11-06T04:33:03.993237+00:00",
+      "country": "CAD",
+      "title": "Bay Street May Open On Mixed Note, Reacting To Jobs Data, Earnings",
+      "description": "Canadian stocks are likely to open on a mixed note on Friday. Tech stocks may rebound, tracking gains of leading US tech stocks in pre-market trades today. Investors will also react to Canadian and U.S. jobs data, and a slew of corporate earnings reports.",
+      "date": "2026-11-06T12:54:12.996995+00:00",
       "impact": "News",
       "forecast": "",
       "previous": "",
-      "link": "https://www.myfxbook.com/news/european-shares-seen-lower-after-tech-rout-on-wall-street/56220"
+      "link": "https://www.myfxbook.com/news/bay-street-may-open-on-mixed-note-reacting-to-jobs-data-earnings/56252"
     },
     {
       "source": "Myfxbook",
       "type": "news",
-      "country": "General",
-      "title": "Indian Shares Rebound After Early Slide",
-      "description": "Indian shares were moving higher on Friday, shrugging off early losses as traders locked in profits at higher levels following recent strong gains amid an ongoing tech sell-off in global markets.",
-      "date": "2026-11-06T03:34:03.877886+00:00",
+      "country": "USD",
+      "title": "U.S. Employment Jumps Much More Than Expected In October",
+      "description": "A closely watched report released by the Labor Department on Friday showed employment in the U.S. increased by far more than anticipated in the month of October.",
+      "date": "2026-11-06T12:39:12.997571+00:00",
       "impact": "News",
       "forecast": "",
       "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-rebound-after-early-slide/56218"
+      "link": "https://www.myfxbook.com/news/us-employment-jumps-much-more-than-expected-in-october/56251"
     },
     {
       "source": "Myfxbook",
       "type": "news",
-      "country": "AUD",
-      "title": "Australian Market Trims Early Losses In Mid-market",
-      "description": "The Australian stock market is trimming its early losses in mid-market moves on Friday, reversing some of the sharp gains in the previous session, following the broadly negative cues from Wall Street overnight. The benchmark S&P/ASX 200 is falling below the 9,000 mark, with weakness in mining and technology stocks partially offset by gains in financial stocks.",
-      "date": "2026-11-06T02:26:03.604767+00:00",
+      "country": "EUR",
+      "title": "Euro Falls After Weak Eurozone Retail Sales Data",
+      "description": "The euro weakened against most major currencies in the European session on Friday, after Eurozone retail trade volume decreased in September after rebounding in the previous month.",
+      "date": "2026-11-06T12:23:12.998142+00:00",
       "impact": "News",
       "forecast": "",
       "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-market-trims-early-losses-in-mid-market/56217"
+      "link": "https://www.myfxbook.com/news/euro-falls-after-weak-eurozone-retail-sales-data/56250"
     },
     {
       "source": "Myfxbook",
       "type": "news",
-      "country": "WTI",
-      "title": "Asian Markets A Sea Of Red Amid Wall Street Sell-off",
-      "description": "Asian stock markets a sea on Friday, following the broad sell-off on Wall Street overnight, amid a renewed sell-off in the tech sector, with the tech-heavy NASDAQ plummeting on concerns about the sustainability of the AI trade amid expected tighter AI regulation after Democrats' takeover of both houses of Congress. Concerns of global inflation returns as crude oil prices spike again.",
-      "date": "2026-11-06T01:59:04.363013+00:00",
+      "country": "EUR",
+      "title": "Euro Falls Against Most Majors",
+      "description": "The euro weakened against most major currencies in the European session on Friday.",
+      "date": "2026-11-06T11:59:12.998702+00:00",
       "impact": "News",
       "forecast": "",
       "previous": "",
-      "link": "https://www.myfxbook.com/news/asian-markets-a-sea-of-red-amid-wall-street-sell-off/56216"
+      "link": "https://www.myfxbook.com/news/euro-falls-against-most-majors/56249"
     },
     {
       "source": "Myfxbook",
       "type": "news",
-      "country": "General",
-      "title": "Indian Shares Seen Lower Amid Global Tech Sell-off",
-      "description": "Indian shares may open on a sluggish note on Friday after recent strong gains. A cautious undertone may prevail, with information technology stocks likely to remain in focus amid an ongoing heavy sell-off in global companies exposed to AI data centers, including crucial chipmakers and semiconductor manufacturers.",
-      "date": "2026-11-06T01:31:16.218142+00:00",
+      "country": "GBP",
+      "title": "Pound Falls As European Shares Traded Lower",
+      "description": "The British pound weakened against other major currencies in the European session on Friday, as European shares fell sharply on Friday as the Democratic Party's sweeping wins at this week's midterm elections in the U.S. sparked fears of a slowdown in the pace of AI infrastructure development.",
+      "date": "2026-11-06T11:23:12.999157+00:00",
       "impact": "News",
       "forecast": "",
       "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-seen-lower-amid-global-tech-sell-off/56215"
+      "link": "https://www.myfxbook.com/news/pound-falls-as-european-shares-traded-lower/56248"
     },
     {
       "source": "Myfxbook",
       "type": "news",
-      "country": "General",
-      "title": "Thai Stock Market May Extend Thursday's Losses",
-      "description": "The Thai stock market headed south again on Thursday, one day after ending the six-day losing streak in which it had tumbled more than 85 points or 5.5 percent. The Stock Exchange of Thailand now sits just beneath the 1,500-point plateau and the losses may accelerate on Friday.",
-      "date": "2026-11-06T01:04:03.934937+00:00",
+      "country": "USD",
+      "title": "FTSE 100 Down 2.3% On Widespread Selling",
+      "description": "The U.K. stock market's benchmark index FTSE 100 fell to a four-week low Friday morning as a sell-off in global equity markets rendered the mood bearish right from the start. \n\nUncertainty about the potential economic impact of the Democrats' sweeping win in the US midterm elections contributed to the reduced risk appetite in global markets.",
+      "date": "2026-11-06T10:59:12.999708+00:00",
       "impact": "News",
       "forecast": "",
       "previous": "",
-      "link": "https://www.myfxbook.com/news/thai-stock-market-may-extend-thursdays-losses/56214"
+      "link": "https://www.myfxbook.com/news/ftse-100-down-23-on-widespread-selling/56247"
     },
     {
       "source": "Myfxbook",
       "type": "news",
-      "country": "JPY",
-      "title": "Japanese Market Plunges 6.6%",
-      "description": "The Japanese market is trading sharply lower on Friday, extending the losses in the previous three sessions, following the broadly negative cues from Wall Street overnight. The Nikkei 225 is plunging 6.6 percent to below the 57,050 level, with a sell-off across most sectors led by index heavyweights, financial and technology stocks.",
-      "date": "2026-11-06T00:44:04.645819+00:00",
+      "country": "USD",
+      "title": "CAC 40 Down Sharply On Weak Global Cues",
+      "description": "France's equity benchmark CAC 40 dropped sharply Friday morning amid rising concerns the Democratic Party's sweeping wins in the US midterm elections could result in tighter regulation of the AI industry and slowdown in data center expansion.",
+      "date": "2026-11-06T09:37:13.000396+00:00",
       "impact": "News",
       "forecast": "",
       "previous": "",
-      "link": "https://www.myfxbook.com/news/japanese-market-plunges-66/56213"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Indonesia Stock Market May Spin Its Wheels On Friday",
-      "description": "The Indonesia stock market has moved higher in two straight sessions, advancing more than 125 points or 2.5 percent along the way. The Jakarta Composite Index now sits just above the 5,030-point plateau although it may be stuck in neutral on Friday.",
-      "date": "2026-11-06T00:34:04.646154+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indonesia-stock-market-may-spin-its-wheels-on-friday/56212"
+      "link": "https://www.myfxbook.com/news/cac-40-down-sharply-on-weak-global-cues/56243"
     },
     {
       "source": "Myfxbook",
       "type": "news",
       "country": "General",
-      "title": "Hong Kong Stock Market Overdue For Consolidation",
-      "description": "Hong Kong Stock Market Overdue For Consolidation\nThe Hong Kong stock market has moved higher in five straight sessions, collecting more than 1,825 points or 7.8 percent along the way. The Hang Seng now sits just above the 24,280-point plateau although investors are likely to lock in gains on Friday.",
-      "date": "2026-11-06T00:19:03.982900+00:00",
+      "title": "Indian Shares Extend Rally For Seventh Day",
+      "description": "Indian shares closed higher for a seventh consecutive session on Friday despite weak cues from global markets.",
+      "date": "2026-11-06T09:33:13.000983+00:00",
       "impact": "News",
       "forecast": "",
       "previous": "",
-      "link": "https://www.myfxbook.com/news/hong-kong-stock-market-overdue-for-consolidation/56211"
+      "link": "https://www.myfxbook.com/news/indian-shares-extend-rally-for-seventh-day/56242"
     },
     {
       "source": "Myfxbook",
       "type": "news",
-      "country": "AUD",
-      "title": "Australian Market Notably Lower",
-      "description": "The Australian stock market is trading notably lower on Friday, reversing some of the sharp gains in the previous session, following the broadly negative cues from Wall Street overnight. The benchmark S&P/ASX 200 is falling to near the 9,000 mark, with weakness in mining and technology stocks partially offset by gains in financial stocks.",
-      "date": "2026-11-06T00:13:15.813635+00:00",
+      "country": "USD",
+      "title": "German Stocks Tumble; DAX Down 1.73%",
+      "description": "German stocks declined sharply Friday morning as investors assessed the potential impact of the Democratic Party's sweeping victory in the US midterm elections on tariffs, Middle East conflict and the impact on AI infrastructure development.",
+      "date": "2026-11-06T09:20:13.002881+00:00",
       "impact": "News",
       "forecast": "",
       "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-market-notably-lower/56210"
+      "link": "https://www.myfxbook.com/news/german-stocks-tumble-dax-down-173/56240"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "XAU",
+      "title": "Gold Set For Biggest Weekly Gain Since August On Oil Slide",
+      "description": "Gold prices traded lower on Friday but were on course for their strongest weekly advance since August as softening crude oil prices helped ease inflation concerns.",
+      "date": "2026-11-06T09:10:13.004439+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/gold-set-for-biggest-weekly-gain-since-august-on-oil-slide/56239"
     }
   ]
 }
