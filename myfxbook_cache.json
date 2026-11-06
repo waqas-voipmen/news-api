@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-11-06T06:48:04.067715+00:00",
+  "fetched_at": "2026-11-06T07:03:07.375790+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "CAD",
+      "title": "Canadian Dollar Slides Against Most Majors",
+      "description": "The Canadian dollar weakened against most major currencies in the Asian session on Friday.",
+      "date": "2026-11-06T05:52:07.350468+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/canadian-dollar-slides-against-most-majors/56227"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "NZD",
+      "title": "NZ Dollar Slides Against Most Major",
+      "description": "The New Zealand dollar weakened against most major currencies in the Asian session on Friday.",
+      "date": "2026-11-06T05:46:07.351606+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/nz-dollar-slides-against-most-major/56225"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/australian-market-notably-lower/56210"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Rally May Stall For China Stock Market",
-      "description": "The China stock market has moved higher in two straight sessions, accelerating more than 80 points or 2.2 percent along the way. The Shanghai Composite Index now sits just beneath the 3,690-point plateau although it may run out of steam on Friday.",
-      "date": "2026-11-06T00:04:15.813942+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/rally-may-stall-for-china-stock-market/56209"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Oversold Taiwan Stock Market Tipped To Open In The Red",
-      "description": "The Taiwan stock market has finished lower in six straight sessions, tumbling more than 5,400 points or 12.3 percent along the way. The Taiwan Stock Exchange now sits just beneath the 41,575-point plateau and it's expected to open under water again on Friday.",
-      "date": "2026-11-05T23:34:15.814223+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/oversold-taiwan-stock-market-tipped-to-open-in-the-red/56208"
     }
   ]
 }
