@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-06T19:03:04.920014+00:00",
+  "fetched_at": "2026-11-06T19:18:04.797499+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "CHF",
+      "title": "Swiss Market Ends Notably Lower",
+      "description": "The Switzerland stock market ended weak on Friday after remaining in negative territory throughout the session, amid a sell-off in global equity markets amid concerns about returns on AI-related investments.",
+      "date": "2026-11-06T18:15:04.791797+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/swiss-market-ends-notably-lower/56257"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indian-shares-extend-rally-for-seventh-day/56242"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "German Stocks Tumble; DAX Down 1.73%",
-      "description": "German stocks declined sharply Friday morning as investors assessed the potential impact of the Democratic Party's sweeping victory in the US midterm elections on tariffs, Middle East conflict and the impact on AI infrastructure development.",
-      "date": "2026-11-06T09:20:13.002881+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/german-stocks-tumble-dax-down-173/56240"
     }
   ]
 }
