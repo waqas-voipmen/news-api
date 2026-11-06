@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-06T03:18:10.444902+00:00",
+  "fetched_at": "2026-11-06T03:33:03.608651+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australian Market Trims Early Losses In Mid-market",
+      "description": "The Australian stock market is trimming its early losses in mid-market moves on Friday, reversing some of the sharp gains in the previous session, following the broadly negative cues from Wall Street overnight. The benchmark S&P/ASX 200 is falling below the 9,000 mark, with weakness in mining and technology stocks partially offset by gains in financial stocks.",
+      "date": "2026-11-06T02:26:03.604767+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australian-market-trims-early-losses-in-mid-market/56217"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/losing-streak-may-continue-for-japan-stock-market/56205"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "AI Concerns May Continue To Drag KOSPI Lower",
-      "description": "The South Korea stock market has alternated between positive and negative finishes through the last four trading days since the end of the two-day slide in which it had given up more than 280 points or 4.6 percent. The KOSPI now sits just above the 5,380-point plateau and it may extend its losses on Friday.",
-      "date": "2026-11-05T22:11:04.516076+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/ai-concerns-may-continue-to-drag-kospi-lower/56204"
     }
   ]
 }
