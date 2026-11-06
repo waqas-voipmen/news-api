@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-06T02:33:04.212003+00:00",
+  "fetched_at": "2026-11-06T02:50:16.223446+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Indian Shares Seen Lower Amid Global Tech Sell-off",
+      "description": "Indian shares may open on a sluggish note on Friday after recent strong gains. A cautious undertone may prevail, with information technology stocks likely to remain in focus amid an ongoing heavy sell-off in global companies exposed to AI data centers, including crucial chipmakers and semiconductor manufacturers.",
+      "date": "2026-11-06T01:31:16.218142+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-seen-lower-amid-global-tech-sell-off/56215"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/japan-earnings-data-on-tap-for-friday/56203"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Dollar Ended Nearly Flat Amid Uncertainty Surrounding U.S. Moves To Resolve Iran Conflict",
-      "description": "The U.S. Dollar value changed a little on Thursday, as investors assessed the possible measures the U.S. administration could adopt to end the Iran crisis as oil-linked inflation is attributed to be the prime reason for setback to Republican party in the just concluded mid-term elections.",
-      "date": "2026-11-05T21:00:09.444951+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-dollar-ended-nearly-flat-amid-uncertainty-surrounding-us-moves-to-resolve-iran-conflict/56202"
     }
   ]
 }
