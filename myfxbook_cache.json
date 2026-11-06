@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-06T01:23:15.817489+00:00",
+  "fetched_at": "2026-11-06T01:33:03.986802+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Hong Kong Stock Market Overdue For Consolidation",
+      "description": "Hong Kong Stock Market Overdue For Consolidation\nThe Hong Kong stock market has moved higher in five straight sessions, collecting more than 1,825 points or 7.8 percent along the way. The Hang Seng now sits just above the 24,280-point plateau although investors are likely to lock in gains on Friday.",
+      "date": "2026-11-06T00:19:03.982900+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/hong-kong-stock-market-overdue-for-consolidation/56211"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/us-weekly-jobless-claims-unexpectedly-dip-match-multi-decade-low/56195"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Labor Productivity Surges More Than Expected In Q3",
-      "description": "Labor productivity in the U.S. surged by more than expected in the third quarter of 2026, according to a report released by the Labor Department on Thursday.",
-      "date": "2026-11-05T12:41:04.477411+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-labor-productivity-surges-more-than-expected-in-q3/56194"
     }
   ]
 }
