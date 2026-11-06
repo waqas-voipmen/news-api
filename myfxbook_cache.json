@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-06T02:03:04.224656+00:00",
+  "fetched_at": "2026-11-06T02:18:03.938782+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Thai Stock Market May Extend Thursday's Losses",
+      "description": "The Thai stock market headed south again on Thursday, one day after ending the six-day losing streak in which it had tumbled more than 85 points or 5.5 percent. The Stock Exchange of Thailand now sits just beneath the 1,500-point plateau and the losses may accelerate on Friday.",
+      "date": "2026-11-06T01:04:03.934937+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/thai-stock-market-may-extend-thursdays-losses/56214"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/us-dollar-ended-nearly-flat-amid-uncertainty-surrounding-us-moves-to-resolve-iran-conflict/56202"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "CHF",
-      "title": "Swiss Market Ends Modestly Lower After Choppy Session",
-      "description": "The Switzerland stock market's benchmark index SMI ended modestly lower on Thursday after a choppy session, as investors stayed a bit wary of building up positions.\n\nWeakness in U.S. and European markets amid a sell-off in the technology sector due to concerns about AI-related investments weighed on Swiss stocks.",
-      "date": "2026-11-05T17:30:04.450788+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/swiss-market-ends-modestly-lower-after-choppy-session/56201"
     }
   ]
 }
