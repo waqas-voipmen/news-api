@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-06T06:33:04.028693+00:00",
+  "fetched_at": "2026-11-06T06:48:04.067715+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australian Dollar Falls Against Majors",
+      "description": "The Australian dollar weakened against other major currencies in the Asian session on Friday.",
+      "date": "2026-11-06T05:41:04.059436+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australian-dollar-falls-against-majors/56224"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/oversold-taiwan-stock-market-tipped-to-open-in-the-red/56208"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Renewed Consolidation Called For Singapore Stock Market",
-      "description": "The Singapore stock market on Thursday halted the five-day losing streak in which it had slumped almost 130 points or 2.5 percent. The Straits Times Index now sits just beneath the 5,300-point plateau although it may head south again on Friday.",
-      "date": "2026-11-05T23:04:15.814523+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/renewed-consolidation-called-for-singapore-stock-market/56207"
     }
   ]
 }
