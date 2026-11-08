@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-08T23:03:04.769382+00:00",
+  "fetched_at": "2026-11-08T23:33:04.263319+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "KOSPI In Line For Bargain Hunting On Monday",
+      "description": "The South Korea stock market has finished sharply lower in two straight sessions, crashing more than 620 points or 11 percent in that span. The KOSPI now sits just beneath the 5,060-point plateau although it may find traction on Monday.",
+      "date": "2026-11-08T22:04:04.256705+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/kospi-in-line-for-bargain-hunting-on-monday/56261"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/pound-falls-as-european-shares-traded-lower/56248"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "FTSE 100 Down 2.3% On Widespread Selling",
-      "description": "The U.K. stock market's benchmark index FTSE 100 fell to a four-week low Friday morning as a sell-off in global equity markets rendered the mood bearish right from the start. \n\nUncertainty about the potential economic impact of the Democrats' sweeping win in the US midterm elections contributed to the reduced risk appetite in global markets.",
-      "date": "2026-11-06T10:59:12.999708+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/ftse-100-down-23-on-widespread-selling/56247"
     }
   ]
 }
