@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-08T23:33:04.263319+00:00",
+  "fetched_at": "2026-11-08T23:48:04.130358+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Japan Stock Market Overdue For Support On Monday",
+      "description": "The Japan stock market has tracked lower in five straight sessions, sinking almost 7,200 points or 11.6 percent in that span. The Nikkei 225 now sits just above the 57,430-point plateau although it may stop the bleeding on Monday.",
+      "date": "2026-11-08T22:34:04.126868+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/japan-stock-market-overdue-for-support-on-monday/56262"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/euro-falls-against-most-majors/56249"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "GBP",
-      "title": "Pound Falls As European Shares Traded Lower",
-      "description": "The British pound weakened against other major currencies in the European session on Friday, as European shares fell sharply on Friday as the Democratic Party's sweeping wins at this week's midterm elections in the U.S. sparked fears of a slowdown in the pace of AI infrastructure development.",
-      "date": "2026-11-06T11:23:12.999157+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/pound-falls-as-european-shares-traded-lower/56248"
     }
   ]
 }
