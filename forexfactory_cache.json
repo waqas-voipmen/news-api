@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-09T01:48:12.411044+00:00",
+  "fetched_at": "2026-11-09T06:03:24.424568+00:00",
   "periods": {
     "week": [
       {
@@ -50,7 +50,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "116.4%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "German Trade Balance",

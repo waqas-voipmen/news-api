@@ -1,6 +1,102 @@
 {
-  "fetched_at": "2026-11-09T01:48:04.474804+00:00",
+  "fetched_at": "2026-11-09T06:03:07.527751+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "European Shares Seen Tad Higher At Open",
+      "description": "European stocks are seen opening a tad higher on Monday ahead of key U.S. inflation data and earnings from major AI companies, including CoreWeave, Cisco and Applied Materials, due later in the week.",
+      "date": "2026-11-09T04:36:07.514912+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-shares-seen-tad-higher-at-open/56277"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Nvidia Probes Reports Of China Spying Effort Targeting CEO Jensen Huang; Shares Down",
+      "description": "AI chip major Nvidia Corp.'s Board of Directors has initiated an independent investigation over recent media report against founder and CEO Jensen Huang being the target of a foreign intelligence effort. The probe comes after he confirmed having an affair with a Chinese woman named Alice Huang, or Huang Le, accused of working for Chinese intelligence.",
+      "date": "2026-11-09T04:35:07.516284+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/nvidia-probes-reports-of-china-spying-effort-targeting-ceo-jensen-huang-shares-down/56276"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Indian Shares Subdued After Last Week's Strong Rally",
+      "description": "Indian shares were a tad lower in lackluster trade on Monday after last week's strong rally.",
+      "date": "2026-11-09T03:41:07.517811+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-subdued-after-last-weeks-strong-rally/56275"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australian Market Modestly Higher In Mid-market",
+      "description": "The Australian stock market is modestly higher in mid-market trading on Monday after opening in the green and slipping in to the red in most of the morning session, reversing some of the losses in the previous session, following the mixed cues from Wall Street on Friday. The benchmark S&P/ASX 200 index is moving well above the 9,000.00 mark, with gains in mining and energy stocks.",
+      "date": "2026-11-09T02:36:07.518414+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australian-market-modestly-higher-in-mid-market/56274"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Asian Markets Trade Mostly Higher",
+      "description": "Asian markets are mostly higher on Monday, following the mixed cues from Wall Street on Friday, boosted by strong gains in Taiwan, Japan and South Korea amid a rebound in semiconductor stocks following the sell-off last week. Some traders are also looking to buy stocks at a bargain following the recent weakness. Markets also keep an eye on the peace talks to end hostilities in the Middle East.",
+      "date": "2026-11-09T02:28:07.518932+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/asian-markets-trade-mostly-higher/56273"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "Indian Shares Seen Opening On Muted Note",
+      "description": "Indian shares are seen opening on a muted note on Monday, tracking mixed cues from global markets as strong U.S. jobs data reinforced bets of a Federal Reserve interest-rate hike in December.",
+      "date": "2026-11-09T01:42:07.520059+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-seen-opening-on-muted-note/56272"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Thai Stock Market May Find Traction On Monday",
+      "description": "The Thai stock market has finished lower in two straight sessions, plunging more than 35 points or 2.3 percent along the way. The Stock Exchange of Thailand now sits just above the 1,465-point plateau although it's due for a rebound on Monday.",
+      "date": "2026-11-09T01:04:07.520930+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/thai-stock-market-may-find-traction-on-monday/56271"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Japanese Market Sharply Higher",
+      "description": "The Japanese stock market is sharply higher on Monday, snapping a four-session losing streak, following the mixed cues from Wall Street on Friday. The Nikkei 225 is moving above the 58,850 level, with gains across most sectors led by financial and technology stocks.",
+      "date": "2026-11-09T01:00:07.521612+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/japanese-market-sharply-higher/56270"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -60,102 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/hong-kong-stock-market-may-reverse-fridays-losses/56265"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Rebound Tipped For China Stock Market",
-      "description": "The China stock market on Friday snapped the two-day winning streak in which it had jumped more than 80 points or 2.2 percent. The Shanghai Composite Index now sits just beneath the 3,650-point plateau although it's likely to bounce higher again on Monday.",
-      "date": "2026-11-08T23:34:07.598341+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/rebound-tipped-for-china-stock-market/56264"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Taiwan Stock Market Poised To Halt Losing Streak",
-      "description": "The Taiwan stock market has finished lower in seven straight sessions, tumbling more than 7,275 points or 16.8 percent along the way. The Taiwan Stock Exchange now sits just above the 39,700-point plateau although it's overdue for support on Monday.",
-      "date": "2026-11-08T23:04:04.272250+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/taiwan-stock-market-poised-to-halt-losing-streak/56263"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Japan Stock Market Overdue For Support On Monday",
-      "description": "The Japan stock market has tracked lower in five straight sessions, sinking almost 7,200 points or 11.6 percent in that span. The Nikkei 225 now sits just above the 57,430-point plateau although it may stop the bleeding on Monday.",
-      "date": "2026-11-08T22:34:04.126868+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/japan-stock-market-overdue-for-support-on-monday/56262"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "KOSPI In Line For Bargain Hunting On Monday",
-      "description": "The South Korea stock market has finished sharply lower in two straight sessions, crashing more than 620 points or 11 percent in that span. The KOSPI now sits just beneath the 5,060-point plateau although it may find traction on Monday.",
-      "date": "2026-11-08T22:04:04.256705+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/kospi-in-line-for-bargain-hunting-on-monday/56261"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australia Building Approval Data Due On Monday",
-      "description": "Australia will on Monday release September figures for building approvals, highlighting a modest day for Asia-Pacific economic activity.",
-      "date": "2026-11-08T21:34:04.315774+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australia-building-approval-data-due-on-monday/56260"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Dollar Advances As Investors Analyze NFP Data Amid U.S.-Iran Stalemate",
-      "description": "The U.S. Dollar value moved higher on Friday as the October nonfarm payrolls came in strongly above market forecasts while the unemployment rate slumped from September numbers. In addition, the U.S.-Iran conflict continues without an end in sight triggering inflation concerns.",
-      "date": "2026-11-06T21:01:04.033095+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-dollar-advances-as-investors-analyze-nfp-data-amid-us-iran-stalemate/56258"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "CHF",
-      "title": "Swiss Market Ends Notably Lower",
-      "description": "The Switzerland stock market ended weak on Friday after remaining in negative territory throughout the session, amid a sell-off in global equity markets amid concerns about returns on AI-related investments.",
-      "date": "2026-11-06T18:15:04.791797+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/swiss-market-ends-notably-lower/56257"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "European Stocks Tumble On AI Regulation Fears",
-      "description": "European equities fell Friday as investors worried about potential AI regulation tightening under the Trump administration and reacted to corporate earnings and economic data releases across the region.",
-      "date": "2026-11-06T17:57:04.913056+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-stocks-tumble-on-ai-regulation-fears/56256"
     }
   ]
 }
