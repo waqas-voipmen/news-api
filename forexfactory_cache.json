@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-09T22:33:24.244144+00:00",
+  "fetched_at": "2026-11-09T22:48:21.791661+00:00",
   "periods": {
     "week": [
       {
@@ -891,7 +891,7 @@
         "country": "USD",
         "date": "2026-11-12T10:00:00-05:00",
         "impact": "Low",
-        "forecast": "3.86M",
+        "forecast": "3.89M",
         "previous": "3.99M",
         "source": "ForexFactory",
         "type": "calendar",
@@ -1012,7 +1012,7 @@
         "country": "USD",
         "date": "2026-11-12T14:00:00-05:00",
         "impact": "Low",
-        "forecast": "",
+        "forecast": "-286.3B",
         "previous": "-26.9B",
         "source": "ForexFactory",
         "type": "calendar",
@@ -1096,7 +1096,7 @@
         "country": "EUR",
         "date": "2026-11-13T04:00:00-05:00",
         "impact": "Low",
-        "forecast": "1.85B",
+        "forecast": "2.84B",
         "previous": "1.77B",
         "source": "ForexFactory",
         "type": "calendar",
