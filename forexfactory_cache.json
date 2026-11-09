@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-09T09:27:08.114884+00:00",
+  "fetched_at": "2026-11-09T15:15:59.134499+00:00",
   "periods": {
     "week": [
       {
@@ -65,30 +65,6 @@
         "link": null,
         "actual": "15.6B",
         "actual_src": "forexfactory"
-      },
-      {
-        "title": "M2 Money Supply y/y",
-        "country": "CNY",
-        "date": "2026-11-09T04:03:00-05:00",
-        "impact": "Low",
-        "forecast": "7.3%",
-        "previous": "7.2%",
-        "source": "ForexFactory",
-        "type": "calendar",
-        "link": null,
-        "actual": ""
-      },
-      {
-        "title": "New Loans",
-        "country": "CNY",
-        "date": "2026-11-09T04:03:00-05:00",
-        "impact": "Low",
-        "forecast": "80B",
-        "previous": "1080B",
-        "source": "ForexFactory",
-        "type": "calendar",
-        "link": null,
-        "actual": ""
       },
       {
         "title": "Sentix Investor Confidence",
@@ -346,6 +322,32 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
+        "actual": ""
+      },
+      {
+        "title": "M2 Money Supply y/y",
+        "country": "CNY",
+        "date": "2026-11-10T04:03:00-05:00",
+        "impact": "Low",
+        "forecast": "7.3%",
+        "previous": "7.2%",
+        "source": "ForexFactory",
+        "type": "calendar",
+        "link": null,
+        "time_label": "10th-14th",
+        "actual": ""
+      },
+      {
+        "title": "New Loans",
+        "country": "CNY",
+        "date": "2026-11-10T04:03:00-05:00",
+        "impact": "Low",
+        "forecast": "80B",
+        "previous": "1080B",
+        "source": "ForexFactory",
+        "type": "calendar",
+        "link": null,
+        "time_label": "10th-14th",
         "actual": ""
       },
       {
@@ -1232,6 +1234,5 @@
         "actual": ""
       }
     ]
-  },
-  "actuals_at": "2026-11-09T15:10:23.210307+00:00"
+  }
 }
