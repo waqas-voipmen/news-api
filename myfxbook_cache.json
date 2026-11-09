@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-09T23:03:07.812238+00:00",
+  "fetched_at": "2026-11-09T23:18:10.227407+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "KOSPI Overdue For Support On Tuesday",
+      "description": "The South Korea stock market has finished lower in three straight sessions, crashing more than 660 points or 11.8 percent in that span. The KOSPI now sits just beneath the 5,020-point plateau although it may find traction on Tuesday.",
+      "date": "2026-11-09T22:04:10.201868+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/kospi-overdue-for-support-on-tuesday/56313"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/us-dollar-falls-against-majors/56294"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "UniCredit Lifts FY26 Profit View After Higher Q3; Plans Control Of Commerzbank; Stock Gains",
-      "description": "Shares of UniCredit S.p.A. were gaining around 5 percent in Italian trading after the bank on Monday raised fiscal 2026 outlook after reporting strong growth in third-quarter profit and revenues. The Italian lender, which is in the process of full consolidation of Commerzbank AG, further said it is heading into 2027 with strong momentum, while confirming profit targets for fiscal 2028 and 2030.",
-      "date": "2026-11-09T10:04:45.174987+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/unicredit-lifts-fy26-profit-view-after-higher-q3-plans-control-of-commerzbank-stock-gains/56293"
     }
   ]
 }
