@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-09T17:48:06.433495+00:00",
+  "fetched_at": "2026-11-09T18:03:06.918166+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "European Markets Close On Firm Note As Oil Prices Fall Sharply",
+      "description": "European markets closed on a firm note on Monday as a drop in oil prices and softening bond yields helped underpin sentiment. Higher precious metals prices lifted mining stocks, and some rating upgrades contributed as well to the move up north.",
+      "date": "2026-11-09T16:57:06.900789+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-markets-close-on-firm-note-as-oil-prices-fall-sharply/56308"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/gold-inches-higher-as-dollar-steadies-after-rally/56286"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "NZD",
-      "title": "NZ Dollar Advances Against Majors",
-      "description": "The New Zealand dollar strengthened against other major currencies in the Asian session on Monday.",
-      "date": "2026-11-09T09:01:45.179775+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/nz-dollar-advances-against-majors/56285"
     }
   ]
 }
