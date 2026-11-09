@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-09T00:33:06.289334+00:00",
+  "fetched_at": "2026-11-09T00:48:07.612228+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Rebound Tipped For China Stock Market",
+      "description": "The China stock market on Friday snapped the two-day winning streak in which it had jumped more than 80 points or 2.2 percent. The Shanghai Composite Index now sits just beneath the 3,650-point plateau although it's likely to bounce higher again on Monday.",
+      "date": "2026-11-08T23:34:07.598341+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/rebound-tipped-for-china-stock-market/56264"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/us-employment-jumps-much-more-than-expected-in-october/56251"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "EUR",
-      "title": "Euro Falls After Weak Eurozone Retail Sales Data",
-      "description": "The euro weakened against most major currencies in the European session on Friday, after Eurozone retail trade volume decreased in September after rebounding in the previous month.",
-      "date": "2026-11-06T12:23:12.998142+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/euro-falls-after-weak-eurozone-retail-sales-data/56250"
     }
   ]
 }
