@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-11-09T01:03:06.416409+00:00",
+  "fetched_at": "2026-11-09T01:18:04.812401+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australia Building Consents Climb 5.1% In September",
+      "description": "The total number of building permits issued in Australia was up a seasonally adjusted 5.1 percent on month in September, the Australian Bureau of Statistics said on Monday - coming in at 17,948.",
+      "date": "2026-11-09T00:15:04.807885+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australia-building-consents-climb-51-in-september/56266"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Hong Kong Stock Market May Reverse Friday's Losses",
+      "description": "The Hong Kong stock market on Friday wrote a finish to the five-day winning streak in which it had surged more than 1,825 points or 7.8 percent. The Hang Seng now sits just above the 24,480-point plateau although it may move back to the upside again on Monday.",
+      "date": "2026-11-09T00:04:04.808220+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/hong-kong-stock-market-may-reverse-fridays-losses/56265"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/us-employment-jumps-much-more-than-expected-in-october/56253"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "CAD",
-      "title": "Bay Street May Open On Mixed Note, Reacting To Jobs Data, Earnings",
-      "description": "Canadian stocks are likely to open on a mixed note on Friday. Tech stocks may rebound, tracking gains of leading US tech stocks in pre-market trades today. Investors will also react to Canadian and U.S. jobs data, and a slew of corporate earnings reports.",
-      "date": "2026-11-06T12:54:12.996995+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/bay-street-may-open-on-mixed-note-reacting-to-jobs-data-earnings/56252"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Employment Jumps Much More Than Expected In October",
-      "description": "A closely watched report released by the Labor Department on Friday showed employment in the U.S. increased by far more than anticipated in the month of October.",
-      "date": "2026-11-06T12:39:12.997571+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-employment-jumps-much-more-than-expected-in-october/56251"
     }
   ]
 }
