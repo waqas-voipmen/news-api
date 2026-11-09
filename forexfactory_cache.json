@@ -63,7 +63,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "15.6B",
+        "actual_src": "forexfactory"
       },
       {
         "title": "M2 Money Supply y/y",
@@ -1231,5 +1232,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-09T07:00:29.379379+00:00"
 }
