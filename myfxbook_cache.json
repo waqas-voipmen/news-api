@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-09T18:18:06.907242+00:00",
+  "fetched_at": "2026-11-09T18:33:15.538197+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Swiss Market Ends Notably Higher",
+      "description": "The Switzerland market closed on a firm note on Monday, in line with markets across Europe, as a sharp drop in oil prices and softening bond yields helped underpin sentiment.",
+      "date": "2026-11-09T17:20:15.489771+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/swiss-market-ends-notably-higher/56309"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/antipodean-currencies-rise-amid-risk-on-mood/56288"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "XAU",
-      "title": "Gold Inches Higher As Dollar Steadies After Rally",
-      "description": "Gold prices rose toward $4,100 an ounce on Monday as the U.S. dollar stabilized after climbing on stronger-than-expected employment data.",
-      "date": "2026-11-09T09:11:45.179068+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/gold-inches-higher-as-dollar-steadies-after-rally/56286"
     }
   ]
 }
