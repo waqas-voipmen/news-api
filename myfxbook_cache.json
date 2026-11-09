@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-09T23:18:10.227407+00:00",
+  "fetched_at": "2026-11-09T23:33:07.419416+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Japan Stock Market Tipped To Open In The Green",
+      "description": "The Japan stock market on Monday ended the five-day losing streak in which it had plummeted almost 7,200 points or 11.6 percent. The Nikkei 225 now sits just above the 57,775-point plateau and it may add to its winnings on Tuesday.",
+      "date": "2026-11-09T22:19:07.402161+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/japan-stock-market-tipped-to-open-in-the-green/56314"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/cac-40-climbs-higher-on-corporate-news-weak-oil-prices/56295"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Dollar Falls Against Majors",
-      "description": "The U.S. dollar weakened against other major currencies in the European session on Monday.",
-      "date": "2026-11-09T10:08:45.174386+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-dollar-falls-against-majors/56294"
     }
   ]
 }

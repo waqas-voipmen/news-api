@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-09T23:18:25.782502+00:00",
+  "fetched_at": "2026-11-09T23:33:24.909228+00:00",
   "periods": {
     "week": [
       {
@@ -201,7 +201,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-6.7%",
+        "actual_src": "fxstreet"
       },
       {
         "title": "Bank Lending y/y",
