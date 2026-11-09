@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-09T17:33:10.735762+00:00",
+  "fetched_at": "2026-11-09T17:48:19.772935+00:00",
   "periods": {
     "week": [
       {
@@ -612,6 +612,18 @@
         "impact": "Low",
         "forecast": "0.7%",
         "previous": "-1.3%",
+        "source": "ForexFactory",
+        "type": "calendar",
+        "link": null,
+        "actual": ""
+      },
+      {
+        "title": "ECB President Lagarde Speaks",
+        "country": "EUR",
+        "date": "2026-11-11T04:45:00-05:00",
+        "impact": "Medium",
+        "forecast": "",
+        "previous": "",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
