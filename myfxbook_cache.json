@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-09T06:48:04.370531+00:00",
+  "fetched_at": "2026-11-09T09:26:49.167577+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Asian Shares Mixed In Cautious Trade; Nikkei Rebounds Over 2%",
+      "description": "Asian stocks ended mixed on Monday, even as artificial intelligence stocks recovered some ground lost in last week's sell-off on fears that tighter regulations on data center construction, energy use, and development costs could slow the AI infrastructure boom.",
+      "date": "2026-11-09T07:41:49.149610+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/asian-shares-mixed-in-cautious-trade-nikkei-rebounds-over-2/56279"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/australia-building-consents-climb-51-in-september/56266"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Hong Kong Stock Market May Reverse Friday's Losses",
-      "description": "The Hong Kong stock market on Friday wrote a finish to the five-day winning streak in which it had surged more than 1,825 points or 7.8 percent. The Hang Seng now sits just above the 24,480-point plateau although it may move back to the upside again on Monday.",
-      "date": "2026-11-09T00:04:04.808220+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/hong-kong-stock-market-may-reverse-fridays-losses/56265"
     }
   ]
 }
