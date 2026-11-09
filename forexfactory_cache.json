@@ -189,7 +189,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-2.7%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Household Spending y/y",
@@ -1285,5 +1286,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-09T23:41:15.565811+00:00"
 }
