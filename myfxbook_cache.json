@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-09T18:48:05.370097+00:00",
+  "fetched_at": "2026-11-09T19:03:08.129387+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Oil Drop Lifts Canadian Equities; Materials Stocks Up Sharply",
+      "description": "Canadian equities rallied Monday as oil prices fell following U.S. President Donald Trump's remarks that military strikes on Iran were \"highly unlikely.\" Materials and financials sectors led gains amid firm precious metals prices.",
+      "date": "2026-11-09T17:44:08.111514+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/oil-drop-lifts-canadian-equities-materials-stocks-up-sharply/56310"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indian-shares-end-higher-after-late-session-buying/56290"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Antipodean Currencies Rise Amid Risk-on Mood",
-      "description": "The antipodean currencies such as the Australia and the New Zealand dollars strengthened against their major currencies in the Asian session on Monday amid risk-on mood by the investors, boosted by strong gains in Taiwan, Japan and South Korea amid a rebound in semiconductor stocks following the sell-off last week. Some traders are also looking to buy stocks at a bargain following the recent weakness. Markets also keep an eye on the ongoing peace talks to end hostilities in the Middle East.",
-      "date": "2026-11-09T09:34:45.178064+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/antipodean-currencies-rise-amid-risk-on-mood/56288"
     }
   ]
 }
