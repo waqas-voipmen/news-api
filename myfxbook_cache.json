@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-09T15:33:13.056533+00:00",
+  "fetched_at": "2026-11-09T15:48:06.376792+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Wholesale Inventories Climb More Than Expected In September",
+      "description": "Wholesale inventories in the U.S. increased by more than expected in the month of September, according to a report released by the Commerce Department on Monday. The Commerce Department said wholesale inventories climbed by 0.7 percent in September after rising by an upwardly revised 0.6 percent in August.",
+      "date": "2026-11-09T14:34:06.368665+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-wholesale-inventories-climb-more-than-expected-in-september/56307"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/nz-dollar-advances-against-majors/56285"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australian Dollar Rises Against Majors",
-      "description": "The Australian dollar strengthened against other major currencies in the Asian session on Monday.",
-      "date": "2026-11-09T08:57:45.180518+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-dollar-rises-against-majors/56284"
     }
   ]
 }
