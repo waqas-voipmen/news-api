@@ -151,7 +151,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.7%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "FOMC Member Goolsbee Speaks",
@@ -1232,5 +1233,5 @@
       }
     ]
   },
-  "actuals_at": "2026-11-09T09:30:31.771930+00:00"
+  "actuals_at": "2026-11-09T15:10:23.210307+00:00"
 }
