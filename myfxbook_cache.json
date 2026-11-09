@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-09T21:48:04.083179+00:00",
+  "fetched_at": "2026-11-09T22:03:05.695014+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "U.S. Dollar Slides As Inflation Concerns Fade After Trump Softens Stance On Iran Attacks",
+      "description": "The U.S. Dollar value edged lower on Friday as inflation concerns diminished after a sharp decline in crude oil prices after Qatar accelerated its mediatory efforts to end the U.S.-Iran war and the U.S. halted its plans on attacking Iran.",
+      "date": "2026-11-09T21:01:05.685945+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-dollar-slides-as-inflation-concerns-fade-after-trump-softens-stance-on-iran-attacks/56311"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/dax-advances-as-oil-prices-drop-commerzbank-sap-rise-on-rating-upgrade/56292"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Indian Shares End Higher After Late-session Buying",
-      "description": "Indian shares moved in a narrow range before ending marginally higher on Monday, tracking mixed cues from global markets.",
-      "date": "2026-11-09T09:36:45.177088+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-end-higher-after-late-session-buying/56290"
     }
   ]
 }
