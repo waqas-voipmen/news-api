@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-09T00:03:04.525197+00:00",
+  "fetched_at": "2026-11-09T00:18:04.275911+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Taiwan Stock Market Poised To Halt Losing Streak",
+      "description": "The Taiwan stock market has finished lower in seven straight sessions, tumbling more than 7,275 points or 16.8 percent along the way. The Taiwan Stock Exchange now sits just above the 39,700-point plateau although it's overdue for support on Monday.",
+      "date": "2026-11-08T23:04:04.272250+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/taiwan-stock-market-poised-to-halt-losing-streak/56263"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/euro-falls-after-weak-eurozone-retail-sales-data/56250"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "EUR",
-      "title": "Euro Falls Against Most Majors",
-      "description": "The euro weakened against most major currencies in the European session on Friday.",
-      "date": "2026-11-06T11:59:12.998702+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/euro-falls-against-most-majors/56249"
     }
   ]
 }
