@@ -1,6 +1,42 @@
 {
-  "fetched_at": "2026-11-09T01:33:05.100601+00:00",
+  "fetched_at": "2026-11-09T01:48:04.474804+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "China Consumer Prices Flat In September",
+      "description": "Overall consumer prices in China were flat on a seasonally adjusted monthly basis in September, the National Bureau of Statistics said on Monday.",
+      "date": "2026-11-09T00:35:04.469399+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/china-consumer-prices-flat-in-september/56269"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Indonesia Stock Market May Extend Winning Streak",
+      "description": "The Indonesia stock market has moved higher in three straight sessions, advancing almost 150 points or 3 percent along the way. The Jakarta Composite Index now sits just above the 5,050-point plateau and it may add to its winnings on Monday.",
+      "date": "2026-11-09T00:34:04.469706+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indonesia-stock-market-may-extend-winning-streak/56268"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australian Markets Modestly Lower",
+      "description": "The Australian stock market is modestly lower on Monday, extending the losses in the previous session, following the mixed cues from Wall Street on Friday. The benchmark S&P/ASX 200 index is falling below the 9,000.00 mark, with weakness in financial stocks partially offset by gains in mining and energy stocks.",
+      "date": "2026-11-09T00:28:04.470032+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australian-markets-modestly-lower/56267"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -120,42 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/european-stocks-tumble-on-ai-regulation-fears/56256"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "CAD",
-      "title": "Canadian Market Up Firmly As Traders React To Jobs Data, Earnings",
-      "description": "The Canadian market gained modest ground in positive territory Friday morning, supported by gains in healthcare, technology, energy and materials sectors. Shares from other sectors turned in a mixed performance.\n\nStronger-than-expected U.S. non-farm payroll data aided sentiment.",
-      "date": "2026-11-06T15:51:12.994648+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/canadian-market-up-firmly-as-traders-react-to-jobs-data-earnings/56255"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Consumer Sentiment Unexpectedly Improves In November",
-      "description": "Preliminary data released by the University of Michigan on Friday showed an unexpected improvement in U.S. consumer sentiment in the month of November. The University of Michigan said its consumer sentiment index rose to 51.0 in November from 48.0 in October. Economists had expected the index to remain unchanged.",
-      "date": "2026-11-06T14:19:12.995316+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-consumer-sentiment-unexpectedly-improves-in-november/56254"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Employment Jumps Much More Than Expected In October",
-      "description": "A closely watched report released by the Labor Department on Friday showed employment in the U.S. increased by far more than anticipated in the month of October. The Labor Department said non-farm payroll employment jumped by 165,000 jobs in October compared to economist estimates for the addition of 62,000 jobs.",
-      "date": "2026-11-06T12:39:12.997571+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-employment-jumps-much-more-than-expected-in-october/56253"
     }
   ]
 }
