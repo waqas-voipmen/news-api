@@ -24,7 +24,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.7%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "PPI y/y",
@@ -36,7 +37,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "5.7%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Leading Indicators",
@@ -1228,5 +1230,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-09T01:30:44.733245+00:00"
 }
