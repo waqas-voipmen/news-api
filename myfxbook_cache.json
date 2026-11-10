@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-09T23:33:07.419416+00:00",
+  "fetched_at": "2026-11-09T23:48:06.460025+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Malaysia Stock Market May See Renewed Support",
+      "description": "Ahead of Monday's holiday for Deepavali, the Malaysia stock market had finished lower in two of three trading days since the end of the three-day winning streak in which it had gathered almost a dozen points or 0.7 percent. The Kuala Lumpur Composite Index now sits just above the 1,615-point plateau and it's likely to move back to the upside again on Tuesday.",
+      "date": "2026-11-09T22:34:06.444026+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/malaysia-stock-market-may-see-renewed-support/56315"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/ftse-100-climbs-higher-as-miners-post-strong-gains/56296"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "CAC 40 Climbs Higher On Corporate News, Weak Oil Prices",
-      "description": "France's equity benchmark CAC 40 moved higher on Monday, rebounding a bit from recent losses, as oil prices dropped and bond yields softened slightly. \n\nOil prices dropped following remarks by U.S. President Donald Trump that renewed military strikes on Iran were \"highly unlikely\" while talks to end their eight-month-old conflict continue.",
-      "date": "2026-11-09T10:12:45.173455+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/cac-40-climbs-higher-on-corporate-news-weak-oil-prices/56295"
     }
   ]
 }
