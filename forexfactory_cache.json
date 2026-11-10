@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-10T10:18:11.288643+00:00",
+  "fetched_at": "2026-11-10T10:33:11.189760+00:00",
   "periods": {
     "week": [
       {
@@ -405,7 +405,8 @@
         "type": "calendar",
         "link": null,
         "time_label": "Tentative",
-        "actual": ""
+        "actual": "5.54%",
+        "actual_src": "fxstreet"
       },
       {
         "title": "MPC Member Lombardelli Speaks",
