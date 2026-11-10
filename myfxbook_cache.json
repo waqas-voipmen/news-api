@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-10T14:03:49.684610+00:00",
+  "fetched_at": "2026-11-10T14:18:35.344574+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "CAC 40 Extends Gains",
+      "description": "The CAC 40 index that tracks the 40 largest French stocks based on the Euronext Paris added to Monday's gains as markets cheered the global rebound in tech shares.",
+      "date": "2026-11-10T13:05:35.341135+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/cac-40-extends-gains/56350"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/european-shares-seen-mostly-higher-at-open/56327"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australian Market Extends Early Gains In Mid-market",
-      "description": "The Australian stock market is extending its early gains in mid-market trading on Tuesday, adding to the gains in the previous session, following the broadly positive cues from Wall Street overnight. The benchmark S&P/ASX 200 index is moving well above the 9,100 level, with gains across most sectors led by mining and technology stocks.",
-      "date": "2026-11-10T02:14:04.159333+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-market-extends-early-gains-in-mid-market/56326"
     }
   ]
 }
