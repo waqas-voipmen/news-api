@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-10T10:33:04.158556+00:00",
+  "fetched_at": "2026-11-10T10:48:04.451301+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Infineon Shares Gain On Higher Q4 Results, Positive Outlook",
+      "description": "Shares of Infineon Technologies AG were gaining around 6 percent in the German trading after the semiconductor major on Tuesday reported significantly higher fourth-quarter profit and revenues. Further, the firm issued positive outlook for first quarter and fiscal 2027, driven by data centers, power infrastructure, and software-defined vehicles.",
+      "date": "2026-11-10T09:33:04.444753+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/infineon-shares-gain-on-higher-q4-results-positive-outlook/56341"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/japanese-market-sharply-higher/56322"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Win Streak May Continue For Indonesia Stock Market",
-      "description": "The Indonesia stock market has moved higher in four straight sessions, advancing almost 170 points or 3.5 percent along the way. The Jakarta Composite Index now sits just above the 5,070-point plateau and it may open in the green again on Tuesday.",
-      "date": "2026-11-10T00:34:04.160580+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/win-streak-may-continue-for-indonesia-stock-market/56321"
     }
   ]
 }

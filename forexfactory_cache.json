@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-10T10:33:11.189760+00:00",
+  "fetched_at": "2026-11-10T10:48:11.583399+00:00",
   "periods": {
     "week": [
       {
@@ -346,30 +346,6 @@
         "actual": ""
       },
       {
-        "title": "M2 Money Supply y/y",
-        "country": "CNY",
-        "date": "2026-11-10T04:03:00-05:00",
-        "impact": "Low",
-        "forecast": "7.2%",
-        "previous": "7.2%",
-        "source": "ForexFactory",
-        "type": "calendar",
-        "link": null,
-        "actual": ""
-      },
-      {
-        "title": "New Loans",
-        "country": "CNY",
-        "date": "2026-11-10T04:03:00-05:00",
-        "impact": "Low",
-        "forecast": "80B",
-        "previous": "1080B",
-        "source": "ForexFactory",
-        "type": "calendar",
-        "link": null,
-        "actual": ""
-      },
-      {
         "title": "G7 Meetings",
         "country": "All",
         "date": "2026-11-10T04:45:00-05:00",
@@ -648,6 +624,32 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
+        "actual": ""
+      },
+      {
+        "title": "M2 Money Supply y/y",
+        "country": "CNY",
+        "date": "2026-11-11T04:03:00-05:00",
+        "impact": "Low",
+        "forecast": "7.2%",
+        "previous": "7.2%",
+        "source": "ForexFactory",
+        "type": "calendar",
+        "link": null,
+        "time_label": "Tentative",
+        "actual": ""
+      },
+      {
+        "title": "New Loans",
+        "country": "CNY",
+        "date": "2026-11-11T04:03:00-05:00",
+        "impact": "Low",
+        "forecast": "80B",
+        "previous": "1080B",
+        "source": "ForexFactory",
+        "type": "calendar",
+        "link": null,
+        "time_label": "Tentative",
         "actual": ""
       },
       {
