@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-10T13:33:04.176851+00:00",
+  "fetched_at": "2026-11-10T13:48:06.333598+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Consumer Prices Climb More Than Expected In October",
+      "description": "Consumer prices in the U.S. increased by more than expected in the month of October, according to a closely watched report released by the Labor Department on Tuesday.",
+      "date": "2026-11-10T12:39:06.324612+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-consumer-prices-climb-more-than-expected-in-october/56349"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/australian-market-extends-early-gains-in-mid-market/56326"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Asian Markets A Sea Of Green",
-      "description": "Asian stock markets are trading mostly higher on Tuesday, following the broadly positive cues from Wall Street overnight, boosted by markets in South Korea, Japan and Taiwan on a continued rally in semiconductor stocks which mirrored their peers on tech-heavy Nasdaq amid improving sentiment toward the AI sector. Easing geopolitical tensions in the Middle East also lifted investor sentiment.",
-      "date": "2026-11-10T02:08:04.159549+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/asian-markets-a-sea-of-green/56325"
     }
   ]
 }

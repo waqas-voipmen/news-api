@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-10T13:33:14.623183+00:00",
+  "fetched_at": "2026-11-10T13:48:23.142827+00:00",
   "periods": {
     "week": [
       {
@@ -399,23 +399,24 @@
       {
         "title": "ADP Weekly Employment Change",
         "country": "USD",
-        "date": "2026-11-10T08:15:00-05:00",
+        "date": "2026-11-10T08:14:00-05:00",
         "impact": "Low",
         "forecast": "",
-        "previous": "",
+        "previous": "16.8K",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": "19.8K",
+        "time_label": "Oct 17th",
+        "actual": "19.5K",
         "actual_src": "forexfactory"
       },
       {
         "title": "ADP Weekly Employment Change",
         "country": "USD",
-        "date": "2026-11-10T08:16:00-05:00",
+        "date": "2026-11-10T08:15:00-05:00",
         "impact": "Low",
         "forecast": "",
-        "previous": "16.8K",
+        "previous": "19.5K",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
