@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-10T18:18:04.256721+00:00",
+  "fetched_at": "2026-11-10T18:33:04.529905+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "European Markets Finished Mixed On Tuesday",
+      "description": "The major European markets finished mostly higher on Tuesday, although they trended downward throughout the day and ended on opposite sides of the unchanged line.",
+      "date": "2026-11-10T17:14:04.525531+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-markets-finished-mixed-on-tuesday/56357"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/european-shares-edge-higher-as-inflation-concerns-ease/56334"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Asian Shares Advance Amid Tech Rebound",
-      "description": "Asian stocks rallied on Tuesday as falling oil prices and a rebound in AI and semiconductor shares boosted investors' appetite for risk.",
-      "date": "2026-11-10T07:42:14.283192+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/asian-shares-advance-amid-tech-rebound/56332"
     }
   ]
 }
