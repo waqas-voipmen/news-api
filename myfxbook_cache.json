@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-10T13:18:04.391854+00:00",
+  "fetched_at": "2026-11-10T13:33:04.176851+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "DAX Rises Further On Tuesday",
+      "description": "The DAX benchmark that tracks the performance of the 40 largest companies listed on the Frankfurt Stock Exchange rallied further on Tuesday amidst a global rebound in technology shares and a continued decline in crude oil prices.",
+      "date": "2026-11-10T12:18:04.172436+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/dax-rises-further-on-tuesday/56348"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/asian-markets-a-sea-of-green/56325"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Indian Markets Closed For Diwali Balipratipada",
-      "description": "Indian stock markets remain closed today on account of Diwali Balipratipada.",
-      "date": "2026-11-10T01:33:04.159825+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-markets-closed-for-diwali-balipratipada/56324"
     }
   ]
 }
