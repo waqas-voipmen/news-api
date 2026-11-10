@@ -432,7 +432,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.3%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "CPI m/m",
@@ -444,7 +445,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.4%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "FOMC Member Logan Speaks",
@@ -1294,5 +1296,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-10T13:30:44.477027+00:00"
 }
