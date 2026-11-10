@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-10T11:33:10.634861+00:00",
+  "fetched_at": "2026-11-10T11:48:11.653938+00:00",
   "periods": {
     "week": [
       {
@@ -359,6 +359,19 @@
         "actual": ""
       },
       {
+        "title": "30-y Bond Auction",
+        "country": "GBP",
+        "date": "2026-11-10T05:02:00-05:00",
+        "impact": "Low",
+        "forecast": "",
+        "previous": "5.52|3.8",
+        "source": "ForexFactory",
+        "type": "calendar",
+        "link": null,
+        "actual": "5.54|3.8",
+        "actual_src": "forexfactory"
+      },
+      {
         "title": "NFIB Small Business Index",
         "country": "USD",
         "date": "2026-11-10T06:00:00-05:00",
@@ -370,19 +383,6 @@
         "link": null,
         "actual": "97.8",
         "actual_src": "forexfactory"
-      },
-      {
-        "title": "30-y Bond Auction",
-        "country": "GBP",
-        "date": "2026-11-10T06:32:00-05:00",
-        "impact": "Low",
-        "forecast": "",
-        "previous": "5.52|3.8",
-        "source": "ForexFactory",
-        "type": "calendar",
-        "link": null,
-        "actual": "5.54%",
-        "actual_src": "fxstreet"
       },
       {
         "title": "MPC Member Lombardelli Speaks",

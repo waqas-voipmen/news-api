@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-10T11:33:03.999629+00:00",
+  "fetched_at": "2026-11-10T11:48:04.464816+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Dollar Rises Against Majors",
+      "description": "The U.S. dollar strengthened against other major currencies in the European session on Tuesday.",
+      "date": "2026-11-10T10:32:04.461432+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-dollar-rises-against-majors/56344"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/thai-stock-market-has-strong-lead-for-tuesday/56323"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Japanese Market Sharply Higher",
-      "description": "The Japanese stock market is trading sharply higher on Tuesday, extending the gains in the previous session, following the broadly positive cues from Wall Street overnight, with the Nikkei 225 jumping 2.6 percent to well above the 60,250 level, with gains in across most sectors led by index heavyweights, technology and financial stocks.",
-      "date": "2026-11-10T00:35:04.160311+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/japanese-market-sharply-higher/56322"
     }
   ]
 }
