@@ -1,6 +1,42 @@
 {
-  "fetched_at": "2026-11-10T09:18:04.755408+00:00",
+  "fetched_at": "2026-11-10T09:48:04.706335+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Oil Extends Losses On Easing Middle East Tensions",
+      "description": "Oil prices were sharply lower on Tuesday as hopes for a de-escalation in the Middle East reduced geopolitical risk premiums.",
+      "date": "2026-11-10T08:44:04.696724+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/oil-extends-losses-on-easing-middle-east-tensions/56337"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Yen Falls Amid Risk-On Mood",
+      "description": "The Japanese yen weakened against other major currencies in the Asian session on Tuesday, as Asian stock markets traded higher, boosted by markets in South Korea, Japan and Taiwan on a continued rally in semiconductor stocks which mirrored their peers on tech-heavy Nasdaq amid improving sentiment toward the AI sector. Easing geopolitical tensions in the Middle East also lifted investor sentiment.",
+      "date": "2026-11-10T08:27:04.698244+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/yen-falls-amid-risk-on-mood/56335"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "European Shares Edge Higher As Inflation Concerns Ease",
+      "description": "European stocks traded near record highs on Tuesday as falling oil prices on hopes for a resolution to the Middle East conflict helped ease inflation concerns.",
+      "date": "2026-11-10T08:22:04.700803+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-shares-edge-higher-as-inflation-concerns-ease/56334"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -120,42 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/hong-kong-stock-market-may-halt-its-slide-on-tuesday/56320"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australian Markets Sharply Higher",
-      "description": "The Australian stock market is sharply higher on Tuesday, extending the gains in the previous session, following the broadly positive cues from Wall Street overnight. The benchmark S&P/ASX 200 index is moving well above the 8,100 level, with gains across most sectors led by mining and technology stocks.",
-      "date": "2026-11-10T00:06:04.161113+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-markets-sharply-higher/56319"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Higher Open Anticipated For China Stock Market",
-      "description": "The China stock market bounced higher again on Monday, one session after ending the two-day winning streak in which it had jumped more than 80 points or 2.2 percent. The Shanghai Composite Index now sits just above the 3,660-point plateau and it may see additional support on Tuesday.",
-      "date": "2026-11-10T00:04:04.161320+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/higher-open-anticipated-for-china-stock-market/56318"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Taiwan Stock Market May Extend Monday's Gains",
-      "description": "The Taiwan stock market on Monday halted the seven-day losing streak in which it had crashed more than 7,275 points or 16.8 percent. The Taiwan Stock Exchange now sits just above the 41,660-point plateau and it may add to its winnings on Tuesday.",
-      "date": "2026-11-09T23:34:04.161599+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/taiwan-stock-market-may-extend-mondays-gains/56317"
     }
   ]
 }
