@@ -471,7 +471,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "5.02|2.5",
+        "actual_src": "forexfactory"
       },
       {
         "title": "BOC Summary of Deliberations",
@@ -1297,5 +1298,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-10T18:02:29.043174+00:00"
 }
