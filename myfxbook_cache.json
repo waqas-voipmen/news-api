@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-10T22:48:08.754881+00:00",
+  "fetched_at": "2026-11-10T23:03:05.450250+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "KOSPI May See Renewed Consolidation On Wednesday",
+      "description": "The South Korea stock market on Tuesday snapped the three-day losing streak in which it had crashed more than 660 points or 11.8 percent. The KOSPI now sits just beneath the 5,240-point plateau although it may head south again on Wednesday.",
+      "date": "2026-11-10T22:00:05.445137+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/kospi-may-see-renewed-consolidation-on-wednesday/56360"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/gold-edges-lower-after-strong-rally-us-inflation-data-eyed/56339"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Oil Extends Losses On Easing Middle East Tensions",
-      "description": "Oil prices were sharply lower on Tuesday as hopes for a de-escalation in the Middle East reduced geopolitical risk premiums.",
-      "date": "2026-11-10T08:44:04.696724+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/oil-extends-losses-on-easing-middle-east-tensions/56337"
     }
   ]
 }
