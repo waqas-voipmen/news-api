@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-10T08:33:04.338497+00:00",
+  "fetched_at": "2026-11-10T08:48:14.294241+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Asian Shares Advance Amid Tech Rebound",
+      "description": "Asian stocks rallied on Tuesday as falling oil prices and a rebound in AI and semiconductor shares boosted investors' appetite for risk.",
+      "date": "2026-11-10T07:42:14.283192+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/asian-shares-advance-amid-tech-rebound/56332"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/taiwan-stock-market-may-extend-mondays-gains/56317"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Singapore Stock Market Tipped To Open To The Upside",
-      "description": "Ahead of Monday's holiday for Deepavali, the Singapore stock market had turned lower again, one day after snapping the five-day losing streak in which it had slumped almost 130 points or 2.5 percent. The Straits Times Index now sits just beneath the 5,180-point plateau and it figures to bounce higher again on Tuesday.",
-      "date": "2026-11-09T23:04:04.161871+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/singapore-stock-market-tipped-to-open-to-the-upside/56316"
     }
   ]
 }
