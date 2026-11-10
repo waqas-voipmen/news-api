@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-10T23:03:05.450250+00:00",
+  "fetched_at": "2026-11-10T23:18:04.409024+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Rally May Stall For Japan Stock Market",
+      "description": "The Japan stock market has finished higher in back-to-back sessions, advancing more than 3,000 points or 5 percent in that span. The Nikkei 225 now sits just above the 60,450-point plateau although investors may lock in gains on Wednesday.",
+      "date": "2026-11-10T22:15:04.405397+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/rally-may-stall-for-japan-stock-market/56361"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/infineon-shares-gain-on-higher-q4-results-positive-outlook/56341"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "XAU",
-      "title": "Gold Edges Lower After Strong Rally; US Inflation Data Eyed",
-      "description": "Gold prices declined on Tuesday after a strong rally in the previous session. Spot gold fell 1.4 percent to $4,084.11 an ounce after climbing almost 2 percent on Monday as falling oil prices helped ease inflation and rate-hike concerns. U.S. gold futures were down 0.6 percent at $4,091.65.",
-      "date": "2026-11-10T09:04:04.138843+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/gold-edges-lower-after-strong-rally-us-inflation-data-eyed/56339"
     }
   ]
 }
