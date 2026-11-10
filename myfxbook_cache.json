@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-10T10:03:04.719920+00:00",
+  "fetched_at": "2026-11-10T10:18:04.142422+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "XAU",
+      "title": "Gold Edges Lower After Strong Rally; US Inflation Data Eyed",
+      "description": "Gold prices declined on Tuesday after a strong rally in the previous session. Spot gold fell 1.4 percent to $4,084.11 an ounce after climbing almost 2 percent on Monday as falling oil prices helped ease inflation and rate-hike concerns. U.S. gold futures were down 0.6 percent at $4,091.65.",
+      "date": "2026-11-10T09:04:04.138843+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/gold-edges-lower-after-strong-rally-us-inflation-data-eyed/56339"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/win-streak-may-continue-for-indonesia-stock-market/56321"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Hong Kong Stock Market May Halt Its Slide On Tuesday",
-      "description": "The Hong Kong stock market has tracked lower in back-to-back sessions, sinking more than 350 points or 1.4 percent in that span. The Hang Seng now sits just beneath the 24,450-point plateau although it may stop the bleeding on Tuesday.",
-      "date": "2026-11-10T00:19:04.160849+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/hong-kong-stock-market-may-halt-its-slide-on-tuesday/56320"
     }
   ]
 }
