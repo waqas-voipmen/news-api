@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-11-10T14:33:50.289236+00:00",
+  "fetched_at": "2026-11-10T15:48:06.446767+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "FTSE 100 Firm Above The Flatline",
+      "description": "The FTSE 100 benchmark of the London Stock Exchange is trading firmly above the flatline even as global market sentiment suffered following disappointing inflation data from the U.S. The hawkish comments from a Fed official further renewed rate hike expectations, dampening overall market sentiment.",
+      "date": "2026-11-10T13:54:06.426171+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/ftse-100-firm-above-the-flatline/56353"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Consumer Prices Climb 0.4% In October, More Than Expected",
+      "description": "Consumer prices in the U.S. increased by more than expected in the month of October, according to a closely watched report released by the Labor Department on Tuesday. The Labor Department said its consumer price index rose by 0.4 percent in October after climbing by 0.6 percent in September. Economists had expected consumer prices to rise by 0.3 percent.",
+      "date": "2026-11-10T13:44:06.427891+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-consumer-prices-climb-04-in-october-more-than-expected/56352"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/asian-shares-advance-amid-tech-rebound/56332"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Yen Falls Against Majors",
-      "description": "The Japanese yen weakened against other major currencies in the Asian session on Tuesday.",
-      "date": "2026-11-10T06:49:04.158793+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/yen-falls-against-majors/56330"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "European Shares Seen Mostly Higher At Open",
-      "description": "European stocks are seen opening mostly higher on Tuesday after U.S. benchmark indexes saw their biggest rally in over seven months overnight, led by technology firms.",
-      "date": "2026-11-10T04:31:04.159081+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-shares-seen-mostly-higher-at-open/56327"
     }
   ]
 }
