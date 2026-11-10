@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-09T23:33:24.909228+00:00",
+  "fetched_at": "2026-11-10T07:55:27.414254+00:00",
   "periods": {
     "week": [
       {
@@ -202,8 +202,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": "-6.7%",
-        "actual_src": "fxstreet"
+        "actual": "-6.8%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Bank Lending y/y",
@@ -211,11 +211,12 @@
         "date": "2026-11-09T18:50:00-05:00",
         "impact": "Low",
         "forecast": "5.4%",
-        "previous": "5.3%",
+        "previous": "5.2%",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "5.2%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "BOJ Summary of Opinions",
@@ -235,11 +236,12 @@
         "date": "2026-11-09T18:50:00-05:00",
         "impact": "Low",
         "forecast": "2.81T",
-        "previous": "2.98T",
+        "previous": "2.91T",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "1.82T",
+        "actual_src": "forexfactory"
       },
       {
         "title": "BRC Retail Sales Monitor y/y",
@@ -251,7 +253,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "1.1%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "NAB Business Confidence",
@@ -259,37 +262,38 @@
         "date": "2026-11-09T19:30:00-05:00",
         "impact": "Low",
         "forecast": "",
-        "previous": "-13",
+        "previous": "-14",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
-      },
-      {
-        "title": "Trade Balance",
-        "country": "CNY",
-        "date": "2026-11-09T22:03:00-05:00",
-        "impact": "Low",
-        "forecast": "855B",
-        "previous": "906B",
-        "source": "ForexFactory",
-        "type": "calendar",
-        "link": null,
-        "time_label": "Tentative",
-        "actual": ""
+        "actual": "-15",
+        "actual_src": "forexfactory"
       },
       {
         "title": "USD-Denominated Trade Balance",
         "country": "CNY",
-        "date": "2026-11-09T22:04:00-05:00",
+        "date": "2026-11-09T21:32:00-05:00",
         "impact": "Low",
         "forecast": "126.5B",
         "previous": "133.5B",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "time_label": "Tentative",
-        "actual": ""
+        "actual": "105.3B",
+        "actual_src": "forexfactory"
+      },
+      {
+        "title": "Trade Balance",
+        "country": "CNY",
+        "date": "2026-11-09T21:33:00-05:00",
+        "impact": "Low",
+        "forecast": "855B",
+        "previous": "906B",
+        "source": "ForexFactory",
+        "type": "calendar",
+        "link": null,
+        "actual": "713B",
+        "actual_src": "forexfactory"
       },
       {
         "title": "30-y Bond Auction",
@@ -301,7 +305,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "3.85|3.4",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Economy Watchers Sentiment",
@@ -313,7 +318,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "46.1",
+        "actual_src": "forexfactory"
       },
       {
         "title": "MPC Member Breeden Speaks",
