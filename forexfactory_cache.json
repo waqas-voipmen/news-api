@@ -368,7 +368,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "97.8",
+        "actual_src": "forexfactory"
       },
       {
         "title": "30-y Bond Auction",
@@ -1293,5 +1294,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-10T11:00:28.785731+00:00"
 }
