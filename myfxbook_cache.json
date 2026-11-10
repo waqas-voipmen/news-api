@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-10T21:48:09.841791+00:00",
+  "fetched_at": "2026-11-10T22:03:08.371296+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Dollar Advances Amid Rising Fed Rate Hike Expectations Following CPI Release",
+      "description": "The U.S. Dollar value moved higher on Tuesday with heightening expectations of an interest rate hike by the U.S. Federal Reserve following the release of U.S. inflation data which came in exceeding analysts' forecasts. In addition, despite a pause in the U.S. attacks on Iran, the absence of a breakthrough in negotiations kept inflation concerns alive.",
+      "date": "2026-11-10T21:01:08.356342+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-dollar-advances-amid-rising-fed-rate-hike-expectations-following-cpi-release/56358"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/yen-falls-amid-risk-on-mood/56335"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "European Shares Edge Higher As Inflation Concerns Ease",
-      "description": "European stocks traded near record highs on Tuesday as falling oil prices on hopes for a resolution to the Middle East conflict helped ease inflation concerns.",
-      "date": "2026-11-10T08:22:04.700803+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-shares-edge-higher-as-inflation-concerns-ease/56334"
     }
   ]
 }
