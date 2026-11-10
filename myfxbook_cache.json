@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-10T22:18:08.904011+00:00",
+  "fetched_at": "2026-11-10T22:33:08.604877+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australia Home Loan Data Due On Wednesday",
+      "description": "Australia will on Wednesday release Q3 figures for home loans, highlighting a light day for Asia-Pacific economic activity. In the three months prior, home loans were down 1.9 percent on quarter.",
+      "date": "2026-11-10T21:30:08.578352+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australia-home-loan-data-due-on-wednesday/56359"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/oil-extends-losses-on-easing-middle-east-tensions/56337"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Yen Falls Amid Risk-On Mood",
-      "description": "The Japanese yen weakened against other major currencies in the Asian session on Tuesday, as Asian stock markets traded higher, boosted by markets in South Korea, Japan and Taiwan on a continued rally in semiconductor stocks which mirrored their peers on tech-heavy Nasdaq amid improving sentiment toward the AI sector. Easing geopolitical tensions in the Middle East also lifted investor sentiment.",
-      "date": "2026-11-10T08:27:04.698244+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/yen-falls-amid-risk-on-mood/56335"
     }
   ]
 }
