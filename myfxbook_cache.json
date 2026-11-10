@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-10T12:33:14.897984+00:00",
+  "fetched_at": "2026-11-10T12:48:06.226393+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Dollar Rises After Fed Gov Waller's Hawkish Remarks",
+      "description": "The U.S. dollar strengthened against other major currencies in the European session on Tuesday, following hawkish remarks from Federal Reserve Governor Christopher Waller.",
+      "date": "2026-11-10T11:41:06.222548+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-dollar-rises-after-fed-gov-wallers-hawkish-remarks/56346"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indian-markets-closed-for-diwali-balipratipada/56324"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Thai Stock Market Has Strong Lead For Tuesday",
-      "description": "The Thai stock market on Monday snapped the two-day losing streak in which it had tumbled more than 35 points or 2.3 percent. The Stock Exchange of Thailand now sits just above the 1,470-point plateau and it's likely to open higher again on Tuesday.",
-      "date": "2026-11-10T01:04:04.160035+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/thai-stock-market-has-strong-lead-for-tuesday/56323"
     }
   ]
 }
