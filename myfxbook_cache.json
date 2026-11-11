@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-11T18:33:19.795258+00:00",
+  "fetched_at": "2026-11-11T18:48:04.411626+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "European Markets Finish Broadly Higher On Wednesday",
+      "description": "The major European markets extended recent gains on Wednesday with an eye towards hitting fresh record closing highs. The markets were in the green all day, opening higher and then fading a bit before rallying to finish at daily highs.",
+      "date": "2026-11-11T17:34:04.408181+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-markets-finish-broadly-higher-on-wednesday/56404"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/european-shares-poised-for-firm-start-as-inflation-ai-worries-ease/56378"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Indian Shares Climb Amid Easing Oil Prices",
-      "description": "Indian shares opened on a buoyant note on Wednesday after Brent crude prices hit close to ten-week lows overnight on signs of easing tensions between the U.S. and Iran, and reports suggesting that Middle Eastern oil shipments have nearly returned to prewar levels despite ongoing attacks on vessels in the Strait of Hormuz.",
-      "date": "2026-11-11T03:48:05.426810+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-climb-amid-easing-oil-prices/56374"
     }
   ]
 }
