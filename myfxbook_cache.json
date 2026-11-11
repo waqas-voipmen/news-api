@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-11T01:18:08.647928+00:00",
+  "fetched_at": "2026-11-11T01:33:08.374929+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australian Market Slightly Lower",
+      "description": "Australian shares are trading slightly lower on Wednesday, reversing some of the gains in the previous two sessions, with the benchmark S&P/ASX 200 well below the 9,150 level, following the broadly negative cues from Wall Street overnight, with weakness in mining stocks nearly offset by gains in energy, financial and technology stocks.",
+      "date": "2026-11-11T00:24:08.348378+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australian-market-slightly-lower/56367"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/us-consumer-prices-climb-04-in-october-more-than-expected/56352"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "CAC 40 Extends Gains",
-      "description": "The CAC 40 index that tracks the 40 largest French stocks based on the Euronext Paris added to Monday's gains as markets cheered the global rebound in tech shares.",
-      "date": "2026-11-10T13:05:35.341135+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/cac-40-extends-gains/56350"
     }
   ]
 }
