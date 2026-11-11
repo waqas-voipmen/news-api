@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-11T04:48:04.404815+00:00",
+  "fetched_at": "2026-11-11T05:03:05.430731+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Indian Shares Climb Amid Easing Oil Prices",
+      "description": "Indian shares opened on a buoyant note on Wednesday after Brent crude prices hit close to ten-week lows overnight on signs of easing tensions between the U.S. and Iran, and reports suggesting that Middle Eastern oil shipments have nearly returned to prewar levels despite ongoing attacks on vessels in the Strait of Hormuz.",
+      "date": "2026-11-11T03:48:05.426810+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-climb-amid-easing-oil-prices/56374"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/malaysia-stock-market-may-test-support-at-1600-points/56362"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Rally May Stall For Japan Stock Market",
-      "description": "The Japan stock market has finished higher in back-to-back sessions, advancing more than 3,000 points or 5 percent in that span. The Nikkei 225 now sits just above the 60,450-point plateau although investors may lock in gains on Wednesday.",
-      "date": "2026-11-10T22:15:04.405397+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/rally-may-stall-for-japan-stock-market/56361"
     }
   ]
 }
