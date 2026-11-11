@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-11T22:33:09.109211+00:00",
+  "fetched_at": "2026-11-11T22:48:07.063951+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Japan Producer Price Data Due On Thursday",
+      "description": "Japan will on Thursday release October figures for producer prices, highlighting a light day for Asia-Pacific economic activity.",
+      "date": "2026-11-11T21:34:07.043518+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/japan-producer-price-data-due-on-thursday/56406"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/european-shares-edge-higher-as-ai-concerns-ease/56385"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "Asian Shares Mostly Higher As Chip Stocks Extend Rebound",
-      "description": "Asian stocks ended mostly higher on Wednesday, even as stronger-than-expected U.S. jobs data bolstered the case for further Federal Reserve interest-rate hikes over the coming months.",
-      "date": "2026-11-11T07:42:04.523516+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/asian-shares-mostly-higher-as-chip-stocks-extend-rebound/56384"
     }
   ]
 }
