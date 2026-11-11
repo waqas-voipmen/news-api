@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-11T08:33:10.684120+00:00",
+  "fetched_at": "2026-11-11T08:48:04.527025+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "Asian Shares Mostly Higher As Chip Stocks Extend Rebound",
+      "description": "Asian stocks ended mostly higher on Wednesday, even as stronger-than-expected U.S. jobs data bolstered the case for further Federal Reserve interest-rate hikes over the coming months.",
+      "date": "2026-11-11T07:42:04.523516+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/asian-shares-mostly-higher-as-chip-stocks-extend-rebound/56384"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/tech-shares-may-weigh-on-taiwan-stock-market/56364"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Singapore Stock Market May Remain Rangebound",
-      "description": "The Singapore stock market has finished higher in two of three trading days since the end of the five-day losing streak in which it had slumped almost 130 points or 2.5 percent. The Straits Times Index now sits just beneath the 5,260-point plateau although it may hand back those gains on Wednesday.",
-      "date": "2026-11-10T23:00:04.864110+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/singapore-stock-market-may-remain-rangebound/56363"
     }
   ]
 }
