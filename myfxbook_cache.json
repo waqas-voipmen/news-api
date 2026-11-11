@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-11T03:18:09.993505+00:00",
+  "fetched_at": "2026-11-11T03:33:25.059705+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australian Market Swings To Modest Gains In Mid-market",
+      "description": "The Australian stock market is swinging to modest gains in mid-market moves on Wednesday after opening in the red, extending the gains in the previous two sessions, with the benchmark S&P/ASX 200 moving up to near the 9,150 level, despite the broadly negative cues from Wall Street overnight, with gains in energy, financial and technology stocks partially offset by weakness in mining stocks.",
+      "date": "2026-11-11T02:25:25.044701+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australian-market-swings-to-modest-gains-in-mid-market/56373"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/rally-may-stall-for-japan-stock-market/56361"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "KOSPI May See Renewed Consolidation On Wednesday",
-      "description": "The South Korea stock market on Tuesday snapped the three-day losing streak in which it had crashed more than 660 points or 11.8 percent. The KOSPI now sits just beneath the 5,240-point plateau although it may head south again on Wednesday.",
-      "date": "2026-11-10T22:00:05.445137+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/kospi-may-see-renewed-consolidation-on-wednesday/56360"
     }
   ]
 }
