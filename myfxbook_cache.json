@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-11T10:33:05.855085+00:00",
+  "fetched_at": "2026-11-11T10:48:05.884774+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Indian Shares Hit Eight-month High Amid Sharp Fall In Oil Prices",
+      "description": "Indian shares rose sharply on Wednesday to hit an eight-month high, with investor sentiment boosted by continued foreign fund inflows, a moderation of the AI trade, and a retreat in crude oil prices to two-month lows on hopes for a de-escalation in the U.S.-Israeli war on Iran.",
+      "date": "2026-11-11T09:36:05.881505+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-hit-eight-month-high-amid-sharp-fall-in-oil-prices/56389"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/lower-open-tipped-for-indonesia-stock-market/56368"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australian Market Slightly Lower",
-      "description": "Australian shares are trading slightly lower on Wednesday, reversing some of the gains in the previous two sessions, with the benchmark S&P/ASX 200 well below the 9,150 level, following the broadly negative cues from Wall Street overnight, with weakness in mining stocks nearly offset by gains in energy, financial and technology stocks.",
-      "date": "2026-11-11T00:24:08.348378+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-market-slightly-lower/56367"
     }
   ]
 }
