@@ -710,7 +710,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "7.1%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "MI Inflation Expectations",
@@ -1316,5 +1317,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-11T23:50:17.530082+00:00"
 }
