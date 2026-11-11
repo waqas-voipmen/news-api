@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-11T09:33:11.980446+00:00",
+  "fetched_at": "2026-11-11T09:48:08.175815+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Oil Prices Rebound From Two-month Low",
+      "description": "Oil prices traded higher on Wednesday after a two-day decline as fresh tanker attacks in the Strait of Hormuz raised concerns over global oil supplies.",
+      "date": "2026-11-11T08:41:08.167117+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/oil-prices-rebound-from-two-month-low/56386"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/soft-start-seen-for-hong-kong-stock-market/56366"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "China Stock Market May Be Stuck In Neutral On Wednesday",
-      "description": "The China stock market has moved higher in consecutive trading days, gathering more than a dozen points or 0.3 percent along the way. The Shanghai Composite Index now sits just above the 3,660-point plateau although the rally may stall on Wednesday.",
-      "date": "2026-11-11T00:00:08.628409+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/china-stock-market-may-be-stuck-in-neutral-on-wednesday/56365"
     }
   ]
 }
