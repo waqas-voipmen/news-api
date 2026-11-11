@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-11T10:03:06.130503+00:00",
+  "fetched_at": "2026-11-11T10:18:06.987593+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "XAU",
+      "title": "Gold Steadies After Sharp Selloff",
+      "description": "Gold prices were a tad higher on Wednesday, after having tumbled in the previous session on concerns over rising inflationary pressures and expectations of another Federal Reserve rate hike in December.",
+      "date": "2026-11-11T09:03:06.983288+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/gold-steadies-after-sharp-selloff/56388"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/australian-market-slightly-lower/56367"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Soft Start Seen For Hong Kong Stock Market",
-      "description": "The Hong Kong stock market on Tuesday ended the two-day slide in which it had dropped more than 350 points or 1.4 percent. The Hang Seng now sits just above the 24,550-point plateau although it may open under water again on Wednesday.",
-      "date": "2026-11-11T00:15:08.626526+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/soft-start-seen-for-hong-kong-stock-market/56366"
     }
   ]
 }
