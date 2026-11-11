@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-11T02:03:08.712919+00:00",
+  "fetched_at": "2026-11-11T02:18:06.632987+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Thai Stock Market May Open In The Red On Wednesday",
+      "description": "The Thai stock market has tracked higher in back-to-back sessions, advancing more than 30 points or 2.1 percent along the way. The Stock Exchange of Thailand now sits just beneath the 1,500-point plateau although it may open to the downside on Wednesday.",
+      "date": "2026-11-11T01:00:06.616872+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/thai-stock-market-may-open-in-the-red-on-wednesday/56370"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/us-dollar-advances-amid-rising-fed-rate-hike-expectations-following-cpi-release/56358"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "European Markets Finished Mixed On Tuesday",
-      "description": "The major European markets finished mostly higher on Tuesday, although they trended downward throughout the day and ended on opposite sides of the unchanged line.",
-      "date": "2026-11-10T17:14:04.525531+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-markets-finished-mixed-on-tuesday/56357"
     }
   ]
 }
