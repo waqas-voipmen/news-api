@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-11T12:18:06.122083+00:00",
+  "fetched_at": "2026-11-11T12:33:05.409678+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "DAX Extends Gains On Wednesday",
+      "description": "Lifted by the momentum in technology stocks, the DAX benchmark is close to recording a three-day gaining streak. Positive earnings scorecard also supported market sentiment.",
+      "date": "2026-11-11T11:18:05.406524+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/dax-extends-gains-on-wednesday/56394"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indian-shares-seen-opening-higher-as-oil-holds-near-two-month-lows/56371"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Thai Stock Market May Open In The Red On Wednesday",
-      "description": "The Thai stock market has tracked higher in back-to-back sessions, advancing more than 30 points or 2.1 percent along the way. The Stock Exchange of Thailand now sits just beneath the 1,500-point plateau although it may open to the downside on Wednesday.",
-      "date": "2026-11-11T01:00:06.616872+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/thai-stock-market-may-open-in-the-red-on-wednesday/56370"
     }
   ]
 }
