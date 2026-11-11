@@ -581,7 +581,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "42.5%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "German Final CPI m/m",
@@ -1311,5 +1312,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-11T06:00:28.878390+00:00"
 }
