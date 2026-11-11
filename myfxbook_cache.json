@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-11T12:33:05.409678+00:00",
+  "fetched_at": "2026-11-11T12:48:06.383772+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Siemens Energy Gains On Strong Q4, Positive Outlook, Dividend Hike, \u20ac9 Bln Buyback",
+      "description": "Shares of Siemens Energy AG were gaining around 8 percent in the German trading after the company reported Wednesday significantly higher profit in its fourth quarter with revenue growth, and issued positive outlook for fiscal 2027 and ahead. The German energy technology firm also announced significantly higher dividend and up to an additional \u20ac9 billion share buyback program.",
+      "date": "2026-11-11T11:32:06.374794+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/siemens-energy-gains-on-strong-q4-positive-outlook-dividend-hike-9-bln-buyback/56395"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/asian-markets-trade-mixed/56372"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Indian Shares Seen Opening Higher As Oil Holds Near Two-month Lows",
-      "description": "Indian shares are seen opening higher on Wednesday as investors keep an eye on falling crude oil prices and soaring U.S. Treasury yields.",
-      "date": "2026-11-11T01:43:17.934918+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-seen-opening-higher-as-oil-holds-near-two-month-lows/56371"
     }
   ]
 }
