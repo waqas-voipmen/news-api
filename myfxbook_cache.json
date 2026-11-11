@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-11T21:48:18.075218+00:00",
+  "fetched_at": "2026-11-11T22:03:13.330422+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Dollar Climbs Amid Rising Expectations Of Fed Rate Hike",
+      "description": "The U.S. Dollar value moved higher on Wednesday with market participants pricing in a tighter monetary policy by the U.S. Federal Reserve following yesterday's inflation numbers, hawkish comments by the central bank officials, and the ongoing U.S.-Iran standoff.",
+      "date": "2026-11-11T21:01:13.303397+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-dollar-climbs-amid-rising-expectations-of-fed-rate-hike/56405"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/asian-shares-mostly-higher-as-chip-stocks-extend-rebound/56384"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "European Shares Poised For Firm Start As Inflation, AI Worries Ease",
-      "description": "European stocks are seen opening higher on Wednesday as softer oil prices eased inflation concerns and cloud-computing company CoreWeave said it would become profitable on an adjusted basis in the first half of 2028, easing fears about its debt-laden business.",
-      "date": "2026-11-11T04:36:04.193219+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-shares-poised-for-firm-start-as-inflation-ai-worries-ease/56378"
     }
   ]
 }
