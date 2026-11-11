@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-11T03:03:06.276838+00:00",
+  "fetched_at": "2026-11-11T03:18:09.993505+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Asian Markets Trade Mixed",
+      "description": "Asian stock markets are trading mixed on Wednesday, following the broadly negative cues from Wall Street overnight, as hotter-than-expected US inflation data led to renewed concerns about the outlook for interest rates. Meanwhile, crude oil prices declined as concerns of U.S.-Iran re-escalation faded after U.S. President Donald Trump agreed to maintain a status quo in the Middle East crisis.",
+      "date": "2026-11-11T02:05:09.971391+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/asian-markets-trade-mixed/56372"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/kospi-may-see-renewed-consolidation-on-wednesday/56360"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australia Home Loan Data Due On Wednesday",
-      "description": "Australia will on Wednesday release Q3 figures for home loans, highlighting a light day for Asia-Pacific economic activity. In the three months prior, home loans were down 1.9 percent on quarter.",
-      "date": "2026-11-10T21:30:08.578352+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australia-home-loan-data-due-on-wednesday/56359"
     }
   ]
 }
