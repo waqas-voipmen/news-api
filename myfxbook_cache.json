@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-11T09:03:04.957789+00:00",
+  "fetched_at": "2026-11-11T09:18:08.791182+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "European Shares Edge Higher As AI Concerns Ease",
+      "description": "European stocks surged toward a fresh record on Wednesday, with investor sentiment underpinned by steadier oil prices, solid corporate earnings and renewed enthusiasm for the artificial intelligence trade.",
+      "date": "2026-11-11T08:17:08.783825+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-shares-edge-higher-as-ai-concerns-ease/56385"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/china-stock-market-may-be-stuck-in-neutral-on-wednesday/56365"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Tech Shares May Weigh On Taiwan Stock Market",
-      "description": "The Taiwan stock market has climbed higher in two straight sessions, accelerating almost 2,000 points or 5 percent in that span. The Taiwan Stock Exchange now sits just above the 42,710-point plateau although it may be stuck in neutral on Wednesday.",
-      "date": "2026-11-10T23:30:12.651478+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/tech-shares-may-weigh-on-taiwan-stock-market/56364"
     }
   ]
 }
