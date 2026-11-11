@@ -594,7 +594,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-0.2%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "French Bank Holiday",
@@ -1312,5 +1313,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-11T07:00:13.698059+00:00"
 }
