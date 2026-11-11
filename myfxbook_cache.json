@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-11-11T23:18:07.781647+00:00",
+  "fetched_at": "2026-11-11T23:48:08.616284+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Malaysia Stock Market May Find Support On Thursday",
+      "description": "The Malaysia stock market has finished lower in three straight sessions, slipping more than 40 points or 2.5 percent in that span. The Kuala Lumpur Composite Index now sits just beneath the 1,600-point plateau although it may stop the bleeding on Thursday.",
+      "date": "2026-11-11T22:34:08.592687+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/malaysia-stock-market-may-find-support-on-thursday/56409"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Japan Stock Market Poised To Open To The Upside",
+      "description": "The Japan stock market has finished higher in three straight sessions, advancing almost 3,800 points or 5 percent in that span. The Nikkei 225 now sits just beneath the 61,250-point plateau and it's expected to see additional support on Thursday.",
+      "date": "2026-11-11T22:19:08.593876+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/japan-stock-market-poised-to-open-to-the-upside/56408"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indian-shares-hit-eight-month-high-amid-sharp-fall-in-oil-prices/56389"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "XAU",
-      "title": "Gold Steadies After Sharp Selloff",
-      "description": "Gold prices were a tad higher on Wednesday, after having tumbled in the previous session on concerns over rising inflationary pressures and expectations of another Federal Reserve rate hike in December.",
-      "date": "2026-11-11T09:03:06.983288+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/gold-steadies-after-sharp-selloff/56388"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Oil Prices Rebound From Two-month Low",
-      "description": "Oil prices traded higher on Wednesday after a two-day decline as fresh tanker attacks in the Strait of Hormuz raised concerns over global oil supplies.",
-      "date": "2026-11-11T08:41:08.167117+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/oil-prices-rebound-from-two-month-low/56386"
     }
   ]
 }
