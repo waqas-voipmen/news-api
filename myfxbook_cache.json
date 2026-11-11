@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-11T14:18:10.269044+00:00",
+  "fetched_at": "2026-11-11T14:33:05.437162+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "FTSE 100 Rebounds",
+      "description": "The FTSE 100 benchmark rebounded on Wednesday amidst a surge in technology shares. A spike in crude oil prices bolstered energy stocks. Anxiety ahead of GDP update on Thursday limited gains.",
+      "date": "2026-11-11T13:14:05.432984+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/ftse-100-rebounds/56400"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indian-shares-climb-amid-easing-oil-prices/56374"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australian Market Swings To Modest Gains In Mid-market",
-      "description": "The Australian stock market is swinging to modest gains in mid-market moves on Wednesday after opening in the red, extending the gains in the previous two sessions, with the benchmark S&P/ASX 200 moving up to near the 9,150 level, despite the broadly negative cues from Wall Street overnight, with gains in energy, financial and technology stocks partially offset by weakness in mining stocks.",
-      "date": "2026-11-11T02:25:25.044701+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-market-swings-to-modest-gains-in-mid-market/56373"
     }
   ]
 }
