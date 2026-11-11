@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-11T13:03:04.489435+00:00",
+  "fetched_at": "2026-11-11T13:18:07.288041+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "CAC 40 Extends Winning Streak",
+      "description": "A rally in global stock markets powered by the surge in technology shares helped the CAC 40 index to extend its winning streak.",
+      "date": "2026-11-11T12:12:07.282165+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/cac-40-extends-winning-streak/56397"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/australian-market-swings-to-modest-gains-in-mid-market/56373"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Asian Markets Trade Mixed",
-      "description": "Asian stock markets are trading mixed on Wednesday, following the broadly negative cues from Wall Street overnight, as hotter-than-expected US inflation data led to renewed concerns about the outlook for interest rates. Meanwhile, crude oil prices declined as concerns of U.S.-Iran re-escalation faded after U.S. President Donald Trump agreed to maintain a status quo in the Middle East crisis.",
-      "date": "2026-11-11T02:05:09.971391+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/asian-markets-trade-mixed/56372"
     }
   ]
 }
