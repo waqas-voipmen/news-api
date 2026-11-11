@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-11T03:33:36.192967+00:00",
+  "fetched_at": "2026-11-11T03:48:19.836384+00:00",
   "periods": {
     "week": [
       {
@@ -967,7 +967,7 @@
         "country": "USD",
         "date": "2026-11-12T12:00:00-05:00",
         "impact": "Low",
-        "forecast": "",
+        "forecast": "-0.6M",
         "previous": "-0.9M",
         "source": "ForexFactory",
         "type": "calendar",
@@ -1027,7 +1027,7 @@
         "country": "USD",
         "date": "2026-11-12T14:00:00-05:00",
         "impact": "Low",
-        "forecast": "-286.3B",
+        "forecast": "-298.6B",
         "previous": "-26.9B",
         "source": "ForexFactory",
         "type": "calendar",
@@ -1227,11 +1227,23 @@
         "actual": ""
       },
       {
+        "title": "FOMC Member Logan Speaks",
+        "country": "USD",
+        "date": "2026-11-13T09:40:00-05:00",
+        "impact": "Low",
+        "forecast": "",
+        "previous": "",
+        "source": "ForexFactory",
+        "type": "calendar",
+        "link": null,
+        "actual": ""
+      },
+      {
         "title": "Natural Gas Storage",
         "country": "USD",
         "date": "2026-11-13T10:30:00-05:00",
         "impact": "Low",
-        "forecast": "",
+        "forecast": "65B",
         "previous": "77B",
         "source": "ForexFactory",
         "type": "calendar",
