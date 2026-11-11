@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-11T02:33:08.365913+00:00",
+  "fetched_at": "2026-11-11T02:48:18.037376+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Indian Shares Seen Opening Higher As Oil Holds Near Two-month Lows",
+      "description": "Indian shares are seen opening higher on Wednesday as investors keep an eye on falling crude oil prices and soaring U.S. Treasury yields.",
+      "date": "2026-11-11T01:43:17.934918+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-seen-opening-higher-as-oil-holds-near-two-month-lows/56371"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/australia-home-loan-data-due-on-wednesday/56359"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Dollar Advances Amid Rising Fed Rate Hike Expectations Following CPI Release",
-      "description": "The U.S. Dollar value moved higher on Tuesday with heightening expectations of an interest rate hike by the U.S. Federal Reserve following the release of U.S. inflation data which came in exceeding analysts' forecasts. In addition, despite a pause in the U.S. attacks on Iran, the absence of a breakthrough in negotiations kept inflation concerns alive.",
-      "date": "2026-11-10T21:01:08.356342+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-dollar-advances-amid-rising-fed-rate-hike-expectations-following-cpi-release/56358"
     }
   ]
 }
