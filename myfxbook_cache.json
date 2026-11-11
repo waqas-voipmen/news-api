@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-11-11T01:33:08.374929+00:00",
+  "fetched_at": "2026-11-11T02:03:08.712919+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Japanese Market Notably Higher",
+      "description": "The Japanese stock market is trading notably higher on Wednesday, extending the gains in the previous two sessions, despite the broadly negative cues from Wall Street overnight. The Nikkei 225 is moving above the 60,900 level, with gains in financial and technology stocks partially offset by weakness in automaker stocks.",
+      "date": "2026-11-11T00:53:08.680014+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/japanese-market-notably-higher/56369"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Lower Open Tipped For Indonesia Stock Market",
+      "description": "The Indonesia stock market has moved higher in five straight sessions, advancing almost 220 points or 4.5 percent along the way. The Jakarta Composite Index now sits just above the 5,125-point plateau although it's due for consolidation on Wednesday.",
+      "date": "2026-11-11T00:30:08.682834+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/lower-open-tipped-for-indonesia-stock-market/56368"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/european-markets-finished-mixed-on-tuesday/56357"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "FTSE 100 Firm Above The Flatline",
-      "description": "The FTSE 100 benchmark of the London Stock Exchange is trading firmly above the flatline even as global market sentiment suffered following disappointing inflation data from the U.S. The hawkish comments from a Fed official further renewed rate hike expectations, dampening overall market sentiment.",
-      "date": "2026-11-10T13:54:06.426171+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/ftse-100-firm-above-the-flatline/56353"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Consumer Prices Climb 0.4% In October, More Than Expected",
-      "description": "Consumer prices in the U.S. increased by more than expected in the month of October, according to a closely watched report released by the Labor Department on Tuesday. The Labor Department said its consumer price index rose by 0.4 percent in October after climbing by 0.6 percent in September. Economists had expected consumer prices to rise by 0.3 percent.",
-      "date": "2026-11-10T13:44:06.427891+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-consumer-prices-climb-04-in-october-more-than-expected/56352"
     }
   ]
 }
