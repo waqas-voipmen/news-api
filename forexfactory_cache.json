@@ -629,11 +629,12 @@
         "date": "2026-11-11T04:00:00-05:00",
         "impact": "Low",
         "forecast": "0.7%",
-        "previous": "-1.3%",
+        "previous": "-1.2%",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "1.2%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "M2 Money Supply y/y",
@@ -1314,5 +1315,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-11T09:01:28.788988+00:00"
 }
