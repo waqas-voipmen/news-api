@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-11T11:03:05.330578+00:00",
+  "fetched_at": "2026-11-11T11:18:05.755719+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Dollar Rises Against Majors",
+      "description": "The U.S. dollar strengthened against other major currencies in the European session on Wednesday.",
+      "date": "2026-11-11T10:12:05.746121+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-dollar-rises-against-majors/56392"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/japanese-market-notably-higher/56369"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Lower Open Tipped For Indonesia Stock Market",
-      "description": "The Indonesia stock market has moved higher in five straight sessions, advancing almost 220 points or 4.5 percent along the way. The Jakarta Composite Index now sits just above the 5,125-point plateau although it's due for consolidation on Wednesday.",
-      "date": "2026-11-11T00:30:08.682834+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/lower-open-tipped-for-indonesia-stock-market/56368"
     }
   ]
 }
