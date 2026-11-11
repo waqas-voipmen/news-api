@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-11-11T01:03:08.783562+00:00",
+  "fetched_at": "2026-11-11T01:18:08.647928+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Soft Start Seen For Hong Kong Stock Market",
+      "description": "The Hong Kong stock market on Tuesday ended the two-day slide in which it had dropped more than 350 points or 1.4 percent. The Hang Seng now sits just above the 24,550-point plateau although it may open under water again on Wednesday.",
+      "date": "2026-11-11T00:15:08.626526+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/soft-start-seen-for-hong-kong-stock-market/56366"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "China Stock Market May Be Stuck In Neutral On Wednesday",
+      "description": "The China stock market has moved higher in consecutive trading days, gathering more than a dozen points or 0.3 percent along the way. The Shanghai Composite Index now sits just above the 3,660-point plateau although the rally may stall on Wednesday.",
+      "date": "2026-11-11T00:00:08.628409+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/china-stock-market-may-be-stuck-in-neutral-on-wednesday/56365"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/cac-40-extends-gains/56350"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Consumer Prices Climb More Than Expected In October",
-      "description": "Consumer prices in the U.S. increased by more than expected in the month of October, according to a closely watched report released by the Labor Department on Tuesday.",
-      "date": "2026-11-10T12:39:06.324612+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-consumer-prices-climb-more-than-expected-in-october/56349"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "DAX Rises Further On Tuesday",
-      "description": "The DAX benchmark that tracks the performance of the 40 largest companies listed on the Frankfurt Stock Exchange rallied further on Tuesday amidst a global rebound in technology shares and a continued decline in crude oil prices.",
-      "date": "2026-11-10T12:18:04.172436+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/dax-rises-further-on-tuesday/56348"
     }
   ]
 }
