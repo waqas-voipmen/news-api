@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-11T23:03:09.139750+00:00",
+  "fetched_at": "2026-11-11T23:18:07.781647+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Win Streak May Continue For South Korea Shares",
+      "description": "The South Korea stock market has finished higher in two straight sessions, advancing more than 350 points or 7 percent in that span. The KOSPI now sits just above the 5,375-point plateau and it's expected to add to its winnings again on Thursday.",
+      "date": "2026-11-11T22:04:07.765940+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/win-streak-may-continue-for-south-korea-shares/56407"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/oil-prices-rebound-from-two-month-low/56386"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "European Shares Edge Higher As AI Concerns Ease",
-      "description": "European stocks surged toward a fresh record on Wednesday, with investor sentiment underpinned by steadier oil prices, solid corporate earnings and renewed enthusiasm for the artificial intelligence trade.",
-      "date": "2026-11-11T08:17:08.783825+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-shares-edge-higher-as-ai-concerns-ease/56385"
     }
   ]
 }
