@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-12T15:33:19.692489+00:00",
+  "fetched_at": "2026-11-12T15:48:22.872736+00:00",
   "periods": {
     "week": [
       {
@@ -919,18 +919,6 @@
         "actual": ""
       },
       {
-        "title": "Mortgage Delinquencies",
-        "country": "USD",
-        "date": "2026-11-12T10:21:00-05:00",
-        "impact": "Low",
-        "forecast": "",
-        "previous": "4.37%",
-        "source": "ForexFactory",
-        "type": "calendar",
-        "link": null,
-        "actual": ""
-      },
-      {
         "title": "CB Leading Index m/m",
         "country": "AUD",
         "date": "2026-11-12T10:30:00-05:00",
@@ -942,6 +930,19 @@
         "link": null,
         "actual": "0.0%",
         "actual_src": "forexfactory"
+      },
+      {
+        "title": "Mortgage Delinquencies",
+        "country": "USD",
+        "date": "2026-11-12T11:14:00-05:00",
+        "impact": "Low",
+        "forecast": "",
+        "previous": "4.37%",
+        "source": "ForexFactory",
+        "type": "calendar",
+        "link": null,
+        "time_label": "Tentative",
+        "actual": ""
       },
       {
         "title": "FOMC Member Goolsbee Speaks",
