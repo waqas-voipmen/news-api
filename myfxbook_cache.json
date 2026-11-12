@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-12T18:33:11.958215+00:00",
+  "fetched_at": "2026-11-12T18:48:08.901625+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Major European Markets Close Modestly Higher",
+      "description": "European markets pared early gains and despite slipping into negative territory a little past mid afternoon, recovered to close modestly higher on Thursday thanks to some brisk buying at several counters in the final hour.",
+      "date": "2026-11-12T17:39:08.882064+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/major-european-markets-close-modestly-higher/56452"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/us-dollar-extends-rally-on-fed-rate-hike-bets/56436"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "XAU",
-      "title": "Gold Tumbles On Rate Hike Expectations",
-      "description": "Gold prices were sharply lower on Thursday as the U.S. dollar index climbed to a 19-month high on expectations of further tightening by the Federal Reserve.",
-      "date": "2026-11-12T09:16:06.489856+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/gold-tumbles-on-rate-hike-expectations/56435"
     }
   ]
 }
