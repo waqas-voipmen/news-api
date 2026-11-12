@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-11-12T01:03:06.895952+00:00",
+  "fetched_at": "2026-11-12T01:18:04.601773+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australian Market Notably Lower",
+      "description": "The Australian market is trading notably lower on Thursday, snapping a three-session winning streak, despite the broadly positive cues from Wall Street overnight. The benchmark S&P/ASX 200 is falling to near the 9,100 level, with weakness in mining and technology stocks partially offset by gains in financial stocks.",
+      "date": "2026-11-12T00:14:04.597920+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australian-market-notably-lower/56414"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Continued Strength Expected For China Stock Market",
+      "description": "The China stock market has moved higher in three straight trading days, gathering almost 30 points or 0.8 percent along the way. The Shanghai Composite Index now sits just above the 3,680-point plateau and it's tipped to extend its gains on Thursday.",
+      "date": "2026-11-12T00:04:04.598348+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/continued-strength-expected-for-china-stock-market/56413"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/cac-40-extends-winning-streak/56397"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Siemens Energy Gains On Strong Q4, Positive Outlook, Dividend Hike, \u20ac9 Bln Buyback",
-      "description": "Shares of Siemens Energy AG were gaining around 8 percent in the German trading after the company reported Wednesday significantly higher profit in its fourth quarter with revenue growth, and issued positive outlook for fiscal 2027 and ahead. The German energy technology firm also announced significantly higher dividend and up to an additional \u20ac9 billion share buyback program.",
-      "date": "2026-11-11T11:32:06.374794+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/siemens-energy-gains-on-strong-q4-positive-outlook-dividend-hike-9-bln-buyback/56395"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "DAX Extends Gains On Wednesday",
-      "description": "Lifted by the momentum in technology stocks, the DAX benchmark is close to recording a three-day gaining streak. Positive earnings scorecard also supported market sentiment.",
-      "date": "2026-11-11T11:18:05.406524+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/dax-extends-gains-on-wednesday/56394"
     }
   ]
 }
