@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-12T21:33:04.290167+00:00",
+  "fetched_at": "2026-11-12T21:48:08.641359+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "NZD",
+      "title": "New Zealand Manufacturing PMI Fades To 54.9 In October - BusinessNZ",
+      "description": "The manufacturing sector in New Zealand continued to expand in October, albeit at a slower pace, the latest survey from BusinessNZ revealed on Friday with a Performance of Manufacturing Index score of 54.9.",
+      "date": "2026-11-12T20:43:08.627361+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/new-zealand-manufacturing-pmi-fades-to-549-in-october---businessnz/56455"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/dax-hits-record-high-on-easing-inflation-strong-earnings/56440"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "GBP",
-      "title": "UK Economy Expands 0.7%, Boosted By AI-Driven Services",
-      "description": "The UK economy expanded at a faster pace in the third quarter as activities related to artificial intelligence boosted services sector growth. Real gross domestic product grew 0.7 percent on a quarterly basis, showing an improvement from 0.5 percent expansion posted in the second quarter, preliminary data from the Office for National Statistics revealed Thursday.",
-      "date": "2026-11-12T09:44:05.812746+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/uk-economy-expands-07-boosted-by-ai-driven-services/56439"
     }
   ]
 }
