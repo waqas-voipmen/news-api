@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-11-12T01:33:06.108024+00:00",
+  "fetched_at": "2026-11-12T01:48:04.588961+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Japanese Market Modestly Higher",
+      "description": "The Japanese market is trading modestly higher on Thursday, extending the gains in the previous three sessions, following the broadly positive cues from Wall Street overnight. The Nikkei 225 is moving well above the 61,400 level, with gains in index heavyweights and exporter stocks, while most other sectors are trading mixed.",
+      "date": "2026-11-12T00:38:04.584959+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/japanese-market-modestly-higher/56417"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Indonesia Stock Market May Reverse Wednesday's Losses",
+      "description": "The Indonesia stock market on Wednesday ended the five-day winning streak in which it had spiked almost 220 points or 4.5 percent. The Jakarta Composite Index now sits just above the 5,115-point plateau although it's likely to rebound again on Thursday.",
+      "date": "2026-11-12T00:34:04.585305+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indonesia-stock-market-may-reverse-wednesdays-losses/56416"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/us-dollar-climbs-amid-rising-expectations-of-fed-rate-hike/56405"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "European Markets Finish Broadly Higher On Wednesday",
-      "description": "The major European markets extended recent gains on Wednesday with an eye towards hitting fresh record closing highs. The markets were in the green all day, opening higher and then fading a bit before rallying to finish at daily highs.",
-      "date": "2026-11-11T17:34:04.408181+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-markets-finish-broadly-higher-on-wednesday/56404"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "FTSE 100 Rebounds",
-      "description": "The FTSE 100 benchmark rebounded on Wednesday amidst a surge in technology shares. A spike in crude oil prices bolstered energy stocks. Anxiety ahead of GDP update on Thursday limited gains.",
-      "date": "2026-11-11T13:14:05.432984+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/ftse-100-rebounds/56400"
     }
   ]
 }
