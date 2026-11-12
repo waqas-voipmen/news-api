@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-12T23:03:11.228710+00:00",
+  "fetched_at": "2026-11-12T23:18:06.171271+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Tech Pressure May Weigh On South Korea Shares",
+      "description": "The South Korea stock market on Thursday snapped the two-day winning streak in which it had surged more than 350 points or 7 percent. The KOSPI now sits just above the 5,340-point plateau and it may take further damage on Friday.",
+      "date": "2026-11-12T22:04:06.159900+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/tech-pressure-may-weigh-on-south-korea-shares/56458"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/siemens-stock-gains-on-strong-q4-dividend-hike-positive-outlook/56443"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "GBP",
-      "title": "FTSE 100 Hits 4-Week High On Earnings, Growth Data",
-      "description": "The FTSE 100 advanced Thursday to 10,874.51, up 0.36%, as positive earnings updates and UK GDP growth of 0.7% quarterly boosted sentiment. Mining stocks lagged while luxury and retail outperformed on solid results.",
-      "date": "2026-11-12T10:41:04.414288+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/ftse-100-hits-4-week-high-on-earnings-growth-data/56442"
     }
   ]
 }
