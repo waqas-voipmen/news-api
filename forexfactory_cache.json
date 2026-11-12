@@ -723,7 +723,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "5.3%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "RICS House Price Balance",
@@ -1318,5 +1319,5 @@
       }
     ]
   },
-  "actuals_at": "2026-11-11T23:50:17.530082+00:00"
+  "actuals_at": "2026-11-12T00:00:37.786282+00:00"
 }
