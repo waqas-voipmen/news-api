@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-12T11:03:05.816013+00:00",
+  "fetched_at": "2026-11-12T11:18:04.731695+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "CAC 40 Moderately Higher As Oil Prices Drop",
+      "description": "French stocks climbed higher on Thursday, extending gains to a fourth straight session, as easing oil prices helped ease concerns about inflation.",
+      "date": "2026-11-12T10:12:04.728410+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/cac-40-moderately-higher-as-oil-prices-drop/56441"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/australian-market-extends-early-losses-in-mid-market/56421"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Asian Markets Track Wall Street Higher",
-      "description": "Asian markets are trading mostly higher on Thursday, following the broadly positive cues from Wall Street overnight, with the semiconductor and technology stocks continuing to rebound amid reports of strong results from the sector and optimism about AI trade. Market sentiment also improved on fading concerns about the re-escalation in the Middle East crisis.",
-      "date": "2026-11-12T02:13:04.434659+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/asian-markets-track-wall-street-higher/56420"
     }
   ]
 }
