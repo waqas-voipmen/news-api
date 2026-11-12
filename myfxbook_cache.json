@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-12T10:03:04.508660+00:00",
+  "fetched_at": "2026-11-12T10:18:06.494827+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "XAU",
+      "title": "Gold Tumbles On Rate Hike Expectations",
+      "description": "Gold prices were sharply lower on Thursday as the U.S. dollar index climbed to a 19-month high on expectations of further tightening by the Federal Reserve.",
+      "date": "2026-11-12T09:16:06.489856+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/gold-tumbles-on-rate-hike-expectations/56435"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indonesia-stock-market-may-reverse-wednesdays-losses/56416"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Rebound Anticipated For Hong Kong Stock Market",
-      "description": "The Hong Kong stock market headed south again on Wednesday, one day after snapping the two-day slide in which it had dropped more than 350 points or 1.4 percent. The Hang Seng now sits just above the 24,315-point plateau although it may bounce higher again on Thursday.",
-      "date": "2026-11-12T00:19:06.103633+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/rebound-anticipated-for-hong-kong-stock-market/56415"
     }
   ]
 }
