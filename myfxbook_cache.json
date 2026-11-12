@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-12T11:33:04.421579+00:00",
+  "fetched_at": "2026-11-12T11:48:04.417759+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "GBP",
+      "title": "FTSE 100 Hits 4-Week High On Earnings, Growth Data",
+      "description": "The FTSE 100 advanced Thursday to 10,874.51, up 0.36%, as positive earnings updates and UK GDP growth of 0.7% quarterly boosted sentiment. Mining stocks lagged while luxury and retail outperformed on solid results.",
+      "date": "2026-11-12T10:41:04.414288+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/ftse-100-hits-4-week-high-on-earnings-growth-data/56442"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indian-shares-modestly-higher-in-early-trade/56423"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australian Market Extends Early Losses In Mid-market",
-      "description": "The Australian market is extending its early losses in mid-market moves on Thursday, snapping a three-session winning streak, despite the broadly positive cues from Wall Street overnight. The benchmark S&P/ASX 200 is falling well below the 9,150 level, with weakness in mining and technology stocks partially offset by gains in financial stocks.",
-      "date": "2026-11-12T02:26:04.554224+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-market-extends-early-losses-in-mid-market/56421"
     }
   ]
 }
