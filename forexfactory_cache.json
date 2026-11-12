@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-12T19:33:34.966287+00:00",
+  "fetched_at": "2026-11-12T19:48:16.034426+00:00",
   "periods": {
     "week": [
       {
@@ -1249,6 +1249,19 @@
         "actual": ""
       },
       {
+        "title": "Mortgage Delinquencies",
+        "country": "USD",
+        "date": "2026-11-13T10:15:00-05:00",
+        "impact": "Low",
+        "forecast": "",
+        "previous": "4.37%",
+        "source": "ForexFactory",
+        "type": "calendar",
+        "link": null,
+        "time_label": "Tentative",
+        "actual": ""
+      },
+      {
         "title": "Natural Gas Storage",
         "country": "USD",
         "date": "2026-11-13T10:30:00-05:00",
@@ -1291,18 +1304,6 @@
         "impact": "Low",
         "forecast": "",
         "previous": "",
-        "source": "ForexFactory",
-        "type": "calendar",
-        "link": null,
-        "actual": ""
-      },
-      {
-        "title": "Mortgage Delinquencies",
-        "country": "USD",
-        "date": "2026-11-13T12:59:00-05:00",
-        "impact": "Low",
-        "forecast": "",
-        "previous": "4.37%",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
