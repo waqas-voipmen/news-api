@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-12T07:33:04.469558+00:00",
+  "fetched_at": "2026-11-12T07:48:04.655318+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Dollar Rises Against Majors",
+      "description": "The U.S. dollar strengthened against other major currencies in the Asian session on Thursday.",
+      "date": "2026-11-12T06:43:04.647591+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-dollar-rises-against-majors/56425"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/tech-shares-may-fuel-continued-strength-for-taiwan-stock-market/56412"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Singapore Stock Market May Reclaim 5,300-Point Level",
-      "description": "The Singapore stock market has finished higher in two straight sessions, collecting more than 110 points or 2.1 percent along the way. The Straits Times Index now sits just beneath the 5,290-point plateau and it's got another solid lead for Thursday's trade.",
-      "date": "2026-11-11T23:03:35.798907+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/singapore-stock-market-may-reclaim-5300-point-level/56411"
     }
   ]
 }
