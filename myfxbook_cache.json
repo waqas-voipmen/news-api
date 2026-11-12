@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-12T08:33:05.039759+00:00",
+  "fetched_at": "2026-11-12T08:48:05.062375+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Asian Shares Mostly Lower Amid Nvidia's Leadership Crisis",
+      "description": "Asian stocks ended mostly lower on Thursday despite Wall Street's overnight rally.",
+      "date": "2026-11-12T07:43:05.058736+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/asian-shares-mostly-lower-amid-nvidias-leadership-crisis/56429"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/continued-strength-expected-for-china-stock-market/56413"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Tech Shares May Fuel Continued Strength For Taiwan Stock Market",
-      "description": "The Taiwan stock market has climbed higher in three straight sessions, accelerating almost 3,550 points or 8.6 percent in that span. The Taiwan Stock Exchange now sits just above the 44,250-point plateau and it's tipped to open in the green again on Thursday.",
-      "date": "2026-11-11T23:33:35.798545+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/tech-shares-may-fuel-continued-strength-for-taiwan-stock-market/56412"
     }
   ]
 }
