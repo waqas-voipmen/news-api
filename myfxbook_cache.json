@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-11-12T13:33:03.295815+00:00",
+  "fetched_at": "2026-11-12T13:48:05.309894+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Bay Street Headed For Weak Start",
+      "description": "Lower U.S. and Canadian futures and weak precious metals prices indicate a lower opening for stocks on Bay Street Thursday morning. Oil prices have rebounded, paring early losses.\n\nNasdaq futures are down sharply, with Nvidia shares plunging more than 7% in premarket trading.",
+      "date": "2026-11-12T12:48:05.306421+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/bay-street-headed-for-weak-start/56446"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Initial Jobless Claims Climb More Than Expected",
+      "description": "A report released by the Labor Department on Thursday showed first-time claims for U.S. unemployment benefits rebounded by more than expected in the week ended November 7th.",
+      "date": "2026-11-12T12:35:05.306716+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-initial-jobless-claims-climb-more-than-expected/56445"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/asian-shares-mostly-lower-amid-nvidias-leadership-crisis/56429"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Dollar Rises Against Majors",
-      "description": "The U.S. dollar strengthened against other major currencies in the Asian session on Thursday.",
-      "date": "2026-11-12T06:43:04.647591+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-dollar-rises-against-majors/56425"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "European Shares Seen Flat To Higher At Open",
-      "description": "European shares are seen opening a tad higher on Thursday following Wall Street's overnight rally, led by AI and semiconductor stocks.",
-      "date": "2026-11-12T04:47:04.450742+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-shares-seen-flat-to-higher-at-open/56424"
     }
   ]
 }
