@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-12T14:48:34.441076+00:00",
+  "fetched_at": "2026-11-12T15:03:04.686797+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Weekly Jobless Claims Rebound More Than Expected To 200,000",
+      "description": "A report released by the Labor Department on Thursday showed first-time claims for U.S. unemployment benefits rebounded by more than expected in the week ended November 7th. The Labor Department said initial jobless claims climbed to 200,000, an increase of 9,000 from the previous week's revised level of 191,000.",
+      "date": "2026-11-12T13:51:04.678420+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-weekly-jobless-claims-rebound-more-than-expected-to-200000/56447"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/european-shares-hit-record-high-as-investors-cheer-earnings/56433"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Asian Shares Mostly Lower Amid Nvidia's Leadership Crisis",
-      "description": "Asian stocks ended mostly lower on Thursday despite Wall Street's overnight rally.",
-      "date": "2026-11-12T07:43:05.058736+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/asian-shares-mostly-lower-amid-nvidias-leadership-crisis/56429"
     }
   ]
 }
