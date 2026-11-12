@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-12T17:48:06.172187+00:00",
+  "fetched_at": "2026-11-12T18:03:08.659215+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "CAD",
+      "title": "Canadian Market Remains Weak Despite Coming Off Early Lows",
+      "description": "Despite coming off early lows, the Canadian market is down firmly in negative territory a little past noon on Thursday with stocks from materials and healthcare sectors continuing to reel under selling pressure.",
+      "date": "2026-11-12T16:48:08.651078+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/canadian-market-remains-weak-despite-coming-off-early-lows/56451"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/gold-tumbles-on-rate-hike-expectations/56435"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Oil Prices Modestly Lower As Hormuz Standoff Persists",
-      "description": "Oil prices were modestly lower on Thursday, recouping some losses from earlier in the session after a senior Iranian official rejected one of Washinton's key conditions for peace talks, stating that the country would not surrender \"a single atom\" of its enriched material.",
-      "date": "2026-11-12T08:58:04.500042+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/oil-prices-modestly-lower-as-hormuz-standoff-persists/56434"
     }
   ]
 }
