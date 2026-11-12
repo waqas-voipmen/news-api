@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-12T09:48:08.417447+00:00",
+  "fetched_at": "2026-11-12T10:03:04.508660+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Oil Prices Modestly Lower As Hormuz Standoff Persists",
+      "description": "Oil prices were modestly lower on Thursday, recouping some losses from earlier in the session after a senior Iranian official rejected one of Washinton's key conditions for peace talks, stating that the country would not surrender \"a single atom\" of its enriched material.",
+      "date": "2026-11-12T08:58:04.500042+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/oil-prices-modestly-lower-as-hormuz-standoff-persists/56434"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/rebound-anticipated-for-hong-kong-stock-market/56415"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australian Market Notably Lower",
-      "description": "The Australian market is trading notably lower on Thursday, snapping a three-session winning streak, despite the broadly positive cues from Wall Street overnight. The benchmark S&P/ASX 200 is falling to near the 9,100 level, with weakness in mining and technology stocks partially offset by gains in financial stocks.",
-      "date": "2026-11-12T00:14:04.597920+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-market-notably-lower/56414"
     }
   ]
 }
