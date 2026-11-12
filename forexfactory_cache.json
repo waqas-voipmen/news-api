@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-12T09:03:32.256738+00:00",
+  "fetched_at": "2026-11-12T09:18:13.473003+00:00",
   "periods": {
     "week": [
       {
@@ -865,7 +865,6 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "time_label": "Tentative",
         "actual": ""
       },
       {
@@ -878,7 +877,6 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "time_label": "Tentative",
         "actual": ""
       },
       {
