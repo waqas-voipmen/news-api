@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-12T23:33:05.368082+00:00",
+  "fetched_at": "2026-11-12T23:48:06.440289+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Losing Streak May Continue For Malaysia Stock Market",
+      "description": "The Malaysia stock market has finished lower in four straight sessions, slipping more than 50 points or 3.1 percent in that span. The Kuala Lumpur Composite Index now sits just above the 1,585-point plateau and it's likely to open under water again on Friday.",
+      "date": "2026-11-12T22:34:06.429425+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/losing-streak-may-continue-for-malaysia-stock-market/56460"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/bay-street-headed-for-weak-start/56446"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Initial Jobless Claims Climb More Than Expected",
-      "description": "A report released by the Labor Department on Thursday showed first-time claims for U.S. unemployment benefits rebounded by more than expected in the week ended November 7th.",
-      "date": "2026-11-12T12:35:05.306716+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-initial-jobless-claims-climb-more-than-expected/56445"
     }
   ]
 }
