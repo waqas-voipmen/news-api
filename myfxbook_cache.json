@@ -1,6 +1,42 @@
 {
-  "fetched_at": "2026-11-12T10:33:04.506324+00:00",
+  "fetched_at": "2026-11-12T11:03:05.816013+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "DAX Hits Record High On Easing Inflation, Strong Earnings",
+      "description": "German stocks surged Thursday as easing inflation concerns and strong corporate earnings lifted sentiment. The DAX benchmark climbed to a record 27,001.57, gaining 0.91%, while Allianz and Munich RE led gains on better-than-expected results.",
+      "date": "2026-11-12T09:58:05.812333+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/dax-hits-record-high-on-easing-inflation-strong-earnings/56440"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "GBP",
+      "title": "UK Economy Expands 0.7%, Boosted By AI-Driven Services",
+      "description": "The UK economy expanded at a faster pace in the third quarter as activities related to artificial intelligence boosted services sector growth. Real gross domestic product grew 0.7 percent on a quarterly basis, showing an improvement from 0.5 percent expansion posted in the second quarter, preliminary data from the Office for National Statistics revealed Thursday.",
+      "date": "2026-11-12T09:44:05.812746+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/uk-economy-expands-07-boosted-by-ai-driven-services/56439"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Indian Shares Give Up Early Gains Amid Fed Concerns",
+      "description": "Indian shares gave up early gains to end on a flat note on Thursday, as persistent geopolitical tensions in the Middel East and Russia along with a widening controversy surrounding Nvidia CEO Jensen Huang prompted traders to book profits at higher levels after recent strong gains.",
+      "date": "2026-11-12T09:40:05.813038+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-give-up-early-gains-amid-fed-concerns/56437"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -120,42 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/asian-markets-track-wall-street-higher/56420"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Indian Shares Likely To Open On Muted Note After Recent Rally",
-      "description": "Indian shares look set to open on a muted note on Thursday as investors react to mixed Asian cues, reports of executive turmoil at Nvidia and the results of MSCI's November review.",
-      "date": "2026-11-12T01:45:04.780953+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-likely-to-open-on-muted-note-after-recent-rally/56419"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Higher Open Called For Thai Stock Market",
-      "description": "The Thai stock market has tracked higher in three straight sessions, advancing more than 35 points or 2.5 percent along the way. The Stock Exchange of Thailand now sits just above the 1,500-point plateau and it's expected to open to the upside again on Thursday.",
-      "date": "2026-11-12T01:04:05.180588+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/higher-open-called-for-thai-stock-market/56418"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Japanese Market Modestly Higher",
-      "description": "The Japanese market is trading modestly higher on Thursday, extending the gains in the previous three sessions, following the broadly positive cues from Wall Street overnight. The Nikkei 225 is moving well above the 61,400 level, with gains in index heavyweights and exporter stocks, while most other sectors are trading mixed.",
-      "date": "2026-11-12T00:38:04.584959+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/japanese-market-modestly-higher/56417"
     }
   ]
 }
