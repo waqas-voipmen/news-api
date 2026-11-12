@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-12T22:33:07.988562+00:00",
+  "fetched_at": "2026-11-12T22:48:06.676339+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Hong Kong GDP Data Due On Friday",
+      "description": "Hong Kong will on Friday release Q3 figures for gross domestic product, highlighting a light day for Asia-Pacific economic activity.",
+      "date": "2026-11-12T21:34:06.663587+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/hong-kong-gdp-data-due-on-friday/56457"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/ftse-100-hits-4-week-high-on-earnings-growth-data/56442"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "CAC 40 Moderately Higher As Oil Prices Drop",
-      "description": "French stocks climbed higher on Thursday, extending gains to a fourth straight session, as easing oil prices helped ease concerns about inflation.",
-      "date": "2026-11-12T10:12:04.728410+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/cac-40-moderately-higher-as-oil-prices-drop/56441"
     }
   ]
 }
