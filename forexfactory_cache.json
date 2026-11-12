@@ -1040,7 +1040,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "54.9",
+        "actual_src": "forexfactory"
       },
       {
         "title": "FOMC Member Williams Speaks",
@@ -1334,5 +1335,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-12T21:31:13.937744+00:00"
 }
