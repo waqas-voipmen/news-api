@@ -1015,7 +1015,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-404.1B",
+        "actual_src": "forexfactory"
       },
       {
         "title": "ECB President Lagarde Speaks",
@@ -1332,5 +1333,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-12T19:00:43.712512+00:00"
 }
