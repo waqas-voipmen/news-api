@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-12T23:18:06.171271+00:00",
+  "fetched_at": "2026-11-12T23:33:05.368082+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Japan Stock Market May See Continued Consolidation",
+      "description": "The Japan stock market on Thursday ended the three-day winning streak in which it had jumped almost 3,800 points or 5 percent. The Nikkei 225 now sits just beneath the 60,820-point plateau and it may extend its losses on Friday.",
+      "date": "2026-11-12T22:19:05.364462+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/japan-stock-market-may-see-continued-consolidation/56459"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/us-initial-jobless-claims-climb-more-than-expected/56445"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Siemens Stock Gains On Strong Q4, Dividend Hike, Positive Outlook",
-      "description": "Shares of Siemens AG were gaining around 3 percent in the German trading after the company reported Thursday higher profit, revenues and orders in its fourth quarter, supported mainly by high demand for electrification, digitalization and Industrial AI, which is expected to drive future growth. Further, the German conglomerate raised dividend, issued positive outlook for fiscal 2027.",
-      "date": "2026-11-12T10:48:05.116235+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/siemens-stock-gains-on-strong-q4-dividend-hike-positive-outlook/56443"
     }
   ]
 }
