@@ -865,7 +865,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-4.1%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Unemployment Claims",
@@ -877,7 +878,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "200K",
+        "actual_src": "forexfactory"
       },
       {
         "title": "FOMC Member Hammack Speaks",
@@ -1327,5 +1329,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-12T13:30:36.151693+00:00"
 }
