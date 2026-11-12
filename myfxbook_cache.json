@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-12T03:18:04.439400+00:00",
+  "fetched_at": "2026-11-12T03:33:04.561377+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australian Market Extends Early Losses In Mid-market",
+      "description": "The Australian market is extending its early losses in mid-market moves on Thursday, snapping a three-session winning streak, despite the broadly positive cues from Wall Street overnight. The benchmark S&P/ASX 200 is falling well below the 9,150 level, with weakness in mining and technology stocks partially offset by gains in financial stocks.",
+      "date": "2026-11-12T02:26:04.554224+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australian-market-extends-early-losses-in-mid-market/56421"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/malaysia-stock-market-may-find-support-on-thursday/56409"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Japan Stock Market Poised To Open To The Upside",
-      "description": "The Japan stock market has finished higher in three straight sessions, advancing almost 3,800 points or 5 percent in that span. The Nikkei 225 now sits just beneath the 61,250-point plateau and it's expected to see additional support on Thursday.",
-      "date": "2026-11-11T22:19:08.593876+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/japan-stock-market-poised-to-open-to-the-upside/56408"
     }
   ]
 }
