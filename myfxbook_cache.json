@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-12T21:03:04.892475+00:00",
+  "fetched_at": "2026-11-12T21:18:05.383975+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "South Korea Export Prices Surge 36.7% On Year In October",
+      "description": "Export prices in South Korea spiked 36.7 percent on year in October, the Bank of Korea said on Friday - slowing from 41.3 percent in September.",
+      "date": "2026-11-12T20:13:05.380224+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/south-korea-export-prices-surge-367-on-year-in-october/56454"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/uk-economy-expands-07-boosted-by-ai-driven-services/56439"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Indian Shares Give Up Early Gains Amid Fed Concerns",
-      "description": "Indian shares gave up early gains to end on a flat note on Thursday, as persistent geopolitical tensions in the Middel East and Russia along with a widening controversy surrounding Nvidia CEO Jensen Huang prompted traders to book profits at higher levels after recent strong gains.",
-      "date": "2026-11-12T09:40:05.813038+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-give-up-early-gains-amid-fed-concerns/56437"
     }
   ]
 }
