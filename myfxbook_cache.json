@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-12T15:18:33.784003+00:00",
+  "fetched_at": "2026-11-12T15:33:05.917973+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Existing Home Sales Plunge To Sixteen-Year Low In October",
+      "description": "Partly reflecting the impact of high mortgage rates, the National Association of Realtors released a report on Thursday showing a steep drop in existing home sales in the U.S. in the month of October. NAR said existing home sales plunged by 5.5 percent to an annual rate of 3.75 million in October after jumping by 1 percent to a revised rate of 3.97 million in September.",
+      "date": "2026-11-12T14:27:05.903535+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-existing-home-sales-plunge-to-sixteen-year-low-in-october/56448"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/oil-prices-modestly-lower-as-hormuz-standoff-persists/56434"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "European Shares Hit Record High As Investors Cheer Earnings",
-      "description": "European stocks struck a fresh record high on Thursday, as solid corporate earnings and easing concerns surrounding energy-driven inflation offset investor unease over the potential removal of Jensen Huang as Nvidia's chief executive.",
-      "date": "2026-11-12T08:32:08.413400+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-shares-hit-record-high-as-investors-cheer-earnings/56433"
     }
   ]
 }
