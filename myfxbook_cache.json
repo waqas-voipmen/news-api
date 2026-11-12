@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-12T01:18:04.601773+00:00",
+  "fetched_at": "2026-11-12T01:33:06.108024+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Rebound Anticipated For Hong Kong Stock Market",
+      "description": "The Hong Kong stock market headed south again on Wednesday, one day after snapping the two-day slide in which it had dropped more than 350 points or 1.4 percent. The Hang Seng now sits just above the 24,315-point plateau although it may bounce higher again on Thursday.",
+      "date": "2026-11-12T00:19:06.103633+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/rebound-anticipated-for-hong-kong-stock-market/56415"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/ftse-100-rebounds/56400"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "CAC 40 Extends Winning Streak",
-      "description": "A rally in global stock markets powered by the surge in technology shares helped the CAC 40 index to extend its winning streak.",
-      "date": "2026-11-11T12:12:07.282165+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/cac-40-extends-winning-streak/56397"
     }
   ]
 }
