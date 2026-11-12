@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-11-12T00:03:06.472705+00:00",
+  "fetched_at": "2026-11-12T00:46:35.802356+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Tech Shares May Fuel Continued Strength For Taiwan Stock Market",
+      "description": "The Taiwan stock market has climbed higher in three straight sessions, accelerating almost 3,550 points or 8.6 percent in that span. The Taiwan Stock Exchange now sits just above the 44,250-point plateau and it's tipped to open in the green again on Thursday.",
+      "date": "2026-11-11T23:33:35.798545+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/tech-shares-may-fuel-continued-strength-for-taiwan-stock-market/56412"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Singapore Stock Market May Reclaim 5,300-Point Level",
+      "description": "The Singapore stock market has finished higher in two straight sessions, collecting more than 110 points or 2.1 percent along the way. The Straits Times Index now sits just beneath the 5,290-point plateau and it's got another solid lead for Thursday's trade.",
+      "date": "2026-11-11T23:03:35.798907+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/singapore-stock-market-may-reclaim-5300-point-level/56411"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/dax-extends-gains-on-wednesday/56394"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Dollar Rallies Amid Fed Rate-hike Bets",
-      "description": "The U.S. dollar strengthened against other major currencies in the European session on Wednesday, as hotter-than-expected U.S. inflation statistics increased anticipation that the Federal Reserve will raise borrowing costs next month.",
-      "date": "2026-11-11T10:28:05.122214+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-dollar-rallies-amid-fed-rate-hike-bets/56393"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Dollar Rises Against Majors",
-      "description": "The U.S. dollar strengthened against other major currencies in the European session on Wednesday.",
-      "date": "2026-11-11T10:12:05.746121+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-dollar-rises-against-majors/56392"
     }
   ]
 }
