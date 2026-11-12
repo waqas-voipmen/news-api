@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-12T05:48:06.364593+00:00",
+  "fetched_at": "2026-11-12T06:03:04.454440+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "European Shares Seen Flat To Higher At Open",
+      "description": "European shares are seen opening a tad higher on Thursday following Wall Street's overnight rally, led by AI and semiconductor stocks.",
+      "date": "2026-11-12T04:47:04.450742+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-shares-seen-flat-to-higher-at-open/56424"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/singapore-stock-market-may-reclaim-5300-point-level/56411"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Japan Producer Prices Jump 0.7% In October",
-      "description": "Producer prices in Japan were up 0.7 percent on month in October, the Bank of Japan said on Thursday.",
-      "date": "2026-11-11T22:55:06.463792+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/japan-producer-prices-jump-07-in-october/56410"
     }
   ]
 }
