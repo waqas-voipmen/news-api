@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-11T23:48:08.616284+00:00",
+  "fetched_at": "2026-11-12T00:03:06.472705+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Japan Producer Prices Jump 0.7% In October",
+      "description": "Producer prices in Japan were up 0.7 percent on month in October, the Bank of Japan said on Thursday.",
+      "date": "2026-11-11T22:55:06.463792+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/japan-producer-prices-jump-07-in-october/56410"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/us-dollar-rises-against-majors/56392"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Indian Shares Hit Eight-month High Amid Sharp Fall In Oil Prices",
-      "description": "Indian shares rose sharply on Wednesday to hit an eight-month high, with investor sentiment boosted by continued foreign fund inflows, a moderation of the AI trade, and a retreat in crude oil prices to two-month lows on hopes for a de-escalation in the U.S.-Israeli war on Iran.",
-      "date": "2026-11-11T09:36:05.881505+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-hit-eight-month-high-amid-sharp-fall-in-oil-prices/56389"
     }
   ]
 }
