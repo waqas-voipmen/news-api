@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-12T21:48:08.641359+00:00",
+  "fetched_at": "2026-11-12T22:03:07.704327+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Dollar Advances As Hopes Of U.S.-Iran Deal Diminish After Trump's Message",
+      "description": "The U.S. Dollar value edged higher on Thursday as oil supply disruption concerns returned to markets after U.S. President Donald Trump stated that the U.S. is no longer interested in a deal with Iran. With worries of inflation and global rate hikes returning, expectations among investors about an early reopening of the Strait of Hormuz vanished.",
+      "date": "2026-11-12T21:01:07.688776+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-dollar-advances-as-hopes-of-us-iran-deal-diminish-after-trumps-message/56456"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/cac-40-moderately-higher-as-oil-prices-drop/56441"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "DAX Hits Record High On Easing Inflation, Strong Earnings",
-      "description": "German stocks surged Thursday as easing inflation concerns and strong corporate earnings lifted sentiment. The DAX benchmark climbed to a record 27,001.57, gaining 0.91%, while Allianz and Munich RE led gains on better-than-expected results.",
-      "date": "2026-11-12T09:58:05.812333+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/dax-hits-record-high-on-easing-inflation-strong-earnings/56440"
     }
   ]
 }
