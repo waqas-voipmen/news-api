@@ -784,11 +784,12 @@
         "date": "2026-11-12T02:00:00-05:00",
         "impact": "Low",
         "forecast": "-19.2B",
-        "previous": "-18.0B",
+        "previous": "-19.6B",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-22.3B",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Index of Services 3m/3m",
@@ -826,7 +827,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.7%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Prelim Business Investment q/q",
@@ -838,7 +840,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.4%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "ECB Economic Bulletin",
@@ -1325,5 +1328,5 @@
       }
     ]
   },
-  "actuals_at": "2026-11-12T07:01:00.992423+00:00"
+  "actuals_at": "2026-11-12T07:02:14.449366+00:00"
 }
