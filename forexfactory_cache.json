@@ -749,7 +749,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.2%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Prelim GDP q/q",
@@ -761,7 +762,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.7%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Construction Output m/m",
@@ -773,7 +775,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.8%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Goods Trade Balance",
@@ -797,7 +800,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.9%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Industrial Production m/m",
@@ -809,7 +813,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.3%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Manufacturing Production m/m",
@@ -1319,5 +1324,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-12T07:01:00.992423+00:00"
 }
