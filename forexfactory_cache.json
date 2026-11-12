@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-12T14:34:24.184660+00:00",
+  "fetched_at": "2026-11-12T14:49:25.163688+00:00",
   "periods": {
     "week": [
       {
@@ -920,13 +920,14 @@
       {
         "title": "Mortgage Delinquencies",
         "country": "USD",
-        "date": "2026-11-12T10:00:00-05:00",
+        "date": "2026-11-12T10:21:00-05:00",
         "impact": "Low",
         "forecast": "",
         "previous": "4.37%",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
+        "time_label": "Tentative",
         "actual": ""
       },
       {
