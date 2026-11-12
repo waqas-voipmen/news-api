@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-12T19:03:07.953454+00:00",
+  "fetched_at": "2026-11-12T19:18:12.859066+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "CHF",
+      "title": "Swiss Market Ends Moderately Higher",
+      "description": "The Switzerland stock market closed on a firm note on Thursday after moving in a narrow range modestly above the flat line throught the session session.",
+      "date": "2026-11-12T18:03:12.843140+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/swiss-market-ends-moderately-higher/56453"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indian-shares-give-up-early-gains-amid-fed-concerns/56437"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Dollar Extends Rally On Fed Rate Hike Bets",
-      "description": "The U.S. dollar extended its early strength against other major currencies in the Asian session on Thursday, on rising Federal Reserve (Fed) rate-hike expectations, supported by high U.S. consumer inflation data.",
-      "date": "2026-11-12T09:28:04.502829+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-dollar-extends-rally-on-fed-rate-hike-bets/56436"
     }
   ]
 }
