@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-12T11:48:04.417759+00:00",
+  "fetched_at": "2026-11-12T12:03:05.119949+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Siemens Stock Gains On Strong Q4, Dividend Hike, Positive Outlook",
+      "description": "Shares of Siemens AG were gaining around 3 percent in the German trading after the company reported Thursday higher profit, revenues and orders in its fourth quarter, supported mainly by high demand for electrification, digitalization and Industrial AI, which is expected to drive future growth. Further, the German conglomerate raised dividend, issued positive outlook for fiscal 2027.",
+      "date": "2026-11-12T10:48:05.116235+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/siemens-stock-gains-on-strong-q4-dividend-hike-positive-outlook/56443"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/european-shares-seen-flat-to-higher-at-open/56424"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Indian Shares Modestly Higher In Early Trade",
-      "description": "Indian shares clung to modest gains in early trade on Thursday, adding to recent string of gains amid easing crude oil prices and continued foreign fund inflows.",
-      "date": "2026-11-12T03:20:04.572238+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-modestly-higher-in-early-trade/56423"
     }
   ]
 }
