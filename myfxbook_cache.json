@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-12T10:18:06.494827+00:00",
+  "fetched_at": "2026-11-12T10:33:04.506324+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Dollar Extends Rally On Fed Rate Hike Bets",
+      "description": "The U.S. dollar extended its early strength against other major currencies in the Asian session on Thursday, on rising Federal Reserve (Fed) rate-hike expectations, supported by high U.S. consumer inflation data.",
+      "date": "2026-11-12T09:28:04.502829+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-dollar-extends-rally-on-fed-rate-hike-bets/56436"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/japanese-market-modestly-higher/56417"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Indonesia Stock Market May Reverse Wednesday's Losses",
-      "description": "The Indonesia stock market on Wednesday ended the five-day winning streak in which it had spiked almost 220 points or 4.5 percent. The Jakarta Composite Index now sits just above the 5,115-point plateau although it's likely to rebound again on Thursday.",
-      "date": "2026-11-12T00:34:04.585305+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indonesia-stock-market-may-reverse-wednesdays-losses/56416"
     }
   ]
 }
