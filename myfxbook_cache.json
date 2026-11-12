@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-12T02:33:05.051248+00:00",
+  "fetched_at": "2026-11-12T02:48:04.786638+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Indian Shares Likely To Open On Muted Note After Recent Rally",
+      "description": "Indian shares look set to open on a muted note on Thursday as investors react to mixed Asian cues, reports of executive turmoil at Nvidia and the results of MSCI's November review.",
+      "date": "2026-11-12T01:45:04.780953+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-likely-to-open-on-muted-note-after-recent-rally/56419"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/win-streak-may-continue-for-south-korea-shares/56407"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Japan Producer Price Data Due On Thursday",
-      "description": "Japan will on Thursday release October figures for producer prices, highlighting a light day for Asia-Pacific economic activity.",
-      "date": "2026-11-11T21:34:07.043518+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/japan-producer-price-data-due-on-thursday/56406"
     }
   ]
 }
