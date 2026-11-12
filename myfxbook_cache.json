@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-12T02:03:04.408641+00:00",
+  "fetched_at": "2026-11-12T02:18:05.185473+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Higher Open Called For Thai Stock Market",
+      "description": "The Thai stock market has tracked higher in three straight sessions, advancing more than 35 points or 2.5 percent along the way. The Stock Exchange of Thailand now sits just above the 1,500-point plateau and it's expected to open to the upside again on Thursday.",
+      "date": "2026-11-12T01:04:05.180588+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/higher-open-called-for-thai-stock-market/56418"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/japan-producer-price-data-due-on-thursday/56406"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Dollar Climbs Amid Rising Expectations Of Fed Rate Hike",
-      "description": "The U.S. Dollar value moved higher on Wednesday with market participants pricing in a tighter monetary policy by the U.S. Federal Reserve following yesterday's inflation numbers, hawkish comments by the central bank officials, and the ongoing U.S.-Iran standoff.",
-      "date": "2026-11-11T21:01:13.303397+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-dollar-climbs-amid-rising-expectations-of-fed-rate-hike/56405"
     }
   ]
 }
