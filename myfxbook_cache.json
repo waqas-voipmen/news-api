@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-12T03:03:04.393218+00:00",
+  "fetched_at": "2026-11-12T03:18:04.439400+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Asian Markets Track Wall Street Higher",
+      "description": "Asian markets are trading mostly higher on Thursday, following the broadly positive cues from Wall Street overnight, with the semiconductor and technology stocks continuing to rebound amid reports of strong results from the sector and optimism about AI trade. Market sentiment also improved on fading concerns about the re-escalation in the Middle East crisis.",
+      "date": "2026-11-12T02:13:04.434659+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/asian-markets-track-wall-street-higher/56420"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/japan-stock-market-poised-to-open-to-the-upside/56408"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Win Streak May Continue For South Korea Shares",
-      "description": "The South Korea stock market has finished higher in two straight sessions, advancing more than 350 points or 7 percent in that span. The KOSPI now sits just above the 5,375-point plateau and it's expected to add to its winnings again on Thursday.",
-      "date": "2026-11-11T22:04:07.765940+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/win-streak-may-continue-for-south-korea-shares/56407"
     }
   ]
 }
