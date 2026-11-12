@@ -736,7 +736,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-36%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "GDP m/m",
@@ -1319,5 +1320,5 @@
       }
     ]
   },
-  "actuals_at": "2026-11-12T00:00:37.786282+00:00"
+  "actuals_at": "2026-11-12T00:01:15.916879+00:00"
 }
