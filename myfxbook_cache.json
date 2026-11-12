@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-12T04:18:04.274111+00:00",
+  "fetched_at": "2026-11-12T04:33:04.576972+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Indian Shares Modestly Higher In Early Trade",
+      "description": "Indian shares clung to modest gains in early trade on Thursday, adding to recent string of gains amid easing crude oil prices and continued foreign fund inflows.",
+      "date": "2026-11-12T03:20:04.572238+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-modestly-higher-in-early-trade/56423"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/japan-producer-prices-jump-07-in-october/56410"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Malaysia Stock Market May Find Support On Thursday",
-      "description": "The Malaysia stock market has finished lower in three straight sessions, slipping more than 40 points or 2.5 percent in that span. The Kuala Lumpur Composite Index now sits just beneath the 1,600-point plateau although it may stop the bleeding on Thursday.",
-      "date": "2026-11-11T22:34:08.592687+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/malaysia-stock-market-may-find-support-on-thursday/56409"
     }
   ]
 }
