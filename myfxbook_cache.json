@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-13T03:03:04.860474+00:00",
+  "fetched_at": "2026-11-13T03:33:05.430030+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Asian Markets Trade Mixed",
+      "description": "Asian markets are mixed on Friday, following the negative cues on Wall Street overnight, as a spike in crude oil prices renewed global inflation concerns after US President Donald Trump said the U.S. is no longer interested in any deal to end the war with Iran as Iran adopted a confrontationist approach. Markets in Taiwan, South Korea and Japan are surging amid a rebound in semiconductor stocks.",
+      "date": "2026-11-13T02:13:05.426253+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/asian-markets-trade-mixed/56470"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/tech-pressure-may-weigh-on-south-korea-shares/56458"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Hong Kong GDP Data Due On Friday",
-      "description": "Hong Kong will on Friday release Q3 figures for gross domestic product, highlighting a light day for Asia-Pacific economic activity.",
-      "date": "2026-11-12T21:34:06.663587+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/hong-kong-gdp-data-due-on-friday/56457"
     }
   ]
 }
