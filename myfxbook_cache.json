@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-13T01:18:04.832928+00:00",
+  "fetched_at": "2026-11-13T01:33:07.609017+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Lower Open Called For Hong Kong Stock Market",
+      "description": "The Hong Kong stock market has tracked lower in back-to-back sessions, sliding almost 550 points or 2.3 percent in that span. The Hang Seng now sits just above the 24,000-point plateau and it's looking at a soft start again on Friday.",
+      "date": "2026-11-13T00:19:07.605025+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/lower-open-called-for-hong-kong-stock-market/56465"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/swiss-market-ends-moderately-higher/56453"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Major European Markets Close Modestly Higher",
-      "description": "European markets pared early gains and despite slipping into negative territory a little past mid afternoon, recovered to close modestly higher on Thursday thanks to some brisk buying at several counters in the final hour.",
-      "date": "2026-11-12T17:39:08.882064+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/major-european-markets-close-modestly-higher/56452"
     }
   ]
 }
