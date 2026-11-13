@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-13T19:18:08.357135+00:00",
+  "fetched_at": "2026-11-13T19:33:14.402910+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "CAD",
+      "title": "Canadian Stocks Turning In Mixed Performance As Investors React To Earnings",
+      "description": "Canadian stocks are turning in a mixed performance on Friday with investors reacting to corporate earnings updates, and also weighing the potential impact of the resignation of Nvidia co-founder and CEO Jensen Huang on the tech sector.",
+      "date": "2026-11-13T18:21:14.381299+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/canadian-stocks-turning-in-mixed-performance-as-investors-react-to-earnings/56506"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indian-shares-end-lower-as-oil-prices-yields-rebound/56487"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "XAU",
-      "title": "Gold Heads For Steep Weekly Loss Amid Fed Rate Hike Bets",
-      "description": "Gold prices traded higher on Friday in a likely technical rebound after falling for three straight sessions to the lowest level in more than a year.",
-      "date": "2026-11-13T08:58:31.750537+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/gold-heads-for-steep-weekly-loss-amid-fed-rate-hike-bets/56486"
     }
   ]
 }
