@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-13T12:33:04.581248+00:00",
+  "fetched_at": "2026-11-13T12:48:04.964313+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "FTSE 100 Roughly Flat In Lackluster Trade",
+      "description": "U.K.'s equity benchmark FTSE 100 was up slightly a little over noon on Friday as investors made cautious moves, weighing the prospects of a rate hike by the Federal Reserve in December, and potential impact of Nvidia CEO Jensen Huang's resignation on the technology sector.",
+      "date": "2026-11-13T11:34:04.959822+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/ftse-100-roughly-flat-in-lackluster-trade/56495"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/australian-market-extends-early-losses-in-mid-market/56471"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Asian Markets Trade Mixed",
-      "description": "Asian markets are mixed on Friday, following the negative cues on Wall Street overnight, as a spike in crude oil prices renewed global inflation concerns after US President Donald Trump said the U.S. is no longer interested in any deal to end the war with Iran as Iran adopted a confrontationist approach. Markets in Taiwan, South Korea and Japan are surging amid a rebound in semiconductor stocks.",
-      "date": "2026-11-13T02:13:05.426253+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/asian-markets-trade-mixed/56470"
     }
   ]
 }
