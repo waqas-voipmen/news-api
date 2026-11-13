@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-11-13T01:33:07.609017+00:00",
+  "fetched_at": "2026-11-13T01:48:05.128205+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Japanese Market Sharply Higher",
+      "description": "The Japanese market is trading sharply higher on Friday, reversing the losses in the previous session, despite the broadly negative cues from Wall Street overnight. The Nikkei 225 is moving above the 61,650 level, with gains across most sectors led by financial and technology stocks.",
+      "date": "2026-11-13T00:43:05.124321+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/japanese-market-sharply-higher/56467"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Indonesia Stock Market May Head South Again On Friday",
+      "description": "The Indonesia stock market bounced higher again on Thursday, one day after ending the five-day winning streak in which it had spiked almost 220 points or 4.5 percent. The Jakarta Composite Index now sits just above the 5,250-point plateau although it may those gains right back on Friday.",
+      "date": "2026-11-13T00:34:05.124650+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indonesia-stock-market-may-head-south-again-on-friday/56466"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/new-zealand-manufacturing-pmi-fades-to-549-in-october---businessnz/56455"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "South Korea Export Prices Surge 36.7% On Year In October",
-      "description": "Export prices in South Korea spiked 36.7 percent on year in October, the Bank of Korea said on Friday - slowing from 41.3 percent in September.",
-      "date": "2026-11-12T20:13:05.380224+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/south-korea-export-prices-surge-367-on-year-in-october/56454"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "CHF",
-      "title": "Swiss Market Ends Moderately Higher",
-      "description": "The Switzerland stock market closed on a firm note on Thursday after moving in a narrow range modestly above the flat line throught the session session.",
-      "date": "2026-11-12T18:03:12.843140+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/swiss-market-ends-moderately-higher/56453"
     }
   ]
 }
