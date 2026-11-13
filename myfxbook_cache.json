@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-13T13:18:04.941796+00:00",
+  "fetched_at": "2026-11-13T13:33:06.843224+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "CAD",
+      "title": "Bay Street Likely To Open On Mixed Note",
+      "description": "Canadian stocks look heaed for a mixed start Friday morning, tracking the trend in the commodities markets, and weighing the impact of Nvidia CEO Jensen Huang's resignation.",
+      "date": "2026-11-13T12:21:06.835365+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/bay-street-likely-to-open-on-mixed-note/56497"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/european-shares-seen-opening-lower-as-rate-concerns-return/56474"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Indian Shares Modestly Lower In Early Trade",
-      "description": "Indian shares were moving lower in early trade on Friday as oil prices and U.S. Treasury yields spiked after U.S. Donald Trump downplayed the prospects of a comprehensive diplomatic solution with Iran, halted the negotiation process that Vice President Vance was advancing, and instead accepted a stalemate characterized by \"no war, no talks.\"",
-      "date": "2026-11-13T03:24:04.876720+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-modestly-lower-in-early-trade/56473"
     }
   ]
 }
