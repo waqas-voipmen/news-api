@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-13T10:42:41.989804+00:00",
+  "fetched_at": "2026-11-13T10:50:31.219151+00:00",
   "periods": {
     "week": [
       {
@@ -1095,6 +1095,32 @@
         "actual_src": "forexfactory"
       },
       {
+        "title": "M2 Money Supply y/y",
+        "country": "CNY",
+        "date": "2026-11-13T04:00:00-05:00",
+        "impact": "Low",
+        "forecast": "7.2%",
+        "previous": "7.2%",
+        "source": "ForexFactory",
+        "type": "calendar",
+        "link": null,
+        "actual": "7.1%",
+        "actual_src": "forexfactory"
+      },
+      {
+        "title": "New Loans",
+        "country": "CNY",
+        "date": "2026-11-13T04:00:00-05:00",
+        "impact": "Low",
+        "forecast": "80B",
+        "previous": "1080B",
+        "source": "ForexFactory",
+        "type": "calendar",
+        "link": null,
+        "actual": "-100B",
+        "actual_src": "forexfactory"
+      },
+      {
         "title": "Italian Trade Balance",
         "country": "EUR",
         "date": "2026-11-13T04:00:00-05:00",
@@ -1145,32 +1171,6 @@
         "link": null,
         "actual": "-8.7B",
         "actual_src": "forexfactory"
-      },
-      {
-        "title": "M2 Money Supply y/y",
-        "country": "CNY",
-        "date": "2026-11-13T05:03:00-05:00",
-        "impact": "Low",
-        "forecast": "7.2%",
-        "previous": "7.2%",
-        "source": "ForexFactory",
-        "type": "calendar",
-        "link": null,
-        "actual": "7.1%",
-        "actual_src": "fxstreet"
-      },
-      {
-        "title": "New Loans",
-        "country": "CNY",
-        "date": "2026-11-13T05:03:00-05:00",
-        "impact": "Low",
-        "forecast": "80B",
-        "previous": "1080B",
-        "source": "ForexFactory",
-        "type": "calendar",
-        "link": null,
-        "actual": "-100B",
-        "actual_src": "fxstreet"
       },
       {
         "title": "Manufacturing Sales m/m",
