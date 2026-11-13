@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-13T08:33:09.850140+00:00",
+  "fetched_at": "2026-11-13T08:48:08.027695+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Asian Shares Slide On Inflation Concerns, Mounting Fed Tightening Bets",
+      "description": "Asian stocks gave up early gains to end mostly lower on Friday, with concerns about Nvidia's leadership turmoil and increased expectations for tighter Federal Reserve policy keeping investors on edge.",
+      "date": "2026-11-13T07:42:07.986212+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/asian-shares-slide-on-inflation-concerns-mounting-fed-tightening-bets/56482"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/taiwan-stock-market-may-extend-thursdays-losses/56462"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Singapore Stock Market May Take Further Damage On Friday",
-      "description": "The Singapore stock market on Thursday snapped the two-day winning streak in which it had improved more than 110 points or 2.1 percent. The Straits Times Index now sits just above the 5,280-point plateau and the losses may accelerate on Friday.",
-      "date": "2026-11-12T23:04:06.530487+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/singapore-stock-market-may-take-further-damage-on-friday/56461"
     }
   ]
 }
