@@ -1065,7 +1065,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.4%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "PPI m/m",
@@ -1335,5 +1336,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-13T07:00:20.133610+00:00"
 }
