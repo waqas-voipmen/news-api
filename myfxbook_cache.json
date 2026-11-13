@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-13T04:18:04.602129+00:00",
+  "fetched_at": "2026-11-13T04:33:04.881212+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Indian Shares Modestly Lower In Early Trade",
+      "description": "Indian shares were moving lower in early trade on Friday as oil prices and U.S. Treasury yields spiked after U.S. Donald Trump downplayed the prospects of a comprehensive diplomatic solution with Iran, halted the negotiation process that Vice President Vance was advancing, and instead accepted a stalemate characterized by \"no war, no talks.\"",
+      "date": "2026-11-13T03:24:04.876720+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-modestly-lower-in-early-trade/56473"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/losing-streak-may-continue-for-malaysia-stock-market/56460"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Japan Stock Market May See Continued Consolidation",
-      "description": "The Japan stock market on Thursday ended the three-day winning streak in which it had jumped almost 3,800 points or 5 percent. The Nikkei 225 now sits just beneath the 60,820-point plateau and it may extend its losses on Friday.",
-      "date": "2026-11-12T22:19:05.364462+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/japan-stock-market-may-see-continued-consolidation/56459"
     }
   ]
 }
