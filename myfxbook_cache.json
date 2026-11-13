@@ -1,6 +1,54 @@
 {
-  "fetched_at": "2026-11-13T09:18:07.838838+00:00",
+  "fetched_at": "2026-11-13T10:42:31.757619+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Indian Shares End Lower As Oil Prices, Yields Rebound",
+      "description": "Indian shares ended Friday's session notably lower as Brent crude prices spiked above $96 a barrel and global bond yields jumped amid expectations that U.S. interest rates will stay higher for longer.",
+      "date": "2026-11-13T09:25:31.749929+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-end-lower-as-oil-prices-yields-rebound/56487"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "XAU",
+      "title": "Gold Heads For Steep Weekly Loss Amid Fed Rate Hike Bets",
+      "description": "Gold prices traded higher on Friday in a likely technical rebound after falling for three straight sessions to the lowest level in more than a year.",
+      "date": "2026-11-13T08:58:31.750537+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/gold-heads-for-steep-weekly-loss-amid-fed-rate-hike-bets/56486"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Oil Prices Hold Steady As Traders Weigh Middle East Supply Risks",
+      "description": "Oil prices held steady on Friday after rising in the previous session as traders weighed continued disruptions to Middle Eastern oil supplies.",
+      "date": "2026-11-13T08:40:31.751013+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/oil-prices-hold-steady-as-traders-weigh-middle-east-supply-risks/56485"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "European Shares Edge Lower On Fed Rate Hike Concerns",
+      "description": "European shares dipped from record highs on Friday amid uncertainty over the outlook for the AI trade and growing expectations for a Federal Reserve rate hike in December.",
+      "date": "2026-11-13T08:17:31.751518+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-shares-edge-lower-on-fed-rate-hike-concerns/56484"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -108,54 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indonesia-stock-market-may-head-south-again-on-friday/56466"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Lower Open Called For Hong Kong Stock Market",
-      "description": "The Hong Kong stock market has tracked lower in back-to-back sessions, sliding almost 550 points or 2.3 percent in that span. The Hang Seng now sits just above the 24,000-point plateau and it's looking at a soft start again on Friday.",
-      "date": "2026-11-13T00:19:07.605025+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/lower-open-called-for-hong-kong-stock-market/56465"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "China Stock Market Poised To Open To The Downside",
-      "description": "The China stock market on Thursday wrote a finish to the three-day winning streak in which it had added almost 30 points or 0.8 percent. The Shanghai Composite Index now sits just above the 3,655-point plateau and it's tipped to see continued consolidation on Friday.",
-      "date": "2026-11-13T00:04:04.828019+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/china-stock-market-poised-to-open-to-the-downside/56464"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australian Market Significantly Lower",
-      "description": "The Australian stock market is trading significantly lower on Friday, extending the slight losses in the previous session, following the broadly negative cues from Wall Street overnight. The benchmark S&P/ASX 200 is falling well below the 9,100 level, with weakness in mining, financial and technology stocks partially offset by gains in energy stocks.",
-      "date": "2026-11-12T23:53:06.885914+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-market-significantly-lower/56463"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Taiwan Stock Market May Extend Thursday's Losses",
-      "description": "The Taiwan stock market on Thursday halted the three-day winning streak in which it had rallied almost 3,550 points or 8.6 percent. The Taiwan Stock Exchange now sits just beneath the 43,100-point plateau and it's tipped to open in the red again on Friday.",
-      "date": "2026-11-12T23:34:06.886745+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/taiwan-stock-market-may-extend-thursdays-losses/56462"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-13T09:18:31.682803+00:00",
+  "fetched_at": "2026-11-13T10:42:41.989804+00:00",
   "periods": {
     "week": [
       {
@@ -1117,7 +1117,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.0%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Flash GDP q/q",
@@ -1129,7 +1130,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.4%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Trade Balance",
@@ -1137,11 +1139,12 @@
         "date": "2026-11-13T05:00:00-05:00",
         "impact": "Low",
         "forecast": "-4.5B",
-        "previous": "-6.8B",
+        "previous": "-7.8B",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-8.7B",
+        "actual_src": "forexfactory"
       },
       {
         "title": "M2 Money Supply y/y",
@@ -1153,9 +1156,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "time_label": "Tentative",
         "actual": "7.1%",
-        "actual_src": "myfxbook"
+        "actual_src": "fxstreet"
       },
       {
         "title": "New Loans",
@@ -1167,8 +1169,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "time_label": "Tentative",
-        "actual": ""
+        "actual": "-100B",
+        "actual_src": "fxstreet"
       },
       {
         "title": "Manufacturing Sales m/m",
