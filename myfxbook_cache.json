@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-13T18:33:06.467428+00:00",
+  "fetched_at": "2026-11-13T18:48:06.908588+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "CHF",
+      "title": "Swiss Market Ends On Weak Note",
+      "description": "The Switzerland stock market ended modestly lower on Friday after languishing in negative territory throughout the trading session, as traders seemed reluctant to build up fresh positions amid a lack of positive news.",
+      "date": "2026-11-13T17:35:06.899879+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/swiss-market-ends-on-weak-note/56505"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/gold-heads-for-steep-weekly-loss-amid-fed-rate-hike-bets/56486"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Oil Prices Hold Steady As Traders Weigh Middle East Supply Risks",
-      "description": "Oil prices held steady on Friday after rising in the previous session as traders weighed continued disruptions to Middle Eastern oil supplies.",
-      "date": "2026-11-13T08:40:31.751013+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/oil-prices-hold-steady-as-traders-weigh-middle-east-supply-risks/56485"
     }
   ]
 }
