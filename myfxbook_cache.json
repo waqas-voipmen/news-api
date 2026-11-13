@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-11-13T00:18:06.547059+00:00",
+  "fetched_at": "2026-11-13T01:03:06.909606+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australian Market Significantly Lower",
+      "description": "The Australian stock market is trading significantly lower on Friday, extending the slight losses in the previous session, following the broadly negative cues from Wall Street overnight. The benchmark S&P/ASX 200 is falling well below the 9,100 level, with weakness in mining, financial and technology stocks partially offset by gains in energy stocks.",
+      "date": "2026-11-12T23:53:06.885914+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australian-market-significantly-lower/56463"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Taiwan Stock Market May Extend Thursday's Losses",
+      "description": "The Taiwan stock market on Thursday halted the three-day winning streak in which it had rallied almost 3,550 points or 8.6 percent. The Taiwan Stock Exchange now sits just beneath the 43,100-point plateau and it's tipped to open in the red again on Friday.",
+      "date": "2026-11-12T23:34:06.886745+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/taiwan-stock-market-may-extend-thursdays-losses/56462"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/canadian-market-remains-weak-despite-coming-off-early-lows/56451"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Existing Home Sales Plunge To Sixteen-Year Low In October",
-      "description": "Partly reflecting the impact of high mortgage rates, the National Association of Realtors released a report on Thursday showing a steep drop in existing home sales in the U.S. in the month of October. NAR said existing home sales plunged by 5.5 percent to an annual rate of 3.75 million in October after jumping by 1 percent to a revised rate of 3.97 million in September.",
-      "date": "2026-11-12T14:27:05.903535+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-existing-home-sales-plunge-to-sixteen-year-low-in-october/56448"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Weekly Jobless Claims Rebound More Than Expected To 200,000",
-      "description": "A report released by the Labor Department on Thursday showed first-time claims for U.S. unemployment benefits rebounded by more than expected in the week ended November 7th. The Labor Department said initial jobless claims climbed to 200,000, an increase of 9,000 from the previous week's revised level of 191,000.",
-      "date": "2026-11-12T13:51:04.678420+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-weekly-jobless-claims-rebound-more-than-expected-to-200000/56447"
     }
   ]
 }
