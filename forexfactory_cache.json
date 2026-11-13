@@ -1246,7 +1246,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-0.1%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "FOMC Member Logan Speaks",
@@ -1346,5 +1347,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-13T14:30:39.693883+00:00"
 }
