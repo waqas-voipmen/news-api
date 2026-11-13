@@ -1091,7 +1091,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.4%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Italian Trade Balance",
@@ -1337,5 +1338,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-13T07:45:17.536224+00:00"
 }
