@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-13T00:03:09.098164+00:00",
+  "fetched_at": "2026-11-13T00:18:06.547059+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Singapore Stock Market May Take Further Damage On Friday",
+      "description": "The Singapore stock market on Thursday snapped the two-day winning streak in which it had improved more than 110 points or 2.1 percent. The Straits Times Index now sits just above the 5,280-point plateau and the losses may accelerate on Friday.",
+      "date": "2026-11-12T23:04:06.530487+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/singapore-stock-market-may-take-further-damage-on-friday/56461"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/us-weekly-jobless-claims-rebound-more-than-expected-to-200000/56447"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Bay Street Headed For Weak Start",
-      "description": "Lower U.S. and Canadian futures and weak precious metals prices indicate a lower opening for stocks on Bay Street Thursday morning. Oil prices have rebounded, paring early losses.\n\nNasdaq futures are down sharply, with Nvidia shares plunging more than 7% in premarket trading.",
-      "date": "2026-11-12T12:48:05.306421+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/bay-street-headed-for-weak-start/56446"
     }
   ]
 }
