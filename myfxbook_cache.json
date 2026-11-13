@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-13T12:18:04.607619+00:00",
+  "fetched_at": "2026-11-13T12:33:04.581248+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "NZD",
+      "title": "NZ Dollar Drops Against Most Majors",
+      "description": "The New Zealand dollar weakened against most major currencies in the European session on Friday.",
+      "date": "2026-11-13T11:23:04.576798+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/nz-dollar-drops-against-most-majors/56494"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/asian-markets-trade-mixed/56470"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "Indian Shares Seen Lower On Inflation Concerns",
-      "description": "Indian shares are seen opening lower on Friday as U.S. President Donald Trump's latest comments on Iran reignited geopolitical supply and inflation concerns.",
-      "date": "2026-11-13T01:45:05.493540+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-seen-lower-on-inflation-concerns/56469"
     }
   ]
 }
