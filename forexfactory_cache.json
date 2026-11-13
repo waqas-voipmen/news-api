@@ -1283,7 +1283,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "61B",
+        "actual_src": "forexfactory"
       },
       {
         "title": "FOMC Member Bowman Speaks",
@@ -1346,5 +1347,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-13T15:30:23.015972+00:00"
 }
