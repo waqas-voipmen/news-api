@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-13T11:18:04.052885+00:00",
+  "fetched_at": "2026-11-13T11:33:04.693013+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "French Stocks Turning In Mixed Performance In Cautious Trade",
+      "description": "French stocks turned in a mixed performance Friday morning with investors largely making cautious moves, amid uncertainty over the outlook for the AI trade, and possibility of a rate hike by the Federal Reserve in December.",
+      "date": "2026-11-13T10:26:04.688757+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/french-stocks-turning-in-mixed-performance-in-cautious-trade/56490"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/losses-may-accelerate-for-thai-stock-market/56468"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Japanese Market Sharply Higher",
-      "description": "The Japanese market is trading sharply higher on Friday, reversing the losses in the previous session, despite the broadly negative cues from Wall Street overnight. The Nikkei 225 is moving above the 61,650 level, with gains across most sectors led by financial and technology stocks.",
-      "date": "2026-11-13T00:43:05.124321+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/japanese-market-sharply-higher/56467"
     }
   ]
 }
