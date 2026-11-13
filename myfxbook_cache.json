@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-13T13:33:06.843224+00:00",
+  "fetched_at": "2026-11-13T13:48:04.342264+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Producer Prices Rise Slightly Less Than Expected In October",
+      "description": "A report released by the Labor Department on Friday showed producer prices in the U.S. increased by slightly less than expected in the month of October.",
+      "date": "2026-11-13T12:37:04.337554+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-producer-prices-rise-slightly-less-than-expected-in-october/56499"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/asian-shares-slide-on-inflation-concerns-mounting-fed-tightening-bets/56482"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "European Shares Seen Opening Lower As Rate Concerns Return",
-      "description": "European stocks may open on a sluggish note on Friday as U.S. President Donald Trump's latest comments on Iran reignited geopolitical supply and inflation concerns.",
-      "date": "2026-11-13T04:43:04.561305+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-shares-seen-opening-lower-as-rate-concerns-return/56474"
     }
   ]
 }
