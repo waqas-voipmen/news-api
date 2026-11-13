@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-13T18:03:05.060368+00:00",
+  "fetched_at": "2026-11-13T18:18:05.380479+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "European Stocks End On Mixed Note After Cautious Session",
+      "description": "European stocks turned in a mixed performance on Friday as investors made cautious moves amid uncertainty over the outlook for the AI trade and possibility of a rate hike by the Federal Reserve in December. Optimism about corporate earnings aided sentiment a bit.",
+      "date": "2026-11-13T17:04:05.377104+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-stocks-end-on-mixed-note-after-cautious-session/56504"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/oil-prices-hold-steady-as-traders-weigh-middle-east-supply-risks/56485"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "European Shares Edge Lower On Fed Rate Hike Concerns",
-      "description": "European shares dipped from record highs on Friday amid uncertainty over the outlook for the AI trade and growing expectations for a Federal Reserve rate hike in December.",
-      "date": "2026-11-13T08:17:31.751518+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-shares-edge-lower-on-fed-rate-hike-concerns/56484"
     }
   ]
 }
