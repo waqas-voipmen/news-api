@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-13T21:48:34.372514+00:00",
+  "fetched_at": "2026-11-13T22:03:10.029073+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Dollar Advances Amid Middle East Tensions, Tech Sector Slide",
+      "description": "The U.S. Dollar value moved higher on Friday after the U.S. and Iran adopted a tougher stance against any agreement and trounced expectations for a deal to end their conflict and reopen the Strait of Hormuz. In addition, the slide in the IT stocks due to Nvidia crisis weighed on the equity markets.",
+      "date": "2026-11-13T21:01:10.001321+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-dollar-advances-amid-middle-east-tensions-tech-sector-slide/56507"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/german-stocks-weighed-by-ai-uncertainty-rate-hike-fears/56489"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Indian Shares End Lower As Oil Prices, Yields Rebound",
-      "description": "Indian shares ended Friday's session notably lower as Brent crude prices spiked above $96 a barrel and global bond yields jumped amid expectations that U.S. interest rates will stay higher for longer.",
-      "date": "2026-11-13T09:25:31.749929+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-end-lower-as-oil-prices-yields-rebound/56487"
     }
   ]
 }
