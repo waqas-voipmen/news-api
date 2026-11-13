@@ -1078,7 +1078,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.9%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "French Final CPI m/m",
@@ -1336,5 +1337,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-13T07:30:32.971191+00:00"
 }
