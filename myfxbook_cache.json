@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-13T11:33:04.693013+00:00",
+  "fetched_at": "2026-11-13T11:48:05.731650+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australian Dollar Falls Against Majors",
+      "description": "The Australian dollar weakened against other major currencies in the European session on Friday.",
+      "date": "2026-11-13T10:36:05.728283+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australian-dollar-falls-against-majors/56492"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indian-shares-seen-lower-on-inflation-concerns/56469"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Losses May Accelerate For Thai Stock Market",
-      "description": "The Thai stock market on Thursday snapped the three-day winning streak in which it had jumped more than 35 points or 2.5 percent. The Stock Exchange of Thailand now sits just beneath the 1,500-point plateau and it's expected to open lower again on Friday.",
-      "date": "2026-11-13T01:04:05.493865+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/losses-may-accelerate-for-thai-stock-market/56468"
     }
   ]
 }
