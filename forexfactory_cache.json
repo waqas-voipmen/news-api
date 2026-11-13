@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-13T08:48:24.634359+00:00",
+  "fetched_at": "2026-11-13T09:04:09.180578+00:00",
   "periods": {
     "week": [
       {
@@ -1100,11 +1100,12 @@
         "date": "2026-11-13T04:00:00-05:00",
         "impact": "Low",
         "forecast": "2.84B",
-        "previous": "1.77B",
+        "previous": "1.82B",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "2.08B",
+        "actual_src": "fxstreet"
       },
       {
         "title": "Flash Employment Change q/q",
@@ -1153,7 +1154,8 @@
         "type": "calendar",
         "link": null,
         "time_label": "Tentative",
-        "actual": ""
+        "actual": "7.1%",
+        "actual_src": "myfxbook"
       },
       {
         "title": "New Loans",
