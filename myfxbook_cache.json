@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-13T05:33:04.967470+00:00",
+  "fetched_at": "2026-11-13T05:48:04.569840+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "European Shares Seen Opening Lower As Rate Concerns Return",
+      "description": "European stocks may open on a sluggish note on Friday as U.S. President Donald Trump's latest comments on Iran reignited geopolitical supply and inflation concerns.",
+      "date": "2026-11-13T04:43:04.561305+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-shares-seen-opening-lower-as-rate-concerns-return/56474"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/singapore-stock-market-may-take-further-damage-on-friday/56461"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Losing Streak May Continue For Malaysia Stock Market",
-      "description": "The Malaysia stock market has finished lower in four straight sessions, slipping more than 50 points or 3.1 percent in that span. The Kuala Lumpur Composite Index now sits just above the 1,585-point plateau and it's likely to open under water again on Friday.",
-      "date": "2026-11-12T22:34:06.429425+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/losing-streak-may-continue-for-malaysia-stock-market/56460"
     }
   ]
 }
