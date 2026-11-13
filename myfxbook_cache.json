@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-13T13:03:05.168016+00:00",
+  "fetched_at": "2026-11-13T13:18:04.941796+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Antipodean Currencies Fall Amid Risk-0ff Mood",
+      "description": "The antipodean currencies such as the Australia and the New Zealand dollars weakened against other major currencies in the European session on Friday, as European shares dipped from record high amid uncertainty over the outlook for the AI trade and growing expectations for a Federal Reserve rate hike in December.",
+      "date": "2026-11-13T12:13:04.937849+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/antipodean-currencies-fall-amid-risk-0ff-mood/56496"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indian-shares-modestly-lower-in-early-trade/56473"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australian Market Extends Early Losses In Mid-market",
-      "description": "The Australian stock market is extending its early losses in mid-market moves on Friday, adding to the slight losses in the previous session, following the broadly negative cues from Wall Street overnight. The benchmark S&P/ASX 200 is falling below the 9,100 level, with weakness in mining, financial and technology stocks partially offset by gains in energy stocks.",
-      "date": "2026-11-13T02:28:04.816704+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-market-extends-early-losses-in-mid-market/56471"
     }
   ]
 }
