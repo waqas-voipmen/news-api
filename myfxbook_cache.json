@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-13T11:03:38.908301+00:00",
+  "fetched_at": "2026-11-13T11:18:04.052885+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "German Stocks Weighed By AI Uncertainty, Rate Hike Fears",
+      "description": "German stocks declined Friday amid uncertainty over AI trade outlook and expectations for a December Fed rate hike. The DAX gained just 0.02%. Oil prices swung between gains and losses as Middle Eastern supply disruptions weighed on traders.",
+      "date": "2026-11-13T10:04:04.048554+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/german-stocks-weighed-by-ai-uncertainty-rate-hike-fears/56489"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/japanese-market-sharply-higher/56467"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Indonesia Stock Market May Head South Again On Friday",
-      "description": "The Indonesia stock market bounced higher again on Thursday, one day after ending the five-day winning streak in which it had spiked almost 220 points or 4.5 percent. The Jakarta Composite Index now sits just above the 5,250-point plateau although it may those gains right back on Friday.",
-      "date": "2026-11-13T00:34:05.124650+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indonesia-stock-market-may-head-south-again-on-friday/56466"
     }
   ]
 }
