@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-13T14:18:04.405026+00:00",
+  "fetched_at": "2026-11-13T14:48:04.366658+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Producer Prices Rise 0.3% In October, Slightly Less Than Expected",
+      "description": "A report released by the Labor Department on Friday showed producer prices in the U.S. increased by slightly less than expected in the month of October. The Labor Department said its producer price index for final demand rose by 0.3 percent in October after surging by an upwardly revised 1.4 percent in September. Economists had expected producer prices to climb by 0.4 percent.",
+      "date": "2026-11-13T13:33:04.363260+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-producer-prices-rise-03-in-october-slightly-less-than-expected/56501"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/european-shares-edge-lower-on-fed-rate-hike-concerns/56484"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Asian Shares Slide On Inflation Concerns, Mounting Fed Tightening Bets",
-      "description": "Asian stocks gave up early gains to end mostly lower on Friday, with concerns about Nvidia's leadership turmoil and increased expectations for tighter Federal Reserve policy keeping investors on edge.",
-      "date": "2026-11-13T07:42:07.986212+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/asian-shares-slide-on-inflation-concerns-mounting-fed-tightening-bets/56482"
     }
   ]
 }
