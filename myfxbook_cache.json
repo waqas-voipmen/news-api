@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-16T17:03:10.891708+00:00",
+  "fetched_at": "2026-11-16T17:18:14.656311+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "TSX Slides 0.61% On Energy Losses Despite Easing Inflation",
+      "description": "The S&P/TSX Composite Index declined 219.70 points to 25,886.20 amid weakness in energy and materials sectors. October inflation data showed the headline rate steady at 3.1%, while core inflation eased to 2%, easing concerns about aggressive rate increases.",
+      "date": "2026-11-16T16:13:14.480214+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/tsx-slides-061-on-energy-losses-despite-easing-inflation/56559"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/gold-edges-lower-on-rate-hike-concerns/56540"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Oil Prices Edge Lower On Oversupply Concerns",
-      "description": "Oil prices were moving lower on Monday as investors weighed renewed hostilities in the Middle East against signs of strong regional oil supplies.",
-      "date": "2026-11-16T08:49:04.380704+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/oil-prices-edge-lower-on-oversupply-concerns/56538"
     }
   ]
 }
