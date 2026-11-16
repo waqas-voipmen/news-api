@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-16T22:48:08.459770+00:00",
+  "fetched_at": "2026-11-16T23:18:07.353918+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Lingering Tech Weakness May Weigh On KOSPI",
+      "description": "The South Korea stock market has finished lower in three straight sessions, slumping almost 275 points or 5.2 percent along the way. The KOSPI now sits just above the 5,100-point plateau and it may remain stuck in neutral on Tuesday.",
+      "date": "2026-11-16T22:04:07.338701+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/lingering-tech-weakness-may-weigh-on-kospi/56565"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/ftse-100-advances-04/56547"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "CAC 40 Up Marginally In Lackluster Trade",
-      "description": "France's equity benchmark CAC 40 moved in a tight band on Monday as investors looked for directional clues and largely refrained from making big moves.\n\nWeak oil prices aided sentiment a bit.",
-      "date": "2026-11-16T10:10:42.863864+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/cac-40-up-marginally-in-lackluster-trade/56545"
     }
   ]
 }
