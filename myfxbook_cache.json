@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-16T09:03:04.912753+00:00",
+  "fetched_at": "2026-11-16T09:18:05.925938+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "European Shares Hold Steady Near Record Highs In Cautious Trade",
+      "description": "European stocks were flat to slightly higher on Monday after reaching record highs in the previous session on the back of strong corporate earnings and a rotation out of large-cap technology stocks.",
+      "date": "2026-11-16T08:14:05.919961+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-shares-hold-steady-near-record-highs-in-cautious-trade/56536"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/hong-kong-stock-market-due-for-support/56518"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australian Markets Modestly Lower",
-      "description": "The Australian stock market is modestly lower on Monday, extending the losses in the previous two sessions, following the mixed cues from Wall Street on Friday. The benchmark S&P/ASX 200 index is falling well below the 9,100.00 level, with weakness in mining stocks partially offset by gains in technology, energy and financial stocks.",
-      "date": "2026-11-16T00:08:10.021543+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-markets-modestly-lower/56517"
     }
   ]
 }
