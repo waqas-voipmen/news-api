@@ -154,7 +154,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.2%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "FOMC Member Barr Speaks",
@@ -1457,5 +1458,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-16T10:00:28.853657+00:00"
 }
