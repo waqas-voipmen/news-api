@@ -318,7 +318,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-0.4%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "RBA Gov Bullock Speaks",
@@ -1500,5 +1501,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-16T21:45:48.874277+00:00"
 }
