@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-16T20:33:14.562936+00:00",
+  "fetched_at": "2026-11-16T20:48:12.369768+00:00",
   "periods": {
     "week": [
       {
@@ -325,6 +325,30 @@
         "country": "AUD",
         "date": "2026-11-16T17:50:00-05:00",
         "impact": "High",
+        "forecast": "",
+        "previous": "",
+        "source": "ForexFactory",
+        "type": "calendar",
+        "link": null,
+        "actual": ""
+      },
+      {
+        "title": "FOMC Member Barkin Speaks",
+        "country": "USD",
+        "date": "2026-11-16T18:10:00-05:00",
+        "impact": "Low",
+        "forecast": "",
+        "previous": "",
+        "source": "ForexFactory",
+        "type": "calendar",
+        "link": null,
+        "actual": ""
+      },
+      {
+        "title": "FOMC Member Goolsbee Speaks",
+        "country": "USD",
+        "date": "2026-11-16T18:30:00-05:00",
+        "impact": "Low",
         "forecast": "",
         "previous": "",
         "source": "ForexFactory",
@@ -1166,6 +1190,18 @@
         "title": "FOMC Member Hammack Speaks",
         "country": "USD",
         "date": "2026-11-19T08:50:00-05:00",
+        "impact": "Low",
+        "forecast": "",
+        "previous": "",
+        "source": "ForexFactory",
+        "type": "calendar",
+        "link": null,
+        "actual": ""
+      },
+      {
+        "title": "FOMC Member Jefferson Speaks",
+        "country": "USD",
+        "date": "2026-11-19T09:25:00-05:00",
         "impact": "Low",
         "forecast": "",
         "previous": "",
