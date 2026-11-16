@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-16T09:48:04.703252+00:00",
+  "fetched_at": "2026-11-16T10:03:04.386981+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Oil Prices Edge Lower On Oversupply Concerns",
+      "description": "Oil prices were moving lower on Monday as investors weighed renewed hostilities in the Middle East against signs of strong regional oil supplies.",
+      "date": "2026-11-16T08:49:04.380704+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/oil-prices-edge-lower-on-oversupply-concerns/56538"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/rally-may-stall-for-indonesia-stock-market/56519"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Hong Kong Stock Market Due For Support",
-      "description": "The Hong Kong stock market has tracked lower in three straight sessions, sliding almost 925 points or 3.9 percent in that span. The Hang Seng now sits just above the 23,630-point plateau although it may find traction on Monday.",
-      "date": "2026-11-16T00:19:10.016060+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/hong-kong-stock-market-due-for-support/56518"
     }
   ]
 }
