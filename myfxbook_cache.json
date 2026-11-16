@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-16T08:33:04.988918+00:00",
+  "fetched_at": "2026-11-16T08:48:04.713088+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Asian Shares Mixed Before Warsh's Speech, Nvidia Earnings",
+      "description": "Asian stocks turned in a mixed performance on Monday as concerns over AI stock valuations and inflation persisted, and traders looked ahead to Nvidia results and Anthropic's expected listing for additional clues about the future of the AI trade.",
+      "date": "2026-11-16T07:40:04.708096+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/asian-shares-mixed-before-warshs-speech-nvidia-earnings/56535"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/australian-markets-modestly-lower/56517"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "China Stock Market Stock Market Waiting On Data",
-      "description": "The China stock market has finished lower in consecutive trading days, retreating more than 45 points or 1.2 percent in that span. The Shanghai Composite Index now sits just above the 3,630-point plateau and it's looking at a steady start on Monday.",
-      "date": "2026-11-16T00:04:10.027978+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/china-stock-market-stock-market-waiting-on-data/56516"
     }
   ]
 }
