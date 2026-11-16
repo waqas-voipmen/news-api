@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-16T03:48:04.329777+00:00",
+  "fetched_at": "2026-11-16T04:03:03.969270+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "China Industrial Output Rises 4.8% On Year",
+      "description": "Industrial production in China was up 4.8 percent on year in October, the National Bureau of Statistics said on Monday.",
+      "date": "2026-11-16T02:51:03.965524+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/china-industrial-output-rises-48-on-year/56525"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/japan-q3-gdp-flat-on-quarter/56513"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Steady Start Seen For Malaysia Stock Market",
-      "description": "The Malaysia stock market has finished lower in five straight sessions, slipping more than 55 points or 3.3 percent in that span. The Kuala Lumpur Composite Index now sits just above the 1,580-point plateau and it's likely to remain in that neighborhood again on Monday.",
-      "date": "2026-11-15T22:34:10.032934+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/steady-start-seen-for-malaysia-stock-market/56512"
     }
   ]
 }
