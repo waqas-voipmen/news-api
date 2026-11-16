@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-16T18:18:06.772007+00:00",
+  "fetched_at": "2026-11-16T18:33:04.647616+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "CHF",
+      "title": "SMI Rises 0.57% As Richemont Earnings Boost Market Sentiment",
+      "description": "Switzerland's SMI benchmark index rose 86.46 points to 15,192.58 on Monday, driven by Richemont's 2.7% climb following first-half earnings of EUR2.528 billion, up from EUR1.813 billion last year. Revenue increased 15.7% to EUR12.282 billion.",
+      "date": "2026-11-16T17:31:04.642219+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/smi-rises-057-as-richemont-earnings-boost-market-sentiment/56561"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indian-shares-end-notably-higher-as-oil-prices-hold-steady/56542"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "China's Economic Activity Weakens",
-      "description": "China's industrial production and retail sales growth slowed more than expected in October and the downturn in fixed asset investment deepened further but the economy is widely expected to be on track to achieve its growth target this year, driven by strong exports. Data from the National Bureau of Statistics showed that industrial production grew 4.8 percent from the last year, which was slower",
-      "date": "2026-11-16T09:18:42.867269+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/chinas-economic-activity-weakens/56541"
     }
   ]
 }
