@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-16T21:48:07.843119+00:00",
+  "fetched_at": "2026-11-16T22:03:09.235935+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "U.S. Dollar Inches Higher As Fed Rate Hike Expectations Continue To Increase",
+      "description": "The U.S. Dollar value moved higher on Monday as investors priced in rate hikes by the U.S. Federal Reserve while a sharp decline in crude oil prices due to surplus production forecasts limited the gains.",
+      "date": "2026-11-16T21:01:09.217179+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-dollar-inches-higher-as-fed-rate-hike-expectations-continue-to-increase/56562"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/dax-modestly-lower-in-cautious-trade/56543"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Indian Shares End Notably Higher As Oil Prices Hold Steady",
-      "description": "Indian shares rose notably on Monday as steadier oil prices helped investors shrugged off hawkish Fed remarks and expectations for further Federal Reserve rate hikes in the coming months.",
-      "date": "2026-11-16T09:31:42.866136+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-end-notably-higher-as-oil-prices-hold-steady/56542"
     }
   ]
 }
