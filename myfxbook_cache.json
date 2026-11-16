@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-16T23:18:07.353918+00:00",
+  "fetched_at": "2026-11-16T23:33:05.048148+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Japan Stock Market May See Continued Consolidation",
+      "description": "The Japan stock market has finished lower in two of three trading days since the end of the three-day winning streak in which it had jumped almost 3,800 points or 5 percent. The Nikkei 225 now sits just above the 59,660-point plateau and it's likely to extend those losses on Tuesday.",
+      "date": "2026-11-16T22:19:05.041019+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/japan-stock-market-may-see-continued-consolidation/56566"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/eurozone-industrial-production-recovers/56548"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "FTSE 100 Advances 0.4%",
-      "description": "U.K. stocks gained modest ground in positive territory on Monday, with investors tracking corporate news and weighing the hawkish comments from Bank of England policymakers, while looking ahead to the crucial inflation data due later in the week.",
-      "date": "2026-11-16T11:06:42.862429+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/ftse-100-advances-04/56547"
     }
   ]
 }
