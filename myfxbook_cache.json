@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-16T18:03:05.420380+00:00",
+  "fetched_at": "2026-11-16T18:18:06.772007+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "European Stocks Close Weak After Cautious Session",
+      "description": "European stocks closed on weak note on Monday after a cautious session, as investors looked ahead to Nvidia's earnings announcement on Tuesday amid uncertainty surrounding the mega company's outlook following the resignation of its CEO Jensen Huang last week.",
+      "date": "2026-11-16T17:11:06.765909+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-stocks-close-weak-after-cautious-session/56560"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/chinas-economic-activity-weakens/56541"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "XAU",
-      "title": "Gold Edges Lower On Rate-hike Concerns",
-      "description": "Gold prices fell notably on Monday amid expectations for further Federal Reserve rate hikes in the coming months.",
-      "date": "2026-11-16T09:10:05.525953+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/gold-edges-lower-on-rate-hike-concerns/56540"
     }
   ]
 }
