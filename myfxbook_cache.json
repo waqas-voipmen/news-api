@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-16T02:03:10.860542+00:00",
+  "fetched_at": "2026-11-16T02:18:06.717207+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Thai Stock Market Has Flat Lead For Monday's Trade",
+      "description": "The Thai stock market bounced higher again on Friday, one day after ending the three-day winning streak in which it had jumped more than 35 points or 2.5 percent. The Stock Exchange of Thailand now sits just above the 1,500-point plateau and it's expected to remain in that neighborhood again on Monday.",
+      "date": "2026-11-16T01:04:06.680732+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/thai-stock-market-has-flat-lead-for-mondays-trade/56521"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/china-data-due-on-monday/56509"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "NZD",
-      "title": "New Zealand Service Sector Picks Up Steam - BusinessNZ",
-      "description": "The services sector in New Zealand continued to expand in October, and at a faster rate, the latest survey from BusinessNZ revealed on Monday with a Performance of Services Index score of 51.7.",
-      "date": "2026-11-15T21:05:10.037803+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/new-zealand-service-sector-picks-up-steam---businessnz/56508"
     }
   ]
 }
