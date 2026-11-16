@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-16T07:18:03.916227+00:00",
+  "fetched_at": "2026-11-16T07:33:04.359031+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Thai GDP Growth Accelerates",
+      "description": "Thailand's economic growth accelerated in the third quarter on strong investment and exports, official data revealed on Monday. Gross domestic product posted an annual expansion of 2.9 percent in the third quarter, the National Economic and Social Development Council, or NESDC said.",
+      "date": "2026-11-16T06:27:04.354746+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/thai-gdp-growth-accelerates/56532"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/china-stock-market-stock-market-waiting-on-data/56516"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Tech Shares Likely To Pull Taiwan Stock Market Into The Red",
-      "description": "The Taiwan stock market rebounded on Friday, one day after ending the three-day winning streak in which it had rallied almost 3,550 points or 8.6 percent. The Taiwan Stock Exchange now sits just above the 43,675-point plateau although it may head south again on Monday.",
-      "date": "2026-11-15T23:34:10.029175+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/tech-shares-likely-to-pull-taiwan-stock-market-into-the-red/56515"
     }
   ]
 }
