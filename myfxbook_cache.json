@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-16T03:03:06.822412+00:00",
+  "fetched_at": "2026-11-16T03:18:04.904579+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Asian Markets Trade Mostly Lower",
+      "description": "Asian stock markets are trading mostly lower on Monday, following the mixed cues from Wall Street on Friday, on weakness in semiconductor and technology stocks in Taiwan, South Korea and Japan which mirrored their peers on tech-heavy Nasdaq.  Uncertainty and prolonged stalemate in the Middle East conflict is also weighing on market sentiment and raising global inflationary concerns.",
+      "date": "2026-11-16T02:07:04.899743+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/asian-markets-trade-mostly-lower/56523"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/japan-stock-market-may-hand-back-fridays-gains/56511"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "KOSPI May Spin Its Wheels On Monday",
-      "description": "The South Korea stock market has finished lower in two straight sessions, slumping almost 85 points or 1.6 percent along the way. The KOSPI now sits just above the 5,290-point plateau and it may remain stuck in neutral on Monday.",
-      "date": "2026-11-15T22:04:10.035338+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/kospi-may-spin-its-wheels-on-monday/56510"
     }
   ]
 }
