@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-16T10:03:04.386981+00:00",
+  "fetched_at": "2026-11-16T10:18:05.529462+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "XAU",
+      "title": "Gold Edges Lower On Rate-hike Concerns",
+      "description": "Gold prices fell notably on Monday amid expectations for further Federal Reserve rate hikes in the coming months.",
+      "date": "2026-11-16T09:10:05.525953+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/gold-edges-lower-on-rate-hike-concerns/56540"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/japanese-market-significantly-lower/56520"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Rally May Stall For Indonesia Stock Market",
-      "description": "The Indonesia stock market has moved higher in two straight sessions, rallying almost 230 points or 4.5 percent along the way. The Jakarta Composite Index now sits just beneath the 5,350-point plateau although it may open in the red on Monday.",
-      "date": "2026-11-16T00:34:10.002954+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/rally-may-stall-for-indonesia-stock-market/56519"
     }
   ]
 }
