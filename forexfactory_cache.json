@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-15T20:48:10.843956+00:00",
+  "fetched_at": "2026-11-16T01:48:19.315500+00:00",
   "periods": {
     "week": [
       {
@@ -12,7 +12,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "51.7",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Prelim GDP Price Index y/y",
@@ -24,7 +25,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "2.4%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Prelim GDP q/q",
@@ -36,7 +38,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.0%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Rightmove HPI m/m",
@@ -48,7 +51,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-1.8%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "New Home Prices m/m",
@@ -60,7 +64,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-0.15%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Fixed Asset Investment ytd/y",
@@ -260,6 +265,18 @@
         "country": "USD",
         "date": "2026-11-16T12:00:00-05:00",
         "impact": "High",
+        "forecast": "",
+        "previous": "",
+        "source": "ForexFactory",
+        "type": "calendar",
+        "link": null,
+        "actual": ""
+      },
+      {
+        "title": "FOMC Member Hammack Speaks",
+        "country": "USD",
+        "date": "2026-11-16T14:15:00-05:00",
+        "impact": "Low",
         "forecast": "",
         "previous": "",
         "source": "ForexFactory",
@@ -753,7 +770,7 @@
         "title": "BOE Gov Bailey Speaks",
         "country": "GBP",
         "date": "2026-11-18T02:30:00-05:00",
-        "impact": "High",
+        "impact": "Medium",
         "forecast": "",
         "previous": "",
         "source": "ForexFactory",
@@ -1354,7 +1371,7 @@
         "title": "FOMC Member Waller Speaks",
         "country": "USD",
         "date": "2026-11-20T08:25:00-05:00",
-        "impact": "Medium",
+        "impact": "Low",
         "forecast": "",
         "previous": "",
         "source": "ForexFactory",
