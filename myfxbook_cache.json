@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-16T05:33:04.812839+00:00",
+  "fetched_at": "2026-11-16T05:48:09.901164+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "European Shares Seen Flat To Higher At Open",
+      "description": "European stocks are seen opening flat to slightly higher on Monday as oil prices extended declines from last week, helping ease concerns over inflation and potential interest-rate hikes.",
+      "date": "2026-11-16T04:42:09.895531+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-shares-seen-flat-to-higher-at-open/56530"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/tech-shares-likely-to-pull-taiwan-stock-market-into-the-red/56515"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Little Movement Expected For Singapore Stock Market",
-      "description": "The Singapore stock market has moved in two straight sessions, retreating more than 55 points or 1.1 percent along the way. The Straits Times Index now sits just above the 5,230-point plateau and it may spin its wheels again on Monday.",
-      "date": "2026-11-15T23:04:10.030679+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/little-movement-expected-for-singapore-stock-market/56514"
     }
   ]
 }
