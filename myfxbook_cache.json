@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-16T02:33:11.308801+00:00",
+  "fetched_at": "2026-11-16T02:48:08.445743+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Indian Shares Seen Higher At Open",
+      "description": "Indian shares are seen opening a tad higher on Monday as oil prices extended declines from last week, helping ease concerns over inflation and India's import bill.",
+      "date": "2026-11-16T01:37:08.424954+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-seen-higher-at-open/56522"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/kospi-may-spin-its-wheels-on-monday/56510"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "China Data Due On Monday",
-      "description": "China is scheduled to release a raft of data on Monday, highlighting a modest day for Asia-Pacific economic activity. On tap are October numbers for industrial production, retail sales, fixed asset investment, house prices and unemployment.",
-      "date": "2026-11-15T21:34:10.036841+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/china-data-due-on-monday/56509"
     }
   ]
 }
