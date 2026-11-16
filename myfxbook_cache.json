@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-16T15:03:05.704421+00:00",
+  "fetched_at": "2026-11-16T15:28:12.071602+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "New York Manufacturing Index Pulls Back Sharply But Still Indicates Growth",
+      "description": "A report released by the Federal Reserve Bank of New York on Monday showed a substantial pullback by its reading on regional manufacturing activity in the month of November. The New York Fed said its general business conditions index plunged to 7.8 in November after surging to 25.5 in October.",
+      "date": "2026-11-16T14:21:12.053908+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/new-york-manufacturing-index-pulls-back-sharply-but-still-indicates-growth/56558"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/oil-prices-edge-lower-on-oversupply-concerns/56538"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "European Shares Hold Steady Near Record Highs In Cautious Trade",
-      "description": "European stocks were flat to slightly higher on Monday after reaching record highs in the previous session on the back of strong corporate earnings and a rotation out of large-cap technology stocks.",
-      "date": "2026-11-16T08:14:05.919961+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-shares-hold-steady-near-record-highs-in-cautious-trade/56536"
     }
   ]
 }
