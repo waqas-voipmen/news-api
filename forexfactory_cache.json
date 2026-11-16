@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-16T15:33:20.552577+00:00",
+  "fetched_at": "2026-11-16T15:48:21.116041+00:00",
   "periods": {
     "week": [
       {
@@ -262,14 +262,15 @@
       {
         "title": "Cleveland Fed Inflation Expectations",
         "country": "USD",
-        "date": "2026-11-16T09:48:00-05:00",
+        "date": "2026-11-16T09:45:00-05:00",
         "impact": "Low",
         "forecast": "",
         "previous": "3.3%",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "3.5%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Fed Chairman Warsh Speaks",
