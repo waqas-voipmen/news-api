@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-16T23:33:05.048148+00:00",
+  "fetched_at": "2026-11-16T23:48:06.079652+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Malaysia Stock Market May Turn Lower Again On Tuesday.",
+      "description": "The Malaysia stock market on Monday halted the five-day losing streak in which it had dropped more than 55 points or 3.3 percent. The Kuala Lumpur Composite Index now sits just beneath the 1,590-point plateau although it may hand those gains back on Tuesday.",
+      "date": "2026-11-16T22:34:06.070353+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/malaysia-stock-market-may-turn-lower-again-on-tuesday/56567"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/dollar-surges-on-increased-fed-rate-hike-bets/56550"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "EUR",
-      "title": "Eurozone Industrial Production Recovers",
-      "description": "Eurozone industrial production grew for the first time in four months in September, data from Eurostat showed Monday. Industrial output rose 0.2 percent on a monthly basis in September, in contrast to the 0.5 percent decrease seen in August. This was the first increase in four months. The growth was driven by the rebound in durable consumer goods and intermediate goods production.",
-      "date": "2026-11-16T11:08:42.860816+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/eurozone-industrial-production-recovers/56548"
     }
   ]
 }
