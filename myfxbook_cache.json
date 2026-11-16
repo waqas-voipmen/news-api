@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-16T03:33:05.027254+00:00",
+  "fetched_at": "2026-11-16T03:48:04.329777+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australian Market Maintains Early Losses In Mid-market",
+      "description": "The Australian stock market is maintaining its early losses in mid-market trading on Monday, extending the losses in the previous two sessions, following the mixed cues from Wall Street on Friday. The benchmark S&P/ASX 200 index is falling well below the 9,100.00 level, with weakness in mining stocks partially offset by gains in technology, energy and financial stocks.",
+      "date": "2026-11-16T02:33:04.324950+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australian-market-maintains-early-losses-in-mid-market/56524"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/steady-start-seen-for-malaysia-stock-market/56512"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Japan Stock Market May Hand Back Friday's Gains",
-      "description": "The Japan stock market bounced higher again on Friday, one day after ending the three-day winning streak in which it had jumped almost 3,800 points or 5 percent. The Nikkei 225 now sits just above the 61,140-point plateau although it may fade on Monday.",
-      "date": "2026-11-15T22:19:10.034139+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/japan-stock-market-may-hand-back-fridays-gains/56511"
     }
   ]
 }
