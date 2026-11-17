@@ -1,10 +1,22 @@
 {
-  "fetched_at": "2026-11-17T13:03:07.698496+00:00",
+  "fetched_at": "2026-11-17T13:18:04.878671+00:00",
   "events": [
     {
       "source": "Myfxbook",
       "type": "news",
-      "country": "WTI",
+      "country": "CAD",
+      "title": "Mixed Open Likely On Bay Street",
+      "description": "Canadian stocks are seen opening on a mixed note Tuesday morning. Tech stocks will be in focus ahead of Nvidia's earnings announcement later in the day. Buying is likely in energy and materials sectors thanks to advancing oil and precious metals prices.",
+      "date": "2026-11-17T12:11:04.870589+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/mixed-open-likely-on-bay-street/56613"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "EUR",
       "title": "German Economic Confidence Improves: ZEW",
       "description": "German economic confidence improved in October driven by declining oil prices and increased government expenditure, survey data from the Mannheim-based Centre for European Economic Research, or ZEW, showed Tuesday. The ZEW indicator of economic sentiment rose more-than-expected to 35.6 in October from 28.1 in the previous month. The score was seen at 28.8.",
       "date": "2026-11-17T11:14:06.114667+00:00",
@@ -64,7 +76,7 @@
     {
       "source": "Myfxbook",
       "type": "news",
-      "country": "USD",
+      "country": "EUR",
       "title": "German Stocks Decline On U.S. Chip Restrictions",
       "description": "German stocks declined Tuesday as the U.S. pursues tighter restrictions on China's advanced AI chip access. The DAX fell 0.9% to 26,390.85, with Deutsche Bank dropping 5.6%. Germany's economic sentiment improved, with the ZEW indicator reaching 35.6 in November.",
       "date": "2026-11-17T10:05:04.624755+00:00",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/commodity-currencies-slide-amid-risk-off-mood/56595"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "European Shares Extend Losses As US Tightens AI Chip Export Restrictions",
-      "description": "European stocks edged lower on Tuesday following reports that the United States is preparing to tighten restrictions on China's access to advanced artificial intelligence chips.",
-      "date": "2026-11-17T08:26:05.730660+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-shares-extend-losses-as-us-tightens-ai-chip-export-restrictions/56594"
     }
   ]
 }
