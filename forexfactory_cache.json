@@ -391,7 +391,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "2.36%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Tertiary Industry Activity m/m",
@@ -1525,5 +1526,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-17T02:01:13.632038+00:00"
 }
