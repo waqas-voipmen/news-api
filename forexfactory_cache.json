@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-17T13:18:13.298846+00:00",
+  "fetched_at": "2026-11-17T13:33:32.180751+00:00",
   "periods": {
     "week": [
       {
@@ -507,7 +507,7 @@
         "type": "calendar",
         "link": null,
         "actual": "245K",
-        "actual_src": "fxstreet"
+        "actual_src": "forexfactory"
       },
       {
         "title": "ADP Weekly Employment Change",
@@ -541,7 +541,7 @@
         "date": "2026-11-17T08:30:00-05:00",
         "impact": "High",
         "forecast": "0.4%",
-        "previous": "0.9%",
+        "previous": "1.1%",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
@@ -1538,6 +1538,5 @@
         "actual": ""
       }
     ]
-  },
-  "actuals_at": "2026-11-17T13:30:32.501354+00:00"
+  }
 }
