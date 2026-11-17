@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-17T14:33:03.794412+00:00",
+  "fetched_at": "2026-11-17T14:48:21.422030+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Import Prices Jump 1.1% In October, More Than Expected",
+      "description": "The Labor Department released a report on Tuesday showing an extended surge in U.S. import prices in the month of October. The report said import prices shot up by 1.1 percent in October, matching the jump seen in September. Economists had expected import prices to increase by 0.7 percent.",
+      "date": "2026-11-17T13:42:21.416243+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-import-prices-jump-11-in-october-more-than-expected/56619"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/uk-jobless-rate-falls-job-vacancies-plunge/56601"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Yen Rises Against Majors",
-      "description": "The Japanese yen strengthened against other major currencies in the European session on Tuesday.",
-      "date": "2026-11-17T09:46:04.531004+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/yen-rises-against-majors/56600"
     }
   ]
 }
