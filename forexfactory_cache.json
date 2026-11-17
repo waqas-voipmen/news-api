@@ -518,7 +518,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "23.8K",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Foreign Securities Purchases",
@@ -1532,5 +1533,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-17T13:15:50.205830+00:00"
 }
