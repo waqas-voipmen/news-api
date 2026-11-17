@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-17T21:48:16.986048+00:00",
+  "fetched_at": "2026-11-17T22:03:15.846978+00:00",
   "periods": {
     "week": [
       {
@@ -685,7 +685,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "5.3",
+        "actual_src": "fxstreet"
       },
       {
         "title": "PPI Input q/q",
