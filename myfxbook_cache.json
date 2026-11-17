@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-11-17T01:18:06.725402+00:00",
+  "fetched_at": "2026-11-17T01:33:09.073335+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Hong Kong Stock Market May Hand Back Monday's Gains",
+      "description": "The Hong Kong stock market on Monday halted the three-day losing streak in which it had stumbled almost 925 points or 3.9 percent. The Hang Seng now sits just above the 23,750-point plateau although it may head south again on Tuesday.",
+      "date": "2026-11-17T00:19:09.056515+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/hong-kong-stock-market-may-hand-back-mondays-gains/56572"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australian Markets Sharply Lower",
+      "description": "The Australian stock market is sharply lower on Tuesday, extending the losses in the previous three sessions, following the broadly negative cues from Wall Street overnight. The benchmark S&P/ASX 200 index is falling well below the 8,950 level, with weakness across most sectors led by mining and financial stocks.",
+      "date": "2026-11-17T00:16:09.058130+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australian-markets-sharply-lower/56571"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/tsx-slides-061-on-energy-losses-despite-easing-inflation/56559"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "New York Manufacturing Index Pulls Back Sharply But Still Indicates Growth",
-      "description": "A report released by the Federal Reserve Bank of New York on Monday showed a substantial pullback by its reading on regional manufacturing activity in the month of November. The New York Fed said its general business conditions index plunged to 7.8 in November after surging to 25.5 in October.",
-      "date": "2026-11-16T14:21:12.053908+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/new-york-manufacturing-index-pulls-back-sharply-but-still-indicates-growth/56558"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Tyson Foods Posts Q4 Loss Despite Volume Growth; Warns On Weak Sales In FY27; Lifts Dividend",
-      "description": "Meat processor Tyson Foods, Inc. reported Monday a loss in its fourth quarter, compared to prior year's profit, while operating income plunged from last year, despite higher sales and volume. Looking ahead for fiscal 2027, the company projects weak sales mainly due to lower Beef volumes. The company also announced higher dividend.",
-      "date": "2026-11-16T12:51:42.853257+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/tyson-foods-posts-q4-loss-despite-volume-growth-warns-on-weak-sales-in-fy27-lifts-dividend/56553"
     }
   ]
 }
