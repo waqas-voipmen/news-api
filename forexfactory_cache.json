@@ -647,7 +647,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.5%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "NAHB Housing Market Index",
@@ -659,7 +660,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "25",
+        "actual_src": "forexfactory"
       },
       {
         "title": "FOMC Member Williams Speaks",
@@ -1540,5 +1542,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-17T15:00:14.797814+00:00"
 }
