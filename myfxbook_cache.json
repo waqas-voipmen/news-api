@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-11-17T10:33:04.663515+00:00",
+  "fetched_at": "2026-11-17T10:48:04.534656+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Yen Rises Against Majors",
+      "description": "The Japanese yen strengthened against other major currencies in the European session on Tuesday.",
+      "date": "2026-11-17T09:46:04.531004+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/yen-rises-against-majors/56600"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "Indian Shares End Higher; IT Stocks Slip As Rupee Rises Further",
+      "description": "Indian shares closed Tuesday's session higher despite weak cues from global markets and the headwinds of a stronger dollar and higher bond yields in international markets.",
+      "date": "2026-11-17T09:40:04.531759+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-end-higher-it-stocks-slip-as-rupee-rises-further/56598"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/australian-market-extends-early-losses-in-mid-market/56578"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Asian Markets Track Wall Street Lower",
-      "description": "Asian markets are mostly lower on Tuesday, following the broadly negative cues from Wall Street overnight, as traders remained concerned over AI stock valuations and persistent global inflation risk. Traders looked ahead to Nvidia's results and Anthropic's expected listing for additional clues about the future of the AI trade. Uncertainty in the Middle East is also weighing on market sentiment.",
-      "date": "2026-11-17T02:03:05.732662+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/asian-markets-track-wall-street-lower/56577"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Indian Shares Seen Opening Higher Despite Weak Global Cues",
-      "description": "Indian shares look set to open higher on Tuesday, with underlying sentiment likely to be underpinned by falling oil prices, an ongoing AI sell-off in global markets and continued foreign investor inflows.",
-      "date": "2026-11-17T01:38:05.732966+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-seen-opening-higher-despite-weak-global-cues/56576"
     }
   ]
 }
