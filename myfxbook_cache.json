@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-17T22:33:22.539421+00:00",
+  "fetched_at": "2026-11-17T22:48:13.613510+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Indonesia Rate Decision On Tap For Wednesday",
+      "description": "The central bank in Indonesia will wrap up its monetary policy meeting on Wednesday and then announce its decision on interest rates, highlighting a modest day for Asia-Pacific economic activity.",
+      "date": "2026-11-17T21:31:13.595771+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indonesia-rate-decision-on-tap-for-wednesday/56629"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/mixed-open-likely-on-bay-street/56613"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "EUR",
-      "title": "German Economic Confidence Improves: ZEW",
-      "description": "German economic confidence improved in October driven by declining oil prices and increased government expenditure, survey data from the Mannheim-based Centre for European Economic Research, or ZEW, showed Tuesday. The ZEW indicator of economic sentiment rose more-than-expected to 35.6 in October from 28.1 in the previous month. The score was seen at 28.8.",
-      "date": "2026-11-17T11:14:06.114667+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/german-economic-confidence-improves-zew/56610"
     }
   ]
 }
