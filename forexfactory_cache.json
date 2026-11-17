@@ -468,7 +468,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "26.5",
+        "actual_src": "forexfactory"
       },
       {
         "title": "German ZEW Economic Sentiment",
@@ -480,7 +481,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "35.6",
+        "actual_src": "forexfactory"
       },
       {
         "title": "FOMC Member Musalem Speaks",
@@ -1530,5 +1532,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-17T10:01:01.012233+00:00"
 }
