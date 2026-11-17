@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-17T00:33:33.698522+00:00",
+  "fetched_at": "2026-11-17T00:48:27.219008+00:00",
   "periods": {
     "week": [
       {
@@ -350,6 +350,18 @@
         "country": "USD",
         "date": "2026-11-16T18:30:00-05:00",
         "impact": "Low",
+        "forecast": "",
+        "previous": "",
+        "source": "ForexFactory",
+        "type": "calendar",
+        "link": null,
+        "actual": ""
+      },
+      {
+        "title": "RBNZ Gov Breman Speaks",
+        "country": "NZD",
+        "date": "2026-11-16T19:00:00-05:00",
+        "impact": "Medium",
         "forecast": "",
         "previous": "",
         "source": "ForexFactory",

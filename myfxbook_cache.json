@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-17T00:33:14.313729+00:00",
+  "fetched_at": "2026-11-17T00:48:07.627619+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Oversold Taiwan Stock Market Tipped To Open In The Red",
+      "description": "The Taiwan stock market has finished lower in two three trading days since the end of the three-day winning streak in which it had rallied almost 3,550 points or 8.6 percent. The Taiwan Stock Exchange now sits just above the 41,040-point plateau although it may open under pressure again on Tuesday.",
+      "date": "2026-11-16T23:34:07.612030+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/oversold-taiwan-stock-market-tipped-to-open-in-the-red/56569"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/new-york-manufacturing-index-pulls-back-much-more-than-expected-in-november/56552"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "CAD",
-      "title": "Bay Street Likely To Open Weak; Inflation Data In Focus",
-      "description": "Canadian stocks look headed for a weak start on Monday, tracking lower commodity prices. Canada's inflation data is likely to make a significant impact on sentiment. \n\nThe mood is likely to remain cautious with regard to technology stocks ahead of Nvidia's earnings update due on Tuesday, and the Anthropic PBC's listing later this week.",
-      "date": "2026-11-16T12:27:42.857973+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/bay-street-likely-to-open-weak-inflation-data-in-focus/56551"
     }
   ]
 }
