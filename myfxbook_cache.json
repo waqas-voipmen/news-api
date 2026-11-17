@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-17T15:33:08.819871+00:00",
+  "fetched_at": "2026-11-17T15:48:10.311378+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Homebuilder Confidence Extends Slump, Hitting New 14-Year Low In November",
+      "description": "Reflecting high mortgage rates, ongoing inflation pressure, elevated costs, rising labor shortages and hesitant buyers, the National Association of Home Builders released a report on Tuesday showing an extended slump in U.S. homebuilder confidence in the month of November.",
+      "date": "2026-11-17T14:39:10.295294+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-homebuilder-confidence-extends-slump-hitting-new-14-year-low-in-november/56623"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/yen-rises-amid-fx-intervention-risks/56603"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "EUR",
-      "title": "German Stocks Decline On U.S. Chip Restrictions",
-      "description": "German stocks declined Tuesday as the U.S. pursues tighter restrictions on China's advanced AI chip access. The DAX fell 0.9% to 26,390.85, with Deutsche Bank dropping 5.6%. Germany's economic sentiment improved, with the ZEW indicator reaching 35.6 in November.",
-      "date": "2026-11-17T10:05:04.624755+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/german-stocks-decline-on-us-chip-restrictions/56602"
     }
   ]
 }
