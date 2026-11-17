@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-11-17T11:03:04.676244+00:00",
+  "fetched_at": "2026-11-17T11:18:04.627714+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Yen Rises Amid Fx Intervention Risks",
+      "description": "The Japanese yen strengthened against other major currencies in the European session on Tuesday, due to rumors that the Japanese government will intervene to support the country's currency.",
+      "date": "2026-11-17T10:16:04.624447+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/yen-rises-amid-fx-intervention-risks/56603"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "German Stocks Decline On U.S. Chip Restrictions",
+      "description": "German stocks declined Tuesday as the U.S. pursues tighter restrictions on China's advanced AI chip access. The DAX fell 0.9% to 26,390.85, with Deutsche Bank dropping 5.6%. Germany's economic sentiment improved, with the ZEW indicator reaching 35.6 in November.",
+      "date": "2026-11-17T10:05:04.624755+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/german-stocks-decline-on-us-chip-restrictions/56602"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/australian-dollar-falls-against-majors/56587"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "European Shares Seen Lower As Eyes Turn To Nvidia Earnings",
-      "description": "European stocks are seen opening on a sluggish note on Tuesday, following more drops for shares in the artificial intelligence industry on Wall Street overnight.",
-      "date": "2026-11-17T04:42:05.731966+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-shares-seen-lower-as-eyes-turn-to-nvidia-earnings/56582"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Indian Shares Modestly Higher In Early Trade",
-      "description": "Indian shares were modestly higher on Tuesday despite weak cues from global markets.",
-      "date": "2026-11-17T03:22:05.732210+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-modestly-higher-in-early-trade/56580"
     }
   ]
 }
