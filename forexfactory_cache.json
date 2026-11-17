@@ -532,7 +532,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "19.46B",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Core Retail Sales m/m",
@@ -544,7 +545,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.6%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Retail Sales m/m",
@@ -556,7 +558,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.2%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Import Prices m/m",
@@ -568,7 +571,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "1.1%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "FOMC Member Waller Speaks",
@@ -1534,5 +1538,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-17T13:30:32.501354+00:00"
 }
