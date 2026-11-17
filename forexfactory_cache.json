@@ -697,7 +697,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.7%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "PPI Output q/q",
@@ -709,7 +710,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.8%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "MI Leading Index m/m",
@@ -1542,5 +1544,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-17T21:46:07.931115+00:00"
 }
