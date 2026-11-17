@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-17T18:33:06.141260+00:00",
+  "fetched_at": "2026-11-17T18:48:07.402124+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "CHF",
+      "title": "Swiss Market Ends Sharply Lower",
+      "description": "The Switzerland stock market closed notably lower on Tuesday, in line with most of the markets across Europe, as uncertainty about sustainability of AI trade and rising geopolitical tensions rendered the mood bearish.",
+      "date": "2026-11-17T17:45:07.391584+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/swiss-market-ends-sharply-lower/56628"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/german-economic-confidence-improves-zew/56610"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Home Depot Q3 Profit, Comps Up; Cuts FY26 Adj. Margin View; Names New CEO, COO, CFO; Shares Drop",
-      "description": "Home Depot, Inc., the world's largest home improvement retailer, reported Tuesday higher third-quarter profit and comparable sales, but weak adjusted operating margin. Further, the firm revised fiscal 2026 earnings and sales outlook, and trimmed adjusted margin view. Separately, Home Depot announced the appointment of current Chief Financial Officer Richard McPhail as chief executive officer.",
-      "date": "2026-11-17T11:13:06.115614+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/home-depot-q3-profit-comps-up-cuts-fy26-adj-margin-view-names-new-ceo-coo-cfo-shares-drop/56609"
     }
   ]
 }
