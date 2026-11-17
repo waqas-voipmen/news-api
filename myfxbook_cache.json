@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-11-17T01:33:09.073335+00:00",
+  "fetched_at": "2026-11-17T01:48:13.892837+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Japanese Market Notably Lower",
+      "description": "The Japanese stock market is trading notably lower on Tuesday, extending the sharp losses in the previous session, following the broadly negative cues from Wall Street overnight, with the Nikkei 225 falling below the 59,300 level, with weakness in across most sectors led by automakers, exporters and financial stocks.",
+      "date": "2026-11-17T00:38:13.852632+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/japanese-market-notably-lower/56574"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Lower Open Called For Indonesia Stock Market",
+      "description": "The Indonesia stock market on Monday ended the two-day winning streak in which it had rallied almost 230 points or 4.5 percent. The Jakarta Composite Index now sits just beneath the 5,320-point plateau and it's likely to open under water again on Tuesday.",
+      "date": "2026-11-17T00:34:13.869523+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/lower-open-called-for-indonesia-stock-market/56573"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/smi-rises-057-as-richemont-earnings-boost-market-sentiment/56561"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "European Stocks Close Weak After Cautious Session",
-      "description": "European stocks closed on weak note on Monday after a cautious session, as investors looked ahead to Nvidia's earnings announcement on Tuesday amid uncertainty surrounding the mega company's outlook following the resignation of its CEO Jensen Huang last week.",
-      "date": "2026-11-16T17:11:06.765909+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-stocks-close-weak-after-cautious-session/56560"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "TSX Slides 0.61% On Energy Losses Despite Easing Inflation",
-      "description": "The S&P/TSX Composite Index declined 219.70 points to 25,886.20 amid weakness in energy and materials sectors. October inflation data showed the headline rate steady at 3.1%, while core inflation eased to 2%, easing concerns about aggressive rate increases.",
-      "date": "2026-11-16T16:13:14.480214+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/tsx-slides-061-on-energy-losses-despite-easing-inflation/56559"
     }
   ]
 }
