@@ -417,7 +417,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "3.6%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Claimant Count Change",
@@ -429,7 +430,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "33.2K",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Unemployment Rate",
@@ -441,7 +443,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "4.6%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "EU Economic Forecasts",
@@ -1527,5 +1530,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-17T07:00:46.016119+00:00"
 }
