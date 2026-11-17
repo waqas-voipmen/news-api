@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-17T12:03:05.489718+00:00",
+  "fetched_at": "2026-11-17T12:18:07.617870+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "FTSE 100 Drops 0.8% On AI Uncertainty, Mixed Labor Data",
+      "description": "U.K. equities declined Tuesday as investors grew cautious over potential U.S. restrictions on Chinese AI chip access. The FTSE 100 dropped 89.60 points to 10,803.33. Miners and financial stocks led losses while unemployment fell to 4.6% in Q3.",
+      "date": "2026-11-17T11:01:07.613560+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/ftse-100-drops-08-on-ai-uncertainty-mixed-labor-data/56607"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/canadian-dollar-drops-against-most-majors/56589"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "NZD",
-      "title": "NZ Dollar Slides Against Majors",
-      "description": "The New Zealand dollar weakened against other major currencies in the Asian session on Tuesday.",
-      "date": "2026-11-17T06:59:05.731577+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/nz-dollar-slides-against-majors/56588"
     }
   ]
 }
