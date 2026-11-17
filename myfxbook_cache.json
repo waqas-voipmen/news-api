@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-11-17T14:18:05.307581+00:00",
+  "fetched_at": "2026-11-17T14:33:03.794412+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Retail Sales Rise 0.2% In October, In Line With Estimates",
+      "description": "A report released by the Commerce Department on Tuesday showed a modest increase in U.S. retail sales in the month of October. The Commerce Department said retail sales rose by 0.2 in October after climbing by 0.8 percent in September. The uptick in sales matched economist estimates.",
+      "date": "2026-11-17T13:29:03.791033+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-retail-sales-rise-02-in-october-in-line-with-estimates/56618"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Industrial Production Unexpectedly Decreases In October",
+      "description": "Industrial production in the U.S. unexpectedly decreased in the month of October, according to a report released by the Federal Reserve on Tuesday.",
+      "date": "2026-11-17T13:19:03.791328+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-industrial-production-unexpectedly-decreases-in-october/56617"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/yen-rises-against-majors/56600"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "Indian Shares End Higher; IT Stocks Slip As Rupee Rises Further",
-      "description": "Indian shares closed Tuesday's session higher despite weak cues from global markets and the headwinds of a stronger dollar and higher bond yields in international markets.",
-      "date": "2026-11-17T09:40:04.531759+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-end-higher-it-stocks-slip-as-rupee-rises-further/56598"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "XAU",
-      "title": "Gold Holds Near Fourteen-month Low",
-      "description": "Gold prices hovered near a fourteen-month low on Tuesday, weighed down by the headwinds of a stronger dollar, higher Treasury yields and tech-led liquidations.",
-      "date": "2026-11-17T09:10:05.729324+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/gold-holds-near-fourteen-month-low/56597"
     }
   ]
 }
