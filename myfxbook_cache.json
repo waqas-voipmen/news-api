@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-11-17T22:48:13.613510+00:00",
+  "fetched_at": "2026-11-17T23:18:05.249607+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Japan Stock Market May Extend Losing Streak",
+      "description": "The Japan stock market has finished lower in two straight sessions, sinking almost 2,300 points or 3.8 percent in that span. The Nikkei 225 now sits just above the 58,860-point plateau and it's likely to extend those losses on Wednesday.",
+      "date": "2026-11-17T22:16:05.244539+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/japan-stock-market-may-extend-losing-streak/56631"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "KOSPI May See Continued Consolidation",
+      "description": "The South Korea stock market has finished lower in four straight sessions, slumping more than 400 points or 7.8 percent along the way. The KOSPI now sits just beneath the 4,970-point plateau and it may remain stuck in neutral on Wednesday.",
+      "date": "2026-11-17T22:01:05.244815+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/kospi-may-see-continued-consolidation/56630"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/us-import-prices-jump-more-than-expected-in-october/56615"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Retail Sales Increase In Line With Estimates In October",
-      "description": "A report released by the Commerce Department on Tuesday showed a modest increase in U.S. retail sales in the month of October.",
-      "date": "2026-11-17T12:35:38.451226+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-retail-sales-increase-in-line-with-estimates-in-october/56614"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "CAD",
-      "title": "Mixed Open Likely On Bay Street",
-      "description": "Canadian stocks are seen opening on a mixed note Tuesday morning. Tech stocks will be in focus ahead of Nvidia's earnings announcement later in the day. Buying is likely in energy and materials sectors thanks to advancing oil and precious metals prices.",
-      "date": "2026-11-17T12:11:04.870589+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/mixed-open-likely-on-bay-street/56613"
     }
   ]
 }
