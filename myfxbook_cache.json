@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-17T10:48:04.534656+00:00",
+  "fetched_at": "2026-11-17T11:03:04.676244+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "GBP",
+      "title": "UK Jobless Rate Falls; Job Vacancies Plunge",
+      "description": "The UK unemployment rate declined unexpectedly in the third quarter while job vacancies fell notably and wage growth moderated, reflecting mixed inflationary pressures from labor market dynamics. The ILO unemployment rate fell to 4.6 percent from 4.7 percent in the prior period, data from the Office for National Statistics showed on Tuesday. The rate was forecast to remain stable at 4.7 percent.",
+      "date": "2026-11-17T09:58:04.673015+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/uk-jobless-rate-falls-job-vacancies-plunge/56601"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indian-shares-modestly-higher-in-early-trade/56580"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australian Market Extends Early Losses In Mid-market",
-      "description": "The Australian stock market is extending its early losses in mid-market trading on Tuesday, adding to the losses in the previous three sessions, following the broadly negative cues from Wall Street overnight. The benchmark S&P/ASX 200 index is falling below the 8,900 level, with weakness across most sectors led by mining and financial stocks.",
-      "date": "2026-11-17T02:28:05.732447+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-market-extends-early-losses-in-mid-market/56578"
     }
   ]
 }
