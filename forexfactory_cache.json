@@ -400,11 +400,12 @@
         "date": "2026-11-16T23:30:00-05:00",
         "impact": "Low",
         "forecast": "0.1%",
-        "previous": "-0.1%",
+        "previous": "-0.7%",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-0.5%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Average Earnings Index 3m/y",
@@ -1526,5 +1527,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-17T04:31:45.964011+00:00"
 }
