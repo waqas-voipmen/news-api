@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-17T15:03:10.204658+00:00",
+  "fetched_at": "2026-11-17T15:33:08.819871+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Industrial Production Unexpectedly Drops 0.4% In October",
+      "description": "Industrial production in the U.S. unexpectedly decreased in the month of October, according to a report released by the Federal Reserve on Tuesday. The Fed said industrial production fell by 0.4 percent in October after climbing by 0.7 percent in September. Economists had expected industrial production to inch up by 0.1 percent.",
+      "date": "2026-11-17T14:19:08.800602+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-industrial-production-unexpectedly-drops-04-in-october/56621"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/german-stocks-decline-on-us-chip-restrictions/56602"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "GBP",
-      "title": "UK Jobless Rate Falls; Job Vacancies Plunge",
-      "description": "The UK unemployment rate declined unexpectedly in the third quarter while job vacancies fell notably and wage growth moderated, reflecting mixed inflationary pressures from labor market dynamics. The ILO unemployment rate fell to 4.6 percent from 4.7 percent in the prior period, data from the Office for National Statistics showed on Tuesday. The rate was forecast to remain stable at 4.7 percent.",
-      "date": "2026-11-17T09:58:04.673015+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/uk-jobless-rate-falls-job-vacancies-plunge/56601"
     }
   ]
 }
