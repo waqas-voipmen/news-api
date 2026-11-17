@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-11-17T12:18:07.617870+00:00",
+  "fetched_at": "2026-11-17T12:33:06.121560+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "German Economic Confidence Improves: ZEW",
+      "description": "German economic confidence improved in October driven by declining oil prices and increased government expenditure, survey data from the Mannheim-based Centre for European Economic Research, or ZEW, showed Tuesday. The ZEW indicator of economic sentiment rose more-than-expected to 35.6 in October from 28.1 in the previous month. The score was seen at 28.8.",
+      "date": "2026-11-17T11:14:06.114667+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/german-economic-confidence-improves-zew/56610"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Home Depot Q3 Profit, Comps Up; Cuts FY26 Adj. Margin View; Names New CEO, COO, CFO; Shares Drop",
+      "description": "Home Depot, Inc., the world's largest home improvement retailer, reported Tuesday higher third-quarter profit and comparable sales, but weak adjusted operating margin. Further, the firm revised fiscal 2026 earnings and sales outlook, and trimmed adjusted margin view. Separately, Home Depot announced the appointment of current Chief Financial Officer Richard McPhail as chief executive officer.",
+      "date": "2026-11-17T11:13:06.115614+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/home-depot-q3-profit-comps-up-cuts-fy26-adj-margin-view-names-new-ceo-coo-cfo-shares-drop/56609"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/european-shares-extend-losses-as-us-tightens-ai-chip-export-restrictions/56594"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Asian Shares Follow Wall Street Lower Ahead Of Nvidia Earnings",
-      "description": "Asian stocks followed Wall Street lower on Tuesday as investors rotated from AI stocks and sought direction on the Federal Reserve's interest rate path.",
-      "date": "2026-11-17T07:52:05.731045+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/asian-shares-follow-wall-street-lower-ahead-of-nvidia-earnings/56591"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "CAD",
-      "title": "Canadian Dollar Drops Against Most Majors",
-      "description": "The Canadian dollar weakened against most major currencies in the Asian session on Tuesday.",
-      "date": "2026-11-17T07:03:05.731350+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/canadian-dollar-drops-against-most-majors/56589"
     }
   ]
 }
