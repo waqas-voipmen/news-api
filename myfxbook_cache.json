@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-16T23:48:06.079652+00:00",
+  "fetched_at": "2026-11-17T00:31:33.762483+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Losing Streak May Continue For Singapore Stock Market",
+      "description": "The Singapore stock market has moved lower in three straight sessions, retreating more than 100 points or 2 percent along the way. The Straits Times Index now sits just above the 5,180-point plateau and it may spin its wheels again on Tuesday.",
+      "date": "2026-11-16T23:03:33.742610+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/losing-streak-may-continue-for-singapore-stock-market/56568"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/bay-street-likely-to-open-weak-inflation-data-in-focus/56551"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "Dollar Surges On Increased Fed Rate Hike Bets",
-      "description": "The U.S. Dollar surged ahead during the week ended November 13 in the backdrop of market expectations of a larger-than-usual Fed rate hike.  The index touched the highest level since March 2025 amidst hotter-than-expected inflation readings and hawkish comments from Fed officials who signaled willingness to tighten policy more aggressively.",
-      "date": "2026-11-16T12:12:42.859276+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/dollar-surges-on-increased-fed-rate-hike-bets/56550"
     }
   ]
 }
