@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-17T15:48:10.311378+00:00",
+  "fetched_at": "2026-11-17T16:03:10.271871+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Business Inventories Climb 0.5% In September, In Line With Estimates",
+      "description": "The Commerce Department released a report on Tuesday showing business inventories in the U.S. increased in line with economist estimates in the month of September. The report said business inventories climbed by 0.5 percent in September after rising by 0.4 percent in August.",
+      "date": "2026-11-17T14:54:10.260482+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-business-inventories-climb-05-in-september-in-line-with-estimates/56624"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/luxury-stocks-lead-french-market-decline-amid-multiple-headwinds/56604"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Yen Rises Amid Fx Intervention Risks",
-      "description": "The Japanese yen strengthened against other major currencies in the European session on Tuesday, due to rumors that the Japanese government will intervene to support the country's currency.",
-      "date": "2026-11-17T10:16:04.624447+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/yen-rises-amid-fx-intervention-risks/56603"
     }
   ]
 }
