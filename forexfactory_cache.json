@@ -596,7 +596,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "76.4%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Industrial Production m/m",
@@ -608,7 +609,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-0.4%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "FOMC Member Hammack Speaks",
@@ -1538,5 +1540,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-17T14:15:46.658208+00:00"
 }
