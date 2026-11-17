@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-17T01:03:08.145350+00:00",
+  "fetched_at": "2026-11-17T01:18:06.725402+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "China Stock Market May Give Up Support At 3,600 Points",
+      "description": "The China stock market has finished lower in three straight sessions, retreating almost 80 points or 2.2 percent in that span. The Shanghai Composite Index now sits just above the 3,600-point plateau and it may take further damage again on Tuesday.",
+      "date": "2026-11-17T00:04:06.714080+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/china-stock-market-may-give-up-support-at-3600-points/56570"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/tyson-foods-posts-q4-loss-despite-volume-growth-warns-on-weak-sales-in-fy27-lifts-dividend/56553"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "New York Manufacturing Index Pulls Back Much More Than Expected In November",
-      "description": "A report released by the Federal Reserve Bank of New York on Monday showed a substantial pullback by its reading on regional manufacturing activity in the month of November.",
-      "date": "2026-11-16T12:36:42.856499+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/new-york-manufacturing-index-pulls-back-much-more-than-expected-in-november/56552"
     }
   ]
 }
