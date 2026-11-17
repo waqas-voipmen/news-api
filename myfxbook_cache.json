@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-17T11:33:06.825833+00:00",
+  "fetched_at": "2026-11-17T11:48:04.354645+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "Luxury Stocks Lead French Market Decline Amid Multiple Headwinds",
+      "description": "French equities declined Tuesday amid U.S.-China AI chip restrictions, uncertainty over data center sustainability, and concerns about planned strikes in France. The CAC 40 fell 0.76%. Luxury stocks led losses, with Herm\u00e8s down 4.7%.",
+      "date": "2026-11-17T10:32:04.350329+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/luxury-stocks-lead-french-market-decline-amid-multiple-headwinds/56604"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/nz-dollar-slides-against-majors/56588"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australian Dollar Falls Against Majors",
-      "description": "The Australian dollar weakened against other major currencies in the Asian session on Tuesday.",
-      "date": "2026-11-17T06:55:05.731773+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-dollar-falls-against-majors/56587"
     }
   ]
 }
