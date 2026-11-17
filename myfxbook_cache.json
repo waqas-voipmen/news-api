@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-17T18:18:18.441511+00:00",
+  "fetched_at": "2026-11-17T18:33:06.141260+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "European Stocks Fall Amid Nvidia Concerns, Middle East Tensions",
+      "description": "European markets tumbled to multi-week lows Tuesday following reports the U.S. plans tighter restrictions on advanced AI chip exports to China. The Stoxx 600 fell 0.81%, while France's CAC 40 dropped 0.92% amid political concerns and Nvidia earnings anticipation.",
+      "date": "2026-11-17T17:15:06.119549+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-stocks-fall-amid-nvidia-concerns-middle-east-tensions/56627"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/home-depot-q3-profit-comps-up-cuts-fy26-adj-margin-view-names-new-ceo-coo-cfo-shares-drop/56609"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "FTSE 100 Drops 0.8% On AI Uncertainty, Mixed Labor Data",
-      "description": "U.K. equities declined Tuesday as investors grew cautious over potential U.S. restrictions on Chinese AI chip access. The FTSE 100 dropped 89.60 points to 10,803.33. Miners and financial stocks led losses while unemployment fell to 4.6% in Q3.",
-      "date": "2026-11-17T11:01:07.613560+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/ftse-100-drops-08-on-ai-uncertainty-mixed-labor-data/56607"
     }
   ]
 }
