@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-11-17T13:33:07.713427+00:00",
+  "fetched_at": "2026-11-17T13:48:38.467952+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Import Prices Jump More Than Expected In October",
+      "description": "The Labor Department released a report on Tuesday showing an extended surge in U.S. import prices in the month of October.",
+      "date": "2026-11-17T12:38:38.448040+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-import-prices-jump-more-than-expected-in-october/56615"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Retail Sales Increase In Line With Estimates In October",
+      "description": "A report released by the Commerce Department on Tuesday showed a modest increase in U.S. retail sales in the month of October.",
+      "date": "2026-11-17T12:35:38.451226+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-retail-sales-increase-in-line-with-estimates-in-october/56614"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/gold-holds-near-fourteen-month-low/56597"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Oil Prices Little Changed In Lackluster Trade As Oversupply Concerns Weigh",
-      "description": "Oil prices were little changed on Tuesday as signs of recovering oil flows through the Strait of Hormuz added to expectations of stronger global supply and offset concerns about continued attacks on tankers in the region.",
-      "date": "2026-11-17T08:54:05.730057+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/oil-prices-little-changed-in-lackluster-trade-as-oversupply-concerns-weigh/56596"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Commodity Currencies Slide Amid Risk-Off Mood",
-      "description": "The commodity currencies such as the Australia, the New Zealand and the Canadian dollars weakened against their major currencies in the Asian session on Tuesday, as Asian stock markets traded lower as traders remained cautious and concerned over AI stock valuations and persistent global inflation risk. Traders looked ahead to Nvidia's results and Anthropic's expected listing for additional clues about the future of the AI trade. Uncertainty and stalemate in the Middle East are also weighing on market sentiment.",
-      "date": "2026-11-17T08:29:05.730349+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/commodity-currencies-slide-amid-risk-off-mood/56595"
     }
   ]
 }
