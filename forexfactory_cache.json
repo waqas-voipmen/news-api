@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-17T14:03:15.038809+00:00",
+  "fetched_at": "2026-11-17T14:18:14.347924+00:00",
   "periods": {
     "week": [
       {
@@ -592,7 +592,7 @@
         "date": "2026-11-17T09:15:00-05:00",
         "impact": "Low",
         "forecast": "76.8%",
-        "previous": "76.9%",
+        "previous": "76.8%",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
@@ -1540,6 +1540,5 @@
         "actual": ""
       }
     ]
-  },
-  "actuals_at": "2026-11-17T14:15:46.658208+00:00"
+  }
 }
