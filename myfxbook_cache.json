@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-18T02:03:05.846792+00:00",
+  "fetched_at": "2026-11-18T02:18:04.315736+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Thai Stock Market May Take Further Damage On Wednesday",
+      "description": "The Thai stock market has tracked lower in two straight sessions, shedding more than 30 points or 2 percent along the way. The Stock Exchange of Thailand now sits just beneath the 1,475-point plateau and it's expected to open under pressure again on Wednesday.",
+      "date": "2026-11-18T01:01:04.311769+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/thai-stock-market-may-take-further-damage-on-wednesday/56642"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/kospi-may-see-continued-consolidation/56630"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Indonesia Rate Decision On Tap For Wednesday",
-      "description": "The central bank in Indonesia will wrap up its monetary policy meeting on Wednesday and then announce its decision on interest rates, highlighting a modest day for Asia-Pacific economic activity.",
-      "date": "2026-11-17T21:31:13.595771+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indonesia-rate-decision-on-tap-for-wednesday/56629"
     }
   ]
 }
