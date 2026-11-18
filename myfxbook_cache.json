@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-18T02:33:04.794409+00:00",
+  "fetched_at": "2026-11-18T02:48:07.003440+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Indian Shares Seen Lower After Recent Rally",
+      "description": "Indian shares are seen opening slightly lower on Wednesday, a day after the benchmark Nifty hit a nine-month high, driven by strong banking sector performance and gains in crude-sensitive sectors.",
+      "date": "2026-11-18T01:43:06.992362+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-seen-lower-after-recent-rally/56643"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/japan-stock-market-may-extend-losing-streak/56631"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "KOSPI May See Continued Consolidation",
-      "description": "The South Korea stock market has finished lower in four straight sessions, slumping more than 400 points or 7.8 percent along the way. The KOSPI now sits just beneath the 4,970-point plateau and it may remain stuck in neutral on Wednesday.",
-      "date": "2026-11-17T22:01:05.244815+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/kospi-may-see-continued-consolidation/56630"
     }
   ]
 }
