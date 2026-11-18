@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-11-18T09:33:03.533740+00:00",
+  "fetched_at": "2026-11-18T09:48:03.541256+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "GBP",
+      "title": "Pound Slides After U.K. Economic Data",
+      "description": "The British pound weakened against other major currencies in the European session on Wednesday, following the United Kingdom's (UK) mixed inflation-related data releases.",
+      "date": "2026-11-18T08:36:03.536818+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/pound-slides-after-uk-economic-data/56658"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "European Shares Mixed In Cautious Trade",
+      "description": "European stocks were little changed on Wednesday after falling the most in eight months in the previous session on concerns over the artificial intelligence trade.",
+      "date": "2026-11-18T08:36:03.538058+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-shares-mixed-in-cautious-trade/56657"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/australian-market-modestly-lower/56640"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Lower Open Called For Hong Kong Stock Market",
-      "description": "The Hong Kong stock market turned lower again on Tuesday, one day after snapping the three-day losing streak in which it had stumbled almost 925 points or 3.9 percent. The Hang Seng now sits just above the 23,500-point plateau and it's likely to open in the red again on Wednesday.",
-      "date": "2026-11-18T00:16:04.361097+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/lower-open-called-for-hong-kong-stock-market/56639"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Indonesia Stock Market May Open To The Downside",
-      "description": "The Indonesia stock market has finished higher in back-to-back sessions, losing almost 40 points or 0.8 percent along the way. The Jakarta Composite Index now sits just above the 5,300-point plateau and it's likely to open in the red again on Wednesday.",
-      "date": "2026-11-18T00:16:04.361476+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indonesia-stock-market-may-open-to-the-downside/56638"
     }
   ]
 }
