@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-18T01:18:04.365897+00:00",
+  "fetched_at": "2026-11-18T01:33:04.604110+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australian Market Modestly Lower",
+      "description": "Australian shares are trading modestly lower on Wednesday, extending the losses in the previous four sessions, with the benchmark S&P/ASX 200 falling well below the 8,900 level, following the broadly negative cues from Wall Street overnight, with weakness in financial and energy stocks partially offset by gains in mining stocks.",
+      "date": "2026-11-18T00:22:04.599405+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australian-market-modestly-lower/56640"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/swiss-market-ends-sharply-lower/56628"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "European Stocks Fall Amid Nvidia Concerns, Middle East Tensions",
-      "description": "European markets tumbled to multi-week lows Tuesday following reports the U.S. plans tighter restrictions on advanced AI chip exports to China. The Stoxx 600 fell 0.81%, while France's CAC 40 dropped 0.92% amid political concerns and Nvidia earnings anticipation.",
-      "date": "2026-11-17T17:15:06.119549+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-stocks-fall-amid-nvidia-concerns-middle-east-tensions/56627"
     }
   ]
 }
