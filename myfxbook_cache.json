@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-18T08:33:03.299351+00:00",
+  "fetched_at": "2026-11-18T08:48:03.513468+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "Asian Shares Mixed Despite Nvidia Earnings Beat",
+      "description": "Asian stocks ended mixed on Wednesday despite Wall Street facing a fresh wave of selling pressure overnight on concerns over the artificial intelligence trade and expectations of more aggressive monetary tightening by the Federal Reserve.",
+      "date": "2026-11-18T07:41:03.509627+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/asian-shares-mixed-despite-nvidia-earnings-beat/56653"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/losing-streak-may-continue-for-china-stock-market/56637"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australia Wage Price Index Climbs 1.1% In Q3",
-      "description": "Australia's wage price index was up a seasonally adjusted 1.1 percent on quarter in the third quarter of 2026, the Australian Bureau of Statistics said on Wednesday.",
-      "date": "2026-11-17T23:39:08.453436+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australia-wage-price-index-climbs-11-in-q3/56636"
     }
   ]
 }
