@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-18T09:03:03.757623+00:00",
+  "fetched_at": "2026-11-18T09:18:03.604642+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "GBP",
+      "title": "Pound Slides Against Majors",
+      "description": "The British pound weakened against other major currencies in the European session on Wednesday.",
+      "date": "2026-11-18T08:05:03.599803+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/pound-slides-against-majors/56654"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indonesia-stock-market-may-open-to-the-downside/56638"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Losing Streak May Continue For China Stock Market",
-      "description": "The China stock market has finished lower in four straight sessions, retreating almost 100 points or 2.7 percent in that span. The Shanghai Composite Index now sits just above the 3,580-point plateau and it may open to the downside again on Wednesday.",
-      "date": "2026-11-18T00:01:04.361774+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/losing-streak-may-continue-for-china-stock-market/56637"
     }
   ]
 }
