@@ -903,7 +903,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-0.2%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Building Permits",
@@ -1559,5 +1560,5 @@
       }
     ]
   },
-  "actuals_at": "2026-11-18T13:31:07.923439+00:00"
+  "actuals_at": "2026-11-18T13:32:17.360924+00:00"
 }
