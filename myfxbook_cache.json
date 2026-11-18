@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-11-18T00:18:06.994978+00:00",
+  "fetched_at": "2026-11-18T00:48:08.463555+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australia Wage Price Index Climbs 1.1% In Q3",
+      "description": "Australia's wage price index was up a seasonally adjusted 1.1 percent on quarter in the third quarter of 2026, the Australian Bureau of Statistics said on Wednesday.",
+      "date": "2026-11-17T23:39:08.453436+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australia-wage-price-index-climbs-11-in-q3/56636"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Taiwan Stock Market May Give Up Support At 40,000 Points",
+      "description": "The Taiwan stock market has finished lower in two consecutive trading days, tumbling almost 3,600 points or 8.6 percent. The Taiwan Stock Exchange now sits just above the 40,090-point plateau and it may open under pressure again on Wednesday.",
+      "date": "2026-11-17T23:31:08.455588+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/taiwan-stock-market-may-give-up-support-at-40000-points/56635"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/us-homebuilder-confidence-extends-slump-hitting-new-14-year-low-in-november/56623"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Industrial Production Unexpectedly Drops 0.4% In October",
-      "description": "Industrial production in the U.S. unexpectedly decreased in the month of October, according to a report released by the Federal Reserve on Tuesday. The Fed said industrial production fell by 0.4 percent in October after climbing by 0.7 percent in September. Economists had expected industrial production to inch up by 0.1 percent.",
-      "date": "2026-11-17T14:19:08.800602+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-industrial-production-unexpectedly-drops-04-in-october/56621"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Import Prices Jump 1.1% In October, More Than Expected",
-      "description": "The Labor Department released a report on Tuesday showing an extended surge in U.S. import prices in the month of October. The report said import prices shot up by 1.1 percent in October, matching the jump seen in September. Economists had expected import prices to increase by 0.7 percent.",
-      "date": "2026-11-17T13:42:21.416243+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-import-prices-jump-11-in-october-more-than-expected/56619"
     }
   ]
 }
