@@ -1089,7 +1089,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-2772M",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Core Machinery Orders m/m",
@@ -1562,5 +1563,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-18T21:45:32.516274+00:00"
 }
