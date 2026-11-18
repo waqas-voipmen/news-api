@@ -1,6 +1,42 @@
 {
-  "fetched_at": "2026-11-18T10:33:04.948867+00:00",
+  "fetched_at": "2026-11-18T10:48:06.148538+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "EUR",
+      "title": "DAX Up Marginally As Tech Strength Offsets Inflation Concerns",
+      "description": "German stocks posted modest gains Wednesday as tech shares rallied following Nvidia's strong earnings. Eurozone inflation accelerated to 4.0% in October, the highest since September 2023, while Brent crude fell 1.1% amid oversupply concerns.",
+      "date": "2026-11-18T09:42:06.131422+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/dax-up-marginally-as-tech-strength-offsets-inflation-concerns/56668"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "NVIDIA Q3 Results Surge On Data Center Strength; Board Not To Reinstate Huang As CEO; Stock Gains",
+      "description": "Shares of AI chip major NVIDIA Corp. were gaining around 4 percent in the pre-market activity on the Nasdaq following the announcement of the company's significantly higher third-quarter profit and revenues, on strong demand for its data center products amid AI boom. The company also issued fourth-quarter outlook, and said its next-generation Vera Rubin computing platform has begun shipping.",
+      "date": "2026-11-18T09:40:06.132803+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/nvidia-q3-results-surge-on-data-center-strength-board-not-to-reinstate-huang-as-ceo-stock-gains/56667"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Indian Shares End Notably Lower On Profit Taking",
+      "description": "Indian shares fell notably on Wednesday amid profit taking after benchmark indexes Sensex and Nifty closed at a nearly nine-month high in the previous session, driven by falling oil prices and continued foreign fund inflows.",
+      "date": "2026-11-18T09:31:06.134227+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-end-notably-lower-on-profit-taking/56666"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -120,42 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indian-shares-modestly-lower-in-early-trade/56646"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australian Market Extends Early Losses In Mid-market",
-      "description": "The Australian stock market is extending its early losses in mid-market moves on Wednesday, adding to the losses in the previous four sessions, with the benchmark S&P/ASX 200 falling well below the 8,900 level, following the broadly negative cues from Wall Street overnight, with weakness in financial and energy stocks partially offset by gains in mining stocks.",
-      "date": "2026-11-18T02:47:03.804562+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-market-extends-early-losses-in-mid-market/56645"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Asian Markets Track Wall Street Lower",
-      "description": "Asian stock markets are trading mostly lower on Wednesday, following the broadly negative cues from Wall Street overnight, as rising oil prices renewed concerns about global inflation risk and interest rate hikes amid increasing tensions in the Middle East after tanker attacks in the Strait of Hormuz. Asian markets closed mostly lower on Tuesday.",
-      "date": "2026-11-18T02:41:03.171668+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/asian-markets-track-wall-street-lower/56644"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Indian Shares Seen Lower After Recent Rally",
-      "description": "Indian shares are seen opening slightly lower on Wednesday, a day after the benchmark Nifty hit a nine-month high, driven by strong banking sector performance and gains in crude-sensitive sectors.",
-      "date": "2026-11-18T01:43:06.992362+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-seen-lower-after-recent-rally/56643"
     }
   ]
 }
