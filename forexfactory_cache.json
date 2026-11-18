@@ -864,7 +864,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "1.2%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Final Core CPI y/y",
@@ -1553,5 +1554,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-18T09:30:28.906474+00:00"
 }
