@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-18T09:48:03.541256+00:00",
+  "fetched_at": "2026-11-18T10:03:04.299856+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Oil Prices Tumble On Fears Of Supply Glut",
+      "description": "Oil prices fell sharply on Wednesday as traders weighed renewed fighting in West Asia against expectations of falling U.S. crude oil inventories and signs of recovering supplies, driven by recovering Middle East exports.",
+      "date": "2026-11-18T08:54:04.295358+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/oil-prices-tumble-on-fears-of-supply-glut/56661"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/japanese-market-modestly-higher/56641"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australian Market Modestly Lower",
-      "description": "Australian shares are trading modestly lower on Wednesday, extending the losses in the previous four sessions, with the benchmark S&P/ASX 200 falling well below the 8,900 level, following the broadly negative cues from Wall Street overnight, with weakness in financial and energy stocks partially offset by gains in mining stocks.",
-      "date": "2026-11-18T00:22:04.599405+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-market-modestly-lower/56640"
     }
   ]
 }
