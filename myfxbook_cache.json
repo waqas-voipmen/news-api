@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-18T05:33:03.888845+00:00",
+  "fetched_at": "2026-11-18T05:48:03.409708+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "European Shares Set For Softer Open Ahead Of Fed Minutes",
+      "description": "European stocks are seen opening mostly lower on Wednesday as investors await the release of minutes from the Federal Open Market Committee's October meeting later in the day for clues as to whether policymakers are leaning towards another rate increase next month.",
+      "date": "2026-11-18T04:30:03.406058+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-shares-set-for-softer-open-ahead-of-fed-minutes/56647"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -89,18 +101,6 @@
       "source": "Myfxbook",
       "type": "news",
       "country": "General",
-      "title": "Lower Open Called For Hong Kong Stock Market",
-      "description": "The Hong Kong stock market turned lower again on Tuesday, one day after snapping the three-day losing streak in which it had stumbled almost 925 points or 3.9 percent. The Hang Seng now sits just above the 23,500-point plateau and it's likely to open in the red again on Wednesday.",
-      "date": "2026-11-18T00:16:04.361097+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/lower-open-called-for-hong-kong-stock-market/56639"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
       "title": "Indonesia Stock Market May Open To The Downside",
       "description": "The Indonesia stock market has finished higher in back-to-back sessions, losing almost 40 points or 0.8 percent along the way. The Jakarta Composite Index now sits just above the 5,300-point plateau and it's likely to open in the red again on Wednesday.",
       "date": "2026-11-18T00:16:04.361476+00:00",
@@ -108,6 +108,18 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indonesia-stock-market-may-open-to-the-downside/56638"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Lower Open Called For Hong Kong Stock Market",
+      "description": "The Hong Kong stock market turned lower again on Tuesday, one day after snapping the three-day losing streak in which it had stumbled almost 925 points or 3.9 percent. The Hang Seng now sits just above the 23,500-point plateau and it's likely to open in the red again on Wednesday.",
+      "date": "2026-11-18T00:16:04.361097+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/lower-open-called-for-hong-kong-stock-market/56639"
     },
     {
       "source": "Myfxbook",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/taiwan-stock-market-may-give-up-support-at-40000-points/56635"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Japan October Trade Shortfall Y476.5 Billion",
-      "description": "Japan posted a merchandise trade deficit of 476.5 billion yen in October, the Ministry of Finance said on Wednesday.",
-      "date": "2026-11-17T23:06:14.682872+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/japan-october-trade-shortfall-y4765-billion/56634"
     }
   ]
 }
