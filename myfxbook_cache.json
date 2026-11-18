@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-18T03:33:03.494786+00:00",
+  "fetched_at": "2026-11-18T03:48:03.176863+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Asian Markets Track Wall Street Lower",
+      "description": "Asian stock markets are trading mostly lower on Wednesday, following the broadly negative cues from Wall Street overnight, as rising oil prices renewed concerns about global inflation risk and interest rate hikes amid increasing tensions in the Middle East after tanker attacks in the Strait of Hormuz. Asian markets closed mostly lower on Tuesday.",
+      "date": "2026-11-18T02:41:03.171668+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/asian-markets-track-wall-street-lower/56644"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/soft-star-expected-for-malaysia-stock-market/56632"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Japan Stock Market May Extend Losing Streak",
-      "description": "The Japan stock market has finished lower in two straight sessions, sinking almost 2,300 points or 3.8 percent in that span. The Nikkei 225 now sits just above the 58,860-point plateau and it's likely to extend those losses on Wednesday.",
-      "date": "2026-11-17T22:16:05.244539+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/japan-stock-market-may-extend-losing-streak/56631"
     }
   ]
 }
