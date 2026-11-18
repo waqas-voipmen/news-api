@@ -1,6 +1,42 @@
 {
-  "fetched_at": "2026-11-17T23:33:04.702436+00:00",
+  "fetched_at": "2026-11-18T00:14:14.740013+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Japan October Trade Shortfall Y476.5 Billion",
+      "description": "Japan posted a merchandise trade deficit of 476.5 billion yen in October, the Ministry of Finance said on Wednesday.",
+      "date": "2026-11-17T23:06:14.682872+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/japan-october-trade-shortfall-y4765-billion/56634"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Singapore Stock Market May Open Under Pressure On Wednesday",
+      "description": "The Singapore stock market has moved lower in four straight sessions, retreating more than 175 points or 3.4 percent along the way. The Straits Times Index now sits just above the 5,100-point plateau and it may spin its wheels again on Wednesday.",
+      "date": "2026-11-17T23:01:14.683773+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/singapore-stock-market-may-open-under-pressure-on-wednesday/56633"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Soft Star Expected For Malaysia Stock Market",
+      "description": "The Malaysia stock market headed south again on Tuesday, one day after ending the five-day losing streak in which it had dropped more than 55 points or 3.3 percent. The Kuala Lumpur Composite Index now sits just above the 1,575-point plateau and it may take further damage on Wednesday.",
+      "date": "2026-11-17T22:31:14.684804+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/soft-star-expected-for-malaysia-stock-market/56632"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -120,42 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/us-import-prices-jump-11-in-october-more-than-expected/56619"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Retail Sales Rise 0.2% In October, In Line With Estimates",
-      "description": "A report released by the Commerce Department on Tuesday showed a modest increase in U.S. retail sales in the month of October. The Commerce Department said retail sales rose by 0.2 in October after climbing by 0.8 percent in September. The uptick in sales matched economist estimates.",
-      "date": "2026-11-17T13:29:03.791033+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-retail-sales-rise-02-in-october-in-line-with-estimates/56618"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Industrial Production Unexpectedly Decreases In October",
-      "description": "Industrial production in the U.S. unexpectedly decreased in the month of October, according to a report released by the Federal Reserve on Tuesday.",
-      "date": "2026-11-17T13:19:03.791328+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-industrial-production-unexpectedly-decreases-in-october/56617"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Import Prices Jump More Than Expected In October",
-      "description": "The Labor Department released a report on Tuesday showing an extended surge in U.S. import prices in the month of October.",
-      "date": "2026-11-17T12:38:38.448040+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-import-prices-jump-more-than-expected-in-october/56615"
     }
   ]
 }
