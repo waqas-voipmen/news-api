@@ -877,7 +877,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "2.6%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Final CPI y/y",
@@ -889,7 +890,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "4.0%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "NHPI m/m",
@@ -1554,5 +1556,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-18T10:00:29.086953+00:00"
 }
