@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-18T03:48:03.176863+00:00",
+  "fetched_at": "2026-11-18T04:03:03.808180+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australian Market Extends Early Losses In Mid-market",
+      "description": "The Australian stock market is extending its early losses in mid-market moves on Wednesday, adding to the losses in the previous four sessions, with the benchmark S&P/ASX 200 falling well below the 8,900 level, following the broadly negative cues from Wall Street overnight, with weakness in financial and energy stocks partially offset by gains in mining stocks.",
+      "date": "2026-11-18T02:47:03.804562+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australian-market-extends-early-losses-in-mid-market/56645"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/singapore-stock-market-may-open-under-pressure-on-wednesday/56633"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Soft Star Expected For Malaysia Stock Market",
-      "description": "The Malaysia stock market headed south again on Tuesday, one day after ending the five-day losing streak in which it had dropped more than 55 points or 3.3 percent. The Kuala Lumpur Composite Index now sits just above the 1,575-point plateau and it may take further damage on Wednesday.",
-      "date": "2026-11-17T22:31:14.684804+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/soft-star-expected-for-malaysia-stock-market/56632"
     }
   ]
 }
