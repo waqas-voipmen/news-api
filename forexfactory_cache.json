@@ -1102,7 +1102,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-0.3%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Employment Change",
@@ -1563,5 +1564,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-18T23:50:13.824640+00:00"
 }
