@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-18T22:18:04.893403+00:00",
+  "fetched_at": "2026-11-18T22:33:05.037960+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australia Unemployment Data Due On Thursday",
+      "description": "Australia will on Thursday release October figures for unemployment, highlighting a modest day for Asia-Pacific economic activity.",
+      "date": "2026-11-18T21:32:05.034431+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australia-unemployment-data-due-on-thursday/56695"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/ftse-100-drifts-lower-as-weak-oil-prices-hot-inflation-data-weigh/56675"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "EUR",
-      "title": "CAC 40 Flat Despite Tech Strength; Eurozone Inflation Surges",
-      "description": "French stocks showed mixed performance Wednesday amid strong Nvidia earnings and weakening oil prices. The CAC 40 remained largely flat while selected stocks rallied. Eurozone inflation accelerated to 4.0% in October, double the ECB's 2.0% target.",
-      "date": "2026-11-18T10:09:05.390823+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/cac-40-flat-despite-tech-strength-eurozone-inflation-surges/56672"
     }
   ]
 }
