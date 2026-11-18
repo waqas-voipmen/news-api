@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-18T04:33:03.657441+00:00",
+  "fetched_at": "2026-11-18T04:48:03.159622+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "Indian Shares Modestly Lower In Early Trade",
+      "description": "Indian shares opened a tad lower on Wednesday as weak global cues, hawkish Fed remarks and rising tensions in the Middle East prompted traders to lock in profits after recent strong gains.",
+      "date": "2026-11-18T03:34:03.155271+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-modestly-lower-in-early-trade/56646"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/japan-october-trade-shortfall-y4765-billion/56634"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Singapore Stock Market May Open Under Pressure On Wednesday",
-      "description": "The Singapore stock market has moved lower in four straight sessions, retreating more than 175 points or 3.4 percent along the way. The Straits Times Index now sits just above the 5,100-point plateau and it may spin its wheels again on Wednesday.",
-      "date": "2026-11-17T23:01:14.683773+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/singapore-stock-market-may-open-under-pressure-on-wednesday/56633"
     }
   ]
 }
