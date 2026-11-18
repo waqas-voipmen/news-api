@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-18T11:03:04.986985+00:00",
+  "fetched_at": "2026-11-18T11:18:05.399694+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "EUR",
+      "title": "CAC 40 Flat Despite Tech Strength; Eurozone Inflation Surges",
+      "description": "French stocks showed mixed performance Wednesday amid strong Nvidia earnings and weakening oil prices. The CAC 40 remained largely flat while selected stocks rallied. Eurozone inflation accelerated to 4.0% in October, double the ECB's 2.0% target.",
+      "date": "2026-11-18T10:09:05.390823+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/cac-40-flat-despite-tech-strength-eurozone-inflation-surges/56672"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/european-shares-set-for-softer-open-ahead-of-fed-minutes/56647"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "Indian Shares Modestly Lower In Early Trade",
-      "description": "Indian shares opened a tad lower on Wednesday as weak global cues, hawkish Fed remarks and rising tensions in the Middle East prompted traders to lock in profits after recent strong gains.",
-      "date": "2026-11-18T03:34:03.155271+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-modestly-lower-in-early-trade/56646"
     }
   ]
 }
