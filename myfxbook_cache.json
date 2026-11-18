@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-18T11:33:04.190384+00:00",
+  "fetched_at": "2026-11-18T11:48:04.317826+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "FTSE 100 Drifts Lower As Weak Oil Prices, Hot Inflation Data Weigh",
+      "description": "The U.K. stock market's benchmark index FTSE 100 drifted lower Wednesday morning, weighed down by weak commodity prices and data showing an acceleration in consumer price inflation in the month of October.",
+      "date": "2026-11-18T10:42:04.314156+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/ftse-100-drifts-lower-as-weak-oil-prices-hot-inflation-data-weigh/56675"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/malaysia-gdp-growth-beats-estimate/56651"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "European Shares Set For Softer Open Ahead Of Fed Minutes",
-      "description": "European stocks are seen opening mostly lower on Wednesday as investors await the release of minutes from the Federal Open Market Committee's October meeting later in the day for clues as to whether policymakers are leaning towards another rate increase next month.",
-      "date": "2026-11-18T04:30:03.406058+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-shares-set-for-softer-open-ahead-of-fed-minutes/56647"
     }
   ]
 }
