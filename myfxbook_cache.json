@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-18T22:48:04.303331+00:00",
+  "fetched_at": "2026-11-18T23:18:05.735020+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Tech Shares May Boost South Korea Stock Market",
+      "description": "The South Korea stock market on Wednesday halted the four-day losing streak in which it had plunged more than 400 points or 7.8 percent. The KOSPI now sits just beneath the 5,070-point plateau and it may add to its winnings on Thursday.",
+      "date": "2026-11-18T22:01:05.731406+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/tech-shares-may-boost-south-korea-stock-market/56696"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/target-q3-profit-climbs-on-higher-comps-lifts-fy26-outlook-but-stock-drops/56677"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "FTSE 100 Drifts Lower As Weak Oil Prices, Hot Inflation Data Weigh",
-      "description": "The U.K. stock market's benchmark index FTSE 100 drifted lower Wednesday morning, weighed down by weak commodity prices and data showing an acceleration in consumer price inflation in the month of October.",
-      "date": "2026-11-18T10:42:04.314156+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/ftse-100-drifts-lower-as-weak-oil-prices-hot-inflation-data-weigh/56675"
     }
   ]
 }
