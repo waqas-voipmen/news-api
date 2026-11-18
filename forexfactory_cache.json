@@ -915,7 +915,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "1.295M",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Housing Starts",
@@ -927,7 +928,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "1.31M",
+        "actual_src": "forexfactory"
       },
       {
         "title": "ECB President Lagarde Speaks",
@@ -1556,5 +1558,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-18T13:31:07.923439+00:00"
 }
