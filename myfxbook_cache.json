@@ -1,6 +1,42 @@
 {
-  "fetched_at": "2026-11-18T01:03:09.194038+00:00",
+  "fetched_at": "2026-11-18T01:18:04.365897+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Lower Open Called For Hong Kong Stock Market",
+      "description": "The Hong Kong stock market turned lower again on Tuesday, one day after snapping the three-day losing streak in which it had stumbled almost 925 points or 3.9 percent. The Hang Seng now sits just above the 23,500-point plateau and it's likely to open in the red again on Wednesday.",
+      "date": "2026-11-18T00:16:04.361097+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/lower-open-called-for-hong-kong-stock-market/56639"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Indonesia Stock Market May Open To The Downside",
+      "description": "The Indonesia stock market has finished higher in back-to-back sessions, losing almost 40 points or 0.8 percent along the way. The Jakarta Composite Index now sits just above the 5,300-point plateau and it's likely to open in the red again on Wednesday.",
+      "date": "2026-11-18T00:16:04.361476+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indonesia-stock-market-may-open-to-the-downside/56638"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Losing Streak May Continue For China Stock Market",
+      "description": "The China stock market has finished lower in four straight sessions, retreating almost 100 points or 2.7 percent in that span. The Shanghai Composite Index now sits just above the 3,580-point plateau and it may open to the downside again on Wednesday.",
+      "date": "2026-11-18T00:01:04.361774+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/losing-streak-may-continue-for-china-stock-market/56637"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -120,42 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/european-stocks-fall-amid-nvidia-concerns-middle-east-tensions/56627"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "CAD",
-      "title": "Canadian Market Down 0.77% As Tech, Financials Weigh",
-      "description": "Canada's S&P/TSX Composite Index fell 276.72 points to 35,445.41 on Tuesday amid technology sector pressure, inflation concerns, and potential monetary tightening. Tech stocks declined 2.5%, with Blackberry down 7%.",
-      "date": "2026-11-17T16:16:04.074844+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/canadian-market-down-077-as-tech-financials-weigh/56626"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Business Inventories Climb 0.5% In September, In Line With Estimates",
-      "description": "The Commerce Department released a report on Tuesday showing business inventories in the U.S. increased in line with economist estimates in the month of September. The report said business inventories climbed by 0.5 percent in September after rising by 0.4 percent in August.",
-      "date": "2026-11-17T14:54:10.260482+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-business-inventories-climb-05-in-september-in-line-with-estimates/56624"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Homebuilder Confidence Extends Slump, Hitting New 14-Year Low In November",
-      "description": "Reflecting high mortgage rates, ongoing inflation pressure, elevated costs, rising labor shortages and hesitant buyers, the National Association of Home Builders released a report on Tuesday showing an extended slump in U.S. homebuilder confidence in the month of November.",
-      "date": "2026-11-17T14:39:10.295294+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-homebuilder-confidence-extends-slump-hitting-new-14-year-low-in-november/56623"
     }
   ]
 }
