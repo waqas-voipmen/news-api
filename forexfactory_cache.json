@@ -1060,11 +1060,12 @@
         "date": "2026-11-18T16:00:00-05:00",
         "impact": "Low",
         "forecast": "160.7B",
-        "previous": "279.2B",
+        "previous": "285.0B",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "155.3B",
+        "actual_src": "forexfactory"
       },
       {
         "title": "FOMC Member Kashkari Speaks",
@@ -1561,5 +1562,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-18T21:09:26.320875+00:00"
 }
