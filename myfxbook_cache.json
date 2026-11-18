@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-18T01:48:04.751076+00:00",
+  "fetched_at": "2026-11-18T02:03:05.846792+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Japanese Market Modestly Higher",
+      "description": "The Japanese stock market is trading modestly higher on Wednesday, reversing some of the sharp losses in the previous two sessions, despite the broadly negative cues from Wall Street overnight. The Nikkei 225 is moving above the 59,000 level, with gains in index heavyweights and a mixed performance across most other sectors.",
+      "date": "2026-11-18T00:54:05.842338+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/japanese-market-modestly-higher/56641"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indonesia-rate-decision-on-tap-for-wednesday/56629"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "CHF",
-      "title": "Swiss Market Ends Sharply Lower",
-      "description": "The Switzerland stock market closed notably lower on Tuesday, in line with most of the markets across Europe, as uncertainty about sustainability of AI trade and rising geopolitical tensions rendered the mood bearish.",
-      "date": "2026-11-17T17:45:07.391584+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/swiss-market-ends-sharply-lower/56628"
     }
   ]
 }
