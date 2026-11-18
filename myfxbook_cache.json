@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-18T07:18:03.173795+00:00",
+  "fetched_at": "2026-11-18T07:33:03.236121+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Malaysia GDP Growth Beats Estimate",
+      "description": "Malaysia's economy grew faster than anticipated in the third quarter with investment and exports serving as key drivers of expansion, official data revealed Wednesday. Gross domestic product expanded 5.5 percent year-on-year, the Department of Statistics said. The rate surpassed the advance estimate of 5.3 percent but came in weaker than the second quarter's 6.0 percent expansion.",
+      "date": "2026-11-18T06:25:03.232470+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/malaysia-gdp-growth-beats-estimate/56651"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -101,18 +113,6 @@
       "source": "Myfxbook",
       "type": "news",
       "country": "General",
-      "title": "Indonesia Stock Market May Open To The Downside",
-      "description": "The Indonesia stock market has finished higher in back-to-back sessions, losing almost 40 points or 0.8 percent along the way. The Jakarta Composite Index now sits just above the 5,300-point plateau and it's likely to open in the red again on Wednesday.",
-      "date": "2026-11-18T00:16:04.361476+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indonesia-stock-market-may-open-to-the-downside/56638"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
       "title": "Lower Open Called For Hong Kong Stock Market",
       "description": "The Hong Kong stock market turned lower again on Tuesday, one day after snapping the three-day losing streak in which it had stumbled almost 925 points or 3.9 percent. The Hang Seng now sits just above the 23,500-point plateau and it's likely to open in the red again on Wednesday.",
       "date": "2026-11-18T00:16:04.361097+00:00",
@@ -120,6 +120,18 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/lower-open-called-for-hong-kong-stock-market/56639"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Indonesia Stock Market May Open To The Downside",
+      "description": "The Indonesia stock market has finished higher in back-to-back sessions, losing almost 40 points or 0.8 percent along the way. The Jakarta Composite Index now sits just above the 5,300-point plateau and it's likely to open in the red again on Wednesday.",
+      "date": "2026-11-18T00:16:04.361476+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indonesia-stock-market-may-open-to-the-downside/56638"
     },
     {
       "source": "Myfxbook",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/australia-wage-price-index-climbs-11-in-q3/56636"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Taiwan Stock Market May Give Up Support At 40,000 Points",
-      "description": "The Taiwan stock market has finished lower in two consecutive trading days, tumbling almost 3,600 points or 8.6 percent. The Taiwan Stock Exchange now sits just above the 40,090-point plateau and it may open under pressure again on Wednesday.",
-      "date": "2026-11-17T23:31:08.455588+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/taiwan-stock-market-may-give-up-support-at-40000-points/56635"
     }
   ]
 }
