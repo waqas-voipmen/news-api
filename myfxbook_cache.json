@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-11-19T13:33:26.368134+00:00",
+  "fetched_at": "2026-11-19T13:48:06.160804+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "Philly Fed Index Plunges Much More Than Expected In November",
+      "description": "The Federal Reserve Bank of Philadelphia released a report on Thursday showing regional manufacturing was less widespread in the month of November but continued to expand overall.",
+      "date": "2026-11-19T12:39:06.156745+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/philly-fed-index-plunges-much-more-than-expected-in-november/56741"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Weekly Jobless Claims Unexpectedly Inch Higher",
+      "description": "First-time claims for U.S. unemployment benefits unexpectedly edged slightly higher in the week ended November 14th, according to a report released by the Labor Department on Thursday.",
+      "date": "2026-11-19T12:35:06.157025+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-weekly-jobless-claims-unexpectedly-inch-higher/56740"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/european-shares-edge-higher-in-cautious-trade/56723"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "Asian Shares Slide After Fed Minutes",
-      "description": "Asian stocks retreated on Thursday as a sharp repricing of interest rate expectations along with concerns over financial stability risks tied to aggressive artificial intelligence investment offset investor enthusiasm for Anthropic's IPO, which raised a record $81 billion.",
-      "date": "2026-11-19T07:43:10.288106+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/asian-shares-slide-after-fed-minutes/56720"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "European Shares Likely To Open On Firm Note Ahead Of Anthropic Debut",
-      "description": "European stocks may open on a firm note on Thursday after Anthropic's IPO raised $81.31 billion, surpassing SpaceX's reported $75 billion offering and pushing the company's valuation beyond its earlier target of $1.4 trillion.",
-      "date": "2026-11-19T04:35:27.444054+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-shares-likely-to-open-on-firm-note-ahead-of-anthropic-debut/56713"
     }
   ]
 }
