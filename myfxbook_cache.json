@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-19T17:18:04.788292+00:00",
+  "fetched_at": "2026-11-19T17:33:05.545770+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "CAD",
+      "title": "TSX Down Sharply As Materials Stocks Stumble",
+      "description": "After opening slightly higher and edging up a bit subsequently, the Canadian market slipped into negative territory Thursday morning, hurt by losses in stocks from materials, industrials, healthcare and consumer sectors.",
+      "date": "2026-11-19T16:31:05.539157+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/tsx-down-sharply-as-materials-stocks-stumble/56749"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indian-shares-rebound-led-by-auto-and-bank-stocks/56732"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "French Stock Market Climbs On Tech, Finance Gains",
-      "description": "France's CAC 40 index rose 0.26% to 8,167.90 Thursday, rebounding after three consecutive days of losses. Technology stocks led gains following Anthropic's record $81.3 billion IPO. STMicroElectronics surged over 4.5%, while Soitec soared 15% after announcing 40% annual revenue growth targets.",
-      "date": "2026-11-19T09:48:37.386322+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/french-stock-market-climbs-on-tech-finance-gains/56730"
     }
   ]
 }
