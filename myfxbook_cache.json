@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-19T00:33:06.263116+00:00",
+  "fetched_at": "2026-11-19T00:48:07.225348+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australia Jobless Rate Jumps To 4.9% In October",
+      "description": "The unemployment rate in Australia came in at a seasonally adjusted 4.9 percent in October, the Australian Bureau of Statistics said on Thursday.",
+      "date": "2026-11-18T23:35:07.220752+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australia-jobless-rate-jumps-to-49-in-october/56702"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/us-pending-home-sales-extend-nosedive-in-october/56688"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Housing Starts Rebound More Than Expected In October But Building Permits Plunge",
-      "description": "While the Commerce Department released a report on Wednesday showing a substantial rebound in new residential construction in the U.S. in the month of October, the report also showed a steep drop in building permits. The Commerce Department said housing starts soared by 9.9 percent to an annual rate of 1.309 million in October.",
-      "date": "2026-11-18T13:54:13.616293+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-housing-starts-rebound-more-than-expected-in-october-but-building-permits-plunge/56685"
     }
   ]
 }
