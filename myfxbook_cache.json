@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-11-19T03:33:08.722051+00:00",
+  "fetched_at": "2026-11-19T04:03:15.592284+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australian Market Maintains Early Losses In Mid-market",
+      "description": "The Australian market is maintaining its early losses in mid-market moves on Thursday, extending the losses in the previous five sessions, following the mixed cues from Wall Street overnight. The benchmark S&P/ASX 200 is falling to near the 8,750 level, with weakness in mining and energy stocks.",
+      "date": "2026-11-19T02:40:15.588509+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australian-market-maintains-early-losses-in-mid-market/56711"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "Asian Markets Trade Mostly Lower",
+      "description": "Asian markets are trading mostly lower on Thursday, following the mixed cues from Wall Street overnight, with weakness in mining and energy stocks amid tumbling commodity prices. Expectation of more aggressive monetary tightening by the US Fed on interest rates is weighing on market sentiment. Asian markets closed mixed on Wednesday.",
+      "date": "2026-11-19T02:31:15.588786+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/asian-markets-trade-mostly-lower/56710"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/japan-or-machinery-orders-sink-03-in-september/56699"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Little Movement Seen For Malaysia Stock Market",
-      "description": "The Malaysia stock market has tracked lower in two straight sessions, sinking more than 20 points or 1.3 percent along the way. The Kuala Lumpur Composite Index now sits just above the 1,565-point plateau and it figures to remain in that neighborhood again on Thursday.",
-      "date": "2026-11-18T22:32:05.371465+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/little-movement-seen-for-malaysia-stock-market/56698"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Steady Start Seen For Japan Stock Market",
-      "description": "The Japan stock market on Wednesday wrote a finish to the two-day slide in which it had stumbled almost 2,300 points or 3.8 percent. The Nikkei 225 now sits just above the 59,020-point plateau and it may tick higher again on Thursday.",
-      "date": "2026-11-18T22:17:05.371840+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/steady-start-seen-for-japan-stock-market/56697"
     }
   ]
 }
