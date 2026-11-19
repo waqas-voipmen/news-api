@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-19T08:49:24.634982+00:00",
+  "fetched_at": "2026-11-19T09:04:22.507917+00:00",
   "periods": {
     "week": [
       {
@@ -1142,7 +1142,7 @@
         "type": "calendar",
         "link": null,
         "actual": "12.5B",
-        "actual_src": "fxstreet"
+        "actual_src": "forexfactory"
       },
       {
         "title": "German Buba Monthly Report",
@@ -1567,6 +1567,5 @@
         "actual": ""
       }
     ]
-  },
-  "actuals_at": "2026-11-19T09:02:02.976961+00:00"
+  }
 }
