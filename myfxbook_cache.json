@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-19T00:18:05.125409+00:00",
+  "fetched_at": "2026-11-19T00:33:06.263116+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Taiwan Stock Market May Add To Its Winnings",
+      "description": "The Taiwan stock market on Wednesday ended the two-day losing streak in which it had tumbled almost 3,600 points or 8.6 percent. The Taiwan Stock Exchange now sits just beneath the 40,200-point plateau and it may pick up steam on Thursday.",
+      "date": "2026-11-18T23:32:06.259341+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/taiwan-stock-market-may-add-to-its-winnings/56701"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/us-housing-starts-rebound-more-than-expected-in-october-but-building-permits-plunge/56685"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "CAD",
-      "title": "Bay Street Set For Weak Open As Oil, Metals Fall",
-      "description": "Canadian stock market faces downward pressure Wednesday morning amid falling oil and precious metals prices. Nvidia's strong earnings provide some tech sector support. Investors await Federal Reserve meeting minutes.",
-      "date": "2026-11-18T12:49:13.616497+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/bay-street-set-for-weak-open-as-oil-metals-fall/56683"
     }
   ]
 }
