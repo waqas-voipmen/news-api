@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-11-18T23:48:04.500949+00:00",
+  "fetched_at": "2026-11-19T00:03:06.344364+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Singapore Stock Market Due For Support On Thursday",
+      "description": "The Singapore stock market has moved lower in five straight sessions, retreating more than 225 points or 4.5 percent along the way. The Straits Times Index now sits just above the 5,050-point plateau although it may stop the bleeding on Thursday.",
+      "date": "2026-11-18T23:02:06.340862+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/singapore-stock-market-due-for-support-on-thursday/56700"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Japan Or Machinery Orders Sink 0.3% In September",
+      "description": "The value of core machinery orders in Japan was down a seasonally adjusted 0.3 percent on month in September, the Cabinet Office said on Thursday - coming in at 1,066.2 billion yen.",
+      "date": "2026-11-18T23:01:06.341231+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/japan-or-machinery-orders-sink-03-in-september/56699"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/bay-street-set-for-weak-open-as-oil-metals-fall/56683"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Housing Starts Spike Much More Than Expected In October",
-      "description": "While the Commerce Department released a report on Wednesday showing a substantial rebound in new residential construction in the U.S. in the month of October, the report also showed a steep drop in building permits.",
-      "date": "2026-11-18T12:38:13.616759+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-housing-starts-spike-much-more-than-expected-in-october/56681"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "Stock Futures Show Mixed Signals For Wall Street",
-      "description": "Futures point to mixed start for Wall Street Wednesday morning as investors digest Nvidia earnings earnings and geopolitical developments.\n\nNvidia reported third-quarter net income surged 105% to $65.3 billion, with CEO Jensen Huang's resignation accepted by the board. U.S.",
-      "date": "2026-11-18T12:30:13.616960+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/stock-futures-show-mixed-signals-for-wall-street/56679"
     }
   ]
 }
