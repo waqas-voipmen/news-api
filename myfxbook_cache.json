@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-19T08:33:14.765254+00:00",
+  "fetched_at": "2026-11-19T08:48:10.292577+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "Asian Shares Slide After Fed Minutes",
+      "description": "Asian stocks retreated on Thursday as a sharp repricing of interest rate expectations along with concerns over financial stability risks tied to aggressive artificial intelligence investment offset investor enthusiasm for Anthropic's IPO, which raised a record $81 billion.",
+      "date": "2026-11-19T07:43:10.288106+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/asian-shares-slide-after-fed-minutes/56720"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/australia-jobless-rate-jumps-to-49-in-october/56702"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Taiwan Stock Market May Add To Its Winnings",
-      "description": "The Taiwan stock market on Wednesday ended the two-day losing streak in which it had tumbled almost 3,600 points or 8.6 percent. The Taiwan Stock Exchange now sits just beneath the 40,200-point plateau and it may pick up steam on Thursday.",
-      "date": "2026-11-18T23:32:06.259341+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/taiwan-stock-market-may-add-to-its-winnings/56701"
     }
   ]
 }
