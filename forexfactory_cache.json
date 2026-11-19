@@ -1354,7 +1354,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "2.2%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "FOMC Member Paulson Speaks",
@@ -1574,5 +1575,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-19T23:30:30.049822+00:00"
 }
