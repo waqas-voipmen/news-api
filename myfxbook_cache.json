@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-19T18:03:04.245206+00:00",
+  "fetched_at": "2026-11-19T18:33:07.597391+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "European Markets Retreat After Positive Start, End Notably Lower",
+      "description": "European markets pared early gains and settle lower on Thursday as oil prices climbed higher amid escalating tensions between Iran and the U.S. The market opened on a positive note as concerns about Artificial Intelligence trade eased thanks to Anthropic's record IPO offering.",
+      "date": "2026-11-19T17:22:07.579690+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-markets-retreat-after-positive-start-end-notably-lower/56750"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/nz-dollar-rises-amid-risk-on-mood/56734"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Indian Shares Rebound Led By Auto And Bank Stocks",
-      "description": "Indian shares rebounded sharply on Thursday after falling notably in the previous session due to profit taking after recent string of gains.",
-      "date": "2026-11-19T09:54:37.386057+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-rebound-led-by-auto-and-bank-stocks/56732"
     }
   ]
 }
