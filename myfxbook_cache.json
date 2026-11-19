@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-19T21:48:04.289349+00:00",
+  "fetched_at": "2026-11-19T22:03:06.119631+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Dollar Ticks Higher As Fed Rate Hike Expectations Continue To Rise",
+      "description": "The U.S. Dollar value moved up a little on Thursday as investors raised their bets on a rate hike by the U.S. Federal Reserve following the release of hawkish comments by several central bank officials in the last month's meeting. In addition, with fresh concerns over possible U.S. attacks on Iran, oil-linked inflationary pressure returned to markets.",
+      "date": "2026-11-19T21:01:06.114969+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-dollar-ticks-higher-as-fed-rate-hike-expectations-continue-to-rise/56753"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/euro-rises-as-risk-appetite-improves/56738"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "EUR",
-      "title": "Euro Rises Against Majors",
-      "description": "The euro strengthened against other major currencies in the European session on Thursday.",
-      "date": "2026-11-19T10:55:37.385340+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/euro-rises-against-majors/56737"
     }
   ]
 }
