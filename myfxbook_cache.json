@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-11-19T13:48:06.160804+00:00",
+  "fetched_at": "2026-11-19T14:03:08.332074+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "Walmart Q3 Net Profit Drops, Despite Sales Growth; Lifts FY27 Outlook",
+      "description": "Retail giant Walmart Inc. reported Thursday lower profit in its third quarter of fiscal 2027, mainly on the absence of prior year's significant gain on equity, while operating income climbed with growth in U.S. comparable sales and eCommerce performance. Meanwhile, U.S. comparable sales growth was slower than last year. Further, the company lifted fiscal 2027 forecast again.",
+      "date": "2026-11-19T12:49:08.328098+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/walmart-q3-net-profit-drops-despite-sales-growth-lifts-fy27-outlook/56743"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "CAD",
+      "title": "Bay Street Headed For Positive Start",
+      "description": "Higher Canadian and U.S. futures point to a firm start for the Canadian market Thursday morning. Tech stocks are seen moving higher amid renewed optimism about AI trade following Anthropic's record IPO offering.",
+      "date": "2026-11-19T12:45:08.328517+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/bay-street-headed-for-positive-start/56742"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/oil-prices-little-changed-as-traders-weigh-supply-outlook/56725"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "NZ Dollar Rises Against Majors",
-      "description": "The New Zealand dollar strengthened against other major currencies in the European session on Thursday.",
-      "date": "2026-11-19T08:59:37.387368+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/nz-dollar-rises-against-majors/56724"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "European Shares Edge Higher In Cautious Trade",
-      "description": "European stocks edged higher on Thursday after three days of losses. Technology stocks were rising after Anthropic raised $81.3 billion in the largest stock-market debut on record.",
-      "date": "2026-11-19T08:46:37.387555+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-shares-edge-higher-in-cautious-trade/56723"
     }
   ]
 }
