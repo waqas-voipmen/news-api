@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-19T05:33:24.514824+00:00",
+  "fetched_at": "2026-11-19T08:18:27.448731+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "European Shares Likely To Open On Firm Note Ahead Of Anthropic Debut",
+      "description": "European stocks may open on a firm note on Thursday after Anthropic's IPO raised $81.31 billion, surpassing SpaceX's reported $75 billion offering and pushing the company's valuation beyond its earlier target of $1.4 trillion.",
+      "date": "2026-11-19T04:35:27.444054+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-shares-likely-to-open-on-firm-note-ahead-of-anthropic-debut/56713"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/taiwan-stock-market-may-add-to-its-winnings/56701"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Singapore Stock Market Due For Support On Thursday",
-      "description": "The Singapore stock market has moved lower in five straight sessions, retreating more than 225 points or 4.5 percent along the way. The Straits Times Index now sits just above the 5,050-point plateau although it may stop the bleeding on Thursday.",
-      "date": "2026-11-18T23:02:06.340862+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/singapore-stock-market-due-for-support-on-thursday/56700"
     }
   ]
 }
