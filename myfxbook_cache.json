@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-19T18:33:07.597391+00:00",
+  "fetched_at": "2026-11-19T18:48:10.107469+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "CHF",
+      "title": "Swiss Market Ends Lower Again",
+      "description": "The Switzerland stock market ended notably lower on Thursday, in line with markets across Europe, as early buoyancy over Anthropic's record IPO offering subsided quickily and investors turned cautious due to escalating geopolitical tensions.",
+      "date": "2026-11-19T17:39:10.082237+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/swiss-market-ends-lower-again/56751"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/ftse-100-hovers-near-6-week-lows-on-consumer-sector-decline/56736"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "NZ Dollar Rises Amid Risk-on Mood",
-      "description": "The New Zealand dollar strengthened against other major currencies in the European session on Thursday, as European stocks traded higher after three days of losses. Technology stocks were rising after Anthropic raised $81.3 billion in the largest stock-market debut on record.",
-      "date": "2026-11-19T10:38:37.385858+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/nz-dollar-rises-amid-risk-on-mood/56734"
     }
   ]
 }
