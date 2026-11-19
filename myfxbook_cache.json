@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-19T00:48:07.225348+00:00",
+  "fetched_at": "2026-11-19T01:03:05.174235+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "China Stock Market May Test Resistance At 3,600 Points",
+      "description": "The China stock market on Wednesday snapped the four-day losing streak in which it had slumped almost 100 points or 2.7 percent. The Shanghai Composite Index now sits just beneath the 3,590-point plateau and it may see additional support on Thursday.",
+      "date": "2026-11-19T00:02:05.170459+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/china-stock-market-may-test-resistance-at-3600-points/56703"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/sptsx-composite-hits-5-month-low-on-commodity-rout/56691"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Pending Home Sales Extend Nosedive In October",
-      "description": "The National Association of Realtors released a report on Wednesday showing an extended nosedive in pending home sales in the U.S. in the month of October. NAR said its pending home sales index tumbled by 4.7 percent to 63.0 in October after plummeting by 7.2 percent to a revised 66.1 in September. Economists had expected pending home sales to slump by 1.5 percent.",
-      "date": "2026-11-18T14:55:13.616096+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-pending-home-sales-extend-nosedive-in-october/56688"
     }
   ]
 }
