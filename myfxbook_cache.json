@@ -1,6 +1,42 @@
 {
-  "fetched_at": "2026-11-19T14:03:08.332074+00:00",
+  "fetched_at": "2026-11-19T15:33:11.872281+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Leading Economic Index Unexpectedly Falls In October Amid Fewer Building Permits",
+      "description": "A report released by the Conference Board on Thursday showed an unexpected decrease by its reading on leading U.S. economic indicators in the month of October. The Conference Board said its leading economic index fell by 0.3 percent in October after coming in unchanged in September. Economists had expected the index to remain unchanged for the second straight month.",
+      "date": "2026-11-19T14:29:11.856666+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-leading-economic-index-unexpectedly-falls-in-october-amid-fewer-building-permits/56748"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "Philly Fed Index Plunges To Six-Month Low In November",
+      "description": "The Federal Reserve Bank of Philadelphia released a report on Thursday showing regional manufacturing was less widespread in the month of November but continued to expand overall. The Philly Fed said its diffusion index for current general activity plunged to 6.3 in November after tumbling to 20.9 in October.",
+      "date": "2026-11-19T14:18:11.858568+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/philly-fed-index-plunges-to-six-month-low-in-november/56747"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Jobless Claims Unexpectedly Inch Up To Two-Month High",
+      "description": "First-time claims for U.S. unemployment benefits unexpectedly edged slightly higher in the week ended November 14th, according to a report released by the Labor Department on Thursday. The report said initial jobless claims inched up to 203,000, an increase of 1,000 from the previous week's revised level of 202,000. Economists had expected jobless claims to slip to 198,000.",
+      "date": "2026-11-19T14:06:11.859140+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-jobless-claims-unexpectedly-inch-up-to-two-month-high/56746"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -120,42 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/french-stock-market-climbs-on-tech-finance-gains/56730"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "EUR",
-      "title": "German Stocks Rise On Tech Boost; DAX Up 0.23%",
-      "description": "German stocks gained ground Thursday after three consecutive sessions of losses. The DAX benchmark rose 0.23% to 25,817.00, supported by tech strength following Anthropic's record $81.3 billion IPO. Infineon Technologies led gains with a 3.5% climb.",
-      "date": "2026-11-19T09:35:37.386626+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/german-stocks-rise-on-tech-boost-dax-up-023/56728"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "XAU",
-      "title": "Gold Holds Steady After Hitting 14-month Low",
-      "description": "Gold prices were flat to slightly higher on Thursday after falling more than 3 percent on Wednesday to their lowest level since September 2025, pressured by a stronger dollar and hawkish Fed remarks.",
-      "date": "2026-11-19T09:29:37.386824+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/gold-holds-steady-after-hitting-14-month-low/56726"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Oil Prices Little Changed As Traders Weigh Supply Outlook",
-      "description": "Oil prices were little changed on Thursday after falling sharply in the previous session on expectations of a looming supply glut.",
-      "date": "2026-11-19T09:11:37.387166+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/oil-prices-little-changed-as-traders-weigh-supply-outlook/56725"
     }
   ]
 }
