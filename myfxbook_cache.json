@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-19T02:18:20.882472+00:00",
+  "fetched_at": "2026-11-19T03:03:12.777985+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Indian Shares Set To Extend Losses In Cautious Trade",
+      "description": "Indian shares are seen opening lower on Thursday after key benchmark indexes snapped a two-day rally in the previous session.",
+      "date": "2026-11-19T01:42:12.774331+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-set-to-extend-losses-in-cautious-trade/56709"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/steady-start-seen-for-japan-stock-market/56697"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Tech Shares May Boost South Korea Stock Market",
-      "description": "The South Korea stock market on Wednesday halted the four-day losing streak in which it had plunged more than 400 points or 7.8 percent. The KOSPI now sits just beneath the 5,070-point plateau and it may add to its winnings on Thursday.",
-      "date": "2026-11-18T22:01:05.731406+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/tech-shares-may-boost-south-korea-stock-market/56696"
     }
   ]
 }
