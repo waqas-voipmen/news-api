@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-11-19T01:48:07.329846+00:00",
+  "fetched_at": "2026-11-19T02:18:20.882472+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Thai Stock Market May Halt Its Slide On Thursday",
+      "description": "The Thai stock market has tracked lower in three straight sessions, shedding almost 35 points or 2.2 percent along the way. The Stock Exchange of Thailand now sits just above the 1,470-point plateau although it may find support on Thursday.",
+      "date": "2026-11-19T01:01:20.878406+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/thai-stock-market-may-halt-its-slide-on-thursday/56708"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Japanese Market Modestly Higher",
+      "description": "The Japanese market is trading modestly higher on Thursday, extending the gains in the previous session, following the mixed cues from Wall Street overnight. The Nikkei 225 is moving above the 59,100 level, with gains in index heavyweights and technology stocks partially offset by weakness in financial stocks.",
+      "date": "2026-11-19T00:51:20.878790+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/japanese-market-modestly-higher/56707"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/tech-shares-may-boost-south-korea-stock-market/56696"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australia Unemployment Data Due On Thursday",
-      "description": "Australia will on Thursday release October figures for unemployment, highlighting a modest day for Asia-Pacific economic activity.",
-      "date": "2026-11-18T21:32:05.034431+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australia-unemployment-data-due-on-thursday/56695"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "Fed Minutes Confirm Most Officials Expect Further Rate Hikes",
-      "description": "While the Federal Reserve decided to leave interest rates following its October meeting, the minutes of the meeting, released on Wednesday, revealed that the central bank is likely to resume raising rates in the near future. The Fed minutes said \"almost all participants\" judged that further action to raise rates would likely be appropriate.",
-      "date": "2026-11-18T18:21:13.615015+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/fed-minutes-confirm-most-officials-expect-further-rate-hikes/56694"
     }
   ]
 }
