@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-19T22:48:04.319500+00:00",
+  "fetched_at": "2026-11-19T23:03:04.732842+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "KOSPI May Run Out Of Steam On Friday",
+      "description": "The South Korea stock market has finished higher in two straight sessions, rallying almost 170 points or 3.4 percent along the way. The KOSPI now sits just beneath the 5,140-point plateau although investors may lock in gains on Friday.",
+      "date": "2026-11-19T22:02:04.725651+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/kospi-may-run-out-of-steam-on-friday/56755"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/philly-fed-index-plunges-much-more-than-expected-in-november/56741"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Weekly Jobless Claims Unexpectedly Inch Higher",
-      "description": "First-time claims for U.S. unemployment benefits unexpectedly edged slightly higher in the week ended November 14th, according to a report released by the Labor Department on Thursday.",
-      "date": "2026-11-19T12:35:06.157025+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-weekly-jobless-claims-unexpectedly-inch-higher/56740"
     }
   ]
 }
