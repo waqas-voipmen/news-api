@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-19T04:48:25.877650+00:00",
+  "fetched_at": "2026-11-19T05:03:31.078880+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Indian Shares Modestly Higher; Auto Stocks Surge As IT Stocks Drag",
+      "description": "Indian shares were little changed on Thursday after falling notably in the previous session due to profit taking after recent string of gains.",
+      "date": "2026-11-19T03:50:31.075132+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-modestly-higher-auto-stocks-surge-as-it-stocks-drag/56712"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/singapore-stock-market-due-for-support-on-thursday/56700"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Japan Or Machinery Orders Sink 0.3% In September",
-      "description": "The value of core machinery orders in Japan was down a seasonally adjusted 0.3 percent on month in September, the Cabinet Office said on Thursday - coming in at 1,066.2 billion yen.",
-      "date": "2026-11-18T23:01:06.341231+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/japan-or-machinery-orders-sink-03-in-september/56699"
     }
   ]
 }
