@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-19T21:18:04.328624+00:00",
+  "fetched_at": "2026-11-19T21:33:04.329412+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "South Korea Producer Prices Slip 0.1% In October",
+      "description": "Producer prices in South Korea eased 0.1 percent on month in October, the Bank of Korea said in Friday's preliminary ready - following the 0.1 percent increase in September.",
+      "date": "2026-11-19T20:31:04.325974+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/south-korea-producer-prices-slip-01-in-october/56752"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/euro-rises-against-majors/56737"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "FTSE 100 Hovers Near 6-Week Lows On Consumer Sector Decline",
-      "description": "The FTSE 100 dropped to 10,524.60, down 0.25%, as consumer sector losses offset gains elsewhere. Investec fell 6.6% and JD Sports Fashion dropped 4.2% after cutting profit guidance. Mulberry plunged 22% despite turnaround progress.",
-      "date": "2026-11-19T10:41:37.385554+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/ftse-100-hovers-near-6-week-lows-on-consumer-sector-decline/56736"
     }
   ]
 }
