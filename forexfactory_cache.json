@@ -1191,7 +1191,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.3%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "RMPI m/m",
@@ -1203,7 +1204,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-1.0%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "ECB President Lagarde Speaks",
@@ -1571,5 +1573,5 @@
       }
     ]
   },
-  "actuals_at": "2026-11-19T13:30:49.432842+00:00"
+  "actuals_at": "2026-11-19T13:32:22.241453+00:00"
 }
