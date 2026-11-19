@@ -1,6 +1,42 @@
 {
-  "fetched_at": "2026-11-19T01:18:07.383312+00:00",
+  "fetched_at": "2026-11-19T01:33:05.876918+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Indonesia Stock Market Likely Rangebound On Thursday",
+      "description": "The Indonesia stock market on Wednesday ended the two-day winning streak in which it had fallen almost 40 points or 0.8 percent. The Jakarta Composite Index now sits just beneath the 5,250-point plateau although it's looking at a steady start on Thursday.",
+      "date": "2026-11-19T00:32:05.873041+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indonesia-stock-market-likely-rangebound-on-thursday/56706"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australian Market Notably Lower",
+      "description": "The Australian market is trading notably lower on Thursday, extending the losses in the previous five sessions, following the mixed cues from Wall Street overnight. The benchmark S&P/ASX 200 is falling well below the 8,800 level, with weakness in mining and energy stocks.",
+      "date": "2026-11-19T00:27:05.873421+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australian-market-notably-lower/56705"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Higher Open Called For Hong Kong Stock Market",
+      "description": "The Hong Kong stock market has finished lower in back-to-back sessions, sliding more than 450 points or 2 percent along the way. The Hang Seng now sits just beneath the 23,300-point plateau although it's expected to open to the upside on Thursday.",
+      "date": "2026-11-19T00:17:05.873623+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/higher-open-called-for-hong-kong-stock-market/56704"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -120,42 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/fed-minutes-confirm-most-officials-expect-further-rate-hikes/56694"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "CHF",
-      "title": "Swiss Market Ends Moderately Lower",
-      "description": "After opening flat and then moving slightly above the flat line till noon, the Switzerland market's benchmark SMI retreated and kept moving down till the end of the session on Wednesday.",
-      "date": "2026-11-18T17:45:13.615298+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/swiss-market-ends-moderately-lower/56693"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "EUR",
-      "title": "European Stocks Tumble As Weak Commodities, Hot Inflation Data Weigh",
-      "description": "Despite Nvidia's upbeat earnings and outlook that triggered some strong buying in the technology sector, European markets tumbled on Wednesday as weak commodity prices and hot eurozone and U.K. inflation data hurt sentiment, triggering widespread selling.",
-      "date": "2026-11-18T17:29:13.615501+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-stocks-tumble-as-weak-commodities-hot-inflation-data-weigh/56692"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "CAD",
-      "title": "S&P/TSX Composite Hits 5-Month Low On Commodity Rout",
-      "description": "Weak commodity prices drove Canada's S&P/TSX Composite Index down 1.45% Wednesday to a 5-month low of 34,804.77. Materials and energy stocks led declines amid falling gold, silver, copper, and oil prices.",
-      "date": "2026-11-18T16:48:13.615815+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/sptsx-composite-hits-5-month-low-on-commodity-rout/56691"
     }
   ]
 }
