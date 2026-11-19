@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-19T16:33:25.005100+00:00",
+  "fetched_at": "2026-11-19T16:48:41.457053+00:00",
   "periods": {
     "week": [
       {
@@ -1298,14 +1298,15 @@
       {
         "title": "Mortgage Delinquencies",
         "country": "USD",
-        "date": "2026-11-19T11:30:00-05:00",
+        "date": "2026-11-19T10:46:00-05:00",
         "impact": "Low",
         "forecast": "",
         "previous": "4.37%",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "4.42%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "FOMC Member Goolsbee Speaks",
