@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-11-19T23:18:07.259537+00:00",
+  "fetched_at": "2026-11-19T23:33:04.955031+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Continue Consolidation Expected For Malaysia Stock Market",
+      "description": "The Malaysia stock market has tracked lower in three straight sessions, sinking more than 20 points or 1.3 percent along the way. The Kuala Lumpur Composite Index now sits just above the 1,565-point plateau and it may take further damage again on Friday.",
+      "date": "2026-11-19T22:32:04.950923+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/continue-consolidation-expected-for-malaysia-stock-market/56757"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Rally May Stall For Japan Stock Market",
+      "description": "The Japan stock market has tracked higher in consecutive trading days, climbing more than 580 points or 1 percent along the way. The Nikkei 225 now sits just beneath the 59,450-point plateau although it may spin its wheels on Friday.",
+      "date": "2026-11-19T22:17:04.951336+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/rally-may-stall-for-japan-stock-market/56756"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/walmart-q3-net-profit-drops-despite-sales-growth-lifts-fy27-outlook/56743"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "CAD",
-      "title": "Bay Street Headed For Positive Start",
-      "description": "Higher Canadian and U.S. futures point to a firm start for the Canadian market Thursday morning. Tech stocks are seen moving higher amid renewed optimism about AI trade following Anthropic's record IPO offering.",
-      "date": "2026-11-19T12:45:08.328517+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/bay-street-headed-for-positive-start/56742"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "Philly Fed Index Plunges Much More Than Expected In November",
-      "description": "The Federal Reserve Bank of Philadelphia released a report on Thursday showing regional manufacturing was less widespread in the month of November but continued to expand overall.",
-      "date": "2026-11-19T12:39:06.156745+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/philly-fed-index-plunges-much-more-than-expected-in-november/56741"
     }
   ]
 }
