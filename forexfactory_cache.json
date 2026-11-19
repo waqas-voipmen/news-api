@@ -1137,11 +1137,12 @@
         "date": "2026-11-19T04:00:00-05:00",
         "impact": "Low",
         "forecast": "16.6B",
-        "previous": "8.7B",
+        "previous": "11.6B",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "12.5B",
+        "actual_src": "fxstreet"
       },
       {
         "title": "German Buba Monthly Report",
@@ -1566,5 +1567,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-19T09:02:02.976961+00:00"
 }
