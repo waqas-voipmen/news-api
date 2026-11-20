@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-11-19T23:48:04.748391+00:00",
+  "fetched_at": "2026-11-20T00:03:10.989706+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Singapore Stock Market May Hand Back Thursday's Gains",
+      "description": "The Singapore stock market on Thursday ended the five-day losing streak in which it had tumbled more than 225 points or 4.5 percent. The Straits Times Index now sits just beneath the 5,080-point plateau although it may head south again on Friday.",
+      "date": "2026-11-19T23:02:10.980624+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/singapore-stock-market-may-hand-back-thursdays-gains/56759"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Japan Consumer Prices Jump 0.8% In October",
+      "description": "Overall consumer prices in Japan spiked 0.8 percent on month in October, the Ministry of Internal Affairs and Communications said on Friday.",
+      "date": "2026-11-19T22:47:10.981454+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/japan-consumer-prices-jump-08-in-october/56758"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/philly-fed-index-plunges-to-six-month-low-in-november/56747"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Jobless Claims Unexpectedly Inch Up To Two-Month High",
-      "description": "First-time claims for U.S. unemployment benefits unexpectedly edged slightly higher in the week ended November 14th, according to a report released by the Labor Department on Thursday. The report said initial jobless claims inched up to 203,000, an increase of 1,000 from the previous week's revised level of 202,000. Economists had expected jobless claims to slip to 198,000.",
-      "date": "2026-11-19T14:06:11.859140+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-jobless-claims-unexpectedly-inch-up-to-two-month-high/56746"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "Walmart Q3 Net Profit Drops, Despite Sales Growth; Lifts FY27 Outlook",
-      "description": "Retail giant Walmart Inc. reported Thursday lower profit in its third quarter of fiscal 2027, mainly on the absence of prior year's significant gain on equity, while operating income climbed with growth in U.S. comparable sales and eCommerce performance. Meanwhile, U.S. comparable sales growth was slower than last year. Further, the company lifted fiscal 2027 forecast again.",
-      "date": "2026-11-19T12:49:08.328098+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/walmart-q3-net-profit-drops-despite-sales-growth-lifts-fy27-outlook/56743"
     }
   ]
 }
