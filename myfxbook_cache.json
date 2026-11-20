@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-11-20T10:33:08.721184+00:00",
+  "fetched_at": "2026-11-20T10:48:07.676038+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "EUR",
+      "title": "DAX Tumbles 1.64% Amid AI Concerns; Producer Prices Hit 3-Year Peak",
+      "description": "Germany's DAX benchmark declined 1.64% to 25,081.17, extending losses to a sixth consecutive session. Tech stocks led declines amid AI sustainability concerns, while producer price data showed prices climbing 8.1% year-on-year in October, the strongest pace in over three years.",
+      "date": "2026-11-20T09:34:07.670725+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/dax-tumbles-164-amid-ai-concerns-producer-prices-hit-3-year-peak/56789"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Indian Shares Surge Despite Global Rout",
+      "description": "Indian shares surged on Friday to hit a 10-month high, with banking, auto and information technology stocks powering the rally.",
+      "date": "2026-11-20T09:31:07.671516+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-surge-despite-global-rout/56788"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indian-shares-seen-lower-as-ai-selloff-deepens/56768"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Thai Stock Market May See Renewed Selling Pressure On Friday",
-      "description": "The Thai stock market on Thursday ended the three-day slide in which it had given up almost 35 points or 2.2 percent. The Stock Exchange of Thailand now sits just above the 1,470-point plateau although it may turn lower again on Friday.",
-      "date": "2026-11-20T01:01:07.117541+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/thai-stock-market-may-see-renewed-selling-pressure-on-friday/56766"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Japanese Market Sharply Lower; Plunging 3.7%",
-      "description": "The Japanese market is trading sharply lower on Friday, reversing the gains in the previous two sessions, following the broadly negative cues from Wall Street overnight. The Nikkei 225 is tumbling 3.7 percent to below the 57,250 level, with weakness across most sectors led by index heavyweights and technology stocks.",
-      "date": "2026-11-20T00:36:07.857777+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/japanese-market-sharply-lower-plunging-37/56765"
     }
   ]
 }
