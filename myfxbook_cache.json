@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-20T04:33:05.034533+00:00",
+  "fetched_at": "2026-11-20T04:48:13.322366+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "Indian Shares Off Day's Lows As IT Stocks Surge",
+      "description": "Indian shares opened lower on Friday as a global AI selloff on concerns over slower AI infrastructure spending and expectations of prolonged monetary policy tightening by the Federal Reserve rattled investors.",
+      "date": "2026-11-20T03:29:13.317383+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-off-days-lows-as-it-stocks-surge/56773"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/japan-consumer-prices-jump-08-in-october/56758"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Continue Consolidation Expected For Malaysia Stock Market",
-      "description": "The Malaysia stock market has tracked lower in three straight sessions, sinking more than 20 points or 1.3 percent along the way. The Kuala Lumpur Composite Index now sits just above the 1,565-point plateau and it may take further damage again on Friday.",
-      "date": "2026-11-19T22:32:04.950923+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/continue-consolidation-expected-for-malaysia-stock-market/56757"
     }
   ]
 }
