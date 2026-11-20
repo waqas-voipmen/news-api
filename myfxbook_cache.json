@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-20T01:33:07.483200+00:00",
+  "fetched_at": "2026-11-20T01:48:07.872033+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Japanese Market Sharply Lower; Plunging 3.7%",
+      "description": "The Japanese market is trading sharply lower on Friday, reversing the gains in the previous two sessions, following the broadly negative cues from Wall Street overnight. The Nikkei 225 is tumbling 3.7 percent to below the 57,250 level, with weakness across most sectors led by index heavyweights and technology stocks.",
+      "date": "2026-11-20T00:36:07.857777+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/japanese-market-sharply-lower-plunging-37/56765"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/us-dollar-ticks-higher-as-fed-rate-hike-expectations-continue-to-rise/56753"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "South Korea Producer Prices Slip 0.1% In October",
-      "description": "Producer prices in South Korea eased 0.1 percent on month in October, the Bank of Korea said in Friday's preliminary ready - following the 0.1 percent increase in September.",
-      "date": "2026-11-19T20:31:04.325974+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/south-korea-producer-prices-slip-01-in-october/56752"
     }
   ]
 }
