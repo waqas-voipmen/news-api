@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-20T00:48:07.717742+00:00",
+  "fetched_at": "2026-11-20T01:03:06.171777+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "China Stock Market Tipped To Open Under Water On Friday",
+      "description": "The China stock market turned lower again on Thursday, one day after ending the four-day losing streak in which it had slumped almost 100 points or 2.7 percent. The Shanghai Composite Index now sits just beneath the 3,580-point plateau and the losses may accelerate on Friday.",
+      "date": "2026-11-20T00:02:06.166384+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/china-stock-market-tipped-to-open-under-water-on-friday/56761"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/tsx-down-sharply-as-materials-stocks-stumble/56749"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Leading Economic Index Unexpectedly Falls In October Amid Fewer Building Permits",
-      "description": "A report released by the Conference Board on Thursday showed an unexpected decrease by its reading on leading U.S. economic indicators in the month of October. The Conference Board said its leading economic index fell by 0.3 percent in October after coming in unchanged in September. Economists had expected the index to remain unchanged for the second straight month.",
-      "date": "2026-11-19T14:29:11.856666+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-leading-economic-index-unexpectedly-falls-in-october-amid-fewer-building-permits/56748"
     }
   ]
 }
