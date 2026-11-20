@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-20T11:18:49.019362+00:00",
+  "fetched_at": "2026-11-20T11:48:07.531447+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "GBP",
+      "title": "UK Stocks Drift Lower Despite Strong Retail Sales Data",
+      "description": "The FTSE 100 fell 0.61% to 10,389.15 on Friday, pressured by declines in mining, defense, and financial stocks. UK retail sales rebounded 0.7% in October, and consumer confidence improved as borrowing remained below forecasts.",
+      "date": "2026-11-20T10:38:07.522064+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/uk-stocks-drift-lower-despite-strong-retail-sales-data/56794"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/australian-market-extends-early-losses-in-mid-market/56771"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Asian Markets A Sea Of Red Amid Tech Sell-off",
-      "description": "Asian stock markets are a sea of red on Friday, following the broadly negative cues on Wall Street overnight, dragged by markets in Taiwan, South Korea and Japan amid a sell-off in semiconductor and technology stocks on lingering concerns about where the AI trade goes from here. Commodity-related stocks also took a hit. Concerns of re-escalation in the Middle East also gripped the markets.",
-      "date": "2026-11-20T02:34:07.082762+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/asian-markets-a-sea-of-red-amid-tech-sell-off/56770"
     }
   ]
 }
