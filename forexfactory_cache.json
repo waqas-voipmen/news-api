@@ -1431,7 +1431,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "1.4%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Retail Sales m/m",
@@ -1443,7 +1444,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.7%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Public Sector Net Borrowing",
@@ -1455,7 +1457,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "17.0B",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Foreign Direct Investment ytd/y",
@@ -1579,5 +1582,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-20T07:00:41.234884+00:00"
 }
