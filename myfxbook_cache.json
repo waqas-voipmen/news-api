@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-11-20T01:18:05.977746+00:00",
+  "fetched_at": "2026-11-20T01:33:07.483200+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Indonesia Stock Market Tipped To Open In The Red",
+      "description": "The Indonesia stock market has finished lower in four straight sessions, retreating more than 125 points or 2.2 percent along the way. The Jakarta Composite Index now sits just beneath the 5,200-point plateau and it's looking at another soft start again on Friday.",
+      "date": "2026-11-20T00:31:07.477084+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indonesia-stock-market-tipped-to-open-in-the-red/56764"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Lower Open Predicted For Hong Kong Stock Market",
+      "description": "The Hong Kong stock market has finished lower in three straight sessions, sinking more than 900 points or 4 percent along the way. The Hang Seng now sits just beneath the 22,850-point plateau and it figures to see continued consolidation again on Friday.",
+      "date": "2026-11-20T00:16:07.477473+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/lower-open-predicted-for-hong-kong-stock-market/56763"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/south-korea-producer-prices-slip-01-in-october/56752"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "CHF",
-      "title": "Swiss Market Ends Lower Again",
-      "description": "The Switzerland stock market ended notably lower on Thursday, in line with markets across Europe, as early buoyancy over Anthropic's record IPO offering subsided quickily and investors turned cautious due to escalating geopolitical tensions.",
-      "date": "2026-11-19T17:39:10.082237+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/swiss-market-ends-lower-again/56751"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "European Markets Retreat After Positive Start, End Notably Lower",
-      "description": "European markets pared early gains and settle lower on Thursday as oil prices climbed higher amid escalating tensions between Iran and the U.S. The market opened on a positive note as concerns about Artificial Intelligence trade eased thanks to Anthropic's record IPO offering.",
-      "date": "2026-11-19T17:22:07.579690+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-markets-retreat-after-positive-start-end-notably-lower/56750"
     }
   ]
 }
