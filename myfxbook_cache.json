@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-20T11:03:10.213234+00:00",
+  "fetched_at": "2026-11-20T11:18:49.019362+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "French Stocks Extend Losing Streak On AI Jitters",
+      "description": "The French benchmark CAC 40 declined 91.70 points to 7,989.04 on Friday, extending losses to a fifth consecutive session. AI valuation concerns weighed on sentiment despite Anthropic's strong stock listing on Wall Street Thursday. Manufacturing and business climate indicators also deteriorated.",
+      "date": "2026-11-20T10:08:49.012787+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/french-stocks-extend-losing-streak-on-ai-jitters/56792"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/asian-markets-a-sea-of-red-amid-tech-sell-off/56770"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Indian Shares Seen Lower As AI Selloff Deepens",
-      "description": "Indian shares are seen opening lower on Friday due to a sharp sell-off in global equities.",
-      "date": "2026-11-20T01:43:07.128863+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-seen-lower-as-ai-selloff-deepens/56768"
     }
   ]
 }
