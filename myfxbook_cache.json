@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-20T05:33:09.271294+00:00",
+  "fetched_at": "2026-11-20T06:03:28.916377+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "European Shares Set To Drift Lower As AI Selloff Deepens",
+      "description": "European stocks look set to open lower on Friday as AI trade doubts continue to weigh on global technology shares.",
+      "date": "2026-11-20T04:38:28.778728+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-shares-set-to-drift-lower-as-ai-selloff-deepens/56774"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/singapore-stock-market-may-hand-back-thursdays-gains/56759"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Japan Consumer Prices Jump 0.8% In October",
-      "description": "Overall consumer prices in Japan spiked 0.8 percent on month in October, the Ministry of Internal Affairs and Communications said on Friday.",
-      "date": "2026-11-19T22:47:10.981454+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/japan-consumer-prices-jump-08-in-october/56758"
     }
   ]
 }
