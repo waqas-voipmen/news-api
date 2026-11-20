@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-20T09:18:08.361160+00:00",
+  "fetched_at": "2026-11-20T09:33:07.166025+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "European Shares Extend Losses For Fifth Day On AI Jitters",
+      "description": "European stocks traded lower for a fifth consecutive session on Friday and headed for their worst weekly drop since March due to ongoing sell-off in artificial intelligence and chip stocks.",
+      "date": "2026-11-20T08:18:07.158214+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-shares-extend-losses-for-fifth-day-on-ai-jitters/56784"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/lower-open-predicted-for-hong-kong-stock-market/56763"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australian Market Significantly Lower",
-      "description": "The Australian stock market is trading significantly lower on Friday, extending the losses in the previous six sessions, following the broadly negative cues from Wall Street overnight. The benchmark S&P/ASX 200 is falling to near the 8,650 level, with weakness across most sectors led by gold miners and technology stocks.",
-      "date": "2026-11-20T00:11:05.974103+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-market-significantly-lower/56762"
     }
   ]
 }
