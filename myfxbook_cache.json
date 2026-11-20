@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-20T10:03:14.828955+00:00",
+  "fetched_at": "2026-11-20T10:18:16.785102+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "XAU",
+      "title": "Gold Set For Steep Weekly Loss On Rate Hike Worries",
+      "description": "Gold prices were sharply lower on Friday and headed for their biggest weekly decline since March as hawkish Fed remarks signaled more interest-rate hikes in the coming months.",
+      "date": "2026-11-20T09:05:16.773230+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/gold-set-for-steep-weekly-loss-on-rate-hike-worries/56787"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/japanese-market-sharply-lower-plunging-37/56765"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Indonesia Stock Market Tipped To Open In The Red",
-      "description": "The Indonesia stock market has finished lower in four straight sessions, retreating more than 125 points or 2.2 percent along the way. The Jakarta Composite Index now sits just beneath the 5,200-point plateau and it's looking at another soft start again on Friday.",
-      "date": "2026-11-20T00:31:07.477084+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indonesia-stock-market-tipped-to-open-in-the-red/56764"
     }
   ]
 }
