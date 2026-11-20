@@ -1418,7 +1418,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "5.0%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "German PPI m/m",
@@ -1578,5 +1579,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-20T02:01:31.218178+00:00"
 }
