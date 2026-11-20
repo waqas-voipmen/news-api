@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-20T12:03:09.021185+00:00",
+  "fetched_at": "2026-11-20T12:18:07.923983+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "EUR",
+      "title": "Euro Falls Against Majors",
+      "description": "The euro weakened against other major currencies in the European session on Friday.",
+      "date": "2026-11-20T11:12:07.914174+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/euro-falls-against-majors/56795"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indian-shares-off-days-lows-as-it-stocks-surge/56773"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australian Market Extends Early Losses In Mid-market",
-      "description": "The Australian stock market is extending its early losses in mid-market moves on Friday, adding to the losses in the previous six sessions, following the broadly negative cues from Wall Street overnight. The benchmark S&P/ASX 200 is falling to near the 8,600 level, with weakness across most sectors led by gold miners and technology stocks.",
-      "date": "2026-11-20T02:41:07.080719+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-market-extends-early-losses-in-mid-market/56771"
     }
   ]
 }
