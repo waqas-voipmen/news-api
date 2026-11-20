@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-20T00:03:10.989706+00:00",
+  "fetched_at": "2026-11-20T00:34:12.261906+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Taiwan Stock Market May Take Further Damage On Friday",
+      "description": "The Taiwan stock market turned lower again on Thursday, one day after ending the two-day losing streak in which it had tumbled almost 3,600 points or 8.6 percent. The Taiwan Stock Exchange now sits just beneath the 38,430-point plateau and it may extend its losses on Friday.",
+      "date": "2026-11-19T23:32:12.255767+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/taiwan-stock-market-may-take-further-damage-on-friday/56760"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/us-leading-economic-index-unexpectedly-falls-in-october-amid-fewer-building-permits/56748"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "Philly Fed Index Plunges To Six-Month Low In November",
-      "description": "The Federal Reserve Bank of Philadelphia released a report on Thursday showing regional manufacturing was less widespread in the month of November but continued to expand overall. The Philly Fed said its diffusion index for current general activity plunged to 6.3 in November after tumbling to 20.9 in October.",
-      "date": "2026-11-19T14:18:11.858568+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/philly-fed-index-plunges-to-six-month-low-in-november/56747"
     }
   ]
 }
