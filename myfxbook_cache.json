@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-20T17:18:11.235766+00:00",
+  "fetched_at": "2026-11-20T17:33:07.776213+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "CAD",
+      "title": "TSX Sinks To 6-Month Low As Tech Sector Crumbles",
+      "description": "Canadian equities tumbled Friday as technology stocks plunged 4.4% following global AI trade concerns. The benchmark index dropped 418.25 points to 33,610.48. Materials and financial sectors also declined significantly on weak commodity prices.",
+      "date": "2026-11-20T16:22:07.758414+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/tsx-sinks-to-6-month-low-as-tech-sector-crumbles/56803"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/asian-shares-tumble-as-tech-selloff-deepens/56781"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "GBP",
-      "title": "UK Retail Sales Rebound Amid Be Ready Campaign",
-      "description": "UK retail sales rebounded strongly in October as consumers stocked up on long-life food items following the government's Be Ready campaign launch, data from the Office for National Statistics showed Friday. Retail sales increased 0.7 percent in October from September, when the volume was down 0.6 percent. Economists had forecast sales to remain flat.",
-      "date": "2026-11-20T07:14:07.130284+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/uk-retail-sales-rebound-amid-be-ready-campaign/56779"
     }
   ]
 }
