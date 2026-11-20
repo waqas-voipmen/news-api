@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-20T09:48:11.221471+00:00",
+  "fetched_at": "2026-11-20T10:03:14.828955+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Oil Headed For Third Weekly Loss On Glut Fears",
+      "description": "Oil prices traded lower on Friday and headed for a third consecutive weekly decline as signs of abundant global supply offset recent media reports suggesting that the Trump administration is weighing fresh strikes on Iran.",
+      "date": "2026-11-20T08:49:14.823699+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/oil-headed-for-third-weekly-loss-on-glut-fears/56785"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indonesia-stock-market-tipped-to-open-in-the-red/56764"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Lower Open Predicted For Hong Kong Stock Market",
-      "description": "The Hong Kong stock market has finished lower in three straight sessions, sinking more than 900 points or 4 percent along the way. The Hang Seng now sits just beneath the 22,850-point plateau and it figures to see continued consolidation again on Friday.",
-      "date": "2026-11-20T00:16:07.477473+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/lower-open-predicted-for-hong-kong-stock-market/56763"
     }
   ]
 }
