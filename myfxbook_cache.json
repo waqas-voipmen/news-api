@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-20T18:33:04.723088+00:00",
+  "fetched_at": "2026-11-20T18:48:05.280225+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "CHF",
+      "title": "Swiss Market Ends Weak For 4th Straight Session",
+      "description": "The Switzerland market ended weak on Friday, extending recent losses, as rising uncertainty about AI trade and rising cost of debts, as well as fears of possible interest rate hikes by central banks rendered the mood bearish.",
+      "date": "2026-11-20T17:38:05.276175+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/swiss-market-ends-weak-for-4th-straight-session/56805"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/oil-headed-for-third-weekly-loss-on-glut-fears/56785"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "European Shares Extend Losses For Fifth Day On AI Jitters",
-      "description": "European stocks traded lower for a fifth consecutive session on Friday and headed for their worst weekly drop since March due to ongoing sell-off in artificial intelligence and chip stocks.",
-      "date": "2026-11-20T08:18:07.158214+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-shares-extend-losses-for-fifth-day-on-ai-jitters/56784"
     }
   ]
 }
