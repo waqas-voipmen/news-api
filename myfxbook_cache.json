@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-20T18:03:05.658554+00:00",
+  "fetched_at": "2026-11-20T18:18:04.801005+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "European Markets Close Notably Lower As AI Trade Concerns Trigger Sell-off",
+      "description": "European stocks fell on Friday and several markets across the region hit multi-week lows - some markets even dropped to multi-month lows - weighed down by losses in several sectors, especially in the technology space amid uncertainty about the sustainability of AI trade despite Anthropic's historic IPO.",
+      "date": "2026-11-20T17:12:04.797401+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-markets-close-notably-lower-as-ai-trade-concerns-trigger-sell-off/56804"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/european-shares-extend-losses-for-fifth-day-on-ai-jitters/56784"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Asian Shares Tumble As Tech Selloff Deepens",
-      "description": "Asian stocks plummeted on Friday as Anthropic's record listing in New York failed to stem concerns over slower AI infrastructure spending and rising debt loads in the sector.",
-      "date": "2026-11-20T07:44:05.311309+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/asian-shares-tumble-as-tech-selloff-deepens/56781"
     }
   ]
 }
