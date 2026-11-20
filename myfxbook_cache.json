@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-20T21:48:05.022393+00:00",
+  "fetched_at": "2026-11-20T22:03:04.218250+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Dollar Ends Roughly Flat Amid Rising Expectations On Fed Tightening",
+      "description": "The U.S. Dollar value ended almost flat on Friday after several U.S. Federal Reserve officials concurred on the need to raise the interest rates in the December meeting while the U.S.-Iran stalemate continues with no resolution in sight.",
+      "date": "2026-11-20T21:00:04.214804+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-dollar-ends-roughly-flat-amid-rising-expectations-on-fed-tightening/56806"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/gold-set-for-steep-weekly-loss-on-rate-hike-worries/56787"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Oil Headed For Third Weekly Loss On Glut Fears",
-      "description": "Oil prices traded lower on Friday and headed for a third consecutive weekly decline as signs of abundant global supply offset recent media reports suggesting that the Trump administration is weighing fresh strikes on Iran.",
-      "date": "2026-11-20T08:49:14.823699+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/oil-headed-for-third-weekly-loss-on-glut-fears/56785"
     }
   ]
 }
