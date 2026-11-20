@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-20T08:03:07.112739+00:00",
+  "fetched_at": "2026-11-20T08:18:07.134005+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "GBP",
+      "title": "UK Retail Sales Rebound Amid Be Ready Campaign",
+      "description": "UK retail sales rebounded strongly in October as consumers stocked up on long-life food items following the government's Be Ready campaign launch, data from the Office for National Statistics showed Friday. Retail sales increased 0.7 percent in October from September, when the volume was down 0.6 percent. Economists had forecast sales to remain flat.",
+      "date": "2026-11-20T07:14:07.130284+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/uk-retail-sales-rebound-amid-be-ready-campaign/56779"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/china-stock-market-tipped-to-open-under-water-on-friday/56761"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Taiwan Stock Market May Take Further Damage On Friday",
-      "description": "The Taiwan stock market turned lower again on Thursday, one day after ending the two-day losing streak in which it had tumbled almost 3,600 points or 8.6 percent. The Taiwan Stock Exchange now sits just beneath the 38,430-point plateau and it may extend its losses on Friday.",
-      "date": "2026-11-19T23:32:12.255767+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/taiwan-stock-market-may-take-further-damage-on-friday/56760"
     }
   ]
 }
