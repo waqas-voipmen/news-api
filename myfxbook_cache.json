@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-20T15:33:19.506889+00:00",
+  "fetched_at": "2026-11-20T15:48:37.633754+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Consumer Sentiment Improves More Than Previously Estimated November",
+      "description": "A report released by the University of Michigan on Friday showed consumer sentiment in the U.S. improved by more than previously estimated in the month of November. The University of Michigan said its consumer sentiment index for November was upwardly revised to 51.5 from a preliminary reading of 51.0.",
+      "date": "2026-11-20T14:40:37.621943+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-consumer-sentiment-improves-more-than-previously-estimated-november/56800"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/uk-retail-sales-rebound-amid-be-ready-campaign/56779"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "P&G Plans To Cut Up To 30% Product Supply Jobs By 2030; Confirms FY27 Outlook",
-      "description": "Consumer goods giant Procter & Gamble Co. or P&G announced its plans for a ?20 percent to 30 percent reduction in product supply workforce, including contractors, by 2030. The firm targets up to $10 billion in productivity savings from ?fiscal years 2027-2030. The move is part of its productivity restructuring efforts amid the increasing pressure on supply-chain costs.",
-      "date": "2026-11-20T06:57:07.103773+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/pg-plans-to-cut-up-to-30-product-supply-jobs-by-2030-confirms-fy27-outlook/56778"
     }
   ]
 }
