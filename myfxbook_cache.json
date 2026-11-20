@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-11-20T03:33:33.771598+00:00",
+  "fetched_at": "2026-11-20T03:48:07.086379+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australian Market Extends Early Losses In Mid-market",
+      "description": "The Australian stock market is extending its early losses in mid-market moves on Friday, adding to the losses in the previous six sessions, following the broadly negative cues from Wall Street overnight. The benchmark S&P/ASX 200 is falling to near the 8,600 level, with weakness across most sectors led by gold miners and technology stocks.",
+      "date": "2026-11-20T02:41:07.080719+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australian-market-extends-early-losses-in-mid-market/56771"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Asian Markets A Sea Of Red Amid Tech Sell-off",
+      "description": "Asian stock markets are a sea of red on Friday, following the broadly negative cues on Wall Street overnight, dragged by markets in Taiwan, South Korea and Japan amid a sell-off in semiconductor and technology stocks on lingering concerns about where the AI trade goes from here. Commodity-related stocks also took a hit. Concerns of re-escalation in the Middle East also gripped the markets.",
+      "date": "2026-11-20T02:34:07.082762+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/asian-markets-a-sea-of-red-amid-tech-sell-off/56770"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/continue-consolidation-expected-for-malaysia-stock-market/56757"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Rally May Stall For Japan Stock Market",
-      "description": "The Japan stock market has tracked higher in consecutive trading days, climbing more than 580 points or 1 percent along the way. The Nikkei 225 now sits just beneath the 59,450-point plateau although it may spin its wheels on Friday.",
-      "date": "2026-11-19T22:17:04.951336+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/rally-may-stall-for-japan-stock-market/56756"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "KOSPI May Run Out Of Steam On Friday",
-      "description": "The South Korea stock market has finished higher in two straight sessions, rallying almost 170 points or 3.4 percent along the way. The KOSPI now sits just beneath the 5,140-point plateau although investors may lock in gains on Friday.",
-      "date": "2026-11-19T22:02:04.725651+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/kospi-may-run-out-of-steam-on-friday/56755"
     }
   ]
 }
