@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-20T07:48:08.912214+00:00",
+  "fetched_at": "2026-11-20T08:03:07.112739+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "P&G Plans To Cut Up To 30% Product Supply Jobs By 2030; Confirms FY27 Outlook",
+      "description": "Consumer goods giant Procter & Gamble Co. or P&G announced its plans for a ?20 percent to 30 percent reduction in product supply workforce, including contractors, by 2030. The firm targets up to $10 billion in productivity savings from ?fiscal years 2027-2030. The move is part of its productivity restructuring efforts amid the increasing pressure on supply-chain costs.",
+      "date": "2026-11-20T06:57:07.103773+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/pg-plans-to-cut-up-to-30-product-supply-jobs-by-2030-confirms-fy27-outlook/56778"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/taiwan-stock-market-may-take-further-damage-on-friday/56760"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Singapore Stock Market May Hand Back Thursday's Gains",
-      "description": "The Singapore stock market on Thursday ended the five-day losing streak in which it had tumbled more than 225 points or 4.5 percent. The Straits Times Index now sits just beneath the 5,080-point plateau although it may head south again on Friday.",
-      "date": "2026-11-19T23:02:10.980624+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/singapore-stock-market-may-hand-back-thursdays-gains/56759"
     }
   ]
 }
