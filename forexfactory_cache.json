@@ -1392,7 +1392,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "3.00%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "5-y Loan Prime Rate",
@@ -1404,7 +1405,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "3.50%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Credit Card Spending y/y",
@@ -1576,5 +1578,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-20T01:00:30.511091+00:00"
 }
