@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-20T02:33:06.609096+00:00",
+  "fetched_at": "2026-11-20T02:48:07.138340+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Indian Shares Seen Lower As AI Selloff Deepens",
+      "description": "Indian shares are seen opening lower on Friday due to a sharp sell-off in global equities.",
+      "date": "2026-11-20T01:43:07.128863+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-seen-lower-as-ai-selloff-deepens/56768"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/kospi-may-run-out-of-steam-on-friday/56755"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Japan Inflation Data Due On Friday",
-      "description": "Japan will on Friday release October figures for consumer prices, highlighting a modest day for Asia-Pacific economic activity.",
-      "date": "2026-11-19T21:32:04.475622+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/japan-inflation-data-due-on-friday/56754"
     }
   ]
 }
