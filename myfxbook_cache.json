@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-20T08:18:07.134005+00:00",
+  "fetched_at": "2026-11-20T08:48:05.317379+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Asian Shares Tumble As Tech Selloff Deepens",
+      "description": "Asian stocks plummeted on Friday as Anthropic's record listing in New York failed to stem concerns over slower AI infrastructure spending and rising debt loads in the sector.",
+      "date": "2026-11-20T07:44:05.311309+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/asian-shares-tumble-as-tech-selloff-deepens/56781"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/australian-market-significantly-lower/56762"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "China Stock Market Tipped To Open Under Water On Friday",
-      "description": "The China stock market turned lower again on Thursday, one day after ending the four-day losing streak in which it had slumped almost 100 points or 2.7 percent. The Shanghai Composite Index now sits just beneath the 3,580-point plateau and the losses may accelerate on Friday.",
-      "date": "2026-11-20T00:02:06.166384+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/china-stock-market-tipped-to-open-under-water-on-friday/56761"
     }
   ]
 }
