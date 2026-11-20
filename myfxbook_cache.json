@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-11-20T13:03:19.078059+00:00",
+  "fetched_at": "2026-11-20T13:33:15.805907+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "CAD",
+      "title": "Canadian Market Poised For Negative Open As Oil, Metals Slide",
+      "description": "The Canadian market faces a negative opening Friday as oil prices fall 2% and gold drops 3.13%, while Anthropic's 10% pre-market decline signals weakness in tech stocks amid AI sustainability concerns.",
+      "date": "2026-11-20T12:17:15.801485+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/canadian-market-poised-for-negative-open-as-oil-metals-slide/56798"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "EUR",
+      "title": "Euro Falls Amid Risk-Off Mood",
+      "description": "The euro weakened against other major currencies in the European session on Friday, as European stocks traded lower due to ongoing sell-off in artificial intelligence and chip stocks.",
+      "date": "2026-11-20T12:10:15.802224+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/euro-falls-amid-risk-off-mood/56797"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/pg-plans-to-cut-up-to-30-product-supply-jobs-by-2030-confirms-fy27-outlook/56778"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "European Shares Set To Drift Lower As AI Selloff Deepens",
-      "description": "European stocks look set to open lower on Friday as AI trade doubts continue to weigh on global technology shares.",
-      "date": "2026-11-20T04:38:28.778728+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-shares-set-to-drift-lower-as-ai-selloff-deepens/56774"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "Indian Shares Off Day's Lows As IT Stocks Surge",
-      "description": "Indian shares opened lower on Friday as a global AI selloff on concerns over slower AI infrastructure spending and expectations of prolonged monetary policy tightening by the Federal Reserve rattled investors.",
-      "date": "2026-11-20T03:29:13.317383+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-off-days-lows-as-it-stocks-surge/56773"
     }
   ]
 }
