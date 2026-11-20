@@ -1379,7 +1379,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-22",
+        "actual_src": "forexfactory"
       },
       {
         "title": "1-y Loan Prime Rate",
@@ -1575,5 +1576,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-20T00:01:17.801226+00:00"
 }
