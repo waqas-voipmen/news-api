@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-22T23:03:20.390276+00:00",
+  "fetched_at": "2026-11-22T23:18:07.756367+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Tech Shares May Continue To Weigh On KOSPI",
+      "description": "The South Korea stock market on Friday ended the two-day winning streak in which it had rallied almost 170 points or 3.4 percent. The KOSPI now sits just beneath the 4,870-point plateau and it may take further damage on Monday.",
+      "date": "2026-11-22T22:02:07.726944+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/tech-shares-may-continue-to-weigh-on-kospi/56810"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/uk-stocks-drift-lower-despite-strong-retail-sales-data/56794"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "French Stocks Extend Losing Streak On AI Jitters",
-      "description": "The French benchmark CAC 40 declined 91.70 points to 7,989.04 on Friday, extending losses to a fifth consecutive session. AI valuation concerns weighed on sentiment despite Anthropic's strong stock listing on Wall Street Thursday. Manufacturing and business climate indicators also deteriorated.",
-      "date": "2026-11-20T10:08:49.012787+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/french-stocks-extend-losing-streak-on-ai-jitters/56792"
     }
   ]
 }
