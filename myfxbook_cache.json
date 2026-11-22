@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-22T23:33:04.979824+00:00",
+  "fetched_at": "2026-11-22T23:48:04.808708+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Little Movement Expected For Malaysia Stock Market",
+      "description": "The Malaysia stock market has tracked lower in four straight sessions, sinking more than 30 points or 1.9 percent along the way. The Kuala Lumpur Composite Index now sits just above the 1,555-point plateau although it's looking at a steady start on Monday.",
+      "date": "2026-11-22T22:32:04.804440+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/little-movement-expected-for-malaysia-stock-market/56811"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/euro-falls-against-majors/56795"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "GBP",
-      "title": "UK Stocks Drift Lower Despite Strong Retail Sales Data",
-      "description": "The FTSE 100 fell 0.61% to 10,389.15 on Friday, pressured by declines in mining, defense, and financial stocks. UK retail sales rebounded 0.7% in October, and consumer confidence improved as borrowing remained below forecasts.",
-      "date": "2026-11-20T10:38:07.522064+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/uk-stocks-drift-lower-despite-strong-retail-sales-data/56794"
     }
   ]
 }
