@@ -12,7 +12,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "1.4%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Retail Sales q/q",
@@ -24,7 +25,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "2.2%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Flash Manufacturing PMI",
@@ -908,5 +910,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-22T21:46:29.233134+00:00"
 }
