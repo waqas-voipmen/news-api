@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-11-22T22:33:14.485830+00:00",
+  "fetched_at": "2026-11-22T22:48:07.009671+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "NZD",
+      "title": "New Zealand Retail Sales Climb 2.2% In Q3",
+      "description": "The volume of retail sales in New Zealand was up a seasonally adjusted 2.2 percent on quarter in the third quarter of 2026, Statistics New Zealand said on Monday - coming at NZ$26 billion.",
+      "date": "2026-11-22T21:46:06.996674+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/new-zealand-retail-sales-climb-22-in-q3/56808"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Singapore Inflation Data Due On Monday",
+      "description": "Singapore will on Monday release October figures for consumer prices, highlighting a light day for Asia-Pacific economic activity.",
+      "date": "2026-11-22T21:32:06.999307+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/singapore-inflation-data-due-on-monday/56807"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/dax-tumbles-164-amid-ai-concerns-producer-prices-hit-3-year-peak/56789"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Indian Shares Surge Despite Global Rout",
-      "description": "Indian shares surged on Friday to hit a 10-month high, with banking, auto and information technology stocks powering the rally.",
-      "date": "2026-11-20T09:31:07.671516+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-surge-despite-global-rout/56788"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "XAU",
-      "title": "Gold Set For Steep Weekly Loss On Rate Hike Worries",
-      "description": "Gold prices were sharply lower on Friday and headed for their biggest weekly decline since March as hawkish Fed remarks signaled more interest-rate hikes in the coming months.",
-      "date": "2026-11-20T09:05:16.773230+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/gold-set-for-steep-weekly-loss-on-rate-hike-worries/56787"
     }
   ]
 }
