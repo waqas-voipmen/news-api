@@ -38,7 +38,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "48.7",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Flash Services PMI",
@@ -50,7 +51,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "46.2",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Bank Holiday",
@@ -910,5 +912,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-22T22:00:37.274876+00:00"
 }
