@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-22T22:48:07.009671+00:00",
+  "fetched_at": "2026-11-22T23:03:20.390276+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australia Manufacturing PMI Sinks To 48.7 In November - S&P Global",
+      "description": "The manufacturing sector in Australia continued to contract in November, and at a faster pace, the latest survey from S&P Global revealed on Monday with a manufacturing PMI score of 48.7.",
+      "date": "2026-11-22T21:51:20.368986+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australia-manufacturing-pmi-sinks-to-487-in-november---sp-global/56809"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/french-stocks-extend-losing-streak-on-ai-jitters/56792"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "EUR",
-      "title": "DAX Tumbles 1.64% Amid AI Concerns; Producer Prices Hit 3-Year Peak",
-      "description": "Germany's DAX benchmark declined 1.64% to 25,081.17, extending losses to a sixth consecutive session. Tech stocks led declines amid AI sustainability concerns, while producer price data showed prices climbing 8.1% year-on-year in October, the strongest pace in over three years.",
-      "date": "2026-11-20T09:34:07.670725+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/dax-tumbles-164-amid-ai-concerns-producer-prices-hit-3-year-peak/56789"
     }
   ]
 }
