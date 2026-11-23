@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-23T01:33:13.004851+00:00",
+  "fetched_at": "2026-11-23T01:48:05.343474+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Indonesia Stock Market May Stop The Bleeding On Monday",
+      "description": "The Indonesia stock market has finished lower in five straight sessions, retreating more than 175 points or 3.1 percent along the way. The Jakarta Composite Index now sits just beneath the 5,150-point plateau although it's poised to open to the upside on Monday.",
+      "date": "2026-11-23T00:32:05.335224+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indonesia-stock-market-may-stop-the-bleeding-on-monday/56817"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/swiss-market-ends-weak-for-4th-straight-session/56805"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "European Markets Close Notably Lower As AI Trade Concerns Trigger Sell-off",
-      "description": "European stocks fell on Friday and several markets across the region hit multi-week lows - some markets even dropped to multi-month lows - weighed down by losses in several sectors, especially in the technology space amid uncertainty about the sustainability of AI trade despite Anthropic's historic IPO.",
-      "date": "2026-11-20T17:12:04.797401+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-markets-close-notably-lower-as-ai-trade-concerns-trigger-sell-off/56804"
     }
   ]
 }
