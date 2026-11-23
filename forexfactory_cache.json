@@ -206,7 +206,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "54.5",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Flash Services PMI",
@@ -218,7 +219,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "54.7",
+        "actual_src": "forexfactory"
       },
       {
         "title": "FOMC Member Williams Speaks",
@@ -921,5 +923,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-23T14:45:32.352330+00:00"
 }
