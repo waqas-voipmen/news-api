@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-11-23T01:03:05.788376+00:00",
+  "fetched_at": "2026-11-23T01:18:05.786632+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Hong Kong Stock Market Due For Support",
+      "description": "The Hong Kong stock market has finished lower in four straight sessions, sinking almost 900 points or 3.8 percent in that span. The Hang Seng now sits just above the 22,400-point plateau although it may halt its slide on Monday.",
+      "date": "2026-11-23T00:17:05.778061+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/hong-kong-stock-market-due-for-support/56815"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Steady Start Eyes For China Stock Market",
+      "description": "The China stock market has moved lower in two straight sessions, sliding more than 50 points or 1.4 percent along the way. The Shanghai Composite Index now sits just above the 3,530-point plateau although it may find traction on Monday.",
+      "date": "2026-11-23T00:02:05.778850+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/steady-start-eyes-for-china-stock-market/56814"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/tsx-sinks-to-6-month-low-as-tech-sector-crumbles/56803"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Consumer Sentiment Improves More Than Previously Estimated November",
-      "description": "A report released by the University of Michigan on Friday showed consumer sentiment in the U.S. improved by more than previously estimated in the month of November. The University of Michigan said its consumer sentiment index for November was upwardly revised to 51.5 from a preliminary reading of 51.0.",
-      "date": "2026-11-20T14:40:37.621943+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-consumer-sentiment-improves-more-than-previously-estimated-november/56800"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "CAD",
-      "title": "Canadian Market Poised For Negative Open As Oil, Metals Slide",
-      "description": "The Canadian market faces a negative opening Friday as oil prices fall 2% and gold drops 3.13%, while Anthropic's 10% pre-market decline signals weakness in tech stocks amid AI sustainability concerns.",
-      "date": "2026-11-20T12:17:15.801485+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/canadian-market-poised-for-negative-open-as-oil-metals-slide/56798"
     }
   ]
 }
