@@ -1,6 +1,102 @@
 {
-  "fetched_at": "2026-11-23T11:03:04.666531+00:00",
+  "fetched_at": "2026-11-23T14:16:34.064506+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "Bay Street Poised To Open On Firm Note",
+      "description": "Notably higher U.S. and Canadian futures and rising precious metals prices point to a firm start for the Canadian market on Monday. Tech stocks may climb higher, rebounding from recent losses.",
+      "date": "2026-11-23T12:34:34.049311+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/bay-street-poised-to-open-on-firm-note/56852"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "CrowdStrike Posts Q3 Profit, Positive Outlook; Zscaler Stock Climbs On $43.9 Bln Takeover Deal",
+      "description": "Cybersecurity tech firm CrowdStrike Holdings, Inc. Monday announced its agreement to acquire cloud security platform Zscaler, Inc. in an all-stock transaction valued at about $43.9 billion. The news comes as CrowdStrike recorded a turnaround in its third quarter with increased revenues and raised fiscal 2027 view, while Zscaler generated wider first-quarter net loss and narrower pre-tax loss.",
+      "date": "2026-11-23T12:32:34.051463+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/crowdstrike-posts-q3-profit-positive-outlook-zscaler-stock-climbs-on-439-bln-takeover-deal/56851"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "GBP",
+      "title": "UK Private Sector Growth Slows",
+      "description": "The UK private sector output growth eased in November amid a loss of momentum in the service economy, flash survey data from S&P Global showed Monday. The composite output index declined to 52.3 in November from October's eight-month high of 52.9. The score was expected to fall to 51.9. Nonetheless, the index remained above the neutral 50.0 value and pointed to a moderate pace of expansion.",
+      "date": "2026-11-23T11:56:34.052368+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/uk-private-sector-growth-slows/56848"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "CHF",
+      "title": "Swiss Franc Rises Against Majors",
+      "description": "The Swiss franc strengthened against other major currencies in the European session on Monday.",
+      "date": "2026-11-23T11:05:34.054617+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/swiss-franc-rises-against-majors/56847"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "EUR",
+      "title": "Eurozone Private Sector Logs Moderate Growth",
+      "description": "The euro area private sector registered a moderate growth in November, driven by faster growth in Germany, which countered a deepening downturn in France, flash survey results from S&P Global showed Monday. The flash composite output index remained unchanged at 51.7 in November. A score above 50.0 indicates expansion. A sharper increase in manufacturing output was cancelled out by slower growth",
+      "date": "2026-11-23T10:51:34.055040+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/eurozone-private-sector-logs-moderate-growth/56846"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "FTSE 100 Gains 0.55% On Mining Rally; Weak PMI Limits Upside",
+      "description": "The FTSE 100 climbed 57.10 points to 10,403.44 Monday, buoyed by mining and banking gains as precious metal prices rebounded. Weak PMI data capped market gains.",
+      "date": "2026-11-23T10:44:34.055256+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/ftse-100-gains-055-on-mining-rally-weak-pmi-limits-upside/56845"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Tech Sector Lifts French Stocks Despite Services Sector Contraction",
+      "description": "French equities advanced Monday with the CAC 40 climbing 58.30 points to 7,986.05, driven by technology sector strength and lower oil prices. Services sector contraction limited gains as survey data signaled deepening private sector downturn.",
+      "date": "2026-11-23T10:23:34.055718+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/tech-sector-lifts-french-stocks-despite-services-sector-contraction/56844"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "EUR",
+      "title": "German Stock Index Climbs On Tech Support, PMI Surge",
+      "description": "Germany's DAX rose 0.75% Monday as AI stocks rebounded and oil prices fell. Flash survey data showed the private sector grew at its fastest pace since early 2022 in November, with the composite output index reaching 55.0.",
+      "date": "2026-11-23T10:08:34.059678+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/german-stock-index-climbs-on-tech-support-pmi-surge/56842"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -60,102 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/asian-shares-retreat-as-tech-selloff-deepens/56833"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "European Shares Poised For Firm Start",
-      "description": "European stocks are seen opening broadly higher on Monday despite lingering worries over the artificial intelligence sector's ability to drive economic growth and the unresolved U.S.-Israeli war against Iran.",
-      "date": "2026-11-23T04:38:06.835376+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-shares-poised-for-firm-start/56825"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Indian Shares Off Day's Lows As IT Stocks Surge",
-      "description": "Indian shares opened lower on Monday, tracking a sell-off in global markets sparked by an unwinding of the artificial intelligence trade.",
-      "date": "2026-11-23T03:33:06.837188+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-off-days-lows-as-it-stocks-surge/56822"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australian Market Trims Early Losses In Mid-market",
-      "description": "The Australian stock market is trimming its early losses in mid-market trading on Monday, extending the losses in the previous seven sessions, following the broadly positive cues from Wall Street on Friday. The benchmark S&P/ASX 200 index is falling below the 8,600.00 level, with weakness in financial and technology stocks nearly offset by gains in mining and energy stocks.",
-      "date": "2026-11-23T02:31:06.837556+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-market-trims-early-losses-in-mid-market/56821"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Asian Markets A Sea Of Red Amid Tech Selloff",
-      "description": "Asian markets are a sea of red on Monday, following the negative cues from Wall Street on Friday, dragged by a selloff in semiconductor stocks, particularly in South Korea, mirroring their peers on tech-heavy Nasdaq amid concerns over tighter AI regulations and controls over chip export. The intermittent escalation in the geopolitical tensions in the Middle East also weighed on market sentiment.",
-      "date": "2026-11-23T02:26:06.837758+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/asian-markets-a-sea-of-red-amid-tech-selloff/56820"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Indian Shares Seen Higher Despite Global Selloff",
-      "description": "Indian shares look set to open higher on Monday despite a sharp sell-off on Wall Street Friday, sparked by an unwinding of the artificial intelligence trade.",
-      "date": "2026-11-23T01:31:06.838281+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-seen-higher-despite-global-selloff/56819"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Thai Stock Market Likely Rangebound On Monday",
-      "description": "The Thai stock market turned lower again on Friday, one day after ending the three-day slide in which it had given up almost 35 points or 2.2 percent. The Stock Exchange of Thailand now sits just above the 1,450-point plateau and it's expected to remain in that neighborhood again on Monday.",
-      "date": "2026-11-23T01:02:06.838605+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/thai-stock-market-likely-rangebound-on-monday/56818"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Indonesia Stock Market May Stop The Bleeding On Monday",
-      "description": "The Indonesia stock market has finished lower in five straight sessions, retreating more than 175 points or 3.1 percent along the way. The Jakarta Composite Index now sits just beneath the 5,150-point plateau although it's poised to open to the upside on Monday.",
-      "date": "2026-11-23T00:32:05.335224+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indonesia-stock-market-may-stop-the-bleeding-on-monday/56817"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australian Markets Slightly Lower",
-      "description": "The Australian stock market is slightly lower on Monday, extending the losses in the previous seven sessions, following the broadly positive cues from Wall Street on Friday. The benchmark S&P/ASX 200 index is falling below the 8,600.00 level, with weakness in financial and technology stocks nearly offset by gains in mining and energy stocks.",
-      "date": "2026-11-23T00:26:12.982234+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-markets-slightly-lower/56816"
     }
   ]
 }
