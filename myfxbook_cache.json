@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-11-23T23:03:06.540006+00:00",
+  "fetched_at": "2026-11-23T23:18:05.636822+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Rebound Anticipated For Japan Stock Market",
+      "description": "Ahead of Monday's holiday for Labor Thanksgiving Day, the Japan stock market had halted the two-day winning streak in which it had advanced more than 580 points or 1 percent. The Nikkei 225 now sits just above the 56,430-point plateau although it figures to bounce higher again on Tuesday.",
+      "date": "2026-11-23T22:17:05.630775+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/rebound-anticipated-for-japan-stock-market/56860"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "KOSPI Poised To End Losing Streak",
+      "description": "The South Korea stock market has finished lower in back-to-back sessions, plunging almost 430 points or 8 percent along the way. The KOSPI now sits just beneath the 4,710-point plateau although it may stop the bleeding on Tuesday.",
+      "date": "2026-11-23T22:02:05.632824+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/kospi-poised-to-end-losing-streak/56859"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/ftse-100-gains-055-on-mining-rally-weak-pmi-limits-upside/56845"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Tech Sector Lifts French Stocks Despite Services Sector Contraction",
-      "description": "French equities advanced Monday with the CAC 40 climbing 58.30 points to 7,986.05, driven by technology sector strength and lower oil prices. Services sector contraction limited gains as survey data signaled deepening private sector downturn.",
-      "date": "2026-11-23T10:23:34.055718+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/tech-sector-lifts-french-stocks-despite-services-sector-contraction/56844"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "EUR",
-      "title": "German Stock Index Climbs On Tech Support, PMI Surge",
-      "description": "Germany's DAX rose 0.75% Monday as AI stocks rebounded and oil prices fell. Flash survey data showed the private sector grew at its fastest pace since early 2022 in November, with the composite output index reaching 55.0.",
-      "date": "2026-11-23T10:08:34.059678+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/german-stock-index-climbs-on-tech-support-pmi-surge/56842"
     }
   ]
 }
