@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-23T18:33:04.639339+00:00",
+  "fetched_at": "2026-11-23T18:48:06.044078+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "CHF",
+      "title": "Swiss Market Snaps 4-day Losing Streak, Ends On Bright Note",
+      "description": "The Swiss market started off on a somewhat sluggish note on Monday, but edged up gradually and after moving in a narrow range till well past mid afternoon, gained in strength and ended the session on a strong note as buying gathered momentum in the final hour.",
+      "date": "2026-11-23T17:46:06.037107+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/swiss-market-snaps-4-day-losing-streak-ends-on-bright-note/56856"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/gold-rebounds-amid-short-covering/56838"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Oil Extends Losses As Traders Weigh Supply Glut Risks",
-      "description": "Oil prices traded lower on Monday, entering a fourth week of declines on expectations of rising global supply.",
-      "date": "2026-11-23T08:47:06.832588+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/oil-extends-losses-as-traders-weigh-supply-glut-risks/56837"
     }
   ]
 }
