@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-23T10:03:06.840920+00:00",
+  "fetched_at": "2026-11-23T10:18:23.802397+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "XAU",
+      "title": "Gold Rebounds Amid Short Covering",
+      "description": "Gold prices rebounded on Monday after suffering their worst weekly decline since the pandemic on hawkish Fed rhetoric and a rout in AI stocks.",
+      "date": "2026-11-23T09:10:23.796465+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/gold-rebounds-amid-short-covering/56838"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/hong-kong-stock-market-due-for-support/56815"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Steady Start Eyes For China Stock Market",
-      "description": "The China stock market has moved lower in two straight sessions, sliding more than 50 points or 1.4 percent along the way. The Shanghai Composite Index now sits just above the 3,530-point plateau although it may find traction on Monday.",
-      "date": "2026-11-23T00:02:05.778850+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/steady-start-eyes-for-china-stock-market/56814"
     }
   ]
 }
