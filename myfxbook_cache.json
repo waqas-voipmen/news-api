@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-23T00:03:08.279639+00:00",
+  "fetched_at": "2026-11-23T00:18:05.287226+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Bargain Hunting May Boost Singapore Stock Market",
+      "description": "The Singapore stock market headed south again on Friday, one day after ending the five-day losing streak in which it had tumbled more than 225 points or 4.5 percent. The Straits Times Index now sits just above the 4,975-point plateau although it may tick higher again on Monday.",
+      "date": "2026-11-22T23:02:05.280803+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/bargain-hunting-may-boost-singapore-stock-market/56812"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/euro-falls-amid-risk-off-mood/56797"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "EUR",
-      "title": "Euro Falls Against Majors",
-      "description": "The euro weakened against other major currencies in the European session on Friday.",
-      "date": "2026-11-20T11:12:07.914174+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/euro-falls-against-majors/56795"
     }
   ]
 }
