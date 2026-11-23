@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-23T22:33:19.208283+00:00",
+  "fetched_at": "2026-11-23T22:48:09.802435+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Japan PMI Data Due On Tuesday",
+      "description": "Japan will on Tuesday see preliminary November results for its manufacturing, services and composite PMIs from S&P Global, highlighting a light day for Asia-Pacific economic activity.",
+      "date": "2026-11-23T21:32:09.784396+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/japan-pmi-data-due-on-tuesday/56858"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/german-stock-index-climbs-on-tech-support-pmi-surge/56842"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Indian Shares Tumble Amid Global Selloff, Profit Taking",
-      "description": "Indian shares fell sharply on Monday as a global sell-off in AI-related and semiconductor shares prompted traders to lock in gains after a strong run in recent weeks.",
-      "date": "2026-11-23T09:50:04.662434+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-tumble-amid-global-selloff-profit-taking/56840"
     }
   ]
 }
