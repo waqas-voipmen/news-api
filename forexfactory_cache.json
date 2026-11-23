@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-23T17:33:14.202401+00:00",
+  "fetched_at": "2026-11-23T17:48:26.502923+00:00",
   "periods": {
     "week": [
       {
@@ -549,18 +549,6 @@
         "actual": ""
       },
       {
-        "title": "Unemployment Claims",
-        "country": "USD",
-        "date": "2026-11-25T08:30:00-05:00",
-        "impact": "Medium",
-        "forecast": "201K",
-        "previous": "203K",
-        "source": "ForexFactory",
-        "type": "calendar",
-        "link": null,
-        "actual": ""
-      },
-      {
         "title": "Core Durable Goods Orders m/m",
         "country": "USD",
         "date": "2026-11-25T08:30:00-05:00",
@@ -603,6 +591,18 @@
         "impact": "Low",
         "forecast": "0.4%",
         "previous": "0.5%",
+        "source": "ForexFactory",
+        "type": "calendar",
+        "link": null,
+        "actual": ""
+      },
+      {
+        "title": "Unemployment Claims",
+        "country": "USD",
+        "date": "2026-11-25T08:30:00-05:00",
+        "impact": "Low",
+        "forecast": "201K",
+        "previous": "203K",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,

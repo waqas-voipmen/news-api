@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-23T17:33:04.793208+00:00",
+  "fetched_at": "2026-11-23T17:48:05.063149+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "TSX Surges 3% As Stocks Rally On NVIDIA CEO Reinstatement",
+      "description": "The S&P/TSX Composite Index rose more than 3% Monday as technology stocks advanced following NVIDIA's decision to reinstate founder Jensen Huang as President and CEO, while materials rallied on rising precious metals prices.",
+      "date": "2026-11-23T16:37:05.058974+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/tsx-surges-3-as-stocks-rally-on-nvidia-ceo-reinstatement/56854"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/european-shares-modestly-higher-as-tech-stocks-rebound/56834"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "Asian Shares Retreat As Tech Selloff Deepens",
-      "description": "Asian stocks tumbled on Monday as a tech sell-off deepened on growing concerns over the sustainability of the AI boom and the prospect of faster Fed tightening.",
-      "date": "2026-11-23T07:37:06.834329+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/asian-shares-retreat-as-tech-selloff-deepens/56833"
     }
   ]
 }
