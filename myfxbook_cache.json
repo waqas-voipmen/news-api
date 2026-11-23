@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-23T01:18:05.786632+00:00",
+  "fetched_at": "2026-11-23T01:33:13.004851+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australian Markets Slightly Lower",
+      "description": "The Australian stock market is slightly lower on Monday, extending the losses in the previous seven sessions, following the broadly positive cues from Wall Street on Friday. The benchmark S&P/ASX 200 index is falling below the 8,600.00 level, with weakness in financial and technology stocks nearly offset by gains in mining and energy stocks.",
+      "date": "2026-11-23T00:26:12.982234+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australian-markets-slightly-lower/56816"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/european-markets-close-notably-lower-as-ai-trade-concerns-trigger-sell-off/56804"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "CAD",
-      "title": "TSX Sinks To 6-Month Low As Tech Sector Crumbles",
-      "description": "Canadian equities tumbled Friday as technology stocks plunged 4.4% following global AI trade concerns. The benchmark index dropped 418.25 points to 33,610.48. Materials and financial sectors also declined significantly on weak commodity prices.",
-      "date": "2026-11-20T16:22:07.758414+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/tsx-sinks-to-6-month-low-as-tech-sector-crumbles/56803"
     }
   ]
 }
