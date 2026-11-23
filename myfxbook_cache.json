@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-23T00:33:05.483662+00:00",
+  "fetched_at": "2026-11-23T00:48:05.310498+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Taiwan Stock Market May Find Traction On Monday",
+      "description": "The Taiwan stock market has finished brutally lower in back-to-back sessions, plummeting more than 4,150 points or 10.3 percent in that span. The Taiwan Stock Exchange now sits just above the 36,030-point plateau and it's due for support on Monday.",
+      "date": "2026-11-22T23:32:05.306950+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/taiwan-stock-market-may-find-traction-on-monday/56813"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/canadian-market-poised-for-negative-open-as-oil-metals-slide/56798"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "EUR",
-      "title": "Euro Falls Amid Risk-Off Mood",
-      "description": "The euro weakened against other major currencies in the European session on Friday, as European stocks traded lower due to ongoing sell-off in artificial intelligence and chip stocks.",
-      "date": "2026-11-20T12:10:15.802224+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/euro-falls-amid-risk-off-mood/56797"
     }
   ]
 }
