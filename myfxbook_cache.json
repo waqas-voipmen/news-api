@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-23T10:48:04.702266+00:00",
+  "fetched_at": "2026-11-23T11:03:04.666531+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Indian Shares Tumble Amid Global Selloff, Profit Taking",
+      "description": "Indian shares fell sharply on Monday as a global sell-off in AI-related and semiconductor shares prompted traders to lock in gains after a strong run in recent weeks.",
+      "date": "2026-11-23T09:50:04.662434+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-tumble-amid-global-selloff-profit-taking/56840"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/australian-markets-slightly-lower/56816"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Hong Kong Stock Market Due For Support",
-      "description": "The Hong Kong stock market has finished lower in four straight sessions, sinking almost 900 points or 3.8 percent in that span. The Hang Seng now sits just above the 22,400-point plateau although it may halt its slide on Monday.",
-      "date": "2026-11-23T00:17:05.778061+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/hong-kong-stock-market-due-for-support/56815"
     }
   ]
 }
