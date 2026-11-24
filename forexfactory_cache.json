@@ -359,7 +359,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "103.3",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Richmond Manufacturing Index",
@@ -371,7 +372,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "3",
+        "actual_src": "forexfactory"
       },
       {
         "title": "BOC Gov Macklem Speaks",
@@ -917,5 +919,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-24T15:00:34.785937+00:00"
 }
