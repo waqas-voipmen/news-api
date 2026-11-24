@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-24T00:03:06.818291+00:00",
+  "fetched_at": "2026-11-24T00:18:05.326687+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Singapore Stock Market Tipped To Open In The Green",
+      "description": "The Singapore stock market has finished lower in two straight sessions, sinking more than 125 points or 2.5 percent in that span. The Straits Times Index now sits just above the 4,950-point plateau although it may find traction on Tuesday.",
+      "date": "2026-11-23T23:02:05.317980+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/singapore-stock-market-tipped-to-open-in-the-green/56862"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/swiss-franc-rises-against-majors/56847"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "EUR",
-      "title": "Eurozone Private Sector Logs Moderate Growth",
-      "description": "The euro area private sector registered a moderate growth in November, driven by faster growth in Germany, which countered a deepening downturn in France, flash survey results from S&P Global showed Monday. The flash composite output index remained unchanged at 51.7 in November. A score above 50.0 indicates expansion. A sharper increase in manufacturing output was cancelled out by slower growth",
-      "date": "2026-11-23T10:51:34.055040+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/eurozone-private-sector-logs-moderate-growth/56846"
     }
   ]
 }
