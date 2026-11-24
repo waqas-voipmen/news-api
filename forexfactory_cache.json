@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-24T21:48:15.942492+00:00",
+  "fetched_at": "2026-11-24T22:03:15.602332+00:00",
   "periods": {
     "week": [
       {
@@ -398,7 +398,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.126",
+        "actual_src": "fxstreet"
       },
       {
         "title": "SPPI y/y",
