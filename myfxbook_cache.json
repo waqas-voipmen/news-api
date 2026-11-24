@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-24T17:33:12.708932+00:00",
+  "fetched_at": "2026-11-24T17:48:06.411784+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "AI Sector Retreat Triggers Broader Tech Decline",
+      "description": "A sharp reversal in technology stocks drove market declines Tuesday, with Nvidia down 8% and semiconductor peers falling sharply. Consumer confidence jumped unexpectedly to 103.3 in November, providing some support to broader indices.",
+      "date": "2026-11-24T16:43:06.401698+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/ai-sector-retreat-triggers-broader-tech-decline/56906"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/oil-prices-hover-near-three-month-low-on-us-iran-deal-hopes/56887"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "European Shares Mixed After Tech Rally",
-      "description": "European stocks were mixed on Tuesday after rallying in the previous session amid revived enthusiasm for the artificial intelligence trade.",
-      "date": "2026-11-24T08:26:12.813200+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-shares-mixed-after-tech-rally/56885"
     }
   ]
 }
