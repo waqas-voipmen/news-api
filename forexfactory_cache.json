@@ -291,11 +291,12 @@
         "date": "2026-11-24T08:15:00-05:00",
         "impact": "Low",
         "forecast": "",
-        "previous": "23.8K",
+        "previous": "23.0K",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "21.0K",
+        "actual_src": "forexfactory"
       },
       {
         "title": "CB Leading Index m/m",
@@ -913,5 +914,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-24T13:20:17.087322+00:00"
 }
