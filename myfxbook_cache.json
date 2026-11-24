@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-24T02:33:06.653709+00:00",
+  "fetched_at": "2026-11-24T02:48:07.482420+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Indian Markets Closed For Guru Nanak Jayanti",
+      "description": "Indian stock markets remain closed today for Guru Nanak Jayanti. Benchmark indexes Sensex and Nifty plunged around 1.8 percent each on Monday as a global stock market rout prompted traders to lock in gains after four straight weeks of gains.",
+      "date": "2026-11-24T01:41:07.474833+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-markets-closed-for-guru-nanak-jayanti/56870"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/japan-pmi-data-due-on-tuesday/56858"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Dollar Advances As Traders Assess Trump's Remarks On Iran",
-      "description": "The U.S. Dollar value moved higher on Monday as investors parsed U.S. President Donald Trump's remarks that he may be inclined to order strikes against Iran after the new year if both the nations fail to reach an agreement by that time.",
-      "date": "2026-11-23T21:01:19.184167+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-dollar-advances-as-traders-assess-trumps-remarks-on-iran/56857"
     }
   ]
 }
