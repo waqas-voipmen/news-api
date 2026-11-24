@@ -1,6 +1,42 @@
 {
-  "fetched_at": "2026-11-24T10:18:06.423089+00:00",
+  "fetched_at": "2026-11-24T11:06:51.593938+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "EUR",
+      "title": "DAX Down Nearly 1% In Cautious Trade",
+      "description": "A day after moving up sharply amid renewed optimism about AI trade following the reinstatement of Jensen Huang as CEO of Nvidia, German stocks turned weak with investors making cautious moves, looking for fresh directional clues.",
+      "date": "2026-11-24T09:57:51.589312+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/dax-down-nearly-1-in-cautious-trade/56891"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "EUR",
+      "title": "German Ifo Business Confidence Strongest Since 2023",
+      "description": "German business sentiment improved to the highest level in more than three years in November as assessment of current situation and expectations brightened, monthly survey data from the ifo Institute showed Tuesday. The business climate index rose to 90.6 in November from 90.1 in the previous month. The indicator hit its highest level since May 2023 and marked the seventh consecutive rise. The sc",
+      "date": "2026-11-24T09:44:51.590561+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/german-ifo-business-confidence-strongest-since-2023/56890"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "XAU",
+      "title": "Gold Edges Lower As Traders Await US Inflation Data",
+      "description": "Gold prices traded lower on Tuesday after rebounding from a 14-month low in the previous session.",
+      "date": "2026-11-24T09:26:51.590784+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/gold-edges-lower-as-traders-await-us-inflation-data/56889"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -120,42 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indian-markets-closed-for-guru-nanak-jayanti/56870"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Thai Stock Market May Tick Higher Again On Tuesday",
-      "description": "The Thai stock market has finished higher in two of three trading days since the end of the three-day slide in which it had given up almost 35 points or 2.2 percent. The Stock Exchange of Thailand now sits just above the 1,450-point plateau and it's expected to open to the upside again on Tuesday.",
-      "date": "2026-11-24T01:02:05.497709+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/thai-stock-market-may-tick-higher-again-on-tuesday/56869"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Japanese Market Sharply Higher; Spikes 4.4%",
-      "description": "The Japanese stock market is trading sharply higher in post-holiday session on Tuesday, reversing the sharp losses in the previous session, following the broadly positive cues from Wall Street overnight, with the Nikkei 225 jumping 4.4 percent to above the 59,900 level, with gains in across most sectors led by technology and financial stocks.",
-      "date": "2026-11-24T00:47:06.206758+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/japanese-market-sharply-higher-spikes-44/56868"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Higher Open Called For Indonesia Stock Market",
-      "description": "The Indonesia stock market on Monday wrote a finish to the five-day losing streak in which it had retreated more than 175 points or 3.1 percent. The Jakarta Composite Index now sits just above the 5,215-point plateau and it's expected to open in the green again on Tuesday.",
-      "date": "2026-11-24T00:32:06.209336+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/higher-open-called-for-indonesia-stock-market/56867"
     }
   ]
 }
