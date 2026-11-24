@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-24T02:03:06.308117+00:00",
+  "fetched_at": "2026-11-24T02:18:05.502601+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Thai Stock Market May Tick Higher Again On Tuesday",
+      "description": "The Thai stock market has finished higher in two of three trading days since the end of the three-day slide in which it had given up almost 35 points or 2.2 percent. The Stock Exchange of Thailand now sits just above the 1,450-point plateau and it's expected to open to the upside again on Tuesday.",
+      "date": "2026-11-24T01:02:05.497709+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/thai-stock-market-may-tick-higher-again-on-tuesday/56869"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/us-dollar-advances-as-traders-assess-trumps-remarks-on-iran/56857"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "CHF",
-      "title": "Swiss Market Snaps 4-day Losing Streak, Ends On Bright Note",
-      "description": "The Swiss market started off on a somewhat sluggish note on Monday, but edged up gradually and after moving in a narrow range till well past mid afternoon, gained in strength and ended the session on a strong note as buying gathered momentum in the final hour.",
-      "date": "2026-11-23T17:46:06.037107+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/swiss-market-snaps-4-day-losing-streak-ends-on-bright-note/56856"
     }
   ]
 }
