@@ -407,11 +407,12 @@
         "date": "2026-11-24T18:50:00-05:00",
         "impact": "Low",
         "forecast": "3.6%",
-        "previous": "3.7%",
+        "previous": "3.8%",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "4.2%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "CPI m/m",
@@ -933,5 +934,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-24T23:50:28.965933+00:00"
 }
