@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-24T14:34:02.623465+00:00",
+  "fetched_at": "2026-11-24T15:03:38.204184+00:00",
   "periods": {
     "week": [
       {
@@ -301,14 +301,15 @@
       {
         "title": "CB Leading Index m/m",
         "country": "CNY",
-        "date": "2026-11-24T09:00:00-05:00",
+        "date": "2026-11-24T08:51:00-05:00",
         "impact": "Low",
         "forecast": "",
-        "previous": "-0.1%",
+        "previous": "-0.2%",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-0.3%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Belgian NBB Business Climate",
@@ -355,7 +356,7 @@
         "date": "2026-11-24T10:00:00-05:00",
         "impact": "Medium",
         "forecast": "92.4",
-        "previous": "91.7",
+        "previous": "91.9",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
@@ -919,6 +920,5 @@
         "actual": ""
       }
     ]
-  },
-  "actuals_at": "2026-11-24T15:00:34.785937+00:00"
+  }
 }
