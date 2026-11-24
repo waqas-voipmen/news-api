@@ -1,6 +1,42 @@
 {
-  "fetched_at": "2026-11-24T01:03:05.217020+00:00",
+  "fetched_at": "2026-11-24T01:18:05.054875+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Hong Kong Stock Market Poised To Open To The Upside",
+      "description": "The Hong Kong stock market has finished lower in five straight sessions, sinking almost 925 points or 3.9 percent in that span. The Hang Seng now sits just above the 22,380-point plateau although it may halt its slide on Tuesday.",
+      "date": "2026-11-24T00:17:05.050462+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/hong-kong-stock-market-poised-to-open-to-the-upside/56866"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australian Markets Sharply Higher",
+      "description": "The Australian stock market is sharply higher on Tuesday, snapping an eight-session losing streak, following the broadly positive cues from Wall Street overnight. The benchmark S&P/ASX 200 index is moving up to near the 8,700 level, with gains across most sectors led by mining and technology stocks.",
+      "date": "2026-11-24T00:06:05.051647+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australian-markets-sharply-higher/56865"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "China Stock Market May See Additional Support On Tuesday",
+      "description": "The China stock market on Monday snapped the two-day slide in which it had fallen more than 50 points or 1.4 percent. The Shanghai Composite Index now sits just beneath the 3,540-point plateau and it may extend its gains on Tuesday.",
+      "date": "2026-11-24T00:02:05.051865+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/china-stock-market-may-see-additional-support-on-tuesday/56864"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -120,42 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/tsx-surges-3-as-stocks-rally-on-nvidia-ceo-reinstatement/56854"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "Bay Street Poised To Open On Firm Note",
-      "description": "Notably higher U.S. and Canadian futures and rising precious metals prices point to a firm start for the Canadian market on Monday. Tech stocks may climb higher, rebounding from recent losses.",
-      "date": "2026-11-23T12:34:34.049311+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/bay-street-poised-to-open-on-firm-note/56852"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "CrowdStrike Posts Q3 Profit, Positive Outlook; Zscaler Stock Climbs On $43.9 Bln Takeover Deal",
-      "description": "Cybersecurity tech firm CrowdStrike Holdings, Inc. Monday announced its agreement to acquire cloud security platform Zscaler, Inc. in an all-stock transaction valued at about $43.9 billion. The news comes as CrowdStrike recorded a turnaround in its third quarter with increased revenues and raised fiscal 2027 view, while Zscaler generated wider first-quarter net loss and narrower pre-tax loss.",
-      "date": "2026-11-23T12:32:34.051463+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/crowdstrike-posts-q3-profit-positive-outlook-zscaler-stock-climbs-on-439-bln-takeover-deal/56851"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "GBP",
-      "title": "UK Private Sector Growth Slows",
-      "description": "The UK private sector output growth eased in November amid a loss of momentum in the service economy, flash survey data from S&P Global showed Monday. The composite output index declined to 52.3 in November from October's eight-month high of 52.9. The score was expected to fall to 51.9. Nonetheless, the index remained above the neutral 50.0 value and pointed to a moderate pace of expansion.",
-      "date": "2026-11-23T11:56:34.052368+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/uk-private-sector-growth-slows/56848"
     }
   ]
 }
