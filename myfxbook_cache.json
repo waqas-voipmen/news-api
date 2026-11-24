@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-24T18:33:04.678428+00:00",
+  "fetched_at": "2026-11-24T18:48:05.162022+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "European Stocks Close Weak As Mood Turns Cautious",
+      "description": "European stocks closed on a weak note on Tuesday as uncertainty about AI trade and fears of tariff hikes by the U.S. rendered the mood cautious. A sell-off in technology sector on Wall Street weighed as well.",
+      "date": "2026-11-24T17:30:05.157033+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-stocks-close-weak-as-mood-turns-cautious/56907"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/sanofi-to-buy-insmed-for-41-bln-in-cash-shares-gain/56888"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Oil Prices Hover Near Three-month Low On US-Iran Deal Hopes",
-      "description": "Oil prices traded lower on Tuesday, hitting a three-month low due to increased Middle Eastern supplies and signs of renewed diplomatic efforts to end the U.S.-Iran conflict.",
-      "date": "2026-11-24T08:50:12.812971+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/oil-prices-hover-near-three-month-low-on-us-iran-deal-hopes/56887"
     }
   ]
 }
