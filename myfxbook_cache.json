@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-24T23:33:05.870753+00:00",
+  "fetched_at": "2026-11-24T23:48:06.546950+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Malaysia Stock Market May See Renewed Consolidation",
+      "description": "The Malaysia stock market on Tuesday halted the five-day losing streak in which it had slumped almost 40 points or 2.4 percent. The Kuala Lumpur Composite Index now sits just above the 1,560-point plateau although it may turn lower again on Wednesday.",
+      "date": "2026-11-24T22:32:06.541829+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/malaysia-stock-market-may-see-renewed-consolidation/56913"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/ftse-100-modestly-lower-as-mining-stocks-shed-ground/56895"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "CAC 40 Roughly Flat As Stocks Turn In Mixed Performance",
-      "description": "French stocks turned in a mixed performance on Tuesday as investors made cautious moves and looked for directional clues. The market had moved up sharply on Monday, as global stocks, led by technology shares, rallied after NVIDIA reinstated Jensen Huang as the company's CEO.",
-      "date": "2026-11-24T10:15:05.612623+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/cac-40-roughly-flat-as-stocks-turn-in-mixed-performance/56894"
     }
   ]
 }
