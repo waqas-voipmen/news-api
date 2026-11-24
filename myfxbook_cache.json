@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-11-24T22:03:06.063288+00:00",
+  "fetched_at": "2026-11-24T22:48:05.079178+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australia Construction Work Data Due On Wednesday",
+      "description": "Australia will on Wednesday release Q3 figures for construction work done, highlighting a light day for Asia-Pacific economic activity. Work is expected to be up 0.8 percent on quarter following the 2.1 percent decline in the previous three months.",
+      "date": "2026-11-24T21:32:05.074345+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australia-construction-work-data-due-on-wednesday/56910"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Dollar Slides Amid Renewed Concerns Of Fresh Tariff War",
+      "description": "The U.S. Dollar value moved lower on Tuesday as trade tensions renewed after the Wall Street Journal reported that the U.S. could possibly impose tariff on nations subsidizing their domestic industries. In addition, investors doubted the return on investments made on artificial intelligence installations by technology companies leading to a slump in technology stocks.",
+      "date": "2026-11-24T21:01:05.075365+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-dollar-slides-amid-renewed-concerns-of-fresh-tariff-war/56909"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/dax-down-nearly-1-in-cautious-trade/56891"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "EUR",
-      "title": "German Ifo Business Confidence Strongest Since 2023",
-      "description": "German business sentiment improved to the highest level in more than three years in November as assessment of current situation and expectations brightened, monthly survey data from the ifo Institute showed Tuesday. The business climate index rose to 90.6 in November from 90.1 in the previous month. The indicator hit its highest level since May 2023 and marked the seventh consecutive rise. The sc",
-      "date": "2026-11-24T09:44:51.590561+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/german-ifo-business-confidence-strongest-since-2023/56890"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "XAU",
-      "title": "Gold Edges Lower As Traders Await US Inflation Data",
-      "description": "Gold prices traded lower on Tuesday after rebounding from a 14-month low in the previous session.",
-      "date": "2026-11-24T09:26:51.590784+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/gold-edges-lower-as-traders-await-us-inflation-data/56889"
     }
   ]
 }
