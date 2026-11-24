@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-11-24T01:33:06.008480+00:00",
+  "fetched_at": "2026-11-24T01:48:06.212790+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Japanese Market Sharply Higher; Spikes 4.4%",
+      "description": "The Japanese stock market is trading sharply higher in post-holiday session on Tuesday, reversing the sharp losses in the previous session, following the broadly positive cues from Wall Street overnight, with the Nikkei 225 jumping 4.4 percent to above the 59,900 level, with gains in across most sectors led by technology and financial stocks.",
+      "date": "2026-11-24T00:47:06.206758+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/japanese-market-sharply-higher-spikes-44/56868"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Higher Open Called For Indonesia Stock Market",
+      "description": "The Indonesia stock market on Monday wrote a finish to the five-day losing streak in which it had retreated more than 175 points or 3.1 percent. The Jakarta Composite Index now sits just above the 5,215-point plateau and it's expected to open in the green again on Tuesday.",
+      "date": "2026-11-24T00:32:06.209336+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/higher-open-called-for-indonesia-stock-market/56867"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/swiss-market-snaps-4-day-losing-streak-ends-on-bright-note/56856"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "European Markets Close Strong On NVIDIA CEO Return; Tech Sector Leads Rally",
-      "description": "European stocks surged Monday after a five-session losing streak, with the Stoxx 600 climbing 1.81% following NVIDIA's reinstatement of Jensen Huang as chief executive. Tech stocks led gains amid AI optimism, while mining and defense sectors also advanced.",
-      "date": "2026-11-23T17:23:04.634088+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-markets-close-strong-on-nvidia-ceo-return-tech-sector-leads-rally/56855"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "TSX Surges 3% As Stocks Rally On NVIDIA CEO Reinstatement",
-      "description": "The S&P/TSX Composite Index rose more than 3% Monday as technology stocks advanced following NVIDIA's decision to reinstate founder Jensen Huang as President and CEO, while materials rallied on rising precious metals prices.",
-      "date": "2026-11-23T16:37:05.058974+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/tsx-surges-3-as-stocks-rally-on-nvidia-ceo-reinstatement/56854"
     }
   ]
 }
