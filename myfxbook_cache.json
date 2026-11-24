@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-24T03:18:08.417558+00:00",
+  "fetched_at": "2026-11-24T03:33:06.376658+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Asian Markets A Sea Of Green",
+      "description": "Asian stock markets are a sea of green on Tuesday, following the broadly positive cues from Wall Street overnight, boosted by markets in South Korea, Japan and Taiwan amid a relief rally in semiconductor supplier stocks following the reinstatement of AI chipmaker Nvidia's CEO Jensen Huang. Easing crude oil prices also aided market sentiment. Asian markets closed mostly lower on Monday.",
+      "date": "2026-11-24T02:21:06.371144+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/asian-markets-a-sea-of-green/56871"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/kospi-poised-to-end-losing-streak/56859"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Japan PMI Data Due On Tuesday",
-      "description": "Japan will on Tuesday see preliminary November results for its manufacturing, services and composite PMIs from S&P Global, highlighting a light day for Asia-Pacific economic activity.",
-      "date": "2026-11-23T21:32:09.784396+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/japan-pmi-data-due-on-tuesday/56858"
     }
   ]
 }
