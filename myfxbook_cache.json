@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-24T00:33:05.821774+00:00",
+  "fetched_at": "2026-11-24T00:48:05.666036+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Tech Shares Likely To Extend Taiwan Stock Market Recovery",
+      "description": "The Taiwan stock market on Monday ended the brutal two-day slide in which it had crashed more than 4,150 points or 10.3 percent. The Taiwan Stock Exchange now sits just above the 36,810-point plateau and it may add to its winnings on Tuesday.",
+      "date": "2026-11-23T23:32:05.660356+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/tech-shares-likely-to-extend-taiwan-stock-market-recovery/56863"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/uk-private-sector-growth-slows/56848"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "CHF",
-      "title": "Swiss Franc Rises Against Majors",
-      "description": "The Swiss franc strengthened against other major currencies in the European session on Monday.",
-      "date": "2026-11-23T11:05:34.054617+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/swiss-franc-rises-against-majors/56847"
     }
   ]
 }
