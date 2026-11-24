@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-24T05:33:04.364024+00:00",
+  "fetched_at": "2026-11-24T05:48:04.417551+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "European Shares Poised For A Breather After Sharp Rally",
+      "description": "European stocks are seen opening mixed on Tuesday after posting their strongest gains in more than six months the previous day, led by technology and semiconductor stocks.",
+      "date": "2026-11-24T04:32:04.412433+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-shares-poised-for-a-breather-after-sharp-rally/56876"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/singapore-stock-market-tipped-to-open-in-the-green/56862"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Malaysia Stock Market May Halt Its Slide On Tuesday",
-      "description": "The Malaysia stock market has tracked lower in five straight sessions, sinking almost 40 points or 2.4 percent along the way. The Kuala Lumpur Composite Index now sits just beneath the 1,550-point plateau although it's expected to find support on Tuesday.",
-      "date": "2026-11-23T22:32:06.201239+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/malaysia-stock-market-may-halt-its-slide-on-tuesday/56861"
     }
   ]
 }
