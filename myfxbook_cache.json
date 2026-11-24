@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-24T13:48:10.899480+00:00",
+  "fetched_at": "2026-11-24T14:03:06.223270+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "Dollar Tree Q3 EPS, Comps Rise; Sees Comps Growth In Q4; Lifts FY26 Outlook; Stock Gains",
+      "description": "Shares of Dollar Tree Inc. were gaining around 8 percent in the pre-market activity on Nasdaq, after the discount retailer on Tuesday reported higher third-quarter earnings per share and comparable sales. Further, the firm issued positive fourth-quarter comparable store sales outlook and raised fiscal 2026 earnings view on strong demand.",
+      "date": "2026-11-24T12:47:06.217997+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/dollar-tree-q3-eps-comps-rise-sees-comps-growth-in-q4-lifts-fy26-outlook-stock-gains/56901"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/european-shares-mixed-after-tech-rally/56885"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Asian Shares Rally As Huang's Return Revives AI Trade",
-      "description": "Asian stocks advanced on Tuesday, with technology shares rallying as Jensen Huang's return to the helm of Nvidia helped to remove a key level of uncertainty from the AI trade.",
-      "date": "2026-11-24T07:41:12.813451+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/asian-shares-rally-as-huangs-return-revives-ai-trade/56883"
     }
   ]
 }
