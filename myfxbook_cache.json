@@ -1,6 +1,78 @@
 {
-  "fetched_at": "2026-11-24T11:06:51.593938+00:00",
+  "fetched_at": "2026-11-24T13:33:05.615368+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "CAD",
+      "title": "Canadian Stocks Look Headed For Weak Start",
+      "description": "Weak Canadian and U.S. futures and lower precious metals prices point to a weak start on Bay Street Tuesday morning.\n\nThe buoyancy over the reinstatement of Jensen Huang as Chief Executive Office of NVIDI appears to have subsided.",
+      "date": "2026-11-24T12:12:05.609253+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/canadian-stocks-look-headed-for-weak-start/56899"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "DICK'S Sporting Goods Raises FY26 View After Strong Q3; Stock Up 18%",
+      "description": "Shares of Dick's Sporting Goods Inc. were climbing around 18 percent in pre-market activity on the NYSE after the sports retailer on Tuesday raised fiscal 2026 outlook, after reporting significant growth in third-quarter profit and net sales.",
+      "date": "2026-11-24T11:51:05.610428+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/dicks-sporting-goods-raises-fy26-view-after-strong-q3-stock-up-18/56898"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Yen Falls Amid Global AI Sector Revival",
+      "description": "The Japanese yen weakened against other major currencies in the European session on Tuesday, amid revived enthusiasm for the artificial intelligence trade.",
+      "date": "2026-11-24T11:43:05.610774+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/yen-falls-amid-global-ai-sector-revival/56897"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "FTSE 100 Modestly Lower As Mining Stocks Shed Ground",
+      "description": "The U.K. stock market's benchmark index FTSE 100 was down in negative territory around late morning on Tuesday, weighed down to a large extent by sharp losses in the mining sector due to weak metals prices. Banks and real estate stocks too shed notable ground.",
+      "date": "2026-11-24T10:38:05.612114+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/ftse-100-modestly-lower-as-mining-stocks-shed-ground/56895"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "CAC 40 Roughly Flat As Stocks Turn In Mixed Performance",
+      "description": "French stocks turned in a mixed performance on Tuesday as investors made cautious moves and looked for directional clues. The market had moved up sharply on Monday, as global stocks, led by technology shares, rallied after NVIDIA reinstated Jensen Huang as the company's CEO.",
+      "date": "2026-11-24T10:15:05.612623+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/cac-40-roughly-flat-as-stocks-turn-in-mixed-performance/56894"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Yen Falls Against Majors",
+      "description": "The Japanese yen weakened against other major currencies in the European session on Tuesday.",
+      "date": "2026-11-24T10:07:05.613043+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/yen-falls-against-majors/56892"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -84,78 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/asian-shares-rally-as-huangs-return-revives-ai-trade/56883"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Europe Car Registrations Maintain Momentum: ACEA",
-      "description": "Europe's car market maintained its positive momentum during January to October period, the European Automobile Manufacturers' Association, or ACEA, said Tuesday. Car registrations increased 5.4 percent in the first ten months of the year.",
-      "date": "2026-11-24T07:33:12.813710+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/europe-car-registrations-maintain-momentum-acea/56881"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "European Shares Poised For A Breather After Sharp Rally",
-      "description": "European stocks are seen opening mixed on Tuesday after posting their strongest gains in more than six months the previous day, led by technology and semiconductor stocks.",
-      "date": "2026-11-24T04:32:04.412433+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-shares-poised-for-a-breather-after-sharp-rally/56876"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Japan Private Sector Growth Softest In 6 Months",
-      "description": "Japan's private sector grew at the slowest pace in six months in November amid softer sales growth and intense cost pressures, flash survey data from S&P Global showed Tuesday. The flash composite output index dropped to 51.5 in November from 52.1 in the previous month.",
-      "date": "2026-11-24T04:28:04.358769+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/japan-private-sector-growth-softest-in-6-months/56875"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australian Market Extends Early Strong Gains In Mid-market",
-      "description": "The Australian stock market is extending its early strong gains in mid-market trading on Tuesday, snapping an eight-session losing streak, following the broadly positive cues from Wall Street overnight. The benchmark S&P/ASX 200 index is moving above the 8,700 level, with gains across most sectors led by mining and technology stocks.",
-      "date": "2026-11-24T02:33:05.541779+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-market-extends-early-strong-gains-in-mid-market/56872"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Asian Markets A Sea Of Green",
-      "description": "Asian stock markets are a sea of green on Tuesday, following the broadly positive cues from Wall Street overnight, boosted by markets in South Korea, Japan and Taiwan amid a relief rally in semiconductor supplier stocks following the reinstatement of AI chipmaker Nvidia's CEO Jensen Huang. Easing crude oil prices also aided market sentiment. Asian markets closed mostly lower on Monday.",
-      "date": "2026-11-24T02:21:06.371144+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/asian-markets-a-sea-of-green/56871"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Indian Markets Closed For Guru Nanak Jayanti",
-      "description": "Indian stock markets remain closed today for Guru Nanak Jayanti. Benchmark indexes Sensex and Nifty plunged around 1.8 percent each on Monday as a global stock market rout prompted traders to lock in gains after four straight weeks of gains.",
-      "date": "2026-11-24T01:41:07.474833+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-markets-closed-for-guru-nanak-jayanti/56870"
     }
   ]
 }
