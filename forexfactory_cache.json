@@ -320,7 +320,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-14.7",
+        "actual_src": "forexfactory"
       },
       {
         "title": "HPI m/m",
@@ -332,7 +333,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.0%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "S&P/CS Composite-20 HPI y/y",
@@ -344,7 +346,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "2.6%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "CB Consumer Confidence",
@@ -914,5 +917,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-24T14:00:52.440395+00:00"
 }
