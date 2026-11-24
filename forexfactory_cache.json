@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-24T06:18:20.261722+00:00",
+  "fetched_at": "2026-11-24T10:17:25.259555+00:00",
   "periods": {
     "week": [
       {
@@ -253,11 +253,12 @@
         "date": "2026-11-24T04:00:00-05:00",
         "impact": "Low",
         "forecast": "90.5",
-        "previous": "90.2",
+        "previous": "90.1",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "90.6",
+        "actual_src": "forexfactory"
       },
       {
         "title": "CBI Realized Sales",

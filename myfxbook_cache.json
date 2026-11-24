@@ -1,6 +1,66 @@
 {
-  "fetched_at": "2026-11-24T06:18:06.182059+00:00",
+  "fetched_at": "2026-11-24T10:17:12.816417+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Sanofi To Buy Insmed For $41 Bln In Cash; Shares Gain",
+      "description": "With a view to strengthening its presence in respiratory and rare diseases, French drug major Sanofi announced Tuesday an agreement to acquire biotechnology firm Insmed Inc. for $175 per share in cash, reflecting a total equity value of around $41.0 billion or \u20ac37.6 billion. According to the French drug major, Insmed is a transformative acquisition that will provide it with access to...",
+      "date": "2026-11-24T09:09:12.799915+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/sanofi-to-buy-insmed-for-41-bln-in-cash-shares-gain/56888"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Oil Prices Hover Near Three-month Low On US-Iran Deal Hopes",
+      "description": "Oil prices traded lower on Tuesday, hitting a three-month low due to increased Middle Eastern supplies and signs of renewed diplomatic efforts to end the U.S.-Iran conflict.",
+      "date": "2026-11-24T08:50:12.812971+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/oil-prices-hover-near-three-month-low-on-us-iran-deal-hopes/56887"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "European Shares Mixed After Tech Rally",
+      "description": "European stocks were mixed on Tuesday after rallying in the previous session amid revived enthusiasm for the artificial intelligence trade.",
+      "date": "2026-11-24T08:26:12.813200+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-shares-mixed-after-tech-rally/56885"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Asian Shares Rally As Huang's Return Revives AI Trade",
+      "description": "Asian stocks advanced on Tuesday, with technology shares rallying as Jensen Huang's return to the helm of Nvidia helped to remove a key level of uncertainty from the AI trade.",
+      "date": "2026-11-24T07:41:12.813451+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/asian-shares-rally-as-huangs-return-revives-ai-trade/56883"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Europe Car Registrations Maintain Momentum: ACEA",
+      "description": "Europe's car market maintained its positive momentum during January to October period, the European Automobile Manufacturers' Association, or ACEA, said Tuesday. Car registrations increased 5.4 percent in the first ten months of the year.",
+      "date": "2026-11-24T07:33:12.813710+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/europe-car-registrations-maintain-momentum-acea/56881"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -96,66 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/higher-open-called-for-indonesia-stock-market/56867"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Hong Kong Stock Market Poised To Open To The Upside",
-      "description": "The Hong Kong stock market has finished lower in five straight sessions, sinking almost 925 points or 3.9 percent in that span. The Hang Seng now sits just above the 22,380-point plateau although it may halt its slide on Tuesday.",
-      "date": "2026-11-24T00:17:05.050462+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/hong-kong-stock-market-poised-to-open-to-the-upside/56866"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australian Markets Sharply Higher",
-      "description": "The Australian stock market is sharply higher on Tuesday, snapping an eight-session losing streak, following the broadly positive cues from Wall Street overnight. The benchmark S&P/ASX 200 index is moving up to near the 8,700 level, with gains across most sectors led by mining and technology stocks.",
-      "date": "2026-11-24T00:06:05.051647+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-markets-sharply-higher/56865"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "China Stock Market May See Additional Support On Tuesday",
-      "description": "The China stock market on Monday snapped the two-day slide in which it had fallen more than 50 points or 1.4 percent. The Shanghai Composite Index now sits just beneath the 3,540-point plateau and it may extend its gains on Tuesday.",
-      "date": "2026-11-24T00:02:05.051865+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/china-stock-market-may-see-additional-support-on-tuesday/56864"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Tech Shares Likely To Extend Taiwan Stock Market Recovery",
-      "description": "The Taiwan stock market on Monday ended the brutal two-day slide in which it had crashed more than 4,150 points or 10.3 percent. The Taiwan Stock Exchange now sits just above the 36,810-point plateau and it may add to its winnings on Tuesday.",
-      "date": "2026-11-23T23:32:05.660356+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/tech-shares-likely-to-extend-taiwan-stock-market-recovery/56863"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Singapore Stock Market Tipped To Open In The Green",
-      "description": "The Singapore stock market has finished lower in two straight sessions, sinking more than 125 points or 2.5 percent in that span. The Straits Times Index now sits just above the 4,950-point plateau although it may find traction on Tuesday.",
-      "date": "2026-11-23T23:02:05.317980+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/singapore-stock-market-tipped-to-open-in-the-green/56862"
     }
   ]
 }
