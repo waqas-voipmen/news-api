@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-24T18:48:05.162022+00:00",
+  "fetched_at": "2026-11-24T19:03:05.673803+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "CHF",
+      "title": "Swiss Market Ends Flat After Choppy Session",
+      "description": "Switzerland's benchmark index SMI slipped into negative territory Tuesday morning after a brief spell above the flat line, and despite climbing higher around late afternoon, ended the session roughly flat.",
+      "date": "2026-11-24T17:50:05.668474+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/swiss-market-ends-flat-after-choppy-session/56908"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/gold-edges-lower-as-traders-await-us-inflation-data/56889"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Sanofi To Buy Insmed For $41 Bln In Cash; Shares Gain",
-      "description": "With a view to strengthening its presence in respiratory and rare diseases, French drug major Sanofi announced Tuesday an agreement to acquire biotechnology firm Insmed Inc. for $175 per share in cash, reflecting a total equity value of around $41.0 billion or \u20ac37.6 billion. According to the French drug major, Insmed is a transformative acquisition that will provide it with access to...",
-      "date": "2026-11-24T09:09:12.799915+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/sanofi-to-buy-insmed-for-41-bln-in-cash-shares-gain/56888"
     }
   ]
 }
