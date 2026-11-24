@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-11-24T23:03:06.257359+00:00",
+  "fetched_at": "2026-11-24T23:18:07.185099+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Japan Stock Market May Hand Back Some Of Tuesday's Gains",
+      "description": "The Japan stock market bounced higher again on Tuesday, one session after ending the two-day winning streak in which it had advanced more than 580 points or 1 percent. The Nikkei 225 now sits just beneath the 58,650-point plateau although it may head south again on Wednesday.",
+      "date": "2026-11-24T22:17:07.180715+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/japan-stock-market-may-hand-back-some-of-tuesdays-gains/56912"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Renewed Tech Worries May Weigh On KOSPI",
+      "description": "The South Korea stock market on Tuesday halted the two-day slide in which it had plunged almost 430 points or 8 percent. The KOSPI now sits just beneath the 5,000-point plateau although it may had back some of those gains on Wednesday.",
+      "date": "2026-11-24T22:02:07.181873+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/renewed-tech-worries-may-weigh-on-kospi/56911"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/cac-40-roughly-flat-as-stocks-turn-in-mixed-performance/56894"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Yen Falls Against Majors",
-      "description": "The Japanese yen weakened against other major currencies in the European session on Tuesday.",
-      "date": "2026-11-24T10:07:05.613043+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/yen-falls-against-majors/56892"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "EUR",
-      "title": "DAX Down Nearly 1% In Cautious Trade",
-      "description": "A day after moving up sharply amid renewed optimism about AI trade following the reinstatement of Jensen Huang as CEO of Nvidia, German stocks turned weak with investors making cautious moves, looking for fresh directional clues.",
-      "date": "2026-11-24T09:57:51.589312+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/dax-down-nearly-1-in-cautious-trade/56891"
     }
   ]
 }
