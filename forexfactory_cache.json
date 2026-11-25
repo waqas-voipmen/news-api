@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-25T09:03:18.441491+00:00",
+  "fetched_at": "2026-11-25T14:18:23.450792+00:00",
   "periods": {
     "week": [
       {
@@ -508,15 +508,15 @@
       {
         "title": "German 10-y Bond Auction",
         "country": "EUR",
-        "date": "2026-11-25T05:42:00-05:00",
+        "date": "2026-11-25T05:32:00-05:00",
         "impact": "Low",
         "forecast": "",
         "previous": "3.37|1.1",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "time_label": "Tentative",
-        "actual": ""
+        "actual": "3.22|1.4",
+        "actual_src": "forexfactory"
       },
       {
         "title": "FOMC Member Bowman Speaks",
@@ -540,7 +540,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.3%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Prelim GDP q/q",
@@ -552,7 +553,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "4.3%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Prelim GDP Price Index q/q",
@@ -564,7 +566,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "1.9%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Core Durable Goods Orders m/m",
@@ -576,7 +579,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.5%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Durable Goods Orders m/m",
@@ -588,7 +592,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.2%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Personal Income m/m",
@@ -596,11 +601,12 @@
         "date": "2026-11-25T08:30:00-05:00",
         "impact": "Low",
         "forecast": "0.4%",
-        "previous": "0.2%",
+        "previous": "0.3%",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.7%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Personal Spending m/m",
@@ -608,11 +614,12 @@
         "date": "2026-11-25T08:30:00-05:00",
         "impact": "Low",
         "forecast": "0.4%",
-        "previous": "0.5%",
+        "previous": "0.6%",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.3%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Unemployment Claims",
@@ -620,11 +627,12 @@
         "date": "2026-11-25T08:30:00-05:00",
         "impact": "Low",
         "forecast": "201K",
-        "previous": "203K",
+        "previous": "202K",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "189K",
+        "actual_src": "forexfactory"
       },
       {
         "title": "New Home Sales",
