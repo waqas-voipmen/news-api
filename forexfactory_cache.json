@@ -450,7 +450,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.5%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Construction Work Done q/q",
@@ -938,5 +939,5 @@
       }
     ]
   },
-  "actuals_at": "2026-11-25T00:31:04.255591+00:00"
+  "actuals_at": "2026-11-25T00:32:17.741777+00:00"
 }
