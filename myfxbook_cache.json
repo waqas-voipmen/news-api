@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-25T16:18:07.337840+00:00",
+  "fetched_at": "2026-11-25T16:33:07.087470+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Jobless Claims Pull Back More Than Expected, Matching Multi-Decade Low",
+      "description": "The Labor Department released a report on Wednesday showing first-time claims for U.S. unemployment benefits fell by much more than expected in the week ended November 21st. The report said initial jobless claims dropped to 189,000, a decrease of 13,000 from the previous week's revised level of 202,000.  Economists had expected jobless claims to slip to 200,000.",
+      "date": "2026-11-25T15:23:07.082509+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-jobless-claims-pull-back-more-than-expected-matching-multi-decade-low/56958"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/oil-prices-recoup-early-losses-with-supply-risks-in-focus/56941"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "European Shares Edge Higher Ahead Of US PCE Inflation Data",
-      "description": "European stocks were moving higher on Wednesday as crude oil prices fell around 1 percent despite further attacks around the Strait of Hormuz.",
-      "date": "2026-11-25T08:29:07.912522+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-shares-edge-higher-ahead-of-us-pce-inflation-data/56939"
     }
   ]
 }
