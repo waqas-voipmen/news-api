@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-25T19:03:06.957291+00:00",
+  "fetched_at": "2026-11-25T20:03:14.198730+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Europe Shares Finish Under Water On Wednesday",
+      "description": "The major European stock markets could not hold early gains on Wednesday as lingering concerns about the AI continued to weigh on investors. The major averages opened higher but began tracking to the downside, slipping into the red for good around midday.",
+      "date": "2026-11-25T18:15:14.185703+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/europe-shares-finish-under-water-on-wednesday/56963"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/cac-40-advances-as-luxury-stocks-move-up/56947"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "CHF",
-      "title": "Swiss Franc Rises Against Majors",
-      "description": "The Swiss franc strengthened against other major currencies in the European session on Wednesday.",
-      "date": "2026-11-25T10:07:07.911467+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/swiss-franc-rises-against-majors/56945"
     }
   ]
 }
