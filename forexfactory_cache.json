@@ -424,7 +424,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.5%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "CPI y/y",
@@ -436,7 +437,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "4.9%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Trimmed Mean CPI m/m",
@@ -460,7 +462,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.9%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "BOJ Core CPI y/y",
@@ -934,5 +937,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-25T00:31:04.255591+00:00"
 }
