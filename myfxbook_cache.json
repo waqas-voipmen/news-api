@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-25T17:18:16.241012+00:00",
+  "fetched_at": "2026-11-25T17:33:08.093482+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. New Home Sales Spike From Downwardly Revised Level In October",
+      "description": "New home sales in the U.S. skyrocketed from a downwardly revised level in the month of October, according to a report released by the Commerce Department on Wednesday. The Commerce Department said new home sales soared by 14.2 percent to an annual rate of 701,000 in October after plummeting by 9.7 percent to a revised rate of 614,000 in September.",
+      "date": "2026-11-25T16:28:08.083377+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-new-home-sales-spike-from-downwardly-revised-level-in-october/56962"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/swiss-franc-rises-against-majors/56945"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Indian Shares Stage Strong Recovery",
-      "description": "Indian shares ended Wednesday's session on a buoyant note, bringing benchmark indexes Sensex and Nifty closer to their record highs as softer crude oil prices, unwinding of the AI trade across the globe and renewed foreign fund inflows outweighed fresh U.S. tariff worries.",
-      "date": "2026-11-25T09:57:07.911660+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-stage-strong-recovery/56944"
     }
   ]
 }
