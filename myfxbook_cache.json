@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-25T17:03:07.724387+00:00",
+  "fetched_at": "2026-11-25T17:18:16.241012+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. GDP Surges Much More Than Previously Estimated In Q3",
+      "description": "A report released by the Commerce Department on Wednesday showed the U.S. economy grew by much more than previously estimated in the third quarter of 2026. The Commerce Department said gross domestic product shot up by 4.3 percent in the third quarter compared to the 3.4 percent jump previously estimated. Economists had expected the pace of growth to be upwardly revised to 3.6 percent.",
+      "date": "2026-11-25T12:57:07.908821+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-gdp-surges-much-more-than-previously-estimated-in-q3/56961"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indian-shares-stage-strong-recovery/56944"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "DAX Roughly Flat As Investors Await U.S. PCE Data",
-      "description": "German stocks moved in a tight range Wednesday morning as concerns about interest rates and possibile hike in tariffs, and uncertainty about returns on AI infrastructure spending rendered the mood cautious.",
-      "date": "2026-11-25T09:33:07.911940+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/dax-roughly-flat-as-investors-await-us-pce-data/56943"
     }
   ]
 }
