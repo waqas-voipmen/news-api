@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-25T23:33:06.235492+00:00",
+  "fetched_at": "2026-11-25T23:48:10.106176+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Malaysia Stock Market May Run Out Of Steam On Thursday",
+      "description": "The Malaysia stock market has ticked higher in back-to-back sessions, rising almost 15 points or 1 percent along the way. The Kuala Lumpur Composite Index now sits just above the 1,560-point plateau although the rally may stall on Thursday.",
+      "date": "2026-11-25T22:34:10.099796+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/malaysia-stock-market-may-run-out-of-steam-on-thursday/56969"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/us-durable-goods-orders-rise-less-than-expected-in-october/56955"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Weekly Jobless Claims Fall Much More Than Expected",
-      "description": "The Labor Department released a report on Wednesday showing first-time claims for U.S. unemployment benefits fell by much more than expected in the week ended November 21st.",
-      "date": "2026-11-25T12:49:07.910279+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-weekly-jobless-claims-fall-much-more-than-expected/56954"
     }
   ]
 }
