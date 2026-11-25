@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-25T16:48:06.456316+00:00",
+  "fetched_at": "2026-11-25T17:03:07.724387+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Durable Goods Orders Rise 0.2% In October, Less Than Expected",
+      "description": "New orders for U.S. manufactured durable goods increased by less than expected in the month of October, according to a report released by the Commerce Department on Wednesday. The Commerce Department said durable goods orders rose by 0.2 percent in October after surging by an upwardly revised 2.0 percent in September.",
+      "date": "2026-11-25T15:55:07.719169+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-durable-goods-orders-rise-02-in-october-less-than-expected/56960"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/dax-roughly-flat-as-investors-await-us-pce-data/56943"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "XAU",
-      "title": "Gold Edges Lower Ahead Of US PCE Inflation Data",
-      "description": "Gold prices drifted lower on Wednesday as investors braced for today's U.S. inflation reading and a possible tariff announcement from the Trump administration to replace levies struck down by the Supreme Court earlier this year.",
-      "date": "2026-11-25T09:23:07.912136+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/gold-edges-lower-ahead-of-us-pce-inflation-data/56942"
     }
   ]
 }
