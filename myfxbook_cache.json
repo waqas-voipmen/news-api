@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-25T00:33:07.164275+00:00",
+  "fetched_at": "2026-11-25T00:48:10.014080+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Rally May Stall For Taiwan Stock Market",
+      "description": "The Taiwan stock market has finished higher in back-to-back sessions, soaring more than 4,100 points or 10.1 percent. The Taiwan Stock Exchange now sits just above the 40,120-point plateau although it may run out of steam on Wednesday.",
+      "date": "2026-11-24T23:32:10.008241+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/rally-may-stall-for-taiwan-stock-market/56915"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/dicks-sporting-goods-raises-fy26-view-after-strong-q3-stock-up-18/56898"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Yen Falls Amid Global AI Sector Revival",
-      "description": "The Japanese yen weakened against other major currencies in the European session on Tuesday, amid revived enthusiasm for the artificial intelligence trade.",
-      "date": "2026-11-24T11:43:05.610774+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/yen-falls-amid-global-ai-sector-revival/56897"
     }
   ]
 }
