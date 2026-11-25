@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-25T22:33:11.827142+00:00",
+  "fetched_at": "2026-11-25T22:48:05.987730+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "South Korea Rate Decision On Tap For Thursday",
+      "description": "The Bank of Korea will wrap up its monetary policy meeting on Thursday and then announce its decision on interest rates, highlighting a modest day for Asia-Pacific economic activity. The BoK is expected to hike its benchmark lending rate by 25 basis points, to 3.25 percent from 3.00 percent.",
+      "date": "2026-11-25T21:34:05.984052+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/south-korea-rate-decision-on-tap-for-thursday/56966"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/ftse-100-pares-early-gains/56951"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "CHF",
-      "title": "Swiss Franc Rallies Amid U.S. Tariff Threats, AI Bubble Fears",
-      "description": "The Swiss franc strengthened against other major currencies in the European session on Wednesday, as news that the U.S. administration is thinking of imposing further tariffs on allies and new concerns about the sustainability of the AI boom, reduced risk appetite.",
-      "date": "2026-11-25T11:41:07.910954+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/swiss-franc-rallies-amid-us-tariff-threats-ai-bubble-fears/56950"
     }
   ]
 }
