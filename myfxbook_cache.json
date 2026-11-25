@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-25T00:03:06.399581+00:00",
+  "fetched_at": "2026-11-25T00:18:05.950866+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Singapore Stock Market May Open In The Red On Wednesday",
+      "description": "The Singapore stock market on Tuesday ended the two-day losing streak in which it had fallen more than 125 points or 2.5 percent. The Straits Times Index now sits just beneath the 4,960-point plateau although it may see renewed selling pressure on Wednesday.",
+      "date": "2026-11-24T23:02:05.946375+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/singapore-stock-market-may-open-in-the-red-on-wednesday/56914"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/yen-falls-amid-global-ai-sector-revival/56897"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "FTSE 100 Modestly Lower As Mining Stocks Shed Ground",
-      "description": "The U.K. stock market's benchmark index FTSE 100 was down in negative territory around late morning on Tuesday, weighed down to a large extent by sharp losses in the mining sector due to weak metals prices. Banks and real estate stocks too shed notable ground.",
-      "date": "2026-11-24T10:38:05.612114+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/ftse-100-modestly-lower-as-mining-stocks-shed-ground/56895"
     }
   ]
 }
