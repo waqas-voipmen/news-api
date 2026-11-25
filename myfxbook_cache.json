@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-11-25T23:18:10.160387+00:00",
+  "fetched_at": "2026-11-25T23:33:06.235492+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Japan Stock Market May Extend Wednesday's Losses",
+      "description": "The Japan stock market turned lower again on Wednesday, one day after ending the two-day winning streak in which it had advanced more than 580 points or 1 percent. The Nikkei 225 now sits just above the 57,000-point plateau and it may take further damage on Thursday.",
+      "date": "2026-11-25T22:21:06.231324+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/japan-stock-market-may-extend-wednesdays-losses/56968"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "KOSPI May Spin Its Wheels Again On Thursday",
+      "description": "The South Korea stock market headed south again on Wednesday, one day after halting the two-day slide in which it had plunged almost 430 points or 8 percent. The KOSPI now sits just beneath the 4,700-point plateau and it may remain stuck in neutral on Thursday.",
+      "date": "2026-11-25T22:19:06.231645+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/kospi-may-spin-its-wheels-again-on-thursday/56967"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/us-weekly-jobless-claims-fall-much-more-than-expected/56954"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. PCE Price Index Rises 0.3% In October, In Line With Estimates",
-      "description": "Consumer prices in the U.S. increased in line with economist estimates in the month of October, according to a closely watched report released by the Commerce Department on Wednesday.",
-      "date": "2026-11-25T12:45:07.910481+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-pce-price-index-rises-03-in-october-in-line-with-estimates/56953"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "GBP",
-      "title": "FTSE 100 Pares Early Gains",
-      "description": "The UK market's benchmark index FTSE 100 pared early gains and was down slightly a little past noon on Wednesday, weighed down by losses in mining and bank stocks. FMCG stocks found good support.",
-      "date": "2026-11-25T11:42:07.910692+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/ftse-100-pares-early-gains/56951"
     }
   ]
 }
