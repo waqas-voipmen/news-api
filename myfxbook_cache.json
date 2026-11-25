@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-25T08:18:05.799806+00:00",
+  "fetched_at": "2026-11-25T08:46:13.292602+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Asian Shares Tumble As AI Fears Deepen",
+      "description": "Asian stocks ended mostly lower on Wednesday, with Japanese and South Korean markets leading regional losses, on doubts over whether massive technology spending can generate sufficient returns.",
+      "date": "2026-11-25T07:42:13.249344+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/asian-shares-tumble-as-ai-fears-deepen/56937"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/rally-may-stall-for-taiwan-stock-market/56915"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Singapore Stock Market May Open In The Red On Wednesday",
-      "description": "The Singapore stock market on Tuesday ended the two-day losing streak in which it had fallen more than 125 points or 2.5 percent. The Straits Times Index now sits just beneath the 4,960-point plateau although it may see renewed selling pressure on Wednesday.",
-      "date": "2026-11-24T23:02:05.946375+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/singapore-stock-market-may-open-in-the-red-on-wednesday/56914"
     }
   ]
 }
