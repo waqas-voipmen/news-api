@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-25T22:03:13.513582+00:00",
+  "fetched_at": "2026-11-25T22:18:13.280473+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Dollar Slips As Investors Assess U.S. Economic Data Releases",
+      "description": "The U.S. Dollar value ticked lower on Wednesday amid economic data releases indicating mixed results with the personal consumption expenditures index exceeding expectations while the jobless claims coming in lower than expected. Uncertainty increased with the U.S. imposing a new wave of tariffs on several countries while technology sector continued to give ground due to artificial intelligence-rel",
+      "date": "2026-11-25T21:01:13.260691+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-dollar-slips-as-investors-assess-us-economic-data-releases/56964"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/swiss-franc-rallies-amid-us-tariff-threats-ai-bubble-fears/56950"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "CAC 40 Advances As Luxury Stocks Move Up",
-      "description": "France's equity benchmark CAC 40 climbed higher on Wednesday, led by strong gains in luxury stock. Data showing an improvement in French consumer confidence in November, and the French National Assembly's nod to the year-end budget bill helped underpin sentiment.",
-      "date": "2026-11-25T10:43:07.911153+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/cac-40-advances-as-luxury-stocks-move-up/56947"
     }
   ]
 }
