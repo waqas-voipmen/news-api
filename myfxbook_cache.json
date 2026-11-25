@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-25T16:33:07.087470+00:00",
+  "fetched_at": "2026-11-25T16:48:06.456316+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Consumer Prices Rise 0.3% In October, In Line With Estimates",
+      "description": "Consumer prices in the U.S. increased in line with economist estimates in the month of October, according to a closely watched report released by the Commerce Department on Wednesday. The Commerce Department said its personal consumption expenditures (PCE) price index rose by 0.3 percent in October after climbing by 0.5 percent in September.",
+      "date": "2026-11-25T15:34:06.451642+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-consumer-prices-rise-03-in-october-in-line-with-estimates/56959"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/gold-edges-lower-ahead-of-us-pce-inflation-data/56942"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "WTI",
-      "title": "Oil Prices Recoup Early Losses With Supply Risks In Focus",
-      "description": "Oil prices were little changed on Wednesday, recovering early losses after Yemen's Houth group claimed that it had carried out two military operations targeting the Ras Tanura oil refinery in Saudi Arabia's Eastern province and the financial center in King Abdullah Economic City in Riyadh.",
-      "date": "2026-11-25T09:08:07.912333+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/oil-prices-recoup-early-losses-with-supply-risks-in-focus/56941"
     }
   ]
 }
