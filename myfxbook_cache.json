@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-26T21:33:07.356678+00:00",
+  "fetched_at": "2026-11-26T22:18:06.777795+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "EUR",
+      "title": "Spain's Pablo Hern\u00e1ndez De Cos To Be Next ECB Chief",
+      "description": "Spain's Pablo Hern\u00e1ndez de Cos is set to succeed Christine Lagarde as the European Central Bank president when the latter steps down in February next year.\nHe would be the first Spaniard to be at the helm of the central bank for the single-currency bloc.",
+      "date": "2026-11-26T21:02:06.771175+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/spains-pablo-hernndez-de-cos-to-be-next-ecb-chief/57011"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/asian-markets-trade-mostly-higher/56980"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Indian Shares Set To Follow Asian Peers Higher",
-      "description": "Indian shares look set to open higher on Thursday as fears over AI intensified and Washington said a proposed new tariff of up to 25 percent on Indian goods could be lowered to 17 percent if the two sides reach a trade agreement.",
-      "date": "2026-11-26T01:42:11.677056+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-set-to-follow-asian-peers-higher/56979"
     }
   ]
 }
