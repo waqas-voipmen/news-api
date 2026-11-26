@@ -845,7 +845,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "2.9%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "French Consumer Spending m/m",
@@ -981,5 +982,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-26T23:31:46.146064+00:00"
 }
