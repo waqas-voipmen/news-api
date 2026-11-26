@@ -707,7 +707,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "12.2%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "RBA Bulletin",
@@ -964,5 +965,6 @@
         "actual": ""
       }
     ]
-  }
+  },
+  "actuals_at": "2026-11-26T00:30:49.509796+00:00"
 }
