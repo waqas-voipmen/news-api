@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-26T01:03:05.935140+00:00",
+  "fetched_at": "2026-11-26T01:18:05.690532+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Soft Start Expected For China Stock Market",
+      "description": "The China stock market on Wednesday ended the two-day winning streak in which it had risen more than 15 points or 0.4 percent in that span. The Shanghai Composite Index now sits just above the 3,475-point plateau and it's likely to open under pressure again on Thursday.",
+      "date": "2026-11-26T00:04:05.686224+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/soft-start-expected-for-china-stock-market/56973"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/us-durable-goods-orders-rise-02-in-october-less-than-expected/56960"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Consumer Prices Rise 0.3% In October, In Line With Estimates",
-      "description": "Consumer prices in the U.S. increased in line with economist estimates in the month of October, according to a closely watched report released by the Commerce Department on Wednesday. The Commerce Department said its personal consumption expenditures (PCE) price index rose by 0.3 percent in October after climbing by 0.5 percent in September.",
-      "date": "2026-11-25T15:34:06.451642+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-consumer-prices-rise-03-in-october-in-line-with-estimates/56959"
     }
   ]
 }
