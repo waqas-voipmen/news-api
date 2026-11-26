@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-26T00:03:06.192150+00:00",
+  "fetched_at": "2026-11-26T00:18:06.143051+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Singapore Stock Market May Give Up Support At 4,900 Points",
+      "description": "The Singapore stock market turned lower again on Wednesday, one day after snapping the two-day losing streak in which it had fallen more than 125 points or 2.5 percent. The Straits Times Index now sits just above the 4,930-point plateau and the losses may accelerate on Thursday.",
+      "date": "2026-11-25T23:04:06.138357+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/singapore-stock-market-may-give-up-support-at-4900-points/56970"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/us-gdp-surges-much-more-than-previously-estimated-in-q3/56956"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Durable Goods Orders Rise Less Than Expected In October",
-      "description": "New orders for U.S. manufactured durable goods increased by less than expected in the month of October, according to a report released by the Commerce Department on Wednesday.",
-      "date": "2026-11-25T12:54:07.910009+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-durable-goods-orders-rise-less-than-expected-in-october/56955"
     }
   ]
 }
