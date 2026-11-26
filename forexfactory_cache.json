@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-26T01:33:13.749420+00:00",
+  "fetched_at": "2026-11-26T01:48:13.198695+00:00",
   "periods": {
     "week": [
       {
@@ -756,6 +756,19 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
+        "actual": ""
+      },
+      {
+        "title": "Euro Summit",
+        "country": "EUR",
+        "date": "2026-11-26T04:15:00-05:00",
+        "impact": "Low",
+        "forecast": "",
+        "previous": "",
+        "source": "ForexFactory",
+        "type": "calendar",
+        "link": null,
+        "time_label": "All Day",
         "actual": ""
       },
       {

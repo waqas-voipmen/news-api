@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-26T01:33:05.881224+00:00",
+  "fetched_at": "2026-11-26T01:48:05.734706+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Indonesia Stock Market Tipped To Open In The Red",
+      "description": "The Indonesia stock market on Wednesday ended the two-day winning streak in which it had collected almost 100 points or 1 percent. The Jakarta Composite Index now sits just beneath the 5,200-point plateau and it's likely to open to the downside again on Thursday.",
+      "date": "2026-11-26T00:34:05.730286+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indonesia-stock-market-tipped-to-open-in-the-red/56976"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/europe-shares-finish-under-water-on-wednesday/56963"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. New Home Sales Spike From Downwardly Revised Level In October",
-      "description": "New home sales in the U.S. skyrocketed from a downwardly revised level in the month of October, according to a report released by the Commerce Department on Wednesday. The Commerce Department said new home sales soared by 14.2 percent to an annual rate of 701,000 in October after plummeting by 9.7 percent to a revised rate of 614,000 in September.",
-      "date": "2026-11-25T16:28:08.083377+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-new-home-sales-spike-from-downwardly-revised-level-in-october/56962"
     }
   ]
 }
