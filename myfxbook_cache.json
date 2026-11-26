@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-11-26T00:18:06.143051+00:00",
+  "fetched_at": "2026-11-26T00:48:06.158889+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australia Private Capex Spikes 12.2% In Q3",
+      "description": "Private new capital expenditure in Australia was up a seasonally adjusted 12.2 percent on quarter in the third quarter of 2026, the Australian Bureau of Statistics said on Thursday - coming in at A$59.474 billion.",
+      "date": "2026-11-25T23:38:06.154421+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australia-private-capex-spikes-122-in-q3/56972"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Tech Shares May Weigh On Taiwan Stock Market",
+      "description": "The Taiwan stock market on Wednesday ended the two-day winning streak in which it had surged more than 4,100 points or 10.1 percent. The Taiwan Stock Exchange now sits just beneath the 39,200-point plateau and it's likely to see continued consolidation again on Thursday.",
+      "date": "2026-11-25T23:34:06.154701+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/tech-shares-may-weigh-on-taiwan-stock-market/56971"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/us-consumer-prices-rise-03-in-october-in-line-with-estimates/56959"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Jobless Claims Pull Back More Than Expected, Matching Multi-Decade Low",
-      "description": "The Labor Department released a report on Wednesday showing first-time claims for U.S. unemployment benefits fell by much more than expected in the week ended November 21st. The report said initial jobless claims dropped to 189,000, a decrease of 13,000 from the previous week's revised level of 202,000.  Economists had expected jobless claims to slip to 200,000.",
-      "date": "2026-11-25T15:23:07.082509+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-jobless-claims-pull-back-more-than-expected-matching-multi-decade-low/56958"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. GDP Surges Much More Than Previously Estimated In Q3",
-      "description": "A report released by the Commerce Department on Wednesday showed the U.S. economy grew by much more than previously estimated in the third quarter of 2026.",
-      "date": "2026-11-25T12:57:07.908821+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-gdp-surges-much-more-than-previously-estimated-in-q3/56956"
     }
   ]
 }
