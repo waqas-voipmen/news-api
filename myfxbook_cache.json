@@ -1,6 +1,30 @@
 {
-  "fetched_at": "2026-11-26T01:18:05.690532+00:00",
+  "fetched_at": "2026-11-26T01:33:05.881224+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Losing Streak May Continue For Hong Kong Stock Market",
+      "description": "The Hong Kong stock market has finished lower in seven straight sessions, sinking almost 1,350 points or 5.8 percent in that span. The Hang Seng now sits just beneath the 21,970-point plateau and it's likely to extend its losses again on Thursday.",
+      "date": "2026-11-26T00:19:05.877422+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/losing-streak-may-continue-for-hong-kong-stock-market/56975"
+    },
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australian Market Notably Higher",
+      "description": "The Australian market is trading notably higher on Thursday, reversing the losses in the previous session, following the mixed cues from Wall Street overnight. The benchmark S&P/ASX 200 is moving up to near the 8,750 level, with gains across most sectors led by mining, technology and energy stocks.",
+      "date": "2026-11-26T00:17:05.877792+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australian-market-notably-higher/56974"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -132,30 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/us-new-home-sales-spike-from-downwardly-revised-level-in-october/56962"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. GDP Surges Much More Than Previously Estimated In Q3",
-      "description": "A report released by the Commerce Department on Wednesday showed the U.S. economy grew by much more than previously estimated in the third quarter of 2026. The Commerce Department said gross domestic product shot up by 4.3 percent in the third quarter compared to the 3.4 percent jump previously estimated. Economists had expected the pace of growth to be upwardly revised to 3.6 percent.",
-      "date": "2026-11-25T12:57:07.908821+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-gdp-surges-much-more-than-previously-estimated-in-q3/56961"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "U.S. Durable Goods Orders Rise 0.2% In October, Less Than Expected",
-      "description": "New orders for U.S. manufactured durable goods increased by less than expected in the month of October, according to a report released by the Commerce Department on Wednesday. The Commerce Department said durable goods orders rose by 0.2 percent in October after surging by an upwardly revised 2.0 percent in September.",
-      "date": "2026-11-25T15:55:07.719169+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/us-durable-goods-orders-rise-02-in-october-less-than-expected/56960"
     }
   ]
 }
