@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-27T06:33:15.417145+00:00",
+  "fetched_at": "2026-11-27T14:37:32.107583+00:00",
   "periods": {
     "week": [
       {
@@ -854,11 +854,12 @@
         "date": "2026-11-27T02:45:00-05:00",
         "impact": "Low",
         "forecast": "0.1%",
-        "previous": "-0.5%",
+        "previous": "-0.9%",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.0%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "French Final Private Payrolls q/q",
@@ -870,7 +871,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-0.1%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "French Prelim CPI m/m",
@@ -882,7 +884,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-0.7%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "French Prelim GDP q/q",
@@ -894,7 +897,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-0.2%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Spanish Flash CPI y/y",
@@ -906,7 +910,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "4.1%",
+        "actual_src": "forexfactory"
       },
       {
         "title": "German Unemployment Change",
@@ -918,20 +923,21 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "9K",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Italian 10-y Bond Auction",
         "country": "EUR",
-        "date": "2026-11-27T05:33:00-05:00",
+        "date": "2026-11-27T05:05:00-05:00",
         "impact": "Low",
         "forecast": "",
         "previous": "4.49|1.6",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "time_label": "Tentative",
-        "actual": ""
+        "actual": "4.33|1.5",
+        "actual_src": "forexfactory"
       },
       {
         "title": "German Buba President Nagel Speaks",
@@ -951,11 +957,12 @@
         "date": "2026-11-27T08:30:00-05:00",
         "impact": "Low",
         "forecast": "9.5B",
-        "previous": "8.8B",
+        "previous": "6.1B",
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "4.5B",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Goods Trade Balance",
@@ -967,7 +974,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "-149.5B",
+        "actual_src": "forexfactory"
       },
       {
         "title": "Prelim Wholesale Inventories m/m",
@@ -979,7 +987,8 @@
         "source": "ForexFactory",
         "type": "calendar",
         "link": null,
-        "actual": ""
+        "actual": "0.9%",
+        "actual_src": "forexfactory"
       }
     ]
   }
