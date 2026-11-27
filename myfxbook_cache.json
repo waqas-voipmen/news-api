@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-27T05:48:05.461546+00:00",
+  "fetched_at": "2026-11-27T06:03:05.316677+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "European Shares Poised To Open Higher",
+      "description": "European stocks are set to open on a firm note on Friday despite long-term anxieties surrounding the AI trade, lingering Middle East tensions and expectations for higher-for-longer interest rates.",
+      "date": "2026-11-27T04:46:05.309773+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-shares-poised-to-open-higher/57018"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/german-gfk-consumer-sentiment-improves/56997"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "European Shares Rally As Tariff Fears Ease",
-      "description": "European stocks rose sharply on Thursday, with banks and technology stocks leading the surge despite concerns over the Trump administration's new tariff announcement and the outlook for AI trade.",
-      "date": "2026-11-26T08:22:11.675144+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-shares-rally-as-tariff-fears-ease/56996"
     }
   ]
 }
