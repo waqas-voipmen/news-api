@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-27T03:21:37.028296+00:00",
+  "fetched_at": "2026-11-27T03:33:05.820555+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "Asian Markets Trade Mostly Higher",
+      "description": "Asian stock markets are trading mostly higher on Friday, following the broadly positive cues from European markets and lack of cues from Wall Street overnight due to Thanksgiving holiday, as traders return to buy semiconductor and technology stocks on stabilized sentiment over AI trade following a sharp sell-off earlier in the week. They also stepped in to pick up recently beaten-down shares.",
+      "date": "2026-11-27T02:23:05.800805+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/asian-markets-trade-mostly-higher/57015"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/bank-of-korea-hikes-key-rate-by-25-bps-signals-further-tightening-ahead/56991"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "USD",
-      "title": "European Shares Likely To Open On Firm Note",
-      "description": "European stocks may open higher on Thursday, even as trading volumes are likely to remain thin amid the Thanksgiving holiday in the U.S.",
-      "date": "2026-11-26T04:39:11.676039+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/european-shares-likely-to-open-on-firm-note/56985"
     }
   ]
 }
