@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-27T03:33:05.820555+00:00",
+  "fetched_at": "2026-11-27T03:48:05.321102+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australian Market Extends Early Gains In Mid-market",
+      "description": "The Australian stock market is extending its early gains in mid-market moves on Friday after opening slightly in the red, adding to the gains in the previous session, following the positive cues from European markets and lack of cues from Wall Street overnight. The benchmark S&P/ASX 200 is moving above the 8,800 level, with gains across most sectors led by mining, energy and technology stocks.",
+      "date": "2026-11-27T02:32:05.308485+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australian-market-extends-early-gains-in-mid-market/57016"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/asian-shares-advance-led-by-ai-stocks/56995"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Bank Of Korea Hikes Key Rate By 25 Bps; Signals Further Tightening Ahead",
-      "description": "The Bank of Korea raised its key interest rate by a quarter-point and hinted at further tightening as inflation is expected to remain above target for considerable time amid strong semiconductor exports underpinning economic growth. The seven-member monetary policy board decided to raise the base rate by 25 basis points to 3.25 percent.",
-      "date": "2026-11-26T06:46:11.675664+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/bank-of-korea-hikes-key-rate-by-25-bps-signals-further-tightening-ahead/56991"
     }
   ]
 }
