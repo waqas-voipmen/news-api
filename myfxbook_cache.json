@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-27T22:03:04.738465+00:00",
+  "fetched_at": "2026-11-27T22:18:04.750617+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "USD",
+      "title": "U.S. Dollar Advances Amid Increasing Expectations Of Fed Rate Hike In December",
+      "description": "The U.S. Dollar value moved higher on Friday as the increasing bets on a quarter-point rate hike in the U.S. in December overshadowed the easing of crude oil supply concerns as U.S. persists in diplomatic route for solving the U.S.-Iran crisis.",
+      "date": "2026-11-27T21:01:04.747032+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/us-dollar-advances-amid-increasing-expectations-of-fed-rate-hike-in-december/57041"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/european-shares-poised-to-open-higher/57018"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Indian Shares Modestly Lower In Cautious Trade",
-      "description": "Indian shares were modestly lower in early trade on Friday as global technology stocks stabilized after recent string of losses and a strike on an oil refinery in Saudi Arabia's southern Jazan region heightened concerns over supply disruptions from the Middle East.",
-      "date": "2026-11-27T03:41:13.169776+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-modestly-lower-in-cautious-trade/57017"
     }
   ]
 }
