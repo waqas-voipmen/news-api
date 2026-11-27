@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-27T01:03:06.559361+00:00",
+  "fetched_at": "2026-11-27T01:18:07.302150+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "AUD",
+      "title": "Australian Market Modestly Higher",
+      "description": "The Australian stock market is trading modestly higher on Friday after opening slightly in the red, adding to the gains in the previous session, following the positive cues from European markets and lack of cues from Wall Street overnight. The benchmark S&P/ASX 200 is moving up to near the 8,800 level, with gains in iron ore miners, energy and technology stocks.",
+      "date": "2026-11-27T00:11:07.294592+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/australian-market-modestly-higher/57012"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/australian-market-extends-early-gains-in-mid-market/56981"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "JPY",
-      "title": "Asian Markets Trade Mostly Higher",
-      "description": "Asian markets are trading mostly higher on Thursday, following the mixed cues from Wall Street overnight, with Japan, Taiwan and Hong Kong leading the rebound as some traders indulged in picking up stocks at a bargain following the recent AI sector-led selloff in the markets . However, lingering concerns over the sustainability of AI trade continued to weigh on market sentiment.",
-      "date": "2026-11-26T02:17:11.676752+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/asian-markets-trade-mostly-higher/56980"
     }
   ]
 }
