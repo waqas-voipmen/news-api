@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-27T01:33:10.034301+00:00",
+  "fetched_at": "2026-11-27T01:48:10.210372+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "JPY",
+      "title": "Japanese Market Notably Higher",
+      "description": "The Japanese market is notably higher on Friday, extending the gains in the previous session, following the positive cues from European markets and lack of cues from Wall Street overnight. The Nikkei 225 is moving up to near the 57,750 level, with gains in exporters, automakers and technology stocks partially offset by weakness in index heavyweights.",
+      "date": "2026-11-27T00:39:10.199610+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/japanese-market-notably-higher/57013"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indian-shares-little-changed-in-cautious-trade/56983"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australian Market Extends Early Gains In Mid-market",
-      "description": "The Australian market is extending its early gains in mid-market moves on Thursday, reversing the losses in the previous session, following the mixed cues from Wall Street overnight. The benchmark S&P/ASX 200 is moving above the 8,750 level, with gains across most sectors led by mining, technology and energy stocks.",
-      "date": "2026-11-26T02:23:11.676561+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-market-extends-early-gains-in-mid-market/56981"
     }
   ]
 }
