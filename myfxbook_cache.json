@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-27T02:18:05.266473+00:00",
+  "fetched_at": "2026-11-27T02:33:06.087770+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "WTI",
+      "title": "Indian Shares Seen Lower After Houthi Attack On Key Saudi Refinery",
+      "description": "Indian shares look set to open lower on Friday as investors react a pause in AI stock sell-off and rising oil prices in the wake of growing attacks on Saudi Arabia's energy infrastructure.",
+      "date": "2026-11-27T01:31:06.079626+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/indian-shares-seen-lower-after-houthi-attack-on-key-saudi-refinery/57014"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/european-shares-likely-to-open-on-firm-note/56985"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "General",
-      "title": "Indian Shares Little Changed In Cautious Trade",
-      "description": "Indian shares were flat to slightly higher in cautious trade on Thursday after rising sharply in the previous session.",
-      "date": "2026-11-26T03:18:11.676309+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/indian-shares-little-changed-in-cautious-trade/56983"
     }
   ]
 }
