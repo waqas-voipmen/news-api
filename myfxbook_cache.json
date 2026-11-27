@@ -1,6 +1,18 @@
 {
-  "fetched_at": "2026-11-27T18:03:07.597727+00:00",
+  "fetched_at": "2026-11-27T18:18:04.977180+00:00",
   "events": [
+    {
+      "source": "Myfxbook",
+      "type": "news",
+      "country": "General",
+      "title": "European Markets Finish Higher, Extend Thursday's Gains",
+      "description": "The major European markets found additional support on Friday, extending gains from the previous session thanks to easing concerns over the outlook for artificial intelligence stocks.",
+      "date": "2026-11-27T17:12:04.970365+00:00",
+      "impact": "News",
+      "forecast": "",
+      "previous": "",
+      "link": "https://www.myfxbook.com/news/european-markets-finish-higher-extend-thursdays-gains/57040"
+    },
     {
       "source": "Myfxbook",
       "type": "news",
@@ -144,18 +156,6 @@
       "forecast": "",
       "previous": "",
       "link": "https://www.myfxbook.com/news/indian-shares-modestly-lower-in-cautious-trade/57017"
-    },
-    {
-      "source": "Myfxbook",
-      "type": "news",
-      "country": "AUD",
-      "title": "Australian Market Extends Early Gains In Mid-market",
-      "description": "The Australian stock market is extending its early gains in mid-market moves on Friday after opening slightly in the red, adding to the gains in the previous session, following the positive cues from European markets and lack of cues from Wall Street overnight. The benchmark S&P/ASX 200 is moving above the 8,800 level, with gains across most sectors led by mining, energy and technology stocks.",
-      "date": "2026-11-27T02:32:05.308485+00:00",
-      "impact": "News",
-      "forecast": "",
-      "previous": "",
-      "link": "https://www.myfxbook.com/news/australian-market-extends-early-gains-in-mid-market/57016"
     }
   ]
 }
